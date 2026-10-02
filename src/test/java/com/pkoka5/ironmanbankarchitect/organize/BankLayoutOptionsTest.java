@@ -539,4 +539,17 @@ public class BankLayoutOptionsTest
 		return new BankPreviewItem(new CatalogItem(id, name, ItemCategory.POTION,
 			"potion", Collections.emptySet(), null), 1);
 	}
+
+	@Test
+	public void familyOrderingUnitesSeedCatalogAndRegistryPotionDoses()
+	{
+		BankSnapshot bank = new BankSnapshot(Arrays.asList(new BankItemSnapshot(2436, 1, 0),
+			new BankItemSnapshot(145, 1, 1), new BankItemSnapshot(147, 1, 2), new BankItemSnapshot(149, 1, 3)));
+		BankLayoutOptions options = new BankLayoutOptions(true, true, false,
+			Collections.emptyMap(), GearLayout.GRID_STYLES, PotionDoseOrder.BY_FAMILY,
+			RuneOrder.ALPHABETICAL, TeleportOrder.ALPHABETICAL);
+		int tab = BankLayoutPlan.defaultFor(BankPresets.IRONMAN).destinationOf("potions");
+		assertEquals(Arrays.asList(2436, 145, 147, 149), idsOn(build(bank, options), tab));
+	}
+
 }

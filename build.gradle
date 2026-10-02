@@ -9,6 +9,9 @@ def runeLiteVersion = 'latest.release'
 def pluginMainClass = 'com.pkoka5.ironmanbankarchitect.IronmanBankArchitectPluginTest'
 
 java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(11)
+	}
 	sourceCompatibility = JavaVersion.VERSION_11
 	targetCompatibility = JavaVersion.VERSION_11
 }
@@ -18,6 +21,10 @@ dependencies {
 
 	testImplementation 'junit:junit:4.13.2'
 	testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+}
+
+tasks.withType(JavaExec).configureEach {
+	javaLauncher = javaToolchains.launcherFor(java.toolchain)
 }
 
 tasks.withType(JavaCompile).configureEach {

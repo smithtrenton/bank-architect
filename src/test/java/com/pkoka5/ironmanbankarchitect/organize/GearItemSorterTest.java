@@ -456,4 +456,22 @@ public class GearItemSorterTest
 			.map(BankPreviewItem::getDisplayName)
 			.collect(Collectors.toList());
 	}
+
+	@Test
+	public void mergedGearCompletesThePartialRowBeforeItsStyleColumns()
+	{
+		List<BankPreviewItem> items = new java.util.ArrayList<>(Arrays.asList(
+			item(960001, "Rune full helm"), item(960002, "Black d'hide coif"), item(960003, "Mystic hat")));
+		for (int index = 0; index < 16; index++) items.add(item(960100 + index, "Spare shield " + index));
+		for (int column = 0; column < 8; column++)
+		{
+			GearItemSorter.GearLayout layout = GearItemSorter.plan(items, GearStatsSource.NONE, column);
+			List<String> rows = names(layout.getSetupRows());
+			assertEquals(0, (column + rows.indexOf("Rune full helm")) % 8);
+			assertEquals(1, (column + rows.indexOf("Black d'hide coif")) % 8);
+			assertEquals(2, (column + rows.indexOf("Mystic hat")) % 8);
+			assertEquals(items.size(), rows.size() + layout.getTail().size());
+		}
+	}
+
 }

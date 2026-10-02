@@ -84,4 +84,22 @@ public class RuneSemanticRuleSetTest
 		}
 		return Arrays.asList(target);
 	}
+
+	@Test
+	public void offsetRuneMatricesFitRealRowsWithoutColumnZeroLocks()
+	{
+		List<Integer> ids = new ArrayList<>(Arrays.asList(556,555,557,554,558,562,560,565));
+		for (int index = 0; index < 16; index++) ids.add(980100 + index);
+		List<LayoutEntry> entries = new ArrayList<>();
+		for (int index = 0; index < ids.size(); index++) entries.add(entry(ids.get(index), index));
+		for (int column = 0; column < 8; column++)
+		{
+			LayoutResult result = new SemanticBlockLayoutEngine().plan(RuneSemanticRuleSet.forEntries(entries, column), ids);
+			assertTrue(result.getConflicts().toString(), result.isSuccess());
+			List<Integer> target = targetOrder(result);
+			assertEquals((column + target.indexOf(556)) / 8, (column + target.indexOf(554)) / 8);
+			assertEquals(target.indexOf(556) + 8, target.indexOf(558));
+		}
+	}
+
 }

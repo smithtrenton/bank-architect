@@ -289,4 +289,23 @@ public class ToolOutfitSemanticRuleSetTest
 		}
 		return Arrays.asList(ids);
 	}
+
+	@Test
+	public void offsetOutfitsKeepVerticalColumnsWithoutLockingThePartialRow()
+	{
+		List<Integer> outfit = Arrays.asList(13646,13643,13641,13645);
+		List<Integer> ids = new ArrayList<>(outfit);
+		for (int index = 0; index < 32; index++) ids.add(980200 + index);
+		List<LayoutEntry> entries = new ArrayList<>();
+		for (int index = 0; index < ids.size(); index++)
+			entries.add(LayoutEntry.of(new BankPreviewItem(new CatalogItem(ids.get(index), "Item " + index,
+				ItemCategory.TOOL, "tool", Collections.emptySet(), null), 1), index));
+		for (int column = 0; column < 8; column++)
+		{
+			LayoutResult result = new SemanticBlockLayoutEngine().plan(ToolOutfitSemanticRuleSet.forEntries(entries, column), ids);
+			assertTrue(result.getConflicts().toString(), result.isSuccess());
+			assertVertical(result, outfit);
+		}
+	}
+
 }

@@ -1095,4 +1095,20 @@ public class IronmanBankArchitectPanelTest
 		}
 		return null;
 	}
+
+	@Test
+	public void configurationReloadRefreshesAnAlreadyOpenLayoutEditor() throws Exception
+	{
+		SwingUtilities.invokeAndWait(() -> {
+			RecordingLayoutModel model = new RecordingLayoutModel();
+			IronmanBankArchitectPanel panel = panelWith(model);
+			panel.getTabOrderButton().doClick();
+			model.stored = model.stored.withTagAt("food", 8);
+			panel.reloadConfiguration();
+			assertEquals(model.stored.getDestinations(), panel.getLayoutPlan().getDestinations());
+			assertEquals(0, model.saves);
+			panel.shutdown();
+		});
+	}
+
 }

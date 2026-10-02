@@ -325,4 +325,26 @@ public class MainQuickAccessSemanticRuleSetTest
 			Collections.emptySet(), null), 1);
 		return LayoutEntry.of(item, id);
 	}
+
+	@Test
+	public void mergedMainKeepsRuneRowsAndGracefulInTheirPhysicalColumns()
+	{
+		List<LayoutEntry> entries = new ArrayList<>();
+		entries.add(entry(995, "Coins", ItemCategory.CURRENCY, "currency"));
+		for (int id : new int[]{11850,11854,11856,11858,11860,11852})
+			entries.add(entry(id, gracefulPieceName(id), ItemCategory.TOOL, "skilling-outfit"));
+		for (int id : new int[]{556,557,555,554}) entries.add(entry(id, "Rune " + id, ItemCategory.RUNE, "rune"));
+		for (int index = 0; index < 40; index++) entries.add(entry(950000 + index, "Filler " + index, ItemCategory.CURRENCY, "currency"));
+		List<Integer> fallback = entries.stream().map(entry -> entry.getItem().getItemId()).collect(Collectors.toList());
+		for (int column = 0; column < 8; column++)
+		{
+			LayoutResult result = new SemanticBlockLayoutEngine().plan(
+				MainQuickAccessSemanticRuleSet.forEntries(entries, column), fallback);
+			assertTrue(result.getConflicts().toString(), result.isSuccess());
+			assertEquals(0, (column + targetFor(result, 556)) % 8);
+			assertEquals(7, (column + targetFor(result, 11850)) % 8);
+			assertEquals(8, targetFor(result, 11854) - targetFor(result, 11850));
+		}
+	}
+
 }

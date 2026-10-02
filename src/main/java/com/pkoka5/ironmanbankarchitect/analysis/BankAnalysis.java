@@ -86,7 +86,10 @@ public final class BankAnalysis implements AutoCloseable
 				return;
 			}
 
-			analysisExecutor.execute(() -> analyzeBank(requestGeneration, analysisRequest.get()));
+			if (isLatestRequest(requestGeneration))
+			{
+				analysisExecutor.execute(() -> analyzeBank(requestGeneration, analysisRequest.get()));
+			}
 		}
 		catch (RuntimeException ex)
 		{
@@ -96,11 +99,13 @@ public final class BankAnalysis implements AutoCloseable
 
 	private void analyzeBank(long requestGeneration, BankAnalysisRequest analysisRequest)
 	{
+		if (!isLatestRequest(requestGeneration)) return;
 		try
 		{
 			itemCatalog.requireAvailable();
 			BankCatalogSummary summary = BankCatalogSummarizer.summarize(
 				analysisRequest.bankSnapshot(), itemCatalog, bankPreset);
+			if (!isLatestRequest(requestGeneration)) return;
 			BankOrganizationPreview preview = BankOrganizationPreviewBuilder.build(
 				analysisRequest.bankSnapshot(), itemCatalog, bankPreset,
 				analysisRequest::gearStats, analysisRequest::alchValue,

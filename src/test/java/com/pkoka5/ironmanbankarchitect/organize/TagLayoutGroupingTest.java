@@ -138,4 +138,37 @@ public class TagLayoutGroupingTest
 
 		return count;
 	}
+
+	@Test
+	public void mergedResourcesUseTheirPhysicalStartingColumn()
+	{
+		List<Integer> ores = Arrays.asList(440, 442, 444, 447, 449, 451);
+		List<Integer> bars = Arrays.asList(2351, 2355, 2357, 2359, 2361, 2363);
+		for (int prefix = 0; prefix < 8; prefix++)
+		{
+			List<BankItemSnapshot> entries = new ArrayList<>();
+			for (int index = 0; index < prefix; index++) entries.add(new BankItemSnapshot(900000 + index, 1, entries.size()));
+			for (int id : new int[]{440,442,444,447,449,451,2351,2355,2357,2359,2361,2363,
+				436,438,453,2349,2353,21543,13573,21545,13421,21622})
+				entries.add(new BankItemSnapshot(id, 1, entries.size()));
+			BankLayoutPlan plan = BankLayoutPlan.defaultFor(BankPresets.IRONMAN);
+			int tab = plan.destinationOf("raw-resources");
+			plan = plan.withTagAt("currency", tab).withTagShifted("currency", -3);
+			com.pkoka5.ironmanbankarchitect.catalog.ItemCatalog catalog = id -> id >= 900000
+				? java.util.Optional.of(new com.pkoka5.ironmanbankarchitect.catalog.CatalogItem(id,
+					"Currency " + id, com.pkoka5.ironmanbankarchitect.catalog.ItemCategory.CURRENCY,
+					"currency", java.util.Collections.emptySet(), null))
+				: CompositeItemCatalog.DEFAULT.findById(id);
+			BankOrganizationPreview preview = BankOrganizationPreviewBuilder.build(new BankSnapshot(entries),
+				catalog, BankPresets.IRONMAN, GearStatsSource.NONE, ItemValueSource.NONE,
+				CategoryOverrideSource.NONE, plan);
+			List<Integer> ids = itemIds(preview, tab);
+			assertEquals(entries.size(), ids.size());
+			assertEquals("ore row at offset " + prefix, ids.indexOf(440) / 8, ids.indexOf(451) / 8);
+			assertEquals("bar row at offset " + prefix, ids.indexOf(2351) / 8, ids.indexOf(2363) / 8);
+			for (int tier = 0; tier < ores.size(); tier++)
+				assertEquals(ids.indexOf(ores.get(tier)) + 8, ids.indexOf(bars.get(tier)));
+		}
+	}
+
 }

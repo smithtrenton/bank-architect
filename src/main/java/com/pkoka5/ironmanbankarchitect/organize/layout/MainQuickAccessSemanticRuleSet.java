@@ -28,6 +28,11 @@ public final class MainQuickAccessSemanticRuleSet
 
 	public static LayoutRequest forEntries(List<LayoutEntry> entries)
 	{
+		return forEntries(entries, 0);
+	}
+
+	public static LayoutRequest forEntries(List<LayoutEntry> entries, int gridStartColumn)
+	{
 		Objects.requireNonNull(entries, "entries");
 		List<LayoutEntry> nativeEntries = new ArrayList<>();
 		List<LayoutEntry> reassigned = new ArrayList<>();
@@ -39,12 +44,12 @@ public final class MainQuickAccessSemanticRuleSet
 		{
 			// Retagged runes/tools must not be pulled back into their old
 			// geometry. They remain real entries placed by the effective order.
-			LayoutRequest nativeRequest = forEntries(nativeEntries);
+			LayoutRequest nativeRequest = forEntries(nativeEntries, gridStartColumn);
 			List<LayoutEntry> combined = new ArrayList<>(nativeRequest.getEntries());
 			combined.addAll(reassigned);
-			return new LayoutRequest(combined, nativeRequest.getRules());
+			return new LayoutRequest(combined, nativeRequest.getRules()).withGridStartColumn(gridStartColumn);
 		}
-		List<LayoutEntry> anchored = anchorReviewedTargets(entries);
+		List<LayoutEntry> anchored = anchorReviewedTargets(entries, gridStartColumn);
 		List<SemanticRule> rules = new ArrayList<>(
 			AchievementDiarySemanticRuleSet.forEntries(anchored).getRules());
 		SemanticRule graceful = gracefulRule(anchored);
@@ -58,10 +63,10 @@ public final class MainQuickAccessSemanticRuleSet
 			rules.add(quickTools);
 		}
 		rules.addAll(RuneSemanticRuleSet.forMainEntries(anchored).getRules());
-		return new LayoutRequest(anchored, rules);
+		return new LayoutRequest(anchored, rules).withGridStartColumn(gridStartColumn);
 	}
 
-	private static List<LayoutEntry> anchorReviewedTargets(List<LayoutEntry> entries)
+	private static List<LayoutEntry> anchorReviewedTargets(List<LayoutEntry> entries, int gridStartColumn)
 	{
 		for (LayoutEntry entry : entries)
 		{
@@ -71,14 +76,18 @@ public final class MainQuickAccessSemanticRuleSet
 			}
 		}
 		int ownedGraceful = gracefulColumn(entries).size();
-		boolean anchorGraceful = ownedGraceful >= 2
-			&& GRACEFUL_COLUMN + (ownedGraceful - 1) * SemanticRule.MAX_WIDTH < entries.size();
 		boolean hasCoins = contains(entries, 995);
 		boolean hasQuickTools = !presentQuickTools(entries).isEmpty();
-		int runeTarget = hasCoins || hasQuickTools ? RUNE_BLOCK_SECOND_ROW : 0;
+		int runeTarget = hasCoins || hasQuickTools || gridStartColumn != 0
+			? RUNE_BLOCK_SECOND_ROW - gridStartColumn : 0;
 		Map<Integer, Integer> runeTargets = runeTargets(entries, runeTarget);
-		Map<Integer, Integer> gracefulTargets = gracefulTargets(entries, anchorGraceful);
-		Map<Integer, Integer> quickToolTargets = quickToolTargets(entries, hasCoins ? 1 : 0);
+		Map<Integer, Integer> quickToolTargets = quickToolTargets(entries, hasCoins ? 1 : 0, gridStartColumn);
+		int gracefulStart = GRACEFUL_COLUMN - gridStartColumn;
+		if ((hasCoins && gracefulStart == 0) || quickToolTargets.containsValue(gracefulStart))
+			gracefulStart += SemanticRule.MAX_WIDTH;
+		boolean anchorGraceful = ownedGraceful >= 2
+			&& gracefulStart + (ownedGraceful - 1) * SemanticRule.MAX_WIDTH < entries.size();
+		Map<Integer, Integer> gracefulTargets = gracefulTargets(entries, anchorGraceful, gracefulStart);
 
 		List<LayoutEntry> anchored = new ArrayList<>(entries.size());
 		for (LayoutEntry entry : entries)
@@ -108,14 +117,14 @@ public final class MainQuickAccessSemanticRuleSet
 	}
 
 	private static Map<Integer, Integer> gracefulTargets(List<LayoutEntry> entries,
-		boolean anchorGraceful)
+		boolean anchorGraceful, int startTarget)
 	{
 		Map<Integer, Integer> targets = new LinkedHashMap<>();
 		if (!anchorGraceful) return targets;
 		int row = 0;
 		for (Integer itemId : gracefulColumn(entries))
 		{
-			targets.put(itemId, GRACEFUL_COLUMN + row++ * 8);
+			targets.put(itemId, startTarget + row++ * 8);
 		}
 		return targets;
 	}
@@ -139,11 +148,12 @@ public final class MainQuickAccessSemanticRuleSet
 		return targets;
 	}
 
-	private static Map<Integer, Integer> quickToolTargets(List<LayoutEntry> entries, int startTarget)
+	private static Map<Integer, Integer> quickToolTargets(List<LayoutEntry> entries, int startTarget,
+		int gridStartColumn)
 	{
 		Map<Integer, Integer> targets = new LinkedHashMap<>();
 		List<Integer> tools = presentQuickTools(entries);
-		if (startTarget % 8 + tools.size() > 8 || startTarget + tools.size() > entries.size())
+		if ((gridStartColumn + startTarget) % 8 + tools.size() > 8 || startTarget + tools.size() > entries.size())
 		{
 			return targets;
 		}

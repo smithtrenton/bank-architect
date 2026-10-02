@@ -339,4 +339,26 @@ public class BankAnalysisTest
 			pending.remove(pending.size() - 1).run();
 		}
 	}
+
+	@Test
+	public void supersededAndClosedWorkersSkipCatalogComputation()
+	{
+		ControlledExecutor workers = new ControlledExecutor();
+		AtomicInteger reads = new AtomicInteger();
+		ItemCatalog catalog = id -> {
+			reads.incrementAndGet();
+			return StaticItemCatalog.INSTANCE.findById(id);
+		};
+		List<BankAnalysisStatus> statuses = new ArrayList<>();
+		BankAnalysis analysis = new BankAnalysis(Runnable::run, workers,
+			requests(request(209), request(5297)), statuses::add, catalog, BankPresets.IRONMAN);
+		analysis.analyzeBank();
+		analysis.analyzeBank();
+		workers.runNext();
+		assertEquals(0, reads.get());
+		analysis.close();
+		workers.runNext();
+		assertEquals(0, reads.get());
+	}
+
 }

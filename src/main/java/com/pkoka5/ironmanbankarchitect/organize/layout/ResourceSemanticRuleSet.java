@@ -111,6 +111,11 @@ public final class ResourceSemanticRuleSet
 	 */
 	public static LayoutRequest forZoneEntries(List<LayoutEntry> entries)
 	{
+		return forZoneEntries(entries, 0);
+	}
+
+	public static LayoutRequest forZoneEntries(List<LayoutEntry> entries, int gridStartColumn)
+	{
 		Objects.requireNonNull(entries, "entries");
 		validateRows(DATA.get().metalRows);
 		validateMetadata(Collections.singletonList(DATA.get().opalFamily));
@@ -118,8 +123,10 @@ public final class ResourceSemanticRuleSet
 		validateRows(DATA.get().woodRows);
 		validateRows(DATA.get().craftingRows);
 		validateRows(DATA.get().fletchingRows);
-		return new LayoutRequest(anchoredEntries(entries),
-			decoupleRowGroupMatrices(rulesForEntries(entries)));
+		// The column-zero mining anchor would prevent a wide matrix from fitting
+		// when a preceding category or zone leaves a partial physical row.
+		return new LayoutRequest(gridStartColumn == 0 ? anchoredEntries(entries) : entries,
+			decoupleRowGroupMatrices(rulesForEntries(entries))).withGridStartColumn(gridStartColumn);
 	}
 
 	private static List<SemanticRule> decoupleRowGroupMatrices(List<SemanticRule> rules)

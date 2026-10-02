@@ -21,7 +21,8 @@ public final class BlueprintOrderProfiles
 			try
 			{
 				String name = new String(Base64.getUrlDecoder().decode(entry[0]), StandardCharsets.UTF_8);
-				result.values.put(name, entry[1]);
+				if (name.isEmpty()) result.values.putIfAbsent(BankLayoutProfiles.DEFAULT_NAME, entry[1]);
+				else result.values.put(name, entry[1]);
 			}
 			catch (IllegalArgumentException malformed) { /* Keep the other profiles. */ }
 		}
@@ -30,16 +31,22 @@ public final class BlueprintOrderProfiles
 
 	public BlueprintItemOrders forProfile(String name)
 	{
-		return BlueprintItemOrders.parse(values.get(name));
+		return BlueprintItemOrders.parse(values.get(profileKey(name)));
 	}
 
 	public void put(String name, BlueprintItemOrders orders)
 	{
+		name = profileKey(name);
 		if (orders.serialize().isEmpty()) values.remove(name);
 		else values.put(name, orders.serialize());
 	}
 
-	public void remove(String name) { values.remove(name); }
+	public void remove(String name) { values.remove(profileKey(name)); }
+
+	private static String profileKey(String name)
+	{
+		return name == null || name.isEmpty() ? BankLayoutProfiles.DEFAULT_NAME : name;
+	}
 
 	public String serialize()
 	{

@@ -138,22 +138,28 @@ public final class BankLayoutProfiles
 	/** A name not yet taken, so an import never overwrites an existing layout. */
 	public String freeName(String wanted)
 	{
+		return freeName(wanted, names());
+	}
+
+	/** Uses the same bounded-name policy for sidebar imports and saved profiles. */
+	public static String freeName(String wanted, List<String> taken)
+	{
 		String cleaned = BankLayoutShareCode.sanitize(wanted);
-		if (!plansByName.containsKey(cleaned))
+		if (!taken.contains(cleaned))
 		{
 			return cleaned;
 		}
 
-		for (int suffix = 2; suffix < MAX_PROFILES + 2; suffix++)
+		for (int suffix = 2; ; suffix++)
 		{
-			String candidate = cleaned + " " + suffix;
-			if (!plansByName.containsKey(candidate))
+			String ending = " " + suffix;
+			int prefixLength = Math.min(cleaned.length(), BankLayoutShareCode.MAX_NAME_LENGTH - ending.length());
+			String candidate = cleaned.substring(0, prefixLength).trim() + ending;
+			if (!taken.contains(candidate))
 			{
 				return candidate;
 			}
 		}
-
-		return cleaned + " " + System.currentTimeMillis();
 	}
 
 	public String serialize()

@@ -142,6 +142,11 @@ final class GearItemSorter
 
 	static GearLayout plan(List<BankPreviewItem> items, GearStatsSource gearStats)
 	{
+		return plan(items, gearStats, 0);
+	}
+
+	static GearLayout plan(List<BankPreviewItem> items, GearStatsSource gearStats, int gridStartColumn)
+	{
 		Map<String, List<BankPreviewItem>> setCandidates = new LinkedHashMap<>();
 		for (BankPreviewItem item : items)
 		{
@@ -178,6 +183,23 @@ final class GearItemSorter
 		Set<Integer> reservedPrimaryIds = reservePrimaryItems(setCandidates);
 		Set<Integer> protectedVerticalSetIds = GearSetSemanticRuleSet.presentFamilyItemIds(items);
 		List<BankPreviewItem> fillerOrder = remainingSorted(items, new LinkedHashSet<>(), gearStats);
+
+		if (gridStartColumn != 0)
+		{
+			int prefixSize = GRID_COLUMNS - gridStartColumn;
+			if (availableFillerCount(fillerOrder, usedItemIds, reservedPrimaryIds,
+				protectedVerticalSetIds, gearStats) < prefixSize)
+			{
+				return new GearLayout(Collections.emptyList(), fillerOrder);
+			}
+			for (int index = 0; index < prefixSize; index++)
+			{
+				BankPreviewItem filler = takeFirstFiller(fillerOrder, usedItemIds,
+					reservedPrimaryIds, protectedVerticalSetIds, gearStats);
+				usedItemIds.add(filler.getItemId());
+				laidOut.add(filler);
+			}
+		}
 
 		for (int[] setRow : SET_ROWS)
 		{

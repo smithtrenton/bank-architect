@@ -51,10 +51,10 @@ public class BankLayoutSharingTest
 		BankLayoutPlan plan = BankLayoutPlan.defaultFor(PRESET);
 
 		Optional<BankLayoutShareCode> decoded =
-			BankLayoutShareCode.decode(BankLayoutShareCode.encode("od~d|na+me", plan));
+			BankLayoutShareCode.decode(BankLayoutShareCode.encode("od~d|na+me;boss", plan));
 
 		assertTrue(decoded.isPresent());
-		assertEquals("od d na me", decoded.get().getName());
+		assertEquals("od d na me boss", decoded.get().getName());
 	}
 
 	@Test
@@ -140,4 +140,31 @@ public class BankLayoutSharingTest
 
 		assertTrue(profiles.isDefaultActive());
 	}
+
+	@Test
+	public void uniqueImportNamesReserveRoomForTheirSuffix()
+	{
+		String name = "1234567890123456789012345678901234567890";
+		BankLayoutProfiles profiles = BankLayoutProfiles.parse("", "").withProfile(name, "original");
+		for (int index = 2; index <= 12; index++)
+		{
+			String free = profiles.freeName(name);
+			assertTrue(free.length() <= 40);
+			assertFalse(profiles.names().contains(free));
+			profiles = profiles.withProfile(free, "imported " + index);
+		}
+		profiles = BankLayoutProfiles.parse(profiles.serialize(), profiles.getActiveName());
+		assertEquals("original", profiles.planFor(name));
+		assertEquals(13, profiles.names().size());
+	}
+
+	@Test
+	public void storedNamesUseTheSameSeparatorPolicyAsSharedNames()
+	{
+		BankLayoutProfiles profiles = BankLayoutProfiles.parse("", "").withProfile("Boss;Raid", "gear|food");
+		BankLayoutProfiles loaded = BankLayoutProfiles.parse(profiles.serialize(), profiles.getActiveName());
+		assertEquals("Boss Raid", loaded.getActiveName());
+		assertEquals("gear|food", loaded.activePlan());
+	}
+
 }

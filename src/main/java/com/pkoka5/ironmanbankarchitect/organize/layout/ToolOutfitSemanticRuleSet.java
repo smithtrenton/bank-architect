@@ -72,8 +72,13 @@ public final class ToolOutfitSemanticRuleSet
 
 	public static LayoutRequest forEntries(List<LayoutEntry> entries)
 	{
+		return forEntries(entries, 0);
+	}
+
+	public static LayoutRequest forEntries(List<LayoutEntry> entries, int gridStartColumn)
+	{
 		Objects.requireNonNull(entries, "entries");
-		List<LayoutEntry> anchored = anchoredEntries(entries);
+		List<LayoutEntry> anchored = gridStartColumn == 0 ? anchoredEntries(entries) : entries;
 		List<SemanticRule> rules = new ArrayList<>();
 		SemanticRule outfitRule = buildOutfitRule(anchored);
 		if (outfitRule != null)
@@ -85,7 +90,7 @@ public final class ToolOutfitSemanticRuleSet
 		{
 			rules.add(skillRuns);
 		}
-		return new LayoutRequest(anchored, rules);
+		return new LayoutRequest(anchored, rules).withGridStartColumn(gridStartColumn);
 	}
 
 	private static List<LayoutEntry> anchoredEntries(List<LayoutEntry> entries)

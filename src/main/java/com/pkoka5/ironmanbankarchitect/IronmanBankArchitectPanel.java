@@ -494,6 +494,13 @@ final class IronmanBankArchitectPanel extends PluginPanel
 		repaint();
 	}
 
+	/** Reloads the working plan after RuneLite switches its configuration profile. */
+	void reloadConfiguration()
+	{
+		layoutPlan = bankLayoutModel.plan().completedFor(bankLayoutModel.preset());
+		renderLayoutEditor();
+		refreshControls();
+	}
 	void shutdown()
 	{
 		statusTimer.stop();
@@ -1264,22 +1271,7 @@ final class IronmanBankArchitectPanel extends PluginPanel
 	/** A name no saved layout is using yet. */
 	private String freeProfileName(String wanted)
 	{
-		List<String> taken = bankLayoutModel.profileNames();
-		if (!taken.contains(wanted))
-		{
-			return wanted;
-		}
-
-		for (int suffix = 2; suffix < taken.size() + 3; suffix++)
-		{
-			String candidate = wanted + " " + suffix;
-			if (!taken.contains(candidate))
-			{
-				return candidate;
-			}
-		}
-
-		return wanted + " copy";
+		return BankLayoutProfiles.freeName(wanted, bankLayoutModel.profileNames());
 	}
 
 	private String fallbackName()

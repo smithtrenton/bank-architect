@@ -147,4 +147,28 @@ public class BlueprintItemOrdersTest
 		return preview.getCategories().get(tab).getItems().stream().map(BankPreviewItem::getItemId)
 			.collect(Collectors.toList());
 	}
+
+	@Test public void initialDefaultAliasLoadsLegacyOrdersAndWritesCanonicalNames()
+	{
+		BlueprintOrderProfiles profiles = BlueprintOrderProfiles.parse("~v1|0:2,1");
+		assertTrue(profiles.forProfile(BankLayoutProfiles.DEFAULT_NAME).hasTab(0));
+		assertEquals(Arrays.asList(2, 1), ids(profiles.forProfile("").apply(preview(1, 2)), 0));
+		profiles = BlueprintOrderProfiles.parse(profiles.serialize());
+		assertTrue(profiles.forProfile(BankLayoutProfiles.DEFAULT_NAME).hasTab(0));
+		profiles.remove("");
+		assertFalse(profiles.forProfile(BankLayoutProfiles.DEFAULT_NAME).hasTab(0));
+	}
+
+	@Test public void namedDefaultOrdersTakePrecedenceOverLegacyAlias()
+	{
+		BlueprintOrderProfiles profiles = BlueprintOrderProfiles.parse("");
+		profiles.put(BankLayoutProfiles.DEFAULT_NAME, BlueprintItemOrders.EMPTY.withTab(0, Arrays.asList(1, 2)));
+		String named = profiles.serialize();
+		for (String serialized : Arrays.asList(named + ";~v1|0:2,1", "~v1|0:2,1;" + named))
+		{
+			assertEquals(Arrays.asList(1, 2), ids(BlueprintOrderProfiles.parse(serialized)
+				.forProfile("").apply(preview(2, 1)), 0));
+		}
+	}
+
 }

@@ -26,9 +26,14 @@ public final class RuneSemanticRuleSet
 
 	public static LayoutRequest forEntries(List<LayoutEntry> entries)
 	{
+		return forEntries(entries, 0);
+	}
+
+	public static LayoutRequest forEntries(List<LayoutEntry> entries, int gridStartColumn)
+	{
 		Objects.requireNonNull(entries, "entries");
-		return new LayoutRequest(anchorFirstRune(entries),
-			Collections.singletonList(ruleForRows(ROWS)));
+		return new LayoutRequest(gridStartColumn == 0 ? anchorFirstRune(entries) : entries,
+			Collections.singletonList(ruleForRows(ROWS))).withGridStartColumn(gridStartColumn);
 	}
 
 	static LayoutRequest forMainEntries(List<LayoutEntry> entries)
