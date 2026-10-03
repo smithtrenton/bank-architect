@@ -1,0 +1,590 @@
+# schema=1
+# Exact reviewed supplements and preserved seed workflows; no cache/name alias propagation.
+# Review: tools/research/semantic-grouping-audit/policies/missing-items-2026-10-02.json
+# OSRS Wiki contributors, CC BY-NC-SA 3.0.
+# itemId	name	category	subcategory	tags	workflowKey
+101	Irit potion (unf)	HERBLORE	unfinished-potion	unfinished-potion,irit	herblore.irit.unf
+145	Super attack (3)	POTION	dose-3	super-attack,dose-3,partial-dose	herblore.super-attack.3
+147	Super attack (2)	POTION	dose-2	super-attack,dose-2,partial-dose	herblore.super-attack.2
+149	Super attack (1)	POTION	dose-1	super-attack,dose-1,partial-dose	herblore.super-attack.1
+209	Grimy irit	HERBLORE	grimy-herb	herb,irit,grimy	herblore.irit.grimy
+221	Eye of newt	HERBLORE	secondary	secondary,super-attack	herblore.irit.secondary
+259	Clean irit	HERBLORE	clean-herb	herb,irit,clean	herblore.irit.clean
+5297	Irit seed	FARMING	herb-seed	herb-seed,irit,herblore-source	herblore.irit.seed
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15288296
+33835	Wyrmscraig goat hoof	TOOL	hunter-rumour	hunter-utility,rumour-objective	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357455
+33836	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33839	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33842	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33845	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33848	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33851	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33854	Noble robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357447
+33857	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33860	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33863	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33866	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33869	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33872	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33875	Wyrmscraig noble skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357448
+33878	Wyrmscraig shoes	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357446
+33881	Wyrmscraig boots	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357451
+33884	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33887	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33890	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33893	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33896	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33899	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33902	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33905	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357449
+33908	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33911	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33914	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33917	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33920	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33923	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33926	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357450
+33929	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33932	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33935	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33938	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33941	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33944	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+33947	Wyrmscraig villager robe bottom	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357452
+33950	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33953	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33956	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33959	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33962	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33965	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+33968	Wyrmscraig villager robe top	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357453
+33971	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33974	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33977	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33980	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33983	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33986	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33989	Wyrmscraig villager skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357454
+33992	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33995	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+33998	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+34001	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+34004	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+34007	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+34010	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+34013	Wyrmscraig villager work skirt	CLUE	cosmetic	cosmetic,quest-unlock	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15296927
+34017	Wyrmscraig goat fur	SKILLING	crafting-material	crafting-utility,activity-golem-crafting,hunter-output	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358521
+34020	Sunstone	SKILLING	crafting-material	crafting-utility,activity-golem-crafting	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15325482
+34022	Sunstone core	SKILLING	crafting-material	crafting-utility,activity-golem-crafting,quest-use	
+34024	Jeweller's chisel	TOOL	crafting-tool		
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358610
+34027	Hallowfell	GEAR	2h	melee-gear,area-damage	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15317327
+34030	Jar of Light	TOOL	light-source	light-source,construction-utility,collection-log,storage-option-boss-display	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15289189
+34032	Sunstone crystal	CLEANUP	quest-item	quest-use,quest-component	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15291623
+34033	Ardeaglais teleport	TELEPORT	teleport-scroll	transport-access,storage-option-master-scroll-book,quest-unlock,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15352788
+34040	Mr McGroot	CLUE	collection-pet	pet,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15352717
+34042	Aggy	CLUE	collection-pet	pet,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15352349
+34048	Scorched note	CLEANUP	readable-lore	quest-associated,readable-lore	
+34049	Scorched note	CLEANUP	readable-lore	quest-associated,readable-lore	
+34050	Scorched note	CLEANUP	readable-lore	quest-associated,readable-lore	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15341639
+34051	Observations	CLEANUP	readable-lore	quest-associated,readable-lore,storage-option-bookcase	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15341646
+34052	Warning note	CLEANUP	quest-item	quest-use,readable-lore	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344596
+34053	Golem primer	CLEANUP	readable-lore	quest-associated,readable-lore,storage-option-bookcase	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15341659
+34057	Final letter	CLEANUP	quest-item	quest-associated,readable-lore	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15357443
+34063	Vampyre snelm	GEAR	head	snail-protection	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15331108
+34065	Shark lure pack	SKILLING	fishing-material	fishing-utility,item-pack	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15331109
+34068	Sawmill coupon (teak plank)	SKILLING	construction-voucher	construction-utility,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15331110
+34070	Sawmill coupon (mahogany plank)	SKILLING	construction-voucher	construction-utility,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15331112
+34072	Sawmill coupon (camphor plank)	SKILLING	construction-voucher	construction-utility,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15331111
+34074	Sawmill coupon (ironwood plank)	SKILLING	construction-voucher	construction-utility,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34077	Tiny port reward bag (cairn isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34079	Small port reward bag (cairn isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34081	Medium port reward bag (cairn isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34083	Large port reward bag (cairn isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34085	Huge port reward bag (cairn isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34087	Tiny port reward bag (entrana)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34089	Small port reward bag (entrana)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34091	Medium port reward bag (entrana)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34093	Large port reward bag (entrana)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34095	Huge port reward bag (entrana)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34097	Tiny port reward bag (neitiznot)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34099	Small port reward bag (neitiznot)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34101	Medium port reward bag (neitiznot)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34103	Large port reward bag (neitiznot)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34105	Huge port reward bag (neitiznot)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34107	Tiny port reward bag (jatizso)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34109	Small port reward bag (jatizso)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34111	Medium port reward bag (jatizso)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34113	Large port reward bag (jatizso)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34115	Huge port reward bag (jatizso)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34117	Tiny port reward bag (hosidius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34119	Small port reward bag (hosidius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34121	Medium port reward bag (hosidius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34123	Large port reward bag (hosidius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34125	Huge port reward bag (hosidius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34127	Tiny port reward bag (sunset coast)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34129	Small port reward bag (sunset coast)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34131	Medium port reward bag (sunset coast)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34133	Large port reward bag (sunset coast)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34135	Huge port reward bag (sunset coast)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34137	Tiny port reward bag (piscatoris)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34139	Small port reward bag (piscatoris)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34141	Medium port reward bag (piscatoris)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34143	Large port reward bag (piscatoris)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34145	Huge port reward bag (piscatoris)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34147	Tiny port reward bag (etceteria)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34149	Small port reward bag (etceteria)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34151	Medium port reward bag (etceteria)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34153	Large port reward bag (etceteria)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34155	Huge port reward bag (etceteria)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34157	Tiny port reward bag (ruins of unkah)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34159	Small port reward bag (ruins of unkah)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34161	Medium port reward bag (ruins of unkah)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34163	Large port reward bag (ruins of unkah)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34165	Huge port reward bag (ruins of unkah)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34167	Tiny port reward bag (lunar isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34169	Small port reward bag (lunar isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34171	Medium port reward bag (lunar isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34173	Large port reward bag (lunar isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34175	Huge port reward bag (lunar isle)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34177	Tiny port reward bag (corsair cove)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34179	Small port reward bag (corsair cove)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34181	Medium port reward bag (corsair cove)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34183	Large port reward bag (corsair cove)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34185	Huge port reward bag (corsair cove)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34187	Tiny port reward bag (prifddinas)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34189	Small port reward bag (prifddinas)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34191	Medium port reward bag (prifddinas)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34193	Large port reward bag (prifddinas)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34195	Huge port reward bag (prifddinas)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34197	Tiny port reward bag (lands end)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34199	Small port reward bag (lands end)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34201	Medium port reward bag (lands end)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34203	Large port reward bag (lands end)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34205	Huge port reward bag (lands end)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34207	Tiny port reward bag (aldarin)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34209	Small port reward bag (aldarin)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34211	Medium port reward bag (aldarin)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34213	Large port reward bag (aldarin)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34215	Huge port reward bag (aldarin)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34217	Tiny port reward bag (summer shore)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34219	Small port reward bag (summer shore)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34221	Medium port reward bag (summer shore)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34223	Large port reward bag (summer shore)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34225	Huge port reward bag (summer shore)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34227	Tiny port reward bag (musa point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34229	Small port reward bag (musa point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34231	Medium port reward bag (musa point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34233	Large port reward bag (musa point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34235	Huge port reward bag (musa point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34237	Tiny port reward bag (rellekka)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34239	Small port reward bag (rellekka)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34241	Medium port reward bag (rellekka)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34243	Large port reward bag (rellekka)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34245	Huge port reward bag (rellekka)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34247	Tiny port reward bag (void knights outpost)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34249	Small port reward bag (void knights outpost)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34251	Medium port reward bag (void knights outpost)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34253	Large port reward bag (void knights outpost)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34255	Huge port reward bag (void knights outpost)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34257	Tiny port reward bag (the pandemonium)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34259	Small port reward bag (the pandemonium)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34261	Medium port reward bag (the pandemonium)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34263	Large port reward bag (the pandemonium)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34265	Huge port reward bag (the pandemonium)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34267	Tiny port reward bag (red rock)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34269	Small port reward bag (red rock)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34271	Medium port reward bag (red rock)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34273	Large port reward bag (red rock)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34275	Huge port reward bag (red rock)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34277	Tiny port reward bag (brimhaven)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34279	Small port reward bag (brimhaven)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34281	Medium port reward bag (brimhaven)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34283	Large port reward bag (brimhaven)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34285	Huge port reward bag (brimhaven)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34287	Tiny port reward bag (port tyras)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34289	Small port reward bag (port tyras)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34291	Medium port reward bag (port tyras)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34293	Large port reward bag (port tyras)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34295	Huge port reward bag (port tyras)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34297	Tiny port reward bag (catherby)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34299	Small port reward bag (catherby)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34301	Medium port reward bag (catherby)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34303	Large port reward bag (catherby)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34305	Huge port reward bag (catherby)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34307	Tiny port reward bag (civitas illa fortis)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34309	Small port reward bag (civitas illa fortis)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34311	Medium port reward bag (civitas illa fortis)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34313	Large port reward bag (civitas illa fortis)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34315	Huge port reward bag (civitas illa fortis)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34317	Tiny port reward bag (ardougne)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34319	Small port reward bag (ardougne)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34321	Medium port reward bag (ardougne)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34323	Large port reward bag (ardougne)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34325	Huge port reward bag (ardougne)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34327	Tiny port reward bag (port khazard)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34329	Small port reward bag (port khazard)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34331	Medium port reward bag (port khazard)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34333	Large port reward bag (port khazard)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34335	Huge port reward bag (port khazard)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34337	Tiny port reward bag (deepfin point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34339	Small port reward bag (deepfin point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34341	Medium port reward bag (deepfin point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34343	Large port reward bag (deepfin point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34345	Huge port reward bag (deepfin point)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34347	Tiny port reward bag (port sarim)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34349	Small port reward bag (port sarim)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34351	Medium port reward bag (port sarim)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34353	Large port reward bag (port sarim)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34355	Huge port reward bag (port sarim)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34357	Tiny port reward bag (port piscarilius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34359	Small port reward bag (port piscarilius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34361	Medium port reward bag (port piscarilius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34363	Large port reward bag (port piscarilius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34365	Huge port reward bag (port piscarilius)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360029
+34367	Tiny port reward bag (port roberts)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358757
+34369	Small port reward bag (port roberts)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360031
+34371	Medium port reward bag (port roberts)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350420
+34373	Large port reward bag (port roberts)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15347369
+34375	Huge port reward bag (port roberts)	UNIQUE	reward-container	claimable-reward,activity-sailing	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344619
+34377	Tiny port coin bag	UNIQUE	reward-container	claimable-reward,activity-sailing,currency-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344620
+34379	Small port coin bag	UNIQUE	reward-container	claimable-reward,activity-sailing,currency-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344622
+34381	Medium port coin bag	UNIQUE	reward-container	claimable-reward,activity-sailing,currency-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15351346
+34383	Large port coin bag	UNIQUE	reward-container	claimable-reward,activity-sailing,currency-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15351345
+34385	Huge port coin bag	UNIQUE	reward-container	claimable-reward,activity-sailing,currency-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350594
+34401	Necklace of Fangs	GEAR	neck	ranged-gear,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344282
+34404	Air diamond	SKILLING	gem	runecrafting-input,equipment-component,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344290
+34407	Amulet of air	GEAR	neck	magic-gear,spell-enhancement,runecrafting-output	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344357
+34410	Water sapphire	SKILLING	gem	runecrafting-input,equipment-component,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344293
+34413	Amulet of water	GEAR	neck	magic-gear,spell-enhancement,runecrafting-output	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344314
+34416	Earth emerald	SKILLING	gem	runecrafting-input,equipment-component,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344409
+34419	Amulet of earth	GEAR	neck	magic-gear,spell-enhancement,runecrafting-output	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356561
+34422	Fire ruby	SKILLING	gem	runecrafting-input,equipment-component,collection-log	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344298
+34425	Amulet of fire	GEAR	neck	magic-gear,spell-enhancement,runecrafting-output	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344299
+34428	Elemental amulet	GEAR	neck	magic-gear,spell-enhancement	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344322
+34431	Labrador	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34433	Labrador	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34435	Labrador	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15337743
+34437	Chihuahua	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34439	Chihuahua	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34441	Chihuahua	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15359854
+34443	Border collie	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34445	Border collie	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34447	Border collie	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15337740
+34449	Corgi	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34451	Corgi	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34453	Corgi	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15338140
+34455	Greyhound	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34457	Greyhound	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34459	Greyhound	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15337838
+34461	Husky	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34463	Husky	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34465	Husky	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344327
+34467	Pug	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34469	Pug	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34471	Pug	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15337873
+34473	Samoyed	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34475	Samoyed	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34477	Samoyed	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15358147
+34479	Bernese mountain dog	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34481	Bernese mountain dog	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34483	Bernese mountain dog	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15337904
+34485	Shiba	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34487	Shiba	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34489	Shiba	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344348
+34491	Spaniel	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34493	Spaniel	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34495	Spaniel	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15337938
+34497	Yorkie	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34499	Yorkie	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+34501	Yorkie	CLUE	cosmetic	pet,clue-utility,storage-option-menagerie	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344324
+34503	Labrador puppy	CLUE	cosmetic	pet,pet-growth	
+34505	Labrador puppy	CLUE	cosmetic	pet,pet-growth	
+34507	Labrador puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344320
+34509	Husky puppy	CLUE	cosmetic	pet,pet-growth	
+34511	Husky puppy	CLUE	cosmetic	pet,pet-growth	
+34513	Husky puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344309
+34515	Chihuahua puppy	CLUE	cosmetic	pet,pet-growth	
+34517	Chihuahua puppy	CLUE	cosmetic	pet,pet-growth	
+34519	Chihuahua puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344304
+34521	Border collie puppy	CLUE	cosmetic	pet,pet-growth	
+34523	Border collie puppy	CLUE	cosmetic	pet,pet-growth	
+34525	Border collie puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344311
+34527	Corgi puppy	CLUE	cosmetic	pet,pet-growth	
+34529	Corgi puppy	CLUE	cosmetic	pet,pet-growth	
+34531	Corgi puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344318
+34533	Greyhound puppy	CLUE	cosmetic	pet,pet-growth	
+34535	Greyhound puppy	CLUE	cosmetic	pet,pet-growth	
+34537	Greyhound puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344328
+34539	Pug puppy	CLUE	cosmetic	pet,pet-growth	
+34541	Pug puppy	CLUE	cosmetic	pet,pet-growth	
+34543	Pug puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344332
+34545	Samoyed puppy	CLUE	cosmetic	pet,pet-growth	
+34547	Samoyed puppy	CLUE	cosmetic	pet,pet-growth	
+34549	Samoyed puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344302
+34551	Bernese mountain dog puppy	CLUE	cosmetic	pet,pet-growth	
+34553	Bernese mountain dog puppy	CLUE	cosmetic	pet,pet-growth	
+34555	Bernese mountain dog puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344345
+34557	Shiba puppy	CLUE	cosmetic	pet,pet-growth	
+34559	Shiba puppy	CLUE	cosmetic	pet,pet-growth	
+34561	Shiba puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344349
+34563	Spaniel puppy	CLUE	cosmetic	pet,pet-growth	
+34566	Spaniel puppy	CLUE	cosmetic	pet,pet-growth	
+34567	Spaniel puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15355596
+34569	Yorkie puppy	CLUE	cosmetic	pet,pet-growth	
+34571	Yorkie puppy	CLUE	cosmetic	pet,pet-growth	
+34573	Yorkie puppy	CLUE	cosmetic	pet,pet-growth	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344334
+34575	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34576	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34577	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34578	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34579	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34580	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34581	Shell	CLEANUP	quest-item	quest-use,quest-puzzle	
+34582	Shell	CLEANUP	quest-item	quest-associated,quest-decoy	
+34583	Shell	CLEANUP	quest-item	quest-associated,quest-decoy	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344358
+34584	Weathered rosewood plank	CLEANUP	quest-item	quest-use,quest-component	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344300
+34585	Battered barrel	CLEANUP	quest-item	quest-use,quest-component	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344333
+34586	Sea-soaked bowstring	CLEANUP	quest-item	quest-use,quest-component	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344321
+34587	Instrument	CLEANUP	quest-item	quest-use,quest-output	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350681
+34589	Shell collection	CLUE	cosmetic	musical-toy,quest-reward,collapsible-set	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350290
+34591	Shell C	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350296
+34592	Shell D	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350295
+34593	Shell E	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350294
+34594	Shell F	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350293
+34595	Shell G	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350291
+34596	Shell A	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15350303
+34597	Shell A#	CLUE	cosmetic	musical-toy,quest-reward	
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15344350
+34602	Stuffed dog	CLEANUP	quest-item	quest-use,quest-output	

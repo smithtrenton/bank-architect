@@ -153,7 +153,7 @@ public final class EffectiveItemClassificationExporter
 		createParent(outputPath);
 		try (BufferedWriter writer = Files.newBufferedWriter(outputPath, StandardCharsets.UTF_8))
 		{
-			writer.write("itemId\tregistryName\tconstantName\tauditScope\tcatalogName\titemCategory\tironmanTabKey");
+			writer.write("itemId\tregistryName\tconstantName\tauditScope\tcatalogName\titemCategory\tironmanTabKey\tsubcategory\ttags");
 			writer.newLine();
 			for (int id : ids)
 			{
@@ -169,6 +169,8 @@ public final class EffectiveItemClassificationExporter
 				writeCell(writer, item.getDisplayName());
 				writeCell(writer, item.getCategory().name());
 				writeCell(writer, PresetCategoryMapper.map(BankPresets.IRONMAN, item).getKey());
+				writeCell(writer, item.getSubcategory());
+				writeCell(writer, String.join(",", item.getTags()));
 				writer.newLine();
 			}
 		}

@@ -1,0 +1,1810 @@
+{
+  "schema": 1,
+  "scope": "356 exact IDs absent from runtime catalog at 573d07e",
+  "license": "CC BY-NC-SA 3.0",
+  "attribution": "OSRS Wiki contributors",
+  "sources": [
+    {
+      "title": "Noble robe top",
+      "revid": 15357455,
+      "ids": [
+        33836,
+        33839,
+        33842,
+        33845,
+        33848,
+        33851,
+        33854
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig noble skirt",
+      "revid": 15357447,
+      "ids": [
+        33857,
+        33860,
+        33863,
+        33866,
+        33869,
+        33872,
+        33875
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig shoes",
+      "revid": 15357448,
+      "ids": [
+        33878
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": false
+    },
+    {
+      "title": "Wyrmscraig boots",
+      "revid": 15357446,
+      "ids": [
+        33881
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": false
+    },
+    {
+      "title": "Wyrmscraig villager robe top (A)",
+      "revid": 15357451,
+      "ids": [
+        33884,
+        33887,
+        33890,
+        33893,
+        33896,
+        33899,
+        33902,
+        33905
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig villager robe top (B)",
+      "revid": 15357452,
+      "ids": [
+        33950,
+        33953,
+        33956,
+        33959,
+        33962,
+        33965,
+        33968
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig villager robe bottom (A)",
+      "revid": 15357449,
+      "ids": [
+        33908,
+        33911,
+        33914,
+        33917,
+        33920,
+        33923,
+        33926
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig villager robe bottom (B)",
+      "revid": 15357450,
+      "ids": [
+        33929,
+        33932,
+        33935,
+        33938,
+        33941,
+        33944,
+        33947
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig villager skirt",
+      "revid": 15357453,
+      "ids": [
+        33971,
+        33974,
+        33977,
+        33980,
+        33983,
+        33986,
+        33989
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Wyrmscraig villager work skirt",
+      "revid": 15357454,
+      "ids": [
+        33992,
+        33995,
+        33998,
+        34001,
+        34004,
+        34007,
+        34010,
+        34013
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "cosmetic",
+        "quest-unlock"
+      ],
+      "reason": "Shop clothing unlocked by Fallen From Grace. Articles document cosmetic wear and zero bonuses with no stated functional effect. Keep colours and A/B styles as distinct exact IDs.",
+      "cosmetic_family": true
+    },
+    {
+      "title": "Labrador",
+      "revid": 15344322,
+      "ids": [
+        34431,
+        34433,
+        34435
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Chihuahua",
+      "revid": 15337743,
+      "ids": [
+        34437,
+        34439,
+        34441
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Border Collie",
+      "revid": 15359854,
+      "ids": [
+        34443,
+        34445,
+        34447
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Corgi",
+      "revid": 15337740,
+      "ids": [
+        34449,
+        34451,
+        34453
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Greyhound",
+      "revid": 15338140,
+      "ids": [
+        34455,
+        34457,
+        34459
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Husky",
+      "revid": 15337838,
+      "ids": [
+        34461,
+        34463,
+        34465
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Pug",
+      "revid": 15344327,
+      "ids": [
+        34467,
+        34469,
+        34471
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Samoyed",
+      "revid": 15337873,
+      "ids": [
+        34473,
+        34475,
+        34477
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Bernese Mountain Dog",
+      "revid": 15358147,
+      "ids": [
+        34479,
+        34481,
+        34483
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Shiba",
+      "revid": 15337904,
+      "ids": [
+        34485,
+        34487,
+        34489
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Spaniel",
+      "revid": 15344348,
+      "ids": [
+        34491,
+        34493,
+        34495
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Yorkie",
+      "revid": 15337938,
+      "ids": [
+        34497,
+        34499,
+        34501
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "clue-utility",
+        "storage-option-menagerie"
+      ],
+      "reason": "Adult dogs dig in place of a spade for Treasure Trails and can live in the menagerie. They cannot replace a spade for Barrows or Giant Mole. Keep breeds and colours distinct."
+    },
+    {
+      "title": "Labrador puppy",
+      "revid": 15344324,
+      "ids": [
+        34503,
+        34505,
+        34507
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Chihuahua puppy",
+      "revid": 15344309,
+      "ids": [
+        34515,
+        34517,
+        34519
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Border Collie puppy",
+      "revid": 15344304,
+      "ids": [
+        34521,
+        34523,
+        34525
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Corgi puppy",
+      "revid": 15344311,
+      "ids": [
+        34527,
+        34529,
+        34531
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Greyhound puppy",
+      "revid": 15344318,
+      "ids": [
+        34533,
+        34535,
+        34537
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Husky puppy",
+      "revid": 15344320,
+      "ids": [
+        34509,
+        34511,
+        34513
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Pug puppy",
+      "revid": 15344328,
+      "ids": [
+        34539,
+        34541,
+        34543
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Samoyed puppy",
+      "revid": 15344332,
+      "ids": [
+        34545,
+        34547,
+        34549
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Bernese Mountain Dog puppy",
+      "revid": 15344302,
+      "ids": [
+        34551,
+        34553,
+        34555
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Shiba puppy",
+      "revid": 15344345,
+      "ids": [
+        34557,
+        34559,
+        34561
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Spaniel puppy",
+      "revid": 15344349,
+      "ids": [
+        34563,
+        34566,
+        34567
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Yorkie puppy",
+      "revid": 15355596,
+      "ids": [
+        34569,
+        34571,
+        34573
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "pet",
+        "pet-growth"
+      ],
+      "reason": "Puppies grow into the same breed after active following and feeding. Growth pauses in bank/inventory; puppies lack adult digging and cannot live in pet houses. Do not inherit adult utility or storage roles."
+    },
+    {
+      "title": "Aggy",
+      "revid": 15352717,
+      "ids": [
+        34042
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "collection-pet",
+      "tags": [
+        "pet",
+        "collection-log"
+      ],
+      "reason": "Obtainable pet item forms, distinct from NPC IDs. Mr McGroot was removed from Skilling Pets but remains in All Pets; neither is skilling equipment."
+    },
+    {
+      "title": "Mr McGroot",
+      "revid": 15352788,
+      "ids": [
+        34040
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "collection-pet",
+      "tags": [
+        "pet",
+        "collection-log"
+      ],
+      "reason": "Obtainable pet item forms, distinct from NPC IDs. Mr McGroot was removed from Skilling Pets but remains in All Pets; neither is skilling equipment."
+    },
+    {
+      "title": "Hallowfell",
+      "revid": 15358610,
+      "ids": [
+        34027
+      ],
+      "action": "INCLUDE",
+      "category": "GEAR",
+      "subcategory": "2h",
+      "tags": [
+        "melee-gear",
+        "area-damage"
+      ],
+      "reason": "Level-75 Attack two-handed sword passively hits up to two additional unique targets. Ordinary stats do not capture this area damage; it is not a special attack."
+    },
+    {
+      "title": "Vampyre snelm",
+      "revid": 15357443,
+      "ids": [
+        34063
+      ],
+      "action": "INCLUDE",
+      "category": "GEAR",
+      "subcategory": "head",
+      "tags": [
+        "snail-protection"
+      ],
+      "reason": "Headgear reduces snail damage by 13. Preserve its functional niche despite modest stats; the unused shell is not its obtainable crafting input."
+    },
+    {
+      "title": "Amulet of air",
+      "revid": 15344290,
+      "ids": [
+        34407
+      ],
+      "action": "INCLUDE",
+      "category": "GEAR",
+      "subcategory": "neck",
+      "tags": [
+        "magic-gear",
+        "spell-enhancement",
+        "runecrafting-output"
+      ],
+      "reason": "Level-59 Magic gear adds +2 max hit to its elemental spells before damage/weakness modifiers and is an elemental-amulet input. Not Runecraft tools or charge/dose states."
+    },
+    {
+      "title": "Amulet of water",
+      "revid": 15344293,
+      "ids": [
+        34413
+      ],
+      "action": "INCLUDE",
+      "category": "GEAR",
+      "subcategory": "neck",
+      "tags": [
+        "magic-gear",
+        "spell-enhancement",
+        "runecrafting-output"
+      ],
+      "reason": "Level-59 Magic gear adds +2 max hit to its elemental spells before damage/weakness modifiers and is an elemental-amulet input. Not Runecraft tools or charge/dose states."
+    },
+    {
+      "title": "Amulet of earth",
+      "revid": 15344409,
+      "ids": [
+        34419
+      ],
+      "action": "INCLUDE",
+      "category": "GEAR",
+      "subcategory": "neck",
+      "tags": [
+        "magic-gear",
+        "spell-enhancement",
+        "runecrafting-output"
+      ],
+      "reason": "Level-59 Magic gear adds +2 max hit to its elemental spells before damage/weakness modifiers and is an elemental-amulet input. Not Runecraft tools or charge/dose states."
+    },
+    {
+      "title": "Amulet of fire",
+      "revid": 15344298,
+      "ids": [
+        34425
+      ],
+      "action": "INCLUDE",
+      "category": "GEAR",
+      "subcategory": "neck",
+      "tags": [
+        "magic-gear",
+        "spell-enhancement",
+        "runecrafting-output"
+      ],
+      "reason": "Level-59 Magic gear adds +2 max hit to its elemental spells before damage/weakness modifiers and is an elemental-amulet input. Not Runecraft tools or charge/dose states."
+    },
+    {
+      "title": "Air diamond",
+      "revid": 15344282,
+      "ids": [
+        34404
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "gem",
+      "tags": [
+        "runecrafting-input",
+        "equipment-component",
+        "collection-log"
+      ],
+      "reason": "Monster drops are matching elemental altar amulet inputs. Log provenance does not override production use, and examine-text hints do not establish powers."
+    },
+    {
+      "title": "Water sapphire",
+      "revid": 15344357,
+      "ids": [
+        34410
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "gem",
+      "tags": [
+        "runecrafting-input",
+        "equipment-component",
+        "collection-log"
+      ],
+      "reason": "Monster drops are matching elemental altar amulet inputs. Log provenance does not override production use, and examine-text hints do not establish powers."
+    },
+    {
+      "title": "Earth emerald",
+      "revid": 15344314,
+      "ids": [
+        34416
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "gem",
+      "tags": [
+        "runecrafting-input",
+        "equipment-component",
+        "collection-log"
+      ],
+      "reason": "Monster drops are matching elemental altar amulet inputs. Log provenance does not override production use, and examine-text hints do not establish powers."
+    },
+    {
+      "title": "Fire ruby",
+      "revid": 15356561,
+      "ids": [
+        34422
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "gem",
+      "tags": [
+        "runecrafting-input",
+        "equipment-component",
+        "collection-log"
+      ],
+      "reason": "Monster drops are matching elemental altar amulet inputs. Log provenance does not override production use, and examine-text hints do not establish powers."
+    },
+    {
+      "title": "Sunstone",
+      "revid": 15358521,
+      "ids": [
+        34020
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "crafting-material",
+      "tags": [
+        "crafting-utility",
+        "activity-golem-crafting"
+      ],
+      "reason": "Mined at 50 Mining and chiselled at 60 Crafting into a core for golem crafting. Repeatable raw material, not quest-only or a finished core."
+    },
+    {
+      "title": "Sunstone core",
+      "revid": 15325482,
+      "ids": [
+        34022
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "crafting-material",
+      "tags": [
+        "crafting-utility",
+        "activity-golem-crafting",
+        "quest-use"
+      ],
+      "reason": "Crafted intermediate used with hunter fur to activate golems; also powers the broken golem in Fallen From Grace. Repeatable material use remains primary."
+    },
+    {
+      "title": "Wyrmscraig goat fur",
+      "revid": 15296927,
+      "ids": [
+        34017
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "crafting-material",
+      "tags": [
+        "crafting-utility",
+        "activity-golem-crafting",
+        "hunter-output"
+      ],
+      "reason": "Hunter output used to dress golems, not wearable clothing or a pet."
+    },
+    {
+      "title": "Wyrmscraig goat hoof",
+      "revid": 15288296,
+      "ids": [
+        33835
+      ],
+      "action": "INCLUDE",
+      "category": "TOOL",
+      "subcategory": "hunter-rumour",
+      "tags": [
+        "hunter-utility",
+        "rumour-objective"
+      ],
+      "reason": "Rare creature part turned in for a Hunter rumour; distinct from ordinary fur crafting material."
+    },
+    {
+      "title": "Jar of Light",
+      "revid": 15317327,
+      "ids": [
+        34030
+      ],
+      "action": "INCLUDE",
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tags": [
+        "light-source",
+        "construction-utility",
+        "collection-log",
+        "storage-option-boss-display"
+      ],
+      "reason": "Rare Mad Angel jar functions as a light source and boss-lair display in the Achievement Gallery. Not a reusable storage container or merely a trophy."
+    },
+    {
+      "title": "Ardeaglais teleport",
+      "revid": 15291623,
+      "ids": [
+        34033
+      ],
+      "action": "INCLUDE",
+      "category": "TELEPORT",
+      "subcategory": "teleport-scroll",
+      "tags": [
+        "transport-access",
+        "storage-option-master-scroll-book",
+        "quest-unlock",
+        "collection-log"
+      ],
+      "reason": "Consumable teleport to the cathedral entrance, usable after Fallen From Grace and storable in master scroll book. Not quest-only cleanup."
+    },
+    {
+      "title": "Shark lure pack",
+      "revid": 15331108,
+      "ids": [
+        34065
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "fishing-material",
+      "tags": [
+        "fishing-utility",
+        "item-pack"
+      ],
+      "reason": "Pack opens into 100 consumable fishing enhancers, not food or reusable storage."
+    },
+    {
+      "title": "Sawmill coupon (teak plank)",
+      "revid": 15331109,
+      "ids": [
+        34068
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "construction-voucher",
+      "tags": [
+        "construction-utility",
+        "activity-sailing"
+      ],
+      "reason": "Consumed cost voucher for its specific sawmill plank conversion; cannot pay for Plank Make and is not the plank itself."
+    },
+    {
+      "title": "Sawmill coupon (mahogany plank)",
+      "revid": 15331110,
+      "ids": [
+        34070
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "construction-voucher",
+      "tags": [
+        "construction-utility",
+        "activity-sailing"
+      ],
+      "reason": "Consumed cost voucher for its specific sawmill plank conversion; cannot pay for Plank Make and is not the plank itself."
+    },
+    {
+      "title": "Sawmill coupon (camphor plank)",
+      "revid": 15331112,
+      "ids": [
+        34072
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "construction-voucher",
+      "tags": [
+        "construction-utility",
+        "activity-sailing"
+      ],
+      "reason": "Consumed cost voucher for its specific sawmill plank conversion; cannot pay for Plank Make and is not the plank itself."
+    },
+    {
+      "title": "Sawmill coupon (ironwood plank)",
+      "revid": 15331111,
+      "ids": [
+        34074
+      ],
+      "action": "INCLUDE",
+      "category": "SKILLING",
+      "subcategory": "construction-voucher",
+      "tags": [
+        "construction-utility",
+        "activity-sailing"
+      ],
+      "reason": "Consumed cost voucher for its specific sawmill plank conversion; cannot pay for Plank Make and is not the plank itself."
+    },
+    {
+      "title": "Tiny port reward bag",
+      "revid": 15360029,
+      "ids": [
+        34077,
+        34087,
+        34097,
+        34107,
+        34117,
+        34127,
+        34137,
+        34147,
+        34157,
+        34167,
+        34177,
+        34187,
+        34197,
+        34207,
+        34217,
+        34227,
+        34237,
+        34247,
+        34257,
+        34267,
+        34277,
+        34287,
+        34297,
+        34307,
+        34317,
+        34327,
+        34337,
+        34347,
+        34357,
+        34367
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing"
+      ],
+      "reason": "Openable stackable Sailing reward. Size tracks task XP and port determines extra loot. Preserve obtainable and no-current-source variants: current source absence does not prove that an owned bag must be discarded; some tiny variants had earlier bounty sources."
+    },
+    {
+      "title": "Small port reward bag",
+      "revid": 15358757,
+      "ids": [
+        34079,
+        34089,
+        34099,
+        34109,
+        34119,
+        34129,
+        34139,
+        34149,
+        34159,
+        34169,
+        34179,
+        34189,
+        34199,
+        34209,
+        34219,
+        34229,
+        34239,
+        34249,
+        34259,
+        34269,
+        34279,
+        34289,
+        34299,
+        34309,
+        34319,
+        34329,
+        34339,
+        34349,
+        34359,
+        34369
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing"
+      ],
+      "reason": "Openable stackable Sailing reward. Size tracks task XP and port determines extra loot. Preserve obtainable and no-current-source variants: current source absence does not prove that an owned bag must be discarded; some tiny variants had earlier bounty sources."
+    },
+    {
+      "title": "Medium port reward bag",
+      "revid": 15360031,
+      "ids": [
+        34081,
+        34091,
+        34101,
+        34111,
+        34121,
+        34131,
+        34141,
+        34151,
+        34161,
+        34171,
+        34181,
+        34191,
+        34201,
+        34211,
+        34221,
+        34231,
+        34241,
+        34251,
+        34261,
+        34271,
+        34281,
+        34291,
+        34301,
+        34311,
+        34321,
+        34331,
+        34341,
+        34351,
+        34361,
+        34371
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing"
+      ],
+      "reason": "Openable stackable Sailing reward. Size tracks task XP and port determines extra loot. Preserve obtainable and no-current-source variants: current source absence does not prove that an owned bag must be discarded; some tiny variants had earlier bounty sources."
+    },
+    {
+      "title": "Large port reward bag",
+      "revid": 15350420,
+      "ids": [
+        34083,
+        34093,
+        34103,
+        34113,
+        34123,
+        34133,
+        34143,
+        34153,
+        34163,
+        34173,
+        34183,
+        34193,
+        34203,
+        34213,
+        34223,
+        34233,
+        34243,
+        34253,
+        34263,
+        34273,
+        34283,
+        34293,
+        34303,
+        34313,
+        34323,
+        34333,
+        34343,
+        34353,
+        34363,
+        34373
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing"
+      ],
+      "reason": "Openable stackable Sailing reward. Size tracks task XP and port determines extra loot. Preserve obtainable and no-current-source variants: current source absence does not prove that an owned bag must be discarded; some tiny variants had earlier bounty sources."
+    },
+    {
+      "title": "Huge port reward bag",
+      "revid": 15347369,
+      "ids": [
+        34085,
+        34095,
+        34105,
+        34115,
+        34125,
+        34135,
+        34145,
+        34155,
+        34165,
+        34175,
+        34185,
+        34195,
+        34205,
+        34215,
+        34225,
+        34235,
+        34245,
+        34255,
+        34265,
+        34275,
+        34285,
+        34295,
+        34305,
+        34315,
+        34325,
+        34335,
+        34345,
+        34355,
+        34365,
+        34375
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing"
+      ],
+      "reason": "Openable stackable Sailing reward. Size tracks task XP and port determines extra loot. Preserve obtainable and no-current-source variants: current source absence does not prove that an owned bag must be discarded; some tiny variants had earlier bounty sources."
+    },
+    {
+      "title": "Tiny port coin bag",
+      "revid": 15344619,
+      "ids": [
+        34377
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing",
+        "currency-reward"
+      ],
+      "reason": "Openable courier coin reward, not spendable currency before opening. Size tracks task XP, not dose, charge or degradation."
+    },
+    {
+      "title": "Small port coin bag",
+      "revid": 15344620,
+      "ids": [
+        34379
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing",
+        "currency-reward"
+      ],
+      "reason": "Openable courier coin reward, not spendable currency before opening. Size tracks task XP, not dose, charge or degradation."
+    },
+    {
+      "title": "Medium port coin bag",
+      "revid": 15344622,
+      "ids": [
+        34381
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing",
+        "currency-reward"
+      ],
+      "reason": "Openable courier coin reward, not spendable currency before opening. Size tracks task XP, not dose, charge or degradation."
+    },
+    {
+      "title": "Large port coin bag",
+      "revid": 15351346,
+      "ids": [
+        34383
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing",
+        "currency-reward"
+      ],
+      "reason": "Openable courier coin reward, not spendable currency before opening. Size tracks task XP, not dose, charge or degradation."
+    },
+    {
+      "title": "Huge port coin bag",
+      "revid": 15351345,
+      "ids": [
+        34385
+      ],
+      "action": "INCLUDE",
+      "category": "UNIQUE",
+      "subcategory": "reward-container",
+      "tags": [
+        "claimable-reward",
+        "activity-sailing",
+        "currency-reward"
+      ],
+      "reason": "Openable courier coin reward, not spendable currency before opening. Size tracks task XP, not dose, charge or degradation."
+    },
+    {
+      "title": "Scorched note",
+      "revid": 15352349,
+      "ids": [
+        34048,
+        34049,
+        34050
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tags": [
+        "quest-associated",
+        "readable-lore"
+      ],
+      "reason": "Readable lore is not automatically required quest equipment. Scorched notes are distinct texts; Observations and Golem primer can be reclaimed through a POH bookcase."
+    },
+    {
+      "title": "Observations",
+      "revid": 15341639,
+      "ids": [
+        34051
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tags": [
+        "quest-associated",
+        "readable-lore",
+        "storage-option-bookcase"
+      ],
+      "reason": "Readable lore is not automatically required quest equipment. Scorched notes are distinct texts; Observations and Golem primer can be reclaimed through a POH bookcase."
+    },
+    {
+      "title": "Golem primer",
+      "revid": 15344596,
+      "ids": [
+        34053
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tags": [
+        "quest-associated",
+        "readable-lore",
+        "storage-option-bookcase"
+      ],
+      "reason": "Readable lore is not automatically required quest equipment. Scorched notes are distinct texts; Observations and Golem primer can be reclaimed through a POH bookcase."
+    },
+    {
+      "title": "Warning note (Fallen From Grace)",
+      "revid": 15341646,
+      "ids": [
+        34052
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "readable-lore"
+      ],
+      "reason": "Quest note contains the cathedral staircase substitution cipher; preserve its active puzzle role."
+    },
+    {
+      "title": "Final letter",
+      "revid": 15341659,
+      "ids": [
+        34057
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-associated",
+        "readable-lore"
+      ],
+      "reason": "Quest-associated letter found after the Mad Angel encounter. The item article establishes story association, not an ongoing reusable function."
+    },
+    {
+      "title": "Sunstone crystal",
+      "revid": 15289189,
+      "ids": [
+        34032
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-component"
+      ],
+      "reason": "Mad Angel quest drop used to build the Auchrie bank chest with lead bars, mahogany planks and mithril nails. Distinct from repeatable sunstone/core resources."
+    },
+    {
+      "title": "Weathered rosewood plank",
+      "revid": 15344358,
+      "ids": [
+        34584
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-component"
+      ],
+      "reason": "Three exact Crab Quest components combine into Instrument. Not ordinary Construction planks, a usable storage barrel or standard Fletching string."
+    },
+    {
+      "title": "Battered barrel",
+      "revid": 15344300,
+      "ids": [
+        34585
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-component"
+      ],
+      "reason": "Three exact Crab Quest components combine into Instrument. Not ordinary Construction planks, a usable storage barrel or standard Fletching string."
+    },
+    {
+      "title": "Sea-soaked bowstring",
+      "revid": 15344333,
+      "ids": [
+        34586
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-component"
+      ],
+      "reason": "Three exact Crab Quest components combine into Instrument. Not ordinary Construction planks, a usable storage barrel or standard Fletching string."
+    },
+    {
+      "title": "Instrument",
+      "revid": 15344321,
+      "ids": [
+        34587
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-output"
+      ],
+      "reason": "Crab Quest instrument crafted from the three flotsam components; distinct from materials and later musical shell reward."
+    },
+    {
+      "title": "Shell (Crab Quest)",
+      "revid": 15344334,
+      "ids": [
+        34575,
+        34576,
+        34577,
+        34578,
+        34579,
+        34580,
+        34581,
+        34582,
+        34583
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-puzzle"
+      ],
+      "reason": "Nine quest-phase IDs: seven musical shells and two bad shells. Keep separate from seven post-quest shell IDs; bad shells get association/decoy roles only."
+    },
+    {
+      "title": "Shell collection",
+      "revid": 15350681,
+      "ids": [
+        34589
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward",
+        "collapsible-set"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell C",
+      "revid": 15350290,
+      "ids": [
+        34591
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell D",
+      "revid": 15350296,
+      "ids": [
+        34592
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell E",
+      "revid": 15350295,
+      "ids": [
+        34593
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell F",
+      "revid": 15350294,
+      "ids": [
+        34594
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell G",
+      "revid": 15350293,
+      "ids": [
+        34595
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell A",
+      "revid": 15350291,
+      "ids": [
+        34596
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Shell A-sharp",
+      "revid": 15350303,
+      "ids": [
+        34597
+      ],
+      "action": "INCLUDE",
+      "category": "CLUE",
+      "subcategory": "cosmetic",
+      "tags": [
+        "musical-toy",
+        "quest-reward"
+      ],
+      "reason": "Post-quest musical toy and seven unpacked notes. Unpacking is restricted near banks/in Wilderness; Collapse requires all seven. Not original quest-puzzle IDs or a resource container."
+    },
+    {
+      "title": "Stuffed dog",
+      "revid": 15344350,
+      "ids": [
+        34602
+      ],
+      "action": "INCLUDE",
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tags": [
+        "quest-use",
+        "quest-output"
+      ],
+      "reason": "Crafted quest decoy from grain/fur with needle/thread or costume needle. Not an adoptable pet, puppy-growth state or wearable costume."
+    },
+    {
+      "title": "Letvek in a bucket",
+      "revid": 15288261,
+      "ids": [
+        33833
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Wooden spikes",
+      "revid": 15288287,
+      "ids": [
+        34016
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Large hat",
+      "revid": 15288260,
+      "ids": [
+        34044
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Worn journal",
+      "revid": 15288288,
+      "ids": [
+        34045
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Scrawled notebook",
+      "revid": 15347555,
+      "ids": [
+        34046
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Ancient sunstone core",
+      "revid": 15344595,
+      "ids": [
+        34054
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Staircase key",
+      "revid": 15288280,
+      "ids": [
+        34055
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Dull sunstone core",
+      "revid": 15288234,
+      "ids": [
+        34056
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Fairy tale quest lamp",
+      "revid": 15305576,
+      "ids": [
+        34059
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Stray puppy (A Ruff Situation)",
+      "revid": 15352338,
+      "ids": [
+        34598,
+        34599,
+        34600
+      ],
+      "action": "EXCLUDE_UNBANKABLE",
+      "category": "UNKNOWN",
+      "subcategory": "unbankable",
+      "tags": [],
+      "reason": "Explicitly unbankable in the item infobox. Retain research but exclude from bank catalog; do not alias scenery, quest or Deadman records into normal bank items."
+    },
+    {
+      "title": "Placeholder (Hallowfell)",
+      "revid": 15290764,
+      "ids": [
+        34035
+      ],
+      "action": "EXCLUDE_CACHE_EVENT",
+      "category": "UNKNOWN",
+      "subcategory": "cache-only",
+      "tags": [],
+      "reason": "Cache-only/unobtainable or LANScape event record. A numeric cache ID is not proof of an ordinary bank item; do not inherit Hallowfell, snelm, teleport or coins roles."
+    },
+    {
+      "title": "Vampyre snail shell",
+      "revid": 15301361,
+      "ids": [
+        34061
+      ],
+      "action": "EXCLUDE_CACHE_EVENT",
+      "category": "UNKNOWN",
+      "subcategory": "cache-only",
+      "tags": [],
+      "reason": "Cache-only/unobtainable or LANScape event record. A numeric cache ID is not proof of an ordinary bank item; do not inherit Hallowfell, snelm, teleport or coins roles."
+    },
+    {
+      "title": "Big red button",
+      "revid": 15331715,
+      "ids": [
+        34388
+      ],
+      "action": "EXCLUDE_CACHE_EVENT",
+      "category": "UNKNOWN",
+      "subcategory": "cache-only",
+      "tags": [],
+      "reason": "Cache-only/unobtainable or LANScape event record. A numeric cache ID is not proof of an ordinary bank item; do not inherit Hallowfell, snelm, teleport or coins roles."
+    },
+    {
+      "title": "Lanscape coins",
+      "revid": 15331681,
+      "ids": [
+        34390
+      ],
+      "action": "EXCLUDE_CACHE_EVENT",
+      "category": "UNKNOWN",
+      "subcategory": "cache-only",
+      "tags": [],
+      "reason": "Cache-only/unobtainable or LANScape event record. A numeric cache ID is not proof of an ordinary bank item; do not inherit Hallowfell, snelm, teleport or coins roles."
+    }
+  ],
+  "context_sources": [
+    {
+      "title": "Dog",
+      "revid": 15359834,
+      "purpose": "Adult digging replaces a spade for Treasure Trails only; menagerie and bank holdings."
+    },
+    {
+      "title": "Puppy",
+      "revid": 15354576,
+      "purpose": "Growth pauses in the bank/inventory; puppies cannot be housed in pet houses."
+    },
+    {
+      "title": "Shark lure",
+      "revid": 15341236,
+      "purpose": "Pack contents are fishing enhancers, not edible food, and fit in the tackle box."
+    }
+  ],
+  "related_corrections": [
+    {
+      "itemId": 30900,
+      "name": "Shark lure",
+      "itemCategory": "SKILLING",
+      "subcategory": "fishing-material",
+      "ironmanTabKey": "resources",
+      "tags": [
+        "fishing-utility",
+        "storage-option-tackle-box"
+      ],
+      "sourceRevision": 15341236
+    }
+  ]
+}

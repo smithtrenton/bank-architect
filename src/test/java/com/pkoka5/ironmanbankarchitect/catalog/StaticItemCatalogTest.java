@@ -129,8 +129,9 @@ public class StaticItemCatalogTest
 	{
 		Set<Integer> uniqueIds = new HashSet<>(VERIFIED_PHASE_B_ITEM_IDS);
 		uniqueIds.addAll(Arrays.asList(34024, 34401, 34428));
-		assertEquals(uniqueIds, StaticItemCatalog.INSTANCE.itemIds());
-		assertEquals(uniqueIds.size(), StaticItemCatalog.INSTANCE.size());
+		assertTrue(StaticItemCatalog.INSTANCE.itemIds().containsAll(uniqueIds));
+		assertEquals(351, StaticItemCatalog.INSTANCE.size());
+		assertEquals(StaticItemCatalog.INSTANCE.size(), StaticItemCatalog.INSTANCE.itemIds().size());
 	}
 
 	@Test
@@ -141,6 +142,51 @@ public class StaticItemCatalogTest
 		assertEquals("Necklace of Fangs", StaticItemCatalog.INSTANCE.describeOrUnknown(34401).getDisplayName());
 		assertEquals("Elemental amulet", StaticItemCatalog.INSTANCE.describeOrUnknown(34428).getDisplayName());
 		assertEquals("neck", StaticItemCatalog.INSTANCE.describeOrUnknown(34428).getSubcategory());
+	}
+
+	@Test
+	public void reviewedSupplementsPreserveFunctionalAndQuestStateBoundaries()
+	{
+		assertCategoryAndTags(34027, ItemCategory.GEAR, "area-damage");
+		assertCategoryAndTags(34063, ItemCategory.GEAR, "snail-protection");
+		assertCategoryAndTags(34407, ItemCategory.GEAR, "spell-enhancement");
+		assertCategoryAndTags(34431, ItemCategory.CLUE, "clue-utility", "storage-option-menagerie");
+		assertCategoryAndTags(34503, ItemCategory.CLUE, "pet-growth");
+		assertFalse(StaticItemCatalog.INSTANCE.describeOrUnknown(34503).hasTag("clue-utility"));
+		assertFalse(StaticItemCatalog.INSTANCE.describeOrUnknown(34503).hasTag("storage-option-menagerie"));
+		assertCategoryAndTags(34030, ItemCategory.TOOL, "light-source");
+		assertCategoryAndTags(34022, ItemCategory.SKILLING, "crafting-utility", "quest-use");
+		assertCategoryAndTags(34575, ItemCategory.CLEANUP, "quest-puzzle");
+		assertCategoryAndTags(34582, ItemCategory.CLEANUP, "quest-decoy");
+		assertFalse(StaticItemCatalog.INSTANCE.describeOrUnknown(34582).hasTag("quest-use"));
+		assertCategoryAndTags(34589, ItemCategory.CLUE, "musical-toy");
+		assertCategoryAndTags(34077, ItemCategory.UNIQUE, "claimable-reward");
+		assertCategoryAndTags(34207, ItemCategory.UNIQUE, "claimable-reward");
+		assertEquals("cosmetic", StaticItemCatalog.INSTANCE.describeOrUnknown(33836).getSubcategory());
+		for (int id : new int[]{33833, 34016, 34035, 34044, 34045, 34046, 34054, 34055, 34056, 34059, 34061, 34388, 34390, 34598, 34599, 34600})
+			assertFalse("excluded bank item " + id, StaticItemCatalog.INSTANCE.containsId(id));
+	}
+
+	@Test
+	public void supplementalResourceRejectsMissingMalformedAndDuplicateRecords()
+	{
+		for (String text : new String[]{"# schema=2\n", "# schema=1\n1\tshort\n",
+			"# schema=1\n1\tTest\tGEAR\tneck\tinvalid tag\t\n",
+			"# schema=1\n1\tTest\tGEAR\tneck\t\t\n1\tDuplicate\tGEAR\tneck\t\t\n"})
+		{
+			try
+			{
+				StaticItemCatalog.loadItems(new java.io.ByteArrayInputStream(text.getBytes(java.nio.charset.StandardCharsets.UTF_8)));
+				throw new AssertionError("expected invalid supplemental resource");
+			}
+			catch (IllegalStateException expected) { }
+		}
+		try
+		{
+			StaticItemCatalog.loadItems(null);
+			throw new AssertionError("expected missing supplemental resource");
+		}
+		catch (IllegalStateException expected) { }
 	}
 
 	private static void assertThrowsIllegalArgument(Runnable action)

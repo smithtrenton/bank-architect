@@ -38,6 +38,8 @@ public class ResourceItemRegistryTest
 	public void rawFishStaysASkillingResourceInsteadOfFood()
 	{
 		assertCategory(383, "Raw shark", ItemCategory.SKILLING);
+		assertCategory(30900, "Shark lure", ItemCategory.SKILLING);
+		assertSubcategory(30900, "fishing-material");
 		assertCategory(371, "Raw swordfish", ItemCategory.SKILLING);
 		assertCategory(373, "Swordfish", ItemCategory.POTION);
 	}

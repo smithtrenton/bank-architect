@@ -1,5 +1,10 @@
 package com.pkoka5.ironmanbankarchitect.catalog;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -8,86 +13,71 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-/**
- * Verified seed workflow items and supplemental items missing from the bundled registry.
- * Unknown IDs are never treated as an error.
- */
+/** Verified exact-ID supplements and seed workflows, independent of generated cache names. */
 public final class StaticItemCatalog implements ItemCatalog
 {
 	public static final StaticItemCatalog INSTANCE = new StaticItemCatalog();
-
-	private final Map<Integer, CatalogItem> itemsById;
+	private final RequiredResource<Map<Integer, CatalogItem>> itemsById = new RequiredResource<>(
+		"supplemental item catalog", () -> loadItems(StaticItemCatalog.class.getResourceAsStream("supplemental-items.tsv")));
 
 	private StaticItemCatalog()
 	{
-		this.itemsById = Collections.unmodifiableMap(buildItems());
 	}
 
-	@Override
-	public Optional<CatalogItem> findById(int itemId)
+	@Override public void requireAvailable()
 	{
-		return Optional.ofNullable(itemsById.get(itemId));
+		itemsById.get();
+	}
+
+	@Override public Optional<CatalogItem> findById(int itemId)
+	{
+		return Optional.ofNullable(itemsById.get().get(itemId));
 	}
 
 	public boolean containsId(int itemId)
 	{
-		return itemsById.containsKey(itemId);
+		return itemsById.get().containsKey(itemId);
 	}
 
 	public int size()
 	{
-		return itemsById.size();
+		return itemsById.get().size();
 	}
 
 	public Set<Integer> itemIds()
 	{
-		return itemsById.keySet();
+		return itemsById.get().keySet();
 	}
 
-	private static Map<Integer, CatalogItem> buildItems()
+	static Map<Integer, CatalogItem> loadItems(InputStream stream)
 	{
+		if (stream == null) throw new IllegalStateException("Missing supplemental item catalog");
 		Map<Integer, CatalogItem> items = new LinkedHashMap<>();
-
-		put(items, 5297, "Irit seed", ItemCategory.FARMING, "herb-seed",
-			tags("herb-seed", "irit", "herblore-source"), "herblore.irit.seed");
-		put(items, 209, "Grimy irit", ItemCategory.HERBLORE, "grimy-herb",
-			tags("herb", "irit", "grimy"), "herblore.irit.grimy");
-		put(items, 259, "Clean irit", ItemCategory.HERBLORE, "clean-herb",
-			tags("herb", "irit", "clean"), "herblore.irit.clean");
-		put(items, 101, "Irit potion (unf)", ItemCategory.HERBLORE, "unfinished-potion",
-			tags("unfinished-potion", "irit"), "herblore.irit.unf");
-		put(items, 221, "Eye of newt", ItemCategory.HERBLORE, "secondary",
-			tags("secondary", "super-attack"), "herblore.irit.secondary");
-		put(items, 145, "Super attack (3)", ItemCategory.POTION, "dose-3",
-			tags("super-attack", "dose-3", "partial-dose"), "herblore.super-attack.3");
-		put(items, 147, "Super attack (2)", ItemCategory.POTION, "dose-2",
-			tags("super-attack", "dose-2", "partial-dose"), "herblore.super-attack.2");
-		put(items, 149, "Super attack (1)", ItemCategory.POTION, "dose-1",
-			tags("super-attack", "dose-1", "partial-dose"), "herblore.super-attack.1");
-
-		put(items, 34024, "Jeweller's chisel", ItemCategory.TOOL, "crafting-tool",
-			Collections.emptySet(), null);
-		// Exact Wiki IDs: oldid=15350594 and oldid=15344299, respectively.
-		put(items, 34401, "Necklace of Fangs", ItemCategory.GEAR, "neck",
-			tags("ranged-gear", "collection-log"), null);
-		put(items, 34428, "Elemental amulet", ItemCategory.GEAR, "neck",
-			tags("magic-gear", "spell-enhancement"), null);
-		return items;
-	}
-
-	private static void put(Map<Integer, CatalogItem> items, int itemId, String displayName, ItemCategory category,
-		String subcategory, Set<String> tags, String workflowKey)
-	{
-		if (items.containsKey(itemId))
+		try (BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8)))
 		{
-			throw new IllegalStateException("Duplicate catalog item ID: " + itemId);
+			if (!"# schema=1".equals(reader.readLine())) throw new IllegalStateException("Invalid supplemental item schema");
+			String line;
+			while ((line = reader.readLine()) != null)
+			{
+				if (line.isEmpty() || line.startsWith("#")) continue;
+				String[] fields = line.split("\\t", -1);
+				if (fields.length != 6) throw new IllegalStateException("Invalid supplemental item row: " + line);
+				int id = Integer.parseInt(fields[0]);
+				ItemCategory category = ItemCategory.valueOf(fields[2]);
+				Set<String> tags = fields[4].isEmpty() ? Collections.emptySet()
+					: new LinkedHashSet<>(Arrays.asList(fields[4].split(",", -1)));
+				if (category == ItemCategory.UNKNOWN || (!fields[4].isEmpty() && tags.size() != fields[4].split(",", -1).length)
+					|| tags.stream().anyMatch(tag -> !tag.matches("[a-z][a-z0-9-]*")))
+					throw new IllegalStateException("Invalid supplemental item roles: " + line);
+				CatalogItem item = new CatalogItem(id, fields[1], category, fields[3], tags, fields[5].isEmpty() ? null : fields[5]);
+				if (items.putIfAbsent(id, item) != null) throw new IllegalStateException("Duplicate supplemental item ID: " + id);
+			}
 		}
-
-		items.put(itemId, new CatalogItem(itemId, displayName, category, subcategory, tags, workflowKey));
-	}
-
-	private static Set<String> tags(String... values)
-	{
-		return new LinkedHashSet<>(Arrays.asList(values));
+		catch (IOException | IllegalArgumentException ex)
+		{
+			throw new IllegalStateException("Cannot read supplemental item catalog", ex);
+		}
+		if (items.isEmpty()) throw new IllegalStateException("Empty supplemental item catalog");
+		return Collections.unmodifiableMap(items);
 	}
 }

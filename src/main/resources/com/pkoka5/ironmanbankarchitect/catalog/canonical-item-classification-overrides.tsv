@@ -3437,3 +3437,7 @@
 29081	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474
 29082	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474
 29083	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474
+
+# Fishing enhancer/bait, not food.
+# https://oldschool.runescape.wiki/w/Special:Redirect/revision/15341236
+30900	SKILLING	fishing-material	Shark lure

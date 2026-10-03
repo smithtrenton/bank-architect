@@ -15,6 +15,9 @@ public class ItemSetCatalogTest
 		assertDomain("gear", 37, 144);
 		assertDomain("tools", 15, 83);
 		assertDomain("cosmetics", 43, 173);
+		assertEquals("Wyrmscraig villager robe top (A)", ItemSetCatalog.cosmeticFamilyOf(33884).get());
+		assertEquals(ItemSetCatalog.cosmeticFamilyOf(33884), ItemSetCatalog.cosmeticFamilyOf(33905));
+		assertEquals("Wyrmscraig villager robe top (B)", ItemSetCatalog.cosmeticFamilyOf(33950).get());
 	}
 
 	private static void assertDomain(String domain, int expectedSets, int expectedItems)

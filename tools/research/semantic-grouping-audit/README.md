@@ -83,6 +83,20 @@ python tools/research/semantic-grouping-audit/check-missing-items.py --coverage 
 
 `summary.json` reports distinct-ID counts; `manifest.json` hashes inputs and exports. Raw Bucket packets under `cache/` preserve queries, source URLs and acquisition times. Existing matching packets are reused; use `--refresh` or a new `--output` directory for a fresh acquisition. The download covers Wiki item infoboxes, not every Jagex cache record, and its missing IDs are candidates for review rather than automatic imports. No live account data is needed.
 
+## Reviewed October 2 missing-item cohort
+
+`policies/missing-items-2026-10-02.json` freezes the original 356 exact IDs at `573d07e`, their 101 source revisions and three contextual articles. Every ID is checked against its specific item infobox; NPC IDs on pet pages never enter the item pool. Reproduce the report independently:
+
+```powershell
+python tools/research/semantic-grouping-audit/review-missing-items.py --fetch --output tmp/missing-item-review-reproduced --coverage tmp/missing-item-audit/semantic-review/coverage-after.tsv
+```
+
+The optional coverage argument verifies every included item's name, category, subcategory, usage roles and Ironman preset destination against the compiled catalog; it also verifies that excluded cohort IDs remain absent. Export it first with `-PauditCoverageOutput=...` as above. Acquisition uses pinned revision IDs, so a changed current article cannot silently change a reviewed decision. Raw acquisition packets preserve timestamps and URLs. The builder fails on missing revisions, ambiguous item IDs, changed exact-ID pools, unsupported names or unbankable items included by policy.
+
+The cohort partitions into 340 recognized additions, 12 explicitly unbankable records and four cache/event records. Fifty-five of the 150 port reward bags have no current source in their individual infobox section; all exact variants remain recognized conservatively for possible stored holdings. This does not assert that those 55 are currently obtainable. Puppy and adult dog roles differ; original Crab Quest shells differ from the later musical toy forms; source colour/style identities are preserved in eight cosmetic families (58 IDs). Hallowfell area damage, Vampyre snelm snail protection and elemental spell enhancements are functional retention roles. The related canonical shark lure (30900) is a Fishing enhancer rather than food.
+
+`semantic-review.csv`, `.json` and the searchable `.html` contain all 356 decisions and pinned links. `semantic-groups.json` records the 101 explicit source variant pools without declaring their members interchangeable. `related-corrections.json` records the existing-catalog correction, and `review-summary.json` hashes the policy and articles. Generated TSVs stage the 340 entries and eight cosmetic families; they never write production files automatically. The installed `supplemental-items.tsv` combines those additions with the 11 existing seed/supplement entries and retains per-source attribution. The generated registry and its fixed simulation universe remain unchanged.
+
 ## Attribution
 
 OSRS Wiki facts and page text: [OSRS Wiki](https://oldschool.runescape.wiki/), CC BY-NC-SA 3.0. Bucket snapshots retain their query URLs and retrieval timestamps; article acquisitions and curated source metadata retain revision links where available. Bucket rows do not include per-page revision IDs. Bucket schema: [RuneScape:Bucket](https://oldschool.runescape.wiki/w/RuneScape:Bucket). Local memberships and effective classification are this repository's original baseline. Preserve attribution and confidence/scope fields when sharing derived research.
