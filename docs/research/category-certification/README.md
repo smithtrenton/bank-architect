@@ -1,0 +1,23 @@
+# Default preset certification ledger
+
+The current default preset is not fully certified. This snapshot independently approves 867 of the 34,085 frozen assignments: 230 applied corrections and 637 unchanged clue-scroll placements. The remaining 33,218 IDs are unresolved. Agent candidate certificates and proposed revisions do not add to these approval counts.
+
+`approved-assignments.tsv` has one row for every exact numeric ID. `ownerShard` retains the original disjoint review ownership, even after a correction changes category. `decision=revise` denotes an approved correction already verified in the current compiled export; `certify` confirms the existing primary placement. `unresolved` retains the original category/subcategory/tab only as reference. `sourceRevisions` lists the pinned revisions cited by approved rows; `-` means none is approved. The TSV does not reproduce evidence excerpts or supplemental-role claims.
+
+`approved-assignments-manifest.json` records the full decision JSONL hash, TSV hash, source-input hashes, approval-policy hashes and replay-script hashes. Full decisions and the pinned Wiki corpus are local ignored research inputs under `tmp/category-certification/`; a fresh checkout requires the matching frozen inputs to reproduce the audit. The six committed correction policies and clue rule retain exact-ID evidence and the approved rule boundary. LF attributes preserve the byte hashes across Windows checkouts.
+
+Scope is primary category, subcategory and Ironman tab. Existing tags are preserved unless an approved correction explicitly adds sourced tags. Unknown secondary roles remain unassessed rather than being treated as absent. Cache flags, unbankability, name families, source availability and a successful artifact-integrity gate cannot certify primary semantics.
+
+From the repository root, with the matching local frozen inputs:
+
+```powershell
+C:/Users/smith/.local/bin/python.exe tools/research/semantic-grouping-audit/certification/review-approved-clue-scrolls.py
+C:/Users/smith/.local/bin/python.exe tools/research/semantic-grouping-audit/certification/emit-root-approved-decisions.py --certifications tmp/category-certification/reviews/root-clue-scrolls/decisions.jsonl --output tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl --summary-tsv docs/research/category-certification/approved-assignments.tsv --manifest docs/research/category-certification/approved-assignments-manifest.json
+C:/Users/smith/.local/bin/python.exe tools/research/semantic-grouping-audit/certification/ledger.py validate --packets tmp/category-certification/reviewer-packets tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl
+C:/Users/smith/.local/bin/python.exe tools/research/semantic-grouping-audit/certification/ledger.py audit-sources --packets tmp/category-certification/reviewer-packets tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl
+C:/Users/smith/.local/bin/python.exe tools/research/semantic-grouping-audit/certification/ledger.py verify-applied --coverage tmp/category-certification/after-coverage.tsv tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl
+```
+
+The clue producer recomputes the strict exact-ID rule from raw pinned pages. The emitter rejects optional clue evidence or semantic fields that differ from the recomputed proof, and it never reads the current export to invent proposed targets. The three gates separately check ownership/schema, evidence integrity and applied targets. Expected results are 34,085 accounted rows, 867 actionable decisions, 1,122 exact Wiki evidence records verified, and 33,218 unresolved rows skipped by source/applied checks. They do not independently establish semantic approval.
+
+Production validation and the applied correction details are recorded in `../category-certification-checkpoint-october-3.md`. These files are developer research artifacts and are not loaded by the plugin.

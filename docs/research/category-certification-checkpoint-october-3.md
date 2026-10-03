@@ -1,6 +1,6 @@
 # Category certification checkpoint — 3 October 2026
 
-The current default preset has **not** been fully semantically certified. The earlier full-export passes and the completed 356 missing-item review do not establish correctness of every current assignment. This checkpoint applies 230 independently reviewed exact-ID corrections; all other pending reviewer findings remain outside production.
+The current default preset has **not** been fully semantically certified. The earlier full-export passes and the completed 356 missing-item review do not establish correctness of every current assignment. This checkpoint records 230 independently reviewed and applied exact-ID corrections plus 637 independently confirmed clue-scroll placements: 867 approved primary assignments in total. The other 33,218 assignments remain unapproved in the authoritative ledger; reviewer candidates are not counted as approvals.
 
 ## Scope and evidence
 
@@ -39,7 +39,7 @@ Five explicitly fun/social weapons move to Cosmetics: undead chicken, clueless s
 
 Empty Fire, Water and Earth tomes retain magic attack/defence bonuses according to their exact articles. Their catalog placement is now Gear, and the Ironman preset's explicit Loot override was removed. The new `combat-passive` usage fact protects supported passive equipment from automatic alchemy routing; each tagged exact ID has a literal mechanic excerpt in the approved policy.
 
-The latest 42 corrections place 36 weapon states in the literal two-handed slot. Each exact state has a pinned article, selected item-variant fields and source slot excerpt. Broken barrelchest anchor 10888 follows its explicitly documented paid repair workflow; the classification does not claim that its Drop-only broken state can currently attack. The three fully degraded Barrows weapons remain unchanged while their repair source is reviewed. House-only boxing gloves 7671 and 7673 remain unresolved pending the activity-copy routing choice.
+The latest 42 corrections place 36 weapon states in the literal two-handed slot. Each exact state has a pinned article, selected item-variant fields and source slot excerpt. Broken barrelchest anchor 10888 follows its explicitly documented paid repair workflow; the classification does not claim that its Drop-only broken state can currently attack. The three fully degraded Barrows weapons remain unchanged in production. Their exact item articles invoke the pinned Barrows repair template, which independently establishes the repair workflow; those additional corrections are approved in principle but are not included in the applied 230-case policy set yet. House-only boxing gloves 7671 and 7673 remain unresolved pending the activity-copy routing choice.
 
 Six items leave equipment: the black-amulet crafting-interface icon goes to Cleanup; amulet of nature follows its repeatable crop-monitoring tool function; uncooked egg is a Cooking input; scrambled egg and edible bowl of sweetcorn go to Food; and tarnished amulet follows its Crafting restoration workflow. Direct mechanics also support added farming utility, shade damage, special attack and prayer roles for the applicable exact IDs.
 
@@ -60,5 +60,17 @@ A fresh compiled export confirms all 230 category/subcategory targets and change
 The independent equipment-source verifier compares 2,184 candidate certificates and 37 candidate slot revisions against raw pinned item/bonus templates. It confirms exact item-variant bindings, current usable options, slot and 14 bonus fields for all 2,221 rows, with no contradictions or ambiguities. This establishes source agreement only; primary-function rule review remains separate and those candidate certificates are not represented as root-approved certification.
 
 The root Cleanup ledger now covers all 12,104 assigned rows: 141 approved corrections and 11,963 unresolved. Its source gate verifies 205 Wiki records, including exact variant fields and usage mechanics, and its applied-target gate passes against the fresh export. These gates cover this ledger; they do not certify the other shards. The six approved policies together supply the 230 reviewed corrections; unresolved reviewer proposals remain outside production.
+
+## Authoritative per-item ledger
+
+`category-certification/approved-assignments.tsv` accounts for all 34,085 frozen IDs. It records 230 applied revisions, 637 unchanged primary placements certified by the strict clue-scroll rule, and 33,218 unresolved assignments. The manifest beside it pins the six approval policies, the clue rule, replay scripts, article index, original coverage, ownership packets and full decision output. Unresolved rows retain their original category/subcategory/tab for reference; that is not an endorsement.
+
+The clue rule independently requires one exact raw numeric-ID item binding, a standard clue-scroll name, a Read option, equipable=No, a literal subject definition identifying a Treasure Trails clue type, and actual clue-step content. All 637 IDs passed. The merge recomputes that predicate from pinned pages and rejects changed proof records. It preserves existing tags without claiming to have re-proved them; the only assessed supplemental role is `treasure_trail_step`.
+
+The merged full ledger passes ownership/schema validation, verifies 1,122 pinned exact-ID Wiki evidence records for 867 actionable decisions, and checks all 867 current runtime targets. It separately reports the 33,218 unresolved rows skipped by the latter gates. Integrity and application checks do not establish semantic approval by themselves, even when a reviewer ledger covers the full export.
+
+Independent full-page review rejected candidate spell-rune certificates for the five Slug Menace quest runes: their own articles explicitly state that they cannot replace ordinary runes in spells. They remain outside the approved ledger while the corrections are prepared. This demonstrates why passing provenance gates is insufficient to accept candidate semantics.
+
+Replay commands and scope limitations are documented in `category-certification/README.md`. The full source corpus and decision JSONL stay under local ignored `tmp/`; the compact per-ID ledger and its input hashes are committed research artifacts, not production catalog data.
 
 Upstream was fetched before this checkpoint; the branch contains its current `main` tip without a rebase gap. Full semantic certification remains active and incomplete.
