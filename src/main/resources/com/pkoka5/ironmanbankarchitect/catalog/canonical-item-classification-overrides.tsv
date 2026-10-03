@@ -3660,3 +3660,5 @@
 29000	GEAR	2h	Eclipse atlatl; Wiki revision 15356407
 33693	SKILLING	crafting-jewellery	Tarnished amulet; Wiki revision 15290738
 10888	GEAR	2h	Barrelchest anchor; Wiki revision 15295166
+# Root-reviewed Tool subtype correction; certification/tool-subcategory-approved-policy.json
+21754	TOOL	slayer-tool	Rock thrownhammer: exact Slayer gargoyle finisher, including ranged reach

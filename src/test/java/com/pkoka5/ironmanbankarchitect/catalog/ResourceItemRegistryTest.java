@@ -1369,7 +1369,7 @@ public class ResourceItemRegistryTest
 	@Test
 	public void exactSlayerAndWintertodtUtilitiesDoNotPolluteCombatGear()
 	{
-		int[] slayerTools = {3337, 4156, 4551, 6720, 7159, 31398};
+		int[] slayerTools = {3337, 4156, 4551, 6720, 7159, 21754, 31398};
 		for (int itemId : slayerTools)
 		{
 			assertCategoryOnly(itemId, ItemCategory.TOOL);

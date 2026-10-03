@@ -1,0 +1,2861 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "scope": "51 unchanged ordinary Farming seed assignments; existing tags retained and supplemental roles unassessed",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "expectedCaseCount": 51,
+  "reviewedPrimaryRule": "The exact ordinary seed own full subject definition directly establishes planting/growing through the Farming skill, patch or plant-pot workflow. Each ID has its own numeric Wiki binding and non-equipment stackable Drop state. The approved targets remain FARMING/farming/seeds-farming. Harvested crop functions and ordinary minigame acquisition are separate context. Actual seed bait/pet uses do not erase Farming primary use; no exhaustive-role assertion is approved. Only the explicit 51 exact IDs are included.",
+  "sourceInputPaths": {
+    "articleIndex": "tmp/category-certification/wiki-articles/article-index.json",
+    "materialsPacket": "tmp/category-certification/reviewer-packets/skilling-farming.jsonl",
+    "literalPacket": "tmp/category-certification/reviews/materials-positive-cohorts/20261003-farming-seed-literal-v2/root-review-packet.json",
+    "independentReview": "tmp/category-certification/reviews/materials-positive-cohorts/20261003-farming-seeds-corrected/root-review/independent-semantic-review.json",
+    "rootReadRecord": "tmp/category-certification/root-review/farming-51-main-thread-source-review-v1.json",
+    "immutableRootDraft": "tmp/category-certification/root-review/farming-primary-root-reviewed-draft.json",
+    "draftIndependentAudit": "tmp/root-review/farming-primary-draft-independent-audit.json"
+  },
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "materialsPacket": "415b1b0ecc9ea35cad7d1b0eb7476110472dc113231ebe61294ef94120345ddb",
+    "literalPacket": "88734dda247ec388b7186d7cffc610662bdb3f2eafe09ba4c75604e547c4a8cf",
+    "independentReview": "d12bb24d56cd8dbe9190594a62672253d6b3d9ec83508aa0a37ac2abe4a5c65f",
+    "rootReadRecord": "27e5a23a5374a6aa8639540369339eb46afd1950689ea5e6562a79a52263948f",
+    "immutableRootDraft": "bdb8d147281ef26a3cc8c5849910dde1d1a38b1c910e1c23fac647f97a4c9eb6",
+    "draftIndependentAudit": "f6c726c528e5de5cdf1a5097ac92ed0c92f7b0d6c0257591cc9d373a833a025c"
+  },
+  "reviewRecord": "All 51 own-subject definitions and exact numeric-ID, Drop, non-equipment, stackable, non-note, tradeable and quest-No states; all 51 material planting/growing, acquisition/access and competing-function contexts. Previously truncated Asgarnian harvest paragraph and Yanillian state/lead were reread fully. New raw literal definitions were cross-checked for the first 31 already-read raw sources. No truncated output is counted as a read. Each exact item is planted or grown in the Farming skill; existing FARMING/farming/seeds-farming placement is supported. Harvested food, herb, dye, logs, battlestaff bark and gardener payments describe downstream crops and do not change the seed primary function. Own bird-house bait and Tangleroot appearance uses remain separately documented and unassessed secondary roles. Acquisition in minigames does not restrict ordinary seeds to those minigames. Magic seed is an ordinary Farming tree seed. The original immutable51case draft and independent51case audit are pinned separately. Literal150v2 corrects two unapproved Maple-seedling switch definitions; the51approved cases and126secondarycitations are unchanged acrossv1/v2 and were explicitly cross-checked. The broader150 review does not approve any remainingheld item.",
+  "cases": [
+    {
+      "itemId": 5096,
+      "title": "Marigold seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Marigold seed detail.png|left|160px]]\r\n'''Marigold seeds''' can be planted in a [[flower patch]] at level 2 [[Farming]] to yield [[marigolds]], which are used to make [[imp repellent]] or as payment to protect [[Hammerstone Hops (plant)|hammerstone hops]] (x1). When fully grown, it protects [[Potato plant|potato]], [[Onion plant|onion]], and [[Tomato plant|tomato]] plants in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease]].",
+      "positiveFunctionExcerpt": "[[File:Marigold seed detail.png|left|160px]]\r\n'''Marigold seeds''' can be planted in a [[flower patch]] at level 2 [[Farming]] to yield [[marigolds]], which are used to make [[imp repellent]] or as payment to protect [[Hammerstone Hops (plant)|hammerstone hops]] (x1). When fully grown, it protects [[Potato plant|potato]], [[Onion plant|onion]], and [[Tomato plant|tomato]] plants in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease]].",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will '''not''' watch over growing [[marigold]]s. It is recommended to use [[compost]] when planting them.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]]."
+      ],
+      "sourceRevision": 15356188,
+      "sourceSha256": "7f4d6a3ade082ec42a3a0e4db6756e4ed80e545ac046289773c18b9b610e3aab",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5096"
+        },
+        {
+          "field": "name",
+          "value": "Marigold seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A marigold seed - plant in a flower patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5097,
+      "title": "Rosemary seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Rosemary seed detail.png|left|160px]]\r\n'''Rosemary seeds''' can be planted in a [[flower patch]] at level 11 [[Farming]] to yield [[rosemary]]. When fully grown, it protects [[Cabbages (plant)|cabbages]] in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease]].",
+      "positiveFunctionExcerpt": "[[File:Rosemary seed detail.png|left|160px]]\r\n'''Rosemary seeds''' can be planted in a [[flower patch]] at level 11 [[Farming]] to yield [[rosemary]]. When fully grown, it protects [[Cabbages (plant)|cabbages]] in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease]].",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will '''not''' watch over a growing [[Rosemary (plant)|rosemary plant]]. It is recommended to use [[compost]] when planting them.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]]."
+      ],
+      "sourceRevision": 15356182,
+      "sourceSha256": "b7c23b4be777aa380fc2a2f216f5c65f588d8111e056abce6cd8737cdcc473bd",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5097"
+        },
+        {
+          "field": "name",
+          "value": "Rosemary seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A rosemary seed - plant in a flower patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5098,
+      "title": "Nasturtium seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Nasturtium seed detail.png|left|160px]]\r\n'''Nasturtium seeds''' can be planted in a [[flower patch]] at level 24 [[Farming]] to yield [[nasturtiums]], which are used as payment to protect [[Wildblood Hops (plant)|wildblood hops]] (x1). When fully grown, it protects [[watermelons]] in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease]].",
+      "positiveFunctionExcerpt": "[[File:Nasturtium seed detail.png|left|160px]]\r\n'''Nasturtium seeds''' can be planted in a [[flower patch]] at level 24 [[Farming]] to yield [[nasturtiums]], which are used as payment to protect [[Wildblood Hops (plant)|wildblood hops]] (x1). When fully grown, it protects [[watermelons]] in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease]].",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will '''not''' watch over growing [[nasturtium]]s. It is recommended to use [[compost]] when planting them.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15356189,
+      "sourceSha256": "6fbdbd750ac8f313a38476a8a5f1ce8864ed43f4d82b1a34120692604245d70f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5098"
+        },
+        {
+          "field": "name",
+          "value": "Nasturtium seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A nasturtium seed - plant in a flower patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5099,
+      "title": "Woad seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Woad seed detail.png|left|150px]]\r\n'''Woad seeds''' can be planted in a [[flower patch]] at level 25 [[Farming]] to yield [[Woad leaf|woad leaves]], which are used to make [[blue dye]] and, by extension, [[Green dye|green]] and [[purple dye]].",
+      "positiveFunctionExcerpt": "[[File:Woad seed detail.png|left|150px]]\r\n'''Woad seeds''' can be planted in a [[flower patch]] at level 25 [[Farming]] to yield [[Woad leaf|woad leaves]], which are used to make [[blue dye]] and, by extension, [[Green dye|green]] and [[purple dye]].",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will '''not''' watch over a growing [[woad plant]]. It is recommended to use [[compost]] when planting them.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15184277,
+      "sourceSha256": "cf8e0a65bc5ec661e259ee224465baeb8f32dd80897dd97775e50af5945db7c7",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5099"
+        },
+        {
+          "field": "name",
+          "value": "Woad seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A woad seed - plant in a flower patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5101,
+      "title": "Redberry seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Redberry seed detail.png|left|180px]]\r\n'''Redberry seeds''' can be planted in a [[bush patch]] at level 10 [[Farming]] to yield [[redberries]], which are used in [[Cooking]] to make [[redberry pie]]s or to create [[dye]]s.",
+      "positiveFunctionExcerpt": "[[File:Redberry seed detail.png|left|180px]]\r\n'''Redberry seeds''' can be planted in a [[bush patch]] at level 10 [[Farming]] to yield [[redberries]], which are used in [[Cooking]] to make [[redberry pie]]s or to create [[dye]]s.",
+      "secondaryExcerpts": [
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15185806,
+      "sourceSha256": "7fa6001f9c55d0dad324c6967a850b3cd7550e74c463c9a04b1ad358d7332986",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5101"
+        },
+        {
+          "field": "name",
+          "value": "Redberry seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A redberry bush seed - plant in a bush patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5102,
+      "title": "Cadavaberry seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Cadavaberry seed detail.png|left|180px]]\r\n'''Cadavaberry seeds''' can be planted in a [[bush patch]] at level 22 [[Farming]] to yield [[cadava berries]], which are used as payment to protect [[Cactus (Farming)|cactus]] (x6).",
+      "positiveFunctionExcerpt": "[[File:Cadavaberry seed detail.png|left|180px]]\r\n'''Cadavaberry seeds''' can be planted in a [[bush patch]] at level 22 [[Farming]] to yield [[cadava berries]], which are used as payment to protect [[Cactus (Farming)|cactus]] (x6).",
+      "secondaryExcerpts": [
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15185807,
+      "sourceSha256": "2e278b24394eefa59aaaa2138634afe786365a81c2d29bc3107778178a2a2934",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5102"
+        },
+        {
+          "field": "name",
+          "value": "Cadavaberry seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A cadavaberry bush seed - plant in a bush patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5103,
+      "title": "Dwellberry seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Dwellberry seed detail.png|left|180px]]\r\n'''Dwellberry seeds''' can be planted in a [[bush patch]] at level 36 [[Farming]] to yield [[dwellberries]], which are used in [[quests]] and [[gnome cooking]].",
+      "positiveFunctionExcerpt": "[[File:Dwellberry seed detail.png|left|180px]]\r\n'''Dwellberry seeds''' can be planted in a [[bush patch]] at level 36 [[Farming]] to yield [[dwellberries]], which are used in [[quests]] and [[gnome cooking]].",
+      "secondaryExcerpts": [
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15185808,
+      "sourceSha256": "ddb978d649e18c7bb330d9d85ea6eea558adb54f11f1953761e591ce1ff2d9c3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5103"
+        },
+        {
+          "field": "name",
+          "value": "Dwellberry seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A dwellberry bush seed - plant in a bush patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5104,
+      "title": "Jangerberry seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Jangerberry seed detail.png|left|180px]]\r\n'''Jangerberry seeds''' can be planted in a [[bush patch]] at level 48 [[Farming]] to yield [[jangerberries]], which are used in [[Herblore]] to make [[Zamorak brew]]s or as protection payment for [[Snape grass plant|snape grass]] (x5).",
+      "positiveFunctionExcerpt": "[[File:Jangerberry seed detail.png|left|180px]]\r\n'''Jangerberry seeds''' can be planted in a [[bush patch]] at level 48 [[Farming]] to yield [[jangerberries]], which are used in [[Herblore]] to make [[Zamorak brew]]s or as protection payment for [[Snape grass plant|snape grass]] (x5).",
+      "secondaryExcerpts": [
+        "Jangerberry seeds are dropped by many [[monster]]s. They can also be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15184257,
+      "sourceSha256": "1a752fb0b94bb03cd0af7e142b419fcdc75dfc08fc7f1ae1d055f9164de8301e",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5104"
+        },
+        {
+          "field": "name",
+          "value": "Jangerberry seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A jangerberry bush seed - plant in a bush patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5105,
+      "title": "Whiteberry seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Whiteberry seed detail.png|left|180px]]\r\n'''Whiteberry seeds''' can be planted in a [[bush patch]] at level 59 [[Farming]] to yield [[white berries]], which are used in [[Herblore]] to make [[defence potion]]s and [[super defence]]s.",
+      "positiveFunctionExcerpt": "[[File:Whiteberry seed detail.png|left|180px]]\r\n'''Whiteberry seeds''' can be planted in a [[bush patch]] at level 59 [[Farming]] to yield [[white berries]], which are used in [[Herblore]] to make [[defence potion]]s and [[super defence]]s.",
+      "secondaryExcerpts": [
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15184167,
+      "sourceSha256": "b3d3a4fd802f8afbab99a73f794de103f98ef574148c76808ba3378bd1fa65a5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5105"
+        },
+        {
+          "field": "name",
+          "value": "Whiteberry seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A whiteberry bush seed - plant in a bush patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5106,
+      "title": "Poison ivy seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Whiteberry seed detail.png|left|180px]]\r\n'''Poison ivy seeds''' can be planted in a [[bush patch]] at level 70 [[Farming]] to yield [[poison ivy berries]], which are used in [[Herblore]] to make [[weapon poison(++)]] or as protection payment for [[calquat tree]]s (x8).",
+      "positiveFunctionExcerpt": "[[File:Whiteberry seed detail.png|left|180px]]\r\n'''Poison ivy seeds''' can be planted in a [[bush patch]] at level 70 [[Farming]] to yield [[poison ivy berries]], which are used in [[Herblore]] to make [[weapon poison(++)]] or as protection payment for [[calquat tree]]s (x8).",
+      "secondaryExcerpts": [
+        "There is no need to pay a [[Group of Advanced Gardeners|gardener]] to watch over a growing [[Poison Ivy bush|poison ivy bush]] because \"it is pretty hardy stuff, and most animals will avoid eating it.\" For this reason, they will never become [[Disease (Farming)|diseased]], and there is no benefit to adding compost to the soil.",
+        "Poison ivy seeds are dropped by many [[monster]]s. They can also be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s.",
+        "Harvesting poison ivy berries from the patch near the [[Ardougne Monastery]] is a task in the [[Ardougne Diary#Hard|hard Ardougne Diary]].",
+        "Let's say you are level 50 farming, and have an irit plant ready to harvest and a guam plant. The chances come in with whether you lose a life or not each pick of a herb."
+      ],
+      "sourceRevision": 15185188,
+      "sourceSha256": "d75220f0004c3881df5f40714395ec3d89f7a919cc2baaac451af44be82a02c6",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5106"
+        },
+        {
+          "field": "name",
+          "value": "Poison ivy seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A poison ivy bush seed - plant in a bush patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5280,
+      "title": "Cactus seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Cactus seed detail.png|left|180px]]\r\n'''Cactus seeds''' can be planted in a [[Farming/Patch locations#Cactus_patches|cactus patch]] found in [[Al Kharid]] and the [[Farming Guild]]. They require level 55 [[Farming]] to plant and after 9 hours and 20 minutes of growth time will produce a [[Cactus (Farming)|cactus]]. Players can harvest [[cactus spine]]s from the mature plant, which often fetch a high price due to their uses in [[Farming]] and [[Herblore]].",
+      "positiveFunctionExcerpt": "[[File:Cactus seed detail.png|left|180px]]\r\n'''Cactus seeds''' can be planted in a [[Farming/Patch locations#Cactus_patches|cactus patch]] found in [[Al Kharid]] and the [[Farming Guild]]. They require level 55 [[Farming]] to plant and after 9 hours and 20 minutes of growth time will produce a [[Cactus (Farming)|cactus]]. Players can harvest [[cactus spine]]s from the mature plant, which often fetch a high price due to their uses in [[Farming]] and [[Herblore]].",
+      "secondaryExcerpts": [
+        "[[Ayesha]] in Al Kharid or [[Alan (Farming Guild)|Alan]] in the Farming Guild will look after your growing cactus plant in exchange for 6 [[cadava berries]].",
+        "Cactus seeds are dropped by [[aberrant spectre]]s, [[dagannoth]], [[ice giant]]s, [[moss giants]], [[ogre]]s, [[cave horror]]s and other monsters. They can also be obtained by pickpocketing a [[Master Farmer]].\r\n{{Listen\r\n|title = [[A Healthy Cactus]]\r\n|align = right\r\n|filename = A Healthy Cactus.ogg\r\n|desc = The track that plays upon checking the health of cacti.}}"
+      ],
+      "sourceRevision": 15264131,
+      "sourceSha256": "bc8003b0523097ce0cba1216c06a7225a82b81790dc641025f27e0d072f18bd8",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5280"
+        },
+        {
+          "field": "name",
+          "value": "Cactus seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A Cactus seed - plant in a cactus patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5281,
+      "title": "Belladonna seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Belladonna seed detail.png|left|180px]]\r\n'''Belladonna seeds''' can be planted in the [[Special patches#Special patches|belladonna patches]] in [[Draynor Manor]] and [[Auburnvale]] at level 63 [[Farming]] to yield [[nightshade]], which is used in [[Herblore]] to make [[weapon poison(++)]] or as an addition to [[dynamite]] for [[Dynamite(p)|poison dynamite]].",
+      "positiveFunctionExcerpt": "[[File:Belladonna seed detail.png|left|180px]]\r\n'''Belladonna seeds''' can be planted in the [[Special patches#Special patches|belladonna patches]] in [[Draynor Manor]] and [[Auburnvale]] at level 63 [[Farming]] to yield [[nightshade]], which is used in [[Herblore]] to make [[weapon poison(++)]] or as an addition to [[dynamite]] for [[Dynamite(p)|poison dynamite]].",
+      "secondaryExcerpts": [
+        "There is no nearby [[Group of Advanced Gardeners|gardener]] to watch over growing [[belladonna]]. It is recommended to use [[compost]] when planting them.",
+        "Belladonna seeds are dropped by many [[monster]]s. They can also be [[Thieving|stolen]] from [[Master Farmer|master farmers]] or obtained from [[seed pack]]s."
+      ],
+      "sourceRevision": 15338753,
+      "sourceSha256": "372305a75d13b77e767a3980a0d6240bdd1ca37fb10beb761247f15469b30816",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5281"
+        },
+        {
+          "field": "name",
+          "value": "Belladonna seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Also known as Deadly Nightshade - plant in a belladonna patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5283,
+      "title": "Apple tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Apple tree seed detail.png|left|180px]]\r\nAn '''apple tree seed''' grows into an [[Apple tree]] which produces [[cooking apple]]s. Players with a [[Farming]] level of 27 can grow Apple trees in a [[fruit tree patch]]. An Apple tree will take 16 hours to grow completely.",
+      "positiveFunctionExcerpt": "[[File:Apple tree seed detail.png|left|180px]]\r\nAn '''apple tree seed''' grows into an [[Apple tree]] which produces [[cooking apple]]s. Players with a [[Farming]] level of 27 can grow Apple trees in a [[fruit tree patch]]. An Apple tree will take 16 hours to grow completely.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15287173,
+      "sourceSha256": "991a244dc84d95d1d0e00e7d81e2926f37c07ab83b76e72ac9dd88c8bccc886f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5283"
+        },
+        {
+          "field": "name",
+          "value": "Apple tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5284,
+      "title": "Banana tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Banana tree seed detail.png|left|180px]]\r\n'''Banana tree seeds''' may be grown into a [[Banana tree (Farming)|banana tree]] which gives 6 [[banana]]s per harvest. They can be occasionally obtained from [[bird nest]]s. Level 33 [[Farming]] is required to plant it; before planting into the [[fruit tree patch]], the seed must first be planted into a plant pot and watered.",
+      "positiveFunctionExcerpt": "[[File:Banana tree seed detail.png|left|180px]]\r\n'''Banana tree seeds''' may be grown into a [[Banana tree (Farming)|banana tree]] which gives 6 [[banana]]s per harvest. They can be occasionally obtained from [[bird nest]]s. Level 33 [[Farming]] is required to plant it; before planting into the [[fruit tree patch]], the seed must first be planted into a plant pot and watered.",
+      "secondaryExcerpts": [
+        "Banana tree seeds are not as popular as other tree seeds, due to the low value of their harvest, and the high cost of their gardener's payment."
+      ],
+      "sourceRevision": 15287174,
+      "sourceSha256": "3e92a636b51d99ffc136b36b6da11bf77c179304ad47fbef1ed92f1d31391988",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5284"
+        },
+        {
+          "field": "name",
+          "value": "Banana tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5285,
+      "title": "Orange tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Orange tree seed detail.png|left|180px]]\r\n'''Orange tree seeds''' may be grown into a [[orange tree]] which gives [[orange]]s. You must have level 39 [[Farming]] to plant it. To plant it, you will need to put it into a [[plant pot]] and water with a [[watering can]] to turn it into a [[orange sapling]]. Then you can put it into a [[fruit tree patch]] with a [[gardening trowel]].",
+      "positiveFunctionExcerpt": "[[File:Orange tree seed detail.png|left|180px]]\r\n'''Orange tree seeds''' may be grown into a [[orange tree]] which gives [[orange]]s. You must have level 39 [[Farming]] to plant it. To plant it, you will need to put it into a [[plant pot]] and water with a [[watering can]] to turn it into a [[orange sapling]]. Then you can put it into a [[fruit tree patch]] with a [[gardening trowel]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15287175,
+      "sourceSha256": "7019910716942b67ce543da469820565e8d94c0378415f1f6940fccb7a9d7cc7",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5285"
+        },
+        {
+          "field": "name",
+          "value": "Orange tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5286,
+      "title": "Curry tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Curry tree seed detail.png|left|180px]]\r\n'''Curry tree seeds''' may be grown into a [[curry tree]] which gives [[Curry leaf|curry leaves]]. Curry tree seeds are obtained from [[bird nest]]s or by trading. Players must have level 42 [[Farming]] to plant this seed. It takes 5 minutes for the potted curry tree seed to mature into a sapling and 960 minutes (16 hours) for the planted sapling to become a full curry tree.",
+      "positiveFunctionExcerpt": "[[File:Curry tree seed detail.png|left|180px]]\r\n'''Curry tree seeds''' may be grown into a [[curry tree]] which gives [[Curry leaf|curry leaves]]. Curry tree seeds are obtained from [[bird nest]]s or by trading. Players must have level 42 [[Farming]] to plant this seed. It takes 5 minutes for the potted curry tree seed to mature into a sapling and 960 minutes (16 hours) for the planted sapling to become a full curry tree.",
+      "secondaryExcerpts": [
+        "A nearby gardener will watch over your growing curry tree at the cost of a payment of 5 [[Bananas|baskets of bananas]]."
+      ],
+      "sourceRevision": 15287178,
+      "sourceSha256": "aad9fb95372e3a228bbf75e6e237e31fc028d59ad5d450261410bbbab52cffb8",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5286"
+        },
+        {
+          "field": "name",
+          "value": "Curry tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5287,
+      "title": "Pineapple seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Pineapple seed detail.png|left|180px]]\r\n'''Pineapple seeds''' may be grown into a [[pineapple plant]] which gives [[pineapple]]s. Level 51 [[Farming]] is required to plant it.",
+      "positiveFunctionExcerpt": "[[File:Pineapple seed detail.png|left|180px]]\r\n'''Pineapple seeds''' may be grown into a [[pineapple plant]] which gives [[pineapple]]s. Level 51 [[Farming]] is required to plant it.",
+      "secondaryExcerpts": [
+        "A nearby gardener will watch over your growing pineapple plant at the cost of 10 [[watermelon]]s either noted or unnoted.",
+        "To plant it, you must use it with a [[Empty plant pot|plant pot]] filled with dirt while having a [[gardening trowel]] in your [[inventory]], then water it with a [[watering can]] to get a [[pineapple seedling]]. Then wait for approximately 5 minutes for it to become a [[pineapple sapling]]. Transfer the sapling to the patch. It takes 960 minutes (roughly 16 hours) to finish growing. A standard 6 pineapples grow from the plant. You can visually see each of the 6 pineapples being taken from the stalk as it is harvested."
+      ],
+      "sourceRevision": 15287179,
+      "sourceSha256": "10ad4030f5a3394a80087bc08fb131946be323e68df391303592aac7f1dff90f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5287"
+        },
+        {
+          "field": "name",
+          "value": "Pineapple seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5288,
+      "title": "Papaya tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Papaya tree seed detail.png|left|180px]]\r\n'''Papaya tree seeds''' may be grown into a [[papaya tree]] by planting the seed in a [[filled plant pot]], watering it and then planting the [[Papaya sapling|sapling]] into a [[fruit tree patch]]. The tree will give 6 [[papaya fruit|papayas]] at a full harvest, and the papayas will regrow over time. Players must have level 57 [[Farming]] to plant it. The tree takes a minimum of 960 minutes (roughly 16 hours) to finish growing. Seeds may be obtained as drops from various monsters as well as from [[bird nest]]s.",
+      "positiveFunctionExcerpt": "[[File:Papaya tree seed detail.png|left|180px]]\r\n'''Papaya tree seeds''' may be grown into a [[papaya tree]] by planting the seed in a [[filled plant pot]], watering it and then planting the [[Papaya sapling|sapling]] into a [[fruit tree patch]]. The tree will give 6 [[papaya fruit|papayas]] at a full harvest, and the papayas will regrow over time. Players must have level 57 [[Farming]] to plant it. The tree takes a minimum of 960 minutes (roughly 16 hours) to finish growing. Seeds may be obtained as drops from various monsters as well as from [[bird nest]]s.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15355413,
+      "sourceSha256": "c8ef70acaaee20bd2df641754501b2a6362cd751131bc50de7e65cd5f6727981",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5288"
+        },
+        {
+          "field": "name",
+          "value": "Papaya tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5289,
+      "title": "Palm tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Palm tree seed detail.png|left|180px]]\r\n'''Palm tree seeds''' can be planted in a [[Empty plant pot|plant pot]] to make a [[palm seedling]], which grows into a [[palm sapling]]; the sapling can be planted in a [[fruit tree patch]] to be grown into a [[palm tree]]. Players require at least 68 [[Farming]] to plant it. Palm trees, when fully grown, bear [[coconut]]s.",
+      "positiveFunctionExcerpt": "[[File:Palm tree seed detail.png|left|180px]]\r\n'''Palm tree seeds''' can be planted in a [[Empty plant pot|plant pot]] to make a [[palm seedling]], which grows into a [[palm sapling]]; the sapling can be planted in a [[fruit tree patch]] to be grown into a [[palm tree]]. Players require at least 68 [[Farming]] to plant it. Palm trees, when fully grown, bear [[coconut]]s.",
+      "secondaryExcerpts": [
+        "Palm trees, like all fruit trees, ideally take six 160-minute farming cycles to fully grow, but certain factors can delay this. Palm trees are usually fully grown within 24 hours, however.",
+        "Palm tree seeds may be found rarely in a [[bird nest]], which can be obtained randomly while [[Woodcutting]], [[Bird house trapping]] or from [[Managing Miscellania]]. Another way to obtain palm tree seeds is via [[Barbarian Assault]] High Level Gambles.",
+        "The [[Ardougne Hard Diary]], [[Western Provinces Hard Diary]], and [[Karamja Elite Diary|Karamja Elite diary]] each require checking the health of a successfully grown Palm Tree."
+      ],
+      "sourceRevision": 15287181,
+      "sourceSha256": "f344e1c42f788041096c6d626bb8cc57adb9f088e06df2d4bed985d58e3fc8e4",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5289"
+        },
+        {
+          "field": "name",
+          "value": "Palm tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5290,
+      "title": "Calquat tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Calquat tree seed detail.png|left|180px]]\r\nA '''calquat tree seed''' can be planted in a [[filled plant pot]] at level 72 [[Farming]]. After watering the [[calquat seedling]] it will grow into a [[calquat sapling]], which may then be planted in the [[calquat patch|calquat patches]] in [[Tai Bwo Wannai]], [[the Summer Shore]] in [[the Great Conch]], and [[Kastori]] to grow into a [[calquat tree]]. When fully grown, [[calquat fruit]]s may be harvested.",
+      "positiveFunctionExcerpt": "[[File:Calquat tree seed detail.png|left|180px]]\r\nA '''calquat tree seed''' can be planted in a [[filled plant pot]] at level 72 [[Farming]]. After watering the [[calquat seedling]] it will grow into a [[calquat sapling]], which may then be planted in the [[calquat patch|calquat patches]] in [[Tai Bwo Wannai]], [[the Summer Shore]] in [[the Great Conch]], and [[Kastori]] to grow into a [[calquat tree]]. When fully grown, [[calquat fruit]]s may be harvested.",
+      "secondaryExcerpts": [
+        "Once grown, players can harvest a maximum of 6 calquat fruits at a time. If the player does not dig up the tree, more fruits will grow eventually.",
+        "A fully grown calquat tree will give a total of 12,516.5 experience, with 129.5 experience for planting, 12,096 experience for checking and 291 experience for harvesting 6 fruit.",
+        "The nearby gardener, [[Imiago]], [[Tziuhtla]] or [[Guppa]], will watch over your growing calquat tree at the cost of a payment of 8 [[poison ivy berries]]. No quest is required to use the calquat patch or for paying the gardener, although [[Children of the Sun]] is needed to reach [[Kastori]] and [[Troubled Tortugans]] is needed to reach [[The Great Conch]].",
+        "The seeds provide a very high amount of experience compared to their cost and growth time, however there are only three calquat patches in the game. A calquat farming patch can be cleared by using a [[spade]] on the barren tree.",
+        "Calquat tree seeds can be found in [[bird nest]]s."
+      ],
+      "sourceRevision": 15184241,
+      "sourceSha256": "f8c3e3bd8b56a9656922053cb2762eac19115138fca6e7c99ca101469038f924",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5290"
+        },
+        {
+          "field": "name",
+          "value": "Calquat tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5305,
+      "title": "Barley seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Barley seed detail.png|left|160px]]\r\n'''Barley seeds''' can be planted in a [[hops patch]] at level 3 [[Farming]] to yield [[barley]], which, when used on a [[range]] to make [[barley malt]], is used in [[brewing]] or as payment to protect [[Jute (plant)|jute]] (x6). 4 seeds are required per patch.  They can also be used to fill [[Bird house trapping|Birdhouses]] as bait.",
+      "positiveFunctionExcerpt": "[[File:Barley seed detail.png|left|160px]]\r\n'''Barley seeds''' can be planted in a [[hops patch]] at level 3 [[Farming]] to yield [[barley]], which, when used on a [[range]] to make [[barley malt]], is used in [[brewing]] or as payment to protect [[Jute (plant)|jute]] (x6). 4 seeds are required per patch.  They can also be used to fill [[Bird house trapping|Birdhouses]] as bait.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Barley (plant)|barley]] for 3 buckets of [[compost]]. Using compost will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]].",
+        "Each time a bundle of barley is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a barley without losing a harvest life scales with the player's Farming level and ranges from 40.6% at level 3 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15183663,
+      "sourceSha256": "8978e1d02706013997f9972ff13b9cd6a0575621faa6ab8223641155e13dcd5c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5305"
+        },
+        {
+          "field": "name",
+          "value": "Barley seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A barley seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5306,
+      "title": "Jute seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Jute seed detail.png|left|160px]]\r\n'''Jute seeds''' can be planted in a [[hops patch]] at level 13 [[Farming]] to yield [[jute fibre]]s, which are used in [[Crafting]] to weave [[empty sack]]s and [[drift net]]s or as payment to protect [[Sweetcorn plant|sweetcorn]] (x10). 3 seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Jute seed detail.png|left|160px]]\r\n'''Jute seeds''' can be planted in a [[hops patch]] at level 13 [[Farming]] to yield [[jute fibre]]s, which are used in [[Crafting]] to weave [[empty sack]]s and [[drift net]]s or as payment to protect [[Sweetcorn plant|sweetcorn]] (x10). 3 seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Jute (plant)|jute]] for 6 [[barley malt]], which may be noted. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]].",
+        "Planting jute seeds is a task in the [[Kandarin Diary#Easy|easy Kandarin Diary]].",
+        "Each time a bundle of jute fibre is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a jute fibre without losing a harvest life scales with the player's Farming level and ranges from 47.7% at level 13 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15315693,
+      "sourceSha256": "5473df14d27b57764311d06491f0ed7c9e4c15ee3334f5a7e9edbd1b4391bc20",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5306"
+        },
+        {
+          "field": "name",
+          "value": "Jute seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A jute plant seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5307,
+      "title": "Hammerstone seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Hammerstone seed detail.png|left|160px]]\r\n'''Hammerstone seeds''' can be planted in a [[hops patch]] at level 4 [[Farming]] to yield [[hammerstone hops]], which are used in [[brewing]] [[dwarven stout]]s. 4 seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Hammerstone seed detail.png|left|160px]]\r\n'''Hammerstone seeds''' can be planted in a [[hops patch]] at level 4 [[Farming]] to yield [[hammerstone hops]], which are used in [[brewing]] [[dwarven stout]]s. 4 seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Hammerstone Hops (plant)|hammerstone hops]] for 1 bunch of [[marigolds]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]].",
+        "Hammerstone seeds are a good choice for [[Bird house trapping|bird houses]] due to them being very cheap and easy to acquire.",
+        "Each time a handful of hammerstone hops is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a hammerstone hop without losing a harvest life scales with the player's Farming level and ranges from 41.4% at level 4 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15185568,
+      "sourceSha256": "dc56444bf0feb943d655defd4563ede71dbd9966463b6ef152f211d399462f62",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5307"
+        },
+        {
+          "field": "name",
+          "value": "Hammerstone seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A Hammerstone hop seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5308,
+      "title": "Asgarnian seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Asgarnian seed detail.png|left|160px]]\r\n'''Asgarnian seeds''' can be planted in a [[hops patch]] at level 8 [[Farming]] to yield [[Asgarnian hops]], which are used in [[brewing]] [[Asgarnian ale]]. 4 seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Asgarnian seed detail.png|left|160px]]\r\n'''Asgarnian seeds''' can be planted in a [[hops patch]] at level 8 [[Farming]] to yield [[Asgarnian hops]], which are used in [[brewing]] [[Asgarnian ale]]. 4 seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Asgarnian Hops (plant)|Asgarnian hops]] for 1 [[Onions|sack of onions]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]].",
+        "Each time a handful of Asgarnian hops is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest an Asgarnian hop without losing a harvest life scales with the player's Farming level and ranges from 44.1% at level 8 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15182700,
+      "sourceSha256": "4f7c96558d2b052bbd58935d06b7e9c6493b6ec1620eea1dd3dbf0918e61dbee",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5308"
+        },
+        {
+          "field": "name",
+          "value": "Asgarnian seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "An Asgarnian hop seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5309,
+      "title": "Yanillian seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Yanillian seed detail.png|left|160px]]\r\n'''Yanillian seeds''' can be planted in a [[hops patch]] at level 16 [[Farming]] to yield [[Yanillian hops]], which are used in [[brewing]] [[wizard's mind bomb]]s or as protection payment for [[Mahogany tree (Farming)|mahogany trees]] (x25). 4 seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Yanillian seed detail.png|left|160px]]\r\n'''Yanillian seeds''' can be planted in a [[hops patch]] at level 16 [[Farming]] to yield [[Yanillian hops]], which are used in [[brewing]] [[wizard's mind bomb]]s or as protection payment for [[Mahogany tree (Farming)|mahogany trees]] (x25). 4 seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Yanillian Hops (plant)|Yanillian hops]] for 1 [[Tomatoes|basket of tomatoes]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]].",
+        "Each time a Yanillian hop is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a Yanillian hop without losing a harvest life scales with the player's Farming level and ranges from 49.2% at level 16 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15185805,
+      "sourceSha256": "aadea4c00f0cb8ef6b8971c8a89083210f624c12f5b04537ac19e9dd5e0d1a57",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5309"
+        },
+        {
+          "field": "name",
+          "value": "Yanillian seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A Yanillian hop seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5310,
+      "title": "Krandorian seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Krandorian seed detail.png|left|160px]]\r\n'''Krandorian seeds''' can be planted in a [[hops patch]] at level 21 [[Farming]] to yield [[Krandorian hops]], which are used in [[brewing]] [[dragon bitter]]. 4 seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Krandorian seed detail.png|left|160px]]\r\n'''Krandorian seeds''' can be planted in a [[hops patch]] at level 21 [[Farming]] to yield [[Krandorian hops]], which are used in [[brewing]] [[dragon bitter]]. 4 seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Krandorian Hops (plant)|Krandorian hops]] for 3 [[Cabbages|sacks of cabbages]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]] or obtained from [[seed pack]]s.",
+        "Each time a handful of Krandorian hops is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a Krandorian hop without losing a harvest life scales with the player's Farming level and ranges from 52% at level 21 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15185794,
+      "sourceSha256": "6ef90b74647f925ef205bd377df5ca10e2aad78db83b2f1d9d0db74f655d8ba3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5310"
+        },
+        {
+          "field": "name",
+          "value": "Krandorian seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A Krandorian hop seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5311,
+      "title": "Wildblood seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Wildblood seed detail.png|left|160px]]\r\n'''Wildblood seeds''' can be planted in a [[hops patch]] at level 28 [[Farming]] to yield [[wildblood hops]], which are used in [[brewing]] [[slayer's respite]]. 4 seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Wildblood seed detail.png|left|160px]]\r\n'''Wildblood seeds''' can be planted in a [[hops patch]] at level 28 [[Farming]] to yield [[wildblood hops]], which are used in [[brewing]] [[slayer's respite]]. 4 seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Wildblood Hops (plant)|wildblood hops]] for 1 bunch of [[nasturtiums]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]] or obtained from [[seed pack]]s.",
+        "When used to fill [[Bird house trapping|birdhouses]], only 5 are needed per birdhouse, which is half as many as other hop seeds.",
+        "Each time a handful of wildblood hops is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a wildblood hop without losing a harvest life scales with the player's Farming level and ranges from 55.5% at level 28 up to a 70.7% chance at level 99.{{refn|The low and high CTS (chance-to-save) values for this crop are sourced from Twitter DMs with Mod Easty, which are posted on the [[Talk:Farming#Yield rates of various crops|talk page]] of the main Farming article.}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15203951,
+      "sourceSha256": "2a160d692c0fafc9e701826f5eb3258dca967b3adf03e8fb411fa6b1cb7dcb43",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5311"
+        },
+        {
+          "field": "name",
+          "value": "Wildblood seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A Wildblood hop seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5313,
+      "title": "Willow seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Willow seed detail.png|left|180px]]\r\n'''Willow seeds''' may be grown into a [[Willow Tree (Farming)|willow]] which gives [[willow logs]]. Planting one requires level 30 [[Farming]]. It costs 1 [[basket of apples]] to protect as payment to the farmer, and takes roughly 240 minutes (4 hours) to finish growing. Willow seeds can be obtained by searching a [[bird nest]], looting [[nature impling]]s or by doing [[Wintertodt]].",
+      "positiveFunctionExcerpt": "[[File:Willow seed detail.png|left|180px]]\r\n'''Willow seeds''' may be grown into a [[Willow Tree (Farming)|willow]] which gives [[willow logs]]. Planting one requires level 30 [[Farming]]. It costs 1 [[basket of apples]] to protect as payment to the farmer, and takes roughly 240 minutes (4 hours) to finish growing. Willow seeds can be obtained by searching a [[bird nest]], looting [[nature impling]]s or by doing [[Wintertodt]].",
+      "secondaryExcerpts": [
+        "By using [[secateurs]] on a fully grown willow tree, the player can harvest [[willow branch]]es. These branches start to grow only after the tree's health has been checked, at a rate of 1 every 5 minutes, up to a maximum of 6 grown at a time.",
+        "In order to plant a new one, the tree must be chopped and then dug up, rewarding the player with [[willow root]]s. The amount of roots given depends on the player's Farming level ([[boost]]s can be used):\r\n*At level 30, a player obtains one willow root.\r\n*At level 38 a player obtains two willow roots.\r\n*At level 46, a player obtains three willow roots.\r\n*At level 54, a player obtains four willow roots."
+      ],
+      "sourceRevision": 15287195,
+      "sourceSha256": "d34a4a8480d7fe0302b195fc190c64842f1a496f402d31328d1e1ea144f3ba64",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5313"
+        },
+        {
+          "field": "name",
+          "value": "Willow seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5314,
+      "title": "Maple seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Maple seed detail.png|left|180px]]\r\n'''Maple seeds''' are the third highest level [[tree seed]]s. At level 45 [[Farming]], maple seeds may be planted in [[plant pot]]s with a [[gardening trowel]] to become [[Maple seedling]] and watered to become [[Maple seedling#Watered|maple seedling (w)]] which grow into [[maple sapling]]s while sitting in your inventory or bank.",
+      "positiveFunctionExcerpt": "[[File:Maple seed detail.png|left|180px]]\r\n'''Maple seeds''' are the third highest level [[tree seed]]s. At level 45 [[Farming]], maple seeds may be planted in [[plant pot]]s with a [[gardening trowel]] to become [[Maple seedling]] and watered to become [[Maple seedling#Watered|maple seedling (w)]] which grow into [[maple sapling]]s while sitting in your inventory or bank.",
+      "secondaryExcerpts": [
+        "After planting the sapling in a [[tree patch]] and waiting for it to fully grow (takes 5 hours and 20 minutes), the plant will grow into a [[Maple Tree (Farming)|maple tree]], which can be cut to yield [[maple logs]] (and grant [[Woodcutting]] [[experience]]). Checking the health of the tree yields 3448 experience."
+      ],
+      "sourceRevision": 15287196,
+      "sourceSha256": "15b1c581d925b083ec611c853fa4a9f41077116dce774262df27e953ef4063e1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5314"
+        },
+        {
+          "field": "name",
+          "value": "Maple seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5315,
+      "title": "Yew seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Yew seed detail.png|left|180px]]\r\n'''Yew seeds''' are the second highest level [[tree seed]]s that can be grown in a standard tree patch, after [[magic seed]]s. Players must have level 60 [[Farming]] to plant it. [[Boost]]s are allowed. Boosts are not needed to prune the tree in case of disease.",
+      "positiveFunctionExcerpt": "[[File:Yew seed detail.png|left|180px]]\r\n'''Yew seeds''' are the second highest level [[tree seed]]s that can be grown in a standard tree patch, after [[magic seed]]s. Players must have level 60 [[Farming]] to plant it. [[Boost]]s are allowed. Boosts are not needed to prune the tree in case of disease.",
+      "secondaryExcerpts": [
+        "A yew seed, when planted in a [[Empty plant pot|plant pot]], allowed to sprout into a [[Yew sapling|sapling]] and then planted in a [[tree patch]], may grow into a [[Yew tree (Farming)|yew tree]]. Planting the seed takes a maximum of 6.083 hours (365 minutes) to be fully grown. Checking the health gives 7150.9 experience. If this tree becomes diseased, using [[secateurs]] or [[magic secateurs]] on it to prune the diseased leaves will bring it back to a healthy state and will yield [[Yew leaves|leaves]].",
+        "They are obtained from a [[bird nest]] that has dropped from a tree, received from a [[Hunter#Bird house trapping|bird house]], by exchanging the drops from a [[Giant Mole]] under [[Falador Park]], or as a drop from certain boss monsters. It is also possible to obtain this seed from a bird nest from the [[Managing Miscellania]] rewards at [[Miscellania]] (after [[Throne of Miscellania]]) and [[Etceteria]] (after [[Royal Trouble]]).",
+        "The farmer will tend a player's yew tree for 10 [[cactus spine]]s (these can be noted). If the player wants to buy the spines from other players, they should be aware that the [[Grand Exchange]] price for 10 cactus spines is currently {{coins|{{GEP|Cactus spine|10}}}}, while a yew tree seed currently costs {{coins|{{GEP|Yew seed}}}}. About 1/8 yew saplings will die. In a test of 257 yew trees with no farmer payments, only 36 have died. This gives a cost per surviving yew tree of {{coins|{{GEP|Yew seed}} + {{GEP|Cactus spine|10}}}} with protection and {{coins|{{GEP|Yew seed}}/(1 - 36/257)}} without, with the latter method being about 1/8th slower.",
+        "A fully grown yew tree can be cut to yield [[yew logs]] and grant [[Woodcutting]] experience. After it is cut down, it will eventually regrow, or a [[spade]] may be used on the stump to produce [[yew roots]] and clear the patch for planting a new tree. The amount of roots given depends on the player's Farming level (boosts can be used):",
+        "Harvesting two roots from a yew tree planted in the patch near [[Varrock Palace]] is a requirement for the hard [[Varrock Diary]]."
+      ],
+      "sourceRevision": 15287198,
+      "sourceSha256": "47b8473e60657a932ff347fb9bc496dba775df08c6bb7c07e7faa173dfd5626d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5315"
+        },
+        {
+          "field": "name",
+          "value": "Yew seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5316,
+      "title": "Magic seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Magic seed detail.png|left|180px]]\r\n'''Magic seeds''' are high-level [[tree seed]]s. At level 75 [[Farming]], magic seeds may be planted in [[plant pot]]s with a [[gardening trowel]] and watered to become [[magic sapling]]s.",
+      "positiveFunctionExcerpt": "[[File:Magic seed detail.png|left|180px]]\r\n'''Magic seeds''' are high-level [[tree seed]]s. At level 75 [[Farming]], magic seeds may be planted in [[plant pot]]s with a [[gardening trowel]] and watered to become [[magic sapling]]s.",
+      "secondaryExcerpts": [
+        "After about 8 hours it will be a fully grown [[Magic Tree (Farming)|magic tree]], granting 13,913.8 Farming [[experience]] when inspected, and can then be cut to yield [[magic logs]] (and grant [[Woodcutting]] experience). After the tree has been cut down, it will regrow after 2 minutes. Using a [[spade]] on the cut tree roots before the tree has regrown yields [[magic roots]] and makes the tree patch available for planting a new tree. Alternatively, you can ask the nearby gardener to chop down the tree for 200 [[coins]]. This instantly removes the tree whether or not it has been cut down from the patch, making the patch available for a new seed to be planted, but no magic roots are obtained.",
+        "The farmer next to the patch will protect a growing magic tree if it becomes diseased, in exchange for 25 [[coconut]]s. If buying the [[magic sapling]] and [[Coconut|coconuts]] on the [[Grand Exchange]], it will cost around {{Coins|{{GEP|Magic sapling}}+{{GEP|coconut|25}}}} per tree, assuming one pays a gardener. If this tree becomes diseased, using [[secateurs]] or [[magic secateurs]] on it to prune the diseased leaves will bring it back to a healthy state and will yield [[Magic leaves|leaves]].",
+        "In order to plant a new one, the tree must be chopped and then dug up, rewarding the player with magic roots. The amount of roots given depends on the player's Farming level ([[boost]]s can be used):\r\n*At level 75, a player obtains one magic root.\r\n*At level 83, a player obtains two magic roots.\r\n*At level 91, a player obtains three magic roots.\r\n*At level 99, a player obtains four magic roots.",
+        "Magic seeds may be found rarely in [[bird nest]]s, which can be obtained randomly while Woodcutting or from [[Managing Miscellania]], as well as doing [[bird house trapping|bird house]] runs.",
+        "Paying [[Prissy Scilla]] to protect a magic tree is an elite task in the [[Western Provinces Diary]]. Obtaining at least 3 [[Magic roots]] at once when digging up your magic tree in [[Falador]] is an elite task in the [[Falador Diary]]."
+      ],
+      "sourceRevision": 15287199,
+      "sourceSha256": "6265372ec54c0afa4381d17591617ca111f3621c5122d557daccade292ec7141",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5316"
+        },
+        {
+          "field": "name",
+          "value": "Magic seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5318,
+      "title": "Potato seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Potato seed detail.png|left|160px]]\r\n'''Potato seeds''' are the first [[seeds]] a player can plant with the [[Farming]] skill. 3 seeds are sown in an [[allotment patch]] to grow [[potato plant]]s, which yield [[potato]]es: a [[food]] item used in [[Cooking]]. They take 40 minutes to grow.",
+      "positiveFunctionExcerpt": "[[File:Potato seed detail.png|left|160px]]\r\n'''Potato seeds''' are the first [[seeds]] a player can plant with the [[Farming]] skill. 3 seeds are sown in an [[allotment patch]] to grow [[potato plant]]s, which yield [[potato]]es: a [[food]] item used in [[Cooking]]. They take 40 minutes to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing potato plants for 2 buckets of [[compost]]. Fully grown [[marigold]]s or [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the potatoes from [[Disease (Farming)|disease]].",
+        "Many medium and low-level [[Monster|monsters]] drop potato seeds, including [[Guard|guards]], [[Farmer|farmers]], and [[Hill Giant|hill giants]]. These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]]. There is a small chance to obtain a potato seed while [[Potato#Fields|picking potatoes from a field]].\r\n[[File:Potato (grown).png|thumb|width=305x305|Potato seeds will become potato plants if successfully grown.]]",
+        "Potato seeds are a good choice for [[Bird house trapping|bird houses]] due to them being very cheap and easy to acquire.",
+        "1 [[Potatoes|sack of potatoes]] is needed to protect growing [[Onion plant|onions]].",
+        "Potatoes have a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting potatoes, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 39.8% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15183839,
+      "sourceSha256": "a22057c480aa9b2af8ea4150e60fec23ec7b7e4a25c1d1e4bcff6b2dd7a1c89e",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5318"
+        },
+        {
+          "field": "name",
+          "value": "Potato seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A potato seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5319,
+      "title": "Onion seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Onion seed detail.png|left|160px]]\r\n'''Onion seeds''' are the second [[seeds]] a player can plant with the [[Farming]] skill. 3 seeds are sown in an [[allotment patch]] to grow [[onion plant]]s, which yield [[onion]]s: a [[food]] item used in [[Cooking]] and to make [[yellow dye]]. They take 40 minutes to grow.",
+      "positiveFunctionExcerpt": "[[File:Onion seed detail.png|left|160px]]\r\n'''Onion seeds''' are the second [[seeds]] a player can plant with the [[Farming]] skill. 3 seeds are sown in an [[allotment patch]] to grow [[onion plant]]s, which yield [[onion]]s: a [[food]] item used in [[Cooking]] and to make [[yellow dye]]. They take 40 minutes to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing onion plants for 1 [[Potatoes|sack of potatoes]]. Fully grown [[marigold]]s or [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the onions from [[Disease (Farming)|disease]].",
+        "Many medium and low-level [[Monster|monsters]] drop onion seeds, including [[Guard|guards]], [[Farmer|farmers]], and [[Hill Giant|hill giants]]. These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]]. There is a small chance to obtain an onion seed while [[Onion#Fields|picking onions from a field]].",
+        "Onion seeds are a good choice for [[Bird house trapping|bird houses]] due to them being very cheap and easy to acquire.",
+        "1 [[Onions|sack of onions]] is needed to protect growing [[Cabbages (plant)|cabbages]] and [[Asgarnian Hops (plant)|Asgarnian hops]].",
+        "Onions have a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting onions, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 41.4% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15183870,
+      "sourceSha256": "e1dfcbc5abc89456655ea19890e9cf96001787374dff44367d4ef7cbd44742d1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5319"
+        },
+        {
+          "field": "name",
+          "value": "Onion seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "An onion seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5320,
+      "title": "Sweetcorn seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Sweetcorn seed detail.png|left|160px]]\r\n'''Sweetcorn seeds''' can be planted at level 20 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[sweetcorn plant]]s, which yield [[sweetcorn]]: an item used in [[Cooking]]. They take 1 hour to grow.",
+      "positiveFunctionExcerpt": "[[File:Sweetcorn seed detail.png|left|160px]]\r\n'''Sweetcorn seeds''' can be planted at level 20 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[sweetcorn plant]]s, which yield [[sweetcorn]]: an item used in [[Cooking]]. They take 1 hour to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing sweetcorn plants for 10 [[jute fibre]]s. Fully grown [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the sweetcorn from [[Disease (Farming)|disease]]. Alternatively, a [[scarecrow]] may be placed in a flower patch for the same effect.",
+        "Many medium and low-level [[Monster|monsters]] drop sweetcorn seeds, including [[Guard|guards]], [[Farmer|farmers]], and [[Hill Giant|hill giants]]. These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. There is a small chance to obtain a sweetcorn seed while [[Sweetcorn#Fields|picking sweetcorn from a field]].",
+        "9 sweetcorn is needed to protect growing [[apple tree]]s.",
+        "Sweetcorn has a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting sweetcorn, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 34.8% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15184068,
+      "sourceSha256": "be9fa017f77beb36f78510ca2bcaf1acbc584a78304ca117605abacf417fa270",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5320"
+        },
+        {
+          "field": "name",
+          "value": "Sweetcorn seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A sweetcorn seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5321,
+      "title": "Watermelon seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Watermelon seed detail.png|left|160px]]\r\n'''Watermelon seeds''' can be planted at level 47 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[watermelons]], which yield the [[watermelon]] [[food]] item used in [[Cooking]] to make [[summer pie]]s. They take 1 hour and 20 minutes to grow.",
+      "positiveFunctionExcerpt": "[[File:Watermelon seed detail.png|left|160px]]\r\n'''Watermelon seeds''' can be planted at level 47 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[watermelons]], which yield the [[watermelon]] [[food]] item used in [[Cooking]] to make [[summer pie]]s. They take 1 hour and 20 minutes to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing watermelons (excluding [[Harmony Island]]) for 10 [[Curry leaf|curry leaves]], either noted or unnoted. Fully grown [[nasturtium]]s or [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the watermelons from [[Disease (Farming)|disease]].",
+        "These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They may also be obtained from [[Temple Trekking]], the [[Wintertodt]] [[Reward Cart|reward cart]], [[Barbarian Assault/Gambles#High gambles|high-level gambling]] at the [[Barbarian Assault]] [[Minigames|minigame]], and [[Farming Guild]] [[seed pack]]s.",
+        "Harvesting watermelons from the patch on [[Harmony Island]] is a task in the [[Morytania Diary#Hard|hard Morytania Diary]]. There is no gardener on the island to watch over the crops.",
+        "Watermelons have a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting watermelon, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 49.6% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15183903,
+      "sourceSha256": "b6b0524a5cb3b30b87a75381bcaee5c9a754846f82f8ccf2c5276fddd452c8fd",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5321"
+        },
+        {
+          "field": "name",
+          "value": "Watermelon seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A watermelon seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5322,
+      "title": "Tomato seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Tomato seed detail.png|left|160px]]\r\n'''Tomato seeds''' can be planted at level 12 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[tomato plant]]s, which yield [[tomato]]es: a [[food]] item used in [[Cooking]]. They take 40 minutes to grow.",
+      "positiveFunctionExcerpt": "[[File:Tomato seed detail.png|left|160px]]\r\n'''Tomato seeds''' can be planted at level 12 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[tomato plant]]s, which yield [[tomato]]es: a [[food]] item used in [[Cooking]]. They take 40 minutes to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing tomato plants for 2 [[Cabbages|sacks of cabbages]]. Fully grown [[marigold]]s or [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the tomatoes from [[Disease (Farming)|disease]].",
+        "Many medium and low-level [[Monster|monsters]] drop tomato seeds, including [[Guard|guards]], [[Farmer|farmers]], and [[Hill Giant|hill giants]]. These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]].",
+        "[[Tomatoes|Baskets of tomatoes]] are needed to protect growing [[Yanillian Hops (plant)|Yanillian hops]] (x1), [[cadavaberry bush]]es (x3), and [[Oak tree (Farming)|oak trees]] (x1).",
+        "Tomatoes have a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting tomatoes, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 44.1% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15183570,
+      "sourceSha256": "a8992223958c4f61c9b34e679aa84a9c85bca732ec08c02861d969d6669a334b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5322"
+        },
+        {
+          "field": "name",
+          "value": "Tomato seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A tomato seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5323,
+      "title": "Strawberry seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Strawberry seed detail.png|left|160px]]\r\n'''Strawberry seeds''' can be planted at level 31 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[strawberry plant]]s, which yield [[Strawberry|strawberries]]: a [[food]] item used in [[Cooking]] to make [[summer pie]]s. They take 1 hour to grow.",
+      "positiveFunctionExcerpt": "[[File:Strawberry seed detail.png|left|160px]]\r\n'''Strawberry seeds''' can be planted at level 31 [[Farming]]. 3 seeds are sown in an [[allotment patch]] to grow [[strawberry plant]]s, which yield [[Strawberry|strawberries]]: a [[food]] item used in [[Cooking]] to make [[summer pie]]s. They take 1 hour to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[strawberry plant]]s for 1 [[Apples|basket of apples]]. Fully grown [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the strawberries from [[Disease (Farming)|disease]].",
+        "Many medium and low-level [[Monster|monsters]] drop strawberry seeds, including [[Guard|guards]], [[Farmer|farmers]], and [[Hill Giant|hill giants]]. These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]].",
+        "Harvesting strawberries from the patch north of [[East Ardougne]] is a task in the [[Ardougne Diary#Medium|medium Ardougne Diary]].",
+        "[[Strawberries|Baskets of strawberries]] are needed to protect growing [[dwellberry bush]]es (x3) and [[orange tree]]s (x3).",
+        "Strawberries have a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting strawberries, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 40.6% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15183888,
+      "sourceSha256": "14ca6a4545eb4a8714b4cf2cc7787bf36fe8ea8961dc4394f1b01a89bc7771cd",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5323"
+        },
+        {
+          "field": "name",
+          "value": "Strawberry seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A strawberry seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 5324,
+      "title": "Cabbage seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Cabbage seed detail.png|left|150px]]\r\n'''Cabbage seeds''' are the third [[seeds]] a player can plant with the [[Farming]] skill. 3 seeds are sown in an [[allotment patch]] to grow [[Cabbages (plant)|cabbages]], which yield the [[cabbage]] [[food]] item used in [[Cooking]]. They take 40 minutes to grow.",
+      "positiveFunctionExcerpt": "[[File:Cabbage seed detail.png|left|150px]]\r\n'''Cabbage seeds''' are the third [[seeds]] a player can plant with the [[Farming]] skill. 3 seeds are sown in an [[allotment patch]] to grow [[Cabbages (plant)|cabbages]], which yield the [[cabbage]] [[food]] item used in [[Cooking]]. They take 40 minutes to grow.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing cabbages for 1 [[Onions|sack of onions]]. Fully grown [[Rosemary (plant)|rosemary]] or [[White lily (plant)|white lilies]] in a nearby [[flower patch]] will also protect the cabbages from [[Disease (Farming)|disease]].",
+        "Many medium and low-level [[Monster|monsters]] drop cabbage seeds, including [[Guard|guards]], [[Farmer|farmers]], and [[Hill Giant|hill giants]]. These seeds can be [[Thieving|stolen]] from [[Master Farmer|master farmers]] and [[Seed Stall|seed stalls]]. They are purchasable from the [[Draynor Seed Market]] or [[Amelia's Seed Shop]] in the [[Farming Guild]]. There is a small chance to obtain a cabbage seed while [[Cabbage (scenery)#Locations|picking cabbages from a field]].",
+        "[[Cabbages|Sacks of cabbages]] are needed to protect growing [[Tomato plant|tomatoes]] (x2), [[Krandorian Hops (plant)|Krandorian hops]] (x3), and [[redberry bush]]es (x4).",
+        "Cabbage has a minimum of 3 [[Farming#Variable crop yield|harvest lives]], increasing by 1 for each tier of [[compost]] used (for a maximum of 6 when using [[ultracompost]]). While harvesting cabbage, there is a chance to not consume a harvest life dependent on the player's Farming level. This chance scales from 42.2% at level 1 to 70.7% at level 99, interpolating linearly in between."
+      ],
+      "sourceRevision": 15183897,
+      "sourceSha256": "01b18d83d883155545831de63362f4fd3e2575c6d160e8dbb4c894f064f968f3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5324"
+        },
+        {
+          "field": "name",
+          "value": "Cabbage seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A cabbage seed - plant in an allotment."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 21486,
+      "title": "Teak seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Teak seed detail.png|left|200px]]\r\n'''Teak seeds''' are [[seed]]s used in the [[Farming]] skill. At level 35 Farming, teak seeds may be planted in [[plant pot]]s with a [[gardening trowel]] and watered to become [[teak sapling]]s.",
+      "positiveFunctionExcerpt": "[[File:Teak seed detail.png|left|200px]]\r\n'''Teak seeds''' are [[seed]]s used in the [[Farming]] skill. At level 35 Farming, teak seeds may be planted in [[plant pot]]s with a [[gardening trowel]] and watered to become [[teak sapling]]s.",
+      "secondaryExcerpts": [
+        "After planting the sapling in a [[hardwood tree patch]] and waiting for it to fully grow, which takes 4,480 minutes (74.6 hours), the plant will grow into a [[Teak Tree (Farming)|teak tree]], which can be cut to yield [[teak logs]] (and grant [[Woodcutting]] [[experience]]).",
+        "Teak seeds are also a drop from the [[Wintertodt]] [[reward cart]] and [[bird nest]]s."
+      ],
+      "sourceRevision": 15287229,
+      "sourceSha256": "377492265cf862f5f884f959abe760a4ef9ff5974a120baa316e8d2e62dacb33",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21486"
+        },
+        {
+          "field": "name",
+          "value": "Teak seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 21488,
+      "title": "Mahogany seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Mahogany seed detail.png|left|200px]]\r\n'''Mahogany seeds''' are [[seed]]s used in the [[Farming]] skill. At level 55 [[Farming]], mahogany seeds may be planted in [[Empty plant pot|plant pots]] with a [[gardening trowel]] and watered to become [[mahogany sapling]]s.",
+      "positiveFunctionExcerpt": "[[File:Mahogany seed detail.png|left|200px]]\r\n'''Mahogany seeds''' are [[seed]]s used in the [[Farming]] skill. At level 55 [[Farming]], mahogany seeds may be planted in [[Empty plant pot|plant pots]] with a [[gardening trowel]] and watered to become [[mahogany sapling]]s.",
+      "secondaryExcerpts": [
+        "After planting the sapling in a [[hardwood tree patch]] and waiting for it to fully grow, which takes 5,120 minutes (8x640 minutes or 85.3 hours), the plant will grow into a [[mahogany]] tree which can be cut to yield [[mahogany logs]] (and grant [[Woodcutting]] [[experience]])."
+      ],
+      "sourceRevision": 15287230,
+      "sourceSha256": "8d00b8a836924991b0c7bac023e926a3279bd75fda03fe6a1b62eb2ab54fad52",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21488"
+        },
+        {
+          "field": "name",
+          "value": "Mahogany seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 22869,
+      "title": "Celastrus seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Celastrus seed detail.png|left|130px]]\r\n'''Celastrus seeds''' are a type of seed requiring level 85 [[Farming]] to plant, and can only be planted in the celastrus patch within the third tier of the [[Farming Guild]]. They can be obtained from [[bird nest]]s, monster drops, [[Pest Control]], the [[Hespori]], the [[brimstone chest]], [[Larran's big chest]], or by completing [[farming contracts]].",
+      "positiveFunctionExcerpt": "[[File:Celastrus seed detail.png|left|130px]]\r\n'''Celastrus seeds''' are a type of seed requiring level 85 [[Farming]] to plant, and can only be planted in the celastrus patch within the third tier of the [[Farming Guild]]. They can be obtained from [[bird nest]]s, monster drops, [[Pest Control]], the [[Hespori]], the [[brimstone chest]], [[Larran's big chest]], or by completing [[farming contracts]].",
+      "secondaryExcerpts": [
+        "A celastrus seed, when planted in a [[Filled plant pot|plant pot]], watered, allowed to sprout into a [[Celastrus sapling|sapling]], and then planted in a Celastrus patch, may grow into a [[celastrus tree]]. A nearby gardener named [[Taylor]] will watch over a player's growing Celastrus tree for 8 [[potato cacti]].",
+        "Once fully grown, it can be harvested for [[celastrus bark]], which then can be fletched into a [[battlestaff]] with level 40 Fletching. The amount of bark harvested from a fully grown Celastrus tree is random, much like the harvesting of herbs, with a minimum number of three lives to ensure a guaranteed amount each harvest. Using [[compost]] of any kind or growing an [[attas plant]] will increase the average yield.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1088630402284224512|date=24 January 2019|archiveurl=https://reldo.runescape.wiki/i/98850|archivedate=28 May 2020|quote=Yes, celastrus would be helped by composting.}} Once harvested, players must chop down the tree and clear the patch with a spade in order to plant another celastrus sapling."
+      ],
+      "sourceRevision": 15189022,
+      "sourceSha256": "f478123d22b838b02a25313c3b4b6c6f705ec906912af3aaed1afdb005ac5ae0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22869"
+        },
+        {
+          "field": "name",
+          "value": "Celastrus seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "For growing a Celastrus tree."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 22871,
+      "title": "Redwood tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Redwood tree seed detail.png|left|130px]]\r\n'''Redwood tree seeds''' are [[seed]]s used in the [[Farming]] skill. At level 90 [[Farming]]{{Boostable|yes}}, redwood seeds may be planted in [[Empty plant pot|plant pots]] with a [[gardening trowel]] and watered to become [[redwood sapling]]s. They can be obtained from [[bird nest]]s, monster drops, the [[brimstone chest]], [[Larran's big chest]] or by completing [[farming contracts]].",
+      "positiveFunctionExcerpt": "[[File:Redwood tree seed detail.png|left|130px]]\r\n'''Redwood tree seeds''' are [[seed]]s used in the [[Farming]] skill. At level 90 [[Farming]]{{Boostable|yes}}, redwood seeds may be planted in [[Empty plant pot|plant pots]] with a [[gardening trowel]] and watered to become [[redwood sapling]]s. They can be obtained from [[bird nest]]s, monster drops, the [[brimstone chest]], [[Larran's big chest]] or by completing [[farming contracts]].",
+      "secondaryExcerpts": [
+        "After planting the sapling in a redwood tree patch found in the [[Farming Guild]] and waiting for it to fully grow, which takes over four days (106.7 hours), the plant will grow into a [[Redwood tree (Farming)|redwood tree]] which can be cut to yield [[redwood logs]] (and grant [[Woodcutting]] [[experience]]). Planting the redwood sapling yields 230 experience, and checking its health gives 22,450 experience. [[Alexandra]] will look after a player's redwood patch in exchange for 6 [[dragonfruit]]s.",
+        "When cut down, the tree will automatically regrow after a period of time. Players cannot clear the patch on their own; they must pay Alexandra 2,000 coins to do so.",
+        "One seed can be used on the [[skilling pet]] [[Tangleroot]] to change its appearance."
+      ],
+      "sourceRevision": 15189024,
+      "sourceSha256": "405c0dd825482a320c1882224e91a7ea6f9af3ca87cdb3ed22a769f25e11c413",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22871"
+        },
+        {
+          "field": "name",
+          "value": "Redwood tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 22873,
+      "title": "Potato cactus seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Potato cactus seed detail.png|left|130px]]\r\n'''Potato cactus seeds''' are a type of [[Seeds|seed]] that can be planted in a [[cactus patch]] found in [[Al Kharid]] or the [[Farming Guild]]. They require level 64 [[Farming]] to plant and produce a [[Potato cactus (plant)|potato cactus]]. Growth time is approximately 70 minutes. Players can harvest [[potato cactus|potato cacti]] from the mature plant.",
+      "positiveFunctionExcerpt": "[[File:Potato cactus seed detail.png|left|130px]]\r\n'''Potato cactus seeds''' are a type of [[Seeds|seed]] that can be planted in a [[cactus patch]] found in [[Al Kharid]] or the [[Farming Guild]]. They require level 64 [[Farming]] to plant and produce a [[Potato cactus (plant)|potato cactus]]. Growth time is approximately 70 minutes. Players can harvest [[potato cactus|potato cacti]] from the mature plant.",
+      "secondaryExcerpts": [
+        "Potato cactus seeds can be obtained as drops from various monsters, in [[seed pack]]s awarded from [[farming contract]]s, or by pickpocketing a [[master farmer]].",
+        "A nearby gardener will watch over your growing potato cactus plant in exchange for 8 [[snape grass]]."
+      ],
+      "sourceRevision": 15264130,
+      "sourceSha256": "c20147125d4121eefd1767a3acc1433af76a15c4eb820a0579bfa55e1466e7e1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22873"
+        },
+        {
+          "field": "name",
+          "value": "Potato cactus seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A Potato cactus seed - plant in a cactus patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 22877,
+      "title": "Dragonfruit tree seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Dragonfruit tree seed detail.png|left|130px]]\r\n'''Dragonfruit tree seeds''' are the highest level [[fruit tree]] patch [[seeds]]. At 81 [[Farming]], a dragonfruit tree seed can be planted in a [[Empty plant pot|plant pot]] to make a [[dragonfruit seedling]], which grows into a [[dragonfruit sapling]]; the sapling can be planted in a [[Farming/Patch locations#Fruit tree patches|fruit tree patch]] to be grown into a [[dragonfruit tree]]. Dragonfruit trees, when fully grown, bear [[dragonfruit]].",
+      "positiveFunctionExcerpt": "[[File:Dragonfruit tree seed detail.png|left|130px]]\r\n'''Dragonfruit tree seeds''' are the highest level [[fruit tree]] patch [[seeds]]. At 81 [[Farming]], a dragonfruit tree seed can be planted in a [[Empty plant pot|plant pot]] to make a [[dragonfruit seedling]], which grows into a [[dragonfruit sapling]]; the sapling can be planted in a [[Farming/Patch locations#Fruit tree patches|fruit tree patch]] to be grown into a [[dragonfruit tree]]. Dragonfruit trees, when fully grown, bear [[dragonfruit]].",
+      "secondaryExcerpts": [
+        "Dragonfruit trees, like all fruit trees, ideally take six 160-minute farming cycles to fully grow, but certain factors can delay this. Dragonfruit trees are usually fully grown within 24 hours, however.",
+        "Dragonfruit tree seeds may be found rarely in a [[bird nest]], which can be obtained randomly while [[Woodcutting]], emptying [[Birdhouses]] or from [[Managing Miscellania]]. They can also be obtained via farming contracts from the [[Farming Guild]], as loot from opening the [[brimstone chest]], [[Larran's small chest|Larran's small]] or [[Larran's big chest|big chest]] or as rare drops from the [[Hespori]], [[alchemical hydra]], [[demonic gorilla]]s, [[lizardman shaman]]s, and [[Vorkath]].",
+        "One seed can be used on the [[skilling pet]] [[Tangleroot]] to change its appearance."
+      ],
+      "sourceRevision": 15287182,
+      "sourceSha256": "b9b3c755d83bfbc44e408f7732d0bed51fe2b29ef8ec89021336f1602c4df7fb",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22877"
+        },
+        {
+          "field": "name",
+          "value": "Dragonfruit tree seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 22887,
+      "title": "White lily seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:White lily seed detail.png|left|130px]]\r\n'''White lily seeds''' can be planted in a [[flower patch]] at level 58 [[Farming]] to yield a [[white lily]]. When fully grown, it protects all neighbouring [[allotment patch|allotments]] from [[disease (Farming)|disease]].",
+      "positiveFunctionExcerpt": "[[File:White lily seed detail.png|left|130px]]\r\n'''White lily seeds''' can be planted in a [[flower patch]] at level 58 [[Farming]] to yield a [[white lily]]. When fully grown, it protects all neighbouring [[allotment patch|allotments]] from [[disease (Farming)|disease]].",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will '''not''' watch over a growing [[White lily (plant)|white lily plant]]. It is recommended to use [[ultracompost]] when planting them.",
+        "They can be obtained as a drop from the [[Hespori]], from a [[seed pack]] bought from [[Tithe Farm]], or bought from other players.",
+        "Using one seed on the [[Tangleroot]] [[pet]] will change its appearance to a [[Tangleroot#White lily|white lily variant]]."
+      ],
+      "sourceRevision": 15187852,
+      "sourceSha256": "ad6d43ffee1de22c7c3d41793b49caf8625897afc724b9e27d5da07642767e71",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22887"
+        },
+        {
+          "field": "name",
+          "value": "White lily seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A white lily seed - plant in a flower patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 31541,
+      "title": "Flax seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Flax seed detail.png|130px|left]]\r\n'''Flax seeds''' can be planted in a [[hops patch]] at level 18 [[Farming]] to yield [[flax]]. Three seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Flax seed detail.png|130px|left]]\r\n'''Flax seeds''' can be planted in a [[hops patch]] at level 18 [[Farming]] to yield [[flax]]. Three seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Flax (Farming)|flax plants]] for 6 [[grain]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "Each time a bundle of flax is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a flax without losing a harvest life scales with the player's Farming level and ranges from around 59% at level 18 up to a 76% chance at level 99.{{CiteDiscord|author=Mod Ash|url=https://discord.com/channels/324132423636090880/434286997360738305/1484497428173557942|date=2026-03-20|quote=Flax: 55% - 76%<br>Hemp: 47% - 70%<br>Cotton: 32% - 56%|archiveurl=https://reldo.runescape.wiki/i/27963191#chat-messages-434286997360738305-1484497428173557942|archivedate=2026-03-20}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15237327,
+      "sourceSha256": "c2468c171f534db75c4d691eb1215d338d0ca2f740ea15569368289263c55cc0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31541"
+        },
+        {
+          "field": "name",
+          "value": "Flax seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A flax plant seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 31543,
+      "title": "Hemp seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Hemp seed detail.png|130px|left]]\r\n'''Hemp seeds''' can be planted in a [[hops patch]] at level 37 [[Farming]] to yield [[hemp]]. Three seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Hemp seed detail.png|130px|left]]\r\n'''Hemp seeds''' can be planted in a [[hops patch]] at level 37 [[Farming]] to yield [[hemp]]. Three seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Hemp (Farming)|hemp plants]] for 6 [[flax]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "Each time a hemp is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a hemp without losing a harvest life scales with the player's Farming level and ranges from around 47% at level 37 up to a 70% chance at level 99.{{CiteDiscord|author=Mod Ash|url=https://discord.com/channels/324132423636090880/434286997360738305/1484497428173557942|date=2026-03-20|quote=Flax: 55% - 76%<br>Hemp: 47% - 70%<br>Cotton: 32% - 56%|archiveurl=https://reldo.runescape.wiki/i/27963191#chat-messages-434286997360738305-1484497428173557942|archivedate=2026-03-20}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15336903,
+      "sourceSha256": "14bbabafbff94a206307091215f7d24a1c459036a7c3121ab0f099bad206c775",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31543"
+        },
+        {
+          "field": "name",
+          "value": "Hemp seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A hemp plant seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 31545,
+      "title": "Cotton seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Cotton seed detail.png|130px|left]]\r\n'''Cotton seeds''' can be planted in a [[hops patch]] at level 71 [[Farming]] to yield [[cotton boll]]s. Three seeds are required per patch.",
+      "positiveFunctionExcerpt": "[[File:Cotton seed detail.png|130px|left]]\r\n'''Cotton seeds''' can be planted in a [[hops patch]] at level 71 [[Farming]] to yield [[cotton boll]]s. Three seeds are required per patch.",
+      "secondaryExcerpts": [
+        "A nearby [[Group of Advanced Gardeners|gardener]] will watch over growing [[Cotton (Farming)|cotton plants]] for 6 [[hemp]]. Using [[compost]] will reduce the chances of [[Disease (Farming)|disease]] and increase yield.",
+        "Each time a cotton boll is picked from a fully grown plant, one of its [[Farming#Variable crop yield|harvest lives]] risks being expended in the process. The chance to successfully harvest a cotton boll without losing a harvest life scales with the player's Farming level and ranges from around 49% at level 71 up to a 56% chance at level 99.{{CiteDiscord|author=Mod Ash|url=https://discord.com/channels/324132423636090880/434286997360738305/1484497428173557942|date=2026-03-20|quote=Flax: 55% - 76%<br>Hemp: 47% - 70%<br>Cotton: 32% - 56%|archiveurl=https://reldo.runescape.wiki/i/27963191#chat-messages-434286997360738305-1484497428173557942|archivedate=2026-03-20}} These chances can be increased further by bringing along a pair of [[magic secateurs]], in addition to having an [[attas plant]] growing in one's [[Farming Guild#Anima patch|anima patch]]."
+      ],
+      "sourceRevision": 15226139,
+      "sourceSha256": "8d32c55b3249fd50b2ace5a85adff5623b936b2a2119fd657009b3cefd6392a8",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31545"
+        },
+        {
+          "field": "name",
+          "value": "Cotton seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A cotton plant seed - plant in a hops patch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 31547,
+      "title": "Camphor seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Camphor seed detail.png|130px|left]]\r\n'''Camphor seeds''' are [[seed]]s used in the [[Farming]] skill. At level 66 Farming, camphor seeds may be planted in [[filled plant pot]]s with a [[gardening trowel]] and watered to become [[camphor sapling]]s.",
+      "positiveFunctionExcerpt": "[[File:Camphor seed detail.png|130px|left]]\r\n'''Camphor seeds''' are [[seed]]s used in the [[Farming]] skill. At level 66 Farming, camphor seeds may be planted in [[filled plant pot]]s with a [[gardening trowel]] and watered to become [[camphor sapling]]s.",
+      "secondaryExcerpts": [
+        "After planting the sapling in a [[hardwood tree patch]] and waiting for it to fully grow, which takes 5,120 minutes (3 days, 13 hours, and 20 minutes), the plant will grow into a [[Camphor tree (Farming)|camphor tree]] which can be cut to yield [[camphor logs]] (and grant [[Woodcutting]] [[experience]])."
+      ],
+      "sourceRevision": 15287231,
+      "sourceSha256": "8003b7c7fcc12b55bf8cc5592c3024a28c22999d7f440b276de4e5f075fa77df",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31547"
+        },
+        {
+          "field": "name",
+          "value": "Camphor seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 31549,
+      "title": "Ironwood seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Ironwood seed detail.png|130px|left]]\r\n'''Ironwood seeds''' are [[seed]]s used in the [[Farming]] skill. At level 80 Farming, ironwood seeds may be planted in [[filled plant pot]]s with a [[gardening trowel]] and watered to become [[ironwood sapling]]s.",
+      "positiveFunctionExcerpt": "[[File:Ironwood seed detail.png|130px|left]]\r\n'''Ironwood seeds''' are [[seed]]s used in the [[Farming]] skill. At level 80 Farming, ironwood seeds may be planted in [[filled plant pot]]s with a [[gardening trowel]] and watered to become [[ironwood sapling]]s.",
+      "secondaryExcerpts": [
+        "After planting the sapling in a [[hardwood tree patch]] and waiting for it to fully grow, which takes 5,120 minutes (3 days, 13 hours, and 20 minutes), the plant will grow into an [[Ironwood tree (Farming)|ironwood tree]] which can be cut to yield [[ironwood logs]] (and grant [[Woodcutting]] [[experience]])."
+      ],
+      "sourceRevision": 15287232,
+      "sourceSha256": "d1627b35742f3ef16ec48d34f195d2f9baf50ef59a53fc9de46c700f1a5a98ed",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31549"
+        },
+        {
+          "field": "name",
+          "value": "Ironwood seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    },
+    {
+      "itemId": 31551,
+      "title": "Rosewood seed",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming",
+      "proposedIronmanTabKey": "seeds-farming",
+      "semanticExcerpt": "[[File:Rosewood seed detail.png|130px|left]]\r\n'''Rosewood seeds''' are [[seed]]s used in the [[Farming]] skill. At level 92 Farming, rosewood seeds may be planted in [[filled plant pot]]s with a [[gardening trowel]] and watered to become [[rosewood sapling]]s.",
+      "positiveFunctionExcerpt": "[[File:Rosewood seed detail.png|130px|left]]\r\n'''Rosewood seeds''' are [[seed]]s used in the [[Farming]] skill. At level 92 Farming, rosewood seeds may be planted in [[filled plant pot]]s with a [[gardening trowel]] and watered to become [[rosewood sapling]]s.",
+      "secondaryExcerpts": [
+        "After planting the sapling in a [[hardwood tree patch]] and waiting for it to fully grow, which takes 5,760 minutes (4 days), the plant will grow into a [[Rosewood tree (Farming)|rosewood tree]] which can be cut to yield [[rosewood logs]] (and grant [[Woodcutting]] [[experience]])."
+      ],
+      "sourceRevision": 15287233,
+      "sourceSha256": "27aaeb32cb8d8a943936fe4acb3817a58b25aff6bed06ad3dc9314f8faf994c1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31551"
+        },
+        {
+          "field": "name",
+          "value": "Rosewood seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Plant this in a plantpot of soil to grow a sapling."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Exact ordinary unplanted seed state. Planting/growing is the primary Farming workflow; seedling, sapling, harvested crop and note/placeholder IDs are not inherited. Documented bait/pet uses and downstream crop recipes remain unassessed secondary roles.",
+      "rationale": "Own exact-item definition and planting/growing mechanics support its unchanged Farming seed category, subtype and tab. Crop/output functions and acquisition activities do not replace the seed own primary use; tags retained and secondary roles unassessed."
+    }
+  ],
+  "excludedScope": {
+    "otherExactBoundRows": 99,
+    "unboundRows": 431,
+    "reason": "Separate semantic/state/route/source work required; no automatic exclusions or category approvals."
+  }
+}

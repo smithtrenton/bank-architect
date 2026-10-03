@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "scope": "One exact-ID Tool subcategory correction; no supplemental role or tag claims.",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "expectedCaseCount": 1,
+  "reviewRecord": "Root independently read the full pinned Rock thrownhammer and Rock hammer articles and exact item states. The thrownhammer own definition explicitly names Slayer equipment and its gargoyle finishing operation. Its ranged reach and consumption are differences from the reusable rock hammer, without changing its primary Slayer-tool function. Independent exact152 Tool review confirmed this mismatch.",
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "independentReview": "26daf9f33c067c60c9da63ef20c78a82ad48d9c855726ca38d558f797057a1c8"
+  },
+  "cases": [
+    {
+      "itemId": 21754,
+      "title": "Rock thrownhammer",
+      "sourceRevision": 15188532,
+      "sourceSha256": "de77b5c1bb23ee8bbd15a0d7c5dd99c8c233f5884d6a55e8084177d968441d51",
+      "proposedCategory": "TOOL",
+      "proposedSubcategory": "slayer-tool",
+      "semanticExcerpt": "{{Infobox Item\n|name = Rock thrownhammer\n|image = [[File:Rock thrownhammer.png]]\n|release = [[1 November]] [[2017]]\n|update = King of the Skill, Grotesque Guardians Changes and QoL\n|members = Yes\n|quest = No\n|tradeable = Yes\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = Smash gargoyles from a distance.\n|value = 200\n|weight = 0.000\n|exchange = Yes\n|id = 21754\n}}\n[[File:Rock thrownhammer detail.png|left|160px]]\nA '''rock thrownhammer''' is [[Slayer#Slayer equipment|slayer equipment]] that is required to kill [[gargoyle]]s. Unlike the [[rock hammer]], the rock thrownhammer can be used to finish off gargoyles without having to do so within melee distance. This is useful for finishing off gargoyles when ranging from a safespot, or when finishing off [[Dawn]]. Since they are consumed upon usage, players should buy enough thrownhammers for their slayer task.",
+      "positiveFunctionExcerpt": "{{Infobox Item\n|name = Rock thrownhammer\n|image = [[File:Rock thrownhammer.png]]\n|release = [[1 November]] [[2017]]\n|update = King of the Skill, Grotesque Guardians Changes and QoL\n|members = Yes\n|quest = No\n|tradeable = Yes\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = Smash gargoyles from a distance.\n|value = 200\n|weight = 0.000\n|exchange = Yes\n|id = 21754\n}}\n[[File:Rock thrownhammer detail.png|left|160px]]\nA '''rock thrownhammer''' is [[Slayer#Slayer equipment|slayer equipment]] that is required to kill [[gargoyle]]s. Unlike the [[rock hammer]], the rock thrownhammer can be used to finish off gargoyles without having to do so within melee distance. This is useful for finishing off gargoyles when ranging from a safespot, or when finishing off [[Dawn]]. Since they are consumed upon usage, players should buy enough thrownhammers for their slayer task.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21754"
+        },
+        {
+          "field": "name",
+          "value": "Rock thrownhammer"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Smash gargoyles from a distance."
+        }
+      ],
+      "rationale": "Own exact non-equipment consumable Slayer implement finishes gargoyles at range. Use the existing slayer-tool subgroup rather than generic tool; consumed-on-use does not turn the finisher into combat equipment. Current skilling-tools tab and existing tags are retained."
+    }
+  ]
+}

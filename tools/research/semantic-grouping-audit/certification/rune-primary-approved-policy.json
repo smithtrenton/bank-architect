@@ -1,0 +1,1079 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "scope": "23 unchanged ordinary spellcasting-rune primary assignments; existing tags retained and supplemental roles unassessed.",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "expectedCaseCount": 23,
+  "reviewedPrimaryRule": "The own exact numeric-ID ordinary non-equipment stackable rune directly pays a named or defined spell requirement. Combination runes replace constituent costs. The full own first paragraph and exact positive function clause must support this use. Ordinary quest access and minigame acquisition do not imply an activity-only copy. Separate Slug Menace imitations and Barbarian Assault/Nightmare Zone copies are outside the exact approved set.",
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "transportPacket": "5e6a76c7cb19cbd82f83d13d892a3c8539799a65cf42112769d609dfdd85d6c7",
+    "candidatePacket": "b2707f06d2f71774ae62e8da30f10f6e676c2d4e2584130c0dc25d26627b04d8",
+    "stateReplay": "2e92fbd097e7b3a8bce8e16607d9701aaf73ebf37286a040926661401103228b",
+    "independentReview": "777f668124fec8ab561e2ae452c4312b0a777ebff9c3b95da4547000cc2f336f"
+  },
+  "reviewRecord": "Root read all 23 own raw named-subject leads, exact item options/state and full material competing use, acquisition and access contexts. Thirteen base runes, six elemental combinations, Astral, Wrath, Sunfire and Aether support their existing Rune/rune/currency-utilities route. Sunfire approval additionally cites the own non-combat spell substitution paragraph; its creation-only lead alone is insufficient. Aether cosmic/soul spell payment is explicit; radiant Oathplate crafting does not erase spell use. Runecraft creation, altar quest requirements, shops, staff charging/infinite alternatives and other uses are retained as context, without exhaustive role claims. Independent exact-source review and separate state replay found no exception in these 23. Five Slug imitations cannot cast ordinary spells; 15 BA and seven Nightmare copies remain separately unresolved. No bankability inference from absent fields, secondary effect or tag claim is approved.",
+  "cases": [
+    {
+      "itemId": 554,
+      "title": "Fire rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Fire runes''' are one of the four elemental [[runes]]. They are used to cast fire-based combat spells in the [[standard spellbook]], as well as casting many spells from other [[spellbook]]s. Some notable use cases for fire runes include casting [[alchemy spells]] to convert items into [[coins]], charging a [[trident of the seas]] or [[trident of the swamp]], and [[Resurrection spells|resurrecting]] high level [[thrall]]s.",
+      "positiveFunctionExcerpt": "'''Fire runes''' are one of the four elemental [[runes]]. They are used to cast fire-based combat spells in the [[standard spellbook]], as well as casting many spells from other [[spellbook]]s. Some notable use cases for fire runes include casting [[alchemy spells]] to convert items into [[coins]], charging a [[trident of the seas]] or [[trident of the swamp]], and [[Resurrection spells|resurrecting]] high level [[thrall]]s.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15352350,
+      "sourceSha256": "1ca52a3757e981bfee9eddc1d21ea788432b284846d0a315c8b2d8b9114e615c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "554"
+        },
+        {
+          "field": "name",
+          "value": "Fire rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 555,
+      "title": "Water rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Water runes''' are one of the four elemental [[runes]]. They are used to cast water-based combat spells in the [[standard spellbook]], as well as many spells found in other [[spellbook]]s. The [[Confuse]], [[Weaken]], and [[Curse]] spells, often regarded as an inexpensive source of [[Magic]] [[experience]], require water runes in conjunction with [[Body rune|body]] and [[Earth rune|earth]] runes to cast. Some items, such as a [[staff of water]], provide infinite water runes while equipped.",
+      "positiveFunctionExcerpt": "'''Water runes''' are one of the four elemental [[runes]]. They are used to cast water-based combat spells in the [[standard spellbook]], as well as many spells found in other [[spellbook]]s. The [[Confuse]], [[Weaken]], and [[Curse]] spells, often regarded as an inexpensive source of [[Magic]] [[experience]], require water runes in conjunction with [[Body rune|body]] and [[Earth rune|earth]] runes to cast. Some items, such as a [[staff of water]], provide infinite water runes while equipped.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15352351,
+      "sourceSha256": "e09c70313be23032e07d247777a0d0446e41c8f16bad72c05131a2b053a7fb14",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "555"
+        },
+        {
+          "field": "name",
+          "value": "Water rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 556,
+      "title": "Air rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Air runes''' are one of the four elemental [[runes]]. They are used in every combat spell and most teleportation spells in the [[standard spellbook]], as well as in many spells from other [[spellbook]]s. Because they are used very often, players are recommended to purchase an item that can provide infinite air runes while equipped, such as a [[staff of air]].",
+      "positiveFunctionExcerpt": "'''Air runes''' are one of the four elemental [[runes]]. They are used in every combat spell and most teleportation spells in the [[standard spellbook]], as well as in many spells from other [[spellbook]]s. Because they are used very often, players are recommended to purchase an item that can provide infinite air runes while equipped, such as a [[staff of air]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15352341,
+      "sourceSha256": "1d3b3e4cbc85e9da08d140b859c7965654ee6016afb21ab8ce9e08e353869acf",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "556"
+        },
+        {
+          "field": "name",
+          "value": "Air rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 557,
+      "title": "Earth rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Earth runes''' are one of the four elemental [[runes]]. They are used to cast earth-based combat spells in the [[standard spellbook]], as well as many spells found in other [[spellbook]]s; Earth runes are used especially often for spells in the [[Lunar spellbook]]. The [[Confuse]], [[Weaken]], and [[Curse]] spells, often regarded as an inexpensive source of [[Magic]] [[experience]], require earth runes in conjunction with [[Body rune|body]] and [[Water rune|water]] runes to cast. Some items, such as a [[staff of earth]], provide infinite earth runes while equipped.",
+      "positiveFunctionExcerpt": "'''Earth runes''' are one of the four elemental [[runes]]. They are used to cast earth-based combat spells in the [[standard spellbook]], as well as many spells found in other [[spellbook]]s; Earth runes are used especially often for spells in the [[Lunar spellbook]]. The [[Confuse]], [[Weaken]], and [[Curse]] spells, often regarded as an inexpensive source of [[Magic]] [[experience]], require earth runes in conjunction with [[Body rune|body]] and [[Water rune|water]] runes to cast. Some items, such as a [[staff of earth]], provide infinite earth runes while equipped.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15352348,
+      "sourceSha256": "2afa01a9f07fdf87938e8915075753373a564720d1ec3f937cb3698891d20d85",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "557"
+        },
+        {
+          "field": "name",
+          "value": "Earth rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 558,
+      "title": "Mind rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''mind rune''' is used for the strike spells including [[Wind Strike]], [[Water Strike]], [[Earth Strike]], and [[Fire Strike]], as well as the [[Magic Dart]] spell.",
+      "positiveFunctionExcerpt": "'''mind rune''' is used for the strike spells including [[Wind Strike]], [[Water Strike]], [[Earth Strike]], and [[Fire Strike]], as well as the [[Magic Dart]] spell.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15183304,
+      "sourceSha256": "f5455c9ee5aaa2e551712ebb8ebf3cde7cf93e685836161005932feb7b1172d0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "558"
+        },
+        {
+          "field": "name",
+          "value": "Mind rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 559,
+      "title": "Body rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Body runes''' are low level runes used for [[confuse]], [[weaken]], [[curse]] and [[Monster Inspect]] spells in the [[standard spellbook]], as well as [[Dream]] and [[Stat Spy]] in the [[Lunar spells|Lunar spellbook]]. They are also used for the reanimation spells [[Basic Reanimation]] and [[Adept Reanimation]] in the [[Arceuus spellbook]].",
+      "positiveFunctionExcerpt": "'''Body runes''' are low level runes used for [[confuse]], [[weaken]], [[curse]] and [[Monster Inspect]] spells in the [[standard spellbook]], as well as [[Dream]] and [[Stat Spy]] in the [[Lunar spells|Lunar spellbook]]. They are also used for the reanimation spells [[Basic Reanimation]] and [[Adept Reanimation]] in the [[Arceuus spellbook]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15183485,
+      "sourceSha256": "055e5e5fb4dbf880c20100a079e105b62d4938e2bd3b48dde03c3ce29dbf9312",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "559"
+        },
+        {
+          "field": "name",
+          "value": "Body rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 560,
+      "title": "Death rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Death runes''' are one of the [[runes]] used to cast spells in the [[Magic]] skill. They are required to cast medium-level missile spells, like [[Wind Blast]], [[Water Blast]], [[Earth Blast]], and [[Fire Blast]]. Members with 65 [[Runecraft]] and who have completed [[Mourning's End Part II]] can craft death runes at the [[Death Altar]] by using [[pure essence]] on it, with each essence yielding one death rune. Each death rune yields 10 Runecraft experience. Players with 99 Runecraft will always craft two death runes per essence. Crafting death runes from essence is a requirement for the [[Hard Ardougne Diary]].",
+      "positiveFunctionExcerpt": "'''Death runes''' are one of the [[runes]] used to cast spells in the [[Magic]] skill. They are required to cast medium-level missile spells, like [[Wind Blast]], [[Water Blast]], [[Earth Blast]], and [[Fire Blast]]. Members with 65 [[Runecraft]] and who have completed [[Mourning's End Part II]] can craft death runes at the [[Death Altar]] by using [[pure essence]] on it, with each essence yielding one death rune. Each death rune yields 10 Runecraft experience. Players with 99 Runecraft will always craft two death runes per essence. Crafting death runes from essence is a requirement for the [[Hard Ardougne Diary]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15327928,
+      "sourceSha256": "7cd60d6c2dec7f89a7fbefb95f1e95fe9ef4bbfcf7cb03b20873a827aca09254",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "560"
+        },
+        {
+          "field": "name",
+          "value": "Death rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 561,
+      "title": "Nature rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Nature runes''' are [[runes]] used for transmutation spells such as [[Low Level Alchemy|Low]] and [[High Level Alchemy|High]] [[Alchemy spells|Alchemy]] and [[Superheat Item]]. They are also used for the spells [[Bind]], [[Snare]], and [[Entangle]], and several spells on the [[Lunar spellbook|Lunar]] and [[Arceuus spellbook|Arceuus spellbooks]]. They can be purchased from many [[magic shops]].",
+      "positiveFunctionExcerpt": "'''Nature runes''' are [[runes]] used for transmutation spells such as [[Low Level Alchemy|Low]] and [[High Level Alchemy|High]] [[Alchemy spells|Alchemy]] and [[Superheat Item]]. They are also used for the spells [[Bind]], [[Snare]], and [[Entangle]], and several spells on the [[Lunar spellbook|Lunar]] and [[Arceuus spellbook|Arceuus spellbooks]]. They can be purchased from many [[magic shops]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15315058,
+      "sourceSha256": "f2400aa74a27a2b0bd94cc98b082bc7529bfb43eb8eb0cce1b471b4ccbced67d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "561"
+        },
+        {
+          "field": "name",
+          "value": "Nature rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 562,
+      "title": "Chaos rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Chaos runes''' are used for low level missile [[spells]], such as [[wind bolt]], [[water bolt]], [[earth bolt]] and [[fire bolt]]. They are also used to charge the [[bone staff]], [[warped sceptre]], [[trident of the seas]], [[trident of the swamp]], the [[Eye of Ayak]], and [[Tumeken's shadow]].",
+      "positiveFunctionExcerpt": "'''Chaos runes''' are used for low level missile [[spells]], such as [[wind bolt]], [[water bolt]], [[earth bolt]] and [[fire bolt]]. They are also used to charge the [[bone staff]], [[warped sceptre]], [[trident of the seas]], [[trident of the swamp]], the [[Eye of Ayak]], and [[Tumeken's shadow]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15327927,
+      "sourceSha256": "303764abc52aa1dd119dc61bcc66e81d613a847acfa15d0222515b08244ab397",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "562"
+        },
+        {
+          "field": "name",
+          "value": "Chaos rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 563,
+      "title": "Law rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''law rune''' is a [[Runes|rune]] used in all [[Teleportation spells|teleportation]] and [[Telekinetic Grab|telekinesis]] [[spells]], as well as in many of the supportive and utility spells on the [[Lunar Spellbook]].",
+      "positiveFunctionExcerpt": "'''law rune''' is a [[Runes|rune]] used in all [[Teleportation spells|teleportation]] and [[Telekinetic Grab|telekinesis]] [[spells]], as well as in many of the supportive and utility spells on the [[Lunar Spellbook]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15343069,
+      "sourceSha256": "3ab20deecab2ddb4ae710505acbf554dac60f0550f8b8411c440036389a28246",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "563"
+        },
+        {
+          "field": "name",
+          "value": "Law rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 564,
+      "title": "Cosmic rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''cosmic rune''' is a [[Runes|rune]] used primarily in enchanting [[spells]]. Enchanting spells enchant [[jewellery]], such as [[ring]]s and [[amulet]]s, into something that has an effect when worn or operated. For example, when the player casts [[Lvl-4 Enchant]] on a [[diamond ring]], the ring will become a [[ring of life]]. Cosmic runes are also used for the [[Lunar spells]] [[Astral Contact]], [[Cure Me]], [[Cure Group]], and [[Spellbook Swap]] and for the [[resurrection spells]] in the [[Arceuus spellbook]].",
+      "positiveFunctionExcerpt": "'''cosmic rune''' is a [[Runes|rune]] used primarily in enchanting [[spells]]. Enchanting spells enchant [[jewellery]], such as [[ring]]s and [[amulet]]s, into something that has an effect when worn or operated. For example, when the player casts [[Lvl-4 Enchant]] on a [[diamond ring]], the ring will become a [[ring of life]]. Cosmic runes are also used for the [[Lunar spells]] [[Astral Contact]], [[Cure Me]], [[Cure Group]], and [[Spellbook Swap]] and for the [[resurrection spells]] in the [[Arceuus spellbook]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15327926,
+      "sourceSha256": "6f96c5c0d6d401c5696f18bd02043430db4e691575adde4779f1c7e360c72158",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "564"
+        },
+        {
+          "field": "name",
+          "value": "Cosmic rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 565,
+      "title": "Blood rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Blood runes''' are one of the [[runes]] used to cast spells in the [[Magic]] skill. They are used in some of the highest level spells, the lowest of which is [[Enchant Crossbow Bolt (Ruby)|Ruby Crossbow Bolt Enchant]], and the highest is [[Heal Group]]. Blood runes are also used in charging the [[scythe of Vitur]], [[Sanguinesti staff]], [[ring of shadows]], and [[soul bearer]].",
+      "positiveFunctionExcerpt": "'''Blood runes''' are one of the [[runes]] used to cast spells in the [[Magic]] skill. They are used in some of the highest level spells, the lowest of which is [[Enchant Crossbow Bolt (Ruby)|Ruby Crossbow Bolt Enchant]], and the highest is [[Heal Group]]. Blood runes are also used in charging the [[scythe of Vitur]], [[Sanguinesti staff]], [[ring of shadows]], and [[soul bearer]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15336314,
+      "sourceSha256": "408eb730bc8e98e719b0fa970fcc297151db03346cd74f68b5ef2b8ca4d27e80",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "565"
+        },
+        {
+          "field": "name",
+          "value": "Blood rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 566,
+      "title": "Soul rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Soul runes''' are one of the [[runes]] used to cast [[spells]] in the [[Magic]] skill. It is used for the strongest [[curse spells]], the [[Teleportation#Teleother|teleport-other spells]], [[Enchant Crossbow Bolt (Dragonstone)]], [[Blood Barrage]], the [[Shadow spells|shadow spell]]s, and most [[Reanimation]] spells. Soul runes are also used in charging [[Tumeken's shadow]], the [[soul bearer]], and [[Kharedst's memoirs]], as well as creating [[Elidinis' ward (f)]].",
+      "positiveFunctionExcerpt": "'''Soul runes''' are one of the [[runes]] used to cast [[spells]] in the [[Magic]] skill. It is used for the strongest [[curse spells]], the [[Teleportation#Teleother|teleport-other spells]], [[Enchant Crossbow Bolt (Dragonstone)]], [[Blood Barrage]], the [[Shadow spells|shadow spell]]s, and most [[Reanimation]] spells. Soul runes are also used in charging [[Tumeken's shadow]], the [[soul bearer]], and [[Kharedst's memoirs]], as well as creating [[Elidinis' ward (f)]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15183944,
+      "sourceSha256": "05841f95ff4bdf31b028439bb4d8c8de91ea7b36a88522bc302898312a6c05a0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "566"
+        },
+        {
+          "field": "name",
+          "value": "Soul rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4694,
+      "title": "Steam rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Steam runes''' are [[combination rune]]s. They can be used as one [[fire rune]] ''and'' one [[water rune]]. Thus, any [[spell]] requiring one fire rune, one water rune, or both will spend only one steam rune.",
+      "positiveFunctionExcerpt": "'''Steam runes''' are [[combination rune]]s. They can be used as one [[fire rune]] ''and'' one [[water rune]]. Thus, any [[spell]] requiring one fire rune, one water rune, or both will spend only one steam rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15343073,
+      "sourceSha256": "9375b33e33c1d57809708ca95adbf8ac5a77bb78043b3c5ed4691d8bbd1dcdb9",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4694"
+        },
+        {
+          "field": "name",
+          "value": "Steam rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4695,
+      "title": "Mist rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Mist runes''' are [[combination rune]]s. They count as two separate runes: one [[water rune]] ''and'' one [[air rune]]. Thus, any spell requiring one water rune, one air rune, or both will spend only one mist rune.",
+      "positiveFunctionExcerpt": "'''Mist runes''' are [[combination rune]]s. They count as two separate runes: one [[water rune]] ''and'' one [[air rune]]. Thus, any spell requiring one water rune, one air rune, or both will spend only one mist rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15343070,
+      "sourceSha256": "7d3ea39712d2ad71d133ea260b2656a5f63144ddc012c1ca031bb8af81f20169",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4695"
+        },
+        {
+          "field": "name",
+          "value": "Mist rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4696,
+      "title": "Dust rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Dust runes''' are [[combination rune]]s. They count as two separate runes: one [[earth rune]] ''and'' one [[air rune]]. Thus, any spell requiring one earth rune, one air rune, or both will spend only one dust rune.",
+      "positiveFunctionExcerpt": "'''Dust runes''' are [[combination rune]]s. They count as two separate runes: one [[earth rune]] ''and'' one [[air rune]]. Thus, any spell requiring one earth rune, one air rune, or both will spend only one dust rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15343071,
+      "sourceSha256": "044a38c513d9c0a6080b4d2e733c7f45d3a0a34a14b449cbfb173f2922062919",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4696"
+        },
+        {
+          "field": "name",
+          "value": "Dust rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4697,
+      "title": "Smoke rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Smoke runes''' are [[combination rune]]s. They count as two separate runes: one [[fire rune]] ''and'' one [[air rune]]. Thus, any spell requiring one fire rune, one air rune, or both will cost only one smoke rune.",
+      "positiveFunctionExcerpt": "'''Smoke runes''' are [[combination rune]]s. They count as two separate runes: one [[fire rune]] ''and'' one [[air rune]]. Thus, any spell requiring one fire rune, one air rune, or both will cost only one smoke rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15343072,
+      "sourceSha256": "d85906d72c21e9b747f275280fa1bce461e2ffd6b32835b8f5f54039788590bf",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4697"
+        },
+        {
+          "field": "name",
+          "value": "Smoke rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4698,
+      "title": "Mud rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Mud runes''' are [[combination rune]]s. They count as two separate [[runes]]: one [[water rune]] ''and'' one [[earth rune]]. Thus, any [[spell]] requiring one water rune, one earth rune, or both will spend only one mud rune.",
+      "positiveFunctionExcerpt": "'''Mud runes''' are [[combination rune]]s. They count as two separate [[runes]]: one [[water rune]] ''and'' one [[earth rune]]. Thus, any [[spell]] requiring one water rune, one earth rune, or both will spend only one mud rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15327922,
+      "sourceSha256": "a3981d002d31fc5907bd97f7a7c4deafd3adac7b45ab2024b5dbacea00737dd3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4698"
+        },
+        {
+          "field": "name",
+          "value": "Mud rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4699,
+      "title": "Lava rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Lava runes''' are [[combination runes]] that count as two separate runes: one [[fire rune]] ''and'' one [[earth rune]]. Thus, any spell requiring one fire rune, one earth rune, or both will spend only one lava rune.",
+      "positiveFunctionExcerpt": "'''Lava runes''' are [[combination runes]] that count as two separate runes: one [[fire rune]] ''and'' one [[earth rune]]. Thus, any spell requiring one fire rune, one earth rune, or both will spend only one lava rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15343074,
+      "sourceSha256": "505610a4115fd5c0ed4af0c76f2e9e5aece0da403d1d1501b24c6e7316be3cc1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4699"
+        },
+        {
+          "field": "name",
+          "value": "Lava rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 9075,
+      "title": "Astral rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Astral runes''' are [[runes]] used in all [[Lunar Spells]]. Astral runes require level 40 [[Runecraft]] to craft. They may be crafted by using [[pure essence]] at the [[Astral Altar]] on [[Lunar Isle]] after the completion of [[Lunar Diplomacy]]. 8.7 Runecraft [[experience]] is gained per essence used. At level 82 Runecraft, players will receive two astral runes per pure essence used.",
+      "positiveFunctionExcerpt": "'''Astral runes''' are [[runes]] used in all [[Lunar Spells]]. Astral runes require level 40 [[Runecraft]] to craft. They may be crafted by using [[pure essence]] at the [[Astral Altar]] on [[Lunar Isle]] after the completion of [[Lunar Diplomacy]]. 8.7 Runecraft [[experience]] is gained per essence used. At level 82 Runecraft, players will receive two astral runes per pure essence used.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15345881,
+      "sourceSha256": "7202f6ed2d707987b30320c8c5255d6269971d971f97892445c19b154f39457c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "9075"
+        },
+        {
+          "field": "name",
+          "value": "Astral rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 21880,
+      "title": "Wrath rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Wrath runes''' are the highest level [[runes]] in ''[[Old School RuneScape]].'' Released alongside the [[Dragon Slayer II]] quest, they are used for [[surge spells]], which are the strongest [[combat spells|elemental spells]] in the [[standard spellbook]], and [[offering spells]] in the [[Arceuus spellbook]].",
+      "positiveFunctionExcerpt": "'''Wrath runes''' are the highest level [[runes]] in ''[[Old School RuneScape]].'' Released alongside the [[Dragon Slayer II]] quest, they are used for [[surge spells]], which are the strongest [[combat spells|elemental spells]] in the [[standard spellbook]], and [[offering spells]] in the [[Arceuus spellbook]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15328082,
+      "sourceSha256": "812c5c35ba9150d73341b7a079f027a8f41f92ecc19ed4b9a1ffa04ec964a37d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21880"
+        },
+        {
+          "field": "name",
+          "value": "Wrath rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 28929,
+      "title": "Sunfire rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Sunfire runes''' are a type of rune created by using [[fire rune]]s, along with [[sunfire splinter]]s and [[pure essence|pure]]/[[daeyalt essence]], at a [[Shrine of Ralos]]. Doing so requires level 33 [[Runecraft]], with the output being doubled at level 49, and tripled at level 98.",
+      "positiveFunctionExcerpt": "Though not advisable due to the cost per rune, they can be used in place of fire runes for non-combat spells such as teleporting or [[High Level Alchemy]].",
+      "secondaryExcerpts": [
+        "Though not advisable due to the cost per rune, they can be used in place of fire runes for non-combat spells such as teleporting or [[High Level Alchemy]]."
+      ],
+      "sourceRevision": 15324618,
+      "sourceSha256": "578e99ac04b420562813c7ebc519a4ad3c990ffc44310a7f67666cd7bd81952a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28929"
+        },
+        {
+          "field": "name",
+          "value": "Sunfire rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    },
+    {
+      "itemId": 30843,
+      "title": "Aether rune",
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "semanticExcerpt": "'''Aether runes''' are [[combination runes]] that count as two separate runes: one [[cosmic rune]] ''and'' one [[soul rune]]. Thus, any spell requiring one cosmic rune, one soul rune, or both will spend only one aether rune.",
+      "positiveFunctionExcerpt": "'''Aether runes''' are [[combination runes]] that count as two separate runes: one [[cosmic rune]] ''and'' one [[soul rune]]. Thus, any spell requiring one cosmic rune, one soul rune, or both will spend only one aether rune.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15287366,
+      "sourceSha256": "284cadb89ca461898aed298bb6b9089008feb56a5239be79c19772317d416389",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30843"
+        },
+        {
+          "field": "name",
+          "value": "Aether rune"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact ordinary item pays a source-defined spell rune requirement or substitutes for one or both constituent runes. Its unchanged Rune primary route is supported; crafting, charging, trade and other documented secondary uses remain unassessed."
+    }
+  ]
+}

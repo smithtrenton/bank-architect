@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the ten pinned root-approved policy files.
+"""Emit exact-ID decisions from the fourteen pinned root-approved policy files.
 
 This read-only builder verifies pinned candidate evidence without accepting
 candidate decisions as approvals. It never changes plugin sources or the frozen
@@ -34,6 +34,10 @@ POLICY_NAMES = (
     "food-primary-approved-policy.json",
     "raw-food-primary-approved-policy.json",
     "teleport-primary-approved-policy.json",
+    "rune-primary-approved-policy.json",
+    "tool-subcategory-approved-policy.json",
+    "tool-primary-approved-policy.json",
+    "farming-primary-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -115,6 +119,9 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
             "gear-primary-approved-policy.json": ("verify-gear-primary-policy.py", 939),
             "food-primary-approved-policy.json": ("verify-food-primary-policy.py", 40),
             "teleport-primary-approved-policy.json": ("verify-teleport-primary-policy.py", 72),
+            "rune-primary-approved-policy.json": ("verify-rune-primary-policy.py", 23),
+            "tool-primary-approved-policy.json": ("verify-tool-primary-policy.py", 151),
+            "farming-primary-approved-policy.json": ("verify-farming-primary-policy.py", 51),
         }
         if name in primary_verifiers:
             script, expected_count = primary_verifiers[name]
@@ -145,8 +152,8 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 1302:
-        raise ValueError(f"Expected exactly 1,302 disjoint approved policy cases, found {len(cases)}")
+    if len(cases) != 1528:
+        raise ValueError(f"Expected exactly 1,528 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -219,6 +226,8 @@ def tab_for(category: str, subcategory: str, item_id: int) -> str:
         return "storage-cleanup"
     if category not in STANDARD_TABS:
         raise ValueError(f"item {item_id}: no preset tab route for category {category!r}")
+    if item_id in {952, 1755}:
+        return "currency-utilities"
     # Seed-like Farming subcategories share the normal seeds-farming tab.
     return STANDARD_TABS[category]
 
@@ -287,14 +296,15 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
-    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json"}
+    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json"}
     expected = "certify" if primary_only else "revise"
     if primary_only and (roles or case.get("proposedTags") or tag_evidence):
         raise ValueError(f"item {item_id}: unchanged-primary policy cannot add tag or supplemental-role claims")
     if decision != expected:
         raise ValueError(f"item {item_id}: {policy_name} produced {decision}, expected {expected}")
     rationale = str(case.get("rationale") or normalized(excerpt))
-    predicate = f"Exact-ID evidence: {normalized(excerpt)}"
+    predicate_excerpt = case["positiveFunctionExcerpt"] if policy_name == "tool-primary-approved-policy.json" else excerpt
+    predicate = f"Exact-ID evidence: {normalized(predicate_excerpt)}"
     return {
         "itemId": item_id,
         "shard": packet["shard"],
@@ -321,6 +331,8 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
             "exactVariantFacts": facts,
             "tagEvidence": tag_evidence,
             **({"bonusSourceProof": case["bonusSourceProof"]} if case.get("bonusSourceProof") else {}),
+            **({"variantFunctionProof": case["variantFunctionProof"]} if case.get("variantFunctionProof") else {}),
+            **({"stateScopeNotes": case["stateScopeNotes"]} if case.get("stateScopeNotes") else {}),
             **({"approvalScope": "primary category, subcategory and tab only; tags retained and supplemental roles unassessed"}
                if primary_only else {}),
         },
@@ -479,7 +491,7 @@ def main() -> None:
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
                                ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
-                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py")},
+                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py")},
         "sourceHashes": {
             "policies": policy_hashes,
             "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),
@@ -490,6 +502,9 @@ def main() -> None:
             "foodCandidatePacket": sha256(BASE / "reviews/supplies-food-positive-v8-root-replay/food-positive-rule-candidates.jsonl"),
             "rawFishReview": sha256(BASE / "reviews/materials-positive-cohorts/20261003-raw-fish-cooking-inputs/root-review-packet.json"),
             "teleportCandidatePacket": sha256(BASE / "reviews/transport-v16/ordinary-teleport-consumables-review.json"),
+            "runeCandidatePacket": sha256(BASE / "reviews/transport-v17/ordinary-spellcasting-runes-review.json"),
+            "toolCandidatePacket": sha256(BASE / "reviews/proposed-unchanged-primary-tools-e8745b79b5f2d3d5/candidate-policy.json"),
+            "farmingCandidatePacket": sha256(BASE / "reviews/materials-positive-cohorts/20261003-farming-seed-literal-v2/root-review-packet.json"),
             "frozenPackets": packet_hashes,
         },
         "output": (str(args.output.relative_to(ROOT)) if args.output.is_relative_to(ROOT) else str(args.output)).replace("\\", "/"),
@@ -499,7 +514,7 @@ def main() -> None:
         "tabPolicy": "Standard target tabs are computed from the approved target category using the current preset mapper's category routes, plus explicit ID routes listed in this emitter. after-coverage is never read by the emitter.",
     }
     args.manifest.parent.mkdir(parents=True, exist_ok=True)
-    args.manifest.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    args.manifest.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
     print(f"Wrote {len(output_rows)} exact-ID decisions ({manifest['actionableRows']} actionable; {manifest['unresolvedRows']} unresolved)")
     print(f"Decisions: {args.output}")
     print(f"Manifest: {args.manifest}")
