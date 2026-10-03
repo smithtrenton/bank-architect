@@ -1,0 +1,1527 @@
+{
+  "schema": 1,
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "scope": "42 root-reviewed original Gear corrections: 36 two-handed weapon states and six non-equipment functions",
+  "heldCases": [
+    {
+      "itemId": 7671,
+      "decision": "unresolved",
+      "reason": "Boxing gloves are destroyed when leaving a house; final category awaits activity-only policy."
+    },
+    {
+      "itemId": 7673,
+      "decision": "unresolved",
+      "reason": "Boxing gloves are destroyed when leaving a house; final category awaits activity-only policy."
+    }
+  ],
+  "cases": [
+    {
+      "itemId": 1685,
+      "title": "Black amulet (interface item)",
+      "sourceRevision": 15224332,
+      "sourceSha256": "d5532024eaefb8962abe9adea642c36b735e7f6d2750ea34d47a731836d792de",
+      "semanticExcerpt": "'''black amulet''' is an [[interface item]]. It can be seen in the interface for crafting jewellery. If the player does not have the correct gem to craft an amulet, the black amulet appears in its place as a greyed out version.",
+      "secondaryExcerpts": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1685"
+        },
+        {
+          "field": "name",
+          "value": "{{Null name}}"
+        },
+        {
+          "field": "options",
+          "value": "None"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        }
+      ],
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "The exact article describes an icon in the jewellery crafting interface, so it belongs in Cleanup review rather than functional equipment.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3095,
+      "title": "Bronze claws",
+      "sourceRevision": 15182788,
+      "sourceSha256": "71448fb54e2b1fc72468ea984b2bb4e2caed1bd8136a85ba1dd93233f7db46cd",
+      "semanticExcerpt": "'''Bronze claws''' are a two-handed [[melee]] [[weapon]], and are the weakest set of [[claws]] available. They can be wielded at level 1 [[Attack]].",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3095"
+        },
+        {
+          "field": "name",
+          "value": "Bronze claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3096,
+      "title": "Iron claws",
+      "sourceRevision": 15182794,
+      "sourceSha256": "0136054d57e7f2bbe4acc8579e1656e847bb84d082439255c32556e3e2712e48",
+      "semanticExcerpt": "'''Iron claws''' are a two-handed [[melee]] [[weapon]]. They are the second weakest claws available and can be wielded at 1 [[Attack]].",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3096"
+        },
+        {
+          "field": "name",
+          "value": "Iron claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3097,
+      "title": "Steel claws",
+      "sourceRevision": 15182876,
+      "sourceSha256": "43b8e26095520076794ecc720ff6003d599455b04f05f3c50d6e99053d7b7d53",
+      "semanticExcerpt": "'''Steel claws''' are a fast two-handed [[melee]] [[weapon]]. To wield them the player must have at least level 5 [[Attack]]. They are given as a reward for completing the [[Death Plateau]] quest.",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3097"
+        },
+        {
+          "field": "name",
+          "value": "Steel claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3098,
+      "title": "Black claws",
+      "sourceRevision": 15184149,
+      "sourceSha256": "0159b8ed7584384f3da25902539fe91d03c11e1935925786b460429874805e19",
+      "semanticExcerpt": "'''Black claws''' are a fast two-handed [[melee]] weapon. To wield them, a player must have at least level 10 [[Attack]]. They can only be obtained as a monster drop.",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3098"
+        },
+        {
+          "field": "name",
+          "value": "Black claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3099,
+      "title": "Mithril claws",
+      "sourceRevision": 15184151,
+      "sourceSha256": "c3a9fb5350cdb3b852861b3a8dc4328b756903efd509ff064b5cad388feb07f6",
+      "semanticExcerpt": "'''Mithril claws''' are a two-handed [[melee]] [[weapons|weapon]] that are [[Members|member's only]]. To wield them the player must have at least level 20 [[Attack]].",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3099"
+        },
+        {
+          "field": "name",
+          "value": "Mithril claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3100,
+      "title": "Adamant claws",
+      "sourceRevision": 15182715,
+      "sourceSha256": "dc1c3bf0d01dcb93ce01e7dd9ba946c8cec2e49a2e15de0c0ba5894ee6a7abbd",
+      "semanticExcerpt": "'''Adamant claws''' are a two-handed melee weapon. They can be made with two [[adamantite bar]]s and a hammer at any anvil granting 125 [[Smithing]] [[experience]]. They can only be made by players who have completed the [[Death Plateau]] q",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3100"
+        },
+        {
+          "field": "name",
+          "value": "Adamant claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 3101,
+      "title": "Rune claws",
+      "sourceRevision": 15214520,
+      "sourceSha256": "2fa3d7578f1b00ff5f8fdef33fd38949454a3c4fc733eefffc88f7e2b075e5f5",
+      "semanticExcerpt": "'''Rune claws''' are a two-handed melee weapon, requiring 40 [[Attack]] to wield. They are the third strongest pair of [[claws]].",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3101"
+        },
+        {
+          "field": "name",
+          "value": "Rune claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "special-attack"
+      ],
+      "tagEvidence": {
+        "special-attack": "As they are the cheapest and easiest to obtain claws with a special attack"
+      },
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4158,
+      "title": "Leaf-bladed spear",
+      "sourceRevision": 15183703,
+      "sourceSha256": "debf936d888e2273868642e0dec2402ed4d2cbe5fb29b7ed999f278172e5b609",
+      "semanticExcerpt": "'''leaf-bladed spear''' is a two-handed weapon that is used to kill [[turoth]] and [[kurask]]s as an alternative to the [[Magic Dart]] spell, [[broad arrow]]s, [[broad-tipped bolts]], [[leaf-bladed sword]], and the [[leaf-bladed battleaxe]]",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4158"
+        },
+        {
+          "field": "name",
+          "value": "Leaf-bladed spear"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4718,
+      "title": "Dharok's greataxe",
+      "sourceRevision": 15248976,
+      "sourceSha256": "fd05b4541d7110e5403d55215ee1f4c6f974303ca9b1af31307a3098e0805c72",
+      "semanticExcerpt": "'''Dharok's greataxe''' is a two-handed [[Weapons/Categories#Axe|axe]] that is part of the [[Dharok the Wretched's equipment|Dharok the Wretched's set]] of [[barrows equipment]]. To wield the Dharok's greataxe, a player requires 70 [[Attack",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "4718"
+        },
+        {
+          "field": "name1",
+          "value": "Dharok's greataxe"
+        },
+        {
+          "field": "version1",
+          "value": "Undamaged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4726,
+      "title": "Guthan's warspear",
+      "sourceRevision": 15252857,
+      "sourceSha256": "00ba0ce18ccb931276dd4779e76ec369b154b5c63319df31abea4e832c58e29a",
+      "semanticExcerpt": "'''Guthan's warspear''' is a two-handed [[melee weapon]] that is part of [[Guthan the Infested's equipment|Guthan the Infested's set]] of [[barrows equipment]] and requires 70 [[Attack]] to wield. It is the second most accurate spear in gam",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "4726"
+        },
+        {
+          "field": "name1",
+          "value": "Guthan's warspear"
+        },
+        {
+          "field": "version1",
+          "value": "Undamaged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4755,
+      "title": "Verac's flail",
+      "sourceRevision": 15356790,
+      "sourceSha256": "cf441f81e22a819d8a524416bf0e1eef16fbae6b79c5d560e8431723427db829",
+      "semanticExcerpt": "'''Verac's flail''' is a two-handed [[Weapons/Categories#Spiked|spiked weapon]] that is part of [[Verac the Defiled's equipment|Verac the Defiled's set]] of [[barrows equipment]]. To wield Verac's flail, a player must have 70 [[Attack]]. Th",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "4755"
+        },
+        {
+          "field": "name1",
+          "value": "Verac's flail"
+        },
+        {
+          "field": "version1",
+          "value": "Undamaged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4886,
+      "title": "Dharok's greataxe",
+      "sourceRevision": 15248976,
+      "sourceSha256": "fd05b4541d7110e5403d55215ee1f4c6f974303ca9b1af31307a3098e0805c72",
+      "semanticExcerpt": "'''Dharok's greataxe''' is a two-handed [[Weapons/Categories#Axe|axe]] that is part of the [[Dharok the Wretched's equipment|Dharok the Wretched's set]] of [[barrows equipment]]. To wield the Dharok's greataxe, a player requires 70 [[Attack",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "4886"
+        },
+        {
+          "field": "name2",
+          "value": "Dharok's greataxe 100"
+        },
+        {
+          "field": "version2",
+          "value": "100"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4887,
+      "title": "Dharok's greataxe",
+      "sourceRevision": 15248976,
+      "sourceSha256": "fd05b4541d7110e5403d55215ee1f4c6f974303ca9b1af31307a3098e0805c72",
+      "semanticExcerpt": "'''Dharok's greataxe''' is a two-handed [[Weapons/Categories#Axe|axe]] that is part of the [[Dharok the Wretched's equipment|Dharok the Wretched's set]] of [[barrows equipment]]. To wield the Dharok's greataxe, a player requires 70 [[Attack",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id3",
+          "value": "4887"
+        },
+        {
+          "field": "name3",
+          "value": "Dharok's greataxe 75"
+        },
+        {
+          "field": "version3",
+          "value": "75"
+        },
+        {
+          "field": "options3",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4888,
+      "title": "Dharok's greataxe",
+      "sourceRevision": 15248976,
+      "sourceSha256": "fd05b4541d7110e5403d55215ee1f4c6f974303ca9b1af31307a3098e0805c72",
+      "semanticExcerpt": "'''Dharok's greataxe''' is a two-handed [[Weapons/Categories#Axe|axe]] that is part of the [[Dharok the Wretched's equipment|Dharok the Wretched's set]] of [[barrows equipment]]. To wield the Dharok's greataxe, a player requires 70 [[Attack",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id4",
+          "value": "4888"
+        },
+        {
+          "field": "name4",
+          "value": "Dharok's greataxe 50"
+        },
+        {
+          "field": "version4",
+          "value": "50"
+        },
+        {
+          "field": "options4",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4889,
+      "title": "Dharok's greataxe",
+      "sourceRevision": 15248976,
+      "sourceSha256": "fd05b4541d7110e5403d55215ee1f4c6f974303ca9b1af31307a3098e0805c72",
+      "semanticExcerpt": "'''Dharok's greataxe''' is a two-handed [[Weapons/Categories#Axe|axe]] that is part of the [[Dharok the Wretched's equipment|Dharok the Wretched's set]] of [[barrows equipment]]. To wield the Dharok's greataxe, a player requires 70 [[Attack",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id5",
+          "value": "4889"
+        },
+        {
+          "field": "name5",
+          "value": "Dharok's greataxe 25"
+        },
+        {
+          "field": "version5",
+          "value": "25"
+        },
+        {
+          "field": "options5",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4910,
+      "title": "Guthan's warspear",
+      "sourceRevision": 15252857,
+      "sourceSha256": "00ba0ce18ccb931276dd4779e76ec369b154b5c63319df31abea4e832c58e29a",
+      "semanticExcerpt": "'''Guthan's warspear''' is a two-handed [[melee weapon]] that is part of [[Guthan the Infested's equipment|Guthan the Infested's set]] of [[barrows equipment]] and requires 70 [[Attack]] to wield. It is the second most accurate spear in gam",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "4910"
+        },
+        {
+          "field": "name2",
+          "value": "Guthan's warspear 100"
+        },
+        {
+          "field": "version2",
+          "value": "100"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4911,
+      "title": "Guthan's warspear",
+      "sourceRevision": 15252857,
+      "sourceSha256": "00ba0ce18ccb931276dd4779e76ec369b154b5c63319df31abea4e832c58e29a",
+      "semanticExcerpt": "'''Guthan's warspear''' is a two-handed [[melee weapon]] that is part of [[Guthan the Infested's equipment|Guthan the Infested's set]] of [[barrows equipment]] and requires 70 [[Attack]] to wield. It is the second most accurate spear in gam",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id3",
+          "value": "4911"
+        },
+        {
+          "field": "name3",
+          "value": "Guthan's warspear 75"
+        },
+        {
+          "field": "version3",
+          "value": "75"
+        },
+        {
+          "field": "options3",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4912,
+      "title": "Guthan's warspear",
+      "sourceRevision": 15252857,
+      "sourceSha256": "00ba0ce18ccb931276dd4779e76ec369b154b5c63319df31abea4e832c58e29a",
+      "semanticExcerpt": "'''Guthan's warspear''' is a two-handed [[melee weapon]] that is part of [[Guthan the Infested's equipment|Guthan the Infested's set]] of [[barrows equipment]] and requires 70 [[Attack]] to wield. It is the second most accurate spear in gam",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id4",
+          "value": "4912"
+        },
+        {
+          "field": "name4",
+          "value": "Guthan's warspear 50"
+        },
+        {
+          "field": "version4",
+          "value": "50"
+        },
+        {
+          "field": "options4",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4913,
+      "title": "Guthan's warspear",
+      "sourceRevision": 15252857,
+      "sourceSha256": "00ba0ce18ccb931276dd4779e76ec369b154b5c63319df31abea4e832c58e29a",
+      "semanticExcerpt": "'''Guthan's warspear''' is a two-handed [[melee weapon]] that is part of [[Guthan the Infested's equipment|Guthan the Infested's set]] of [[barrows equipment]] and requires 70 [[Attack]] to wield. It is the second most accurate spear in gam",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id5",
+          "value": "4913"
+        },
+        {
+          "field": "name5",
+          "value": "Guthan's warspear 25"
+        },
+        {
+          "field": "version5",
+          "value": "25"
+        },
+        {
+          "field": "options5",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4982,
+      "title": "Verac's flail",
+      "sourceRevision": 15356790,
+      "sourceSha256": "cf441f81e22a819d8a524416bf0e1eef16fbae6b79c5d560e8431723427db829",
+      "semanticExcerpt": "'''Verac's flail''' is a two-handed [[Weapons/Categories#Spiked|spiked weapon]] that is part of [[Verac the Defiled's equipment|Verac the Defiled's set]] of [[barrows equipment]]. To wield Verac's flail, a player must have 70 [[Attack]]. Th",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "4982"
+        },
+        {
+          "field": "name2",
+          "value": "Verac's flail 100"
+        },
+        {
+          "field": "version2",
+          "value": "100"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4983,
+      "title": "Verac's flail",
+      "sourceRevision": 15356790,
+      "sourceSha256": "cf441f81e22a819d8a524416bf0e1eef16fbae6b79c5d560e8431723427db829",
+      "semanticExcerpt": "'''Verac's flail''' is a two-handed [[Weapons/Categories#Spiked|spiked weapon]] that is part of [[Verac the Defiled's equipment|Verac the Defiled's set]] of [[barrows equipment]]. To wield Verac's flail, a player must have 70 [[Attack]]. Th",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id3",
+          "value": "4983"
+        },
+        {
+          "field": "name3",
+          "value": "Verac's flail 75"
+        },
+        {
+          "field": "version3",
+          "value": "75"
+        },
+        {
+          "field": "options3",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4984,
+      "title": "Verac's flail",
+      "sourceRevision": 15356790,
+      "sourceSha256": "cf441f81e22a819d8a524416bf0e1eef16fbae6b79c5d560e8431723427db829",
+      "semanticExcerpt": "'''Verac's flail''' is a two-handed [[Weapons/Categories#Spiked|spiked weapon]] that is part of [[Verac the Defiled's equipment|Verac the Defiled's set]] of [[barrows equipment]]. To wield Verac's flail, a player must have 70 [[Attack]]. Th",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id4",
+          "value": "4984"
+        },
+        {
+          "field": "name4",
+          "value": "Verac's flail 50"
+        },
+        {
+          "field": "version4",
+          "value": "50"
+        },
+        {
+          "field": "options4",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 4985,
+      "title": "Verac's flail",
+      "sourceRevision": 15356790,
+      "sourceSha256": "cf441f81e22a819d8a524416bf0e1eef16fbae6b79c5d560e8431723427db829",
+      "semanticExcerpt": "'''Verac's flail''' is a two-handed [[Weapons/Categories#Spiked|spiked weapon]] that is part of [[Verac the Defiled's equipment|Verac the Defiled's set]] of [[barrows equipment]]. To wield Verac's flail, a player must have 70 [[Attack]]. Th",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id5",
+          "value": "4985"
+        },
+        {
+          "field": "name5",
+          "value": "Verac's flail 25"
+        },
+        {
+          "field": "version5",
+          "value": "25"
+        },
+        {
+          "field": "options5",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 6040,
+      "title": "Amulet of Nature",
+      "sourceRevision": 15324323,
+      "sourceSha256": "55526e8ea90f86eb38ac70fae6c740f1b603c590780470eb1ef433171b08267a",
+      "semanticExcerpt": "'''amulet of nature''' is used to monitor the state of a [[Farming]] [[farming patch|patch]]. It is created by stringing an [[emerald amulet (u)]] with [[magic string]] to make a [[pre-nature amulet]]. Casting [[Lvl-2 Enchant]] on it will r",
+      "secondaryExcerpts": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6040"
+        },
+        {
+          "field": "name",
+          "value": "Amulet of Nature"
+        },
+        {
+          "field": "options",
+          "value": "Rub, Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "TOOL",
+      "proposedSubcategory": "skilling-utility",
+      "addedRoles": [
+        "farming-utility"
+      ],
+      "tagEvidence": {
+        "farming-utility": "There is no limit to how many times you can rub the amulet."
+      },
+      "rationale": "The wearable amulet has zero combat bonuses and a directly documented renewable crop-monitoring/rubbing function. Its Farming utility takes precedence over the neck slot.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 6587,
+      "title": "White claws",
+      "sourceRevision": 15234512,
+      "sourceSha256": "0d8ecac65e3c97dedb75263bbbb4c0baa7e605ca7c21836af0acee605e9ce000",
+      "semanticExcerpt": "'''white claws''' are a [[White Knight equipment|White Knight]] [[weapon]] that requires 10 [[Attack]] and the completion of the [[Wanted!]] [[quest]] to wield. They have the same bonuses as the [[black claws]], with an added +1 [[Prayer bo",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6587"
+        },
+        {
+          "field": "name",
+          "value": "White claws"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "prayer-gear"
+      ],
+      "tagEvidence": {
+        "prayer-gear": "They have the same bonuses as the [[black claws]], with an added +1 [[Prayer bonus]]."
+      },
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 7076,
+      "title": "Uncooked egg",
+      "sourceRevision": 15185173,
+      "sourceSha256": "1519e6485879ea9fac1c9cf301c193096e89fbf37c9aebc5c1a86d57e4f0ff4f",
+      "semanticExcerpt": "'''uncooked egg''' is a cooking ingredient that players can make by using an [[egg]] on a [[bowl]]. This food item cannot be eaten.",
+      "secondaryExcerpts": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7076"
+        },
+        {
+          "field": "name",
+          "value": "Uncooked egg"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        }
+      ],
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "The exact uncooked ingredient cannot be eaten and is cooked into scrambled egg, so it is a Cooking input rather than equipment or ready food.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 7078,
+      "title": "Scrambled egg",
+      "sourceRevision": 15185172,
+      "sourceSha256": "9b859c2f8226a90b86879aeb158eaabbb0b69c059eb041908d6458a755bf254b",
+      "semanticExcerpt": "'''Scrambled eggs''' are a type of [[food]] that restores 5 [[Hitpoints]] when eaten. It can be obtained by cooking an [[uncooked egg]] on [[cooking range]] or [[fire]], requiring level 13 [[Cooking]] and granting 50 experience when success",
+      "secondaryExcerpts": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7078"
+        },
+        {
+          "field": "name",
+          "value": "Scrambled egg"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        }
+      ],
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "The exact prepared item can be eaten and has a documented healing effect; its additional recipe role is retained in the evidence and does not turn it into equipment.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 7088,
+      "title": "Sweetcorn (bowl)",
+      "sourceRevision": 15352048,
+      "sourceSha256": "004b01e11c6985b7ba4648113918055ecd8e0ee38f55448fe5cac79006a5b804",
+      "semanticExcerpt": "'''bowl of sweetcorn''' (in game name \"Sweetcorn\") is both [[food]] and a cooking ingredient. It can be made by using a [[bowl]] on a [[cooked sweetcorn]]; this does not require a [[knife]], nor does it provide any [[Cooking]] [[experience]",
+      "secondaryExcerpts": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7088"
+        },
+        {
+          "field": "name",
+          "value": "Sweetcorn"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        }
+      ],
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "The exact prepared item can be eaten and has a documented healing effect; its additional recipe role is retained in the evidence and does not turn it into equipment.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 7668,
+      "title": "Gadderhammer",
+      "sourceRevision": 15183027,
+      "sourceSha256": "b79f15a8af04d1138c033d3500cf4ed49a0e981b34211d04f49cadc90cb1e380",
+      "semanticExcerpt": "'''gadderhammer''' is a two-handed [[members-only]] [[maul]]. There are no combat requirements for wielding the gadderhammer. To obtain the gadderhammer the player must defeat [[Gadderanks]] during [[In Aid of the Myreque]]. Even though it ",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7668"
+        },
+        {
+          "field": "name",
+          "value": "Gadderhammer"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "combat-passive",
+        "quest-weapon"
+      ],
+      "tagEvidence": {
+        "combat-passive": "possessing a 25% damage bonus against shades as well as a 5% chance to deal double damage.",
+        "quest-weapon": "To obtain the gadderhammer the player must defeat [[Gadderanks]] during [[In Aid of the Myreque]]."
+      },
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 10887,
+      "title": "Barrelchest anchor",
+      "sourceRevision": 15295166,
+      "sourceSha256": "680695ab5f9fb28d73e912c79e8d64b615d6c3064de029a34ec23b85d0ceb4d1",
+      "semanticExcerpt": "'''barrelchest anchor''' is a two-handed [[spiked]] weapon and [[quest items|quest item]] acquired in [[The Great Brain Robbery]]. 60 [[Attack]] and 40 [[Strength]] are required to wield it. It is obtained after killing [[Barrelchest]]. ",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "10887"
+        },
+        {
+          "field": "name",
+          "value": "Barrelchest anchor"
+        },
+        {
+          "field": "version1",
+          "value": "Fixed"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Destroy"
+        },
+        {
+          "field": "equipable1",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 13263,
+      "title": "Abyssal bludgeon",
+      "sourceRevision": 15360517,
+      "sourceSha256": "edbb85dae18be635d4330b41e3282ba6ab406a9d807c036231a95f26f33a9ada",
+      "semanticExcerpt": "'''abyssal bludgeon''' is a two-handed [[crush weapon]] created by having [[The Overseer]] combine three untradeable components — the [[bludgeon axon]], [[bludgeon claw]], and [[bludgeon spine]]. If the player already had the Overseer creat",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "13263"
+        },
+        {
+          "field": "name",
+          "value": "Abyssal bludgeon"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 19478,
+      "title": "Light ballista",
+      "sourceRevision": 15224135,
+      "sourceSha256": "3ebdd9535c5cbba8d5de868fb8826b3748e5a8ad6cb92a7d237c3c3f5cc9ae2d",
+      "semanticExcerpt": "'''light ballista''' is a two-handed [[Crossbow (weapon)|crossbow]] that uses [[javelin]]s as ammunition, requiring level 65 in [[Ranged]] to wield.",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19478"
+        },
+        {
+          "field": "name",
+          "value": "Light ballista"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 19481,
+      "title": "Heavy ballista",
+      "sourceRevision": 15224134,
+      "sourceSha256": "240b54c7b1580e770a4092f0b80e261b730237fc34dc4ca11b6176f849225b1b",
+      "semanticExcerpt": "'''heavy ballista''' is a two-handed [[Crossbow (weapon)|crossbow]] that uses [[javelin]]s as ammunition, requiring level 75 in [[Ranged]] and the completion of the quest [[Monkey Madness II]] to wield. Players must also accept both [[Duke ",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19481"
+        },
+        {
+          "field": "name",
+          "value": "Heavy ballista"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 26712,
+      "title": "Heavy ballista (or)",
+      "sourceRevision": 15333815,
+      "sourceSha256": "80b572497a71f934a1d5b0645588012d8036476c3c2b0624808631bccc3537cc",
+      "semanticExcerpt": "'''heavy ballista (or)''' is a cosmetic variant of the [[heavy ballista]] with a [[heavy ballista ornament kit]] added to it. It can be dismantled at any time, returning both parts back to the player.",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26712"
+        },
+        {
+          "field": "name",
+          "value": "Heavy ballista (or)"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Dismantle"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 27855,
+      "title": "Barrelchest anchor (bh)",
+      "sourceRevision": 15297409,
+      "sourceSha256": "42dfde9b363909be0522cb27ba7b590937810d99e99f9f45f2bc075f1d0d81be",
+      "semanticExcerpt": "'''Barrelchest anchor (bh)''' is a two-handed weapon that requires level 50 [[Attack]] and 40 [[Strength]] to wield. It is created by using a [[Barrelchest anchor imbue scroll]] on the [[Barrelchest anchor]], which is purchased as a reward ",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "27855"
+        },
+        {
+          "field": "name",
+          "value": "Barrelchest anchor (bh)"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Dismantle"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 28997,
+      "title": "Dual macuahuitl",
+      "sourceRevision": 15357461,
+      "sourceSha256": "7d0939b042052b85128eca44f9d3d56211ff2194d58fe4b2fe4b3f854cedfa30",
+      "semanticExcerpt": "'''dual macuahuitl''' (in English pronounced roughly {{Respell|mah|KWAH|weetl}}) is a [[non-degradable]] two-handed [[spiked]] weapon that requires level 70 [[Attack]] and 75 [[Strength]] to equip, which is obtained as a possible reward fro",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28997"
+        },
+        {
+          "field": "name",
+          "value": "Dual macuahuitl"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 29000,
+      "title": "Eclipse atlatl",
+      "sourceRevision": 15356407,
+      "sourceSha256": "04ae81ba0ac1db16f1588d230dbec2d21a932064fdec03f223bf1d3b8c1200eb",
+      "semanticExcerpt": "'''eclipse atlatl''' is a [[non-degradable]] two-handed ranged weapon that requires level 75 [[Ranged]], 50 [[Attack]], and 50 [[Strength]] to equip. It can be obtained as a possible reward from the [[Lunar Chest]] in [[Neypotzli]]. It uses",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29000"
+        },
+        {
+          "field": "name",
+          "value": "Eclipse atlatl"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 29084,
+      "title": "Sulphur blades",
+      "sourceRevision": 15192275,
+      "sourceSha256": "ba07eee43896450cba4ca70d52da516fbd4e280b4061139b0928c7bb925d19b8",
+      "semanticExcerpt": "'''Sulphur blades''' are a two-handed weapon that requires level 55 [[Attack]] to wield, obtained as a rare drop from [[sulphur nagua]] in [[Neypotzli]]. Like their crush and stab equivalents, the [[glacial temotli]] and [[earthbound tecpat",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29084"
+        },
+        {
+          "field": "name",
+          "value": "Sulphur blades"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 29577,
+      "title": "Burning claws",
+      "sourceRevision": 15272854,
+      "sourceSha256": "718c9b20b26abfcf733bc12650f97b68feccef9e87a104d8e2b0a0d584493b5c",
+      "semanticExcerpt": "'''Burning claws''' are a two-handed [[Demonbane weapon|demonbane]] melee weapon created by using 2 [[burning claw]]s on each other, which are rare drops from [[Tormented Demon]]s.",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29577"
+        },
+        {
+          "field": "name",
+          "value": "Burning claws"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "combat-passive",
+        "special-attack"
+      ],
+      "tagEvidence": {
+        "special-attack": "They require level 60 [[Attack]] to equip, and possess a special attack.",
+        "combat-passive": "the claws provide a 5% increase in accuracy and damage."
+      },
+      "rationale": "Root read the exact item article and its own state options. The literal equipment slot and directly documented weapon function support two-handed placement without inferring equipment type from the name.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 33693,
+      "title": "Tarnished amulet",
+      "sourceRevision": 15290738,
+      "sourceSha256": "3d59a1036f6b701a9baea5621a6e8e14d8df839b4e64ec9c87aaa01097d05fbf",
+      "semanticExcerpt": "'''tarnished amulet''' is a [[Tarnished|tarnished item]] dropped by [[venator]]s and the [[Maggot King]]. It can be polished to reveal a random unstrung [[amulet]], granting between 200 and 250 [[Crafting]] XP.",
+      "secondaryExcerpts": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "33693"
+        },
+        {
+          "field": "name",
+          "value": "Tarnished amulet"
+        },
+        {
+          "field": "options",
+          "value": "Polish, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        }
+      ],
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-jewellery",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "The exact tarnished item is unwearable and is polished for Crafting XP into an unstrung amulet. It follows the jewellery production workflow rather than finished combat equipment.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    },
+    {
+      "itemId": 10888,
+      "title": "Barrelchest anchor",
+      "sourceRevision": 15295166,
+      "sourceSha256": "680695ab5f9fb28d73e912c79e8d64b615d6c3064de029a34ec23b85d0ceb4d1",
+      "semanticExcerpt": "Players receive this item in a broken state and must pay [[Smith]] on the docks of [[Mos Le'Harmless]] a fee of {{NoCoins|230,000}} [[coins]] to repair the anchor",
+      "secondaryExcerpts": [
+        "|slot = 2h"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "10888"
+        },
+        {
+          "field": "name",
+          "value": "Barrelchest anchor"
+        },
+        {
+          "field": "version2",
+          "value": "Broken"
+        },
+        {
+          "field": "options2",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable2",
+          "value": "No"
+        }
+      ],
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "tagEvidence": {},
+      "rationale": "The exact broken variant has Drop-only options and cannot presently attack. The same pinned article explicitly documents repairing it into the two-handed anchor, so its bank equipment workflow and 2h subtype remain supported.",
+      "reviewer": "root: independently read item prose, exact state fields and literal slot"
+    }
+  ]
+}

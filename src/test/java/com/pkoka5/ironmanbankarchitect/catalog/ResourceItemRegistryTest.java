@@ -88,6 +88,21 @@ public class ResourceItemRegistryTest
 	@Test
 	public void unlabelledHighValueEquipmentIsRecognizedByEquipmentType()
 	{
+		assertAuditFamily(new int[]{1685},
+			ItemCategory.CLEANUP, "cleanup");
+		assertAuditFamily(new int[]{3095, 3096, 3097, 3098, 3099, 3100, 3101, 4158, 4718, 4726,
+			4755, 4886, 4887, 4888, 4889, 4910, 4911, 4912, 4913, 4982,
+			4983, 4984, 4985, 6587, 7668, 10887, 13263, 19478, 19481, 26712,
+			27855, 28997, 29000, 29084, 29577, 10888},
+			ItemCategory.GEAR, "2h");
+		assertAuditFamily(new int[]{7078, 7088},
+			ItemCategory.POTION, "food");
+		assertAuditFamily(new int[]{7076},
+			ItemCategory.SKILLING, "cooking-material");
+		assertAuditFamily(new int[]{33693},
+			ItemCategory.SKILLING, "crafting-jewellery");
+		assertAuditFamily(new int[]{6040},
+			ItemCategory.TOOL, "skilling-utility");
 		assertAuditFamily(new int[]{10487, 20249, 22719, 24327, 24792},
 			ItemCategory.CLUE, "cosmetic");
 		assertAuditFamily(new int[]{7439, 12924, 12926, 13652, 19918, 19941, 20756, 22325, 22486, 28534,
@@ -497,7 +512,7 @@ public class ResourceItemRegistryTest
 		assertCategory(29045, "Blood moon tassets", ItemCategory.GEAR);
 		assertSubcategory(29045, "legs");
 		assertCategory(29000, "Eclipse atlatl", ItemCategory.GEAR);
-		assertSubcategory(29000, "weapon");
+		assertSubcategory(29000, "2h");
 		assertCategory(24699, "Blisterwood flail", ItemCategory.GEAR);
 		assertSubcategory(24699, "weapon");
 		assertCategory(29589, "Emberlight", ItemCategory.GEAR);
@@ -509,15 +524,15 @@ public class ResourceItemRegistryTest
 		assertCategory(12002, "Occult necklace", ItemCategory.GEAR);
 		assertSubcategory(12002, "neck");
 		assertCategory(13263, "Abyssal bludgeon", ItemCategory.GEAR);
-		assertSubcategory(13263, "weapon");
+		assertSubcategory(13263, "2h");
 		assertCategory(24271, "Neitiznot faceguard", ItemCategory.GEAR);
 		assertSubcategory(24271, "head");
 		assertCategory(4726, "Guthan's warspear", ItemCategory.GEAR);
-		assertSubcategory(4726, "weapon");
+		assertSubcategory(4726, "2h");
 		assertCategory(4755, "Verac's flail", ItemCategory.GEAR);
-		assertSubcategory(4755, "weapon");
+		assertSubcategory(4755, "2h");
 		assertCategory(4718, "Dharok's greataxe", ItemCategory.GEAR);
-		assertSubcategory(4718, "weapon");
+		assertSubcategory(4718, "2h");
 		assertCategory(28810, "Zombie axe", ItemCategory.GEAR);
 		assertSubcategory(28810, "weapon");
 	}
@@ -554,10 +569,10 @@ public class ResourceItemRegistryTest
 		assertCategory(4888, "Dharok's greataxe 50", ItemCategory.GEAR);
 		assertCategory(4889, "Dharok's greataxe 25", ItemCategory.GEAR);
 		assertCategory(4890, "Dharok's greataxe 0", ItemCategory.GEAR);
-		assertSubcategory(4886, "weapon");
-		assertSubcategory(4887, "weapon");
-		assertSubcategory(4888, "weapon");
-		assertSubcategory(4889, "weapon");
+		assertSubcategory(4886, "2h");
+		assertSubcategory(4887, "2h");
+		assertSubcategory(4888, "2h");
+		assertSubcategory(4889, "2h");
 		assertSubcategory(4890, "weapon");
 
 		assertCategory(4726, "Guthan's warspear", ItemCategory.GEAR);
@@ -566,10 +581,10 @@ public class ResourceItemRegistryTest
 		assertCategory(4912, "Guthan's warspear 50", ItemCategory.GEAR);
 		assertCategory(4913, "Guthan's warspear 25", ItemCategory.GEAR);
 		assertCategory(4914, "Guthan's warspear 0", ItemCategory.GEAR);
-		assertSubcategory(4910, "weapon");
-		assertSubcategory(4911, "weapon");
-		assertSubcategory(4912, "weapon");
-		assertSubcategory(4913, "weapon");
+		assertSubcategory(4910, "2h");
+		assertSubcategory(4911, "2h");
+		assertSubcategory(4912, "2h");
+		assertSubcategory(4913, "2h");
 		assertSubcategory(4914, "weapon");
 
 		assertCategory(4755, "Verac's flail", ItemCategory.GEAR);
@@ -578,10 +593,10 @@ public class ResourceItemRegistryTest
 		assertCategory(4984, "Verac's flail 50", ItemCategory.GEAR);
 		assertCategory(4985, "Verac's flail 25", ItemCategory.GEAR);
 		assertCategory(4986, "Verac's flail 0", ItemCategory.GEAR);
-		assertSubcategory(4982, "weapon");
-		assertSubcategory(4983, "weapon");
-		assertSubcategory(4984, "weapon");
-		assertSubcategory(4985, "weapon");
+		assertSubcategory(4982, "2h");
+		assertSubcategory(4983, "2h");
+		assertSubcategory(4984, "2h");
+		assertSubcategory(4985, "2h");
 		assertSubcategory(4986, "weapon");
 	}
 
@@ -658,11 +673,11 @@ public class ResourceItemRegistryTest
 	public void canonicalWeaponOverridesCoverDualMacuahuitlAndLeafBladedFamily()
 	{
 		// The generated registry mislabels all four as HERBLORE/UNKNOWN; the exact
-		// item IDs are pinned to GEAR/weapon regardless of that generated label.
+		// item IDs are pinned to their exact slots regardless of that label.
 		assertCategory(28997, "Dual macuahuitl", ItemCategory.GEAR);
-		assertSubcategory(28997, "weapon");
+		assertSubcategory(28997, "2h");
 		assertCategory(4158, "Leaf-bladed spear", ItemCategory.GEAR);
-		assertSubcategory(4158, "weapon");
+		assertSubcategory(4158, "2h");
 		assertCategory(11902, "Leaf-bladed sword", ItemCategory.GEAR);
 		assertSubcategory(11902, "weapon");
 		assertCategory(20727, "Leaf-bladed battleaxe", ItemCategory.GEAR);
@@ -1928,9 +1943,8 @@ public class ResourceItemRegistryTest
 	@Test
 	public void unmappedItemIdsReceiveNoCanonicalOverride()
 	{
-		// Neither ID belongs to the canonical override batch; the lookup itself
-		// (not just the resulting category) must report no override present.
-		assertFalse(CanonicalItemClassificationOverrides.find(4718).isPresent());
+		// This ID has no approved canonical override; check the lookup itself
+		// as well as the resulting category.
 		assertFalse(CanonicalItemClassificationOverrides.find(946).isPresent());
 
 		// Battle Royale duplicates of already-mapped canonical IDs.

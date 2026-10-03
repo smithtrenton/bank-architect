@@ -60,10 +60,10 @@
 # The registry files both Burning claws and its drop piece under
 # SKILLING, which sent a melee weapon to the resources tab. The
 # Last Man Standing copy at 33200 stays junk; it is handled below.
-29577	GEAR	weapon	Burning claws
+29577	GEAR	2h	Burning claws; Wiki revision 15272854
 29574	GEAR	gear	Burning claw: drop piece that combines into the weapon
-28997	GEAR	weapon	Dual macuahuitl
-4158	GEAR	weapon	Leaf-bladed spear
+28997	GEAR	2h	Dual macuahuitl; Wiki revision 15357461
+4158	GEAR	2h	Leaf-bladed spear; Wiki revision 15183703
 11902	GEAR	weapon	Leaf-bladed sword
 20727	GEAR	weapon	Leaf-bladed battleaxe
 28583	GEAR	weapon	Warped sceptre (uncharged)
@@ -2265,9 +2265,9 @@
 12612	GEAR	magic-offhand	Book of darkness
 12863	GEAR	cannon-part	Dwarf cannon set
 # Player-facing ballista weapons and previously unclassified assembly stages.
-19478	GEAR	weapon	Light ballista
-19481	GEAR	weapon	Heavy ballista
-26712	GEAR	weapon	Heavy ballista (or)
+19478	GEAR	2h	Light ballista; Wiki revision 15224135
+19481	GEAR	2h	Heavy ballista; Wiki revision 15224134
+26712	GEAR	2h	Heavy ballista (or); Wiki revision 15333815
 19586	SKILLING	ammo-component	Light frame
 19589	SKILLING	ammo-component	Heavy frame
 19592	SKILLING	ammo-component	Ballista limbs
@@ -2442,7 +2442,7 @@
 33526	GEAR	gear
 33528	GEAR	gear
 33530	GEAR	gear
-29084	GEAR	weapon	Sulphur blades
+29084	GEAR	2h	Sulphur blades; Wiki revision 15192275
 29224	SKILLING	resource	Blue butterfly wing
 29227	SKILLING	resource	White butterfly wing
 29230	SKILLING	resource	Black butterfly wing
@@ -2898,14 +2898,14 @@
 28890	POTION	potion	Sunlight moth
 28893	POTION	potion	Moonlight moth
 # Exact functional equipment and blackjacks; verified Wiki IDs/slots in the July 15 snapshot; see final audit report.
-3095	GEAR	weapon	Bronze claws: reviewed exact functional item
-3096	GEAR	weapon	Iron claws: reviewed exact functional item
-3097	GEAR	weapon	Steel claws: reviewed exact functional item
-3098	GEAR	weapon	Black claws: reviewed exact functional item
-3099	GEAR	weapon	Mithril claws: reviewed exact functional item
-3100	GEAR	weapon	Adamant claws: reviewed exact functional item
-3101	GEAR	weapon	Rune claws: reviewed exact functional item
-6587	GEAR	weapon	White claws: reviewed exact functional item
+3095	GEAR	2h	Bronze claws; Wiki revision 15182788
+3096	GEAR	2h	Iron claws; Wiki revision 15182794
+3097	GEAR	2h	Steel claws; Wiki revision 15182876
+3098	GEAR	2h	Black claws; Wiki revision 15184149
+3099	GEAR	2h	Mithril claws; Wiki revision 15184151
+3100	GEAR	2h	Adamant claws; Wiki revision 15182715
+3101	GEAR	2h	Rune claws; Wiki revision 15214520
+6587	GEAR	2h	White claws; Wiki revision 15234512
 1017	GEAR	head	Wizard hat: reviewed exact functional item
 4089	GEAR	head	Mystic hat: reviewed exact functional item
 4099	GEAR	head	Mystic hat (dark): reviewed exact functional item
@@ -3632,3 +3632,31 @@
 33249	GEAR	weapon	Fang of the hound; Wiki revision 15213366
 33631	GEAR	2h	Crimson kisten; Wiki revision 15360578
 33716	GEAR	weapon	Blisterwood stake; Wiki revision 15320434
+# Root-reviewed original Gear slot and workflow corrections; certification/gear-slot-approved-policy.json
+1685	CLEANUP	cleanup	Black amulet (interface item); Wiki revision 15224332
+4718	GEAR	2h	Dharok's greataxe; Wiki revision 15248976
+4726	GEAR	2h	Guthan's warspear; Wiki revision 15252857
+4755	GEAR	2h	Verac's flail; Wiki revision 15356790
+4886	GEAR	2h	Dharok's greataxe; Wiki revision 15248976
+4887	GEAR	2h	Dharok's greataxe; Wiki revision 15248976
+4888	GEAR	2h	Dharok's greataxe; Wiki revision 15248976
+4889	GEAR	2h	Dharok's greataxe; Wiki revision 15248976
+4910	GEAR	2h	Guthan's warspear; Wiki revision 15252857
+4911	GEAR	2h	Guthan's warspear; Wiki revision 15252857
+4912	GEAR	2h	Guthan's warspear; Wiki revision 15252857
+4913	GEAR	2h	Guthan's warspear; Wiki revision 15252857
+4982	GEAR	2h	Verac's flail; Wiki revision 15356790
+4983	GEAR	2h	Verac's flail; Wiki revision 15356790
+4984	GEAR	2h	Verac's flail; Wiki revision 15356790
+4985	GEAR	2h	Verac's flail; Wiki revision 15356790
+6040	TOOL	skilling-utility	Amulet of Nature; Wiki revision 15324323
+7076	SKILLING	cooking-material	Uncooked egg; Wiki revision 15185173
+7078	POTION	food	Scrambled egg; Wiki revision 15185172
+7088	POTION	food	Sweetcorn (bowl); Wiki revision 15352048
+7668	GEAR	2h	Gadderhammer; Wiki revision 15183027
+10887	GEAR	2h	Barrelchest anchor; Wiki revision 15295166
+13263	GEAR	2h	Abyssal bludgeon; Wiki revision 15360517
+27855	GEAR	2h	Barrelchest anchor (bh); Wiki revision 15297409
+29000	GEAR	2h	Eclipse atlatl; Wiki revision 15356407
+33693	SKILLING	crafting-jewellery	Tarnished amulet; Wiki revision 15290738
+10888	GEAR	2h	Barrelchest anchor; Wiki revision 15295166

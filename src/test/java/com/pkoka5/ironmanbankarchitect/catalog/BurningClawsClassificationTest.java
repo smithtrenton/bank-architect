@@ -17,7 +17,7 @@ public class BurningClawsClassificationTest
 		ItemClassificationRefiner.Classification weapon =
 			CanonicalItemClassificationOverrides.find(29577).get();
 		assertEquals(ItemCategory.GEAR, weapon.getCategory());
-		assertEquals("weapon", weapon.getSubcategory());
+		assertEquals("2h", weapon.getSubcategory());
 
 		ItemClassificationRefiner.Classification piece =
 			CanonicalItemClassificationOverrides.find(29574).get();
