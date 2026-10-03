@@ -1,0 +1,271 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "policyFile": "cooking-stage-primary-approved-policy.json",
+  "scope": "Primary category, subcategory and Ironman tab only; existing supplemental tags retained, secondary roles unassessed. Full 34,085-assignment scope remains active.",
+  "expectedCaseCount": 4,
+  "expectedDecision": "certify",
+  "sourceInputPaths": {
+    "articleIndex": "tmp/category-certification/wiki-articles/article-index.json",
+    "candidatePacket": "tmp/category-certification/reviews/materials-positive-cohorts/20261003-skilling-cooking-materials/root-review-packet.json",
+    "rootReadRecord": "tmp/category-certification/root-review/cooking-material10-main-thread-source-read-v1.json",
+    "independentInitialReview": "tmp/category-certification/reviews/materials-positive-cohorts/20261003-skilling-cooking-materials/independent-adversarial-review-v1.json",
+    "independentPrecursorReview": "tmp/category-certification/root-review/cooking-precursor-independent-v3.json",
+    "independentStage9Refinement": "tmp/category-certification/root-review/cooking-stage9-immutable-root-draft-independent-audit-v2.json",
+    "sacredOilDecantRaw": "tmp/category-certification/sacred-oil-decanting-source-v1/15353359.txt",
+    "sacredOilDecantApiPacket": "tmp/category-certification/sacred-oil-decanting-source-v1/api-packet.json",
+    "immutableRootPolicyDraft": "tmp/category-certification/root-review/cooking-stage9-immutable-root-policy-draft-v2.json"
+  },
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "candidatePacket": "45717da4c322848789442f95427c4897e39fe5e82831960f725486f64f376cb0",
+    "rootReadRecord": "63650031b3fc71647d498c9798008ff3d473b7ae534116e42a0c984c4e8f530e",
+    "independentInitialReview": "a372a597399566ae84cdadd0af512477149c4c39e27069f4b8e4957a37ddd432",
+    "independentPrecursorReview": "7e7d3c2e8d2929430f5e03fe15b605a201fad6f8421f8d4dc083c28f19e69491",
+    "independentStage9Refinement": "2e31d42fa5f927aa47082f2c1e9212baad1957cf75c765a1e2a13eb86d0c31a8",
+    "sacredOilDecantRaw": "754acb03811ae6356fca689a549c42eca0c845a26d0886e1695de1984349ee1d",
+    "sacredOilDecantApiPacket": "b434695fde1c4ec3fc6262fc241c5d8abcc87569392c471c5c17d0bd0defbc36",
+    "immutableRootPolicyDraft": "90d361a232c4eddddd01b513e61b6810dc5374e123e8b15ba1462603e16cf688"
+  },
+  "independentAudits": [
+    {
+      "path": "tmp/category-certification/root-review/cooking-stage9-immutable-root-draft-v2-independent-audit-v1.json",
+      "sha256": "90c4858a71a9197e923638484447d754ae60637dc98298b1b9d2df2721741b82"
+    }
+  ],
+  "cases": [
+    {
+      "itemId": 2250,
+      "title": "Raw batta",
+      "sourceRevision": 15184825,
+      "sourceSha256": "12782856b9b5e4904f71d010cb7fcae848e20cea7738c84adce77c5c51f7d7cb",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "[[File:Raw batta detail.png|left|130px]]\r\nA '''raw batta''' is created by adding [[gianne dough]] to a [[batta tin]]. It can be cooked on a [[range]] to create a [[half baked batta]].",
+      "positiveFunctionExcerpt": "[[File:Raw batta detail.png|left|130px]]\r\nA '''raw batta''' is created by adding [[gianne dough]] to a [[batta tin]]. It can be cooked on a [[range]] to create a [[half baked batta]].",
+      "secondaryExcerpts": [
+        "Unlike other items requiring a range, raw batta cannot be cooked using [[Mor Ul Rek]] sulphur vents.",
+        "{{Recipe\r\n|members = Yes\r\n|ticks = 1\r\n|tools = Batta tin\r\n|mat1 = Batta tin\r\n|mat2 = Gianne dough\r\n|output1 = Raw batta\r\n|output1cost = No\r\n}}",
+        "{{Uses material list|Raw batta}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2250"
+        },
+        {
+          "field": "name",
+          "value": "Raw batta"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "This gnome batta needs cooking."
+        }
+      ],
+      "rationale": "Own raw batta is explicitly cooked on a range into a distinct half-baked batta; retain current Cooking-material primary role and sulphur-vent exclusion.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 4237,
+      "title": "Nettle-water",
+      "sourceRevision": 15184386,
+      "sourceSha256": "93a5cc36a49dd00baf508c78d148b59272e6f13cdbeeda38ff4c2bc3687f54b0",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "[[File:Nettle-water detail.png|left|120px]]\r\n'''Nettle-water''' is an item created in the process of making [[nettle tea]]. This item is made by adding [[nettles]] to a [[bowl of water]]. This requires a [[Cooking]] level of 20. Historically, this item gave 1 cooking exp per creation, however this is no longer the case. The player is healed 1 Hitpoint when drank. However, it is not advised to consume this item because it has potential to heal more when made into tea. Nettle-water can be cooked on a range or fire to produce nettle tea. This item is usually only used during the [[Ghosts Ahoy]] quest and the [[Skippy and the Mogres]] [[miniquest]].",
+      "positiveFunctionExcerpt": "[[File:Nettle-water detail.png|left|120px]]\r\n'''Nettle-water''' is an item created in the process of making [[nettle tea]]. This item is made by adding [[nettles]] to a [[bowl of water]]. This requires a [[Cooking]] level of 20. Historically, this item gave 1 cooking exp per creation, however this is no longer the case. The player is healed 1 Hitpoint when drank. However, it is not advised to consume this item because it has potential to heal more when made into tea. Nettle-water can be cooked on a range or fire to produce nettle tea. This item is usually only used during the [[Ghosts Ahoy]] quest and the [[Skippy and the Mogres]] [[miniquest]].",
+      "secondaryExcerpts": [
+        "{{Recipe\r\n|skill1 = Cooking\r\n|skill1lvl = 20\r\n|skill1boostable = Yes\r\n|skill1exp = 0\r\n|members = Yes\r\n|ticks = 2\r\n|mat1 = Nettles\r\n|mat1cost = No\r\n|mat2 = Bowl of water\r\n|output1 = Nettle-water\r\n|output1cost = No\r\n}}",
+        "{{Uses material list|Nettle-water}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4237"
+        },
+        {
+          "field": "name",
+          "value": "Nettle-water"
+        },
+        {
+          "field": "options",
+          "value": "Drink, Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "[[Ghosts Ahoy]],<br/>[[Skippy and the Mogres]]"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "It's a bowl of water, with some nettles in it."
+        }
+      ],
+      "rationale": "Own unfinished nettle-tea Cooking process and direct range/fire transformation establish current material role. Actual one-Hitpoint drinking is retained as a competing use; quest uses require tea preparation rather than establishing quest-item primary.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 6008,
+      "title": "Barley malt",
+      "sourceRevision": 15183589,
+      "sourceSha256": "3962ce851f45b76c0cb18a2a12bfd9aabe91db41c444c17a1e28ac83d968fe76",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "[[File:Barley malt detail.png|left|130px]]\r\n'''Barley malt''' is an ingredient of [[brewing]] and a protection payment for [[jute seed]] [[hops patch]]es. It is made by cooking [[barley]] on a [[range]] only, yielding no experience.",
+      "positiveFunctionExcerpt": "[[File:Barley malt detail.png|left|130px]]\r\n'''Barley malt''' is an ingredient of [[brewing]] and a protection payment for [[jute seed]] [[hops patch]]es. It is made by cooking [[barley]] on a [[range]] only, yielding no experience.",
+      "secondaryExcerpts": [
+        "In brewing, it is used as an ingredient of every [[ale]]. Two barley malt are added to a [[fermenting vat]] after two [[buckets of water]], followed by [[the stuff]] and/or the main deciding ingredient of the ale, then [[ale yeast]].",
+        "In [[Farming]], six barley malt are paid to a [[Group of Advanced Gardeners]] farmer for protection of [[Jute seed|jute seeds]] in a hops patch.",
+        "Two are required for the [[Forgettable Tale...]] [[quest]] to brew [[Kelda stout]].",
+        "{{Recipe\r\n|skill1 = Cooking\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|members = Yes\r\n|ticks = 4\r\n|facilities = Cooking range\r\n|mat1 = Barley\r\n|output1 = Barley malt\r\n}}",
+        "{{Uses material list|Barley malt}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6008"
+        },
+        {
+          "field": "name",
+          "value": "Barley malt"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "A handful of barley malt."
+        }
+      ],
+      "rationale": "Own processed brewing ingredient is directly added to every ale. Crop protection and quest brewing are retained contexts, not absence claims; current Cooking material reflects direct repeatable brewing purpose.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 30979,
+      "title": "Damiana water",
+      "sourceRevision": 15194001,
+      "sourceSha256": "4f32f5fff5b15872dbb2dfbc7df60ccb38820be7f0f689430501773c68f4f3ae",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "[[File:Damiana water detail.png|130px|left]]\r\n'''Damiana water''' is created by adding [[damiana leaves]] to a [[Bowl of water]]. It can be boiled at a fire or range in order to create [[damiana tea]], or drunk as-is to restore 1 Hitpoint.",
+      "positiveFunctionExcerpt": "[[File:Damiana water detail.png|130px|left]]\r\n'''Damiana water''' is created by adding [[damiana leaves]] to a [[Bowl of water]]. It can be boiled at a fire or range in order to create [[damiana tea]], or drunk as-is to restore 1 Hitpoint.",
+      "secondaryExcerpts": [
+        "{{Recipe\r\n|skill1 = Cooking\r\n|skill1lvl = 36\r\n|skill1boostable = Yes\r\n|skill1exp = 0\r\n|members = Yes\r\n|ticks = 1\r\n|mat1 = Damiana leaves\r\n|mat1cost = No\r\n|mat2 = Bowl of water\r\n|output1 = Damiana water\r\n|output1cost = No\r\n}}",
+        "{{Uses material list|Damiana water}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30979"
+        },
+        {
+          "field": "name",
+          "value": "Damiana water"
+        },
+        {
+          "field": "options",
+          "value": "Drink, Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "[[Scrambled!]]"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "It's a bowl of water, with some damiana leaves in it."
+        }
+      ],
+      "rationale": "Own Cooking intermediate is boiled on fire/range into distinct damiana tea. Actual one-Hitpoint drinking is retained as competing use; own quest metadata does not establish a different primary use.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    }
+  ]
+}

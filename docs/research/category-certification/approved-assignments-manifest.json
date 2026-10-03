@@ -1,19 +1,20 @@
 {
   "actionCounts": {
-    "certify": 2000,
-    "revise": 252,
-    "unresolved": 31833
+    "certify": 2278,
+    "revise": 267,
+    "unresolved": 31540
   },
-  "actionableRows": 2252,
+  "actionableRows": 2545,
   "decisionRows": 34085,
   "optionalRootCertificationCount": 637,
   "output": "tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl",
-  "outputSha256": "1827573babc0a0d80b48b861a0b3f7f85628b22f45a5a5292692fad9e9be5c58",
-  "policyCaseCount": 1615,
+  "outputSha256": "2eea806d0c1d6f977c904769df09218b3e99677ffc836498b0f8b7a6f73d300c",
+  "policyCaseCount": 1908,
   "replayScriptHashes": {
-    "emit-root-approved-decisions.py": "195e23bd24a0065f974f75d4ffa2991accd559454c3a926171993a366e4a5e55",
+    "emit-root-approved-decisions.py": "cc0cd4928ca152f62cca3c756700f535469c098d01cb8568c5a90241367364be",
     "ledger.py": "7eacf8f6f06baf91dee5d3dbf6651ca36489fb83fb7ce88d4df4f0b1ac7a4cb8",
     "review-approved-clue-scrolls.py": "f3fb7bbb0d90236ea8fc1fd8f62525c7b519abebf7c8821c0d87728b5a28bb9c",
+    "verify-cosmetic-cooking-policies.py": "8ac4776b255548840fea33505d0c8c8c1fcd78f72ee164721dedfafd0d3f588d",
     "verify-farming-primary-policy.py": "6dd2ebdccf8c9a37c0a591226fe89acabf0d53f11ef1b3326ff9ee998e885aac",
     "verify-farming-supplemental-policy.py": "a5ab3d99616f799cfabc8c56f7bd71270df87fb0391841ebda4048cf58b74a33",
     "verify-food-primary-policy.py": "7c94e43044b1df30c9b8c2fe927196a7997ea21a9bb112b9c6ef984b6d5b9bba",
@@ -47,6 +48,11 @@
     "policies": {
       "cleanup-gear-approved-policy.json": "843792667457a0ec681a8ba76f09608b03012d7fd456e825c196799b8a4f2b6b",
       "cleanup-other-policy.json": "031a30e94e27b4585780b87c66dde6316780e518ecc44645287584d591677af1",
+      "clue-cosmetic-corrections-approved-policy.json": "ea055d1dcc6c4d661018a676696fa49d96296915e4c9a28217e5e8675728f7d8",
+      "clue-cosmetic-primary-approved-policy.json": "13d1bc6d308a4eae91143a5e543bedf5f3dd329e91699904c2dfff90fd0ae063",
+      "clue-residual44-primary-approved-policy.json": "52d598144afc02f608b658efe3c4f4f3c2146e94f96a5324544eafe7e5c8d753",
+      "cooking-stage-corrections-approved-policy.json": "7796c5b9c07349e73483fafca0353dee0ad93a29a81b3c795b3f705d5a0e14a1",
+      "cooking-stage-primary-approved-policy.json": "6ed52300e67176b8604f4fc43a9daee79bf8e6f295fc0228f7d8a866cca5663d",
       "farming-primary-approved-policy.json": "bd6a528ff4e90ce296108e97430740767e178d73f0677a8973a67ebe596492e3",
       "farming-supplemental-approved-policy.json": "8311310706d15ef53bd7f3be9d522c8fa5d51fec302920f485c0c8c6c5b30ee9",
       "food-primary-approved-policy.json": "5c886d8ac5acddd9c7617cad09f90409fe67bc21cc8b5fa4d4841aae36c0f2f2",
@@ -63,13 +69,13 @@
       "utility-approved-policy.json": "06ff2ef77124d95991d893dc7bac16c80128fce54a66fbdefa7b7b67bf1f65fe"
     },
     "rawFishReview": "bcbda28285765e806e0e7206c737519f62fcf91db9064730881fb1c313ff1e87",
-    "rootPolicyApprovals": "02384bf5985860ef566c9140e19cffc725d3c4cf04cf69ea7f737158c19970e6",
+    "rootPolicyApprovals": "9208a81a830036a190d9a1364e750e36fe1e645d08daccc4a7079db536278ae4",
     "runeCandidatePacket": "b2707f06d2f71774ae62e8da30f10f6e676c2d4e2584130c0dc25d26627b04d8",
     "teleportCandidatePacket": "5ed9e5c2520dd16a754f9179d0371c152b8f13b954057e6a8ec2762ce54ac107",
     "toolCandidatePacket": "d98fbc467c6459208940c5c4e45fc096a3185892f1cef6ba70acb30f046c101f"
   },
   "summaryTsv": "docs/research/category-certification/approved-assignments.tsv",
-  "summaryTsvSha256": "91308948de85e0bb484b0f8aad2d8b48b2acb81b63cbd453b42b3b8877c00b14",
+  "summaryTsvSha256": "956d5044ef0f06a90aa9a923714ffd8edfcade7e85af61d072da914e648ce73d",
   "tabPolicy": "Standard target tabs are computed from the approved target category using the current preset mapper's category routes, plus explicit ID routes listed in this emitter. after-coverage is never read by the emitter.",
-  "unresolvedRows": 31833
+  "unresolvedRows": 31540
 }

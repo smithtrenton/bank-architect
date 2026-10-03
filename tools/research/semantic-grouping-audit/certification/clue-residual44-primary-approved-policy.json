@@ -1,0 +1,2613 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "policyFile": "clue-residual44-primary-approved-policy.json",
+  "scope": "Primary category, subcategory and Ironman tab only; existing supplemental tags retained, secondary roles unassessed. Full 34,085-assignment scope remains active.",
+  "expectedCaseCount": 44,
+  "expectedDecision": "certify",
+  "sourceInputPaths": {
+    "candidatePacket": "tmp/category-certification/reviews/root-review/clue-residual284-root-draft-v1/candidates.jsonl",
+    "rootReadRecord": "tmp/category-certification/root-review/clue-residual44-main-thread-source-read-v1.json",
+    "independentReview": "tmp/category-certification/root-review/clue-residual284-noncosmetic-independent-v3.json",
+    "articleIndex": "tmp/category-certification/wiki-articles/article-index.json",
+    "immutableRootPolicyDraft": "tmp/category-certification/root-review/clue-residual44-immutable-root-policy-draft-v2.json"
+  },
+  "sourceHashes": {
+    "candidatePacket": "f75d2358c522e06faef4a418b5412f6723aba41361cd7b0d4662946b4b6b0174",
+    "rootReadRecord": "778b43751c131b74832ce0e7cdf7407c476608b760f1b04fa6a3f615e086011d",
+    "independentReview": "7930fe4386772050795f1ea02525d25fe43342940aca47453807f07581928635",
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "immutableRootPolicyDraft": "1094d48744d2aff91a7effc65040e373604ae4a243bc0f4d9fadd29b1035e2c6"
+  },
+  "independentAudits": [
+    {
+      "path": "tmp/category-certification/root-review/clue-residual44-independent-audit-v1.json",
+      "sha256": "e0a5fe397a8d782efd9b7880e7b11dfd2ee6e22b3e5286f1ea74ec98a1948953"
+    },
+    {
+      "path": "tmp/category-certification/root-review/clue-residual44-v2-independent-addendum.json",
+      "sha256": "e3c60918813afc2c2e3fdb8848e1593cd446ce786a5fdba63de4e52345f856cd"
+    }
+  ],
+  "cases": [
+    {
+      "itemId": 989,
+      "title": "Crystal key",
+      "sourceRevision": 15183659,
+      "sourceSha256": "9b0d9f9580baa802c0d09f4705f22e985921c09bc88249e1ce5f64ab270c90b7",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Crystal key detail.png|left|150px]]\nThe '''crystal key''' is created by combining a [[tooth half of key]] with a [[loop half of key]], displaying the message, \"''You join the two halves of the key together.''\" Key halves can be obtained as rewards from [[Barrows]], the [[Gnome Restaurant]] [[Minigames|minigame]], [[Managing Miscellania]], [[Treasure Trails]], looting [[magpie impling]]s, [[random events]], the [[rare drop table]], etc.",
+      "positiveFunctionExcerpt": "It is used to open the [[crystal chest]] located inside a house in [[Taverley]]. The chest always contains an [[uncut dragonstone]] in addition to a variety of other items. Some items of note are 3 [[runite bar]]s, [[rune platelegs]]/[[Rune plateskirt|plateskirt]] (depending on the player's gender), or another half of the crystal key. After the key is used, it disappears and the player must use another one if they want to open the chest again.",
+      "secondaryExcerpts": [
+        "It is used to open the [[crystal chest]] located inside a house in [[Taverley]]. The chest always contains an [[uncut dragonstone]] in addition to a variety of other items. Some items of note are 3 [[runite bar]]s, [[rune platelegs]]/[[Rune plateskirt|plateskirt]] (depending on the player's gender), or another half of the crystal key. After the key is used, it disappears and the player must use another one if they want to open the chest again.",
+        "[[File:Crystal key detail.png|left|150px]]\nThe '''crystal key''' is created by combining a [[tooth half of key]] with a [[loop half of key]], displaying the message, \"''You join the two halves of the key together.''\" Key halves can be obtained as rewards from [[Barrows]], the [[Gnome Restaurant]] [[Minigames|minigame]], [[Managing Miscellania]], [[Treasure Trails]], looting [[magpie impling]]s, [[random events]], the [[rare drop table]], etc.",
+        "The crystal key can be upgraded to an [[enhanced crystal key]] at a [[singing bowl]] in [[Prifddinas]], for the cost of 10 [[crystal shard]]s.",
+        "One is required for a medium [[Falador Diary]] task of opening a [[Crystal chest|Crystal chest.]]"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "989"
+        },
+        {
+          "field": "name",
+          "value": "Crystal key"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A mysterious key for a mysterious chest."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly opens named reward chest. Acquisition/recipe/Diary context does not displace primary access role. Shard upgrade and Diary contexts retained. Independent adversarial review: The exact item is explicitly used to open the Crystal Chest; upgrading to an enhanced key is a secondary conversion and does not negate the key-access route."
+    },
+    {
+      "itemId": 4207,
+      "title": "Crystal weapon seed",
+      "sourceRevision": 15189417,
+      "sourceSha256": "0ef0e721a077a72e501d0895f72a471209cee84c40106532a9165d6d7b6c8b37",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "weapon-upgrade",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Crystal weapon seed detail.png|left|130px]]\nA '''crystal weapon seed''' is an [[elves|elven]] [[crystal]] that can be turned into [[crystal weapons]]. Completing the [[Gauntlet]] will yield a chance of gaining these seeds. The crystal weapon seed can be bought from [[Justine's stuff for the Last Shopper Standing]] for 12 [[Last Man Standing]] points.",
+      "positiveFunctionExcerpt": "This seed can be restored into a [[crystal bow]], a [[crystal shield]], or a [[crystal halberd]], the latter only with completion of the [[Hard Western Provinces Diary]]. Before completion of [[Song of the Elves]], [[Ilfeen]] is the only one to offer this service to the player. She can be found at either of two clearings in [[Isafdar]], teleporting between them periodically. If the player is mid-quest, and she is occupied with the fight against [[Lord Iorwerth]], an [[Elven Scout]] will fulfil her role. After completion of the quest, [[Ilfeen]] is found in [[Prifddinas]], slightly south of the house portal.",
+      "secondaryExcerpts": [
+        "This seed can be restored into a [[crystal bow]], a [[crystal shield]], or a [[crystal halberd]], the latter only with completion of the [[Hard Western Provinces Diary]]. Before completion of [[Song of the Elves]], [[Ilfeen]] is the only one to offer this service to the player. She can be found at either of two clearings in [[Isafdar]], teleporting between them periodically. If the player is mid-quest, and she is occupied with the fight against [[Lord Iorwerth]], an [[Elven Scout]] will fulfil her role. After completion of the quest, [[Ilfeen]] is found in [[Prifddinas]], slightly south of the house portal.",
+        "[[File:Crystal weapon seed detail.png|left|130px]]\nA '''crystal weapon seed''' is an [[elves|elven]] [[crystal]] that can be turned into [[crystal weapons]]. Completing the [[Gauntlet]] will yield a chance of gaining these seeds. The crystal weapon seed can be bought from [[Justine's stuff for the Last Shopper Standing]] for 12 [[Last Man Standing]] points.",
+        "==Enchantment costs==\n===Ilfeen===\n{{#vardefine:crystalshardvalue|{{#ifexpr:{{#vardefineecho:seedvalue|{{GEP|Enhanced crystal teleport seed}} / 150}} > {{#vardefineecho:divinesupercombatvalue|({{GEP|Divine super combat potion(4)}} - {{GEP|Super combat potion(4)}}) / 0.4}} | {{#var:seedvalue}} | {{#var:divinesupercombatvalue}}}}}}\nIf the player has a crystal weapon seed, [[Ilfeen]] can enchant it into a [[crystal bow]], [[crystal shield|shield]], or [[crystal halberd|halberd]] for coins. Having her sing halberds requires completion of the [[Hard Western Provinces Diary]]. Ilfeen '''cannot''' \"recharge\" the crystal items themselves, players must manually revert their item to a crystal weapon seed and choose the item that they want to pay her for. While singing yourself with [[Crystal shard|shards]] always costs {{NoCoins|({{#var:crystalshardvalue}} * 40) round 0|c}}, the price she charges depends on how many times she has previously been paid to enchant weapon seeds, down to a minimum price.",
+        "The price of enchantment is contingent on the number of crystal seeds Ilfeen has recharged, and '''not''' on the number of individual equipment pieces she has recharged. For example, a player who pays Ilfeen {{NoCoins|900,000|c}} to enchant a crystal seed into a crystal bow would then only have to pay her {{NoCoins|600,000|c}} to recharge a seed into a crystal shield. Therefore, players who wish to stock up on many pieces of equipment are advised to pay for the shields or halberds first.",
+        "==Trivia==\n*When [[Song of the Elves]] was released, crystal weapons and crystal seeds were turned into crystal weapon seeds.\n*The book, '[[Crystal singing for beginners]]', states that there is no known way to destroy a crystal seed. However, players are able to do so through the [[bank]]'s incinerator feature.\n*Once the equipment runs out of charges, the crystal seed remains \"equipped\" by the player, but it offers no stats and results in [[unarmed]] combat.\n*Although crystal seeds are rarely found by players, their exchange price had steadily declined until the release of Song of the Elves, when it could be exchanged for [[crystal acorn]]s via [[Pennant]], as it is very rare for a player to lose a seed without discarding it on purpose. Moreover, it is available from [[Justine's stuff for the Last Shopper Standing]] and, due to being a very popular boss, [[Zulrah]]'s rare crystal seed drop had been encountered many times before its removal from the drop table.",
+        "Players can also exchange the weapon seed for 10 [[crystal shard]]s by speaking to [[Amrod]] in [[Prifddinas]]' [[Hefin Inn]]. The seed can additionally be traded to [[Pennant]] in [[Prifddinas]] for one [[crystal acorn]], which can be grown into a crystal tree that yields up to 28-32 crystal shards when harvested.",
+        "When converting a crystal seed to a [[crystal bow]] and [[crystal shield]], they '''cannot''' be traded or be used for [[High Level Alchemy|high alchemy]].",
+        "===Singing bowl===\nAfter completion of the [[Song of the Elves]] quest players will be able to use crystal shards to sing weapons themselves, requiring 78 [[Crafting]] as well as 78 [[Smithing]]. This can be done at the [[singing bowl]] located just south of the player-owned house portal in the city of [[Prifddinas]]. Another singing bowl can be found in the south-east corner of Prifddinas just east of the mining shop. Players who do not meet the skill requirements can pay a nearby elf to create the weapon for an additional 20 shards.",
+        "After completion of [[Song of the Elves]], players may enchant the seeds themselves at a [[Singing bowl]], requiring 78 [[Crafting]] and [[Smithing]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4207"
+        },
+        {
+          "field": "name",
+          "value": "Crystal weapon seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A seed to be sung into the finest crystal weapons."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical component explicitly enables equipment creation/restoration. No linked output stats/actions inherited. Shard and acorn exchange alternatives retained. Independent adversarial review: The own lead says it becomes crystal weapons and the article specifies bow, shield, or halberd restoration. The same seed also has direct shard and crystal-acorn exchange paths; retain weapon-upgrade only as a primary-function candidate, with those alternatives disclosed rather than ignored. Competing function is disclosed; it does not by itself disprove the direct candidate route."
+    },
+    {
+      "itemId": 6199,
+      "title": "Mystery box",
+      "sourceRevision": 15233882,
+      "sourceSha256": "f4c6e558e60d61a3229b32d5f68f9791c1e19eaeb8bc2b7168491657334fc499",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-drop",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Mystery box detail.png|left|110px]]\n'''Mystery boxes''' can be obtained from the [[Quiz Master]] [[random event]]. Players can choose between {{nocoins|1,000}} [[coins]] or the mystery box upon successfully completing the event. Multiple mystery boxes can be owned at once, and they can be banked. Five are received as a one-off reward from drinking a [[bottle of puzzlers poteen]].",
+      "positiveFunctionExcerpt": "It is recommended to wear a [[ring of wealth]] before opening the box, because of the significant chance to roll on the [[rare drop table]]. Doing this (along with completing all currently owned clue scrolls) will make it possible to completely eliminate the chance to receive nothing. If opened on [[Entrana]], the [[mithril scimitar]] drop is replaced by five [[mithril bar]]s, while the [[steel platebody]] drop is replaced by five [[steel bar]]s. This does not, however, occur while challenging [[Koschei the deathless]], and the box can be used to gain an extra advantage from its weapon and armour drops.",
+      "secondaryExcerpts": [
+        "It is recommended to wear a [[ring of wealth]] before opening the box, because of the significant chance to roll on the [[rare drop table]]. Doing this (along with completing all currently owned clue scrolls) will make it possible to completely eliminate the chance to receive nothing. If opened on [[Entrana]], the [[mithril scimitar]] drop is replaced by five [[mithril bar]]s, while the [[steel platebody]] drop is replaced by five [[steel bar]]s. This does not, however, occur while challenging [[Koschei the deathless]], and the box can be used to gain an extra advantage from its weapon and armour drops.",
+        "[[File:Mystery box detail.png|left|110px]]\n'''Mystery boxes''' can be obtained from the [[Quiz Master]] [[random event]]. Players can choose between {{nocoins|1,000}} [[coins]] or the mystery box upon successfully completing the event. Multiple mystery boxes can be owned at once, and they can be banked. Five are received as a one-off reward from drinking a [[bottle of puzzlers poteen]].",
+        "==Transcript==\n{{hastranscript|item}}",
+        "Because of the difference in the size of the drop tables between free-to-play and pay-to-play worlds, players looking for experience [[lamp]]s are better off opening their mystery boxes on free-to-play servers. Notably, the [[stale baguette]] is still obtainable on free-to-play worlds.",
+        "Excluding the stale baguette, the average reward is worth {{Coins|{{Average drop value|Mystery box#Free-to-play|raw=y}} - ({{GEP|Stale baguette}} * 1/256)|c}}.",
+        "Excluding the stale baguette, the average reward is worth {{Coins|{{Average drop value|Mystery box#Members|raw=y}} - ({{GEP|Stale baguette}} * 1/256)|c}}.",
+        "===Clue scrolls===\n''There is a 2/15 chance to roll on the clue scroll table. If the player possesses the type of clue that is rolled for, they will receive nothing as a result.''",
+        "''Below are the effective rates of getting a specific clue.''\n{{DropsTableHead|dropversion=Members|leagueRegion=General}}\n{{DropsLineClue|type=easy|rarity=10/150|reward=yes|noteoverride=Since it's not an independent roll, the [[easy Combat Achievements]] rewards tier does not increase the droprate.}}\n{{DropsLineClue|type=medium|rarity=6/150|reward=yes|noteoverride=Since it's not an independent roll, the [[medium Combat Achievements]] rewards tier does not increase the droprate.}}\n{{DropsLineClue|type=hard|rarity=4/150|reward=yes|noteoverride=Since it's not an independent roll, the [[hard Combat Achievements]] rewards tier does not increase the droprate.}}\n{{DropsTableBottom}}",
+        "Excluding the stale baguette, the average reward is worth {{Coins|{{Average drop value|Mystery box#Entrana|raw=y}} - ({{GEP|Stale baguette}} * 1/256)|c}}.",
+        "''Below are the effective rates of getting a specific clue.''\n{{DropsTableHead|dropversion=Entrana|leagueRegion=Asgarnia}}\n{{DropsLineClue|type=easy|rarity=10/150|reward=yes|noteoverride=Since it's not an independent roll, the [[easy Combat Achievements]] rewards tier does not increase the droprate.}}\n{{DropsLineClue|type=medium|rarity=6/150|reward=yes|noteoverride=Since it's not an independent roll, the [[medium Combat Achievements]] rewards tier does not increase the droprate.}}\n{{DropsLineClue|type=hard|rarity=4/150|reward=yes|noteoverride=Since it's not an independent roll, the [[hard Combat Achievements]] rewards tier does not increase the droprate.}}\n{{DropsTableBottom}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6199"
+        },
+        {
+          "field": "name",
+          "value": "Mystery box"
+        },
+        {
+          "field": "options",
+          "value": "Open, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Oooh, I wonder what could be inside?"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own bankable Open-state reward box and documented reward-opening function.  Independent adversarial review: Its exact state has Open and the full article documents opening for random rewards. Quiz Master acquisition and contents do not make it a clue-scroll item."
+    },
+    {
+      "itemId": 7975,
+      "title": "Crawling hand (item)",
+      "sourceRevision": 15183758,
+      "sourceSha256": "9ee413ea183ad2dfe2984cc322061e99616d852ad9615684cf2e6ffb995af7bf",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Crawling hand (item) detail.png|left|140px]]\nA '''crawling hand''' is a rare drop from [[Crawling Hand]]s, requiring 5 [[Slayer]] to kill. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 1,000 coins, returning a [[stuffed crawling hand]]. When players take it to her, she will tell players ''\"That's a very fine crawling hand.\"''",
+      "positiveFunctionExcerpt": "[[File:Crawling hand (item) detail.png|left|140px]]\nA '''crawling hand''' is a rare drop from [[Crawling Hand]]s, requiring 5 [[Slayer]] to kill. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 1,000 coins, returning a [[stuffed crawling hand]]. When players take it to her, she will tell players ''\"That's a very fine crawling hand.\"''",
+      "secondaryExcerpts": [
+        "[[File:Crawling hand (item) detail.png|left|140px]]\nA '''crawling hand''' is a rare drop from [[Crawling Hand]]s, requiring 5 [[Slayer]] to kill. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 1,000 coins, returning a [[stuffed crawling hand]]. When players take it to her, she will tell players ''\"That's a very fine crawling hand.\"''",
+        "Once stuffed, it can be [[Crawling hand (mounted)|mounted]] at a [[Teak display (head trophy)|teak]], [[Mahogany display (head trophy)|mahogany]], or [[gilded display]] within the [[skill hall]] in a [[player-owned house]], granting 31 [[Construction]] and 261 [[Slayer]] [[experience]].",
+        "The hand can alternatively be sacrificed to the [[Dark Altar]] north of [[Arceuus]], granting 2,500 [[Prayer]] experience.",
+        "==Prayer info==\n{{Prayer info\n|name = Crawling hand\n|level = 1\n|xp = 2500\n|facility = [[Dark Altar]]\n|type = other\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7975"
+        },
+        {
+          "field": "name",
+          "value": "Crawling hand"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should get it stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking. Dark Altar sacrifice retained. Independent adversarial review: This exact head/hand supports stuffing and POH trophy mounting. The same item also has a Dark Altar Prayer use, and KQ/Hydra heads additionally support Slayer helmet creation. These alternatives are disclosed but do not contradict the direct trophy function; no unique Wiki-prescribed bank-primary claim is made."
+    },
+    {
+      "itemId": 7977,
+      "title": "Basilisk head",
+      "sourceRevision": 15183801,
+      "sourceSha256": "d64d31ad97321da531de55ff6462738e009d6c55f6e9ece0d200b9e3569648ed",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Basilisk head detail.png|left|150px]]\nA '''basilisk head''' is a rare drop from [[basilisk]]s and [[Basilisk Knight|basilisk knights]], requiring 40 and 60 [[Slayer]] to kill respectively. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 4,000 coins, returning a [[stuffed basilisk head]]. When players take it to her, she will tell players ''\"My, he's a scary-looking fellow, isn't it? He'll look good on your wall!\"''",
+      "positiveFunctionExcerpt": "[[File:Basilisk head detail.png|left|150px]]\nA '''basilisk head''' is a rare drop from [[basilisk]]s and [[Basilisk Knight|basilisk knights]], requiring 40 and 60 [[Slayer]] to kill respectively. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 4,000 coins, returning a [[stuffed basilisk head]]. When players take it to her, she will tell players ''\"My, he's a scary-looking fellow, isn't it? He'll look good on your wall!\"''",
+      "secondaryExcerpts": [
+        "[[File:Basilisk head detail.png|left|150px]]\nA '''basilisk head''' is a rare drop from [[basilisk]]s and [[Basilisk Knight|basilisk knights]], requiring 40 and 60 [[Slayer]] to kill respectively. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 4,000 coins, returning a [[stuffed basilisk head]]. When players take it to her, she will tell players ''\"My, he's a scary-looking fellow, isn't it? He'll look good on your wall!\"''",
+        "Once stuffed, it can be [[Basilisk head (mounted)|mounted]] at a [[Teak display (head trophy)|teak]], [[Mahogany display (head trophy)|mahogany]], or [[gilded display]] within the [[skill hall]] in a [[player-owned house]], granting 63 [[Construction]] and 343 [[Slayer]] [[experience]].",
+        "The head can alternatively be sacrificed to the [[Dark Altar]] north of [[Arceuus]], granting 2,500 [[Prayer]] experience.",
+        "==Prayer info==\n{{Prayer info\n|name = Basilisk head\n|level = 1\n|xp = 2500\n|facility = [[Dark Altar]]\n|type = other\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7977"
+        },
+        {
+          "field": "name",
+          "value": "Basilisk head"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should get it stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking. Dark Altar sacrifice retained. Independent adversarial review: This exact head/hand supports stuffing and POH trophy mounting. The same item also has a Dark Altar Prayer use, and KQ/Hydra heads additionally support Slayer helmet creation. These alternatives are disclosed but do not contradict the direct trophy function; no unique Wiki-prescribed bank-primary claim is made."
+    },
+    {
+      "itemId": 7981,
+      "title": "Kq head",
+      "sourceRevision": 15184234,
+      "sourceSha256": "231b6678b48ef1476e5126217bce766ee89b1a2d379812c0435fbcb2c2d50751",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Kq head detail.png|left|150px]]\nThe '''Kq head''' is a rare drop from the [[Kalphite Queen]]. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 50,000 coins, returning a [[stuffed kq head]]. When players take it to her, she will tell players ''\"That must be the biggest kalphite I've ever seen! Preserving insects is always tricky. I'll have to be careful...\"''",
+      "positiveFunctionExcerpt": "[[File:Kq head detail.png|left|150px]]\nThe '''Kq head''' is a rare drop from the [[Kalphite Queen]]. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 50,000 coins, returning a [[stuffed kq head]]. When players take it to her, she will tell players ''\"That must be the biggest kalphite I've ever seen! Preserving insects is always tricky. I'll have to be careful...\"''",
+      "secondaryExcerpts": [
+        "[[File:Kq head detail.png|left|150px]]\nThe '''Kq head''' is a rare drop from the [[Kalphite Queen]]. It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her and paying 50,000 coins, returning a [[stuffed kq head]]. When players take it to her, she will tell players ''\"That must be the biggest kalphite I've ever seen! Preserving insects is always tricky. I'll have to be careful...\"''",
+        "Once stuffed, it can be [[Kalphite Queen head (mounted)|mounted]] at a [[gilded display]] within the [[skill hall]] in a [[player-owned house]], granting 223 [[Construction]] alongside 200 [[Attack]], [[Strength]], [[Defence]], [[Magic]], and [[Ranged]] [[experience]], with players being given the option to decline the combat experience before mounting the heads. Talking to a mounted kalphite queen head in your POH is a task in the [[Elite Desert Diary]]. Alternatively, the head can be sacrificed to the [[Dark Altar]] north of [[Arceuus]], granting 2,500 [[Prayer]] experience.",
+        "Lastly, the head can be combined with a [[slayer helmet]] or [[slayer helmet (i)]] to create a [[green slayer helmet]] or [[green  slayer helmet (i)]], respectively. Doing so requires purchasing the ability ''Kalphite Khat'' for 1,000 [[Slayer reward point]]s.",
+        "==Prayer info==\n{{Prayer info\n|name = Kq head\n|level = 1\n|xp = 2500\n|facility = [[Dark Altar]]\n|type = other\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7981"
+        },
+        {
+          "field": "name",
+          "value": "Kq head"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should get it stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking. Prayer sacrifice and Slayer helmet appearance conversion retained. Independent adversarial review: This exact head/hand supports stuffing and POH trophy mounting. The same item also has a Dark Altar Prayer use, and KQ/Hydra heads additionally support Slayer helmet creation. These alternatives are disclosed but do not contradict the direct trophy function; no unique Wiki-prescribed bank-primary claim is made."
+    },
+    {
+      "itemId": 7989,
+      "title": "Big bass",
+      "sourceRevision": 15184783,
+      "sourceSha256": "18573f2f840f18c00cbbb65eec851a4750c8be357f8e93c48207c1852e333abc",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Big bass detail.png|left|130px]]\nA '''big bass''' is an abnormally large [[raw bass|bass]] caught while fishing at any [[Fishing spot (big net, harpoon)|big net/harpoon fishing spot]], requiring 46 [[Fishing]] to catch. Players have a 1/1,000 to receive a big bass in place of a raw bass;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/587574469616476162|date=13 April 2015|archiveurl=https://reldo.runescape.wiki/i/101775|archivedate=26 March 2019|quote=Bass = 1/1000. Swordfish = 1/2500. Shark = 1/5000.}} catching one results in the game message {{mes|You catch an enormous bass!}} instead of the usual {{mes|You catch a raw bass.}} If fishing with a [[fish barrel]], a big bass will be placed into the inventory.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1534513342680907777|date=8 June 2022|archiveurl=https://reldo.runescape.wiki/i/102844|archivedate=9 July 2022|quote=You can still receive the big fish, and it'd have to go to your inventory.}} Additionally, big bass cannot be cooked.",
+      "positiveFunctionExcerpt": "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 1,000 coins, returning a [[stuffed big bass]]. When players take it to her, she will tell players ''\"That's a mighty fine sea bass you've caught there.\"'' Once stuffed, it can be [[Mounted bass|mounted]] at an [[oak display|oak]], [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 31 [[Construction]] and 151 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 1,000 coins, returning a [[stuffed big bass]]. When players take it to her, she will tell players ''\"That's a mighty fine sea bass you've caught there.\"'' Once stuffed, it can be [[Mounted bass|mounted]] at an [[oak display|oak]], [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 31 [[Construction]] and 151 [[Fishing]] [[experience]].",
+        "[[File:Big bass detail.png|left|130px]]\nA '''big bass''' is an abnormally large [[raw bass|bass]] caught while fishing at any [[Fishing spot (big net, harpoon)|big net/harpoon fishing spot]], requiring 46 [[Fishing]] to catch. Players have a 1/1,000 to receive a big bass in place of a raw bass;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/587574469616476162|date=13 April 2015|archiveurl=https://reldo.runescape.wiki/i/101775|archivedate=26 March 2019|quote=Bass = 1/1000. Swordfish = 1/2500. Shark = 1/5000.}} catching one results in the game message {{mes|You catch an enormous bass!}} instead of the usual {{mes|You catch a raw bass.}} If fishing with a [[fish barrel]], a big bass will be placed into the inventory.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1534513342680907777|date=8 June 2022|archiveurl=https://reldo.runescape.wiki/i/102844|archivedate=9 July 2022|quote=You can still receive the big fish, and it'd have to go to your inventory.}} Additionally, big bass cannot be cooked."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7989"
+        },
+        {
+          "field": "name",
+          "value": "Big bass"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Whopper! I should get this stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: The exact big bass cannot be cooked; its documented item use is conversion to a stuffed wall-mount trophy. Fishing acquisition is not a competing prepared-food function."
+    },
+    {
+      "itemId": 7990,
+      "title": "Stuffed big bass",
+      "sourceRevision": 15342976,
+      "sourceSha256": "3d031d910a830ebabc9678a66668716904cf7f9404d5f845402bed166bdffc43",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Stuffed big bass detail.png|left|130px]]\nA '''stuffed big bass''' is obtained by bringing a [[big bass]] and 1,000 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item.",
+      "positiveFunctionExcerpt": "Once stuffed, it can be [[Mounted bass|mounted]] at an [[oak display|oak]], [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 31 [[Construction]] and 151 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "Once stuffed, it can be [[Mounted bass|mounted]] at an [[oak display|oak]], [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 31 [[Construction]] and 151 [[Fishing]] [[experience]].",
+        "[[File:Stuffed big bass detail.png|left|130px]]\nA '''stuffed big bass''' is obtained by bringing a [[big bass]] and 1,000 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7990"
+        },
+        {
+          "field": "name",
+          "value": "Stuffed big bass"
+        },
+        {
+          "field": "options",
+          "value": "Unstuff, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should mount this on my wall!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: This exact stuffed fish can be unstuffed or mounted in the POH fishing display. No cooking/food use is documented; collection-trophy is supported."
+    },
+    {
+      "itemId": 7991,
+      "title": "Big swordfish",
+      "sourceRevision": 15184753,
+      "sourceSha256": "a350482e9eda463db3f4cac43ac23f775d511490c935172288d765b3877216c4",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Big swordfish detail.png|left|130px]]\nA '''big swordfish''' is an abnormally large [[raw swordfish|swordfish]] caught while fishing for swordfish at any [[Fishing spot (cage, harpoon)|cage/harpoon fishing spot]], requiring 50 [[Fishing]] to catch (or 70 Fishing and 50 [[Strength]] for [[barehanded fishing]]). Players have a 1/2,500 chance to receive a big swordfish in place of a raw swordfish;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/587574469616476162|date=13 April 2015|archiveurl=https://reldo.runescape.wiki/i/101775|archivedate=26 March 2019|quote=Bass = 1/1000. Swordfish = 1/2500. Shark = 1/5000.}} catching one results in the game message {{mes|You catch an enormous swordfish!}} instead of the usual {{mes|You catch a raw swordfish.}} If fishing with a [[fish barrel]], a big swordfish will be placed into the inventory.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1534513342680907777|date=8 June 2022|archiveurl=https://reldo.runescape.wiki/i/102844|archivedate=9 July 2022|quote=You can still receive the big fish, and it'd have to go to your inventory.}} Additionally, big swordfish cannot be cooked.",
+      "positiveFunctionExcerpt": "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 2,500 coins, returning a [[stuffed big swordfish]]. When players take it to her, she will tell players ''\"Don't point that thing at me!\"'' Once stuffed, it can be [[Mounted swordfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 50 [[Construction]] and 230 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 2,500 coins, returning a [[stuffed big swordfish]]. When players take it to her, she will tell players ''\"Don't point that thing at me!\"'' Once stuffed, it can be [[Mounted swordfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 50 [[Construction]] and 230 [[Fishing]] [[experience]].",
+        "[[File:Big swordfish detail.png|left|130px]]\nA '''big swordfish''' is an abnormally large [[raw swordfish|swordfish]] caught while fishing for swordfish at any [[Fishing spot (cage, harpoon)|cage/harpoon fishing spot]], requiring 50 [[Fishing]] to catch (or 70 Fishing and 50 [[Strength]] for [[barehanded fishing]]). Players have a 1/2,500 chance to receive a big swordfish in place of a raw swordfish;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/587574469616476162|date=13 April 2015|archiveurl=https://reldo.runescape.wiki/i/101775|archivedate=26 March 2019|quote=Bass = 1/1000. Swordfish = 1/2500. Shark = 1/5000.}} catching one results in the game message {{mes|You catch an enormous swordfish!}} instead of the usual {{mes|You catch a raw swordfish.}} If fishing with a [[fish barrel]], a big swordfish will be placed into the inventory.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1534513342680907777|date=8 June 2022|archiveurl=https://reldo.runescape.wiki/i/102844|archivedate=9 July 2022|quote=You can still receive the big fish, and it'd have to go to your inventory.}} Additionally, big swordfish cannot be cooked.",
+        "==Item sources==\nThe drop rate is 1/2,500 every time a raw swordfish is caught. The drop rate of raw swordfish itself varies with Fishing level and harpoon used, so a single figure cannot be quoted.\n{{Drop sources|Big swordfish}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7991"
+        },
+        {
+          "field": "name",
+          "value": "Big swordfish"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Whopper! I should get this stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: The exact big swordfish cannot be cooked; its documented item use is conversion to a stuffed wall-mount trophy. Fishing acquisition is not a competing prepared-food function."
+    },
+    {
+      "itemId": 7992,
+      "title": "Stuffed big swordfish",
+      "sourceRevision": 15342975,
+      "sourceSha256": "6e3126aa500a7b25ff8a559f50fafe8106e0e8e43b9fee0bcf8a0f45e2149be6",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Stuffed big swordfish detail.png|left|130px]]\nA '''stuffed big swordfish''' is obtained by bringing a [[big swordfish]] and 2,500 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item.",
+      "positiveFunctionExcerpt": "Once stuffed, it can be [[Mounted swordfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 50 [[Construction]] and 230 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "Once stuffed, it can be [[Mounted swordfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 50 [[Construction]] and 230 [[Fishing]] [[experience]].",
+        "[[File:Stuffed big swordfish detail.png|left|130px]]\nA '''stuffed big swordfish''' is obtained by bringing a [[big swordfish]] and 2,500 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7992"
+        },
+        {
+          "field": "name",
+          "value": "Stuffed big swordfish"
+        },
+        {
+          "field": "options",
+          "value": "Unstuff, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should mount this on my wall!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: This exact stuffed fish can be unstuffed or mounted in the POH fishing display. No cooking/food use is documented; collection-trophy is supported."
+    },
+    {
+      "itemId": 7993,
+      "title": "Big shark",
+      "sourceRevision": 15184782,
+      "sourceSha256": "46e0ad3e10679418a9e25beffce90a4418fa2bf4833e1f918a14e3dae7747920",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Big shark detail.png|left|130px]]\nA '''big shark''' is an abnormally large [[raw shark|shark]] caught while fishing at any [[Fishing spot (big net, harpoon)|harpoon/big net fishing spot]], requiring 76 [[Fishing]] to catch (or 96 Fishing and 76 [[Strength]] for [[barehanded fishing]]). Players have a 1/5,000 chance to receive a big shark in place of a raw shark;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/587574469616476162|date=13 April 2015|archiveurl=https://reldo.runescape.wiki/i/101775|archivedate=26 March 2019|quote=Bass = 1/1000. Swordfish = 1/2500. Shark = 1/5000.}} catching one results in the game message {{mes|You catch an enormous shark!}} instead of the usual {{mes|You catch a shark!}} If fishing with a [[fish barrel]], a big shark will be placed into the inventory.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1534513342680907777|date=8 June 2022|archiveurl=https://reldo.runescape.wiki/i/102844|archivedate=9 July 2022|quote=You can still receive the big fish, and it'd have to go to your inventory.}} Additionally, big shark cannot be cooked, nor will catching one complete the [[Clue scroll (elite)|elite clue scroll]] step given by [[Sherlock]].",
+      "positiveFunctionExcerpt": "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 5,000 coins, returning a [[stuffed big shark]]. When players take it to her, she will tell players ''\"That's quite a fearsome shark! You have done everyone a service by removing it from the sea!\"'' Once stuffed, it can be [[Mounted shark|mounted]] at a [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 70 [[Construction]] and 350 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 5,000 coins, returning a [[stuffed big shark]]. When players take it to her, she will tell players ''\"That's quite a fearsome shark! You have done everyone a service by removing it from the sea!\"'' Once stuffed, it can be [[Mounted shark|mounted]] at a [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 70 [[Construction]] and 350 [[Fishing]] [[experience]].",
+        "[[File:Big shark detail.png|left|130px]]\nA '''big shark''' is an abnormally large [[raw shark|shark]] caught while fishing at any [[Fishing spot (big net, harpoon)|harpoon/big net fishing spot]], requiring 76 [[Fishing]] to catch (or 96 Fishing and 76 [[Strength]] for [[barehanded fishing]]). Players have a 1/5,000 chance to receive a big shark in place of a raw shark;{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/587574469616476162|date=13 April 2015|archiveurl=https://reldo.runescape.wiki/i/101775|archivedate=26 March 2019|quote=Bass = 1/1000. Swordfish = 1/2500. Shark = 1/5000.}} catching one results in the game message {{mes|You catch an enormous shark!}} instead of the usual {{mes|You catch a shark!}} If fishing with a [[fish barrel]], a big shark will be placed into the inventory.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1534513342680907777|date=8 June 2022|archiveurl=https://reldo.runescape.wiki/i/102844|archivedate=9 July 2022|quote=You can still receive the big fish, and it'd have to go to your inventory.}} Additionally, big shark cannot be cooked, nor will catching one complete the [[Clue scroll (elite)|elite clue scroll]] step given by [[Sherlock]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7993"
+        },
+        {
+          "field": "name",
+          "value": "Big shark"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It's a monster! I should get this stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: The exact big shark cannot be cooked and cannot complete Sherlock’s elite clue step; its documented item use is stuffing/mounting as a trophy. Collection-trophy is supported."
+    },
+    {
+      "itemId": 7994,
+      "title": "Stuffed big shark",
+      "sourceRevision": 15342981,
+      "sourceSha256": "6d40c3ad4919c903ba57c268b61dd93f44fc8e8a423e7ae48ea472fff18b3c3c",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Stuffed big shark detail.png|left|120px]]\nA '''stuffed big shark''' is obtained by bringing a [[big shark]] and 5,000 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item.",
+      "positiveFunctionExcerpt": "Once stuffed, it can be [[Mounted shark|mounted]] at a [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 70 [[Construction]] and 350 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "Once stuffed, it can be [[Mounted shark|mounted]] at a [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 70 [[Construction]] and 350 [[Fishing]] [[experience]].",
+        "[[File:Stuffed big shark detail.png|left|120px]]\nA '''stuffed big shark''' is obtained by bringing a [[big shark]] and 5,000 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7994"
+        },
+        {
+          "field": "name",
+          "value": "Stuffed big shark"
+        },
+        {
+          "field": "options",
+          "value": "Unstuff, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should mount this on my wall!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: This exact stuffed shark can be unstuffed or mounted in the POH fishing display. No cooking/food use is documented; collection-trophy is supported."
+    },
+    {
+      "itemId": 12934,
+      "title": "Zulrah's scales",
+      "sourceRevision": 15352878,
+      "sourceSha256": "61378c38a559d3042f97c3df034f7971659b239e883119b169f091e2bdd0291d",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Zulrah's scales detail.png|left|135px]]\n'''Zulrah's scales''' are items used to charge [[serpentine helm]]s, [[toxic blowpipe]]s, [[toxic staff of the dead|toxic staves of the dead]], and [[Trident of the Swamp|tridents of the swamp]]. It can also be used to create [[anti-venom]] at 87 [[Herblore]] by using them on an [[Antidote++]], with 5 scales used per dose.",
+      "positiveFunctionExcerpt": "[[File:Zulrah's scales detail.png|left|135px]]\n'''Zulrah's scales''' are items used to charge [[serpentine helm]]s, [[toxic blowpipe]]s, [[toxic staff of the dead|toxic staves of the dead]], and [[Trident of the Swamp|tridents of the swamp]]. It can also be used to create [[anti-venom]] at 87 [[Herblore]] by using them on an [[Antidote++]], with 5 scales used per dose.",
+      "secondaryExcerpts": [
+        "[[File:Zulrah's scales detail.png|left|135px]]\n'''Zulrah's scales''' are items used to charge [[serpentine helm]]s, [[toxic blowpipe]]s, [[toxic staff of the dead|toxic staves of the dead]], and [[Trident of the Swamp|tridents of the swamp]]. It can also be used to create [[anti-venom]] at 87 [[Herblore]] by using them on an [[Antidote++]], with 5 scales used per dose.",
+        "They are primarily obtained as a drop from [[Zulrah]]. They can also be obtained by dissecting [[sacred eel]]s with a [[knife]], which requires level 72 in [[Cooking]] and level 87 in [[Fishing]]. A player's Cooking level affects how many scales are received when they are dissected.",
+        "In addition, players can receive 20,000 scales from dismantling the following items:\n*[[Tanzanite fang]]\n*[[Toxic blowpipe (empty)]]\n*[[Serpentine visage]]\n*[[Serpentine helm (uncharged)]]\n*[[Magic fang]]",
+        "==Trivia==\n* Zulrah's scales have been the featured item on the [http://services.runescape.com/m=itemdb_oldschool/ Grand Exchange's official website] since its release, having been manually chosen.{{CiteReddit|author=Mod Lyon|url=https://www.reddit.com/r/2007scape/comments/9zv6x8/comment/eacvsa1/|title=Can we get the way the \"Featured Item\" on the GE page is determined changed? It's been Zulrah's scales every day for the last 3 years|quote=The item hasn't been changed because the old school team are working on more important things, they have the ability to change this as they wish. ... [So the item featured is actually picked manually?] Correct.|date=24 November 2018|archiveurl=https://archive.ph/G3ahI|archivedate=22 March 2025}} They were briefly replaced by the [[Santa hat]] on December 17th, 2018, but reverted shortly afterwards.\n* They are the second most traded Old School-exclusive item on the Grand Exchange, after [[revenant ether]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12934"
+        },
+        {
+          "field": "name",
+          "value": "Zulrah's scales"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Flakes of toxic snakeskin."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use. Anti-venom recipe is a real competing Herblore use. Independent adversarial review: The exact lead identifies charging four named equipment types as the main use and separately says it can also make anti-venom. The charge route is supported; retain the Herblore use as an explicit secondary function. Competing function is disclosed; it does not by itself disprove the direct candidate route."
+    },
+    {
+      "itemId": 19677,
+      "title": "Ancient shard",
+      "sourceRevision": 15360734,
+      "sourceSha256": "c62edf1bbc927531f489a13bd70b589d14b9728a2e0e55848a2507cb6a3174b2",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Ancient shard detail.png|left|90px]]\n'''Ancient shards''' are obtained from monsters found within the [[Catacombs of Kourend]] (excluding [[ghost]]s). Three shards can be used with a [[Darklight]] at the [[Altar_(Catacombs_of_Kourend)|altar]] in the centre of the catacombs to create an [[Arclight]], a degradeable variant of the darklight that is the second most powerful melee weapon when used against demons. Ancient shards are also used to charge Arclight. One shard provides 333 charges, three shards provide 1,000 charges; up to a maximum of 10,000. The most powerful melee weapon against demons, the [[Emberlight]], requires a fully charged Arclight.",
+      "positiveFunctionExcerpt": "[[File:Ancient shard detail.png|left|90px]]\n'''Ancient shards''' are obtained from monsters found within the [[Catacombs of Kourend]] (excluding [[ghost]]s). Three shards can be used with a [[Darklight]] at the [[Altar_(Catacombs_of_Kourend)|altar]] in the centre of the catacombs to create an [[Arclight]], a degradeable variant of the darklight that is the second most powerful melee weapon when used against demons. Ancient shards are also used to charge Arclight. One shard provides 333 charges, three shards provide 1,000 charges; up to a maximum of 10,000. The most powerful melee weapon against demons, the [[Emberlight]], requires a fully charged Arclight.",
+      "secondaryExcerpts": [
+        "[[File:Ancient shard detail.png|left|90px]]\n'''Ancient shards''' are obtained from monsters found within the [[Catacombs of Kourend]] (excluding [[ghost]]s). Three shards can be used with a [[Darklight]] at the [[Altar_(Catacombs_of_Kourend)|altar]] in the centre of the catacombs to create an [[Arclight]], a degradeable variant of the darklight that is the second most powerful melee weapon when used against demons. Ancient shards are also used to charge Arclight. One shard provides 333 charges, three shards provide 1,000 charges; up to a maximum of 10,000. The most powerful melee weapon against demons, the [[Emberlight]], requires a fully charged Arclight.",
+        "Ancient shards can also be used on the altar in the centre of the Catacombs for quick transportation to several areas (and are consumed on use):\n{{List|c=1\n|*Demon's Run - north-east corner with the [[lesser demons]].\n*Dragon's Den - north-west corner with the [[brutal blue dragons]].\n*Reeking Cove - south-west corner with the [[deviant spectres]].\n*The Shallows - south-east corner with the [[king sand crabs]].\n}}",
+        "==Acquiring shards==\nAs the drop rate for ancient shards are based on the number of [[hitpoints]] a monster has, the best methods of obtaining them will require the player to consider time-to-kill versus drop rate. Attacking multiple monsters at once will give players faster shard rates, making multi-hit attacks such as [[Ice Barrage]], [[black chinchompas]], and the [[venator bow]] the best weapons for this method. Barraging and using chinchompas will be more active, whereas the venator bow allows for a more reclined experience.",
+        "Using a [[Dinh's bulwark]] in combination with a [[Lightbearer]] is an efficient way to lure the monsters, as is using a [[Goading potion]]. A cheaper alternative is to use [[Dart|darts]] or [[Knives|knives]].",
+        "In addition, when farming shards players can also obtain [[dark totem]] pieces which give access to [[Skotizo]] and by extension more shards due to his guaranteed drops.",
+        "Giants in the [[Giants' Den]] have access to the Catacombs of Kourend drop table, which includes dark totem pieces and ancient shards. Killing [[hill giants]] with a [[Dwarf Multicannon]] within it is a comparable method to killing higher level monsters.",
+        "Viable monsters to farm shards include [[greater nechryael]]s, [[abyssal demons]], [[Warped Jelly|warped jellies]], and [[dust devils]]. [[Mutated bloodvelds]] can also be viable when using the [[venator bow]], the trade off for lower effort being slower shard acquisition. Being on a slayer task will increase kills per hour, but prioritising that limits the amount of kills players can do consecutively to the length of their task. It is realistic to not get a single shard in the time it takes to complete a slayer task."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19677"
+        },
+        {
+          "field": "name",
+          "value": "Ancient shard"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "You're not sure what this is, but it feels powerful."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use. Arclight creation and charging; Catacombs consumptive transport also directly documented. Independent adversarial review: This exact shard directly creates and charges Arclight and is also consumed for altar teleports. Both uses are disclosed; teleport use does not contradict the equipment-charge candidate."
+    },
+    {
+      "itemId": 20693,
+      "title": "Phoenix",
+      "sourceRevision": 15352736,
+      "sourceSha256": "c7a296f5f6bb47d2f0a9fa475ec113260f614ec5c45eae737e0543654f2628c4",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "positiveFunctionExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "secondaryExcerpts": [
+        "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "==Colours==\nPlayers can change the Phoenix's colour by using 250 of the desired [[gnomish firelighters]] on it while it is following the player. Doing so unlocks that colour permanently, even if the pet is reclaimed from [[Probita]], and players can switch freely between the unlocked colours.",
+        "{| class=\"wikitable\" style=\"text-align:center;\"\n!Colour\n!Cost\n!Image\n!Chat head\n|-\n|{{NA}}\n|{{NA}}\n|[[File:Phoenix (follower).png|160px]]\n|[[File:Phoenix chathead.png]]\n|-\n|{{plink|Blue firelighter|txt=Blue}}\n|{{Coins|{{GEP|Blue firelighter|250}}}}\n|[[File:Phoenix (follower, blue).png|160px]]\n|[[File:Phoenix (blue) chathead.png]]\n|-\n|{{plink|Green firelighter|txt=Green}}\n|{{Coins|{{GEP|Green firelighter|250}}}}\n|[[File:Phoenix (follower, green).png|160px]]\n|[[File:Phoenix (green) chathead.png]]\n|-\n|{{plink|Purple firelighter|txt=Purple}}\n|{{Coins|{{GEP|Purple firelighter|250}}}}\n|[[File:Phoenix (follower, purple).png|160px]]\n|[[File:Phoenix (purple) chathead.png]]\n|-\n|{{plink|White firelighter|txt=White}}\n|{{Coins|{{GEP|White firelighter|250}}}}\n|[[File:Phoenix (follower, white).png|160px]]\n|[[File:Phoenix (white) chathead.png]]\n|}",
+        "Though the Wintertodt is classified as a boss rather than a skilling activity, the phoenix is fifteen times more common at [[200 million experience|200 million]] [[Firemaking]] experience.",
+        "==Trivia==\n*Prior to the removal of [[supply crate]]s, it was possible to obtain a phoenix pet while in underwater areas such as the [[Mogre Camp]] and [[Fossil Island]]'s [[underwater]] area.\n*Using a [[bucket of water]] on the Phoenix will result in the chatbox stating ''The phoenix dodges the water''. Doing so consumes the bucket of water entirely, including the bucket itself.\n* The Phoenix's in-game model is a miniaturisation of the [[Desert Phoenix|Desert Phoenix's]] model.\n*The Phoenix's standard dialogue makes several references to pop culture:\n**The first and second dialogues are references to Solaire of Astora of ''{{WP|Dark Souls}}''.\n**The \"long night\" mentioned in the first dialogue may be a reference to ''{{WP|A Song of Ice and Fire}}''.\n**The Sacred Ash mentioned in the fourth dialogue could be a reference to ''{{WP|Pokémon}}'', where Sacred Ash is an item associated with the Legendary Pokémon Ho-Oh, whose name is derived from a Japanese counterpart to the Western phoenix. It is more likely that it just shares a common characteristic of mythical phoenixes of dying and being reborn from ash.\n**Also in the fourth dialogue, the player's confusion about the sky is a reference to RuneScape not having a skybox."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "20693"
+        },
+        {
+          "field": "name",
+          "value": "Phoenix"
+        },
+        {
+          "field": "version1",
+          "value": "Regular"
+        },
+        {
+          "field": "options",
+          "value": "Metamorphosis, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The essence of fire."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: Exact variant ID is present in the page’s variant ID fields; its own lead calls it a pet and the article documents following/metamorphosis. This does not rely on Collection Log placement."
+    },
+    {
+      "itemId": 20718,
+      "title": "Burnt page",
+      "sourceRevision": 15188006,
+      "sourceSha256": "47777ce55bbc4762febe3b70273a1c232d28d6150b7045e4c2413b433b1c9f35",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Burnt page detail.png|left|130px]]\n'''Burnt pages''' are a possible reward from the [[Reward Cart]] upon subduing the [[Wintertodt]], or created at the [[Book of Eternal Flame]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of fire]], which gives it additional effects.",
+      "positiveFunctionExcerpt": "[[File:Burnt page detail.png|left|130px]]\n'''Burnt pages''' are a possible reward from the [[Reward Cart]] upon subduing the [[Wintertodt]], or created at the [[Book of Eternal Flame]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of fire]], which gives it additional effects.",
+      "secondaryExcerpts": [
+        "[[File:Burnt page detail.png|left|130px]]\n'''Burnt pages''' are a possible reward from the [[Reward Cart]] upon subduing the [[Wintertodt]], or created at the [[Book of Eternal Flame]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of fire]], which gives it additional effects.",
+        "Each burnt page adds 20 charges to the tome, and one charge is consumed when an elemental [[Fire spells|fire spell]] is cast with the tome equipped. Players may remove the pages from the tome should they wish to do so.",
+        "Empty tomes of fire can be traded in for 250 burnt pages by speaking to [[Ignisia]], while pieces of the [[Pyromancer outfit]] give 50 pages per piece (with 250 pages being given if exchanging a full set). The [[bruma torch]] and [[warm gloves]] will also give 50 burnt pages each when exchanged with [[Ignisia]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "20718"
+        },
+        {
+          "field": "name",
+          "value": "Burnt page"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It's still warm to the touch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use.  Independent adversarial review: The exact page is used to charge the tome of fire and has per-charge mechanics. Wintertodt source and other exchange routes do not negate equipment-charge use."
+    },
+    {
+      "itemId": 20754,
+      "title": "Giant key",
+      "sourceRevision": 15188024,
+      "sourceSha256": "4c952c86ee7e2f5a860725a530b3530caacc8d9d7e0e9dff9bcaa4d1fee72968",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "boss-access-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Giant key detail.png|left|130px]]\nA '''giant key''' grants players access to [[Obor]]'s lair in the [[Hill Giant]] section of the [[Edgeville Dungeon]]. The key is not consumed when unlocking access to Obor's lair for the first time.",
+      "positiveFunctionExcerpt": "[[File:Giant key detail.png|left|130px]]\nA '''giant key''' grants players access to [[Obor]]'s lair in the [[Hill Giant]] section of the [[Edgeville Dungeon]]. The key is not consumed when unlocking access to Obor's lair for the first time.",
+      "secondaryExcerpts": [
+        "[[File:Giant key detail.png|left|130px]]\nA '''giant key''' grants players access to [[Obor]]'s lair in the [[Hill Giant]] section of the [[Edgeville Dungeon]]. The key is not consumed when unlocking access to Obor's lair for the first time.",
+        "It is consumed when used to unlock the [[Chest (Obor's lair)|chest]] inside Obor's lair. It is possible to hold more than one giant key at once.",
+        "With a [[Giantsoul amulet]] and [[Desert amulet 4]], players can kill Obor 120+ times per hour when using burning claws, giving approximately 8 keys per hour."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "20754"
+        },
+        {
+          "field": "name",
+          "value": "Giant key"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A key to the chest of Obor, the Hill Titan."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly unlocks named boss area; exact single/repeated consumption conditions independently distinguished. Own first access unlock not consumed; key is consumed on chest opening, no obsolete per-entry consumption claim. Independent adversarial review: The Giant key grants access to Obor’s lair and is consumed to open the lair chest; boss-access-key matches the exact function."
+    },
+    {
+      "itemId": 21820,
+      "title": "Revenant ether",
+      "sourceRevision": 15188549,
+      "sourceSha256": "e0374295582b11fecf700f349b5ba18f628c8dadb3e9c0fb03220c9b2d298973",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Revenant ether detail.png|120px|left]]\n'''Revenant ether''' is always dropped by [[revenants]] in the [[Revenant Caves]]. The [[bracelet of ethereum]] has a feature to automatically absorb ether from defeated revenants.",
+      "positiveFunctionExcerpt": "==Uses==\n===Item charging===\nRevenant ether is used to charge the following [[wilderness weapons]] and other items:\n* {{plink|Craw's bow}}\n* {{plink|Webweaver bow}}\n* {{plink|Thammaron's sceptre}}<sup>([[Thammaron's sceptre (a)|autocasting]])</sup>\n* {{plink|Accursed sceptre}}<sup>([[Accursed sceptre (a)|autocasting]])</sup>\n* {{plink|Viggora's chainmace}}\n* {{plink|Ursine chainmace}}\n* {{plink|Bracelet of ethereum}}",
+      "secondaryExcerpts": [
+        "==Uses==\n===Item charging===\nRevenant ether is used to charge the following [[wilderness weapons]] and other items:\n* {{plink|Craw's bow}}\n* {{plink|Webweaver bow}}\n* {{plink|Thammaron's sceptre}}<sup>([[Thammaron's sceptre (a)|autocasting]])</sup>\n* {{plink|Accursed sceptre}}<sup>([[Accursed sceptre (a)|autocasting]])</sup>\n* {{plink|Viggora's chainmace}}\n* {{plink|Ursine chainmace}}\n* {{plink|Bracelet of ethereum}}",
+        "[[File:Revenant ether detail.png|120px|left]]\n'''Revenant ether''' is always dropped by [[revenants]] in the [[Revenant Caves]]. The [[bracelet of ethereum]] has a feature to automatically absorb ether from defeated revenants.",
+        "Revenant ether is '''always''' dropped on death in the [[Wilderness]], even when it is stored as charges within weapons or a [[bracelet of ethereum]].",
+        "===Combat dummy variant===\n500 ether can be used to enhance an [[ornate undead combat dummy]], enabling it to act as a monster in the Wilderness.",
+        "==Creation==\nA [[chisel]] can be used on on [[ancient artefacts]] to break them into revenant ether, providing 1 ether for every 500 [[coins]].",
+        "Disassembling various uncharged items will give the player revenant ether:\n{| class=\"wikitable sortable align-center-1 align-left-2 align-center-3\"\n!colspan=2|Source\n!Quantity\n![[GE]] Price\n!Profit/Loss\n|-\n|{{plinkt|Bracelet of ethereum (uncharged)}}||250||{{Coins|{{GEP|Bracelet of ethereum (uncharged)}}}}||{{Coins|{{GEP|Revenant ether|250}}-{{GEP|Bracelet of ethereum (uncharged)}}}}\n|-\n|{{plinkt|Craw's bow (u)}}||7,500||{{Coins|{{GEP|Craw's bow (u)}}}}||{{Coins|{{GEP|Revenant ether|7500}}-{{GEP|Craw's bow (u)}}}}\n|-\n|{{plinkt|Thammaron's sceptre (u)}}||7,500||{{Coins|{{GEP|Thammaron's sceptre (u)}}}}||{{Coins|{{GEP|Revenant ether|7500}}-{{GEP|Thammaron's sceptre (u)}}}}\n|-\n|{{plinkt|Viggora's chainmace (u)}}||7,500||{{Coins|{{GEP|Viggora's chainmace (u)}}}}||{{Coins|{{GEP|Revenant ether|7500}}-{{GEP|Viggora's chainmace (u)}}}}\n|}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21820"
+        },
+        {
+          "field": "name",
+          "value": "Revenant ether"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Ethereal essence of the revenants."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use. Combat-dummy enhancement retained. Independent adversarial review: The article directly lists the ether’s equipment/bracelet charging function. The wilderness death rule and dummy enhancement are competing mechanics but do not negate its charge use. Competing function is disclosed; it does not by itself disprove the direct candidate route."
+    },
+    {
+      "itemId": 22446,
+      "title": "Vial of blood",
+      "sourceRevision": 15305692,
+      "sourceSha256": "dda384c32bf151c1f67c99e8d1ef86ccd3fccf4ce54c1d47b68a684541c96b1f",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Vial of blood detail.png|left|130px]]\n'''Vials of blood''' are obtained as [[drops]] from the [[Theatre of Blood]] or made by squeezing 50 [[blood sac]]s into a vial. It is used as the base instead of a [[vial of water]] when creating [[bastion potion|bastion]] and [[battlemage potion]]s.",
+      "positiveFunctionExcerpt": "It is also used to charge the [[Scythe of Vitur]], with each vial of blood, along with 200 [[blood rune]]s, providing 100 charges. It can be charged by depositing the items into the [[vyre well]] in [[Ver Sinhaza]] or [[Darkmeyer]] and using the Scythe of Vitur on it.",
+      "secondaryExcerpts": [
+        "It is also used to charge the [[Scythe of Vitur]], with each vial of blood, along with 200 [[blood rune]]s, providing 100 charges. It can be charged by depositing the items into the [[vyre well]] in [[Ver Sinhaza]] or [[Darkmeyer]] and using the Scythe of Vitur on it.",
+        "[[File:Vial of blood detail.png|left|130px]]\n'''Vials of blood''' are obtained as [[drops]] from the [[Theatre of Blood]] or made by squeezing 50 [[blood sac]]s into a vial. It is used as the base instead of a [[vial of water]] when creating [[bastion potion|bastion]] and [[battlemage potion]]s.",
+        "Vials of blood may also be used to pay the [[aranei scout]] near the portal to [[Castle Drakan#Vampyrium|Castle Drakan]] to move the player's [[grave]] near to them, if they had died whilst fighting the [[Maggot King]]. Depending on the current prices of vials of blood, this may be the most cost-effective way to pay.",
+        "==Trivia==\n* Attempting to fill a [[vial]] with blood from [[Fountain (Darkmeyer)|Darkmeyer's fountains]] or a [[blood pint]] will result in a message saying \"You try to fill your vial with blood but it spills all over the ground.\" and does not result in the player getting a vial of blood."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22446"
+        },
+        {
+          "field": "name",
+          "value": "Vial of blood"
+        },
+        {
+          "field": "options",
+          "value": "Empty, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A glass vial containing blood."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use. Herblore potion base and grave-payment alternatives retained. Independent adversarial review: This exact vial is directly used both as the base for bastion/battlemage potions and to charge the Scythe of Vitur. HERBLORE/herblore-base is a plausible alternative preset route, but article framing/order alone does not prove the current equipment-charge candidate incorrect."
+    },
+    {
+      "itemId": 22969,
+      "title": "Hydra's heart",
+      "sourceRevision": 15189037,
+      "sourceSha256": "7dbd5e3f50d4f4273a3ff41fa320cd4387592af5ad819f750b41545420791353",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-upgrade",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Hydra's heart detail.png|left|130px]]\nThe '''Hydra's heart''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's eye]] and [[Hydra's fang|fang]] to create the [[brimstone ring]].",
+      "positiveFunctionExcerpt": "[[File:Hydra's heart detail.png|left|130px]]\nThe '''Hydra's heart''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's eye]] and [[Hydra's fang|fang]] to create the [[brimstone ring]].",
+      "secondaryExcerpts": [
+        "[[File:Hydra's heart detail.png|left|130px]]\nThe '''Hydra's heart''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's eye]] and [[Hydra's fang|fang]] to create the [[brimstone ring]].",
+        "==Transcript==\n{{hastranscript|transclude=yes}}",
+        "[[File:Enchant bolts.gif|frame|left|A player uses the hydra body parts on each other, turning it into a brimstone ring.]]\nWhen attempting to create the brimstone ring, a warning will appear in the chatbox stating that the process cannot be reversed, and a confirmation will appear afterwards asking if players would like to proceed with the combination. Should the player confirm, the chatbox will state ''You successfully combine the Hydra Heart, the Hydra Eye, and the Hydra Fang to create the Brimstone Ring.''\n==Products==\n{{Uses material list|Hydra's heart}}",
+        "Much like [[abyssal bludgeon]]s, players will not receive duplicate pieces until they have all three Hydra body parts. For example, if a player has obtained a Hydra's heart, they are guaranteed to get either a fang or eye next time."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22969"
+        },
+        {
+          "field": "name",
+          "value": "Hydra's heart"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The heart of a hydra, looks like it can be combined with an eye and a fang."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical component creates or upgrades equipment. Existing subtype encompasses equipment creation components; no finished-equipment properties inherited.  Independent adversarial review: The exact Hydra heart is combined with the eye and fang to create the Brimstone ring; the direct nonreversible product mechanic supports an equipment-upgrade candidate."
+    },
+    {
+      "itemId": 22971,
+      "title": "Hydra's fang",
+      "sourceRevision": 15189036,
+      "sourceSha256": "648500c627c2e3c34c0bd850d1c843df89b7006ce843983cc934eed276cd14ad",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-upgrade",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Hydra's fang detail.png|left|130px]]\nThe '''Hydra's fang''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's eye]] and [[Hydra's heart|heart]] to create the [[brimstone ring]].",
+      "positiveFunctionExcerpt": "[[File:Hydra's fang detail.png|left|130px]]\nThe '''Hydra's fang''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's eye]] and [[Hydra's heart|heart]] to create the [[brimstone ring]].",
+      "secondaryExcerpts": [
+        "[[File:Hydra's fang detail.png|left|130px]]\nThe '''Hydra's fang''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's eye]] and [[Hydra's heart|heart]] to create the [[brimstone ring]].",
+        "==Transcript==\n{{hastranscript|transclude=yes}}",
+        "[[File:Enchant bolts.gif|frame|left|A player uses the hydra body parts on each other, turning it into a brimstone ring.]]\nWhen attempting to create the brimstone ring, a warning will appear in the chatbox stating that the process cannot be reversed, and a confirmation will appear afterwards asking if players would like to proceed with the combination. Should the player confirm, the chatbox will state ''You successfully combine the Hydra Heart, the Hydra Eye, and the Hydra Fang to create the Brimstone Ring.''",
+        "Much like [[abyssal bludgeon]]s, players will not receive duplicate pieces until they have all three Hydra body parts. For example, if a player has obtained a Hydra's fang, they are guaranteed to get either an eye or heart next time."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22971"
+        },
+        {
+          "field": "name",
+          "value": "Hydra's fang"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The fang of a hydra, looks like it can be combined with a heart and an eye."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical component creates or upgrades equipment. Existing subtype encompasses equipment creation components; no finished-equipment properties inherited.  Independent adversarial review: The exact Hydra fang is combined with the eye and heart to create the Brimstone ring; the direct nonreversible product mechanic supports an equipment-upgrade candidate."
+    },
+    {
+      "itemId": 22973,
+      "title": "Hydra's eye",
+      "sourceRevision": 15189035,
+      "sourceSha256": "700e1d667e5fe9ce1de2309a25c486f23ddd449b41a32f8a8a3548c7b7e68605",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-upgrade",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Hydra's eye detail.png|left|130px]]\nThe '''Hydra's eye''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's fang]] and [[Hydra's heart|heart]] to create the [[brimstone ring]].",
+      "positiveFunctionExcerpt": "[[File:Hydra's eye detail.png|left|130px]]\nThe '''Hydra's eye''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's fang]] and [[Hydra's heart|heart]] to create the [[brimstone ring]].",
+      "secondaryExcerpts": [
+        "[[File:Hydra's eye detail.png|left|130px]]\nThe '''Hydra's eye''' is an item dropped by [[hydra]]s and the [[Alchemical Hydra]]. It can be combined with the [[Hydra's fang]] and [[Hydra's heart|heart]] to create the [[brimstone ring]].",
+        "==Transcript==\n{{hastranscript|transclude=yes}}",
+        "[[File:Enchant bolts.gif|frame|left|A player uses the hydra body parts on each other, turning it into a brimstone ring.]]\nWhen attempting to create the brimstone ring, a warning will appear in the chatbox stating that the process cannot be reversed, and a confirmation will appear afterwards asking if players would like to proceed with the combination. Should the player confirm, the chatbox will state ''You successfully combine the Hydra Heart, the Hydra Eye, and the Hydra Fang to create the Brimstone Ring.''",
+        "Much like [[abyssal bludgeon]]s, players will not receive duplicate pieces until they have all three Hydra body parts. For example, if a player has obtained a Hydra's eye, they are guaranteed to get either a fang or heart next time."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22973"
+        },
+        {
+          "field": "name",
+          "value": "Hydra's eye"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It's the... eye of the Hydra! It looks like it can be combined with a heart and a fang."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical component creates or upgrades equipment. Existing subtype encompasses equipment creation components; no finished-equipment properties inherited.  Independent adversarial review: The exact Hydra eye is combined with the fang and heart to create the Brimstone ring; the direct nonreversible product mechanic supports an equipment-upgrade candidate."
+    },
+    {
+      "itemId": 23077,
+      "title": "Alchemical hydra heads",
+      "sourceRevision": 15189131,
+      "sourceSha256": "37ace5ad84e9bdde53e588d2325302ff9aad9b2be4050a2f9e58cce863b8cc36",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Alchemical hydra heads detail.png|130px|left]]\n'''Alchemical hydra heads''' are a rare drop from the [[Alchemical Hydra]]. They can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 50,000 coins, returning [[stuffed hydra heads]]. When shown the heads, she will say, ''\"This hydra looks like it might fall to pieces soon. I'll have to be careful to preserve it properly.\"''",
+      "positiveFunctionExcerpt": "[[File:Alchemical hydra heads detail.png|130px|left]]\n'''Alchemical hydra heads''' are a rare drop from the [[Alchemical Hydra]]. They can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 50,000 coins, returning [[stuffed hydra heads]]. When shown the heads, she will say, ''\"This hydra looks like it might fall to pieces soon. I'll have to be careful to preserve it properly.\"''",
+      "secondaryExcerpts": [
+        "[[File:Alchemical hydra heads detail.png|130px|left]]\n'''Alchemical hydra heads''' are a rare drop from the [[Alchemical Hydra]]. They can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 50,000 coins, returning [[stuffed hydra heads]]. When shown the heads, she will say, ''\"This hydra looks like it might fall to pieces soon. I'll have to be careful to preserve it properly.\"''",
+        "Lastly, the heads can be combined with a [[slayer helmet]] (or imbued) to create a [[hydra slayer helmet]]; doing so requires purchasing the ability ''Use More Head'' for 1,000 [[Slayer reward point]]s.",
+        "Once stuffed, Alchemical hydra heads can be [[Alchemical hydra heads (mounted)|mounted]] at a [[gilded display]] within the [[skill hall]] in a [[player-owned house]], granting 223 [[Construction]] alongside 200 [[Attack]], [[Strength]], [[Defence]], [[Magic]], and [[Ranged]] [[experience]], although players are given the option to decline the combat experience. Alternatively, the heads can be sacrificed to the [[Dark Altar]] north of [[Arceuus]], granting 2,500 [[Prayer]] experience.",
+        "==Prayer info==\n{{Prayer info\n|name = Alchemical hydra heads\n|level = 1\n|xp = 2500\n|facility = [[Dark Altar]]\n|type = other\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23077"
+        },
+        {
+          "field": "name",
+          "value": "Alchemical hydra heads"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Yuck! I could get it stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking. Prayer sacrifice and Slayer helmet appearance conversion retained. Independent adversarial review: This exact head/hand supports stuffing and POH trophy mounting. The same item also has a Dark Altar Prayer use, and KQ/Hydra heads additionally support Slayer helmet creation. These alternatives are disclosed but do not contradict the direct trophy function; no unique Wiki-prescribed bank-primary claim is made."
+    },
+    {
+      "itemId": 23083,
+      "title": "Brimstone key",
+      "sourceRevision": 15198903,
+      "sourceSha256": "47c743a67ed806538b7c1ee67f0062f6d8c8c582c6f956beb332078466a067f5",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Brimstone key detail.png|left|150px]]\nThe '''brimstone key''' can be obtained from killing monsters while on a [[Slayer task]] given by [[Konar quo Maten]]. It is used to open the [[brimstone chest]]. The average value of a drop from the brimstone chest is {{Coins|{{Average drop value|Brimstone chest|raw=yes}}}} (HA: {{Coins|{{Average drop value|Brimstone chest|raw=yes|alch=yes}}}}). Upon [[death]] in the [[Wilderness]], a brimstone key converts to two [[coins]] for the killer.",
+      "positiveFunctionExcerpt": "[[File:Brimstone key detail.png|left|150px]]\nThe '''brimstone key''' can be obtained from killing monsters while on a [[Slayer task]] given by [[Konar quo Maten]]. It is used to open the [[brimstone chest]]. The average value of a drop from the brimstone chest is {{Coins|{{Average drop value|Brimstone chest|raw=yes}}}} (HA: {{Coins|{{Average drop value|Brimstone chest|raw=yes|alch=yes}}}}). Upon [[death]] in the [[Wilderness]], a brimstone key converts to two [[coins]] for the killer.",
+      "secondaryExcerpts": [
+        "[[File:Brimstone key detail.png|left|150px]]\nThe '''brimstone key''' can be obtained from killing monsters while on a [[Slayer task]] given by [[Konar quo Maten]]. It is used to open the [[brimstone chest]]. The average value of a drop from the brimstone chest is {{Coins|{{Average drop value|Brimstone chest|raw=yes}}}} (HA: {{Coins|{{Average drop value|Brimstone chest|raw=yes|alch=yes}}}}). Upon [[death]] in the [[Wilderness]], a brimstone key converts to two [[coins]] for the killer.",
+        "The probability of receiving a key as a drop increases with the slain monster's [[Combat level]]. For monsters with combat level 100 or higher, the probability is between <math>1/100</math> and <math>1/50</math>, capping at level 350. Specifically, the probability for a monster with combat level <math>L</math> is{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/1083781544135847936|date=16 January 2019|archiveurl=https://reldo.runescape.wiki/i/106148|archivedate=26 May 2020|quote=It follows a curve up until level 100 then scales linearly between those 2 values upto level 350 combat. Creatures over thsi{{sic}} will cap at 1/50. [https://pbs.twimg.com/media/DwpdLK2W0AEynZy.jpg]}}\n:<center><math>\\frac{1}{120 - \\left\\lfloor L/5 \\right\\rfloor}</math></center>\nFor monsters with combat level <math>L</math> smaller than level 100, the probability follows the curve{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/1083783815141707781|date=16 January 2019|archiveurl=https://reldo.runescape.wiki/i/97247|archivedate=29 April 2020|quote=0.2*(CBLEVEL - 100)^2 + 100}}\n:<center><math>\\frac{1}{100 + \\left\\lfloor (100 - L)^2/5 \\right\\rfloor}</math></center>\nAdditionally, if the monster has a [[Slayer]] level requirement, there is a 20% boost in the drop probability.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1269996125387460608|date=8 June 2020|archiveurl=http://archive.is/mRtA0|archivedate=11 June 2020}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23083"
+        },
+        {
+          "field": "name",
+          "value": "Brimstone key"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "Unlocks Konar's chest found atop Mount Karuulm."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly opens named reward chest. Acquisition/recipe/Diary context does not displace primary access role.  Independent adversarial review: The exact Brimstone key is used to open Konar’s Brimstone chest; drop source/task requirement is acquisition context, not an item-state restriction."
+    },
+    {
+      "itemId": 23951,
+      "title": "Enhanced crystal key",
+      "sourceRevision": 15321090,
+      "sourceSha256": "426c18fb29ae29336a23e5f91193f73bcbdc87a1bd8edeb67fe0bbf6eec62751",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Enhanced crystal key detail.png|left|150px]]\nThe '''enhanced crystal key''' is an upgraded version of the regular [[crystal key]] that is used to open the [[Elven Crystal Chest]] in the upper level of the [[Tower of Voices]] in [[Prifddinas]].",
+      "positiveFunctionExcerpt": "[[File:Enhanced crystal key detail.png|left|150px]]\nThe '''enhanced crystal key''' is an upgraded version of the regular [[crystal key]] that is used to open the [[Elven Crystal Chest]] in the upper level of the [[Tower of Voices]] in [[Prifddinas]].",
+      "secondaryExcerpts": [
+        "[[File:Enhanced crystal key detail.png|left|150px]]\nThe '''enhanced crystal key''' is an upgraded version of the regular [[crystal key]] that is used to open the [[Elven Crystal Chest]] in the upper level of the [[Tower of Voices]] in [[Prifddinas]].",
+        "If the player manually buys the required crystal shards, each shard will cost {{NoCoins|{{GEP|Enhanced crystal teleport seed}}/150}} them through the cheapest option, purchasing [[Enhanced crystal teleport seed]]s on the Grand Exchange and selling the seeds to [[Amrod]], and the expected loss from opening the chest would be {{Coins|{{Average drop value|Elven Crystal Chest|raw=y}} - {{GEP|Crystal key}} - {{GEP|Enhanced crystal teleport seed|(10-966/256)/150}}}}. If growing the received [[Crystal acorn|crystal acorns]] from the chest into [[Crystal tree|crystal trees]] with [[ultracompost]], the expected loss is {{Coins|{{Average drop value|Elven Crystal Chest|raw=y}} - {{GEP|Crystal key}} - {{GEP|Enhanced crystal teleport seed|(10-966/256-((35*30)/256))/150}} - {{GEP|Ultracompost|35/256}}}} instead.",
+        "Players can create an enhanced crystal key via a [[singing bowl]] by combining a [[crystal key]] and 10 [[crystal shard]]s. Doing so requires level 80 [[Smithing]] and [[Crafting]] to [[crystal singing|sing]] the crystal (the levels can be [[Temporary skill boost|boosted]]), and grants 500 experience in both skills. If the player does not meet the Smithing and Crafting requirements, they can have [[Conwenna]] or [[Reese]] sing the crystal for them for an extra 5 crystal shards, for a total of 15.",
+        "==Creation==\n{{#vardefine:crystalshardvalue|{{#ifexpr:{{#vardefineecho:seedvalue|{{GEP|Enhanced crystal teleport seed}} / 150}} > {{#vardefineecho:divinesupercombatvalue|({{GEP|Divine super combat potion(4)}} - {{GEP|Super combat potion(4)}}) / 0.4}} | {{#var:seedvalue}} | {{#var:divinesupercombatvalue}}}} round 1}}\n{{Recipe\n|skill1 = Smithing\n|skill1lvl = 80\n|skill1boostable = Yes\n|skill1exp = 500\n|skill2 = Crafting\n|skill2lvl = 80\n|skill2boostable = Yes\n|skill2exp = 500\n|members = Yes\n|ticks = 3\n|ticksnote = Takes 3 ticks to create an entire inventory\n|facilities = Singing bowl\n|mat1 = Crystal key\n|mat2 = Crystal shard\n|mat2quantity = 10\n|mat2cost = {{#var:crystalshardvalue}}\n|mat2itemnote = Value based on {{#ifexpr:{{#var:seedvalue}} > {{#var:divinesupercombatvalue}} | the cost of obtaining by exchanging [[enhanced crystal teleport seed]]s with [[Amrod]] | the potential profit of using the crystal shards to create [[divine super combat potion]]s}}\n|output1 = Enhanced crystal key\n|output1cost = No\n}}\n'''Note:''' Crystal shards are an untradeable item, and can only be obtained by exchanging crystal seeds or from various skilling or PVM actions in Prifddinas."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23951"
+        },
+        {
+          "field": "name",
+          "value": "Enhanced crystal key"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A mysterious key with some added crystal to embellish it."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly opens named reward chest. Acquisition/recipe/Diary context does not displace primary access role.  Independent adversarial review: The exact enhanced crystal key opens the Elven Crystal Chest. Being created from a normal key and shards is an upstream conversion, not a competing item purpose."
+    },
+    {
+      "itemId": 23953,
+      "title": "Crystal tool seed",
+      "sourceRevision": 15189424,
+      "sourceSha256": "2464c2a93a7dc6908983b23463946d5952768d712e9f9997e596c356d4ee082f",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-upgrade",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Crystal tool seed detail.png|80px|left]]\nThe '''crystal tool seed''' is an [[elves|elven]] [[crystal]] that can be turned into the [[crystal axe]], [[crystal harpoon]], or [[crystal pickaxe]], using 120 [[crystal shard]]s and the [[Dragon equipment|dragon]] counterpart on a [[singing bowl]]. It can be obtained as a drop from [[Zalcano]].",
+      "positiveFunctionExcerpt": "[[File:Crystal tool seed detail.png|80px|left]]\nThe '''crystal tool seed''' is an [[elves|elven]] [[crystal]] that can be turned into the [[crystal axe]], [[crystal harpoon]], or [[crystal pickaxe]], using 120 [[crystal shard]]s and the [[Dragon equipment|dragon]] counterpart on a [[singing bowl]]. It can be obtained as a drop from [[Zalcano]].",
+      "secondaryExcerpts": [
+        "[[File:Crystal tool seed detail.png|80px|left]]\nThe '''crystal tool seed''' is an [[elves|elven]] [[crystal]] that can be turned into the [[crystal axe]], [[crystal harpoon]], or [[crystal pickaxe]], using 120 [[crystal shard]]s and the [[Dragon equipment|dragon]] counterpart on a [[singing bowl]]. It can be obtained as a drop from [[Zalcano]].",
+        "The crystal tools start off at 10,000 charges and degrades, like other [[crystal equipment]]. One charge is depleted for each time an item is obtained using the tool, with some exceptions for particular uses of the [[crystal axe|axe]] and [[crystal pickaxe|pickaxe]] where the crystal version has no additional benefit (duplicates from items such as the [[Varrock armour]] do not deplete an extra charge). The player may add charges with [[crystal shard]]s, with each shard granting 100 charges, up to a maximum of 20,000 charges. Dismantling a crystal tool will return the dragon equivalent and crystal tool seed to the player and doing so will lose all crystal shard charges that were previously loaded.",
+        "{{Upgraded equipment}}\n{{Crystal items}}\n{{Tools}}\n{{Zalcano}}\n[[Category:Collection log items]]\n[[Category:Upgrade items]]",
+        "Players can also exchange the tool seed for 100 [[crystal shard]]s by speaking to [[Amrod]] in [[Prifddinas]]' [[Hefin Inn]].",
+        "==Tool information==\nPlayers who do not meet the Crafting and Smithing requirements for each tool can talk to [[Conwenna]] or [[Reese]] to sing the tools for them for an additional 60 crystal shards per tool."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23953"
+        },
+        {
+          "field": "name",
+          "value": "Crystal tool seed"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A seed to be sung into the best tools of the craft."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical component creates or upgrades equipment. Existing subtype encompasses equipment creation components; no finished-equipment properties inherited. Physical dragon-tool upgrade; exchange into shards retained. Independent adversarial review: The own lead explicitly turns the seed into three named crystal tools, while the article also allows exchanging it for 100 crystal shards. Equipment-upgrade is a reasonable primary candidate, but the shard route must remain visible as a real alternative. Competing function is disclosed; it does not by itself disprove the direct candidate route."
+    },
+    {
+      "itemId": 24483,
+      "title": "Phoenix",
+      "sourceRevision": 15352736,
+      "sourceSha256": "c7a296f5f6bb47d2f0a9fa475ec113260f614ec5c45eae737e0543654f2628c4",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "positiveFunctionExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "secondaryExcerpts": [
+        "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "==Colours==\nPlayers can change the Phoenix's colour by using 250 of the desired [[gnomish firelighters]] on it while it is following the player. Doing so unlocks that colour permanently, even if the pet is reclaimed from [[Probita]], and players can switch freely between the unlocked colours.",
+        "{| class=\"wikitable\" style=\"text-align:center;\"\n!Colour\n!Cost\n!Image\n!Chat head\n|-\n|{{NA}}\n|{{NA}}\n|[[File:Phoenix (follower).png|160px]]\n|[[File:Phoenix chathead.png]]\n|-\n|{{plink|Blue firelighter|txt=Blue}}\n|{{Coins|{{GEP|Blue firelighter|250}}}}\n|[[File:Phoenix (follower, blue).png|160px]]\n|[[File:Phoenix (blue) chathead.png]]\n|-\n|{{plink|Green firelighter|txt=Green}}\n|{{Coins|{{GEP|Green firelighter|250}}}}\n|[[File:Phoenix (follower, green).png|160px]]\n|[[File:Phoenix (green) chathead.png]]\n|-\n|{{plink|Purple firelighter|txt=Purple}}\n|{{Coins|{{GEP|Purple firelighter|250}}}}\n|[[File:Phoenix (follower, purple).png|160px]]\n|[[File:Phoenix (purple) chathead.png]]\n|-\n|{{plink|White firelighter|txt=White}}\n|{{Coins|{{GEP|White firelighter|250}}}}\n|[[File:Phoenix (follower, white).png|160px]]\n|[[File:Phoenix (white) chathead.png]]\n|}",
+        "Though the Wintertodt is classified as a boss rather than a skilling activity, the phoenix is fifteen times more common at [[200 million experience|200 million]] [[Firemaking]] experience.",
+        "==Trivia==\n*Prior to the removal of [[supply crate]]s, it was possible to obtain a phoenix pet while in underwater areas such as the [[Mogre Camp]] and [[Fossil Island]]'s [[underwater]] area.\n*Using a [[bucket of water]] on the Phoenix will result in the chatbox stating ''The phoenix dodges the water''. Doing so consumes the bucket of water entirely, including the bucket itself.\n* The Phoenix's in-game model is a miniaturisation of the [[Desert Phoenix|Desert Phoenix's]] model.\n*The Phoenix's standard dialogue makes several references to pop culture:\n**The first and second dialogues are references to Solaire of Astora of ''{{WP|Dark Souls}}''.\n**The \"long night\" mentioned in the first dialogue may be a reference to ''{{WP|A Song of Ice and Fire}}''.\n**The Sacred Ash mentioned in the fourth dialogue could be a reference to ''{{WP|Pokémon}}'', where Sacred Ash is an item associated with the Legendary Pokémon Ho-Oh, whose name is derived from a Japanese counterpart to the Western phoenix. It is more likely that it just shares a common characteristic of mythical phoenixes of dying and being reborn from ash.\n**Also in the fourth dialogue, the player's confusion about the sky is a reference to RuneScape not having a skybox."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id3",
+          "value": "24483"
+        },
+        {
+          "field": "name",
+          "value": "Phoenix"
+        },
+        {
+          "field": "version3",
+          "value": "Green"
+        },
+        {
+          "field": "options",
+          "value": "Metamorphosis, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The essence of fire."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: Exact variant ID is bound by the page’s infobox ID fields; own lead and follower/metamorphosis mechanics establish a pet. Finding is not inherited from another color or Collection Log."
+    },
+    {
+      "itemId": 24484,
+      "title": "Phoenix",
+      "sourceRevision": 15352736,
+      "sourceSha256": "c7a296f5f6bb47d2f0a9fa475ec113260f614ec5c45eae737e0543654f2628c4",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "positiveFunctionExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "secondaryExcerpts": [
+        "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "==Colours==\nPlayers can change the Phoenix's colour by using 250 of the desired [[gnomish firelighters]] on it while it is following the player. Doing so unlocks that colour permanently, even if the pet is reclaimed from [[Probita]], and players can switch freely between the unlocked colours.",
+        "{| class=\"wikitable\" style=\"text-align:center;\"\n!Colour\n!Cost\n!Image\n!Chat head\n|-\n|{{NA}}\n|{{NA}}\n|[[File:Phoenix (follower).png|160px]]\n|[[File:Phoenix chathead.png]]\n|-\n|{{plink|Blue firelighter|txt=Blue}}\n|{{Coins|{{GEP|Blue firelighter|250}}}}\n|[[File:Phoenix (follower, blue).png|160px]]\n|[[File:Phoenix (blue) chathead.png]]\n|-\n|{{plink|Green firelighter|txt=Green}}\n|{{Coins|{{GEP|Green firelighter|250}}}}\n|[[File:Phoenix (follower, green).png|160px]]\n|[[File:Phoenix (green) chathead.png]]\n|-\n|{{plink|Purple firelighter|txt=Purple}}\n|{{Coins|{{GEP|Purple firelighter|250}}}}\n|[[File:Phoenix (follower, purple).png|160px]]\n|[[File:Phoenix (purple) chathead.png]]\n|-\n|{{plink|White firelighter|txt=White}}\n|{{Coins|{{GEP|White firelighter|250}}}}\n|[[File:Phoenix (follower, white).png|160px]]\n|[[File:Phoenix (white) chathead.png]]\n|}",
+        "Though the Wintertodt is classified as a boss rather than a skilling activity, the phoenix is fifteen times more common at [[200 million experience|200 million]] [[Firemaking]] experience.",
+        "==Trivia==\n*Prior to the removal of [[supply crate]]s, it was possible to obtain a phoenix pet while in underwater areas such as the [[Mogre Camp]] and [[Fossil Island]]'s [[underwater]] area.\n*Using a [[bucket of water]] on the Phoenix will result in the chatbox stating ''The phoenix dodges the water''. Doing so consumes the bucket of water entirely, including the bucket itself.\n* The Phoenix's in-game model is a miniaturisation of the [[Desert Phoenix|Desert Phoenix's]] model.\n*The Phoenix's standard dialogue makes several references to pop culture:\n**The first and second dialogues are references to Solaire of Astora of ''{{WP|Dark Souls}}''.\n**The \"long night\" mentioned in the first dialogue may be a reference to ''{{WP|A Song of Ice and Fire}}''.\n**The Sacred Ash mentioned in the fourth dialogue could be a reference to ''{{WP|Pokémon}}'', where Sacred Ash is an item associated with the Legendary Pokémon Ho-Oh, whose name is derived from a Japanese counterpart to the Western phoenix. It is more likely that it just shares a common characteristic of mythical phoenixes of dying and being reborn from ash.\n**Also in the fourth dialogue, the player's confusion about the sky is a reference to RuneScape not having a skybox."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "24484"
+        },
+        {
+          "field": "name",
+          "value": "Phoenix"
+        },
+        {
+          "field": "version2",
+          "value": "Blue"
+        },
+        {
+          "field": "options",
+          "value": "Metamorphosis, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The essence of fire."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: Exact variant ID is bound by the page’s infobox ID fields; own lead and follower/metamorphosis mechanics establish a pet. Finding is not inherited from another color or Collection Log."
+    },
+    {
+      "itemId": 24485,
+      "title": "Phoenix",
+      "sourceRevision": 15352736,
+      "sourceSha256": "c7a296f5f6bb47d2f0a9fa475ec113260f614ec5c45eae737e0543654f2628c4",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "positiveFunctionExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "secondaryExcerpts": [
+        "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "==Colours==\nPlayers can change the Phoenix's colour by using 250 of the desired [[gnomish firelighters]] on it while it is following the player. Doing so unlocks that colour permanently, even if the pet is reclaimed from [[Probita]], and players can switch freely between the unlocked colours.",
+        "{| class=\"wikitable\" style=\"text-align:center;\"\n!Colour\n!Cost\n!Image\n!Chat head\n|-\n|{{NA}}\n|{{NA}}\n|[[File:Phoenix (follower).png|160px]]\n|[[File:Phoenix chathead.png]]\n|-\n|{{plink|Blue firelighter|txt=Blue}}\n|{{Coins|{{GEP|Blue firelighter|250}}}}\n|[[File:Phoenix (follower, blue).png|160px]]\n|[[File:Phoenix (blue) chathead.png]]\n|-\n|{{plink|Green firelighter|txt=Green}}\n|{{Coins|{{GEP|Green firelighter|250}}}}\n|[[File:Phoenix (follower, green).png|160px]]\n|[[File:Phoenix (green) chathead.png]]\n|-\n|{{plink|Purple firelighter|txt=Purple}}\n|{{Coins|{{GEP|Purple firelighter|250}}}}\n|[[File:Phoenix (follower, purple).png|160px]]\n|[[File:Phoenix (purple) chathead.png]]\n|-\n|{{plink|White firelighter|txt=White}}\n|{{Coins|{{GEP|White firelighter|250}}}}\n|[[File:Phoenix (follower, white).png|160px]]\n|[[File:Phoenix (white) chathead.png]]\n|}",
+        "Though the Wintertodt is classified as a boss rather than a skilling activity, the phoenix is fifteen times more common at [[200 million experience|200 million]] [[Firemaking]] experience.",
+        "==Trivia==\n*Prior to the removal of [[supply crate]]s, it was possible to obtain a phoenix pet while in underwater areas such as the [[Mogre Camp]] and [[Fossil Island]]'s [[underwater]] area.\n*Using a [[bucket of water]] on the Phoenix will result in the chatbox stating ''The phoenix dodges the water''. Doing so consumes the bucket of water entirely, including the bucket itself.\n* The Phoenix's in-game model is a miniaturisation of the [[Desert Phoenix|Desert Phoenix's]] model.\n*The Phoenix's standard dialogue makes several references to pop culture:\n**The first and second dialogues are references to Solaire of Astora of ''{{WP|Dark Souls}}''.\n**The \"long night\" mentioned in the first dialogue may be a reference to ''{{WP|A Song of Ice and Fire}}''.\n**The Sacred Ash mentioned in the fourth dialogue could be a reference to ''{{WP|Pokémon}}'', where Sacred Ash is an item associated with the Legendary Pokémon Ho-Oh, whose name is derived from a Japanese counterpart to the Western phoenix. It is more likely that it just shares a common characteristic of mythical phoenixes of dying and being reborn from ash.\n**Also in the fourth dialogue, the player's confusion about the sky is a reference to RuneScape not having a skybox."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id5",
+          "value": "24485"
+        },
+        {
+          "field": "name",
+          "value": "Phoenix"
+        },
+        {
+          "field": "version5",
+          "value": "White"
+        },
+        {
+          "field": "options",
+          "value": "Metamorphosis, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The essence of fire."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: Exact variant ID is bound by the page’s infobox ID fields; own lead and follower/metamorphosis mechanics establish a pet. Finding is not inherited from another color or Collection Log."
+    },
+    {
+      "itemId": 24486,
+      "title": "Phoenix",
+      "sourceRevision": 15352736,
+      "sourceSha256": "c7a296f5f6bb47d2f0a9fa475ec113260f614ec5c45eae737e0543654f2628c4",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "positiveFunctionExcerpt": "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+      "secondaryExcerpts": [
+        "The '''Phoenix''' is a [[pet]] that can be received from looting the [[Reward Cart]], from which rewards are obtained by subduing the [[Wintertodt]] with at least 500 points.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "==Colours==\nPlayers can change the Phoenix's colour by using 250 of the desired [[gnomish firelighters]] on it while it is following the player. Doing so unlocks that colour permanently, even if the pet is reclaimed from [[Probita]], and players can switch freely between the unlocked colours.",
+        "{| class=\"wikitable\" style=\"text-align:center;\"\n!Colour\n!Cost\n!Image\n!Chat head\n|-\n|{{NA}}\n|{{NA}}\n|[[File:Phoenix (follower).png|160px]]\n|[[File:Phoenix chathead.png]]\n|-\n|{{plink|Blue firelighter|txt=Blue}}\n|{{Coins|{{GEP|Blue firelighter|250}}}}\n|[[File:Phoenix (follower, blue).png|160px]]\n|[[File:Phoenix (blue) chathead.png]]\n|-\n|{{plink|Green firelighter|txt=Green}}\n|{{Coins|{{GEP|Green firelighter|250}}}}\n|[[File:Phoenix (follower, green).png|160px]]\n|[[File:Phoenix (green) chathead.png]]\n|-\n|{{plink|Purple firelighter|txt=Purple}}\n|{{Coins|{{GEP|Purple firelighter|250}}}}\n|[[File:Phoenix (follower, purple).png|160px]]\n|[[File:Phoenix (purple) chathead.png]]\n|-\n|{{plink|White firelighter|txt=White}}\n|{{Coins|{{GEP|White firelighter|250}}}}\n|[[File:Phoenix (follower, white).png|160px]]\n|[[File:Phoenix (white) chathead.png]]\n|}",
+        "Though the Wintertodt is classified as a boss rather than a skilling activity, the phoenix is fifteen times more common at [[200 million experience|200 million]] [[Firemaking]] experience.",
+        "==Trivia==\n*Prior to the removal of [[supply crate]]s, it was possible to obtain a phoenix pet while in underwater areas such as the [[Mogre Camp]] and [[Fossil Island]]'s [[underwater]] area.\n*Using a [[bucket of water]] on the Phoenix will result in the chatbox stating ''The phoenix dodges the water''. Doing so consumes the bucket of water entirely, including the bucket itself.\n* The Phoenix's in-game model is a miniaturisation of the [[Desert Phoenix|Desert Phoenix's]] model.\n*The Phoenix's standard dialogue makes several references to pop culture:\n**The first and second dialogues are references to Solaire of Astora of ''{{WP|Dark Souls}}''.\n**The \"long night\" mentioned in the first dialogue may be a reference to ''{{WP|A Song of Ice and Fire}}''.\n**The Sacred Ash mentioned in the fourth dialogue could be a reference to ''{{WP|Pokémon}}'', where Sacred Ash is an item associated with the Legendary Pokémon Ho-Oh, whose name is derived from a Japanese counterpart to the Western phoenix. It is more likely that it just shares a common characteristic of mythical phoenixes of dying and being reborn from ash.\n**Also in the fourth dialogue, the player's confusion about the sky is a reference to RuneScape not having a skybox."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id4",
+          "value": "24486"
+        },
+        {
+          "field": "name",
+          "value": "Phoenix"
+        },
+        {
+          "field": "version4",
+          "value": "Purple"
+        },
+        {
+          "field": "options",
+          "value": "Metamorphosis, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "The essence of fire."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: Exact variant ID is bound by the page’s infobox ID fields; own lead and follower/metamorphosis mechanics establish a pet. Finding is not inherited from another color or Collection Log."
+    },
+    {
+      "itemId": 25559,
+      "title": "Big harpoonfish",
+      "sourceRevision": 15190142,
+      "sourceSha256": "083a87776160cedf10ae5c110649e0931394638836d946677c8fc46ff1a844ab",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Big harpoonfish detail.png|left|130px]]\nA '''big harpoonfish''' is an abnormally large [[raw harpoonfish|harpoonfish]] that can be received from the [[reward pool]] in the [[Ruins of Unkah]]. It can be traded for 25 [[soaked page]]s by talking to the [[retired sailor]] inside the fishing store in the Ruins of Unkah.",
+      "positiveFunctionExcerpt": "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 3,500 coins, returning a [[stuffed big harpoonfish]]. When players take it to her, she will tell players ''\"Goodness me! That thing's more of a weapon than a fish!\"'' Once stuffed, it can be [[Mounted harpoonfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 59 [[Construction]] and 239 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "It can be stuffed at the [[taxidermist]] in [[Canifis]] by using the item on her and paying 3,500 coins, returning a [[stuffed big harpoonfish]]. When players take it to her, she will tell players ''\"Goodness me! That thing's more of a weapon than a fish!\"'' Once stuffed, it can be [[Mounted harpoonfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 59 [[Construction]] and 239 [[Fishing]] [[experience]].",
+        "[[File:Big harpoonfish detail.png|left|130px]]\nA '''big harpoonfish''' is an abnormally large [[raw harpoonfish|harpoonfish]] that can be received from the [[reward pool]] in the [[Ruins of Unkah]]. It can be traded for 25 [[soaked page]]s by talking to the [[retired sailor]] inside the fishing store in the Ruins of Unkah."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "25559"
+        },
+        {
+          "field": "name",
+          "value": "Big harpoonfish"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It's a big one! I should get this stuffed!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking. Soaked-page exchange retained. Independent adversarial review: This exact big harpoonfish directly supports both stuffing/POH trophy mounting and exchange for 25 soaked pages. Disclose both uses; neither alone contradicts the direct trophy candidate."
+    },
+    {
+      "itemId": 25561,
+      "title": "Stuffed big harpoonfish",
+      "sourceRevision": 15342978,
+      "sourceSha256": "8d0ab5bef5028fe4050cef592d2b96926ec6cff824426c47c7f2aaaa62bdaf69",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-trophy",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Stuffed big harpoonfish detail.png|left|130px]]\nA '''stuffed big harpoonfish''' is obtained by bringing a [[big harpoonfish]] and 3,500 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item.",
+      "positiveFunctionExcerpt": "At level 66 [[Construction]], it can be [[Mounted harpoonfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 59 Construction and 239 [[Fishing]] [[experience]].",
+      "secondaryExcerpts": [
+        "At level 66 [[Construction]], it can be [[Mounted harpoonfish|mounted]] at a [[Teak display (fishing trophy)|teak]] or [[Mahogany display (fishing trophy)|mahogany display]] within the [[skill hall]] in a [[player-owned house]], granting 59 Construction and 239 [[Fishing]] [[experience]].",
+        "[[File:Stuffed big harpoonfish detail.png|left|130px]]\nA '''stuffed big harpoonfish''' is obtained by bringing a [[big harpoonfish]] and 3,500 coins to the [[taxidermist]] in [[Canifis]]; this process is reversible by selecting the \"Unstuff\" option on the item.",
+        "To mount the stuffed big harpoonfish, enter [[building mode]] in your [[Player-owned house]] and first build a [[fishing trophy space]] (not to be confused with the [[head trophy space]]) in your [[Hall (skill trophies)|skill hall]]. Once built, use the stuffed fish on the display. With the new menu open, right click the stuffed fish in your inventory and select \"mount.\""
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "25561"
+        },
+        {
+          "field": "name",
+          "value": "Stuffed big harpoonfish"
+        },
+        {
+          "field": "options",
+          "value": "Unstuff, Drop"
+        },
+        {
+          "field": "examine",
+          "value": "I should mount this on my wall!"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical taxidermy/display preparation or direct mounting function supports trophy role; not generic raw-fish Cooking.  Independent adversarial review: This exact stuffed item supports mounting as a trophy and an Unstuff action. The soaked-page trade is documented for unstuffed ID 25559 only; it is a two-step reversible alternative, not a direct function of stuffed state 25561. Current collection-trophy route is supported by direct mounting."
+    },
+    {
+      "itemId": 25578,
+      "title": "Soaked page",
+      "sourceRevision": 15318349,
+      "sourceSha256": "1904851bbf469d5cb8d52e483ae194abceaef64f895ed657b4bc5d3dbbaf9a78",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Soaked page detail.png|left|130px]]\n'''Soaked pages''' are a possible catch from fishing at the [[reward pool]] with the reward permits from subduing [[Tempoross]], or created at the [[Book of Storms]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of water]], which gives it additional effects.",
+      "positiveFunctionExcerpt": "[[File:Soaked page detail.png|left|130px]]\n'''Soaked pages''' are a possible catch from fishing at the [[reward pool]] with the reward permits from subduing [[Tempoross]], or created at the [[Book of Storms]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of water]], which gives it additional effects.",
+      "secondaryExcerpts": [
+        "[[File:Soaked page detail.png|left|130px]]\n'''Soaked pages''' are a possible catch from fishing at the [[reward pool]] with the reward permits from subduing [[Tempoross]], or created at the [[Book of Storms]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of water]], which gives it additional effects.",
+        "Each soaked page adds 20 charges to the tome, and one charge is consumed when any [[combat spell]] from the [[standard spellbook]] requiring [[water rune]]s is cast with the tome equipped. Each consumed charge increases damaging spells' accuracy and damage by 10%, non-damaging spells' accuracy by 20%, and [[curse spells]]' stat drain effects by 50%. Casting non-combat standard spells, or any spell from other [[spellbook]]s requiring water runes, will provide infinite runes and not consume any charges, including [[Ice spell]]s. Players may remove the pages from the tome should they wish to do so.",
+        "An [[Tome of Water#Empty|empty tome of water]], [[fish barrel]], [[tackle box]], or [[big harpoonfish]] can be traded in to the [[Retired sailor]] for 25 soaked pages each."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "25578"
+        },
+        {
+          "field": "name",
+          "value": "Soaked page"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It feels clammy, like second-hand toilet paper."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use.  Independent adversarial review: The exact page charges the tome of water and the article details charge consumption and effects. Fishing/Tempoross acquisition is not an activity-only restriction on the item."
+    },
+    {
+      "itemId": 26356,
+      "title": "Frozen key (The Frozen Door)",
+      "sourceRevision": 15298411,
+      "sourceSha256": "17ac37e1bfe287d63617bf46174098fcd39b4ca222477037553a007c1706ac46",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "boss-access-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Frozen key (The Frozen Door) detail.png|left|120px]]\nThe '''frozen key''' is obtained from combining the four key pieces received from the [[God Wars Dungeon]]'s four generals and their bodyguards during [[The Frozen Door]] [[miniquest]]. It is used to open the [[frozen door]] in the dungeon, which leads to the [[God Wars Dungeon#Ancient Prison|Ancient Prison]] containing [[Zaros]]' followers and their leader, [[Nex]].",
+      "positiveFunctionExcerpt": "[[File:Frozen key (The Frozen Door) detail.png|left|120px]]\nThe '''frozen key''' is obtained from combining the four key pieces received from the [[God Wars Dungeon]]'s four generals and their bodyguards during [[The Frozen Door]] [[miniquest]]. It is used to open the [[frozen door]] in the dungeon, which leads to the [[God Wars Dungeon#Ancient Prison|Ancient Prison]] containing [[Zaros]]' followers and their leader, [[Nex]].",
+      "secondaryExcerpts": [
+        "[[File:Frozen key (The Frozen Door) detail.png|left|120px]]\nThe '''frozen key''' is obtained from combining the four key pieces received from the [[God Wars Dungeon]]'s four generals and their bodyguards during [[The Frozen Door]] [[miniquest]]. It is used to open the [[frozen door]] in the dungeon, which leads to the [[God Wars Dungeon#Ancient Prison|Ancient Prison]] containing [[Zaros]]' followers and their leader, [[Nex]].",
+        "==Trivia==\n* Unlike the [[rsw:Frozen_key|frozen key]] in ''RuneScape 3'', the frozen key in ''Old School RuneScape'' does not [[Degradation|degrade]] and is a single-use item to permanently access the Ancient Prison.",
+        "Because players must battle the generals of the God Wars Dungeon, level 70 [[Strength]], [[Agility]], [[Ranged]], and [[Hitpoints]] are necessary to obtain the key."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26356"
+        },
+        {
+          "field": "name",
+          "value": "Frozen key"
+        },
+        {
+          "field": "options",
+          "value": "Destroy"
+        },
+        {
+          "field": "examine",
+          "value": "A mysterious frozen key."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "[[The Frozen Door]]"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly unlocks named boss area; exact single/repeated consumption conditions independently distinguished. Single-use permanent Nex-area unlock with own miniquest association; no repeatable entry-consumption claim. Independent adversarial review: The exact Frozen key opens the door to the Ancient Prison; the page states it permanently unlocks access as a single-use item. This is boss-access, not a mode-only copy."
+    },
+    {
+      "itemId": 28798,
+      "title": "Scurrius' spine",
+      "sourceRevision": 15192238,
+      "sourceSha256": "5c2f628fc40cc51d245764bc7f3a1052c186ecf44b8519de3fd20c1f4948bca1",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "weapon-upgrade",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Scurrius' spine detail.png|left|130px]]\n'''Scurrius' spine''' is an uncommon drop from [[Scurrius]]. It can be combined with various weapons to create [[rat bone weapons]].",
+      "positiveFunctionExcerpt": "[[File:Scurrius' spine detail.png|left|130px]]\n'''Scurrius' spine''' is an uncommon drop from [[Scurrius]]. It can be combined with various weapons to create [[rat bone weapons]].",
+      "secondaryExcerpts": [
+        "[[File:Scurrius' spine detail.png|left|130px]]\n'''Scurrius' spine''' is an uncommon drop from [[Scurrius]]. It can be combined with various weapons to create [[rat bone weapons]].",
+        "==Transcript==\n{{hastranscript|item}}",
+        "Excess spines can be given to [[Historian Aldo]] outside the boss area in exchange for an [[Antique lamp (Historian Aldo)|antique lamp]] giving 5,000 experience in either [[Attack]], [[Strength]], [[Defence]], [[Hitpoints]], [[Magic]], [[Ranged]], or 3,500 experience in [[Prayer]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28798"
+        },
+        {
+          "field": "name",
+          "value": "Scurrius' spine"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "This can be attached to a Battlestaff, Rune Mace or Yew Shortbow."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical component explicitly enables equipment creation/restoration. No linked output stats/actions inherited. Antique-lamp exchange is competing value redemption. Independent adversarial review: The exact spine combines with weapons to make rat bone weapons. The lamp exchange is explicitly for excess spines, a secondary sink. Competing function is disclosed; it does not by itself disprove the direct candidate route."
+    },
+    {
+      "itemId": 28931,
+      "title": "Searing page",
+      "sourceRevision": 15261787,
+      "sourceSha256": "077e49871c11d7c8b5802bcd8c2c404a6aa9ab05fb454bf2b326d87f8e7d6002",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Searing page detail.png|130px|left]]\n'''Searing pages''' are an upgraded variant of [[burnt pages]] made by adding 100 [[sunfire rune]]s to one page. When used on a [[tome of fire]] to charge it, the tome gains a 10% minimum hit on their target when casting any [[standard spellbook]]'s [[fire spells]]. However, the minimum hit is based on the player’s maximum hit ''before'' the tome’s 10% damage boost is applied. For example, a player with a pre-tome maximum hit of 19 would have a minimum hit of 1 when using sunfire runes. If the player equips a tome charged with searing pages, the maximum hit will be boosted to 20, but the minimum hit will remain 1.",
+      "positiveFunctionExcerpt": "[[File:Searing page detail.png|130px|left]]\n'''Searing pages''' are an upgraded variant of [[burnt pages]] made by adding 100 [[sunfire rune]]s to one page. When used on a [[tome of fire]] to charge it, the tome gains a 10% minimum hit on their target when casting any [[standard spellbook]]'s [[fire spells]]. However, the minimum hit is based on the player’s maximum hit ''before'' the tome’s 10% damage boost is applied. For example, a player with a pre-tome maximum hit of 19 would have a minimum hit of 1 when using sunfire runes. If the player equips a tome charged with searing pages, the maximum hit will be boosted to 20, but the minimum hit will remain 1.",
+      "secondaryExcerpts": [
+        "[[File:Searing page detail.png|130px|left]]\n'''Searing pages''' are an upgraded variant of [[burnt pages]] made by adding 100 [[sunfire rune]]s to one page. When used on a [[tome of fire]] to charge it, the tome gains a 10% minimum hit on their target when casting any [[standard spellbook]]'s [[fire spells]]. However, the minimum hit is based on the player’s maximum hit ''before'' the tome’s 10% damage boost is applied. For example, a player with a pre-tome maximum hit of 19 would have a minimum hit of 1 when using sunfire runes. If the player equips a tome charged with searing pages, the maximum hit will be boosted to 20, but the minimum hit will remain 1.",
+        "Each searing page adds 20 charges to the tome, and one charge is consumed when an elemental [[Fire spells|fire spell]] is cast with the tome equipped. Players may remove the pages from the tome should they wish to do so.",
+        "Searing pages are more cost-effective for Fire Wave/Surge when using Sunfire runes. Fire Wave consumes 7 fire runes per cast. One searing page (20 charges) therefore replaces 140 fire runes, saving 40 Sunfire runes (28%). Fire Surge consumes 10 fire runes per cast. One searing page (20 charges) therefore replaces 200 fire runes, saving 100 Sunfire runes (50%)."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28931"
+        },
+        {
+          "field": "name",
+          "value": "Searing page"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It's still warm to the touch."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use.  Independent adversarial review: The exact Searing page directly charges the Tome of Fire and adds its stated spell effect. The previous hold was a quote-encoding artifact; source proof is verified against the pinned raw UTF-8 article."
+    },
+    {
+      "itemId": 30068,
+      "title": "Soiled page",
+      "sourceRevision": 15319422,
+      "sourceSha256": "eb34d8de2b09dedf383ae8ee0907074c282f224f13efdc81e91264cae07d1f85",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "equipment-charge",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Soiled page detail.png|130px|left]]\n'''Soiled pages''' are a possible drop from [[the Hueycoatl]], or created at the [[Book of Earthen Might]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of earth]], which gives it additional effects.",
+      "positiveFunctionExcerpt": "[[File:Soiled page detail.png|130px|left]]\n'''Soiled pages''' are a possible drop from [[the Hueycoatl]], or created at the [[Book of Earthen Might]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of earth]], which gives it additional effects.",
+      "secondaryExcerpts": [
+        "[[File:Soiled page detail.png|130px|left]]\n'''Soiled pages''' are a possible drop from [[the Hueycoatl]], or created at the [[Book of Earthen Might]] with [[desiccated page]]s and level 50 [[Runecraft]]. They are used to charge the [[tome of earth]], which gives it additional effects.",
+        "Each soiled page adds 20 charges to the tome, and one charge is consumed when any [[earth spell]] is cast with the tome equipped. Each time a charge is used, it will increase a spell's accuracy and damage by 10%. Casting non-combat standard spells or any spell from other [[spellbook]]s spell requiring earth runes will provide infinite runes and not consume any charges. Players may remove the pages from the tome should they wish to do so.",
+        "An [[Tome of Earth (empty)|empty tome of earth]] can be traded in to the [[Seer (The Darkfrost)|seer]] at [[the Darkfrost]] for 250 soiled pages each.",
+        "==Trivia==\n* Using soiled pages on the [[Man (Hosidius)|man]] in the [[toilet]] south of the [[Hosidius]] [[vinery]] will result in him telling you \"That's very kind of you, but no thanks.\"\n* The pages were originally pitched as \"muddy pages\", but this was changed after community consultation to avoid confusion with [[mud rune]]s."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30068"
+        },
+        {
+          "field": "name",
+          "value": "Soiled page"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "It's a bit dirty."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical material directly charges named combat equipment. Alternatives retained without claiming sole use.  Independent adversarial review: The exact soiled page charges the tome of earth, with stated per-page charges and spell effects. No competing primary item function appears in its source context."
+    },
+    {
+      "itemId": 31732,
+      "title": "Stormy key",
+      "sourceRevision": 15331411,
+      "sourceSha256": "2e40d96e824b3d4f4dcb415afe35b6c2203505ded831efb8c49fa91fe683b07c",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Stormy key detail.png|130px|left]]\nA '''stormy key''' is an item rewarded upon clearing the swordfish rank of [[the Tempor Tantrum]] [[Barracuda Trial]], requiring a completion time of 1:48.00.",
+      "positiveFunctionExcerpt": "The key opens a [[Chest (Pandemonium Cave)|chest]] found in [[Pandemonium Cave]], next to the mining area. The chest rewards the [[storm cruiser's outfit]], 10 noted [[uncut sapphire]]s, and 10,000 coins. If lost, it can be reclaimed from [[Rum-dashed Ralph]] in [[the Storm Tempor]]. The chest can be opened again to get more copies of the storm cruiser's outfit via the [[drop trick]], but the 10 sapphires and 10,000 GP won't be given again.",
+      "secondaryExcerpts": [
+        "The key opens a [[Chest (Pandemonium Cave)|chest]] found in [[Pandemonium Cave]], next to the mining area. The chest rewards the [[storm cruiser's outfit]], 10 noted [[uncut sapphire]]s, and 10,000 coins. If lost, it can be reclaimed from [[Rum-dashed Ralph]] in [[the Storm Tempor]]. The chest can be opened again to get more copies of the storm cruiser's outfit via the [[drop trick]], but the 10 sapphires and 10,000 GP won't be given again.",
+        "[[File:Stormy key detail.png|130px|left]]\nA '''stormy key''' is an item rewarded upon clearing the swordfish rank of [[the Tempor Tantrum]] [[Barracuda Trial]], requiring a completion time of 1:48.00.",
+        "==Transcript==\n{{hastranscript|transclude=yes}}",
+        "==Trivia==\n* It is possible to obtain the key multiple times (perhaps by completing the trial again after one of the coldfix updates, or by setting a new personal best), but multiple keys have no use."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31732"
+        },
+        {
+          "field": "name",
+          "value": "Stormy key"
+        },
+        {
+          "field": "options",
+          "value": "Inspect, Destroy"
+        },
+        {
+          "field": "examine",
+          "value": "A key rewarded for completing the Tempor Tantrum. What does it open?"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly opens named reward chest. Acquisition/recipe/Diary context does not displace primary access role.  Independent adversarial review: The exact Stormy key opens a world chest with outfit/resources and can be reclaimed if lost. Clearing the Barracuda Trial is only the acquisition condition; it does not establish an activity-exclusive state."
+    },
+    {
+      "itemId": 31744,
+      "title": "Fetid key",
+      "sourceRevision": 15194044,
+      "sourceSha256": "d9059d1fce0c9d42591024a4d7d275c61b9d77582293af446a872b64bbd772b8",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Fetid key detail.png|130px|left]]\nA '''fetid key''' is an item rewarded upon clearing the swordfish rank of [[the Jubbly Jive]] [[Barracuda Trial]], requiring a completion time of 2:03.00.",
+      "positiveFunctionExcerpt": "The key opens a [[Chest (Anglers' Retreat)|chest]] found on [[Anglers' Retreat]], past the stepping stones to the north which require level 52 [[Agility]] to reach. The chest rewards the [[swamp cruiser's outfit]], 8 noted [[uncut emerald]]s, and 20,000 coins. If lost, it can be reclaimed from [[Gurtob]] in [[Backwater]].",
+      "secondaryExcerpts": [
+        "The key opens a [[Chest (Anglers' Retreat)|chest]] found on [[Anglers' Retreat]], past the stepping stones to the north which require level 52 [[Agility]] to reach. The chest rewards the [[swamp cruiser's outfit]], 8 noted [[uncut emerald]]s, and 20,000 coins. If lost, it can be reclaimed from [[Gurtob]] in [[Backwater]].",
+        "[[File:Fetid key detail.png|130px|left]]\nA '''fetid key''' is an item rewarded upon clearing the swordfish rank of [[the Jubbly Jive]] [[Barracuda Trial]], requiring a completion time of 2:03.00.",
+        "==Transcript==\n{{hastranscript|transclude=yes}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31744"
+        },
+        {
+          "field": "name",
+          "value": "Fetid key"
+        },
+        {
+          "field": "options",
+          "value": "Inspect, Destroy"
+        },
+        {
+          "field": "examine",
+          "value": "A key rewarded for completing the Jubbly Jive. What does it open?"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly opens named reward chest. Acquisition/recipe/Diary context does not displace primary access role.  Independent adversarial review: The exact Fetid key opens a chest and can be reclaimed; the Agility route requirement is for reaching the chest, not a copy restriction on the item."
+    },
+    {
+      "itemId": 31756,
+      "title": "Serrated key",
+      "sourceRevision": 15236794,
+      "sourceSha256": "65c88e6dcae7664f44c63a6abd98d35cde5bef941abb18c301784b853dbb5eb3",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "reward-key",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Serrated key detail.png|130px|left]]\nA '''serrated key''' is an item rewarded upon clearing the swordfish rank of [[the Gwenith Glide]] [[Barracuda Trial]], requiring a completion time of 2:00.00.",
+      "positiveFunctionExcerpt": "The key opens a [[Chest (Laguna Aurorae)|chest]] found on [[Laguna Aurorae]], past the stepping stones to the north-west which require level 61 [[Agility]] to reach (Note: to reach the north-west part, the player must actually go to the north-'''east''' corner of the island, then west). The chest rewards the [[crystal glider's outfit]], 8-10 noted [[uncut rubies]], and 35,000 coins. If lost, it can be reclaimed from [[Gwyna]] in [[Porth Gwenith]].",
+      "secondaryExcerpts": [
+        "The key opens a [[Chest (Laguna Aurorae)|chest]] found on [[Laguna Aurorae]], past the stepping stones to the north-west which require level 61 [[Agility]] to reach (Note: to reach the north-west part, the player must actually go to the north-'''east''' corner of the island, then west). The chest rewards the [[crystal glider's outfit]], 8-10 noted [[uncut rubies]], and 35,000 coins. If lost, it can be reclaimed from [[Gwyna]] in [[Porth Gwenith]].",
+        "[[File:Serrated key detail.png|130px|left]]\nA '''serrated key''' is an item rewarded upon clearing the swordfish rank of [[the Gwenith Glide]] [[Barracuda Trial]], requiring a completion time of 2:00.00.",
+        "==Transcript==\n{{hastranscript|transclude=yes}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31756"
+        },
+        {
+          "field": "name",
+          "value": "Serrated key"
+        },
+        {
+          "field": "options",
+          "value": "Inspect, Destroy"
+        },
+        {
+          "field": "examine",
+          "value": "A key rewarded for completing the Gwenith Glide. What does it open?"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own physical key directly opens named reward chest. Acquisition/recipe/Diary context does not displace primary access role.  Independent adversarial review: The exact Serrated key opens a chest and can be reclaimed. The timed Barracuda Trial is how it is acquired, not an exclusive use state."
+    },
+    {
+      "itemId": 32865,
+      "title": "Dull knife",
+      "sourceRevision": 15194159,
+      "sourceSha256": "04b1826f49e4a1200be5aeea9bed3602cf863fc6125ba5b23002c6cb724d3119",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "salvaging-relic",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Dull knife detail.png|130px|left]]\nA '''dull knife''' is a [[Kudos#Salvaging_relics|relic]] that is obtained at a rate of 1/3,000 whilst sorting [[Barracuda salvage]].",
+      "positiveFunctionExcerpt": "It can be handed to [[Curator Haig Halen]] at the [[Varrock Museum]], with the first hand-in offering 1 [[Kudos]], and an [[Antique lamp (salvaging)|antique lamp]] which offers 5,000 XP in any skill at level 30 or above. Subsequent hand-ins will offer 5,000 coins instead.",
+      "secondaryExcerpts": [
+        "[[File:Dull knife detail.png|130px|left]]\nA '''dull knife''' is a [[Kudos#Salvaging_relics|relic]] that is obtained at a rate of 1/3,000 whilst sorting [[Barracuda salvage]].",
+        "==Transcript==\n{{Hastranscript|transclude=yes}}",
+        "==Trivia==\n* The inscription on the item is identical to [[Transcript:Desert_Treasure_II_-_The_Fallen_Empire#While_in_the_Shadow_Realm|a line spoken to the player]] while in the [[Shadow Realm]] at the [[Lassar Undercity]] during [[Desert Treasure II - The Fallen Empire]].\n* The dull knife's model is a recoloured [[kitchen knife]] from the [[Culinaromancer's Chest]].",
+        "It can be handed to [[Curator Haig Halen]] at the [[Varrock Museum]], with the first hand-in offering 1 [[Kudos]], and an [[Antique lamp (salvaging)|antique lamp]] which offers 5,000 XP in any skill at level 30 or above. Subsequent hand-ins will offer 5,000 coins instead.",
+        "When initially given to Curator Haig Halen, he will note that there's something etched into the blade which reads \"''There is a stranger who wears a black mask under their skin.''\""
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32865"
+        },
+        {
+          "field": "name",
+          "value": "Dull knife"
+        },
+        {
+          "field": "options",
+          "value": "Inspect, Destroy"
+        },
+        {
+          "field": "examine",
+          "value": "A dull knife that was presumably once used for food preparation."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own salvaging relic is handed to museum curator for Kudos/reward; no functional tool inference. Examine historical food-preparation wording is not actual tool function. Independent adversarial review: The exact Dull knife is a salvage relic; its repeatable primary context is obtained while sorting Barracuda salvage, then handed to the museum for Kudos/XP or later coins. The kitchen-knife trivia/examine wording is not a preparation function."
+    },
+    {
+      "itemId": 32870,
+      "title": "Smashed mirror",
+      "sourceRevision": 15194164,
+      "sourceSha256": "dcbad62ac905ad03a0d40fe7dc9ad03260f373a9af918117796e4fef47ffb008",
+      "proposedCategory": "UNIQUE",
+      "proposedSubcategory": "salvaging-relic",
+      "proposedIronmanTabKey": "slayer-boss-loot",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "[[File:Smashed mirror detail.png|130px|left]]\nA '''smashed mirror''' is a [[Kudos#Salvaging_relics|relic]] that is obtained at a rate of 1/3,000 whilst sorting [[Fremennik salvage]].",
+      "positiveFunctionExcerpt": "It can be handed to [[Curator Haig Halen]] at the [[Varrock Museum]], with the first hand-in offering 1 [[Kudos]], and an [[Antique lamp (salvaging)|antique lamp]] which offers 15,000 XP in any skill at level 50 or above. Subsequent hand-ins will offer 5,000 coins instead.",
+      "secondaryExcerpts": [
+        "[[File:Smashed mirror detail.png|130px|left]]\nA '''smashed mirror''' is a [[Kudos#Salvaging_relics|relic]] that is obtained at a rate of 1/3,000 whilst sorting [[Fremennik salvage]].",
+        "==Transcript==\n{{hastranscript|transclude=yes}}",
+        "==Trivia==\n* The inscription on the item is identical to [[Transcript:Desert_Treasure_II_-_The_Fallen_Empire#While_in_the_Shadow_Realm|a line spoken to the player]] while in the [[Shadow Realm]] at the [[Lassar Undercity]] during [[Desert Treasure II - The Fallen Empire]].",
+        "It can be handed to [[Curator Haig Halen]] at the [[Varrock Museum]], with the first hand-in offering 1 [[Kudos]], and an [[Antique lamp (salvaging)|antique lamp]] which offers 15,000 XP in any skill at level 50 or above. Subsequent hand-ins will offer 5,000 coins instead.",
+        "When initially given to Curator Haig Halen, he will note that there is an inscription on the back which reads \"''There is a priest who prays for the oceans of dead.''\""
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32870"
+        },
+        {
+          "field": "name",
+          "value": "Smashed mirror"
+        },
+        {
+          "field": "options",
+          "value": "Inspect, Destroy"
+        },
+        {
+          "field": "examine",
+          "value": "A small broken mirror. It doesn't reflect much now."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own salvaging relic is handed to museum curator for Kudos/reward; no functional tool inference. No reflection or generic tool function inferred. Independent adversarial review: The exact Smashed mirror is a salvage relic obtained while sorting Fremennik salvage and handed to the museum for Kudos/XP or later coins. Its mirror name/examine does not imply an active reflection tool use."
+    },
+    {
+      "itemId": 34040,
+      "title": "Mr McGroot",
+      "sourceRevision": 15352788,
+      "sourceSha256": "ad713ea5772b4350694e78659770413d75bd4edb669c872f7e12364a8f7ea601",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "'''Mr McGroot''' is a [[pet]] obtained from [[goat hunting|hunting goats]] on [[Wyrmscraig]], a [[Hunter]] training method.",
+      "positiveFunctionExcerpt": "'''Mr McGroot''' is a [[pet]] obtained from [[goat hunting|hunting goats]] on [[Wyrmscraig]], a [[Hunter]] training method.",
+      "secondaryExcerpts": [
+        "'''Mr McGroot''' is a [[pet]] obtained from [[goat hunting|hunting goats]] on [[Wyrmscraig]], a [[Hunter]] training method.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "If a player's inventory is full '''and''' they have a follower already, they '''will not''' receive the pet; it must instead be claimed from [[Probita]] in [[East Ardougne]].",
+        "==Item sources==\nA player's actual chances of receiving it is <math>\\frac{1}{B-(Lvl*25)}</math>, where <math display=\"inline\">B</math> is the base chance and <math display=\"inline\">Lvl</math> is the player's Hunter level.",
+        "Similar to other pets obtained via skilling, the drop rate increases by 15 times when the player reaches 200 million experience in Hunter, putting the rate at ~1/2501.",
+        "==Trivia==\n*Mr McGroot's examine text is a reference to {{wp|Groot}}, a character from {{wp|Marvel Comics}}.\n*Mr McGroot is the only pet that does not appear in any [[collection log]] pages other than the 'All Pets' page."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "34040"
+        },
+        {
+          "field": "name",
+          "value": "Mr McGroot"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "He is McGroot."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: The exact own lead identifies Mr McGroot as a pet, with follower and Probita-reclaim mechanics. The page says it is absent from collection logs other than All Pets; that fact is not used as the classification proof."
+    },
+    {
+      "itemId": 34042,
+      "title": "Aggy",
+      "sourceRevision": 15352717,
+      "sourceSha256": "814c062478900f902907fed269daca5d084c2fb89f6469e2486d999bb37048c8",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "certify",
+      "semanticExcerpt": "'''Aggy''' is a [[pet]] that can be obtained from defeating the [[Mad Angel]], being a much smaller version of it.",
+      "positiveFunctionExcerpt": "'''Aggy''' is a [[pet]] that can be obtained from defeating the [[Mad Angel]], being a much smaller version of it.",
+      "secondaryExcerpts": [
+        "'''Aggy''' is a [[pet]] that can be obtained from defeating the [[Mad Angel]], being a much smaller version of it.",
+        "When a player receives the pet, it will automatically try to appear as their follower. At the same time, a message in the [[Chat Interface|chatbox]] will state {{mes|You have a funny feeling like you're being followed.|color=red}} However, if a player receives a pet while having a follower out (for example, a [[cat]]), it will be placed into their [[inventory]]. When this occurs, the message in the chatbox will instead state {{mes|You feel something weird sneaking into your backpack.|color=red}}",
+        "If a player's inventory is full '''and''' they have a follower already, they '''will not''' receive the pet; it must instead be claimed from [[Probita]] in [[East Ardougne]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "34042"
+        },
+        {
+          "field": "name",
+          "value": "Aggy"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "examine",
+          "value": "A cute angel."
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only exact own physical item and selected state; tags retained, supplemental roles unassessed. Real competing uses disclosed, no claim Wiki uniquely selects a bank tab. Output-item stats or linked-item actions are not inherited.",
+      "rationale": "Own Item infobox binds exact pet form; pet/follower definition and colour mechanics support companion role. No NPC actions/stats or Collection Log role inherited.  Independent adversarial review: The exact own lead identifies Aggy as a pet, with follower and Probita-reclaim mechanics. Pet classification comes from the subject function, not Collection Log inheritance."
+    }
+  ]
+}

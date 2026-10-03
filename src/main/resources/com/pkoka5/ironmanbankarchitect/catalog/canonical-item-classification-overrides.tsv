@@ -2865,11 +2865,11 @@
 6558	CLUE	cosmetic
 6559	CLUE	cosmetic
 6560	CLUE	cosmetic	Wily cat colour states
-7581	CLUE	cosmetic	Overgrown hellcat
-7582	CLUE	cosmetic	Hell cat
-7583	CLUE	cosmetic	Hell-kitten
-7584	CLUE	cosmetic	Lazy hell cat
-7585	CLUE	cosmetic	Wily hellcat
+7581	CLUE	collection-pet	Hellcat; Wiki revision 15349419
+7582	CLUE	collection-pet	Hellcat; Wiki revision 15349419
+7583	CLUE	collection-pet	Hellcat; Wiki revision 15349419
+7584	CLUE	collection-pet	Hellcat; Wiki revision 15349419
+7585	CLUE	collection-pet	Hellcat; Wiki revision 15349419
 6199	UNIQUE	reward-drop	Random-event mystery box
 28933	GEAR	gear	Sunfire fanatic helm
 28936	GEAR	gear	Sunfire fanatic cuirass
@@ -3685,3 +3685,15 @@
 28899	SKILLING	prayer-resource	Wyrmling bones; Wiki revision 15339825
 31726	SKILLING	prayer-resource	Strykewyrm bones; Wiki revision 15353197
 31729	SKILLING	prayer-resource	Frost dragon bones; Wiki revision 15270882
+
+# Root-reviewed direct cosmetic-state and Cooking-stage corrections; certification/*-corrections-approved-policy.json
+26707	CLEANUP	cleanup	Dragon claws ornament kit; Wiki revision 15333938
+26709	CLEANUP	cleanup	Dragon warhammer ornament kit; Wiki revision 15333889
+26713	CLEANUP	cleanup	Armadyl armour ornament kit; Wiki revision 15333909
+26717	CLEANUP	cleanup	Bandos armour ornament kit; Wiki revision 15333888
+27121	CLEANUP	cleanup	Dagon'hai robes ornament kit; Wiki revision 15334040
+1789	SKILLING	crafting-material	Unfired pie dish; Wiki revision 15272568
+3430	SKILLING	skilling	Sacred oil; Wiki revision 15214951
+3432	SKILLING	skilling	Sacred oil; Wiki revision 15214951
+3434	SKILLING	skilling	Sacred oil; Wiki revision 15214951
+3436	SKILLING	skilling	Sacred oil; Wiki revision 15214951

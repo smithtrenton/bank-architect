@@ -1,0 +1,682 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "policyFile": "clue-cosmetic-corrections-approved-policy.json",
+  "scope": "Primary category, subcategory and Ironman tab only; existing supplemental tags retained, secondary roles unassessed. Full 34,085-assignment scope remains active.",
+  "expectedCaseCount": 10,
+  "expectedDecision": "revise",
+  "sourceInputPaths": {
+    "candidatePacket": "tmp/category-certification/reviews/root-review/clue-residual284-root-draft-v1/candidates.jsonl",
+    "articleIndex": "tmp/category-certification/wiki-articles/article-index.json",
+    "independentFindings": "tmp/category-certification/reviews/root-review/clue-cosmetic-semantic-240-v1/findings.jsonl",
+    "independentFollowup16": "tmp/category-certification/reviews/root-review/clue-cosmetic-semantic-240-v1/followup-16.jsonl",
+    "rootRead0": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-0-39-v1.json",
+    "rootRead1": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-100-119-v1.json",
+    "rootRead2": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-120-139-v1.json",
+    "rootRead3": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-140-159-v1.json",
+    "rootRead4": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-160-179-v1.json",
+    "rootRead5": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-180-199-v1.json",
+    "rootRead6": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-200-219-v1.json",
+    "rootRead7": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-220-239-v1.json",
+    "rootRead8": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-40-59-v1.json",
+    "rootRead9": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-60-79-v1.json",
+    "rootRead10": "tmp/category-certification/root-review/clue-cosmetic240-main-thread-read-80-99-v1.json",
+    "immutableRootPolicyDraft": "tmp/category-certification/root-review/clue-cosmetic10-immutable-root-policy-draft-v1.json"
+  },
+  "sourceHashes": {
+    "candidatePacket": "f75d2358c522e06faef4a418b5412f6723aba41361cd7b0d4662946b4b6b0174",
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "independentFindings": "7c106cb5d8b95a839af3cbff55e6bca87a2bb301e283f68f2f0875a35ce7f2fe",
+    "independentFollowup16": "f1b2dbc782c4eace7091d15fcaa0b171794c9b908fcb86c8518a7ad1a3c2c15e",
+    "rootRead0": "ec04bdef385c1cbb2e16738423551c90fb1c3e190cef03d4acb15f01ca0f297d",
+    "rootRead1": "53848f010d86e441cf6ec246ec0861fd1904c90856171fc49f277b794bfd4cab",
+    "rootRead2": "d6ba015d66915c23cdf616c9fd89d15d5058ce344f91ab3e2f53c992927171c8",
+    "rootRead3": "daab63b1a0d84698af38756e1d10682a956260db3fc5b8e0a37803296b9c82d4",
+    "rootRead4": "a656b26f1f2cd2576d059579acdb39a98ad69affcd044928ee5b5ec54aa5d4f3",
+    "rootRead5": "7006a2a114e87d6c33ef9b24c5916e134f31af3a96dda16bada87b82c7db212e",
+    "rootRead6": "b5ac66595de3077bcffdfe6a25273b27aa80114ec1e6576c64dcc9ee6596e7d2",
+    "rootRead7": "f7151eb5439d708c71e8cb6296e64724fb3d2abb9713a03ed591e6fcce8d1f79",
+    "rootRead8": "184cd6569f5c73a9483a8a3d19c6deaaa21a00db3ac1c8b5bcecb1aa50c45bf4",
+    "rootRead9": "a9b7def8095d6a039d478d1e7da4308de667928419bba7bcdb6819d063041207",
+    "rootRead10": "03a1429a4f21630de229734c2ec40d24c3321ac80935f8c62ad27d1086393d34",
+    "immutableRootPolicyDraft": "26e37e534cef9a493d2d762d18f2c13f1f0fb064d15905e9e30c710599a3f60c"
+  },
+  "independentAudits": [
+    {
+      "path": "tmp/category-certification/root-review/clue-cosmetic240-independent-adversarial-v1.json",
+      "sha256": "0f89f014180acf143c3cec28bad3919478110c0fe0a98f98845b3c83affb2640"
+    }
+  ],
+  "cases": [
+    {
+      "itemId": 7581,
+      "title": "Hellcat",
+      "sourceRevision": 15349419,
+      "sourceSha256": "921db7eeb3d38972292d9b71be168b32bd0914d6337150a477976995b0117324",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+      "positiveFunctionExcerpt": "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+      "secondaryExcerpts": [
+        "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+        "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+        "Note that any existing hellcats may need to be placed in a menagerie, or transformed back in to an ordinary cat, in order for subsequent cats to be transformed. A hellcat can be turned back into a normal cat of the same colour it was before the conversion at any time by feeding it a [[bucket of milk]].",
+        "==Training==\nAn overgrown cat can be transformed into a [[wily cat]] (both normal and hellcat versions) by talking to [[Felkrash]] in the [[Port Sarim]] [[Rat Pits]]. They can also be given a name by speaking to her, allowing the player to input a combination of any six letters or spaces, but no numbers. Note that the name will be used for every wily and lazy cat the player has.",
+        "When the wily hellcat eventually reverts to a lazy hellcat, it can be re-trained into a wily hellcat by repeatedly catching rats (both normal and [[hell-rat]] versions). Around 15 rats have to be caught before players can expect their lazy hellcat to turn wily again.{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/720134785646129154|date=13 April 2016|archiveurl=https://archive.is/3gsUy|archivedate=21 April 2023|quote=Catch successfully about 15 rats and it should turn soon :)}} If the hellcat does not seem to transform after catching rats for an extended period of time, players can pick up their lazy hellcat and re-drop it to reset the 'training timer', as otherwise it may be possible to keep training them indefinitely to no avail.",
+        "It is not possible to re-train a lazy hellcat into a wily hellcat using a [[ball of wool]] to play with them or by stroking it, only by chasing rats.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1560229125830414336|date=18 August 2022|archiveurl=https://archive.ph/47jm5|archivedate=2 March 2023|quote=(...) as far as I can see the thing's plugged into catching vermin only, rather than stroking or playing with wool.}} Likewise, having your cat chase a [[mouse toy]] will not transform it back into a wily one.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1206580641871077376|date=19 December 2019|archiveurl=https://archive.ph/4DPn9|archivedate=16 December 2020|quote=[The wiki currently states the Mouse Toy \"can be used to play with your cat, which can turn a lazy cat back into a wily cat\". Can you verify?] I don't see any sign of it doing that to lazy cats, but the code suggests that it makes kittens and grown cats occasionally say \"Meow\" more and perform a 'pounce' animation at it. I don't believe it'll do anything else.}} Lazy and wily hellcats are known to have a hidden activity level that is incremented by catching rats, which will in turn increase their catch rate as it is raised higher.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1648958707370278912|date=20 April 2023|archiveurl=https://archive.is/GlAUV|archivedate=20 April 2023|quote=That legacy code is deeper spaghetti than most, but it looks like they have an activity level tracker that makes you increasingly likely to succeed once it's been raised. Which your first catches would presumably have done.}}",
+        "==Combat stats==\nWhen fighting [[hell-rat behemoth|Hell-Rat Behemoth]]s, the [[King rat]], or in the [[Rat Pits]], hellcats have the following combat stats:{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1221515347687366657|date=27 January 2020|archiveurl=https://archive.is/4aRke|archivedate=28 May 2020|quote=[do you know the actual levels for each type of cat?] Attack, Strength, Defence, HP for each...\nKitten: 1, 1, 0, 4\nGrown: 4, 3, 0, 6\nOvergrown: 3, 5, 0, 10\nLazy: 6, 6, 2, 14\nWily: 12, 8, 2, 12\n@OSRS_Wiki}}",
+        "{|class=\"wikitable align-left-2\" style=\"text-align:center;\"\n! colspan=2 |Cat\n!{{SCP|Hitpoints}} [[Hitpoints]]\n!{{SCP|Attack}} [[Attack]]\n!{{SCP|Strength}} [[Strength]]\n!Max Hit\n!{{SCP|Defence}} [[Defence]]\n|-\n|{{plinkt|Hellcat|txt=Hell-kitten|pic=Hell-kitten}}\n|4\n|1\n|1\n|1\n|0\n|-\n|{{plinkt|Hellcat|pic=Hell cat}}\n|6\n|4\n|3\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Overgrown hellcat|pic=Overgrown hellcat}}\n|10\n|3\n|5\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Wily hellcat|pic=Wily hellcat}}\n|12\n|12\n|8\n|2\n|2\n|-\n|{{plinkt|Hellcat|txt=Lazy hellcat|pic=Lazy hellcat}}\n|14\n|6\n|6\n|1\n|2\n|}",
+        "Players are only allowed to have one wily or lazy hellcat out or in bank at a time, in addition to one kitten or adult cat, and as many overgrown cats as they wish. You can however have multiple lazy/wily cats by storing them in your [[menagerie]] before training another. Players can store both lazy and wily cats in their menageries. Wily hellcats will not become lazy while in a menagerie."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id3",
+          "value": "7581"
+        },
+        {
+          "field": "name3",
+          "value": "Overgrown hellcat"
+        },
+        {
+          "field": "version3",
+          "value": "Overgrown"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Your hellish pet cat!!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page Multi Infobox explicitly labels the NPC as “Follower” and binds this item ID in its Item infobox to the named age/form below (not an unbound sibling). The same article documents hell-rat behavior, growth/transformation, and combat/training contexts, establishing an active pet companion, with cosmetic morphing as one aspect rather than its primary grouping. Proposed primary route is CLUE/collection-pet; pet-companion role is source-supported. No Collection Log membership is claimed: this exact page does not state it. The item Infobox has Drop-only and equipable No, so bankability/equipped state is not inferred; exact age/form availability caveat is recorded separately. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 7582,
+      "title": "Hellcat",
+      "sourceRevision": 15349419,
+      "sourceSha256": "921db7eeb3d38972292d9b71be168b32bd0914d6337150a477976995b0117324",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+      "positiveFunctionExcerpt": "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+      "secondaryExcerpts": [
+        "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+        "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+        "Note that any existing hellcats may need to be placed in a menagerie, or transformed back in to an ordinary cat, in order for subsequent cats to be transformed. A hellcat can be turned back into a normal cat of the same colour it was before the conversion at any time by feeding it a [[bucket of milk]].",
+        "==Training==\nAn overgrown cat can be transformed into a [[wily cat]] (both normal and hellcat versions) by talking to [[Felkrash]] in the [[Port Sarim]] [[Rat Pits]]. They can also be given a name by speaking to her, allowing the player to input a combination of any six letters or spaces, but no numbers. Note that the name will be used for every wily and lazy cat the player has.",
+        "When the wily hellcat eventually reverts to a lazy hellcat, it can be re-trained into a wily hellcat by repeatedly catching rats (both normal and [[hell-rat]] versions). Around 15 rats have to be caught before players can expect their lazy hellcat to turn wily again.{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/720134785646129154|date=13 April 2016|archiveurl=https://archive.is/3gsUy|archivedate=21 April 2023|quote=Catch successfully about 15 rats and it should turn soon :)}} If the hellcat does not seem to transform after catching rats for an extended period of time, players can pick up their lazy hellcat and re-drop it to reset the 'training timer', as otherwise it may be possible to keep training them indefinitely to no avail.",
+        "It is not possible to re-train a lazy hellcat into a wily hellcat using a [[ball of wool]] to play with them or by stroking it, only by chasing rats.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1560229125830414336|date=18 August 2022|archiveurl=https://archive.ph/47jm5|archivedate=2 March 2023|quote=(...) as far as I can see the thing's plugged into catching vermin only, rather than stroking or playing with wool.}} Likewise, having your cat chase a [[mouse toy]] will not transform it back into a wily one.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1206580641871077376|date=19 December 2019|archiveurl=https://archive.ph/4DPn9|archivedate=16 December 2020|quote=[The wiki currently states the Mouse Toy \"can be used to play with your cat, which can turn a lazy cat back into a wily cat\". Can you verify?] I don't see any sign of it doing that to lazy cats, but the code suggests that it makes kittens and grown cats occasionally say \"Meow\" more and perform a 'pounce' animation at it. I don't believe it'll do anything else.}} Lazy and wily hellcats are known to have a hidden activity level that is incremented by catching rats, which will in turn increase their catch rate as it is raised higher.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1648958707370278912|date=20 April 2023|archiveurl=https://archive.is/GlAUV|archivedate=20 April 2023|quote=That legacy code is deeper spaghetti than most, but it looks like they have an activity level tracker that makes you increasingly likely to succeed once it's been raised. Which your first catches would presumably have done.}}",
+        "==Combat stats==\nWhen fighting [[hell-rat behemoth|Hell-Rat Behemoth]]s, the [[King rat]], or in the [[Rat Pits]], hellcats have the following combat stats:{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1221515347687366657|date=27 January 2020|archiveurl=https://archive.is/4aRke|archivedate=28 May 2020|quote=[do you know the actual levels for each type of cat?] Attack, Strength, Defence, HP for each...\nKitten: 1, 1, 0, 4\nGrown: 4, 3, 0, 6\nOvergrown: 3, 5, 0, 10\nLazy: 6, 6, 2, 14\nWily: 12, 8, 2, 12\n@OSRS_Wiki}}",
+        "{|class=\"wikitable align-left-2\" style=\"text-align:center;\"\n! colspan=2 |Cat\n!{{SCP|Hitpoints}} [[Hitpoints]]\n!{{SCP|Attack}} [[Attack]]\n!{{SCP|Strength}} [[Strength]]\n!Max Hit\n!{{SCP|Defence}} [[Defence]]\n|-\n|{{plinkt|Hellcat|txt=Hell-kitten|pic=Hell-kitten}}\n|4\n|1\n|1\n|1\n|0\n|-\n|{{plinkt|Hellcat|pic=Hell cat}}\n|6\n|4\n|3\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Overgrown hellcat|pic=Overgrown hellcat}}\n|10\n|3\n|5\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Wily hellcat|pic=Wily hellcat}}\n|12\n|12\n|8\n|2\n|2\n|-\n|{{plinkt|Hellcat|txt=Lazy hellcat|pic=Lazy hellcat}}\n|14\n|6\n|6\n|1\n|2\n|}",
+        "Players are only allowed to have one wily or lazy hellcat out or in bank at a time, in addition to one kitten or adult cat, and as many overgrown cats as they wish. You can however have multiple lazy/wily cats by storing them in your [[menagerie]] before training another. Players can store both lazy and wily cats in their menageries. Wily hellcats will not become lazy while in a menagerie."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "7582"
+        },
+        {
+          "field": "name2",
+          "value": "Hell cat"
+        },
+        {
+          "field": "version2",
+          "value": "Cat"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Your hellish pet cat!!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page Multi Infobox explicitly labels the NPC as “Follower” and binds this item ID in its Item infobox to the named age/form below (not an unbound sibling). The same article documents hell-rat behavior, growth/transformation, and combat/training contexts, establishing an active pet companion, with cosmetic morphing as one aspect rather than its primary grouping. Proposed primary route is CLUE/collection-pet; pet-companion role is source-supported. No Collection Log membership is claimed: this exact page does not state it. The item Infobox has Drop-only and equipable No, so bankability/equipped state is not inferred; exact age/form availability caveat is recorded separately. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 7583,
+      "title": "Hellcat",
+      "sourceRevision": 15349419,
+      "sourceSha256": "921db7eeb3d38972292d9b71be168b32bd0914d6337150a477976995b0117324",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+      "positiveFunctionExcerpt": "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+      "secondaryExcerpts": [
+        "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+        "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+        "Note that any existing hellcats may need to be placed in a menagerie, or transformed back in to an ordinary cat, in order for subsequent cats to be transformed. A hellcat can be turned back into a normal cat of the same colour it was before the conversion at any time by feeding it a [[bucket of milk]].",
+        "==Training==\nAn overgrown cat can be transformed into a [[wily cat]] (both normal and hellcat versions) by talking to [[Felkrash]] in the [[Port Sarim]] [[Rat Pits]]. They can also be given a name by speaking to her, allowing the player to input a combination of any six letters or spaces, but no numbers. Note that the name will be used for every wily and lazy cat the player has.",
+        "When the wily hellcat eventually reverts to a lazy hellcat, it can be re-trained into a wily hellcat by repeatedly catching rats (both normal and [[hell-rat]] versions). Around 15 rats have to be caught before players can expect their lazy hellcat to turn wily again.{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/720134785646129154|date=13 April 2016|archiveurl=https://archive.is/3gsUy|archivedate=21 April 2023|quote=Catch successfully about 15 rats and it should turn soon :)}} If the hellcat does not seem to transform after catching rats for an extended period of time, players can pick up their lazy hellcat and re-drop it to reset the 'training timer', as otherwise it may be possible to keep training them indefinitely to no avail.",
+        "It is not possible to re-train a lazy hellcat into a wily hellcat using a [[ball of wool]] to play with them or by stroking it, only by chasing rats.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1560229125830414336|date=18 August 2022|archiveurl=https://archive.ph/47jm5|archivedate=2 March 2023|quote=(...) as far as I can see the thing's plugged into catching vermin only, rather than stroking or playing with wool.}} Likewise, having your cat chase a [[mouse toy]] will not transform it back into a wily one.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1206580641871077376|date=19 December 2019|archiveurl=https://archive.ph/4DPn9|archivedate=16 December 2020|quote=[The wiki currently states the Mouse Toy \"can be used to play with your cat, which can turn a lazy cat back into a wily cat\". Can you verify?] I don't see any sign of it doing that to lazy cats, but the code suggests that it makes kittens and grown cats occasionally say \"Meow\" more and perform a 'pounce' animation at it. I don't believe it'll do anything else.}} Lazy and wily hellcats are known to have a hidden activity level that is incremented by catching rats, which will in turn increase their catch rate as it is raised higher.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1648958707370278912|date=20 April 2023|archiveurl=https://archive.is/GlAUV|archivedate=20 April 2023|quote=That legacy code is deeper spaghetti than most, but it looks like they have an activity level tracker that makes you increasingly likely to succeed once it's been raised. Which your first catches would presumably have done.}}",
+        "==Combat stats==\nWhen fighting [[hell-rat behemoth|Hell-Rat Behemoth]]s, the [[King rat]], or in the [[Rat Pits]], hellcats have the following combat stats:{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1221515347687366657|date=27 January 2020|archiveurl=https://archive.is/4aRke|archivedate=28 May 2020|quote=[do you know the actual levels for each type of cat?] Attack, Strength, Defence, HP for each...\nKitten: 1, 1, 0, 4\nGrown: 4, 3, 0, 6\nOvergrown: 3, 5, 0, 10\nLazy: 6, 6, 2, 14\nWily: 12, 8, 2, 12\n@OSRS_Wiki}}",
+        "{|class=\"wikitable align-left-2\" style=\"text-align:center;\"\n! colspan=2 |Cat\n!{{SCP|Hitpoints}} [[Hitpoints]]\n!{{SCP|Attack}} [[Attack]]\n!{{SCP|Strength}} [[Strength]]\n!Max Hit\n!{{SCP|Defence}} [[Defence]]\n|-\n|{{plinkt|Hellcat|txt=Hell-kitten|pic=Hell-kitten}}\n|4\n|1\n|1\n|1\n|0\n|-\n|{{plinkt|Hellcat|pic=Hell cat}}\n|6\n|4\n|3\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Overgrown hellcat|pic=Overgrown hellcat}}\n|10\n|3\n|5\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Wily hellcat|pic=Wily hellcat}}\n|12\n|12\n|8\n|2\n|2\n|-\n|{{plinkt|Hellcat|txt=Lazy hellcat|pic=Lazy hellcat}}\n|14\n|6\n|6\n|1\n|2\n|}",
+        "Players are only allowed to have one wily or lazy hellcat out or in bank at a time, in addition to one kitten or adult cat, and as many overgrown cats as they wish. You can however have multiple lazy/wily cats by storing them in your [[menagerie]] before training another. Players can store both lazy and wily cats in their menageries. Wily hellcats will not become lazy while in a menagerie."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "7583"
+        },
+        {
+          "field": "name1",
+          "value": "Hell-kitten"
+        },
+        {
+          "field": "version1",
+          "value": "Kitten"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Your hellish pet cat!!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page Multi Infobox explicitly labels the NPC as “Follower” and binds this item ID in its Item infobox to the named age/form below (not an unbound sibling). The same article documents hell-rat behavior, growth/transformation, and combat/training contexts, establishing an active pet companion, with cosmetic morphing as one aspect rather than its primary grouping. Proposed primary route is CLUE/collection-pet; pet-companion role is source-supported. No Collection Log membership is claimed: this exact page does not state it. The item Infobox has Drop-only and equipable No, so bankability/equipped state is not inferred; exact age/form availability caveat is recorded separately. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 7584,
+      "title": "Hellcat",
+      "sourceRevision": 15349419,
+      "sourceSha256": "921db7eeb3d38972292d9b71be168b32bd0914d6337150a477976995b0117324",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+      "positiveFunctionExcerpt": "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+      "secondaryExcerpts": [
+        "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+        "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+        "Note that any existing hellcats may need to be placed in a menagerie, or transformed back in to an ordinary cat, in order for subsequent cats to be transformed. A hellcat can be turned back into a normal cat of the same colour it was before the conversion at any time by feeding it a [[bucket of milk]].",
+        "==Training==\nAn overgrown cat can be transformed into a [[wily cat]] (both normal and hellcat versions) by talking to [[Felkrash]] in the [[Port Sarim]] [[Rat Pits]]. They can also be given a name by speaking to her, allowing the player to input a combination of any six letters or spaces, but no numbers. Note that the name will be used for every wily and lazy cat the player has.",
+        "When the wily hellcat eventually reverts to a lazy hellcat, it can be re-trained into a wily hellcat by repeatedly catching rats (both normal and [[hell-rat]] versions). Around 15 rats have to be caught before players can expect their lazy hellcat to turn wily again.{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/720134785646129154|date=13 April 2016|archiveurl=https://archive.is/3gsUy|archivedate=21 April 2023|quote=Catch successfully about 15 rats and it should turn soon :)}} If the hellcat does not seem to transform after catching rats for an extended period of time, players can pick up their lazy hellcat and re-drop it to reset the 'training timer', as otherwise it may be possible to keep training them indefinitely to no avail.",
+        "It is not possible to re-train a lazy hellcat into a wily hellcat using a [[ball of wool]] to play with them or by stroking it, only by chasing rats.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1560229125830414336|date=18 August 2022|archiveurl=https://archive.ph/47jm5|archivedate=2 March 2023|quote=(...) as far as I can see the thing's plugged into catching vermin only, rather than stroking or playing with wool.}} Likewise, having your cat chase a [[mouse toy]] will not transform it back into a wily one.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1206580641871077376|date=19 December 2019|archiveurl=https://archive.ph/4DPn9|archivedate=16 December 2020|quote=[The wiki currently states the Mouse Toy \"can be used to play with your cat, which can turn a lazy cat back into a wily cat\". Can you verify?] I don't see any sign of it doing that to lazy cats, but the code suggests that it makes kittens and grown cats occasionally say \"Meow\" more and perform a 'pounce' animation at it. I don't believe it'll do anything else.}} Lazy and wily hellcats are known to have a hidden activity level that is incremented by catching rats, which will in turn increase their catch rate as it is raised higher.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1648958707370278912|date=20 April 2023|archiveurl=https://archive.is/GlAUV|archivedate=20 April 2023|quote=That legacy code is deeper spaghetti than most, but it looks like they have an activity level tracker that makes you increasingly likely to succeed once it's been raised. Which your first catches would presumably have done.}}",
+        "==Combat stats==\nWhen fighting [[hell-rat behemoth|Hell-Rat Behemoth]]s, the [[King rat]], or in the [[Rat Pits]], hellcats have the following combat stats:{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1221515347687366657|date=27 January 2020|archiveurl=https://archive.is/4aRke|archivedate=28 May 2020|quote=[do you know the actual levels for each type of cat?] Attack, Strength, Defence, HP for each...\nKitten: 1, 1, 0, 4\nGrown: 4, 3, 0, 6\nOvergrown: 3, 5, 0, 10\nLazy: 6, 6, 2, 14\nWily: 12, 8, 2, 12\n@OSRS_Wiki}}",
+        "{|class=\"wikitable align-left-2\" style=\"text-align:center;\"\n! colspan=2 |Cat\n!{{SCP|Hitpoints}} [[Hitpoints]]\n!{{SCP|Attack}} [[Attack]]\n!{{SCP|Strength}} [[Strength]]\n!Max Hit\n!{{SCP|Defence}} [[Defence]]\n|-\n|{{plinkt|Hellcat|txt=Hell-kitten|pic=Hell-kitten}}\n|4\n|1\n|1\n|1\n|0\n|-\n|{{plinkt|Hellcat|pic=Hell cat}}\n|6\n|4\n|3\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Overgrown hellcat|pic=Overgrown hellcat}}\n|10\n|3\n|5\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Wily hellcat|pic=Wily hellcat}}\n|12\n|12\n|8\n|2\n|2\n|-\n|{{plinkt|Hellcat|txt=Lazy hellcat|pic=Lazy hellcat}}\n|14\n|6\n|6\n|1\n|2\n|}",
+        "Players are only allowed to have one wily or lazy hellcat out or in bank at a time, in addition to one kitten or adult cat, and as many overgrown cats as they wish. You can however have multiple lazy/wily cats by storing them in your [[menagerie]] before training another. Players can store both lazy and wily cats in their menageries. Wily hellcats will not become lazy while in a menagerie."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id5",
+          "value": "7584"
+        },
+        {
+          "field": "name5",
+          "value": "Lazy hell cat"
+        },
+        {
+          "field": "version5",
+          "value": "Lazy"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Your hellish pet cat!!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page Multi Infobox explicitly labels the NPC as “Follower” and binds this item ID in its Item infobox to the named age/form below (not an unbound sibling). The same article documents hell-rat behavior, growth/transformation, and combat/training contexts, establishing an active pet companion, with cosmetic morphing as one aspect rather than its primary grouping. Proposed primary route is CLUE/collection-pet; pet-companion role is source-supported. No Collection Log membership is claimed: this exact page does not state it. The item Infobox has Drop-only and equipable No, so bankability/equipped state is not inferred; exact age/form availability caveat is recorded separately. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 7585,
+      "title": "Hellcat",
+      "sourceRevision": 15349419,
+      "sourceSha256": "921db7eeb3d38972292d9b71be168b32bd0914d6337150a477976995b0117324",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "collection-pet",
+      "proposedIronmanTabKey": "clues-cosmetics",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+      "positiveFunctionExcerpt": "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+      "secondaryExcerpts": [
+        "A cat at any stage of growth can be a hellcat, and a cat that has become a hellcat will continue to age as normal.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1471451205964607493|date=16 December 2016|archiveurl=https://archive.ph/H0Yfz|archivedate=20 March 2023|quote=[ if a cat changes to a hellcat, does it reset the timer for it becoming overgrown? 🤔] Doesn't look like it, no.}} To get an overgrown hellcat, you must either grow a regular hellcat into one (by having it following you for another 5-6 hours), or have an overgrown cat kill seven hell-rat behemoths. Players who have completed [[Ratcatchers]] can also get wily and lazy hellcats, either by using their regular wily or lazy cats to catch Hell-Rats, or by taking an overgrown hellcat to [[Felkrash]] and having her train it into a wily hellcat.",
+        "A '''hellcat''' is a special cosmetic variant of a normal [[cat]] that can be accessed after starting the [[Freeing Evil Dave]] sub-quest of [[Recipe for Disaster]]. During the quest, players must visit [[Evil Dave]] in [[Doris|his mother]]'s basement. There they must use their cat to kill [[hell-rat]]s, which have stolen his [[Doris|mother]]'s special coloured [[Spice (disambiguation)|spices]] which are needed to make the [[spicy stew]] to free him. After your cat catches seven rats, it will become corrupt by the demonic nature of the rats and will suddenly transform into a hellcat.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1216127262917058560|date=11 January 2020|archiveurl=https://web.archive.org/web/20220711144008/https://twitter.com/JagexAsh/status/1216127262917058560|archivedate=11 July 2022|quote=Looks like it's counting 7 like the wiki says, but won't do it if you already have a hellcat of some sort.}} Alternatively, killing the [[hell-rat behemoth]] seven times will yield the same result. [[Kitten|Kittens]] on the other hand, have a chance to turn into hell-kittens on any hell-rat catch.",
+        "Note that any existing hellcats may need to be placed in a menagerie, or transformed back in to an ordinary cat, in order for subsequent cats to be transformed. A hellcat can be turned back into a normal cat of the same colour it was before the conversion at any time by feeding it a [[bucket of milk]].",
+        "==Training==\nAn overgrown cat can be transformed into a [[wily cat]] (both normal and hellcat versions) by talking to [[Felkrash]] in the [[Port Sarim]] [[Rat Pits]]. They can also be given a name by speaking to her, allowing the player to input a combination of any six letters or spaces, but no numbers. Note that the name will be used for every wily and lazy cat the player has.",
+        "When the wily hellcat eventually reverts to a lazy hellcat, it can be re-trained into a wily hellcat by repeatedly catching rats (both normal and [[hell-rat]] versions). Around 15 rats have to be caught before players can expect their lazy hellcat to turn wily again.{{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/720134785646129154|date=13 April 2016|archiveurl=https://archive.is/3gsUy|archivedate=21 April 2023|quote=Catch successfully about 15 rats and it should turn soon :)}} If the hellcat does not seem to transform after catching rats for an extended period of time, players can pick up their lazy hellcat and re-drop it to reset the 'training timer', as otherwise it may be possible to keep training them indefinitely to no avail.",
+        "It is not possible to re-train a lazy hellcat into a wily hellcat using a [[ball of wool]] to play with them or by stroking it, only by chasing rats.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1560229125830414336|date=18 August 2022|archiveurl=https://archive.ph/47jm5|archivedate=2 March 2023|quote=(...) as far as I can see the thing's plugged into catching vermin only, rather than stroking or playing with wool.}} Likewise, having your cat chase a [[mouse toy]] will not transform it back into a wily one.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1206580641871077376|date=19 December 2019|archiveurl=https://archive.ph/4DPn9|archivedate=16 December 2020|quote=[The wiki currently states the Mouse Toy \"can be used to play with your cat, which can turn a lazy cat back into a wily cat\". Can you verify?] I don't see any sign of it doing that to lazy cats, but the code suggests that it makes kittens and grown cats occasionally say \"Meow\" more and perform a 'pounce' animation at it. I don't believe it'll do anything else.}} Lazy and wily hellcats are known to have a hidden activity level that is incremented by catching rats, which will in turn increase their catch rate as it is raised higher.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1648958707370278912|date=20 April 2023|archiveurl=https://archive.is/GlAUV|archivedate=20 April 2023|quote=That legacy code is deeper spaghetti than most, but it looks like they have an activity level tracker that makes you increasingly likely to succeed once it's been raised. Which your first catches would presumably have done.}}",
+        "==Combat stats==\nWhen fighting [[hell-rat behemoth|Hell-Rat Behemoth]]s, the [[King rat]], or in the [[Rat Pits]], hellcats have the following combat stats:{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1221515347687366657|date=27 January 2020|archiveurl=https://archive.is/4aRke|archivedate=28 May 2020|quote=[do you know the actual levels for each type of cat?] Attack, Strength, Defence, HP for each...\nKitten: 1, 1, 0, 4\nGrown: 4, 3, 0, 6\nOvergrown: 3, 5, 0, 10\nLazy: 6, 6, 2, 14\nWily: 12, 8, 2, 12\n@OSRS_Wiki}}",
+        "{|class=\"wikitable align-left-2\" style=\"text-align:center;\"\n! colspan=2 |Cat\n!{{SCP|Hitpoints}} [[Hitpoints]]\n!{{SCP|Attack}} [[Attack]]\n!{{SCP|Strength}} [[Strength]]\n!Max Hit\n!{{SCP|Defence}} [[Defence]]\n|-\n|{{plinkt|Hellcat|txt=Hell-kitten|pic=Hell-kitten}}\n|4\n|1\n|1\n|1\n|0\n|-\n|{{plinkt|Hellcat|pic=Hell cat}}\n|6\n|4\n|3\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Overgrown hellcat|pic=Overgrown hellcat}}\n|10\n|3\n|5\n|1\n|0\n|-\n|{{plinkt|Hellcat|txt=Wily hellcat|pic=Wily hellcat}}\n|12\n|12\n|8\n|2\n|2\n|-\n|{{plinkt|Hellcat|txt=Lazy hellcat|pic=Lazy hellcat}}\n|14\n|6\n|6\n|1\n|2\n|}",
+        "Players are only allowed to have one wily or lazy hellcat out or in bank at a time, in addition to one kitten or adult cat, and as many overgrown cats as they wish. You can however have multiple lazy/wily cats by storing them in your [[menagerie]] before training another. Players can store both lazy and wily cats in their menageries. Wily hellcats will not become lazy while in a menagerie."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id4",
+          "value": "7585"
+        },
+        {
+          "field": "name4",
+          "value": "Wily hellcat"
+        },
+        {
+          "field": "version4",
+          "value": "Wily"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Your hellish pet cat!!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": ""
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page Multi Infobox explicitly labels the NPC as “Follower” and binds this item ID in its Item infobox to the named age/form below (not an unbound sibling). The same article documents hell-rat behavior, growth/transformation, and combat/training contexts, establishing an active pet companion, with cosmetic morphing as one aspect rather than its primary grouping. Proposed primary route is CLUE/collection-pet; pet-companion role is source-supported. No Collection Log membership is claimed: this exact page does not state it. The item Infobox has Drop-only and equipable No, so bankability/equipped state is not inferred; exact age/form availability caveat is recorded separately. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 26707,
+      "title": "Dragon claws ornament kit",
+      "sourceRevision": 15333938,
+      "sourceSha256": "06244e6ed78937ce6547d40f8a1f6a4ed3a6985ce32b286ae9cc5b300fe0b36b",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedIronmanTabKey": "storage-cleanup",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "[[File:Dragon claws ornament kit detail.png|left|100px]]\nThe '''dragon claws ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to a set of [[dragon claws]], turning them into [[dragon claws (or)]].",
+      "positiveFunctionExcerpt": "{{Failed poll|PvP Arena Rewards v2}}",
+      "secondaryExcerpts": [
+        "{{Failed poll|PvP Arena Rewards v2}}",
+        "[[File:Dragon claws ornament kit detail.png|left|100px]]\nThe '''dragon claws ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to a set of [[dragon claws]], turning them into [[dragon claws (or)]].",
+        "Once attached, the ornamented item would become untradeable, but the kit could be detached from the item.",
+        "{{Cache}}",
+        "==Changes==\n{{Subject changes header}}\n{{Subject changes\n|date = 6 July 2022\n|update = PvP Arena: Soft Launch\n|change = Despite failing the poll it was graphically updated with the soft release of [[Emir's Arena]]\n}}\n{{Subject changes\n|prerelease = yes\n|page = Dragon claws ornament kit (beta)\n|daterange = 16 - 30 March 2022\n|beta = PvP Arena: Rewards Beta\n|change = First present in the PvP Arena: Rewards Beta.\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26707"
+        },
+        {
+          "field": "name",
+          "value": "Dragon claws ornament kit"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Use on some dragon claws to make them look fancier!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page marks this as a cached object associated with a failed arena-reward poll. Its own definition says it “was a proposed reward” and the attachment mechanics “would have been” decorative; the history says it was graphically updated despite failing the poll. Those are proposal/cache facts, not an active player-use statement. Keep it out of CLUE/cosmetic as an actually obtainable/current ornament kit; propose CLEANUP/cleanup/storage-cleanup as an unreleased/cached artifact candidate for root review. No use is inherited from base equipment or other ornament kits. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 26709,
+      "title": "Dragon warhammer ornament kit",
+      "sourceRevision": 15333889,
+      "sourceSha256": "be708bbb3fd4b6be2fc7686b8b7ae2e672d1beb1c0158c519a967dd07226f67a",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedIronmanTabKey": "storage-cleanup",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "[[File:Dragon warhammer ornament kit detail.png|left|100px]]\nThe '''dragon warhammer ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to a [[dragon warhammer]], turning it into a [[dragon warhammer (or)]].",
+      "positiveFunctionExcerpt": "{{Failed poll|PvP Arena Rewards v2}}",
+      "secondaryExcerpts": [
+        "{{Failed poll|PvP Arena Rewards v2}}",
+        "[[File:Dragon warhammer ornament kit detail.png|left|100px]]\nThe '''dragon warhammer ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to a [[dragon warhammer]], turning it into a [[dragon warhammer (or)]].",
+        "Once attached, the ornamented item would become untradeable, but the kit could be detached from the item.",
+        "{{Cache}}",
+        "==Changes==\n{{Subject changes header}}\n{{Subject changes\n|date = 6 July 2022\n|update = PvP Arena: Soft Launch\n|change = Despite failing the poll it was graphically updated with the soft release of [[Emir's Arena]]\n}}\n{{Subject changes\n|prerelease = yes\n|page = Dragon warhammer ornament kit (beta)\n|daterange = 16 - 30 March 2022\n|beta = PvP Arena: Rewards Beta\n|change = First present in the PvP Arena: Rewards Beta.\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26709"
+        },
+        {
+          "field": "name",
+          "value": "Dragon warhammer ornament kit"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Use on a dragon warhammer to make it look fancier!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page marks this as a cached object associated with a failed arena-reward poll. Its own definition says it “was a proposed reward” and the attachment mechanics “would have been” decorative; the history says it was graphically updated despite failing the poll. Those are proposal/cache facts, not an active player-use statement. Keep it out of CLUE/cosmetic as an actually obtainable/current ornament kit; propose CLEANUP/cleanup/storage-cleanup as an unreleased/cached artifact candidate for root review. No use is inherited from base equipment or other ornament kits. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 26713,
+      "title": "Armadyl armour ornament kit",
+      "sourceRevision": 15333909,
+      "sourceSha256": "70be5dbc17669b776d6cc5d810c44df99e93f800107b24c49852906839dcc117",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedIronmanTabKey": "storage-cleanup",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "[[File:Armadyl armour ornament kit detail.png|left|100px]]\nThe '''Armadyl armour ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to any pieces of the [[Armadyl armour]] set, turning them into an [[Armadyl chestplate (or)]], [[Armadyl chainskirt (or)]], or [[Armadyl helmet (or)]].",
+      "positiveFunctionExcerpt": "{{Failed poll|PvP Arena Rewards v2}}",
+      "secondaryExcerpts": [
+        "{{Failed poll|PvP Arena Rewards v2}}",
+        "[[File:Armadyl armour ornament kit detail.png|left|100px]]\nThe '''Armadyl armour ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to any pieces of the [[Armadyl armour]] set, turning them into an [[Armadyl chestplate (or)]], [[Armadyl chainskirt (or)]], or [[Armadyl helmet (or)]].",
+        "Once attached, the ornamented item would become untradeable, but the kit could be detached from the item.",
+        "{{Cache}}",
+        "==Changes==\n{{Subject changes header}}\n{{Subject changes\n|date = 6 July 2022\n|update = PvP Arena: Soft Launch\n|change = Despite failing the poll it was graphically updated with the soft release of [[Emir's Arena]]\n}}\n{{Subject changes\n|prerelease = yes\n|page = Armadyl armour ornament kit (beta)\n|daterange = 16 - 30 March 2022\n|beta = PvP Arena: Rewards Beta\n|change = First present in the PvP Arena: Rewards Beta.\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26713"
+        },
+        {
+          "field": "name",
+          "value": "Armadyl armour ornament kit"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Use on an armadyl armour piece to make it look fancier!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page marks this as a cached object associated with a failed arena-reward poll. Its own definition says it “was a proposed reward” and the attachment mechanics “would have been” decorative; the history says it was graphically updated despite failing the poll. Those are proposal/cache facts, not an active player-use statement. Keep it out of CLUE/cosmetic as an actually obtainable/current ornament kit; propose CLEANUP/cleanup/storage-cleanup as an unreleased/cached artifact candidate for root review. No use is inherited from base equipment or other ornament kits. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 26717,
+      "title": "Bandos armour ornament kit",
+      "sourceRevision": 15333888,
+      "sourceSha256": "5909828331e0368f97af5bf600fb51945d2682e8260b03c819e24ceca645aed0",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedIronmanTabKey": "storage-cleanup",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "[[File:Bandos armour ornament kit detail.png|left|100px]]\nThe '''Bandos armour ornament kit''' was a proposed reward for the [[PvP Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to any pieces of the [[Bandos armour]] set, turning them into [[Bandos chestplate (or)]], [[Bandos tassets (or)]], or [[Bandos boots (or)]].",
+      "positiveFunctionExcerpt": "{{Failed poll|PvP Arena Rewards v2}}",
+      "secondaryExcerpts": [
+        "{{Failed poll|PvP Arena Rewards v2}}",
+        "[[File:Bandos armour ornament kit detail.png|left|100px]]\nThe '''Bandos armour ornament kit''' was a proposed reward for the [[PvP Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to any pieces of the [[Bandos armour]] set, turning them into [[Bandos chestplate (or)]], [[Bandos tassets (or)]], or [[Bandos boots (or)]].",
+        "Once attached, the ornamented item would become untradeable, but the kit could be detached from the item.",
+        "{{Cache}}",
+        "==Changes==\n{{Subject changes header}}\n{{Subject changes\n|date = 6 July 2022\n|update = PvP Arena: Soft Launch\n|change = Despite failing the poll it was graphically updated with the soft release of [[Emir's Arena]]\n}}\n{{Subject changes\n|prerelease = yes\n|page = Bandos armour ornament kit (beta)\n|daterange = 16 - 30 March 2022\n|beta = PvP Arena: Rewards Beta\n|change = First present in the PvP Arena: Rewards Beta.\n}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26717"
+        },
+        {
+          "field": "name",
+          "value": "Bandos armour ornament kit"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Use on a bandos armour piece to make it look fancier!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page marks this as a cached object associated with a failed arena-reward poll. Its own definition says it “was a proposed reward” and the attachment mechanics “would have been” decorative; the history says it was graphically updated despite failing the poll. Those are proposal/cache facts, not an active player-use statement. Keep it out of CLUE/cosmetic as an actually obtainable/current ornament kit; propose CLEANUP/cleanup/storage-cleanup as an unreleased/cached artifact candidate for root review. No use is inherited from base equipment or other ornament kits. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    },
+    {
+      "itemId": 27121,
+      "title": "Dagon'hai robes ornament kit",
+      "sourceRevision": 15334040,
+      "sourceSha256": "862edfa49ffe253e694ea2276906ec2db0c461e3efe1053bfc525fc691fc7e4b",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedIronmanTabKey": "storage-cleanup",
+      "expectedDecision": "revise",
+      "semanticExcerpt": "[[File:Dagon'hai robes ornament kit detail.png|left|100px]]\nThe '''Dagon'hai robes ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to any pieces of the [[Dagon'hai robes]] set.",
+      "positiveFunctionExcerpt": "{{Failed poll|PvP Arena Rewards v2}}",
+      "secondaryExcerpts": [
+        "{{Failed poll|PvP Arena Rewards v2}}",
+        "[[File:Dagon'hai robes ornament kit detail.png|left|100px]]\nThe '''Dagon'hai robes ornament kit''' was a proposed reward for the [[Emir's Arena]]. As with all other [[ornament kit]]s it would have been purely decorative, and could be attached to any pieces of the [[Dagon'hai robes]] set.",
+        "Once attached, the ornamented item would become untradeable, but the kit could be detached from the item.",
+        "{{Cache}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "27121"
+        },
+        {
+          "field": "name",
+          "value": "Dagon'hai robes ornament kit"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "Use on a Dagon'hai robe piece to make it look fancier!"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        }
+      ],
+      "stateScopeNotes": "Only own exact item, selected current state and primary route; no linked/output item behavior or NPC statistics inherited, tags retained and supplemental roles unassessed. Cache/failed-poll counterfactual kits have no active attachment claim.",
+      "rationale": "The exact page marks this as a cached object associated with a failed arena-reward poll. Its own definition says it “was a proposed reward” and the attachment mechanics “would have been” decorative; the history says it was graphically updated despite failing the poll. Those are proposal/cache facts, not an active player-use statement. Keep it out of CLUE/cosmetic as an actually obtainable/current ornament kit; propose CLEANUP/cleanup/storage-cleanup as an unreleased/cached artifact candidate for root review. No use is inherited from base equipment or other ornament kits. Root approves primary category/subcategory/tab only; no follower combat stats, Collection Log membership, secondary tags or equipped properties transferred."
+    }
+  ]
+}

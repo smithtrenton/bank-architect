@@ -18,6 +18,17 @@ public class CleanupReviewExitReviewPass2Test
 			6549, 6550, 6551, 6552, 6553, 6554,
 			6555, 6556, 6557, 6558, 6559, 6560,
 			7581, 7582, 7583, 7584, 7585);
+		for (int itemId : new int[] {7581, 7582, 7583, 7584, 7585})
+		{
+			assertEquals("collection-pet",
+				CompositeItemCatalog.DEFAULT.findById(itemId).get().getSubcategory());
+		}
+		assertFamily(ItemCategory.CLEANUP, "storage-cleanup", 26707, 26709, 26713, 26717, 27121);
+		for (int itemId : new int[] {26707, 26709, 26713, 26717, 27121})
+		{
+			assertEquals("cleanup",
+				CompositeItemCatalog.DEFAULT.findById(itemId).get().getSubcategory());
+		}
 		assertFamily(ItemCategory.UNIQUE, "slayer-boss-loot", 6199);
 	}
 

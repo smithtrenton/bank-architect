@@ -1,0 +1,397 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "policyFile": "cooking-stage-corrections-approved-policy.json",
+  "scope": "Primary category, subcategory and Ironman tab only; existing supplemental tags retained, secondary roles unassessed. Full 34,085-assignment scope remains active.",
+  "expectedCaseCount": 5,
+  "expectedDecision": "revise",
+  "sourceInputPaths": {
+    "articleIndex": "tmp/category-certification/wiki-articles/article-index.json",
+    "candidatePacket": "tmp/category-certification/reviews/materials-positive-cohorts/20261003-skilling-cooking-materials/root-review-packet.json",
+    "rootReadRecord": "tmp/category-certification/root-review/cooking-material10-main-thread-source-read-v1.json",
+    "independentInitialReview": "tmp/category-certification/reviews/materials-positive-cohorts/20261003-skilling-cooking-materials/independent-adversarial-review-v1.json",
+    "independentPrecursorReview": "tmp/category-certification/root-review/cooking-precursor-independent-v3.json",
+    "independentStage9Refinement": "tmp/category-certification/root-review/cooking-stage9-immutable-root-draft-independent-audit-v2.json",
+    "sacredOilDecantRaw": "tmp/category-certification/sacred-oil-decanting-source-v1/15353359.txt",
+    "sacredOilDecantApiPacket": "tmp/category-certification/sacred-oil-decanting-source-v1/api-packet.json",
+    "immutableRootPolicyDraft": "tmp/category-certification/root-review/cooking-stage9-immutable-root-policy-draft-v2.json"
+  },
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "candidatePacket": "45717da4c322848789442f95427c4897e39fe5e82831960f725486f64f376cb0",
+    "rootReadRecord": "63650031b3fc71647d498c9798008ff3d473b7ae534116e42a0c984c4e8f530e",
+    "independentInitialReview": "a372a597399566ae84cdadd0af512477149c4c39e27069f4b8e4957a37ddd432",
+    "independentPrecursorReview": "7e7d3c2e8d2929430f5e03fe15b605a201fad6f8421f8d4dc083c28f19e69491",
+    "independentStage9Refinement": "2e31d42fa5f927aa47082f2c1e9212baad1957cf75c765a1e2a13eb86d0c31a8",
+    "sacredOilDecantRaw": "754acb03811ae6356fca689a549c42eca0c845a26d0886e1695de1984349ee1d",
+    "sacredOilDecantApiPacket": "b434695fde1c4ec3fc6262fc241c5d8abcc87569392c471c5c17d0bd0defbc36",
+    "immutableRootPolicyDraft": "90d361a232c4eddddd01b513e61b6810dc5374e123e8b15ba1462603e16cf688"
+  },
+  "independentAudits": [
+    {
+      "path": "tmp/category-certification/root-review/cooking-stage9-immutable-root-draft-v2-independent-audit-v1.json",
+      "sha256": "90c4858a71a9197e923638484447d754ae60637dc98298b1b9d2df2721741b82"
+    }
+  ],
+  "cases": [
+    {
+      "itemId": 1789,
+      "title": "Unfired pie dish",
+      "sourceRevision": 15272568,
+      "sourceSha256": "8bd4eb29cf12e7fe7497257aa119ebf94e691245e5d1b75667c20795974c24c0",
+      "expectedDecision": "revise",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "[[File:Unfired pie dish detail.png|left|150px]]\r\nAn '''unfired pie dish''' is made by using [[soft clay]] on a [[potter's wheel]], which requires level 7 [[Crafting]] and yields 15 Crafting experience. The unfired pie dish can be fired in a [[pottery oven]] to produce a [[pie dish]], granting 10 Crafting experience upon success. Unlike shaping the clay, firing it has no Crafting level requirement.",
+      "positiveFunctionExcerpt": "[[File:Unfired pie dish detail.png|left|150px]]\r\nAn '''unfired pie dish''' is made by using [[soft clay]] on a [[potter's wheel]], which requires level 7 [[Crafting]] and yields 15 Crafting experience. The unfired pie dish can be fired in a [[pottery oven]] to produce a [[pie dish]], granting 10 Crafting experience upon success. Unlike shaping the clay, firing it has no Crafting level requirement.",
+      "secondaryExcerpts": [
+        "At lower levels, an unfired pie dish can crack in the oven, destroying the pie dish and granting no experience.",
+        "{{Recipe\r\n|skill1 = Crafting\r\n|skill1lvl = 7\r\n|skill1boostable = Yes\r\n|skill1exp = 15\r\n|members = No\r\n|ticks = 3\r\n|facilities = Potter's Wheel\r\n|mat1 = Soft clay\r\n|output1 = Unfired pie dish\r\n}}",
+        "{{Uses material list|Unfired pie dish}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1789"
+        },
+        {
+          "field": "name",
+          "value": "Unfired pie dish"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "I need to put this in a pottery oven."
+        }
+      ],
+      "rationale": "Exact unfired physical pottery stage is made at a Crafting wheel and fired into a separate pie dish; the unfired item is a Crafting intermediate, not its finished Cooking output.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 3430,
+      "title": "Sacred oil",
+      "sourceRevision": 15214951,
+      "sourceSha256": "0d8fefb2906586a4031758d565bed6d59960d0e278612d4f52ab2fc9d61fcd37",
+      "expectedDecision": "revise",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "skilling",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Sacred oil''' is a vial of blessed [[olive oil]] that is used to make [[pyre logs]]. It is obtained from the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]], by using vials of olive oil on the [[Fire altar (Flamtaer)|fire altar]], once the temple has been fully repaired and the altar lit. Converting olive oil to sacred oil costs sanctity points, which are gained by repairing the temple's walls or by killing the [[loar shade]]s that attack the temple. Each dose of olive oil costs about 0.9% sanctity to convert; a 4-dose vial of olive oil will cost about 3.6% sanctity to convert into sacred oil. Additionally, players must have at least 10% sanctity in order to convert olive oil into sacred oil.",
+      "positiveFunctionExcerpt": "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+      "secondaryExcerpts": [
+        "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+        "'''Note:''' Players who haven't completed the [[Shades of Mort'ton]] quest '''will not''' be able to use sacred oil to create pyre logs. Attempting to do so gives the message {{mes|This sacred oil doesn't seem fresh. You should make your own.}}",
+        "Cremating shade remains in [[Mort'ton]] is necessary to obtain various keys that allow access to the [[Shade Catacombs]] and the reward chests within. In both cases, Firemaking and [[Prayer]] experience are gained in the process.",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "Creating pyre logs makes use of a \"Make-X\" menu and processing queue. While processing, an item is created every 4 game ticks.",
+        "{{Subject changes header}}\r\n{{Subject changes\r\n|date = 31 July 2024\r\n|update = QoL Improvements & Further Deadman: Armageddon Tweaks\r\n|change = Adjusted the Firemaking XP of making Pyre Logs to be a flat 5 XP per dose of Sacred Oil consumed, instead of a variable rate based on how many doses are in the vial.",
+        "Previously, experience gained was based on the number of doses in the vial prior to usage. This still used the same number of oil doses, but provided different amounts of experience. 2-dose oil provided 10 experience, 3-dose oil provided 12 experience, and 4-dose oil provided 16 experience.",
+        "Additionally, a 'make-all' menu will now appear when using sacred oil to make pyre logs.\r\n}}\r\n{{Subject changes\r\n|date = 15 April 2016\r\n|update = Bank Placeholder Feedback Changes\r\n|change = Half full potions could now be turned into bank placeholders.\r\n}}\r\n{{Subject changes\r\n|daterange = 26 April –<br/>6 June 2005\r\n|change = The item's examine was changed from \"''n doses of sacred oil''\"{{sic}} to \"''n doses of sacred oil.''\"\r\n}}\r\n{{Subject changes\r\n|daterange = 7 – 14 March 2005\r\n|change = An \"Empty\" option was added.\r\n}}\r\n{{Subject changes footer}}",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "{{Uses material list|Sacred oil(1)|Sacred oil(2)|Sacred oil(3)|Sacred oil(4)}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id4",
+          "value": "3430"
+        },
+        {
+          "field": "name4",
+          "value": "Sacred oil(4)"
+        },
+        {
+          "field": "version4",
+          "value": "4 dose"
+        },
+        {
+          "field": "options",
+          "value": "Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine4",
+          "value": "4 doses of sacred Oil."
+        }
+      ],
+      "rationale": "Exact Sacred oil material has documented pyre-log production purpose and Firemaking consumption; it is not Cooking material or a drinkable potion. Herblore level1/zero-XP conversion is acquisition metadata. Retain Resources and existing tags.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 3432,
+      "title": "Sacred oil",
+      "sourceRevision": 15214951,
+      "sourceSha256": "0d8fefb2906586a4031758d565bed6d59960d0e278612d4f52ab2fc9d61fcd37",
+      "expectedDecision": "revise",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "skilling",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Sacred oil''' is a vial of blessed [[olive oil]] that is used to make [[pyre logs]]. It is obtained from the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]], by using vials of olive oil on the [[Fire altar (Flamtaer)|fire altar]], once the temple has been fully repaired and the altar lit. Converting olive oil to sacred oil costs sanctity points, which are gained by repairing the temple's walls or by killing the [[loar shade]]s that attack the temple. Each dose of olive oil costs about 0.9% sanctity to convert; a 4-dose vial of olive oil will cost about 3.6% sanctity to convert into sacred oil. Additionally, players must have at least 10% sanctity in order to convert olive oil into sacred oil.",
+      "positiveFunctionExcerpt": "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+      "secondaryExcerpts": [
+        "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+        "'''Note:''' Players who haven't completed the [[Shades of Mort'ton]] quest '''will not''' be able to use sacred oil to create pyre logs. Attempting to do so gives the message {{mes|This sacred oil doesn't seem fresh. You should make your own.}}",
+        "Cremating shade remains in [[Mort'ton]] is necessary to obtain various keys that allow access to the [[Shade Catacombs]] and the reward chests within. In both cases, Firemaking and [[Prayer]] experience are gained in the process.",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "Creating pyre logs makes use of a \"Make-X\" menu and processing queue. While processing, an item is created every 4 game ticks.",
+        "{{Subject changes header}}\r\n{{Subject changes\r\n|date = 31 July 2024\r\n|update = QoL Improvements & Further Deadman: Armageddon Tweaks\r\n|change = Adjusted the Firemaking XP of making Pyre Logs to be a flat 5 XP per dose of Sacred Oil consumed, instead of a variable rate based on how many doses are in the vial.",
+        "Previously, experience gained was based on the number of doses in the vial prior to usage. This still used the same number of oil doses, but provided different amounts of experience. 2-dose oil provided 10 experience, 3-dose oil provided 12 experience, and 4-dose oil provided 16 experience.",
+        "Additionally, a 'make-all' menu will now appear when using sacred oil to make pyre logs.\r\n}}\r\n{{Subject changes\r\n|date = 15 April 2016\r\n|update = Bank Placeholder Feedback Changes\r\n|change = Half full potions could now be turned into bank placeholders.\r\n}}\r\n{{Subject changes\r\n|daterange = 26 April –<br/>6 June 2005\r\n|change = The item's examine was changed from \"''n doses of sacred oil''\"{{sic}} to \"''n doses of sacred oil.''\"\r\n}}\r\n{{Subject changes\r\n|daterange = 7 – 14 March 2005\r\n|change = An \"Empty\" option was added.\r\n}}\r\n{{Subject changes footer}}",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "{{Uses material list|Sacred oil(1)|Sacred oil(2)|Sacred oil(3)|Sacred oil(4)}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id3",
+          "value": "3432"
+        },
+        {
+          "field": "name3",
+          "value": "Sacred oil(3)"
+        },
+        {
+          "field": "version3",
+          "value": "3 dose"
+        },
+        {
+          "field": "options",
+          "value": "Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine3",
+          "value": "3 doses of sacred Oil."
+        }
+      ],
+      "rationale": "Exact Sacred oil material has documented pyre-log production purpose and Firemaking consumption; it is not Cooking material or a drinkable potion. Herblore level1/zero-XP conversion is acquisition metadata. Retain Resources and existing tags.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 3434,
+      "title": "Sacred oil",
+      "sourceRevision": 15214951,
+      "sourceSha256": "0d8fefb2906586a4031758d565bed6d59960d0e278612d4f52ab2fc9d61fcd37",
+      "expectedDecision": "revise",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "skilling",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Sacred oil''' is a vial of blessed [[olive oil]] that is used to make [[pyre logs]]. It is obtained from the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]], by using vials of olive oil on the [[Fire altar (Flamtaer)|fire altar]], once the temple has been fully repaired and the altar lit. Converting olive oil to sacred oil costs sanctity points, which are gained by repairing the temple's walls or by killing the [[loar shade]]s that attack the temple. Each dose of olive oil costs about 0.9% sanctity to convert; a 4-dose vial of olive oil will cost about 3.6% sanctity to convert into sacred oil. Additionally, players must have at least 10% sanctity in order to convert olive oil into sacred oil.",
+      "positiveFunctionExcerpt": "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+      "secondaryExcerpts": [
+        "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+        "'''Note:''' Players who haven't completed the [[Shades of Mort'ton]] quest '''will not''' be able to use sacred oil to create pyre logs. Attempting to do so gives the message {{mes|This sacred oil doesn't seem fresh. You should make your own.}}",
+        "Cremating shade remains in [[Mort'ton]] is necessary to obtain various keys that allow access to the [[Shade Catacombs]] and the reward chests within. In both cases, Firemaking and [[Prayer]] experience are gained in the process.",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "Creating pyre logs makes use of a \"Make-X\" menu and processing queue. While processing, an item is created every 4 game ticks.",
+        "{{Subject changes header}}\r\n{{Subject changes\r\n|date = 31 July 2024\r\n|update = QoL Improvements & Further Deadman: Armageddon Tweaks\r\n|change = Adjusted the Firemaking XP of making Pyre Logs to be a flat 5 XP per dose of Sacred Oil consumed, instead of a variable rate based on how many doses are in the vial.",
+        "Previously, experience gained was based on the number of doses in the vial prior to usage. This still used the same number of oil doses, but provided different amounts of experience. 2-dose oil provided 10 experience, 3-dose oil provided 12 experience, and 4-dose oil provided 16 experience.",
+        "Additionally, a 'make-all' menu will now appear when using sacred oil to make pyre logs.\r\n}}\r\n{{Subject changes\r\n|date = 15 April 2016\r\n|update = Bank Placeholder Feedback Changes\r\n|change = Half full potions could now be turned into bank placeholders.\r\n}}\r\n{{Subject changes\r\n|daterange = 26 April –<br/>6 June 2005\r\n|change = The item's examine was changed from \"''n doses of sacred oil''\"{{sic}} to \"''n doses of sacred oil.''\"\r\n}}\r\n{{Subject changes\r\n|daterange = 7 – 14 March 2005\r\n|change = An \"Empty\" option was added.\r\n}}\r\n{{Subject changes footer}}",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "{{Uses material list|Sacred oil(1)|Sacred oil(2)|Sacred oil(3)|Sacred oil(4)}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "3434"
+        },
+        {
+          "field": "name2",
+          "value": "Sacred oil(2)"
+        },
+        {
+          "field": "version2",
+          "value": "2 dose"
+        },
+        {
+          "field": "options",
+          "value": "Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine2",
+          "value": "2 doses of sacred Oil."
+        }
+      ],
+      "rationale": "Exact Sacred oil material has documented pyre-log production purpose and Firemaking consumption; it is not Cooking material or a drinkable potion. Herblore level1/zero-XP conversion is acquisition metadata. Retain Resources and existing tags.",
+      "addedRoles": [],
+      "stateScopeNotes": "Only own current physical stage; existing tags retained, secondary roles unassessed. No inherited finished-output stats/actions/health values."
+    },
+    {
+      "itemId": 3436,
+      "title": "Sacred oil",
+      "sourceRevision": 15214951,
+      "sourceSha256": "0d8fefb2906586a4031758d565bed6d59960d0e278612d4f52ab2fc9d61fcd37",
+      "expectedDecision": "revise",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "skilling",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Sacred oil''' is a vial of blessed [[olive oil]] that is used to make [[pyre logs]]. It is obtained from the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]], by using vials of olive oil on the [[Fire altar (Flamtaer)|fire altar]], once the temple has been fully repaired and the altar lit. Converting olive oil to sacred oil costs sanctity points, which are gained by repairing the temple's walls or by killing the [[loar shade]]s that attack the temple. Each dose of olive oil costs about 0.9% sanctity to convert; a 4-dose vial of olive oil will cost about 3.6% sanctity to convert into sacred oil. Additionally, players must have at least 10% sanctity in order to convert olive oil into sacred oil.",
+      "positiveFunctionExcerpt": "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+      "secondaryExcerpts": [
+        "Sacred oil's sole use is to create pyre logs, which may be used to cremate the remains of various shades. Pyre logs are made by adding sacred oil to [[Log (disambiguation)|logs]], which grants 5 [[Firemaking]] experience per dose of oil used on the log. Different logs require different amounts of sacred oil, with low-end logs requiring 2 doses, mid-tier logs requiring 3 doses, and high-end logs requiring 4 doses.",
+        "'''Note:''' Players who haven't completed the [[Shades of Mort'ton]] quest '''will not''' be able to use sacred oil to create pyre logs. Attempting to do so gives the message {{mes|This sacred oil doesn't seem fresh. You should make your own.}}",
+        "Cremating shade remains in [[Mort'ton]] is necessary to obtain various keys that allow access to the [[Shade Catacombs]] and the reward chests within. In both cases, Firemaking and [[Prayer]] experience are gained in the process.",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "Creating pyre logs makes use of a \"Make-X\" menu and processing queue. While processing, an item is created every 4 game ticks.",
+        "{{Subject changes header}}\r\n{{Subject changes\r\n|date = 31 July 2024\r\n|update = QoL Improvements & Further Deadman: Armageddon Tweaks\r\n|change = Adjusted the Firemaking XP of making Pyre Logs to be a flat 5 XP per dose of Sacred Oil consumed, instead of a variable rate based on how many doses are in the vial.",
+        "Previously, experience gained was based on the number of doses in the vial prior to usage. This still used the same number of oil doses, but provided different amounts of experience. 2-dose oil provided 10 experience, 3-dose oil provided 12 experience, and 4-dose oil provided 16 experience.",
+        "Additionally, a 'make-all' menu will now appear when using sacred oil to make pyre logs.\r\n}}\r\n{{Subject changes\r\n|date = 15 April 2016\r\n|update = Bank Placeholder Feedback Changes\r\n|change = Half full potions could now be turned into bank placeholders.\r\n}}\r\n{{Subject changes\r\n|daterange = 26 April –<br/>6 June 2005\r\n|change = The item's examine was changed from \"''n doses of sacred oil''\"{{sic}} to \"''n doses of sacred oil.''\"\r\n}}\r\n{{Subject changes\r\n|daterange = 7 – 14 March 2005\r\n|change = An \"Empty\" option was added.\r\n}}\r\n{{Subject changes footer}}",
+        "{{Switch infobox\r\n|text1 = 1 dose\r\n|item1 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(1)\r\n|output1 = Sacred oil(1)\r\n}}\r\n|text2 = 2 dose\r\n|item2 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(2)\r\n|output1 = Sacred oil(2)\r\n}}\r\n|text3 = 3 dose\r\n|item3 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(3)\r\n|output1 = Sacred oil(3)\r\n}}\r\n|text4 = 4 dose\r\n|item4 = {{Recipe\r\n|skill1 = Herblore\r\n|skill1lvl = 1\r\n|skill1exp = 0\r\n|notes = {{SCP|Quest}} [[Shades of Mort'ton]]<br/>{{SCP|Minigame}} 10% sanctity in the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]]\r\n|members = Yes\r\n|ticks = 1\r\n|facilities = Fire altar (Flamtaer)\r\n|mat1 = Olive oil(4)\r\n|output1 = Sacred oil(4)\r\n}}\r\n}}",
+        "{{Uses material list|Sacred oil(1)|Sacred oil(2)|Sacred oil(3)|Sacred oil(4)}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "3436"
+        },
+        {
+          "field": "name1",
+          "value": "Sacred oil(1)"
+        },
+        {
+          "field": "version1",
+          "value": "1 dose"
+        },
+        {
+          "field": "options",
+          "value": "Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine1",
+          "value": "1 dose of sacred Oil."
+        }
+      ],
+      "rationale": "Exact one-dose sacred oil state remains a Firemaking preparation resource through the explicitly sourced sacred-oil decanting workflow. Accumulated one-dose vials can be combined into a two-dose vial by Bob Barter; the resulting separate state meets the documented pyre-log threshold. No direct single-dose log application claimed.",
+      "addedRoles": [],
+      "stateScopeNotes": "Own exact1dose state bound independently. Decanting explicitly names sacred oil; no generic potion assumption. Requires accumulated doses and transformation to a separate>=2dose vial before pyre-log use; Shades of Mort'ton quest gate retained. Existing tags retained, secondary roles unassessed.",
+      "variantFunctionProof": {
+        "kind": "explicit-own-material-decant-workflow",
+        "mechanicSource": {
+          "kind": "exact_wiki_workflow",
+          "sourceTitle": "Bob Barter (herbs)",
+          "sourceRevision": 15353359,
+          "sourceTimestamp": "2026-09-22T23:21:25Z",
+          "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15353359",
+          "sourcePath": "tmp/category-certification/sacred-oil-decanting-source-v1/15353359.txt",
+          "sourceSha256": "754acb03811ae6356fca689a549c42eca0c845a26d0886e1695de1984349ee1d",
+          "sourceApiPacketPath": "tmp/category-certification/sacred-oil-decanting-source-v1/api-packet.json",
+          "sourceApiPacketSha256": "b434695fde1c4ec3fc6262fc241c5d8abcc87569392c471c5c17d0bd0defbc36",
+          "literalQuote": "Bob provides a [[decanting]] service to [[member]]s, available through a right-click option or through dialogue, where he will combine any potions in the player's inventory into [[vial]]s containing a specified number of doses (1-4). He accepts both un-noted and [[Bank note|noted]] potions. He will also decant [[Guthix rests]], [[barbarian potions]], [[olive oil]], [[sacred oil]], and [[Sunlight moth mix|sunlight]] and [[Moonlight moth mix|moonlight]] moth mixes. Unlike his ''[[rsw:RuneScape 3|RuneScape 3]]'' [[rsw:Bob Barter (herbs)|counterpart]], he cannot decant [[calquat keg]]s.",
+          "literalUtf8Verified": true,
+          "interpretation": "The pinned sentence describes combining potion inventory into a selected 1–4 dose vial and explicitly includes sacred oil among the decantable items. Combined with the Sacred oil page’s explicit 2-dose minimum for low-end pyre logs, this proves a route from accumulated one-dose sacred oil to a two-dose vial. It does not establish that one dose alone can be applied directly to a log."
+        },
+        "exactOwnState": {
+          "itemId": 3436,
+          "dose": 1,
+          "requiredMinimumPyreLogDose": 2
+        },
+        "interpretation": "Multiple one-dose Sacred oil vials may be accumulated and explicitly decanted by Bob into a two-dose vial, then used in the documented pyre-log workflow after the Shades of Mort'ton quest. One dose alone is not claimed to create a log.",
+        "propertyInheritance": "No Drink action, healing, potion effects, or alias properties inferred."
+      }
+    }
+  ]
+}

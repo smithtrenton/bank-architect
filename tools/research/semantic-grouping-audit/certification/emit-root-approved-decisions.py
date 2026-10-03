@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the sixteen pinned root-approved policy files.
+"""Emit exact-ID decisions from the twenty-one pinned root-approved policy files.
 
 This read-only builder verifies pinned candidate evidence without accepting
 candidate decisions as approvals. It never changes plugin sources or the frozen
@@ -40,6 +40,11 @@ POLICY_NAMES = (
     "farming-primary-approved-policy.json",
     "farming-supplemental-approved-policy.json",
     "prayer-bone-subcategory-approved-policy.json",
+    "clue-residual44-primary-approved-policy.json",
+    "clue-cosmetic-primary-approved-policy.json",
+    "clue-cosmetic-corrections-approved-policy.json",
+    "cooking-stage-primary-approved-policy.json",
+    "cooking-stage-corrections-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -125,6 +130,11 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
             "tool-primary-approved-policy.json": ("verify-tool-primary-policy.py", 151),
             "farming-primary-approved-policy.json": ("verify-farming-primary-policy.py", 51),
             "farming-supplemental-approved-policy.json": ("verify-farming-supplemental-policy.py", 66),
+            "clue-residual44-primary-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 44),
+            "clue-cosmetic-primary-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 230),
+            "clue-cosmetic-corrections-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 10),
+            "cooking-stage-primary-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 4),
+            "cooking-stage-corrections-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 5),
         }
         if name in primary_verifiers:
             script, expected_count = primary_verifiers[name]
@@ -135,7 +145,7 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
             spec.loader.exec_module(verifier)
             verifier.verify_policy(policy)
             if len(policy["cases"]) != expected_count:
-                raise ValueError(f"Expected exactly {expected_count} approved unchanged cases in {name}")
+                raise ValueError(f"Expected exactly {expected_count} approved cases in {name}")
         if name == "raw-food-primary-approved-policy.json":
             raw_inputs = {
                 "articleIndex": ARTICLE_INDEX,
@@ -155,8 +165,8 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 1615:
-        raise ValueError(f"Expected exactly 1,615 disjoint approved policy cases, found {len(cases)}")
+    if len(cases) != 1908:
+        raise ValueError(f"Expected exactly 1,908 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -274,6 +284,17 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
         secondary_quotes.append(quote)
         evidence.append(citation(title, source, item_id, quote))
 
+    direct_function_policies = {
+        "clue-residual44-primary-approved-policy.json", "clue-cosmetic-primary-approved-policy.json",
+        "clue-cosmetic-corrections-approved-policy.json", "cooking-stage-primary-approved-policy.json",
+        "cooking-stage-corrections-approved-policy.json",
+    }
+    positive_quote = None
+    if policy_name in direct_function_policies:
+        positive_quote = verify_quote(source, item_id, case["positiveFunctionExcerpt"], "positiveFunctionExcerpt")
+        if positive_quote not in [excerpt] + secondary_quotes:
+            evidence.append(citation(title, source, item_id, positive_quote))
+
     tag_evidence = case.get("tagEvidence", {}) or {}
     if not isinstance(tag_evidence, dict):
         raise ValueError(f"item {item_id}: tagEvidence must be a mapping")
@@ -301,14 +322,17 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
-    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json", "farming-supplemental-approved-policy.json"}
+    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json", "farming-supplemental-approved-policy.json", "clue-residual44-primary-approved-policy.json", "clue-cosmetic-primary-approved-policy.json", "cooking-stage-primary-approved-policy.json"}
     expected = "certify" if primary_only else "revise"
-    if primary_only and (roles or case.get("proposedTags") or tag_evidence):
-        raise ValueError(f"item {item_id}: unchanged-primary policy cannot add tag or supplemental-role claims")
+    primary_scope_only = primary_only or policy_name in direct_function_policies
+    if primary_scope_only and (roles or case.get("proposedTags") or tag_evidence):
+        raise ValueError(f"item {item_id}: primary-only policy cannot add tag or supplemental-role claims")
     if decision != expected:
         raise ValueError(f"item {item_id}: {policy_name} produced {decision}, expected {expected}")
     rationale = str(case.get("rationale") or normalized(excerpt))
     predicate_excerpt = case["positiveFunctionExcerpt"] if policy_name == "tool-primary-approved-policy.json" else excerpt
+    if positive_quote is not None:
+        predicate_excerpt = positive_quote
     predicate = f"Exact-ID evidence: {normalized(predicate_excerpt)}"
     return {
         "itemId": item_id,
@@ -339,7 +363,7 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
             **({"variantFunctionProof": case["variantFunctionProof"]} if case.get("variantFunctionProof") else {}),
             **({"stateScopeNotes": case["stateScopeNotes"]} if case.get("stateScopeNotes") else {}),
             **({"approvalScope": "primary category, subcategory and tab only; tags retained and supplemental roles unassessed"}
-               if primary_only else {}),
+               if primary_scope_only else {}),
         },
     }
 
@@ -496,7 +520,7 @@ def main() -> None:
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
                                ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
-                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py", "verify-farming-supplemental-policy.py")},
+                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py", "verify-farming-supplemental-policy.py", "verify-cosmetic-cooking-policies.py")},
         "sourceHashes": {
             "policies": policy_hashes,
             "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),

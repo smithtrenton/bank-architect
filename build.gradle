@@ -93,14 +93,14 @@ tasks.register('verifySimulationBaselines') {
 	description = 'Refuses unreviewed changes to the four fixed-seed simulation reports.'
 	dependsOn tasks.named('simulateRandomBanks'), tasks.named('aggregateCleanupReview')
 	doLast {
-		// Reviewed against cde70f7: three scenario metric rows changed; the only
-		// Cleanup entry is the exact crafting-interface icon 1685. All 42 changed
-		// IDs have pinned-source approval; common Cleanup rows are unchanged.
+		// Reviewed against 5553476: four failed-poll kits enter aggregate Cleanup.
+		// All 9,177 prior Cleanup rows are unchanged; aggregate metadata adds
+		// four distinct IDs and 21 occurrences. Both single-seed reports are exact.
 		def expected = [
 			'report.tsv': 'a01124a492213776843d56a2925e7db85ccfc2cfdefaecbec61a02a710ef1c77',
 			'cleanup-review.tsv': 'e0a93d4653f19176d3af44c024939b2a5fe146fc2d20332a03a77781f355392d',
-			'aggregate/cleanup-review.tsv': '8d5bd7cff6f7df68dd8ff699173e3d20e95bb280ca43665f38218482e5401bc9',
-			'aggregate/metadata.tsv': '0f4bbdaa3f36988f88195ca1dfc8e4ca5e4ff5f5b548834fd10cf99e15224b2c'
+			'aggregate/cleanup-review.tsv': '04562064af788def1c8ecdc292e15dcbf367017bc56490c3db34491b2eaf5da8',
+			'aggregate/metadata.tsv': '26c96dbb2f2f02ab28eb98e029d798373d015bdb933e5d564491783fd0b838af'
 		]
 		def customParameters = ['simBanks', 'simSeed', 'simMinItems', 'simMaxItems', 'simOutput', 'aggregateOutput']
 		if (customParameters.any { project.hasProperty(it) }) {
