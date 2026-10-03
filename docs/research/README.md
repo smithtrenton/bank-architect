@@ -8,7 +8,7 @@ This folder contains generated research artifacts. They are not production catal
 637 confirmed clue-scroll placements, 939 confirmed equipment placements, 40 ordinary foods, 21 raw-fish Cooking inputs, pinned exact-ID evidence and validation. It explicitly records that full preset certification
 remains incomplete; earlier export-wide passes were not a certification of every assignment.
 `category-certification/approved-assignments.tsv` accounts for all 34,085 IDs and separates the
-1,867 approved primary assignments from the 32,218 that remain unresolved.
+1,939 approved primary assignments from the 32,146 that remain unresolved.
 
 `item-role-audit-final-october-2.md` records the final clue/quest/equipment batch, conditional
 cleanup protections, whole-export coverage measurement and the ingame test checklist.

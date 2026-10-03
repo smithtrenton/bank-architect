@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the nine pinned root-approved policy files.
+"""Emit exact-ID decisions from the ten pinned root-approved policy files.
 
 This read-only builder verifies pinned candidate evidence without accepting
 candidate decisions as approvals. It never changes plugin sources or the frozen
@@ -33,6 +33,7 @@ POLICY_NAMES = (
     "gear-primary-approved-policy.json",
     "food-primary-approved-policy.json",
     "raw-food-primary-approved-policy.json",
+    "teleport-primary-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -113,6 +114,7 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
         primary_verifiers = {
             "gear-primary-approved-policy.json": ("verify-gear-primary-policy.py", 939),
             "food-primary-approved-policy.json": ("verify-food-primary-policy.py", 40),
+            "teleport-primary-approved-policy.json": ("verify-teleport-primary-policy.py", 72),
         }
         if name in primary_verifiers:
             script, expected_count = primary_verifiers[name]
@@ -143,8 +145,8 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 1230:
-        raise ValueError(f"Expected exactly 1,230 disjoint approved policy cases, found {len(cases)}")
+    if len(cases) != 1302:
+        raise ValueError(f"Expected exactly 1,302 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -285,7 +287,7 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
-    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json"}
+    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json"}
     expected = "certify" if primary_only else "revise"
     if primary_only and (roles or case.get("proposedTags") or tag_evidence):
         raise ValueError(f"item {item_id}: unchanged-primary policy cannot add tag or supplemental-role claims")
@@ -477,7 +479,7 @@ def main() -> None:
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
                                ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
-                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py")},
+                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py")},
         "sourceHashes": {
             "policies": policy_hashes,
             "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),
@@ -487,6 +489,7 @@ def main() -> None:
             "gearBonusSourceProof": sha256(BASE / "reviews/gear-v2/bonus-source-proof.json"),
             "foodCandidatePacket": sha256(BASE / "reviews/supplies-food-positive-v8-root-replay/food-positive-rule-candidates.jsonl"),
             "rawFishReview": sha256(BASE / "reviews/materials-positive-cohorts/20261003-raw-fish-cooking-inputs/root-review-packet.json"),
+            "teleportCandidatePacket": sha256(BASE / "reviews/transport-v16/ordinary-teleport-consumables-review.json"),
             "frozenPackets": packet_hashes,
         },
         "output": (str(args.output.relative_to(ROOT)) if args.output.is_relative_to(ROOT) else str(args.output)).replace("\\", "/"),

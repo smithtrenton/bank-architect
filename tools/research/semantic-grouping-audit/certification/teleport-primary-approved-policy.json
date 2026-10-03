@@ -1,0 +1,2682 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "scope": "72 unchanged ordinary consumable player-transport primary assignments; existing tags retained and supplemental roles unassessed.",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "expectedCaseCount": 72,
+  "reviewedPrimaryRule": "Own exact numeric-ID non-equipment stackable item has an active Break, Teleport, Launch or Squash action and its full named-subject definition directly establishes consumable player transport. Ordinary quest/destination requirements and minigame acquisition do not imply an activity-only copy. Equipment, unlock tokens, modifiers and items that move another object are outside this exact cohort.",
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "transportPacket": "5e6a76c7cb19cbd82f83d13d892a3c8539799a65cf42112769d609dfdd85d6c7",
+    "candidatePacket": "5ed9e5c2520dd16a754f9179d0371c152b8f13b954057e6a8ec2762ce54ac107",
+    "adversarialReview": "0166be8c9738d0d3e2ed04967ae96cbe5cf3fd0768952595003ddbdb28a2021d"
+  },
+  "reviewRecord": "Root read all 72 literal own-subject leads and exact active options, then examined competing use, quest/access and creation contexts from the pinned source articles. All 48 tablets, 20 scrolls and 4 other consumables support their existing primary route. The separate exact-state adversarial review found no confirmed exceptions. Teleport to boat 31443 transports the player to their boat, while Summon boat 31441 moves the boat and is outside the cohort. Grand seed pod 9469 Farming effects remain unassessed secondary roles. Plain of Mud sphere 26577 is repeat-use player transport obtainable after its quest. No unconditional access, bankability, numerical effect, tag or exhaustive secondary-role claim is approved.",
+  "cases": [
+    {
+      "itemId": 8007,
+      "title": "Varrock teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Varrock teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Varrock]]. Players can create this item on any regular [[lectern]] as long as they have 1 [[law rune]], 3 [[air rune]]s, 1 [[fire rune]], and 1 [[soft clay]] and at least level 25 [[Magic]], giving 35 [[experience]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15184222,
+      "sourceSha256": "dc05deb29e54de43ed03a6ce96ab710f048093028dc999e56daa6632e51cf8a3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8007"
+        },
+        {
+          "field": "name",
+          "value": "Varrock teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Varrock, Grand Exchange, Toggle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 8008,
+      "title": "Lumbridge teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Lumbridge teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Lumbridge]] [[Lumbridge Castle|Castle]] courtyard.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15185081,
+      "sourceSha256": "4c0b173c4320c2bc3bbaf657b8bc118ac66224335320cd203708e986d108924e",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8008"
+        },
+        {
+          "field": "name",
+          "value": "Lumbridge teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 8009,
+      "title": "Falador teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Falador teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Falador]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15185079,
+      "sourceSha256": "abcb739ec7f08a539d06e006a83d4a92041689d74954136e45dec78e9fc1cb75",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8009"
+        },
+        {
+          "field": "name",
+          "value": "Falador teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 8010,
+      "title": "Camelot teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Camelot teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Camelot]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15185080,
+      "sourceSha256": "a4aa44986240f0f9a8627d99288e493697a4984f9654291a1e18ec0e25f85188",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8010"
+        },
+        {
+          "field": "name",
+          "value": "Camelot teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Camelot, Seers' Village, Toggle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 8011,
+      "title": "Ardougne teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Ardougne teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[East Ardougne]]. Using the tablet requires completion of [[Plague City]], however, players '''do not''' have to read the [[Ardougne teleport scroll]] to use the tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15183982,
+      "sourceSha256": "8aace943118306c0e0b61617af897d0e1a8fb6a0e0dbca2c2bbedf5aedc129c6",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8011"
+        },
+        {
+          "field": "name",
+          "value": "Ardougne teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 8012,
+      "title": "Watchtower teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Watchtower teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Watchtower (building)|Watchtower]]. Using the tablet requires completion of the [[Watchtower|Watchtower quest]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15185084,
+      "sourceSha256": "627875ce06346997dbfc8d13ee3e9507f21ad9fd4d8e8073e02be98a1e5f3b85",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8012"
+        },
+        {
+          "field": "name",
+          "value": "Watchtower teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Watchtower, Yanille, Toggle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 8013,
+      "title": "Teleport to house (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''teleport to house''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to their [[player-owned house]]. Players can right-click to choose whether they teleport inside or outside of their house.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15185086,
+      "sourceSha256": "36be0ae0849726b2eb1c02c4e8489f936eed92041cfcc2a43dba9e2df69b80d0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "8013"
+        },
+        {
+          "field": "name",
+          "value": "Teleport to house"
+        },
+        {
+          "field": "options",
+          "value": "Break, Inside, Outside, Group, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 9469,
+      "title": "Grand seed pod",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "semanticExcerpt": "'''grand seed pod''' is a single-use teleport item that can be obtained as a rare reward from [[Wingstone]], [[Penwie]], [[Brambickle]], and [[Professor Manglethorp]] in the [[Gnome Restaurant]] [[minigame]].{{CiteTwitter|author=Mod Ash|url=https://twitter.com/jagexash/status/601448169273065472|date=21 May 2015|archiveurl=https://reldo.runescape.wiki/i/108384|archivedate=29 May 2020|quote=Wingstone gives a mint cake or 5 seed pods, each with a 1/4 chance.}}{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/646787678583681024|date=23 September 2015|archiveurl=https://reldo.runescape.wiki/i/98418|archivedate=29 May 2020|quote=1/22, but only from Manglethorp and the three exploring gnomes.}} Seed pods are stackable. They can take players to the [[Grand Tree]], and have two right-click options: launch and squash.\n[[File:Squash Grand seed pod.gif|left|thumb|130px|A player squashing the seed pod.]]\n[[File:Launch Grand seed pod.gif|left|thumb|130px|A player launching the seed pod.]]\nLaunching the seed pod will take players to the top floor of the [[Grand Tree]], through [[Captain Lamdoo]] and a glider, but it can only be used outdoors. This option will also give the player 100 [[Farming]] experience. Squashing the seed will take players to the Grand Tree (to the ground floor by [[King Narnode Shareen]]) faster than Launching it, but the Farming experience will not be given, and will temporarily drain their Farming skill by 5 levels.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15360633,
+      "sourceSha256": "7f14b0d21f3f13b95b18488b1087254cab4af0be6fdc3db01913859fd2bfb89e",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "9469"
+        },
+        {
+          "field": "name",
+          "value": "Grand seed pod"
+        },
+        {
+          "field": "options",
+          "value": "Launch, Squash, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 10972,
+      "title": "Dorgesh-kaan sphere",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "semanticExcerpt": "'''Dorgesh-kaan sphere''' [[teleport]]s the player to a random location within [[Dorgesh-Kaan]]. They can be purchased and used upon completion of the [[Death to the Dorgeshuun]] [[quest]]. The sphere is consumed upon use and does not work beyond level 20 [[Wilderness]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186988,
+      "sourceSha256": "e06594d06cd73dce62689a83281a49457224032f34d0e043e8a43cddb0b74a92",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "10972"
+        },
+        {
+          "field": "name",
+          "value": "Dorgesh-kaan sphere"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11060,
+      "title": "Goblin village sphere",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "semanticExcerpt": "'''goblin village sphere''' sphere [[teleport]]s the player to a random location within the [[Goblin Village]]. They can be purchased and used upon completion of the [[Another Slice of H.A.M.]] [[quest]], and are identical in appearance to [[plain of mud sphere]]s. The sphere is consumed upon use and does not work beyond level 20 [[Wilderness]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15318227,
+      "sourceSha256": "866fcdf745cd4d0d3d004099adf0577c1f3f3c3762c470006f0622b86b1990e9",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11060"
+        },
+        {
+          "field": "name",
+          "value": "Goblin village sphere"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "[[Another Slice of H.A.M.]]"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11741,
+      "title": "Rimmington teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Rimmington teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Rimmington]] [[house portal]]. It can be created by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309324,
+      "sourceSha256": "a48a312eaa4df49b35cb1c6dad2893dc13e0de86250ec6dbec57d2f6553c7ec4",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11741"
+        },
+        {
+          "field": "name",
+          "value": "Rimmington teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11742,
+      "title": "Taverley teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Taverley teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Taverley]] [[house portal]]. It can be created at level 10 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309326,
+      "sourceSha256": "cf62801a56ce0fa274735d16c241a107e7e32636d2ba816253cccbef4ffcea22",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11742"
+        },
+        {
+          "field": "name",
+          "value": "Taverley teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11743,
+      "title": "Pollnivneach teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Pollnivneach teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Pollnivneach]] [[house portal]]. It can be created at level 20 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309321,
+      "sourceSha256": "c752f06629d5325d2babe7f73262b110efd6eba7ea194f9cc59f47d4aad1c886",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11743"
+        },
+        {
+          "field": "name",
+          "value": "Pollnivneach teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11744,
+      "title": "Rellekka teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Rellekka teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Rellekka]] [[house portal]]. It can be created at level 30 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309323,
+      "sourceSha256": "7496a71d12d0edcfb0c3ea36b09d8174b5d3bc7faa05c44a481d050660e4d85f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11744"
+        },
+        {
+          "field": "name",
+          "value": "Rellekka teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11745,
+      "title": "Brimhaven teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Brimhaven teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Brimhaven]] [[house portal]]. It can be created at level 40 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309318,
+      "sourceSha256": "4e38512763048c524db1afccd954dffb441de64dbabdcfab6aa043438d47662d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11745"
+        },
+        {
+          "field": "name",
+          "value": "Brimhaven teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11746,
+      "title": "Yanille teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Yanille teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Yanille]] [[house portal]]. It can be created at level 50 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15342795,
+      "sourceSha256": "93f02e3660bb0fcc4e50234137e3de1ce58ade27624e765f7b2d5236fe9d6c39",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11746"
+        },
+        {
+          "field": "name",
+          "value": "Yanille teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 11747,
+      "title": "Trollheim teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Trollheim teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Trollheim]]. It can be created after completion of [[Eadgar's Ruse]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309327,
+      "sourceSha256": "dea7eb6b5903ddb08385f743b7afd780e683522503cf63bd140da696e1d6a8c0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11747"
+        },
+        {
+          "field": "name",
+          "value": "Trollheim teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12402,
+      "title": "Nardah teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Nardah teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Nardah]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186014,
+      "sourceSha256": "c8eba606eedd5c52154ea97edbec1bb3fec0166ab51202545bdf4d0e018215ac",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12402"
+        },
+        {
+          "field": "name",
+          "value": "Nardah teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12403,
+      "title": "Digsite teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Digsite teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the [[Digsite]], just south of the crashed gnome glider. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186009,
+      "sourceSha256": "b044b2df3ead9f8cdbe0a4cea12123435d51f3ac9f7f9cbe683c7610dc2416e5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12403"
+        },
+        {
+          "field": "name",
+          "value": "Digsite teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12404,
+      "title": "Feldip hills teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Feldip hills teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the [[Feldip Hills]], near the [[Hunting expert]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186010,
+      "sourceSha256": "c7464aca38e781dc9b600616617b503a7ad21f52aeaf28df1ffd671c98e4a35c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12404"
+        },
+        {
+          "field": "name",
+          "value": "Feldip hills teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12405,
+      "title": "Lunar isle teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Lunar isle teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Lunar Isle]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186011,
+      "sourceSha256": "dc0e9c339700912699239482980c70cd146708bb0ad74ed1e7da2e3fd21cff42",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12405"
+        },
+        {
+          "field": "name",
+          "value": "Lunar isle teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12406,
+      "title": "Mort'ton teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Mort'ton teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the centre of [[Mort'ton]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186012,
+      "sourceSha256": "3d03e0ac161753673812bd23329ec8d764671ea4166c423caafdb786f802ffba",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12406"
+        },
+        {
+          "field": "name",
+          "value": "Mort'ton teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12407,
+      "title": "Pest control teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Pest control teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the [[Void Knights' Outpost|Void Knights' Outpost.]] They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186015,
+      "sourceSha256": "26e3c4707df0f7198cb97e5e12d8235060e2fcd002de425c0a650f340f7da359",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12407"
+        },
+        {
+          "field": "name",
+          "value": "Pest control teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12408,
+      "title": "Piscatoris teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Piscatoris teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Piscatoris]], just outside the [[Piscatoris Fishing Colony]], near the tunnel entrance. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186016,
+      "sourceSha256": "56f44240f5d020559c0e61172590ce6df71a5504ed5fb8388df3282aac4f694c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12408"
+        },
+        {
+          "field": "name",
+          "value": "Piscatoris teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12409,
+      "title": "Tai bwo wannai teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Tai bwo wannai teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Tai Bwo Wannai]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186007,
+      "sourceSha256": "03442e04bfe6be3e3fd266a60f2faf5e5394928ab8a9b8ed782534a3842a6b08",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12409"
+        },
+        {
+          "field": "name",
+          "value": "Tai bwo wannai teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12410,
+      "title": "Iorwerth camp teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Iorwerth camp teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the [[Iorwerth Camp]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186008,
+      "sourceSha256": "6e50fb552cf5f6c0c78a4c8d3d3654a6f16591e65e3b147b061f73b04199a057",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12410"
+        },
+        {
+          "field": "name",
+          "value": "Iorwerth camp teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12411,
+      "title": "Mos le'harmless teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Mos le'harmless teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Mos Le'Harmless]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186013,
+      "sourceSha256": "8230481c37e40407684f56ebcd096f0a21b34549700726d6d5adcc765164d2e3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12411"
+        },
+        {
+          "field": "name",
+          "value": "Mos le'harmless teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12642,
+      "title": "Lumberyard teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Lumberyard teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the [[Lumber Yard]]. They can be obtained from all levels of [[Treasure Trails]] except beginner.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186290,
+      "sourceSha256": "cfc8a354aa10ed4fc9fcb9ef51e96492be555353b88e3f08cf8dfb53afedadcf",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12642"
+        },
+        {
+          "field": "name",
+          "value": "Lumberyard teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12775,
+      "title": "Annakarl teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Annakarl teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Annakarl]] (the [[Demonic Ruins]]) in level 46 [[Wilderness]], providing that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186388,
+      "sourceSha256": "b2cd40d6cdaf0be443bb90e6d15d1d4eed69bcc890c495a6bb4dbb71ab4f16f8",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12775"
+        },
+        {
+          "field": "name",
+          "value": "Annakarl teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12776,
+      "title": "Carrallanger teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Carrallanger teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Graveyard of Shadows]] in level 19 [[Wilderness]], providing that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186389,
+      "sourceSha256": "b806876ac701a554529cb188045cbf352bec069d19ba33f27da5906f77474504",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12776"
+        },
+        {
+          "field": "name",
+          "value": "Carrallanger teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12777,
+      "title": "Dareeyak teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Dareeyak teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Ruins (west)|ruins]] west of the [[Bandit Camp (Wilderness)|Bandit Camp]] in level 23 [[Wilderness]] (near the [[crazy archaeologist]]), providing that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186390,
+      "sourceSha256": "eed4a820c5e46b57f9fe9041e7fef69ee8dddf746f94239defb5fc88757042ab",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12777"
+        },
+        {
+          "field": "name",
+          "value": "Dareeyak teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12778,
+      "title": "Ghorrock teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Ghorrock teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Frozen Waste Plateau]] in level 45 [[Wilderness]], provided that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186391,
+      "sourceSha256": "73c829a339102dd765b23198ab4ca2181101d6bd3d50cac302c6d5858c40fc8e",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12778"
+        },
+        {
+          "field": "name",
+          "value": "Ghorrock teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12779,
+      "title": "Kharyrll teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Kharyrll teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Canifis]], providing that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186392,
+      "sourceSha256": "190918820b431535e95d6d87445ba476c67ec13c13ea93a9a82dfe50b19aa3f6",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12779"
+        },
+        {
+          "field": "name",
+          "value": "Kharyrll teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12780,
+      "title": "Lassar teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Lassar teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the top of [[Ice Mountain]], provided that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186393,
+      "sourceSha256": "74a667962333ca0674bb8e0fa7a5b0e3ee65f419bd1646060a59b3836322395d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12780"
+        },
+        {
+          "field": "name",
+          "value": "Lassar teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12781,
+      "title": "Paddewwa teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Paddewwa teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Edgeville Dungeon]], providing that they have completed [[Desert Treasure I]]. The player '''does not''' need to have the relevant Magic level to use the tablet, which shares the same rule with all tablets and the player will not receive any [[experience]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186395,
+      "sourceSha256": "ec3ce68d3af9a7028c80441bb69c310e57c63264b0d1ca0a0bbe66c81fc22809",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12781"
+        },
+        {
+          "field": "name",
+          "value": "Paddewwa teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12782,
+      "title": "Senntisten teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Senntisten teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Digsite]] [[Exam Centre]], providing that they have completed [[Desert Treasure I]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186394,
+      "sourceSha256": "44ff6018ea45071ae2f4464d4a23f60a283b846ed906e5b5a5a6708bf922bc55",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12782"
+        },
+        {
+          "field": "name",
+          "value": "Senntisten teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 12938,
+      "title": "Zul-andra teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Zul-andra teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Zul-Andra]]. They can be obtained from defeating [[Zulrah]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15186555,
+      "sourceSha256": "62f7bb567e8f19e16b2c149e669e3a8dc41b568e2ce5025338a8b5f00cd4b281",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12938"
+        },
+        {
+          "field": "name",
+          "value": "Zul-andra teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 13249,
+      "title": "Key master teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Key master teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player directly next to the [[Key Master]] in [[Cerberus' Lair]]. They are dropped exclusively by [[Cerberus]], and have no requirements to use.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15259810,
+      "sourceSha256": "963626bc62a9277f73df97b22936ab1d668aa17b1b3c34e80abcc93e0c7bbdfa",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "13249"
+        },
+        {
+          "field": "name",
+          "value": "Key master teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19613,
+      "title": "Arceuus library teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Arceuus library teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] north of the [[Arceuus Library|Grand Library of Great Kourend]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15231347,
+      "sourceSha256": "178a4b56a56ed287ac10e5259a0ecf7c601291532c6b5ef93eb7caae86d5a19d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19613"
+        },
+        {
+          "field": "name",
+          "value": "Arceuus library teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19615,
+      "title": "Draynor manor teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Draynor manor teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Draynor Manor]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187517,
+      "sourceSha256": "32ff46f21744bf75c0e0ab9762db8cb694ffdb62101e6bf0bf47544f8d47049d",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19615"
+        },
+        {
+          "field": "name",
+          "value": "Draynor manor teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19617,
+      "title": "Mind altar teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Mind altar teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the entrance of the [[Mind Altar]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187518,
+      "sourceSha256": "5fe0590eda42b6a2de16d65643242288896c088cad42c7688a740cb568189933",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19617"
+        },
+        {
+          "field": "name",
+          "value": "Mind altar teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19619,
+      "title": "Salve graveyard teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Salve graveyard teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[River Salve]] graveyard, by the [[ghoul]]s at the entrance to [[Mort Myre Swamp]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187519,
+      "sourceSha256": "b066118ef53b94e41af3aa6941aa6b3c26f7745f015bd269a767becda0b422b4",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19619"
+        },
+        {
+          "field": "name",
+          "value": "Salve graveyard teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19621,
+      "title": "Fenkenstrain's castle teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Fenkenstrain's castle teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Fenkenstrain's Castle]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187520,
+      "sourceSha256": "b9afd4b2d25d0c737a791b8663c45b0cad220aafbc19e8ed9ea27a0e9dc546c1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19621"
+        },
+        {
+          "field": "name",
+          "value": "Fenkenstrain's castle teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19623,
+      "title": "West ardougne teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''West ardougne teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[West Ardougne]]. Completion of [[Biohazard]] is required to use this tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187521,
+      "sourceSha256": "7edf3c0777c9d1793a62402b0e483d3e7dfa656b199ed0685e81736055664f67",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19623"
+        },
+        {
+          "field": "name",
+          "value": "West ardougne teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19625,
+      "title": "Harmony island teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Harmony island teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Harmony Island]]. Completion of [[The Great Brain Robbery]] is required to use this tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187522,
+      "sourceSha256": "ad9e908b204d924c3899453ca066071e699555cfd105a892ed21df9f97d7a2b6",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19625"
+        },
+        {
+          "field": "name",
+          "value": "Harmony island teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19627,
+      "title": "Cemetery teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Cemetery teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[The Forgotten Cemetery]] in level 31 [[Wilderness]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187523,
+      "sourceSha256": "7f161dd96b1a03fa91fd2477c48dde34c3da283ab50fe13d1ba5e3d5dca6701f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19627"
+        },
+        {
+          "field": "name",
+          "value": "Cemetery teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19629,
+      "title": "Barrows teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Barrows teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Barrows]]. To use this tablet, the user must have completed the [[Priest in Peril]] [[quest]] and must have passed through the barrier to [[Morytania]] at least once.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187524,
+      "sourceSha256": "292b0f8e89eed88b7cbcfbdfb79a44c1ca5c0435442d6179e86bac286ce6de8f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19629"
+        },
+        {
+          "field": "name",
+          "value": "Barrows teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19631,
+      "title": "Ape atoll teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Ape atoll teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Ape Atoll Dungeon]]. Completion of [[Monkey Madness I]] is required to use this tablet. Neither the post-quest 10th squad training from [[Daero]] nor [[Recipe for Disaster/Freeing King Awowogei|Freeing King Awowogei]] [[Recipe for Disaster]] subquest need to be completed.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15187525,
+      "sourceSha256": "2bda8da06c61bc79740fd3f6168e47539d3d10e072c1f1ca2d145275087c41f2",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19631"
+        },
+        {
+          "field": "name",
+          "value": "Ape atoll teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 19651,
+      "title": "Hosidius teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Hosidius teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Hosidius]] [[house portal]]. It can be created at level 25 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309320,
+      "sourceSha256": "c106b5306868fef872eb3779821c0425ee923ee28732b1597bd0b503a60044da",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19651"
+        },
+        {
+          "field": "name",
+          "value": "Hosidius teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 21541,
+      "title": "Volcanic mine teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Volcanic mine teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Volcanic Mine]] entrance on the [[Fossil Island Volcano]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15188411,
+      "sourceSha256": "3a00d3ac089ffa48033667b8d6801e53fed6e8bdeae13b8a44701b14803ef9bd",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21541"
+        },
+        {
+          "field": "name",
+          "value": "Volcanic mine teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 21802,
+      "title": "Revenant cave teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Revenant cave teleport''' scrolls are consumable [[teleport scrolls]] that can teleport the player to any of the three [[Revenant Caves]] entrances. They can be obtained from defeating [[revenants]] or monsters in the [[Wilderness Slayer Cave]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15231579,
+      "sourceSha256": "9c5087e1dbbec57d02df1ff9c0e4b9046e5877963e41a89b7f345f708d2b9a30",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21802"
+        },
+        {
+          "field": "name",
+          "value": "Revenant cave teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Config, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 22949,
+      "title": "Battlefront teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Battlefront teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the ancient grave just outside the [[Battlefront]] in the [[Kebos Lowlands]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189104,
+      "sourceSha256": "60b4f856345bdc0dc639a5d3baaa4e2833b62874c88e5114d39739aaa4cec8c5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22949"
+        },
+        {
+          "field": "name",
+          "value": "Battlefront teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 23387,
+      "title": "Watson teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Watson teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to [[Watson's house]] in [[Hosidius]]. They are obtained by exchanging empty [[master scroll book]]s with Watson. Each book given will reward the player with 10-20 scrolls.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15257420,
+      "sourceSha256": "f00d95155b9646e2f2f593b7efce81504dbf585e3251909db5bd1b3837cce4f2",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23387"
+        },
+        {
+          "field": "name",
+          "value": "Watson teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 23771,
+      "title": "Prifddinas teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Prifddinas teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Prifddinas]] [[house portal]] in the [[Ithell Clan]] district. It can be created after completion of [[Song of the Elves]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309322,
+      "sourceSha256": "ffdb08fa011beee89e3a76b80d071b042b626b9ba8222eda51410aac2423e1c5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23771"
+        },
+        {
+          "field": "name",
+          "value": "Prifddinas teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24251,
+      "title": "Wilderness crabs teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Wilderness crabs teleport''' is a [[magic tablet]] that can be broken to teleport the player to the [[raw dark crab|dark crab]] fishing spots in level 33 eastern [[Wilderness]], a single-way combat zone south-east of [[Venenatis]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15271148,
+      "sourceSha256": "0bce46244e0398d1c273410b833367836eb9794473529160b3429435e0fd6263",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24251"
+        },
+        {
+          "field": "name",
+          "value": "Wilderness crabs teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24951,
+      "title": "Ourania teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Ourania teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] outside of the [[Ourania Cave]] and the [[Ourania Altar]], providing that they have completed [[Lunar Diplomacy]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189871,
+      "sourceSha256": "59a4792a7a23450a877ec9d6ee14ff9d4c99855c79ed84678b8642c235ef5e32",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24951"
+        },
+        {
+          "field": "name",
+          "value": "Ourania teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24953,
+      "title": "Waterbirth teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Waterbirth teleport''' is a [[magic tablet]] that can be broken by players to teleport beside Jarvald's ship on [[Waterbirth Island]], right by the [[snape grass]] [[Item spawn|spawns]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189872,
+      "sourceSha256": "0c1b1f0bd03adbcf3ae5a9fd629bc2186f7b0168c3445e15644b1f8ebfa915d4",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24953"
+        },
+        {
+          "field": "name",
+          "value": "Waterbirth teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24955,
+      "title": "Barbarian teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Barbarian teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Barbarian Outpost]], north-east of the [[Tree Gnome Stronghold]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189873,
+      "sourceSha256": "261d0be7e3209a7192dd622a8094b4da470cd8828bba9122ef26f972a2a05d90",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24955"
+        },
+        {
+          "field": "name",
+          "value": "Barbarian teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24957,
+      "title": "Khazard teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Khazard teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Port Khazard]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189874,
+      "sourceSha256": "a054f5f7fca320d4d226e149555b6cc063d575ad38453594e9707ccb106332c3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24957"
+        },
+        {
+          "field": "name",
+          "value": "Khazard teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24959,
+      "title": "Fishing guild teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Fishing guild teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] outside the entrance of the [[Fishing Guild]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189875,
+      "sourceSha256": "b962659e0912b7005585c995512b070cc20aa64b0a466a87032565605ddd3f56",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24959"
+        },
+        {
+          "field": "name",
+          "value": "Fishing guild teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24961,
+      "title": "Catherby teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Catherby teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the area near the bank in [[Catherby]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189876,
+      "sourceSha256": "ac931fa11b2d3d6ce9a148d462627d42a4b65e0721030ff2374422c1ace78709",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24961"
+        },
+        {
+          "field": "name",
+          "value": "Catherby teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 24963,
+      "title": "Ice plateau teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Ice plateau teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the members half of the [[Ice Plateau]] in level 53 [[Wilderness]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15189877,
+      "sourceSha256": "7167297232066d88b00fb8aae4c5b92da822ba011105bf98b08a7491c7554468",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24963"
+        },
+        {
+          "field": "name",
+          "value": "Ice plateau teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Configure, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 26577,
+      "title": "Plain of Mud sphere",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "semanticExcerpt": "'''Plain of Mud sphere''' [[teleport]]s the player to a random location within the [[Goblin Cave]]/Plain of Mud. They can be purchased after the [[Land of the Goblins]] [[quest]], and are identical in appearance to [[Goblin village sphere]]s. The sphere is consumed upon use and does not work beyond level 20 [[Wilderness]]. A [[skills necklace]]'s teleport to the [[Fishing Guild]] can be used in place of the sphere, as it brings players just outside of the Goblin Cave.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15307506,
+      "sourceSha256": "daaa310b5f2a9eeb6959dd2c80fa2316f91cbde6ac65870280d60fc1687c9045",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26577"
+        },
+        {
+          "field": "name",
+          "value": "Plain of Mud sphere"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "[[Land of the Goblins]]"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 28790,
+      "title": "Kourend castle teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Kourend castle teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to the [[Kourend Castle]] courtyard, by the statue of King Rada I. Using the tablet requires completion of the [[quest]] [[Client of Kourend]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15287395,
+      "sourceSha256": "59146ab239c9cdb33776f4ecdf25d2a8895414feaf3b4e7857c8a50d0393dcea",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28790"
+        },
+        {
+          "field": "name",
+          "value": "Kourend castle teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 28824,
+      "title": "Civitas illa fortis teleport (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Civitas illa Fortis teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] to [[Civitas illa Fortis]]. Using the tablet requires completion of [[Twilight's Promise]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15192363,
+      "sourceSha256": "3a48cdc42006bfd0783879eb61ac5d2452d9f8845f95524e9adbaa076905bea7",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28824"
+        },
+        {
+          "field": "name",
+          "value": "Civitas illa fortis teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 29684,
+      "title": "Guthixian temple teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Guthixian temple teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the entrance of the [[Ancient Guthixian Temple]]. They can be obtained as a drop from [[Tormented Demon|Tormented Demons]]. They can be stored in the [[master scroll book]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15192605,
+      "sourceSha256": "98d85e589476c1bf840f9636f1b98d3b8d2e97c602ba6ba8954712025a13f2be",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29684"
+        },
+        {
+          "field": "name",
+          "value": "Guthixian temple teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 29782,
+      "title": "Spider cave teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Spider cave teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the entrance of the [[Morytania Spider Cave]]. They can be obtained from defeating [[Araxxor]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15192620,
+      "sourceSha256": "5a59cbe54d2a9bd00aefc04770b9321d4f5ed272574d85fdd277d8a3de29b5cd",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29782"
+        },
+        {
+          "field": "name",
+          "value": "Spider cave teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 30040,
+      "title": "Colossal wyrm teleport scroll",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Colossal Wyrm teleport scroll''' are consumable [[teleport scrolls]] that teleport the player to the [[Colossal Wyrm Remains]]. They can be purchased from [[Worm Tongue's Wares]] for 40 [[termites]] obtained from the [[Colossal Wyrm Agility Course]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15192735,
+      "sourceSha256": "05284e0cb7ac6458a0ac5a853ebbc12b4f01adbc47d53cf832cf10715d6420e0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30040"
+        },
+        {
+          "field": "name",
+          "value": "Colossal wyrm teleport scroll"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 30149,
+      "title": "Aldarin teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''Aldarin teleport''' is a [[magic tablet]] that can be broken by players to [[Teleportation|teleport]] just outside the [[Aldarin]] [[house portal]]. It can be created at level 35 [[Construction]] by using a [[scroll of redirection]] on a [[teleport to house]] tablet.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15309317,
+      "sourceSha256": "e989e14863f5baacc4356b7adc32911b48e9d7cc7bcf969ba464836d2d6836b4",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30149"
+        },
+        {
+          "field": "name",
+          "value": "Aldarin teleport"
+        },
+        {
+          "field": "options",
+          "value": "Break, Revert, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 30775,
+      "title": "Chasm teleport scroll",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Chasm teleport scrolls''' are consumable [[teleport scrolls]] that teleport the player to the bottom of the [[Chasm of Fire]] next to the [[Voice of Yama]]. They can be obtained from defeating [[Yama]] and by opening [[dossier]]s. On average, Yama drops one teleport scroll approximately every 2.91 kills, including via dossiers.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15350393,
+      "sourceSha256": "8d22efaef3122499e4a3716fc7cc0012306c26e6806df7f892215bf553840c18",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30775"
+        },
+        {
+          "field": "name",
+          "value": "Chasm teleport scroll"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 31443,
+      "title": "Teleport to boat (tablet)",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-tablet",
+      "semanticExcerpt": "'''teleport to boat''' tablet is a [[magic tablet]] that can be broken by players to [[teleport]] to their [[boat]]. Similar to the [[Teleport to Boat]] spell, the desired boat must have a [[Greater teleport focus (facility)|greater teleport focus]] built in order to teleport to it.",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15356640,
+      "sourceSha256": "86b71c553bab5a4fdca0e534b3a4731796eb143710d03162e1adbb70d86b34bc",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31443"
+        },
+        {
+          "field": "name",
+          "value": "Teleport to boat"
+        },
+        {
+          "field": "options",
+          "value": "Break, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    },
+    {
+      "itemId": 34033,
+      "title": "Ardeaglais teleport",
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport-scroll",
+      "semanticExcerpt": "'''Ardeaglais teleport''' scrolls are consumable [[teleport scrolls]] that teleport the player to the entrance of [[Ardeaglais]] on [[Wyrmscraig]]. It is dropped by the [[Mad Angel]], and can be stored in the [[master scroll book]].",
+      "secondaryExcerpts": [],
+      "sourceRevision": 15291623,
+      "sourceSha256": "0c66b057f0bc6b325ab5ae50683f5af1396f974b9c555543bced4805d9f5cb54",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "34033"
+        },
+        {
+          "field": "name",
+          "value": "Ardeaglais teleport"
+        },
+        {
+          "field": "options",
+          "value": "Teleport, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact own active non-equipment consumable moves the player to a destination, with source-defined requirements preserved. Its unchanged Teleport primary grouping is supported. Documented secondary uses and effects remain unassessed."
+    }
+  ]
+}
