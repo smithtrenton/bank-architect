@@ -59,6 +59,7 @@ tasks.register('exportEffectiveItemClassifications', JavaExec) {
 		project.findProperty('auditOutput') ?: 'tools/research/item-classification-audit/cache/effective-item-classifications.tsv',
 		project.findProperty('auditExcludedOutput') ?: 'tools/research/item-classification-audit/cache/excluded-cache-records.tsv'
 	)
+	if (project.hasProperty('auditCoverageOutput')) args project.property('auditCoverageOutput')
 }
 
 tasks.register('simulateRandomBanks', JavaExec) {

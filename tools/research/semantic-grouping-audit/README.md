@@ -70,6 +70,19 @@ Preserve exact identity and state. Record combat use, skill utility, ingredient 
 
 Missing exact-ID facts require typed cache links or direct variant research before canonical-state propagation. Wiki categories and title-level recipe relations alone cannot prove those links. The offline audit may suggest focused exact-ID corrections or new semantic families; it does not alter production classifications.
 
+## Check items outside the bundled registry
+
+The semantic baseline above enumerates named registry entries. To check the entire Wiki item-infobox dataset against the actual composite runtime catalog (including curated supplements), export separate coverage and run:
+
+```powershell
+.\gradlew.bat exportEffectiveItemClassifications '-PauditOutput=tmp/missing-item-audit/effective.tsv' '-PauditExcludedOutput=tmp/missing-item-audit/excluded.tsv' '-PauditCoverageOutput=tmp/missing-item-audit/coverage.tsv' --console=plain
+python tools/research/semantic-grouping-audit/check-missing-items.py --coverage tmp/missing-item-audit/coverage.tsv
+```
+
+`wiki-full-item-list.csv` preserves every infobox source and raw ID, including variants, removed items, nonnumeric namespaces and records without IDs. Numeric IDs are compared exactly with the compiled plugin catalog. `missing-items.csv` and `.json` contain every absent exact ID and all its source records. Runtime recognition and the older semantic audit's null-name/cache exclusions are separate columns. Supplemental catalog entries are included without changing the established registry-only audit or simulation baseline.
+
+`summary.json` reports distinct-ID counts; `manifest.json` hashes inputs and exports. Raw Bucket packets under `cache/` preserve queries, source URLs and acquisition times. Existing matching packets are reused; use `--refresh` or a new `--output` directory for a fresh acquisition. The download covers Wiki item infoboxes, not every Jagex cache record, and its missing IDs are candidates for review rather than automatic imports. No live account data is needed.
+
 ## Attribution
 
 OSRS Wiki facts and page text: [OSRS Wiki](https://oldschool.runescape.wiki/), CC BY-NC-SA 3.0. Bucket snapshots retain their query URLs and retrieval timestamps; article acquisitions and curated source metadata retain revision links where available. Bucket rows do not include per-page revision IDs. Bucket schema: [RuneScape:Bucket](https://oldschool.runescape.wiki/w/RuneScape:Bucket). Local memberships and effective classification are this repository's original baseline. Preserve attribution and confidence/scope fields when sharing derived research.

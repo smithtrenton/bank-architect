@@ -128,8 +128,19 @@ public class StaticItemCatalogTest
 	public void noDuplicateItemIdsInStaticCatalog()
 	{
 		Set<Integer> uniqueIds = new HashSet<>(VERIFIED_PHASE_B_ITEM_IDS);
-		uniqueIds.add(34024);
+		uniqueIds.addAll(Arrays.asList(34024, 34401, 34428));
+		assertEquals(uniqueIds, StaticItemCatalog.INSTANCE.itemIds());
 		assertEquals(uniqueIds.size(), StaticItemCatalog.INSTANCE.size());
+	}
+
+	@Test
+	public void supplementalNecklacesHaveVerifiedCombatRoles()
+	{
+		assertCategoryAndTags(34401, ItemCategory.GEAR, "ranged-gear");
+		assertCategoryAndTags(34428, ItemCategory.GEAR, "magic-gear", "spell-enhancement");
+		assertEquals("Necklace of Fangs", StaticItemCatalog.INSTANCE.describeOrUnknown(34401).getDisplayName());
+		assertEquals("Elemental amulet", StaticItemCatalog.INSTANCE.describeOrUnknown(34428).getDisplayName());
+		assertEquals("neck", StaticItemCatalog.INSTANCE.describeOrUnknown(34428).getSubcategory());
 	}
 
 	private static void assertThrowsIllegalArgument(Runnable action)

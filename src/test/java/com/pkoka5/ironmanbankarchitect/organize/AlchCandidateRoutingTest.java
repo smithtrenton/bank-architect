@@ -23,7 +23,7 @@ public class AlchCandidateRoutingTest
 
 	@Test public void knownUsesProtectOrdinaryReviewedAndBulkStockFromAutomaticAlchRouting()
 	{
-		for (String role : Arrays.asList("clue-required", "clue-utility", "quest-use", "special-attack", "skilling-outfit",
+		for (String role : Arrays.asList("clue-required", "clue-utility", "quest-use", "special-attack", "spell-enhancement", "skilling-outfit",
 			"prayer-gear", "warm-clothing", "weight-reducing", "ranged-ammunition", "transport-access"))
 		{
 			for (int quantity : new int[]{1, 2, 25})

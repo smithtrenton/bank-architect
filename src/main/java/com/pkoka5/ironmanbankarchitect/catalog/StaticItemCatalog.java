@@ -39,6 +39,11 @@ public final class StaticItemCatalog implements ItemCatalog
 		return itemsById.size();
 	}
 
+	public Set<Integer> itemIds()
+	{
+		return itemsById.keySet();
+	}
+
 	private static Map<Integer, CatalogItem> buildItems()
 	{
 		Map<Integer, CatalogItem> items = new LinkedHashMap<>();
@@ -62,6 +67,11 @@ public final class StaticItemCatalog implements ItemCatalog
 
 		put(items, 34024, "Jeweller's chisel", ItemCategory.TOOL, "crafting-tool",
 			Collections.emptySet(), null);
+		// Exact Wiki IDs: oldid=15350594 and oldid=15344299, respectively.
+		put(items, 34401, "Necklace of Fangs", ItemCategory.GEAR, "neck",
+			tags("ranged-gear", "collection-log"), null);
+		put(items, 34428, "Elemental amulet", ItemCategory.GEAR, "neck",
+			tags("magic-gear", "spell-enhancement"), null);
 		return items;
 	}
 

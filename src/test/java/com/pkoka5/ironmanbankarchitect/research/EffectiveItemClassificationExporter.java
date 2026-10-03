@@ -2,6 +2,7 @@ package com.pkoka5.ironmanbankarchitect.research;
 
 import com.pkoka5.ironmanbankarchitect.catalog.CatalogItem;
 import com.pkoka5.ironmanbankarchitect.catalog.CompositeItemCatalog;
+import com.pkoka5.ironmanbankarchitect.catalog.StaticItemCatalog;
 import com.pkoka5.ironmanbankarchitect.organize.BankPresets;
 import com.pkoka5.ironmanbankarchitect.organize.PresetCategoryMapper;
 import java.io.BufferedReader;
@@ -39,11 +40,12 @@ public final class EffectiveItemClassificationExporter
 
 	public static void main(String[] args) throws Exception
 	{
-		if (args.length != 3)
+		if (args.length != 3 && args.length != 4)
 		{
-			throw new IllegalArgumentException("Expected registry, output and excluded-output paths");
+			throw new IllegalArgumentException("Expected registry, output, excluded-output and optional coverage-output paths");
 		}
 		ExportStats stats = export(Paths.get(args[0]), Paths.get(args[1]), Paths.get(args[2]));
+		if (args.length == 4) exportCoverage(Paths.get(args[0]), Paths.get(args[3]));
 		System.out.println("Effective records: " + stats.included);
 		System.out.println("Excluded cache records: " + stats.excluded);
 		System.out.println("Duplicate display-name groups: " + stats.duplicateNameGroups);
@@ -129,6 +131,47 @@ public final class EffectiveItemClassificationExporter
 
 		long duplicateGroups = duplicateCounts.values().stream().filter(count -> count > 1).count();
 		return new ExportStats(included.size(), excluded.size(), duplicateGroups);
+	}
+
+	static void exportCoverage(Path registryPath, Path outputPath) throws IOException
+	{
+		Map<Integer, RawRecord> records = new LinkedHashMap<>();
+		for (String line : Files.readAllLines(registryPath, StandardCharsets.UTF_8))
+		{
+			if (line.trim().isEmpty() || line.startsWith("#")) continue;
+			String[] cells = line.split("\\t", -1);
+			if (cells.length != 4) throw new IllegalArgumentException("Expected four registry columns: " + line);
+			int id = Integer.parseInt(cells[0].replace("\uFEFF", ""));
+			if (id <= 0 || records.putIfAbsent(id, new RawRecord(id, cells[1], cells[3])) != null)
+				throw new IllegalArgumentException("Invalid or duplicate registry ID: " + id);
+		}
+		Set<Integer> registryIds = new LinkedHashSet<>(records.keySet());
+		for (int id : StaticItemCatalog.INSTANCE.itemIds())
+			records.putIfAbsent(id, new RawRecord(id, "", ""));
+		List<Integer> ids = new ArrayList<>(records.keySet());
+		ids.sort(Integer::compareTo);
+		createParent(outputPath);
+		try (BufferedWriter writer = Files.newBufferedWriter(outputPath, StandardCharsets.UTF_8))
+		{
+			writer.write("itemId\tregistryName\tconstantName\tauditScope\tcatalogName\titemCategory\tironmanTabKey");
+			writer.newLine();
+			for (int id : ids)
+			{
+				RawRecord record = records.get(id);
+				CatalogItem item = CompositeItemCatalog.DEFAULT.describeOrUnknown(id);
+				String scope = !registryIds.contains(id) ? "SUPPLEMENTAL"
+					: isNullLike(record.registryName) ? "NULL_NAME"
+					: isCacheOnly(record) ? "EXCLUDED_CACHE" : "NAMED_EFFECTIVE";
+				writer.write(Integer.toString(id));
+				writeCell(writer, record.registryName);
+				writeCell(writer, record.constantName);
+				writeCell(writer, scope);
+				writeCell(writer, item.getDisplayName());
+				writeCell(writer, item.getCategory().name());
+				writeCell(writer, PresetCategoryMapper.map(BankPresets.IRONMAN, item).getKey());
+				writer.newLine();
+			}
+		}
 	}
 
 	private static RawRecord parse(String line)

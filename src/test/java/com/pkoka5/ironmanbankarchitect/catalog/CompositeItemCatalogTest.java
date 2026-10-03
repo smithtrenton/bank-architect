@@ -36,14 +36,17 @@ public class CompositeItemCatalogTest
 		BankCatalogSummary summary = BankCatalogSummarizer.summarize(new BankSnapshot(Arrays.asList(
 			new BankItemSnapshot(5297, 1, 0),
 			new BankItemSnapshot(995, 1, 1),
-			new BankItemSnapshot(999999, 1, 2)
+			new BankItemSnapshot(999999, 1, 2),
+			new BankItemSnapshot(34401, 1, 64),
+			new BankItemSnapshot(34428, 1, 66)
 		)), CompositeItemCatalog.DEFAULT);
 
-		assertEquals(2, summary.getKnownIdCount());
+		assertEquals(4, summary.getKnownIdCount());
+		assertEquals(2, summary.countFor(ItemCategory.GEAR));
 		assertEquals(1, summary.getUnknownIdCount());
 		assertEquals(1, summary.countFor(ItemCategory.FARMING));
 		assertEquals(1, summary.countFor(ItemCategory.CURRENCY));
-		assertTrue(summary.toOverviewText().contains("Recognized item IDs: 2"));
+		assertTrue(summary.toOverviewText().contains("Recognized item IDs: 4"));
 	}
 
 	@Test
