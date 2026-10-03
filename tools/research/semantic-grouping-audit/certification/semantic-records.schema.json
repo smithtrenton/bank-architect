@@ -1,0 +1,822 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ironman-bank-architect:semantic-item-assertion:v1",
+  "title": "Exact item semantic assertion",
+  "description": "One JSONL record per exact item and tag, fact, or typed identity assertion. Cross-field and evidence integrity checks are defined in README.md.",
+  "type": "object",
+  "required": [
+    "formatVersion",
+    "runId",
+    "recordType",
+    "itemId",
+    "status",
+    "reviewStage",
+    "recordId",
+    "predicateVersion"
+  ],
+  "properties": {
+    "formatVersion": {
+      "const": "semantic-item-assertion/v1"
+    },
+    "runId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recordType": {
+      "enum": [
+        "tag-assessment",
+        "category-assessment",
+        "fact-assessment",
+        "identity-link"
+      ]
+    },
+    "itemId": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "itemName": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "supported",
+        "refuted",
+        "unassessed",
+        "needs-review"
+      ]
+    },
+    "reviewStage": {
+      "enum": [
+        "candidate",
+        "root-approved"
+      ]
+    },
+    "predicate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baselineCatalogAssignment": {
+      "enum": [
+        "present",
+        "absent",
+        "not-recorded"
+      ]
+    },
+    "state": {
+      "type": "object",
+      "required": [
+        "scope"
+      ],
+      "properties": {
+        "scope": {
+          "enum": [
+            "exact-item-state",
+            "all-states",
+            "unspecified"
+          ]
+        },
+        "variantParameters": {
+          "type": "object"
+        },
+        "qualifiers": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "factValue": {},
+    "factUnit": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*:[a-z][a-z0-9-]*$"
+    },
+    "factRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^claim-[0-9a-f]{64}$"
+      },
+      "uniqueItems": true
+    },
+    "tag": {
+      "type": "object",
+      "required": [
+        "namespace",
+        "name"
+      ],
+      "properties": {
+        "namespace": {
+          "const": "usage-tag"
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "definitionVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "definitionStatus": {
+          "enum": [
+            "registered",
+            "unregistered"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "category": {
+      "type": "object",
+      "required": [
+        "namespace",
+        "name"
+      ],
+      "properties": {
+        "namespace": {
+          "const": "primary-category"
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]*$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "fact": {
+      "type": "object",
+      "required": [
+        "namespace",
+        "name",
+        "valueType"
+      ],
+      "properties": {
+        "namespace": {
+          "const": "item-fact"
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9.-]*$"
+        },
+        "valueType": {
+          "enum": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "object",
+            "array"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationship": {
+      "type": "object",
+      "required": [
+        "namespace",
+        "name",
+        "fromItemId",
+        "toItemId"
+      ],
+      "properties": {
+        "namespace": {
+          "const": "typed-identity"
+        },
+        "name": {
+          "enum": [
+            "NOTE_VARIANT_OF",
+            "PLACEHOLDER_FOR",
+            "BOUGHT_VARIANT_OF"
+          ]
+        },
+        "fromItemId": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "toItemId": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualifiers": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "derivation": {
+      "type": "object",
+      "required": [
+        "ruleId",
+        "ruleVersion",
+        "inputRecordIds"
+      ],
+      "properties": {
+        "ruleId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ruleVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inputRecordIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "reviewer",
+        "reviewedAt",
+        "approvalRef",
+        "approvalPolicySha256",
+        "claimSha256",
+        "approvalScope"
+      ],
+      "properties": {
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "approvalRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "approvalPolicySha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "claimSha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "approvalScope": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "primary-placement",
+              "usage-tag",
+              "item-fact",
+              "typed-identity"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "recordId": {
+      "type": "string",
+      "pattern": "^claim-[0-9a-f]{64}$"
+    },
+    "predicateVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "extensions": {
+      "type": "object"
+    },
+    "catalog": {
+      "type": "object",
+      "required": [
+        "category",
+        "subcategory",
+        "ironmanTabKey"
+      ],
+      "properties": {
+        "category": {
+          "type": "string"
+        },
+        "subcategory": {
+          "type": "string"
+        },
+        "ironmanTabKey": {
+          "type": "string"
+        },
+        "auditScope": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "sourceObservation": {
+      "type": "object",
+      "description": "Original extraction retained without semantic approval. Keep raw fields, literal prose and selector context for future interpretation."
+    },
+    "claimSource": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable source/interpretation identity, not revision or asserted value; permits separate conflicting observations."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "tag-assessment"
+          }
+        },
+        "required": [
+          "recordType"
+        ]
+      },
+      "then": {
+        "required": [
+          "tag",
+          "predicate",
+          "baselineCatalogAssignment"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "category-assessment"
+          }
+        },
+        "required": [
+          "recordType"
+        ]
+      },
+      "then": {
+        "required": [
+          "category",
+          "predicate",
+          "baselineCatalogAssignment"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          }
+        },
+        "required": [
+          "recordType"
+        ]
+      },
+      "then": {
+        "required": [
+          "fact",
+          "predicate",
+          "state",
+          "factValue"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "identity-link"
+          }
+        },
+        "required": [
+          "recordType"
+        ]
+      },
+      "then": {
+        "required": [
+          "relationship",
+          "predicate"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "supported",
+              "refuted"
+            ]
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "required": [
+          "evidence"
+        ],
+        "properties": {
+          "evidence": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "reviewStage": {
+            "const": "root-approved"
+          }
+        },
+        "required": [
+          "reviewStage"
+        ]
+      },
+      "then": {
+        "required": [
+          "review"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          },
+          "fact": {
+            "properties": {
+              "valueType": {
+                "const": "string"
+              }
+            },
+            "required": [
+              "valueType"
+            ]
+          }
+        },
+        "required": [
+          "recordType",
+          "fact"
+        ]
+      },
+      "then": {
+        "properties": {
+          "factValue": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          },
+          "fact": {
+            "properties": {
+              "valueType": {
+                "const": "number"
+              }
+            },
+            "required": [
+              "valueType"
+            ]
+          }
+        },
+        "required": [
+          "recordType",
+          "fact"
+        ]
+      },
+      "then": {
+        "properties": {
+          "factValue": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "factUnit"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          },
+          "fact": {
+            "properties": {
+              "valueType": {
+                "const": "integer"
+              }
+            },
+            "required": [
+              "valueType"
+            ]
+          }
+        },
+        "required": [
+          "recordType",
+          "fact"
+        ]
+      },
+      "then": {
+        "properties": {
+          "factValue": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "factUnit"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          },
+          "fact": {
+            "properties": {
+              "valueType": {
+                "const": "boolean"
+              }
+            },
+            "required": [
+              "valueType"
+            ]
+          }
+        },
+        "required": [
+          "recordType",
+          "fact"
+        ]
+      },
+      "then": {
+        "properties": {
+          "factValue": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          },
+          "fact": {
+            "properties": {
+              "valueType": {
+                "const": "object"
+              }
+            },
+            "required": [
+              "valueType"
+            ]
+          }
+        },
+        "required": [
+          "recordType",
+          "fact"
+        ]
+      },
+      "then": {
+        "properties": {
+          "factValue": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "recordType": {
+            "const": "fact-assessment"
+          },
+          "fact": {
+            "properties": {
+              "valueType": {
+                "const": "array"
+              }
+            },
+            "required": [
+              "valueType"
+            ]
+          }
+        },
+        "required": [
+          "recordType",
+          "fact"
+        ]
+      },
+      "then": {
+        "properties": {
+          "factValue": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "reviewStage": {
+            "const": "root-approved"
+          }
+        },
+        "required": [
+          "reviewStage"
+        ]
+      },
+      "then": {
+        "properties": {
+          "status": {
+            "enum": [
+              "supported",
+              "refuted",
+              "needs-review"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^(sha256:)?[0-9a-fA-F]{64}$"
+    },
+    "evidence": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "subjectItemId",
+            "sourceTitle",
+            "sourceUrl",
+            "sourceRevision",
+            "sourceSha256",
+            "exactVariant",
+            "quote"
+          ],
+          "properties": {
+            "kind": {
+              "const": "exact-wiki"
+            },
+            "subjectItemId": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourceUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "sourceRevision": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sourceSha256": {
+              "$ref": "#/$defs/sha256"
+            },
+            "exactVariant": {
+              "type": "object",
+              "required": [
+                "itemId",
+                "fields",
+                "idField",
+                "idFieldLiteral",
+                "infoboxRaw"
+              ],
+              "properties": {
+                "itemId": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "fields": {
+                  "type": "object",
+                  "minProperties": 1
+                },
+                "idField": {
+                  "type": "string",
+                  "pattern": "^id[0-9]*$"
+                },
+                "idFieldLiteral": {
+                  "type": "string"
+                },
+                "infoboxRaw": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourcePath": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "source",
+            "sourceSha256",
+            "quote"
+          ],
+          "properties": {
+            "kind": {
+              "const": "local-source"
+            },
+            "source": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourceRevision": {
+              "type": "string"
+            },
+            "sourceSha256": {
+              "$ref": "#/$defs/sha256"
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "fromItemId",
+            "toItemId",
+            "relation",
+            "source",
+            "sourceRevision",
+            "sourceSha256"
+          ],
+          "properties": {
+            "kind": {
+              "const": "typed-identity"
+            },
+            "fromItemId": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "toItemId": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "relation": {
+              "enum": [
+                "NOTE_VARIANT_OF",
+                "PLACEHOLDER_FOR",
+                "BOUGHT_VARIANT_OF"
+              ]
+            },
+            "source": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourceRevision": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourceSha256": {
+              "$ref": "#/$defs/sha256"
+            },
+            "fields": {
+              "type": "object"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

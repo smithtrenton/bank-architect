@@ -1,0 +1,36 @@
+{
+  "formatVersion": "semantic-snapshot/v1",
+  "runId": "snapshot-04a12fc7524a80f3",
+  "sourceGitRevision": "3ebac912080b817363960403c43761f0b62a486c",
+  "inputs": {
+    "tmp\\category-certification\\after-coverage.tsv": "1865f35dbfeef4d42f1b6703012fe6eeb4b1d4b0bb452e9259ae19480a294ce3",
+    "tmp\\root-review\\global-unbankable-candidate-v1\\exact-bankable-no.jsonl": "3f79468cf3466eef02e415b296b472f0a8c68913cf8adb1107bca23e622ee6c8",
+    "tmp\\category-certification\\root-review\\metadata-snapshot-independent-v1\\wiki-exact-variant-observations.jsonl": "b8392833a19c760a0be93b3003f8fe9d94a1d7ac381066a6221123b70e23790f"
+  },
+  "schemaSha256": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a",
+  "toolSha256": "7f1e422463d53d58ffae16ccfbfe637c8b6d05f24b0acec9c0419924c294a47a",
+  "recordsPath": "docs\\research\\category-certification\\semantic-records-baseline.jsonl.gz",
+  "recordsSha256": "e7137af4ea3757e04e8e58a53c726b774f2d3e3a115fd3b695e807c4bd02aa2a",
+  "decompressedSha256": "83b846f34450bd30122db29db30df22240a73f46a02b59e45ed52c3696e49a54",
+  "coverageItems": 34085,
+  "recordCounts": {
+    "category-assessment": 34085,
+    "fact-assessment": 16766,
+    "tag-assessment": 1926
+  },
+  "outsideObservationIds": [
+    33833,
+    34016,
+    34044,
+    34045,
+    34046,
+    34054,
+    34055,
+    34056,
+    34059,
+    34598,
+    34599,
+    34600
+  ],
+  "approvalScope": "No new semantic approval; catalog imports and raw observations are unassessed"
+}
