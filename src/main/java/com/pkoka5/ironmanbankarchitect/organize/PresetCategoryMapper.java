@@ -18,11 +18,7 @@ public final class PresetCategoryMapper
 		5509, 5510, 5511, 5512, 5513, 5514, 5515, 26784, 26786, 5521);
 	private static final Set<Integer> IRONMAN_UTILITY_CONTAINER_IDS = ids(19634);
 	private static final Set<Integer> IRONMAN_REVIEWED_TOOL_IDS = ids(13392, 25781);
-	private static final Set<Integer> IRONMAN_REVIEWED_LOOT_IDS = ids(
-		1201,
-		ItemID.TOME_OF_FIRE_UNCHARGED,
-		ItemID.TOME_OF_WATER_UNCHARGED,
-		ItemID.TOME_OF_EARTH_UNCHARGED);
+	private static final Set<Integer> IRONMAN_REVIEWED_LOOT_IDS = ids(1201);
 	private static final Set<Integer> IRONMAN_REVIEWED_CLEANUP_IDS = ids(762, 1588);
 
 	private PresetCategoryMapper()

@@ -3525,3 +3525,110 @@
 7575	POTION	food	Tchiki nut paste; Wiki revision 15184445
 25979	GEAR	weapon	Keris partisan; Wiki revision 15254688
 6051	HERBLORE	secondary	Magic roots; Wiki revision 15317723
+# Root-reviewed functional and fun equipment; certification/cleanup-gear-approved-policy.json
+3327	GEAR	head	Myre snelm; Wiki revision 15188707
+3331	GEAR	head	Ochre snelm; Wiki revision 15358143
+3333	GEAR	head	Bruise blue snelm; Wiki revision 15188709
+3341	GEAR	head	Pointed ochre snelm; Wiki revision 15188710
+3343	GEAR	head	Pointed bruise blue snelm; Wiki revision 15237917
+6326	GEAR	head	Snakeskin bandana; Wiki revision 15241563
+7400	GEAR	head	Enchanted hat; Wiki revision 15324861
+7433	GEAR	weapon	Wooden spoon; Wiki revision 15184139
+7435	GEAR	weapon	Egg whisk; Wiki revision 15182987
+7437	GEAR	weapon	Spork; Wiki revision 15184140
+7439	GEAR	2h	Spatula; Wiki revision 15183232
+7441	GEAR	weapon	Frying pan; Wiki revision 15183026
+7443	GEAR	weapon	Skewer; Wiki revision 15183219
+7445	GEAR	weapon	Rolling pin; Wiki revision 15322429
+7451	GEAR	weapon	Cleaver; Wiki revision 15182941
+7537	GEAR	hands	Crab claw; Wiki revision 15320282
+8901	GEAR	head	Black mask; Wiki revision 15290821
+8903	GEAR	head	Black mask; Wiki revision 15290821
+8905	GEAR	head	Black mask; Wiki revision 15290821
+8907	GEAR	head	Black mask; Wiki revision 15290821
+8909	GEAR	head	Black mask; Wiki revision 15290821
+8911	GEAR	head	Black mask; Wiki revision 15290821
+8921	GEAR	head	Black mask; Wiki revision 15290821
+10487	CLUE	cosmetic	Undead chicken (item); Wiki revision 15359768
+11666	GEAR	neck	Void seal; Wiki revision 15184504
+11667	GEAR	neck	Void seal; Wiki revision 15184504
+11668	GEAR	neck	Void seal; Wiki revision 15184504
+11669	GEAR	neck	Void seal; Wiki revision 15184504
+11774	GEAR	head	Black mask (i); Wiki revision 15345633
+11775	GEAR	head	Black mask (i); Wiki revision 15345633
+11776	GEAR	head	Black mask (i); Wiki revision 15345633
+11777	GEAR	head	Black mask (i); Wiki revision 15345633
+11778	GEAR	head	Black mask (i); Wiki revision 15345633
+11779	GEAR	head	Black mask (i); Wiki revision 15345633
+11784	GEAR	head	Black mask (i); Wiki revision 15345633
+12458	GEAR	body	Dark infinity top; Wiki revision 15186171
+12459	GEAR	legs	Dark infinity bottoms; Wiki revision 15186169
+12924	GEAR	2h	Toxic blowpipe; Wiki revision 15360428
+12926	GEAR	2h	Toxic blowpipe; Wiki revision 15360428
+13652	GEAR	2h	Dragon claws; Wiki revision 15360497
+19675	GEAR	weapon	Arclight; Wiki revision 15353280
+19918	GEAR	2h	Nunchaku; Wiki revision 15324865
+19941	GEAR	2h	Heavy casket; Wiki revision 15325102
+20035	GEAR	head	Samurai kasa; Wiki revision 15325249
+20038	GEAR	body	Samurai shirt; Wiki revision 15325250
+20249	CLUE	cosmetic	Clueless scroll; Wiki revision 15324096
+20716	GEAR	shield	Tome of Fire; Wiki revision 15316547
+20756	GEAR	2h	Hill giant club; Wiki revision 15188023
+21000	GEAR	shield	Twisted buckler; Wiki revision 15188072
+22002	GEAR	shield	Dragonfire ward; Wiki revision 15188640
+22003	GEAR	shield	Dragonfire ward; Wiki revision 15188640
+22292	GEAR	weapon	Trident of the Swamp (e); Wiki revision 15317835
+22294	GEAR	weapon	Trident of the Swamp (e); Wiki revision 15317835
+22325	GEAR	2h	Scythe of Vitur; Wiki revision 15355929
+22326	GEAR	head	Justiciar faceguard; Wiki revision 15188776
+22327	GEAR	body	Justiciar chestguard; Wiki revision 15188777
+22328	GEAR	legs	Justiciar legguards; Wiki revision 15188778
+22486	GEAR	2h	Scythe of Vitur; Wiki revision 15355929
+22719	CLUE	cosmetic	Candy cane; Wiki revision 15189049
+22978	GEAR	weapon	Dragon hunter lance; Wiki revision 15264894
+23097	GEAR	body	Ornate top; Wiki revision 15189151
+23528	GEAR	weapon	Sarachnis cudgel; Wiki revision 15197800
+23995	GEAR	weapon	Blade of Saeldor; Wiki revision 15302256
+24327	CLUE	cosmetic	Skeleton lantern; Wiki revision 15189567
+24792	CLUE	cosmetic	Severed leg; Wiki revision 15246999
+25266	GEAR	head	Black mask (i); Wiki revision 15345633
+25267	GEAR	head	Black mask (i); Wiki revision 15345633
+25268	GEAR	head	Black mask (i); Wiki revision 15345633
+25269	GEAR	head	Black mask (i); Wiki revision 15345633
+25270	GEAR	head	Black mask (i); Wiki revision 15345633
+25271	GEAR	head	Black mask (i); Wiki revision 15345633
+25276	GEAR	head	Black mask (i); Wiki revision 15345633
+25576	GEAR	shield	Tome of Water; Wiki revision 15315430
+26221	GEAR	body	Ancient ceremonial top; Wiki revision 15190617
+26771	GEAR	head	Black mask (i); Wiki revision 15345633
+26772	GEAR	head	Black mask (i); Wiki revision 15345633
+26773	GEAR	head	Black mask (i); Wiki revision 15345633
+26774	GEAR	head	Black mask (i); Wiki revision 15345633
+26775	GEAR	head	Black mask (i); Wiki revision 15345633
+26776	GEAR	head	Black mask (i); Wiki revision 15345633
+26781	GEAR	head	Black mask (i); Wiki revision 15345633
+27226	GEAR	head	Masori mask; Wiki revision 15190624
+27287	GEAR	weapon	Keris partisan of corruption; Wiki revision 15315989
+28531	GEAR	weapon	Corrupted voidwaker; Wiki revision 15191591
+28534	GEAR	2h	Corrupted dragon claws; Wiki revision 15191592
+28543	GEAR	2h	Corrupted Scythe of Vitur; Wiki revision 15350112
+28545	GEAR	2h	Corrupted Scythe of Vitur; Wiki revision 15350112
+28834	GEAR	2h	Tecu salamander; Wiki revision 15257986
+28919	GEAR	weapon	Tonalztics of Ralos; Wiki revision 15358486
+28922	GEAR	weapon	Tonalztics of Ralos; Wiki revision 15358486
+29607	GEAR	weapon	Voidwaker (Deadman); Wiki revision 15299203
+29889	GEAR	2h	Glacial temotli; Wiki revision 15359046
+30066	GEAR	shield	Tome of Earth; Wiki revision 15310850
+30305	GEAR	weapon	Arclight; Wiki revision 15353280
+30384	GEAR	ammo	Crystal blessing; Wiki revision 15208804
+30386	GEAR	hands	Sunlit bracers; Wiki revision 15237683
+30753	GEAR	body	Oathplate chest; Wiki revision 15293122
+30759	GEAR	weapon	Soulflame horn; Wiki revision 15351939
+30891	GEAR	weapon	Keris partisan of amascut; Wiki revision 15314676
+30957	GEAR	2h	Earthbound tecpatl; Wiki revision 15193211
+31081	GEAR	shield	Antler guard; Wiki revision 15285772
+33041	GEAR	weapon	Thunder khopesh (Deadman Mode); Wiki revision 15262511
+33243	GEAR	2h	Infernal tecpatl; Wiki revision 15209880
+33249	GEAR	weapon	Fang of the hound; Wiki revision 15213366
+33631	GEAR	2h	Crimson kisten; Wiki revision 15360578
+33716	GEAR	weapon	Blisterwood stake; Wiki revision 15320434

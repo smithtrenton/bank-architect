@@ -5,7 +5,8 @@ ROOT=pathlib.Path(__file__).resolve().parents[4]
 HERE=pathlib.Path(__file__).resolve().parent
 
 def run(args):
- policy=json.loads(args.policy.read_text(encoding='utf-8'))
+ policies=args.policy or [HERE/'cleanup-other-policy.json',HERE/'cleanup-gear-approved-policy.json']
+ policy={'cases':[case for path in policies for case in json.loads(path.read_text(encoding='utf-8'))['cases']]}
  articles=json.loads(args.articles.read_text(encoding='utf-8'))
  cases={p['itemId']:p for p in policy['cases']}
  if len(cases)!=len(policy['cases']):raise ValueError('Duplicate policy ID')
@@ -32,7 +33,9 @@ def run(args):
                    semanticPredicate=case['rationale'],
                    proposedIronmanTabKey=destination,rationale=case['rationale'],
                    evidence=[dict(kind='direct_variant',itemId=ident,sourceTitle=case['title'],source=source['sourceUrl'],sourceRevision=source['revid'],
-                                  sourceHash=source['sha256'],quote=case['semanticExcerpt'])])
+                                  sourceHash=source['sha256'],quote=case['semanticExcerpt'],structuredFacts=case.get('exactVariantFacts',[]))]+
+                   [dict(kind='direct_variant',itemId=ident,sourceTitle=case['title'],source=source['sourceUrl'],sourceRevision=source['revid'],
+                         sourceHash=source['sha256'],quote=quote,claim='Direct mechanics supporting usage tag '+tag) for tag,quote in case.get('tagEvidence',{}).items()])
   rows.append(decision)
  if set(cases)-{r['itemId'] for r in rows}:raise ValueError('Policy contains IDs outside frozen ownership')
  args.output.mkdir(parents=True,exist_ok=True)
@@ -44,6 +47,6 @@ if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--coverage',type=pathlib.Path,default=ROOT/'tmp/category-certification/current-coverage.tsv')
  p.add_argument('--articles',type=pathlib.Path,default=ROOT/'tmp/category-certification/wiki-articles/article-index.json')
- p.add_argument('--policy',type=pathlib.Path,default=HERE/'cleanup-other-policy.json')
+ p.add_argument('--policy',type=pathlib.Path,action='append',help='repeat to combine approved policies; defaults to the root Cleanup policies')
  p.add_argument('--output',type=pathlib.Path,default=ROOT/'tmp/category-certification/reviews/cleanup-other')
  run(p.parse_args())

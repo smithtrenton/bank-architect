@@ -88,6 +88,32 @@ public class ResourceItemRegistryTest
 	@Test
 	public void unlabelledHighValueEquipmentIsRecognizedByEquipmentType()
 	{
+		assertAuditFamily(new int[]{10487, 20249, 22719, 24327, 24792},
+			ItemCategory.CLUE, "cosmetic");
+		assertAuditFamily(new int[]{7439, 12924, 12926, 13652, 19918, 19941, 20756, 22325, 22486, 28534,
+			28543, 28545, 28834, 29889, 30957, 33243, 33631},
+			ItemCategory.GEAR, "2h");
+		assertAuditFamily(new int[]{30384},
+			ItemCategory.GEAR, "ammo");
+		assertAuditFamily(new int[]{12458, 20038, 22327, 23097, 26221, 30753},
+			ItemCategory.GEAR, "body");
+		assertAuditFamily(new int[]{7537, 30386},
+			ItemCategory.GEAR, "hands");
+		assertAuditFamily(new int[]{3327, 3331, 3333, 3341, 3343, 6326, 7400, 8901, 8903, 8905,
+			8907, 8909, 8911, 8921, 11774, 11775, 11776, 11777, 11778, 11779,
+			11784, 20035, 22326, 25266, 25267, 25268, 25269, 25270, 25271, 25276,
+			26771, 26772, 26773, 26774, 26775, 26776, 26781, 27226},
+			ItemCategory.GEAR, "head");
+		assertAuditFamily(new int[]{12459, 22328},
+			ItemCategory.GEAR, "legs");
+		assertAuditFamily(new int[]{11666, 11667, 11668, 11669},
+			ItemCategory.GEAR, "neck");
+		assertAuditFamily(new int[]{20716, 21000, 22002, 22003, 25576, 30066, 31081},
+			ItemCategory.GEAR, "shield");
+		assertAuditFamily(new int[]{7433, 7435, 7437, 7441, 7443, 7445, 7451, 19675, 22292, 22294,
+			22978, 23528, 23995, 27287, 28531, 28919, 28922, 29607, 30305, 30759,
+			30891, 33041, 33249, 33716},
+			ItemCategory.GEAR, "weapon");
 		for (int id : new int[]{6889, 6916, 6918, 6924, 10146, 10147, 10148, 10149,
 			10330, 10342, 10582, 10583, 10584, 11037, 11128, 11889, 11905, 11907,
 			11924, 11926, 12006, 12357, 12419, 12420, 12421, 12453})
@@ -1109,8 +1135,8 @@ public class ResourceItemRegistryTest
 		// Bounty supply crates are bankable, repeatable Bounty Hunter supplies.
 		assertClassification(30616, "Bounty supply crate (manta ray)", ItemCategory.POTION, "food");
 		assertClassification(30619, "Bounty supply crate (anglerfish)", ItemCategory.POTION, "food");
-		// The empty tome is intentionally routed as reviewed loot rather than functional charged gear.
-		assertClassification(20716, "Tome of fire (empty)", ItemCategory.CLEANUP, "cleanup");
+		// The empty tome retains its magic attack/defence equipment bonuses; charging adds spell effects.
+		assertClassification(20716, "Tome of fire (empty)", ItemCategory.GEAR, "shield");
 	}
 
 	@Test
@@ -1926,7 +1952,7 @@ public class ResourceItemRegistryTest
 
 		// Duplicate/internal aliases and explicit no-op decisions from the vetted correction batch.
 		for (int itemId : new int[] {289, 627, 637, 14048, 16420, 17427, 17428,
-			19959, 19962, 20715, 20716, 25575, 25576, 27358, 30065, 30066,
+			19959, 19962, 20715, 25575, 27358, 30065,
 			1201, 28027, 13393, 4178})
 		{
 			assertFalse("no canonical override for negative-control ID " + itemId,

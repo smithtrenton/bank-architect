@@ -300,7 +300,7 @@ public class PresetCategoryMapperTest
 	}
 
 	@Test
-	public void ironmanRoutesEmptyElementalTomesToLootAndChargedTomesToGear()
+	public void ironmanRoutesEmptyAndChargedElementalTomesToGear()
 	{
 		for (int itemId : new int[] {
 			ItemID.TOME_OF_FIRE_UNCHARGED,
@@ -308,7 +308,7 @@ public class PresetCategoryMapperTest
 			ItemID.TOME_OF_EARTH_UNCHARGED
 		})
 		{
-			assertEquals("slayer-boss-loot", PresetCategoryMapper.map(BankPresets.IRONMAN,
+			assertEquals("combat-gear", PresetCategoryMapper.map(BankPresets.IRONMAN,
 				item(itemId, ItemCategory.GEAR, "Empty elemental tome")).getKey());
 		}
 
@@ -335,7 +335,8 @@ public class PresetCategoryMapperTest
 			4045, 13666, 20390, 20430, 20527, 20586, 23533, 23628, 23650, 23831,
 			23858, 24534, 25087, 25102, 25104, 26500, 26549, 27178, 28705, 30361,
 			30363, 30453, 30461, 31174, 33239, 33241);
-		assertRegistryItemsRoute("slayer-boss-loot", 12783, 20716);
+		assertRegistryItemsRoute("slayer-boss-loot", 12783);
+		assertRegistryItemsRoute("combat-gear", 20716, 25576, 30066);
 		assertRegistryItemsRoute("clues-cosmetics", 24207, 24209, 24211, 24213, 24215, 24520);
 
 		assertRegistryItemsRoute("currency-utilities",

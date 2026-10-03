@@ -471,7 +471,7 @@ itemId	expectedTabKey
 8850	combat-gear
 8880	combat-gear
 8882	combat-gear
-8907	storage-cleanup
+8907	combat-gear
 9013	currency-utilities
 9065	skilling-tools
 9075	currency-utilities
@@ -612,7 +612,7 @@ itemId	expectedTabKey
 20710	skilling-tools
 20712	skilling-tools
 20714	combat-gear
-20716	slayer-boss-loot
+20716	combat-gear
 20718	slayer-boss-loot
 21140	combat-gear
 21155	currency-utilities
@@ -725,7 +725,7 @@ itemId	expectedTabKey
 29381	resources
 29478	skilling-tools
 29517	storage-cleanup
-29889	storage-cleanup
+29889	combat-gear
 30631	slayer-boss-loot
 30638	currency-utilities
 30640	slayer-boss-loot

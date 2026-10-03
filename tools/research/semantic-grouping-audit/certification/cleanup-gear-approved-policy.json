@@ -1,0 +1,4083 @@
+{
+  "schema": 1,
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "scope": "106 root-reviewed exact-ID Cleanup corrections: 101 functional equipment and five fun/social costume weapons; 20 states remain unresolved",
+  "inputProposalSha256": "37b0ad99544db568f35e60427d6133636cb8f86e1ee4a50e2751fdb237f068b7",
+  "heldCases": [
+    {
+      "itemId": 26689,
+      "decision": "unresolved",
+      "reason": "Exact broken variant is Drop-only. Shared equipable and shared article bonuses do not prove present usable combat function or a repair workflow."
+    },
+    {
+      "itemId": 26690,
+      "decision": "unresolved",
+      "reason": "Exact broken variant is Drop-only. Shared equipable and shared article bonuses do not prove present usable combat function or a repair workflow."
+    },
+    {
+      "itemId": 26691,
+      "decision": "unresolved",
+      "reason": "Exact broken variant is Drop-only. Shared equipable and shared article bonuses do not prove present usable combat function or a repair workflow."
+    },
+    {
+      "itemId": 26692,
+      "decision": "unresolved",
+      "reason": "Exact broken variant is Drop-only. Shared equipable and shared article bonuses do not prove present usable combat function or a repair workflow."
+    },
+    {
+      "itemId": 26693,
+      "decision": "unresolved",
+      "reason": "Exact broken variant is Drop-only. Shared equipable and shared article bonuses do not prove present usable combat function or a repair workflow."
+    },
+    {
+      "itemId": 26694,
+      "decision": "unresolved",
+      "reason": "Exact broken variant is Drop-only. Shared equipable and shared article bonuses do not prove present usable combat function or a repair workflow."
+    },
+    {
+      "itemId": 23820,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 23861,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26749,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26750,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26751,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26752,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26753,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26754,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26755,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26756,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26757,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26758,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26759,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    },
+    {
+      "itemId": 26760,
+      "decision": "unresolved",
+      "reason": "Combat role is documented; final bank-preset routing awaits the activity-only-copy policy and explicit storage restrictions."
+    }
+  ],
+  "cases": [
+    {
+      "itemId": 3327,
+      "title": "Myre snelm",
+      "sourceRevision": 15188707,
+      "sourceSha256": "1948f46e9c356b79bcb11932a45bc6018a59749cae99097160b345431994266c",
+      "semanticExcerpt": "'''myre snelm''' is a type of [[helmet]] that reduces the damage taken from [[snail]]s by 4.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1752750900500697226|date=31 January 2024|archiveurl=https://reldo.runescape.wik",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "snail-protection"
+      ],
+      "proposedTags": [
+        "snail-protection"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3327"
+        },
+        {
+          "field": "name",
+          "value": "Myre snelm"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "snail-protection": "reduces the damage taken from [[snail]]s by"
+      }
+    },
+    {
+      "itemId": 3331,
+      "title": "Ochre snelm",
+      "sourceRevision": 15358143,
+      "sourceSha256": "4c5e4be7d994fae3d3dfe25e7a5587a856b9124c521d5e1cc3494e14509bf913",
+      "semanticExcerpt": "'''ochre snelm''' is a type of [[helmet]] that reduces the damage taken from [[snail]]s by 4.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1752750900500697226|date=31 January 2024|archiveurl=https://reldo.runescape.wi",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "snail-protection"
+      ],
+      "proposedTags": [
+        "snail-protection"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3331"
+        },
+        {
+          "field": "name",
+          "value": "Ochre snelm"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "snail-protection": "reduces the damage taken from [[snail]]s by"
+      }
+    },
+    {
+      "itemId": 3333,
+      "title": "Bruise blue snelm",
+      "sourceRevision": 15188709,
+      "sourceSha256": "a3ba1d8da99eaa0e906d25b66582584ec89f8d170367ac0cd68f2171d5a7831a",
+      "semanticExcerpt": "'''bruise blue snelm''' is a type of [[helmet]] that reduces the damage taken from [[snail]]s by 8.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1752750900500697226|date=31 January 2024|archiveurl=https://reldo.runesc",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "snail-protection"
+      ],
+      "proposedTags": [
+        "snail-protection"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3333"
+        },
+        {
+          "field": "name",
+          "value": "Bruise blue snelm"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "snail-protection": "reduces the damage taken from [[snail]]s by"
+      }
+    },
+    {
+      "itemId": 3341,
+      "title": "Pointed ochre snelm",
+      "sourceRevision": 15188710,
+      "sourceSha256": "1bcfe8e2e48cba66d7c0fe87c8ecdf4d6b76664a6f3e9dbb83b58745a5c77387",
+      "semanticExcerpt": "'''pointed ochre snelm''' is a type of [[helmet]] created by using a [[chisel]] on a [[blamish ochre shell (pointed)|pointed blamish ochre shell]]. Doing so requires level 15 in [[Crafting]], and grants 32.5 experience. Its stats are simila",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "snail-protection"
+      ],
+      "proposedTags": [
+        "snail-protection"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3341"
+        },
+        {
+          "field": "name",
+          "value": "Pointed ochre snelm"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "snail-protection": "reduces the damage taken from [[snail]]s by"
+      }
+    },
+    {
+      "itemId": 3343,
+      "title": "Pointed bruise blue snelm",
+      "sourceRevision": 15237917,
+      "sourceSha256": "8a2e6b7da224f1ea6166b401810105457c34d59ddc23b21f38b62b86f123618a",
+      "semanticExcerpt": "'''pointed bruise blue snelm''' is a type of [[helmet]] that reduces the damage taken from [[snail]]s by 12.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1752750900500697226|date=31 January 2024|archiveurl=https://arc",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "snail-protection"
+      ],
+      "proposedTags": [
+        "snail-protection"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3343"
+        },
+        {
+          "field": "name",
+          "value": "Pointed bruise blue snelm"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "snail-protection": "reduces the damage taken from [[snail]]s by"
+      }
+    },
+    {
+      "itemId": 6326,
+      "title": "Snakeskin bandana",
+      "sourceRevision": 15241563,
+      "sourceSha256": "5a4de2016e2174adee94afef5a2f9d9a93dbe3c6e1792d63b921fed92833590b",
+      "semanticExcerpt": "'''snakeskin bandana''' is [[snakeskin armour]] worn in the [[Head slot table|headwear slot]] available to [[pay-to-play]] [[Combat classes#Ranger|rangers]]. To wear a snakeskin bandana, a player must have 30 [[Ranged]] and 30 [[Defence]]. ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6326"
+        },
+        {
+          "field": "name",
+          "value": "Snakeskin bandana"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 7400,
+      "title": "Enchanted hat",
+      "sourceRevision": 15324861,
+      "sourceSha256": "7975a81c794b7aeab2f2c894720ce32c447743389e8d70cd471c68cd62c2a18a",
+      "semanticExcerpt": "'''enchanted hat''' is the headpiece of the [[enchanted robes]], a type of [[magic]] armour which requires 20 [[Defence]] and 40 [[Magic]] to wear. It is a potential reward from [[Clue scroll (hard)|hard]] [[Treasure Trails]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7400"
+        },
+        {
+          "field": "name",
+          "value": "Enchanted hat"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 7433,
+      "title": "Wooden spoon",
+      "sourceRevision": 15184139,
+      "sourceSha256": "5490266c8a05c595236a7f1e9c60cd209151da845daa3a89df387966c4b48fcc",
+      "semanticExcerpt": "'''wooden spoon''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To buy it, the player must have started the [[Recipe for Disaster]] quest, and is the first weapon available after completing the b",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7433"
+        },
+        {
+          "field": "name",
+          "value": "Wooden spoon"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''wooden spoon''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To buy it, the player must have started the [[Recipe for Disaster]] quest, and is the first weapon available after completing the b"
+      }
+    },
+    {
+      "itemId": 7435,
+      "title": "Egg whisk",
+      "sourceRevision": 15182987,
+      "sourceSha256": "12bb1b710837fea2486621e76e6572fc3f3d127da58c7099429d2d5e81de1a3f",
+      "semanticExcerpt": "'''egg whisk''' is [[kitchen weaponry]] purchased from the [[Culinaromancer's Chest]] after completing one [[Recipe for Disaster]] subquest. Wielding it requires two subquests. This weapon has the same stats as the [[iron dagger]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7435"
+        },
+        {
+          "field": "name",
+          "value": "Egg whisk"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''egg whisk''' is [[kitchen weaponry]] purchased from the [[Culinaromancer's Chest]] after completing one [[Recipe for Disaster]] subquest. Wielding it requires two subquests. This weapon has the same stats as the [[iron dagger]]."
+      }
+    },
+    {
+      "itemId": 7437,
+      "title": "Spork",
+      "sourceRevision": 15184140,
+      "sourceSha256": "2201da42f6e6cd67f6d3356b8282ef3909a3cebb17716070681997bc85ceeda0",
+      "semanticExcerpt": "'''spork''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield it the player must have completed three [[Recipe for Disaster]] subquests. This weapon has stats identical to the [[Steel sword]]",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7437"
+        },
+        {
+          "field": "name",
+          "value": "Spork"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''spork''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield it the player must have completed three [[Recipe for Disaster]] subquests. This weapon has stats identical to the [[Steel sword]]"
+      }
+    },
+    {
+      "itemId": 7439,
+      "title": "Spatula",
+      "sourceRevision": 15183232,
+      "sourceSha256": "50f67f8641e798d8bb1c6f805cbd9d1407af6ec444a2acbb35ad5915d9d10e2b",
+      "semanticExcerpt": "'''spatula''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield, the player must have completed three [[Recipe for Disaster]] subquests and have an [[Attack]] level of 10. This weapon has sta",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7439"
+        },
+        {
+          "field": "name",
+          "value": "Spatula"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''spatula''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield, the player must have completed three [[Recipe for Disaster]] subquests and have an [[Attack]] level of 10. This weapon has sta"
+      }
+    },
+    {
+      "itemId": 7441,
+      "title": "Frying pan",
+      "sourceRevision": 15183026,
+      "sourceSha256": "9e406b4f948f04ec3ec761ab428ea2b1f29c8712178ab98f2fc29cca05d1decb",
+      "semanticExcerpt": "'''frying pan''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield it the player must have completed four [[Recipe for Disaster]] subquests and have 20 [[Attack]]. Despite having the same sta",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7441"
+        },
+        {
+          "field": "name",
+          "value": "Frying pan"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''frying pan''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield it the player must have completed four [[Recipe for Disaster]] subquests and have 20 [[Attack]]. Despite having the same sta"
+      }
+    },
+    {
+      "itemId": 7443,
+      "title": "Skewer",
+      "sourceRevision": 15183219,
+      "sourceSha256": "a35bec53bf141a166387bf5a67e69ee492e4d45f2db9f1ccbce9cdc3cbf9477a",
+      "semanticExcerpt": "'''skewer''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. It has a requirement of 30 [[Attack]] to wield as well as completion of five [[Recipe for Disaster]] subquests.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7443"
+        },
+        {
+          "field": "name",
+          "value": "Skewer"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''skewer''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. It has a requirement of 30 [[Attack]] to wield as well as completion of five [[Recipe for Disaster]] subquests."
+      }
+    },
+    {
+      "itemId": 7445,
+      "title": "Rolling pin",
+      "sourceRevision": 15322429,
+      "sourceSha256": "c9ecb1b334af763295569ea27aae137bc5464241e20074c453a6d4ed542fc095",
+      "semanticExcerpt": "'''rolling pin''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To purchase, the player must have completed 6 of the [[Recipe for Disaster]] subquests. To wield, in addition to having 40 [[Attack]",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7445"
+        },
+        {
+          "field": "name",
+          "value": "Rolling pin"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''rolling pin''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To purchase, the player must have completed 6 of the [[Recipe for Disaster]] subquests. To wield, in addition to having 40 [[Attack]"
+      }
+    },
+    {
+      "itemId": 7451,
+      "title": "Cleaver",
+      "sourceRevision": 15182941,
+      "sourceSha256": "fd6451c2f0b001edd36f13590208603345a4f26e37d18a347387bc6c40ff13f1",
+      "semanticExcerpt": "'''cleaver''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield it, the player must have completed the entire [[Recipe for Disaster]] quest, including the [[Defeating the Culinaromancer|final",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon"
+      ],
+      "proposedTags": [
+        "quest-weapon"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7451"
+        },
+        {
+          "field": "name",
+          "value": "Cleaver"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "quest-weapon": "'''cleaver''' is a [[melee]] [[kitchen weapon]] that can be bought from the [[Culinaromancer's chest]]. To wield it, the player must have completed the entire [[Recipe for Disaster]] quest, including the [[Defeating the Culinaromancer|final"
+      }
+    },
+    {
+      "itemId": 7537,
+      "title": "Crab claw",
+      "sourceRevision": 15320282,
+      "sourceSha256": "ba0a3a07ca4ab5594bafa84afabc8b546ab790da1c9fb3c0e7f73feaa6c0128a",
+      "semanticExcerpt": "'''crab claw''' is a gauntlet worn in the gloves slot. There are no level requirements to wear the crab claw. Crafting this claw has a chance to fail, producing a [[broken crab claw]]. The chance of successfully crafting a crab claw scales ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "hands",
+      "addedRoles": [
+        "clue-required"
+      ],
+      "proposedTags": [
+        "clue-required"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7537"
+        },
+        {
+          "field": "name",
+          "value": "Crab claw"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "clue-required": "in place of the crab claw for the elite clue emote step on [[Wintumber Island]]"
+      }
+    },
+    {
+      "itemId": 8901,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id11",
+          "value": "8901"
+        },
+        {
+          "field": "name11",
+          "value": "Black mask (10)"
+        },
+        {
+          "field": "version11",
+          "value": "(10)"
+        },
+        {
+          "field": "options11",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 8903,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id10",
+          "value": "8903"
+        },
+        {
+          "field": "name10",
+          "value": "Black mask (9)"
+        },
+        {
+          "field": "version10",
+          "value": "(9)"
+        },
+        {
+          "field": "options10",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 8905,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id9",
+          "value": "8905"
+        },
+        {
+          "field": "name9",
+          "value": "Black mask (8)"
+        },
+        {
+          "field": "version9",
+          "value": "(8)"
+        },
+        {
+          "field": "options9",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 8907,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id8",
+          "value": "8907"
+        },
+        {
+          "field": "name8",
+          "value": "Black mask (7)"
+        },
+        {
+          "field": "version8",
+          "value": "(7)"
+        },
+        {
+          "field": "options8",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 8909,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id7",
+          "value": "8909"
+        },
+        {
+          "field": "name7",
+          "value": "Black mask (6)"
+        },
+        {
+          "field": "version7",
+          "value": "(6)"
+        },
+        {
+          "field": "options7",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 8911,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "8911"
+        },
+        {
+          "field": "name6",
+          "value": "Black mask (5)"
+        },
+        {
+          "field": "version6",
+          "value": "(5)"
+        },
+        {
+          "field": "options6",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 8921,
+      "title": "Black mask",
+      "sourceRevision": 15290821,
+      "sourceSha256": "7a0db7bcc77d69643426a54ef6260a10d05083adad5065424c79aa6ca37db15b",
+      "semanticExcerpt": "'''black mask''' is a unique mask worn in the head slot. The mask has the same stats as a [[black med helm]]. It provides a player 16.67%{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689105142382198784|date=18 January",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "8921"
+        },
+        {
+          "field": "name1",
+          "value": "Black mask"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options1",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "[[Attack]] and [[Strength]] boost against all monsters on the player's current [[Slayer task]]."
+      }
+    },
+    {
+      "itemId": 10487,
+      "title": "Undead chicken (item)",
+      "sourceRevision": 15359768,
+      "sourceSha256": "329b675945d3c713076c54bad7fdbcd45ea2b188380bf606a0d2c21b19a0b294",
+      "semanticExcerpt": "It is widely considered a [[fun weapons|'fun' weapon]], and shares its stats with a range of other such weapons.",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "10487"
+        },
+        {
+          "field": "name",
+          "value": "Undead chicken"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Destroy"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact article describes this item as a fun, negative-stat or social interaction weapon. Its retained costume/toy function takes precedence over the generic weapon slot; a nonzero negative combat value is not positive combat utility.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 11666,
+      "title": "Void seal",
+      "sourceRevision": 15184504,
+      "sourceSha256": "27db592e3402692b096a9963de3df34b6c06a29093b3f789cbf9cb3aa545bcab",
+      "semanticExcerpt": "'''Void seal''' is a piece of [[Void Knight equipment]] reward in the [[Pest Control]] activity. It can be bought from a Void Knight for 10 commendation points. Unlike the rest of the Void Knight equipment, players do not require at least 4",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "neck",
+      "addedRoles": [
+        "area-damage"
+      ],
+      "proposedTags": [
+        "area-damage"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id8",
+          "value": "11666"
+        },
+        {
+          "field": "name8",
+          "value": "Void seal(8)"
+        },
+        {
+          "field": "version8",
+          "value": "(8)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Rub, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "area-damage": "The seal will inflict 8-12 Hitpoints of damage upon nearby Pests when the player rubs it."
+      }
+    },
+    {
+      "itemId": 11667,
+      "title": "Void seal",
+      "sourceRevision": 15184504,
+      "sourceSha256": "27db592e3402692b096a9963de3df34b6c06a29093b3f789cbf9cb3aa545bcab",
+      "semanticExcerpt": "'''Void seal''' is a piece of [[Void Knight equipment]] reward in the [[Pest Control]] activity. It can be bought from a Void Knight for 10 commendation points. Unlike the rest of the Void Knight equipment, players do not require at least 4",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "neck",
+      "addedRoles": [
+        "area-damage"
+      ],
+      "proposedTags": [
+        "area-damage"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id7",
+          "value": "11667"
+        },
+        {
+          "field": "name7",
+          "value": "Void seal(7)"
+        },
+        {
+          "field": "version7",
+          "value": "(7)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Rub, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "area-damage": "The seal will inflict 8-12 Hitpoints of damage upon nearby Pests when the player rubs it."
+      }
+    },
+    {
+      "itemId": 11668,
+      "title": "Void seal",
+      "sourceRevision": 15184504,
+      "sourceSha256": "27db592e3402692b096a9963de3df34b6c06a29093b3f789cbf9cb3aa545bcab",
+      "semanticExcerpt": "'''Void seal''' is a piece of [[Void Knight equipment]] reward in the [[Pest Control]] activity. It can be bought from a Void Knight for 10 commendation points. Unlike the rest of the Void Knight equipment, players do not require at least 4",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "neck",
+      "addedRoles": [
+        "area-damage"
+      ],
+      "proposedTags": [
+        "area-damage"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "11668"
+        },
+        {
+          "field": "name6",
+          "value": "Void seal(6)"
+        },
+        {
+          "field": "version6",
+          "value": "(6)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Rub, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "area-damage": "The seal will inflict 8-12 Hitpoints of damage upon nearby Pests when the player rubs it."
+      }
+    },
+    {
+      "itemId": 11669,
+      "title": "Void seal",
+      "sourceRevision": 15184504,
+      "sourceSha256": "27db592e3402692b096a9963de3df34b6c06a29093b3f789cbf9cb3aa545bcab",
+      "semanticExcerpt": "'''Void seal''' is a piece of [[Void Knight equipment]] reward in the [[Pest Control]] activity. It can be bought from a Void Knight for 10 commendation points. Unlike the rest of the Void Knight equipment, players do not require at least 4",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "neck",
+      "addedRoles": [
+        "area-damage"
+      ],
+      "proposedTags": [
+        "area-damage"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id5",
+          "value": "11669"
+        },
+        {
+          "field": "name5",
+          "value": "Void seal(5)"
+        },
+        {
+          "field": "version5",
+          "value": "(5)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Rub, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "area-damage": "The seal will inflict 8-12 Hitpoints of damage upon nearby Pests when the player rubs it."
+      }
+    },
+    {
+      "itemId": 11774,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id11",
+          "value": "11774"
+        },
+        {
+          "field": "name11",
+          "value": "Black mask (10) (i)"
+        },
+        {
+          "field": "version11",
+          "value": "(10)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 11775,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id10",
+          "value": "11775"
+        },
+        {
+          "field": "name10",
+          "value": "Black mask (9) (i)"
+        },
+        {
+          "field": "version10",
+          "value": "(9)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 11776,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id9",
+          "value": "11776"
+        },
+        {
+          "field": "name9",
+          "value": "Black mask (8) (i)"
+        },
+        {
+          "field": "version9",
+          "value": "(8)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 11777,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id8",
+          "value": "11777"
+        },
+        {
+          "field": "name8",
+          "value": "Black mask (7) (i)"
+        },
+        {
+          "field": "version8",
+          "value": "(7)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 11778,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id7",
+          "value": "11778"
+        },
+        {
+          "field": "name7",
+          "value": "Black mask (6) (i)"
+        },
+        {
+          "field": "version7",
+          "value": "(6)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 11779,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "11779"
+        },
+        {
+          "field": "name6",
+          "value": "Black mask (5) (i)"
+        },
+        {
+          "field": "version6",
+          "value": "(5)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 11784,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "11784"
+        },
+        {
+          "field": "name1",
+          "value": "Black mask (i)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 12458,
+      "title": "Dark infinity top",
+      "sourceRevision": 15186171,
+      "sourceSha256": "168863db3e9268e31ece076786012af2dbf8795aea9fddf5fa3c1de736530653",
+      "semanticExcerpt": "'''dark infinity top''' is an [[infinity top]] with a [[dark infinity colour kit]] attached to it. The attached colour kit gives no additional bonuses, and is only used to add aesthetics to the robe top. It costs {{Coins|{{GEP|Infinity top}",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12458"
+        },
+        {
+          "field": "name",
+          "value": "Dark infinity top"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Dismantle"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 12459,
+      "title": "Dark infinity bottoms",
+      "sourceRevision": 15186169,
+      "sourceSha256": "7588dd8f2786f112e0d5853a7afed44ad4ad0a3b8e1a91a19d40b8fd4b680fbc",
+      "semanticExcerpt": "'''dark infinity bottoms''' are [[infinity bottoms]] with a [[dark infinity colour kit]] attached to it. The attached colour kit gives no additional bonuses, and is only used to add aesthetics to the robe bottoms. It costs {{Coins|{{GEP|Inf",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "legs",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "12459"
+        },
+        {
+          "field": "name",
+          "value": "Dark infinity bottoms"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Dismantle"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 12924,
+      "title": "Toxic blowpipe",
+      "sourceRevision": 15360428,
+      "sourceSha256": "b4df3de66f6570d79a97282bfa99e6c950e2647ac545c3ad7fa9596b2fa88b7d",
+      "semanticExcerpt": "'''toxic blowpipe''' is a [[blowpipe]] that requires 75 [[Ranged]] to wield. Like all blowpipes, it is a two-handed weapon. It can be made by using a [[chisel]] on a [[tanzanite fang]], which requires 78 [[Fletching]]. Players using the blo",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "12924"
+        },
+        {
+          "field": "name1",
+          "value": "Toxic blowpipe (empty)"
+        },
+        {
+          "field": "version1",
+          "value": "Empty"
+        },
+        {
+          "field": "options1",
+          "value": "Dismantle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 12926,
+      "title": "Toxic blowpipe",
+      "sourceRevision": 15360428,
+      "sourceSha256": "b4df3de66f6570d79a97282bfa99e6c950e2647ac545c3ad7fa9596b2fa88b7d",
+      "semanticExcerpt": "'''toxic blowpipe''' is a [[blowpipe]] that requires 75 [[Ranged]] to wield. Like all blowpipes, it is a two-handed weapon. It can be made by using a [[chisel]] on a [[tanzanite fang]], which requires 78 [[Fletching]]. Players using the blo",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "12926"
+        },
+        {
+          "field": "name2",
+          "value": "Toxic blowpipe"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Unload, Uncharge"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 13652,
+      "title": "Dragon claws",
+      "sourceRevision": 15360497,
+      "sourceSha256": "429fa412a7736a05c3f92c48c5ee13efa0f32f126643c9cf19a58c0e42887c0d",
+      "semanticExcerpt": "'''Dragon claws''' are a two-handed melee weapon obtained as a rare reward from the [[Chambers of Xeric]], and require level 60 [[Attack]] to equip. They are notable for their special attack, which can quickly deal a high amount of damage, ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "special-attack"
+      ],
+      "proposedTags": [
+        "special-attack"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "13652"
+        },
+        {
+          "field": "name",
+          "value": "Dragon claws"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "special-attack": "'''Dragon claws''' are a two-handed melee weapon obtained as a rare reward from the [[Chambers of Xeric]], and require level 60 [[Attack]] to equip. They are notable for their special attack, which can quickly deal a high amount of damage, "
+      }
+    },
+    {
+      "itemId": 19675,
+      "title": "Arclight",
+      "sourceRevision": 15353280,
+      "sourceSha256": "ae3297175370f76792a914ffe008e5e7460784ba9b32cb2ef0909eeb475c0306",
+      "semanticExcerpt": "'''Arclight''' is a [[demonbane weapon]] requiring level 75 [[Attack]] to wield. An upgraded variant of [[Darklight]], Arclight features an enhanced [[passive effect]] in addition to modest improvements in attack bonus and speed.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "19675"
+        },
+        {
+          "field": "name2",
+          "value": "Arclight"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "Arclight features an enhanced [[passive effect]]"
+      }
+    },
+    {
+      "itemId": 19918,
+      "title": "Nunchaku",
+      "sourceRevision": 15324865,
+      "sourceSha256": "223657b3d096ddc38f176d71419e6370bf35da5b54ec0e95a7704526f5b6cacb",
+      "semanticExcerpt": "'''nunchaku''' is a two-handed weapon that can be received as a reward from [[Clue scroll (hard)|hard]] [[Treasure Trails]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19918"
+        },
+        {
+          "field": "name",
+          "value": "Nunchaku"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 19941,
+      "title": "Heavy casket",
+      "sourceRevision": 15325102,
+      "sourceSha256": "664debd8bc59da46de0185bd34afb0a123c2e7400061e1a50c4e23990accfbd7",
+      "semanticExcerpt": "'''heavy casket''' is obtained after completing 200 [[Clue scroll (elite)|elite]] [[Treasure Trail]]s. It can be used as a weapon, with stats comparable to an [[iron warhammer]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "19941"
+        },
+        {
+          "field": "name",
+          "value": "Heavy casket"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Open, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 20035,
+      "title": "Samurai kasa",
+      "sourceRevision": 15325249,
+      "sourceSha256": "b55ee4b5d11a9e7d8126f29880347235d945ff6f9248bbda86a46b16fd5ddabe",
+      "semanticExcerpt": "'''samurai kasa''' is obtained as a possible reward from [[Clue scroll (master)|master]] [[Treasure Trails]]. It is part of the [[samurai armour]] set, and requires level 35 in [[Defence]] to wear.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "20035"
+        },
+        {
+          "field": "name",
+          "value": "Samurai kasa"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 20038,
+      "title": "Samurai shirt",
+      "sourceRevision": 15325250,
+      "sourceSha256": "8f47f9f030d5fd9d864951af9cfe9d8480ebb83bae07634a808b1da487a4a5c9",
+      "semanticExcerpt": "'''samurai shirt''' is obtained as a possible reward from [[Clue scroll (master)|master]] [[Treasure Trails]]. It is part of the [[samurai armour]] set, and requires level 35 in [[Defence]] to wear.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "20038"
+        },
+        {
+          "field": "name",
+          "value": "Samurai shirt"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 20249,
+      "title": "Clueless scroll",
+      "sourceRevision": 15324096,
+      "sourceSha256": "2029093781d24ddb969b7497908df71b4eeaf15062e641d168cb234ace229179",
+      "semanticExcerpt": "It is considered a [[fun weapons|fun weapon]].",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "20249"
+        },
+        {
+          "field": "name",
+          "value": "Clueless scroll"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Read, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact article describes this item as a fun, negative-stat or social interaction weapon. Its retained costume/toy function takes precedence over the generic weapon slot; a nonzero negative combat value is not positive combat utility.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 20716,
+      "title": "Tome of Fire",
+      "sourceRevision": 15316547,
+      "sourceSha256": "96d7f498e782220c8bb85403bfadc9938584e042ff5dc769f2f6e4c80d96114e",
+      "semanticExcerpt": "'''tome of fire''' is a book held in place of a [[shield]] that is a possible reward from the [[Reward Cart|reward cart]] upon subduing the [[Wintertodt]]. The tome of fire requires level 50 in [[Magic]] to wield.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "20716"
+        },
+        {
+          "field": "name1",
+          "value": "Tome of Fire (empty)"
+        },
+        {
+          "field": "version1",
+          "value": "Empty"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Pages, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 20756,
+      "title": "Hill giant club",
+      "sourceRevision": 15188023,
+      "sourceSha256": "51decc264eb21a61c9259b1fc3dfd82252db8ba04f05ff964618fe801b1abb6b",
+      "semanticExcerpt": "'''hill giant club''' is a two-handed [[melee]] [[weapon]] requiring 40 [[Attack]] to equip. It is currently the best-in-slot weapon for [[crush]] bonuses in [[free-to-play]], possessing very similar stats to a [[rune 2h sword]] but with th",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "20756"
+        },
+        {
+          "field": "name",
+          "value": "Hill giant club"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 21000,
+      "title": "Twisted buckler",
+      "sourceRevision": 15188072,
+      "sourceSha256": "88a3c00e7249308c8edd6fe8e351945354b75ab8022a673df0d22692c7480790",
+      "semanticExcerpt": "'''twisted buckler''' is a ranged-class [[shield]] that is obtained as a possible reward from the [[Chambers of Xeric]], requiring level 75 [[Ranged]] and [[Defence]] to equip.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "21000"
+        },
+        {
+          "field": "name",
+          "value": "Twisted buckler"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22002,
+      "title": "Dragonfire ward",
+      "sourceRevision": 15188640,
+      "sourceSha256": "7f421249324db4f86a9c6bcd9efe83d67a0a4de3000ab0ce96181eb1ac5cc7a7",
+      "semanticExcerpt": "'''dragonfire ward''' is a ranged [[shield]] requiring a [[Ranged]] level of 70 and a [[Defence]] level of 75 to equip, as well as having started [[Dragon Slayer I]]. It offers the second highest Ranged Attack and Ranged Strength bonus for ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "22002"
+        },
+        {
+          "field": "name",
+          "value": "Dragonfire ward"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Inspect, Empty, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22003,
+      "title": "Dragonfire ward",
+      "sourceRevision": 15188640,
+      "sourceSha256": "7f421249324db4f86a9c6bcd9efe83d67a0a4de3000ab0ce96181eb1ac5cc7a7",
+      "semanticExcerpt": "'''dragonfire ward''' is a ranged [[shield]] requiring a [[Ranged]] level of 70 and a [[Defence]] level of 75 to equip, as well as having started [[Dragon Slayer I]]. It offers the second highest Ranged Attack and Ranged Strength bonus for ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "22003"
+        },
+        {
+          "field": "name",
+          "value": "Dragonfire ward"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Inspect, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22292,
+      "title": "Trident of the Swamp (e)",
+      "sourceRevision": 15317835,
+      "sourceSha256": "67f6faa5e2c665591a29f5a07d9baa21c6ea1623f22133f697160ccae32e4b2f",
+      "semanticExcerpt": "The '''trident of the swamp (e)''' is a one-handed [[powered staff]] that requires 78 [[Magic]] to wield.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "22292"
+        },
+        {
+          "field": "name2",
+          "value": "Trident of the Swamp (e)"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22294,
+      "title": "Trident of the Swamp (e)",
+      "sourceRevision": 15317835,
+      "sourceSha256": "67f6faa5e2c665591a29f5a07d9baa21c6ea1623f22133f697160ccae32e4b2f",
+      "semanticExcerpt": "The '''trident of the swamp (e)''' is a one-handed [[powered staff]] that requires 78 [[Magic]] to wield.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "22294"
+        },
+        {
+          "field": "name1",
+          "value": "Uncharged toxic trident (e)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Check, Dismantle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22325,
+      "title": "Scythe of Vitur",
+      "sourceRevision": 15355929,
+      "sourceSha256": "c3fe98d869d6a19cffc18e7ef16ed9cac31e770d1abd8c3b69ef0ce78158a8ec",
+      "semanticExcerpt": "'''Scythe of Vitur''' is a two-handed [[slash weapon]] requiring levels 80 [[Attack]] and 90 [[Strength]] to wield, available as a rare drop from the [[Theatre of Blood]]. The scythe is extremely valuable due to its immense power against mo",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "22325"
+        },
+        {
+          "field": "name2",
+          "value": "Scythe of Vitur"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22326,
+      "title": "Justiciar faceguard",
+      "sourceRevision": 15188776,
+      "sourceSha256": "7cc946f7fb9e4932ae82da4f326f6166fc84afee1ce7f7a4d66afcf485bcacec",
+      "semanticExcerpt": "'''Justiciar faceguard''' is obtained as a rare drop from the [[Theatre of Blood]]. It is part of the [[justiciar armour]] set, and requires level 75 [[Defence]] to equip.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22326"
+        },
+        {
+          "field": "name",
+          "value": "Justiciar faceguard"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "all combat damage taken is reduced (except in [[PvP]])"
+      }
+    },
+    {
+      "itemId": 22327,
+      "title": "Justiciar chestguard",
+      "sourceRevision": 15188777,
+      "sourceSha256": "19a5012c40d88e0d2e302a1cbdc5553c97c8aabf9312e72ed97f0fabfe475a70",
+      "semanticExcerpt": "'''Justiciar chestguard''' is part of the [[justiciar armour]] set requiring 75 [[Defence]] to equip. It is a rare drop from the [[Theatre of Blood]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22327"
+        },
+        {
+          "field": "name",
+          "value": "Justiciar chestguard"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "all non-[[PvP]] combat damage is reduced"
+      }
+    },
+    {
+      "itemId": 22328,
+      "title": "Justiciar legguards",
+      "sourceRevision": 15188778,
+      "sourceSha256": "f4c8cf88654f903aad22ac34e9c93f02ce1958bbda2f33cdb85db419f99d3680",
+      "semanticExcerpt": "'''Justiciar legguards''' is obtained as a rare drop from the [[Theatre of Blood]]. It is part of the [[justiciar armour]] set, and requires level 75 [[Defence]] to equip.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "legs",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22328"
+        },
+        {
+          "field": "name",
+          "value": "Justiciar legguards"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "all combat damage taken is reduced (except in [[PvP]])"
+      }
+    },
+    {
+      "itemId": 22486,
+      "title": "Scythe of Vitur",
+      "sourceRevision": 15355929,
+      "sourceSha256": "c3fe98d869d6a19cffc18e7ef16ed9cac31e770d1abd8c3b69ef0ce78158a8ec",
+      "semanticExcerpt": "'''Scythe of Vitur''' is a two-handed [[slash weapon]] requiring levels 80 [[Attack]] and 90 [[Strength]] to wield, available as a rare drop from the [[Theatre of Blood]]. The scythe is extremely valuable due to its immense power against mo",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "22486"
+        },
+        {
+          "field": "name1",
+          "value": "Scythe of Vitur (uncharged)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Charge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22719,
+      "title": "Candy cane",
+      "sourceRevision": 15189049,
+      "sourceSha256": "5799b83d4e57593c44de3f46493eba55ff13113acaf63af078ece7da1ca251f7",
+      "semanticExcerpt": "It is classified as a [[fun weapon]] in legacy duels within the [[Emir's Arena]] because it gives the player negative bonuses.",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22719"
+        },
+        {
+          "field": "name",
+          "value": "Candy cane"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Destroy"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact article describes this item as a fun, negative-stat or social interaction weapon. Its retained costume/toy function takes precedence over the generic weapon slot; a nonzero negative combat value is not positive combat utility.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 22978,
+      "title": "Dragon hunter lance",
+      "sourceRevision": 15264894,
+      "sourceSha256": "d2c0f9b1bbb4f7ed688d32cc0277de8525b06a16026223f5e1066fe6bda33083",
+      "semanticExcerpt": "'''dragon hunter lance''' is a one-handed [[Weapons/Categories#Spear|spear]] and [[dragonbane weapon]] created by using a [[hydra claw]] on a [[Zamorakian hasta]]. Equipping the lance requires level 78 [[Attack]] as well as completion of th",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22978"
+        },
+        {
+          "field": "name",
+          "value": "Dragon hunter lance"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "20% increased accuracy and damage when fighting [[Draconic (attribute)|draconic creatures]]"
+      }
+    },
+    {
+      "itemId": 23097,
+      "title": "Ornate top",
+      "sourceRevision": 15189151,
+      "sourceSha256": "47cd531d9f6503dfb927aa6cc3711f168b8ee685ad45fe2d87300440de3b4784",
+      "semanticExcerpt": "'''ornate top''' is obtained from completing a clue during the [[Crack the Clue II]] event. It is part of the [[ornate armour]] set, and is obtainable only once if you already have it in your inventory or bank. If you happen to accidentally",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23097"
+        },
+        {
+          "field": "name",
+          "value": "Ornate top"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Destroy"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 23528,
+      "title": "Sarachnis cudgel",
+      "sourceRevision": 15197800,
+      "sourceSha256": "597aabcdbfca3d8f0daceb1170bba960e8f9a6dd1c0df1670bae20dbd8a692b5",
+      "semanticExcerpt": "'''Sarachnis cudgel''' is a one-handed crush weapon dropped by [[Sarachnis]], requiring level 65 [[Attack]] to equip. The weapon appears to be made from several of Sarachnis' legs bound together by her webs.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "23528"
+        },
+        {
+          "field": "name",
+          "value": "Sarachnis cudgel"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 23995,
+      "title": "Blade of Saeldor",
+      "sourceRevision": 15302256,
+      "sourceSha256": "7e62ad65ea1ead9628c70ab5f770cfabaec94afd5efd80821cce9d891cc8a9c4",
+      "semanticExcerpt": "'''blade of Saeldor''' is a one-handed [[slash sword]] that once belonged to [[Saeldor]], an elite elven warrior, that can be created from an [[enhanced crystal weapon seed]]. Requiring level 80 [[Attack]] to wield, it provides the highest ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "23995"
+        },
+        {
+          "field": "name2",
+          "value": "Blade of Saeldor"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 24327,
+      "title": "Skeleton lantern",
+      "sourceRevision": 15189567,
+      "sourceSha256": "d2f9a9c6fa2e10597437f37e42914e53083b6b5804ae2f0f1c42950b0125abd7",
+      "semanticExcerpt": "'''skeleton lantern''' is a [[fun weapon]] that can be obtained by completing one of the [[Halloween event|Halloween]] [[holiday events]] that occur once per year.",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24327"
+        },
+        {
+          "field": "name",
+          "value": "Skeleton lantern"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Destroy"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact article describes this item as a fun, negative-stat or social interaction weapon. Its retained costume/toy function takes precedence over the generic weapon slot; a nonzero negative combat value is not positive combat utility.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 24792,
+      "title": "Severed leg",
+      "sourceRevision": 15246999,
+      "sourceSha256": "ce50e8d5f561eb6ff688a2a1e751411107558bc04926376fd6b0b261c3ce2d09",
+      "semanticExcerpt": "Equipping the severed leg allows players to \"Whack\" other players like the [[rubber chicken]] does, but cannot be fumbled like it, and thus is never forcefully dropped on the ground.",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "24792"
+        },
+        {
+          "field": "name",
+          "value": "Severed leg"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact article describes this item as a fun, negative-stat or social interaction weapon. Its retained costume/toy function takes precedence over the generic weapon slot; a nonzero negative combat value is not positive combat utility.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 25266,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id11",
+          "value": "25266"
+        },
+        {
+          "field": "name11",
+          "value": "Black mask (10) (i)"
+        },
+        {
+          "field": "version11",
+          "value": "(10)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25267,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id10",
+          "value": "25267"
+        },
+        {
+          "field": "name10",
+          "value": "Black mask (9) (i)"
+        },
+        {
+          "field": "version10",
+          "value": "(9)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25268,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id9",
+          "value": "25268"
+        },
+        {
+          "field": "name9",
+          "value": "Black mask (8) (i)"
+        },
+        {
+          "field": "version9",
+          "value": "(8)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25269,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id8",
+          "value": "25269"
+        },
+        {
+          "field": "name8",
+          "value": "Black mask (7) (i)"
+        },
+        {
+          "field": "version8",
+          "value": "(7)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25270,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id7",
+          "value": "25270"
+        },
+        {
+          "field": "name7",
+          "value": "Black mask (6) (i)"
+        },
+        {
+          "field": "version7",
+          "value": "(6)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25271,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "25271"
+        },
+        {
+          "field": "name6",
+          "value": "Black mask (5) (i)"
+        },
+        {
+          "field": "version6",
+          "value": "(5)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25276,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "25276"
+        },
+        {
+          "field": "name1",
+          "value": "Black mask (i)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 25576,
+      "title": "Tome of Water",
+      "sourceRevision": 15315430,
+      "sourceSha256": "ebda36a9fb9b481e7b7a1f90921d75ea95b191e96e47351065f842ab45e492a6",
+      "semanticExcerpt": "'''tome of water''' is a book held in place of a [[shield]] that is a possible reward from [[Tempoross]]. The tome of water requires level 50 in [[Magic]] to wield.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "25576"
+        },
+        {
+          "field": "name1",
+          "value": "Tome of Water (empty)"
+        },
+        {
+          "field": "version1",
+          "value": "Empty"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Pages, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 26221,
+      "title": "Ancient ceremonial top",
+      "sourceRevision": 15190617,
+      "sourceSha256": "e211da7692564c5b17001d205e86b94b8926c1ded3c7d0cdcfb4eac6f2cb98f1",
+      "semanticExcerpt": "'''ancient ceremonial top''' is an item dropped by all NPCs in the [[God Wars Dungeon#Ancient Prison|Ancient Prison]], excluding [[Nex]]. Part of the [[ancient ceremonial robes]] set, the top has no requirements to wear. In addition, as a [",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "26221"
+        },
+        {
+          "field": "name",
+          "value": "Ancient ceremonial top"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 26771,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id11",
+          "value": "26771"
+        },
+        {
+          "field": "name11",
+          "value": "Black mask (10) (i)"
+        },
+        {
+          "field": "version11",
+          "value": "(10)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 26772,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id10",
+          "value": "26772"
+        },
+        {
+          "field": "name10",
+          "value": "Black mask (9) (i)"
+        },
+        {
+          "field": "version10",
+          "value": "(9)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 26773,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id9",
+          "value": "26773"
+        },
+        {
+          "field": "name9",
+          "value": "Black mask (8) (i)"
+        },
+        {
+          "field": "version9",
+          "value": "(8)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 26774,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id8",
+          "value": "26774"
+        },
+        {
+          "field": "name8",
+          "value": "Black mask (7) (i)"
+        },
+        {
+          "field": "version8",
+          "value": "(7)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 26775,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id7",
+          "value": "26775"
+        },
+        {
+          "field": "name7",
+          "value": "Black mask (6) (i)"
+        },
+        {
+          "field": "version7",
+          "value": "(6)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 26776,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "26776"
+        },
+        {
+          "field": "name6",
+          "value": "Black mask (5) (i)"
+        },
+        {
+          "field": "version6",
+          "value": "(5)"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 26781,
+      "title": "Black mask (i)",
+      "sourceRevision": 15345633,
+      "sourceSha256": "ce009d9b4c790dc61e0c715fd75a899f31e17f0f515b13232fa1e98a479956b8",
+      "semanticExcerpt": "'''black mask (i)''' is an upgraded version of the [[black mask]]. It requires 20 [[Strength]], 10 [[Defence]], and 40 [[Combat]] to equip. It can be imbued as a reward from the [[Nightmare Zone]], costing 1,250,000 reward points or 625,000",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "26781"
+        },
+        {
+          "field": "name1",
+          "value": "Black mask (i)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "*15% bonus to [[Ranged]] accuracy and Strength."
+      }
+    },
+    {
+      "itemId": 27226,
+      "title": "Masori mask",
+      "sourceRevision": 15190624,
+      "sourceSha256": "fb14b73d84f4dec6434d97000bdfc5117bf06e343a3f22afb8c8efffff100aaf",
+      "semanticExcerpt": "'''Masori mask ''' is obtained as a rare drop from the [[Tombs of Amascut]]. It is part of the [[Masori armour]] set, and requires level 80 [[Ranged]] and 30 [[Defence]] to equip. As with the rest of the armour set, the mask boasts the high",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "27226"
+        },
+        {
+          "field": "name",
+          "value": "Masori mask"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 27287,
+      "title": "Keris partisan of corruption",
+      "sourceRevision": 15315989,
+      "sourceSha256": "ff79fda9f933275f4a7df8ca05e6d7a0e8c1bf69f59fd56f2221138133fd640b",
+      "semanticExcerpt": "'''keris partisan of corruption''' is a one-handed spear requiring 80 [[Attack]] to equip. It is made by attaching the [[Eye of the Corruptor]] on the [[keris partisan]], granting it a special attack which can only be used within the [[Tomb",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "kalphite-scabarite-damage"
+      ],
+      "proposedTags": [
+        "kalphite-scabarite-damage"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "27287"
+        },
+        {
+          "field": "name",
+          "value": "Keris partisan of corruption"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Dismantle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "kalphite-scabarite-damage": "bonus damage against all [[Kalphite_(attribute)|kalphites and scabarites]]"
+      }
+    },
+    {
+      "itemId": 28531,
+      "title": "Corrupted voidwaker",
+      "sourceRevision": 15191591,
+      "sourceSha256": "e3338bf40c5630fea728d5aac4e2c05b981131ab5476550bdedfce0cc511d0e3",
+      "semanticExcerpt": "'''corrupted voidwaker''' is a melee weapon that requires level 65 [[Attack]] to wield. Exclusive to [[Deadman Mode]] seasonals, it can be acquired by opening a [[trinket of advanced weaponry]] obtained from a [[Deadman:_Apocalypse#Breaches",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28531"
+        },
+        {
+          "field": "name",
+          "value": "Corrupted voidwaker"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 28534,
+      "title": "Corrupted dragon claws",
+      "sourceRevision": 15191592,
+      "sourceSha256": "f3df88bc208cc71c6819d56ff2802c995de4b77dd18c28f9c95c1e1bfb3fa1b7",
+      "semanticExcerpt": "'''Corrupted dragon claws''' are a melee weapon that require level 40 [[Attack]] to wield. Exclusive to [[Deadman Mode]] seasonals, it can be acquired by opening a [[trinket of advanced weaponry]] obtained from a [[Deadman:_Apocalypse#Breac",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28534"
+        },
+        {
+          "field": "name",
+          "value": "Corrupted dragon claws"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 28543,
+      "title": "Corrupted Scythe of Vitur",
+      "sourceRevision": 15350112,
+      "sourceSha256": "157c70f95e8f88d9945c2b841c76c501d97f51a245a1a1f02b3f0c421e08d552",
+      "semanticExcerpt": "'''Corrupted Scythe of Vitur''' is a melee weapon that requires level 60 [[Attack]] and 70 [[Strength]] to wield. Exclusive to [[Deadman Mode]] seasonals, it can be acquired by opening a [[trinket of advanced weaponry]] obtained from a [[De",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "28543"
+        },
+        {
+          "field": "name2",
+          "value": "Corrupted Scythe of Vitur"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Uncharge, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 28545,
+      "title": "Corrupted Scythe of Vitur",
+      "sourceRevision": 15350112,
+      "sourceSha256": "157c70f95e8f88d9945c2b841c76c501d97f51a245a1a1f02b3f0c421e08d552",
+      "semanticExcerpt": "'''Corrupted Scythe of Vitur''' is a melee weapon that requires level 60 [[Attack]] and 70 [[Strength]] to wield. Exclusive to [[Deadman Mode]] seasonals, it can be acquired by opening a [[trinket of advanced weaponry]] obtained from a [[De",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "28545"
+        },
+        {
+          "field": "name1",
+          "value": "Corrupted Scythe of Vitur (uncharged)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 28834,
+      "title": "Tecu salamander",
+      "sourceRevision": 15257986,
+      "sourceSha256": "ffbf89113ee9f049be67668ac8f684d05e811eb916ee61a5dfb1f087a8d8b0f0",
+      "semanticExcerpt": "'''tecu salamander''' is the strongest [[salamander]] that can be caught using a [[net trap]] and the [[Hunter]] skill at level 79, granting 344 Hunter [[experience]], which can be found south-east of [[Ralos' Rise]]. Catching a matured tec",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28834"
+        },
+        {
+          "field": "name",
+          "value": "Tecu salamander"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Release"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 28919,
+      "title": "Tonalztics of Ralos",
+      "sourceRevision": 15358486,
+      "sourceSha256": "7af14f4e7075be3b4b3440a57a70d2c5aaa61c0e4bc6f8e014ca2c03515bba5b",
+      "semanticExcerpt": "'''Tonalztics of Ralos''' is a one-handed [[Weapons/Categories#Thrown|thrown]] weapon that requires level 75 [[Ranged]] to equip, obtained by participating in the [[Fortis Colosseum]]. Unlike most [[thrown weapons]], it is not stackable and",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "28919"
+        },
+        {
+          "field": "name1",
+          "value": "Tonalztics of Ralos (uncharged)"
+        },
+        {
+          "field": "version1",
+          "value": "Uncharged"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 28922,
+      "title": "Tonalztics of Ralos",
+      "sourceRevision": 15358486,
+      "sourceSha256": "7af14f4e7075be3b4b3440a57a70d2c5aaa61c0e4bc6f8e014ca2c03515bba5b",
+      "semanticExcerpt": "'''Tonalztics of Ralos''' is a one-handed [[Weapons/Categories#Thrown|thrown]] weapon that requires level 75 [[Ranged]] to equip, obtained by participating in the [[Fortis Colosseum]]. Unlike most [[thrown weapons]], it is not stackable and",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "28922"
+        },
+        {
+          "field": "name2",
+          "value": "Tonalztics of Ralos"
+        },
+        {
+          "field": "version2",
+          "value": "Charged"
+        },
+        {
+          "field": "options2",
+          "value": "Wield, Check, Charge, Uncharge"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 29607,
+      "title": "Voidwaker (Deadman)",
+      "sourceRevision": 15299203,
+      "sourceSha256": "0970d871e1f97447de77b7102c1dac68de08649b3e3629230216d03e1991d2f8",
+      "semanticExcerpt": "'''Deadman Voidwaker''' is an ornamented variant of the [[Voidwaker]], made by giving it to [[Nigel]] after having used an [[Armageddon weapon scroll]] on him. The attached ornament kit gives no additional bonuses, and is only used to add a",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29607"
+        },
+        {
+          "field": "name",
+          "value": "Voidwaker (Deadman)"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 29889,
+      "title": "Glacial temotli",
+      "sourceRevision": 15359046,
+      "sourceSha256": "d65a24604db0a258f9e247938727e3394ba9d9b035fc4cc070027bf7969919ae",
+      "semanticExcerpt": "'''Glacial temotli''' are a two-handed [[blunt|blunt weapon]] that requires level 55 [[Attack]] to wield, obtained as a rare drop from [[frost nagua]] and [[Amoxliatl]] in the [[Ruins of Tapoyauik]]. Like their slash and stab equivalents, t",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29889"
+        },
+        {
+          "field": "name",
+          "value": "Glacial temotli"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 30066,
+      "title": "Tome of Earth",
+      "sourceRevision": 15310850,
+      "sourceSha256": "95a54482ed1b5d12fcfdc77293289d43dc304ee82443110f027a746b2bfd4c79",
+      "semanticExcerpt": "'''tome of earth''' is a book held in place of a [[shield]] that is a possible reward from [[the Hueycoatl]]. The tome of earth requires level 50 in [[Magic]] to wield.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "30066"
+        },
+        {
+          "field": "name1",
+          "value": "Tome of Earth (empty)"
+        },
+        {
+          "field": "version1",
+          "value": "Empty"
+        },
+        {
+          "field": "options1",
+          "value": "Wield, Pages, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 30305,
+      "title": "Arclight",
+      "sourceRevision": 15353280,
+      "sourceSha256": "ae3297175370f76792a914ffe008e5e7460784ba9b32cb2ef0909eeb475c0306",
+      "semanticExcerpt": "'''Arclight''' is a [[demonbane weapon]] requiring level 75 [[Attack]] to wield. An upgraded variant of [[Darklight]], Arclight features an enhanced [[passive effect]] in addition to modest improvements in attack bonus and speed.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id1",
+          "value": "30305"
+        },
+        {
+          "field": "name1",
+          "value": "Arclight (inactive)"
+        },
+        {
+          "field": "version1",
+          "value": "Inactive"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Check, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "Arclight features an enhanced [[passive effect]]"
+      }
+    },
+    {
+      "itemId": 30384,
+      "title": "Crystal blessing",
+      "sourceRevision": 15208804,
+      "sourceSha256": "8fd7356e10580f674db156a07951b3006531a41018e468292db6549a33ab78ba",
+      "semanticExcerpt": "'''crystal blessing''' is an [[echo item]] that can be obtained from [[Echo Corrupted Hunllef]] during the [[Demonic Pacts League]]. Equipped in the ammunition slot, the blessing expands the accuracy and damage bonus from [[crystal armour]]",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "ammo",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30384"
+        },
+        {
+          "field": "name",
+          "value": "Crystal blessing"
+        },
+        {
+          "field": "options",
+          "value": "Equip, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "the blessing expands the accuracy and damage bonus from [[crystal armour]]"
+      }
+    },
+    {
+      "itemId": 30386,
+      "title": "Sunlit bracers",
+      "sourceRevision": 15237683,
+      "sourceSha256": "2402ebb29ac0ca90364e2007e1aac6fcecbd3f48407468514cace83f71a28088",
+      "semanticExcerpt": "'''sunlit bracers''' are gloves that were rewarded when completing all column six tasks in [[Grid Master]]. The bracers have a [[passive effect]] which doubles any base healing received, including from the [[amulet of blood fury]], [[blood ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "hands",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30386"
+        },
+        {
+          "field": "name",
+          "value": "Sunlit bracers"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "doubles any base healing received"
+      }
+    },
+    {
+      "itemId": 30753,
+      "title": "Oathplate chest",
+      "sourceRevision": 15293122,
+      "sourceSha256": "a949a8928f6d0d9d19df7ce32d24971c725a7a3b94da772105a8f3258dd301a9",
+      "semanticExcerpt": "'''oathplate chest''' is part of the [[oathplate armour]] set, requiring 78 [[Defence]] to wear. The chest is the only piece of body slot item to have a positive [[slash bonus]], excluding the [[Vesta's chainbody]] which is only usable in [",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30753"
+        },
+        {
+          "field": "name",
+          "value": "Oathplate chest"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 30759,
+      "title": "Soulflame horn",
+      "sourceRevision": 15351939,
+      "sourceSha256": "2948ed1415e3acb39fd02b145efe87f61710a41f0cc5018ef77ed1c724d13a22",
+      "semanticExcerpt": "'''soulflame horn''' is a weapon obtained as a rare drop from [[Yama]] that requires level 80 [[Magic]] to equip. It is a guaranteed drop when defeating him in a [[Contract of Harmony Acquisition]] fight. The horn's main appeal is its speci",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "special-attack"
+      ],
+      "proposedTags": [
+        "special-attack"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30759"
+        },
+        {
+          "field": "name",
+          "value": "Soulflame horn"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Configure (-> Max Players), Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "special-attack": "has a [[special attack]]"
+      }
+    },
+    {
+      "itemId": 30891,
+      "title": "Keris partisan of amascut",
+      "sourceRevision": 15314676,
+      "sourceSha256": "5a5d446a896e54b9a78a5a2158b52c169af75865a086c045f73d6613b7d0412c",
+      "semanticExcerpt": "'''keris partisan of Amascut''' is a one-handed spear requiring [[Attack]] level 80 to wield. It is created by combining a [[jewel of Amascut]] with a [[keris partisan]]. The upgrade greatly enhances the weapon's stats when used inside the ",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "kalphite-scabarite-damage"
+      ],
+      "proposedTags": [
+        "kalphite-scabarite-damage"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30891"
+        },
+        {
+          "field": "name",
+          "value": "Keris partisan of amascut"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Dismantle, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "kalphite-scabarite-damage": "this variant has a damage bonus of 15%"
+      }
+    },
+    {
+      "itemId": 30957,
+      "title": "Earthbound tecpatl",
+      "sourceRevision": 15193211,
+      "sourceSha256": "24f003ffd519526379a9dee35a0dc0b5f48db9477f615b57447aa0b214599a0f",
+      "semanticExcerpt": "'''Earthbound tecpatl''' are a two-handed [[Weapons/Categories#Stab sword|stab sword]] that require level 55 [[Attack]] to wield, obtained as a rare drop from [[earthen nagua]] in the [[Tonali Cavern]]. Like their crush and slash equivalent",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "30957"
+        },
+        {
+          "field": "name",
+          "value": "Earthbound tecpatl"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 31081,
+      "title": "Antler guard",
+      "sourceRevision": 15285772,
+      "sourceSha256": "f70c5dce08b6e2f2c57cbf035680d1d0acc9f8298e88f76e08cf9c0db2f202a7",
+      "semanticExcerpt": "'''antler guard''' is a tribrid shield slot item dropped by [[Mature custodian stalker|mature]] and [[elder custodian stalker]]s.",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [],
+      "proposedTags": [],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31081"
+        },
+        {
+          "field": "name",
+          "value": "Antler guard"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {}
+    },
+    {
+      "itemId": 33041,
+      "title": "Thunder khopesh (Deadman Mode)",
+      "sourceRevision": 15262511,
+      "sourceSha256": "c101f72f71f792a19132e115b7fbb121476ef6a66d808e8a00dfc25677759431",
+      "semanticExcerpt": "'''thunder khopesh''' is a weapon that requires 60 [[Attack]] to wield. It can be obtained from looting [[Deadman's chest (scenery)|Deadman's chests]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "33041"
+        },
+        {
+          "field": "name",
+          "value": "Thunder khopesh"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Inspect, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "20% chance to summon a delayed lightning bolt"
+      }
+    },
+    {
+      "itemId": 33243,
+      "title": "Infernal tecpatl",
+      "sourceRevision": 15209880,
+      "sourceSha256": "6ff821019f41dc817e98e8f130b647479ddb6d112c1ecfdfd60fd7a4d3ffd4a3",
+      "semanticExcerpt": "'''infernal tecpatl''' is a two-handed [[echo weapon]] that can be obtained from [[Echo Amoxliatl]] during the [[Demonic Pacts League]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "33243"
+        },
+        {
+          "field": "name",
+          "value": "Infernal tecpatl"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "10% [[Demonbane weapons|demonbane]]"
+      }
+    },
+    {
+      "itemId": 33249,
+      "title": "Fang of the hound",
+      "sourceRevision": 15213366,
+      "sourceSha256": "79cfc0d78e25e2838d310bf48a362d5964b1287339fed9c9118ab28bc89d9c6b",
+      "semanticExcerpt": "'''Fang of the Hound''' is a one-handed [[echo weapon]] that can be obtained from [[Echo Cerberus]] during the [[Demonic Pacts League]].",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "combat-passive",
+        "special-attack"
+      ],
+      "proposedTags": [
+        "combat-passive",
+        "special-attack"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "33249"
+        },
+        {
+          "field": "name",
+          "value": "Fang of the hound"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop, Inspect"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "5% chance to cast ''Flames of Cerberus'' at the target",
+        "special-attack": "has a [[special attack]]"
+      }
+    },
+    {
+      "itemId": 33631,
+      "title": "Crimson kisten",
+      "sourceRevision": 15360578,
+      "sourceSha256": "50e7ba50a344085f4f8df34f1882a39163f564c5cf57ec641040dd5bcdfc5053",
+      "semanticExcerpt": "'''crimson kisten''' is a two-handed [[Weapons/Categories#Spiked|spiked]] weapon requiring level 60 [[Attack]] and 85 [[Strength]] to wield. Obtained as a rare drop from the [[Maggot King]], the weapon is mainly used for its [[special attac",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "special-attack"
+      ],
+      "proposedTags": [
+        "special-attack"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "33631"
+        },
+        {
+          "field": "name",
+          "value": "Crimson kisten"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "special-attack": "has a [[special attack]]"
+      }
+    },
+    {
+      "itemId": 33716,
+      "title": "Blisterwood stake",
+      "sourceRevision": 15320434,
+      "sourceSha256": "d37b99daf122ad99beebdd142547e04266b06f4051ed67f866d5371611751312",
+      "semanticExcerpt": "'''Blisterwood stakes''' are a one-handed ranged weapon that becomes craftable during [[The Blood Moon Rises]], after the player is recommended to do so by [[Sarei]]. They are made by using a [[knife]] on [[blisterwood logs]], yielding five",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "combat-passive"
+      ],
+      "proposedTags": [
+        "combat-passive"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "33716"
+        },
+        {
+          "field": "name",
+          "value": "Blisterwood stake"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Root read the exact-ID article, matched its own variant options and combat slot, and reviewed the functional prose. The combat role takes precedence over acquisition, decoration and activity provenance; rechargeable equipment follows its bank equipment workflow without claiming an empty state can attack.",
+      "reviewer": "root: independently read article lead, state options and relevant mechanics; agent candidates were not automatically accepted",
+      "tagEvidence": {
+        "combat-passive": "accuracy and damage bonus of 25% against them"
+      }
+    }
+  ]
+}
