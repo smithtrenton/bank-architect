@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the six pinned root-approved policy files.
+"""Emit exact-ID decisions from the seven pinned root-approved policy files.
 
 This is a read-only certification artifact builder. It does not read candidate
 review outputs and never changes plugin sources or the frozen reviewer packets.
@@ -29,6 +29,7 @@ POLICY_NAMES = (
     "utility-approved-policy.json",
     "cleanup-gear-approved-policy.json",
     "gear-slot-approved-policy.json",
+    "gear-primary-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -90,18 +91,40 @@ def load_packets() -> dict[int, dict[str, Any]]:
 def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str, str]]:
     cases: dict[int, tuple[dict[str, Any], str]] = {}
     hashes: dict[str, str] = {}
+    approval_record = json.loads((CERT / "root-policy-approvals.json").read_text(encoding="utf-8-sig"))
+    if approval_record.get("schema") != 1 or approval_record.get("status") != "root-reviewed exact policy pins":
+        raise ValueError("Invalid detached root-policy approval record")
+    approved_policies = approval_record["approvedPolicies"]
+    if set(approved_policies) != set(POLICY_NAMES):
+        raise ValueError("Approval record does not exactly name the whitelisted root policies")
     for name in POLICY_NAMES:
         path = CERT / name
         hashes[name] = sha256(path)
         policy = json.loads(path.read_text(encoding="utf-8-sig"))
+        approved = approved_policies[name]
+        if hashes[name] != approved["sha256"]:
+            raise ValueError(f"Root policy bytes differ from the separate approval pin: {name}")
+        canonical = hashlib.sha256(json.dumps(policy, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        if canonical != approved["canonicalSha256"] or sorted(case["itemId"] for case in policy["cases"]) != approved["approvedItemIds"] or len(policy["cases"]) != approved["caseCount"]:
+            raise ValueError(f"Root policy contents or exact ID set differ from the separate approval pin: {name}")
+        if name == "gear-primary-approved-policy.json":
+            verifier_path = CERT / "verify-gear-primary-policy.py"
+            spec = importlib.util.spec_from_file_location("root_gear_primary_verifier", verifier_path)
+            if spec is None or spec.loader is None:
+                raise ValueError("Cannot load the approved Gear provenance verifier")
+            verifier = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(verifier)
+            verifier.verify_policy(policy)
+            if len(policy["cases"]) != 939:
+                raise ValueError("Expected exactly 939 root-approved unchanged Gear cases")
         for case in policy["cases"]:
             item_id = int(case["itemId"])
             if item_id in cases:
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 230:
-        raise ValueError(f"Expected exactly 230 disjoint approved cases, found {len(cases)}")
+    if len(cases) != 1169:
+        raise ValueError(f"Expected exactly 1,169 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -234,6 +257,9 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
+    expected = "certify" if policy_name == "gear-primary-approved-policy.json" else "revise"
+    if decision != expected:
+        raise ValueError(f"item {item_id}: {policy_name} produced {decision}, expected {expected}")
     rationale = str(case.get("rationale") or normalized(excerpt))
     predicate = f"Exact-ID evidence: {normalized(excerpt)}"
     return {
@@ -261,6 +287,9 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
             "secondaryExcerpts": secondary_quotes,
             "exactVariantFacts": facts,
             "tagEvidence": tag_evidence,
+            **({"bonusSourceProof": case["bonusSourceProof"],
+                "approvalScope": "primary category, subcategory and tab only; tags retained and supplemental roles unassessed"}
+               if case.get("bonusSourceProof") else {}),
         },
     }
 
@@ -416,12 +445,15 @@ def main() -> None:
         "unresolvedRows": sum(row["decision"] == "unresolved" for row in output_rows),
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
-                               ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py")},
+                               ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
+                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py")},
         "sourceHashes": {
             "policies": policy_hashes,
+            "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),
             "optionalCertifications": certification_hashes,
             "articleIndex": sha256(ARTICLE_INDEX),
             "frozenCoverage": sha256(coverage_path),
+            "gearBonusSourceProof": sha256(BASE / "reviews/gear-v2/bonus-source-proof.json"),
             "frozenPackets": packet_hashes,
         },
         "output": (str(args.output.relative_to(ROOT)) if args.output.is_relative_to(ROOT) else str(args.output)).replace("\\", "/"),
