@@ -462,11 +462,20 @@ public class GearItemSorterTest
 	{
 		List<BankPreviewItem> items = new java.util.ArrayList<>(Arrays.asList(
 			item(960001, "Rune full helm"), item(960002, "Black d'hide coif"), item(960003, "Mystic hat")));
-		for (int index = 0; index < 16; index++) items.add(item(960100 + index, "Spare shield " + index));
+		for (int index = 0; index < 16; index++)
+		{
+			BankPreviewItem spare = item(960100 + index, "Spare shield " + index);
+			items.add(index == 0 ? new BankPreviewItem(new CatalogItem(spare.getItemId(),
+				spare.getDisplayName(), ItemCategory.GEAR, "gear", Collections.emptySet(), null),
+				2, false, Arrays.asList(1, 1)) : spare);
+		}
 		for (int column = 0; column < 8; column++)
 		{
 			GearItemSorter.GearLayout layout = GearItemSorter.plan(items, GearStatsSource.NONE, column);
-			List<String> rows = names(layout.getSetupRows());
+			List<String> rows = names(BankCategoryPreview.fromLogicalItems(
+				BankPresets.IRONMAN.getCategory("combat-gear"), layout.getSetupRows()).getItems());
+			assertFalse(rows.contains("Spare shield 0"));
+			assertTrue(names(layout.getTail()).contains("Spare shield 0"));
 			assertEquals(0, (column + rows.indexOf("Rune full helm")) % 8);
 			assertEquals(1, (column + rows.indexOf("Black d'hide coif")) % 8);
 			assertEquals(2, (column + rows.indexOf("Mystic hat")) % 8);
@@ -474,4 +483,31 @@ public class GearItemSorterTest
 		}
 	}
 
+	@Test
+	public void aMultipleCopyPrimaryKeepsItsRowInTheDenseTail()
+	{
+		List<BankPreviewItem> items = new java.util.ArrayList<>(Arrays.asList(
+			new BankPreviewItem(new CatalogItem(960001, "Rune full helm", ItemCategory.GEAR,
+				"gear", Collections.emptySet(), null), 2, false, Arrays.asList(1, 1)),
+			item(960002, "Black d'hide coif"), item(960003, "Mystic hat")));
+		for (int index = 0; index < 16; index++) items.add(item(960100 + index, "Spare shield " + index));
+		GearItemSorter.GearLayout layout = GearItemSorter.plan(items, GearStatsSource.NONE);
+		assertTrue(layout.getSetupRows().isEmpty());
+		assertEquals(items.size(), layout.getTail().size());
+		assertEquals(20, BankPreviewItem.physicalSize(layout.getTail()));
+	}
+
+	@Test
+	public void multiplePhysicalCopiesCannotStandInForSingleGearCells()
+	{
+		List<BankPreviewItem> items = new java.util.ArrayList<>(Arrays.asList(
+			item(960001, "Rune full helm"), item(960002, "Black d'hide coif"), item(960003, "Mystic hat")));
+		for (int index = 0; index < 16; index++)
+			items.add(new BankPreviewItem(new CatalogItem(960100 + index, "Spare shield " + index,
+				ItemCategory.GEAR, "gear", Collections.emptySet(), null), 2, false, Arrays.asList(1, 1)));
+		GearItemSorter.GearLayout layout = GearItemSorter.plan(items, GearStatsSource.NONE, 7);
+		assertTrue(layout.getSetupRows().isEmpty());
+		assertEquals(items.size(), layout.getTail().size());
+		assertEquals(35, BankPreviewItem.physicalSize(layout.getTail()));
+	}
 }

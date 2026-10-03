@@ -49,6 +49,28 @@ public class BankOrganizationPreviewBuilderTest
 	}
 
 	@Test
+	public void gearFamiliesWithMultiplePhysicalCopiesKeepDenseOrder()
+	{
+		List<BankItemSnapshot> bank = new ArrayList<>(Arrays.asList(
+			new BankItemSnapshot(1163, 1, 0), new BankItemSnapshot(1163, 1, 1),
+			new BankItemSnapshot(1127, 1, 2), new BankItemSnapshot(1079, 1, 3)));
+		for (int index = 0; index < 20; index++) bank.add(new BankItemSnapshot(960000 + index, 1, 4 + index));
+		ItemCatalog catalog = itemId -> itemId >= 960000
+			? Optional.of(new CatalogItem(itemId, "Spare ring " + itemId, ItemCategory.GEAR,
+				"ring", Collections.emptySet(), null)) : CompositeItemCatalog.DEFAULT.findById(itemId);
+		for (BankLayoutOptions options : Arrays.asList(BankLayoutOptions.DEFAULTS, SET_COLUMNS))
+		{
+			BankOrganizationPreview preview = BankOrganizationPreviewBuilder.build(new BankSnapshot(bank),
+				catalog, BankPresets.IRONMAN, GearStatsSource.NONE, ItemValueSource.NONE,
+				CategoryOverrideSource.NONE, null, options);
+			List<BankPreviewItem> gear = category(preview, "combat-gear").getItems();
+			assertEquals(24, gear.size());
+			assertEquals(Arrays.asList(1163, 1163, 1127, 1079), Arrays.asList(
+				gear.get(0).getItemId(), gear.get(1).getItemId(), gear.get(2).getItemId(), gear.get(3).getItemId()));
+		}
+	}
+
+	@Test
 	public void previewKeepsPresetOrderAndOwnedItemSamples()
 	{
 		BankOrganizationPreview preview = BankOrganizationPreviewBuilder.build(new BankSnapshot(Arrays.asList(

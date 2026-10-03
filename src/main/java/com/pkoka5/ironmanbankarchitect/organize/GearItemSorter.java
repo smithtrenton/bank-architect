@@ -5,6 +5,7 @@ import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
 import com.pkoka5.ironmanbankarchitect.catalog.GearTierCatalog;
 import com.pkoka5.ironmanbankarchitect.organize.layout.GearSetSemanticRuleSet;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
@@ -219,7 +220,8 @@ final class GearItemSorter
 				}
 			}
 
-			if (primaryCount < MIN_STYLE_COLUMNS_PER_ROW)
+			if (primaryCount < MIN_STYLE_COLUMNS_PER_ROW || Arrays.stream(cells)
+				.anyMatch(item -> item != null && item.physicalBankSlotCount() != 1))
 			{
 				continue;
 			}
@@ -453,7 +455,8 @@ final class GearItemSorter
 		Set<Integer> reservedPrimaryIds, Set<Integer> protectedVerticalSetIds,
 		GearStatsSource gearStats)
 	{
-		return slotRankOf(candidate, gearStats) != 11
+		return candidate.physicalBankSlotCount() == 1
+			&& slotRankOf(candidate, gearStats) != 11
 			&& !usedItemIds.contains(candidate.getItemId())
 			&& !reservedPrimaryIds.contains(candidate.getItemId())
 			&& !protectedVerticalSetIds.contains(candidate.getItemId());

@@ -177,6 +177,13 @@ public final class BankPreviewItem
 			tags, placeholder, physicalSlotQuantities, layoutTagKey, occurrence);
 	}
 
+	static int physicalSize(List<BankPreviewItem> items)
+	{
+		int size = 0;
+		for (BankPreviewItem item : items) size += item.physicalBankSlotCount();
+		return size;
+	}
+
 	int physicalBankSlotCount()
 	{
 		return physicalSlotQuantities.size();

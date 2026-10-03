@@ -346,13 +346,17 @@ public class HerbloreItemSorterTest
 			item(1, "Grimy irit"), item(2, "Clean irit"), item(3, "Irit seed"),
 			item(4, "Irit potion (unf)"), item(5, "Eye of newt"), item(6, "Super attack (3)"),
 			item(7, "Super attack (2)"), item(8, "Super attack (1)")));
-		for (int index = 0; index < 7; index++) items.add(item(970000 + index, "Unrelated herb " + index));
+		for (int index = 0; index < 7; index++)
+			items.add(index == 0 ? new BankPreviewItem(new CatalogItem(970000,
+				"Unrelated herb 0", ItemCategory.HERBLORE, "herb", Collections.emptySet(), null),
+				2, false, Arrays.asList(1, 1)) : item(970000 + index, "Unrelated herb " + index));
 		for (int column = 0; column < 8; column++)
 		{
 			List<BankPreviewItem> layout = HerbloreItemSorter.layout(items, true, column);
 			assertEquals(items.size(), layout.size());
-			assertEquals(0, (column + indexOf(layout, "Grimy irit")) % 8);
-			assertEquals(7, (column + indexOf(layout, "Super attack (1)")) % 8);
+			assertEquals(16, BankPreviewItem.physicalSize(layout));
+			assertEquals(0, (column + BankPreviewItem.physicalSize(layout.subList(0, indexOf(layout, "Grimy irit")))) % 8);
+			assertEquals(7, (column + BankPreviewItem.physicalSize(layout.subList(0, indexOf(layout, "Super attack (1)")))) % 8);
 		}
 	}
 

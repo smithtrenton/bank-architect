@@ -1,5 +1,7 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import static com.pkoka5.ironmanbankarchitect.organize.BankPreviewItem.physicalSize;
+
 import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
 import com.pkoka5.ironmanbankarchitect.catalog.RequiredResource;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
@@ -88,7 +90,7 @@ final class HerbloreItemSorter
 			.thenComparingInt(BankPreviewItem::getItemId));
 
 		List<BankPreviewItem> laidOut = new ArrayList<>(herblore);
-		laidOut.addAll(FarmingItemSorter.layout(farming, (gridStartColumn + laidOut.size()) % GRID_COLUMNS));
+		laidOut.addAll(layoutFarming(farming, (gridStartColumn + physicalSize(laidOut)) % GRID_COLUMNS));
 		return laidOut;
 	}
 
@@ -193,10 +195,8 @@ final class HerbloreItemSorter
 			{
 				if (fillRows)
 				{
-					while ((gridStartColumn + laidOut.size()) % GRID_COLUMNS != 0 && !herbloreSpillover.isEmpty())
-						laidOut.add(herbloreSpillover.remove(0));
-					while ((gridStartColumn + laidOut.size()) % GRID_COLUMNS != 0 && !farmingSpillover.isEmpty())
-						laidOut.add(farmingSpillover.remove(0));
+					fillRow(laidOut, herbloreSpillover, gridStartColumn);
+					fillRow(laidOut, farmingSpillover, gridStartColumn);
 				}
 				laidOut.addAll(row.items());
 			}
@@ -206,25 +206,39 @@ final class HerbloreItemSorter
 			if (!row.isComplete())
 			{
 				List<BankPreviewItem> rowItems = row.items();
-				int usedColumns = (gridStartColumn + laidOut.size()) % GRID_COLUMNS;
-				if (fillRows && usedColumns != 0 && usedColumns + rowItems.size() > GRID_COLUMNS)
+				int usedColumns = (gridStartColumn + physicalSize(laidOut)) % GRID_COLUMNS;
+				if (fillRows && usedColumns != 0 && usedColumns + physicalSize(rowItems) > GRID_COLUMNS)
 				{
-					while ((gridStartColumn + laidOut.size()) % GRID_COLUMNS != 0 && !herbloreSpillover.isEmpty())
-					{
-						laidOut.add(herbloreSpillover.remove(0));
-					}
-					while ((gridStartColumn + laidOut.size()) % GRID_COLUMNS != 0 && !farmingSpillover.isEmpty())
-					{
-						laidOut.add(farmingSpillover.remove(0));
-					}
+					fillRow(laidOut, herbloreSpillover, gridStartColumn);
+					fillRow(laidOut, farmingSpillover, gridStartColumn);
 				}
 				laidOut.addAll(rowItems);
 			}
 		}
 		laidOut.addAll(herbloreSpillover);
-		laidOut.addAll(FarmingItemSorter.layout(farmingSpillover,
-			(gridStartColumn + laidOut.size()) % GRID_COLUMNS));
+		laidOut.addAll(layoutFarming(farmingSpillover,
+			(gridStartColumn + physicalSize(laidOut)) % GRID_COLUMNS));
 		return laidOut;
+	}
+
+	private static List<BankPreviewItem> layoutFarming(List<BankPreviewItem> items, int startColumn)
+	{
+		return physicalSize(items) == items.size() ? FarmingItemSorter.layout(items, startColumn)
+			: FarmingItemSorter.sequential(items);
+	}
+
+	private static void fillRow(List<BankPreviewItem> laidOut, List<BankPreviewItem> spillover,
+		int gridStartColumn)
+	{
+		int column;
+		while ((column = (gridStartColumn + physicalSize(laidOut)) % GRID_COLUMNS) != 0)
+		{
+			int index = 0;
+			while (index < spillover.size()
+				&& spillover.get(index).physicalBankSlotCount() > GRID_COLUMNS - column) index++;
+			if (index == spillover.size()) return;
+			laidOut.add(spillover.remove(index));
+		}
 	}
 
 	private static RecipeRow matchChain(Chain chain, Set<BankPreviewItem> unused)
@@ -232,6 +246,7 @@ final class HerbloreItemSorter
 		BankPreviewItem[] cells = new BankPreviewItem[GRID_COLUMNS];
 		for (BankPreviewItem item : unused)
 		{
+			if (item.physicalBankSlotCount() != 1) continue;
 			String name = normalizedName(item.getDisplayName());
 			int herbCell = metadataHerbCell(chain, item);
 			if (herbCell < 0)

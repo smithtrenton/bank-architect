@@ -94,18 +94,23 @@ for line in open("src/main/resources/com/pkoka5/ironmanbankarchitect/catalog/pot
         continue
     key, values = line.rstrip("\n").split("\t")[:2]
     members = [int(value) for value in values.split(",")]
-    valid = all(
+    valid = len(members) in (2, 4) and all(
         member in metadata
         and metadata[member]["family"] == key
         and metadata[member]["variant_kind"] == "DOSE"
-        and int(metadata[member]["variant_value"]) == 4 - index
+        and int(metadata[member]["variant_value"]) == len(members) - index
         for index, member in enumerate(members)
     )
-    source = sources.get("osrs-wiki-potions-15243625", {})
+    source_keys = sorted({metadata[member]["source_key"] for member in members if member in metadata})
+    family_sources = [sources[source_key] for source_key in source_keys if source_key in sources]
+    source_urls = sorted({source["url"] for source in family_sources})
+    source_revisions = sorted({source["revision"] for source in family_sources})
+    sourced = bool(source_keys) and all(source_key in sources for source_key in source_keys)
     dose_groups.append({
         "group_key": key, "group_type": "potion_dose_family", "member_ids": members,
-        "variant_order": "4,3,2,1", "confidence": "HIGH" if valid else "UNRESOLVED_METADATA_MISMATCH",
-        "evidence_url": source.get("url"), "evidence_revision": source.get("revision"),
+        "variant_order": ",".join(str(dose) for dose in range(len(members), 0, -1)),
+        "confidence": "UNRESOLVED_METADATA_MISMATCH" if not valid else "HIGH" if sourced else "UNRESOLVED_SOURCE",
+        "source_keys": source_keys, "evidence_urls": source_urls, "evidence_revisions": source_revisions,
         "basis": "Exact-ID family resource validated against sourced DOSE metadata.",
     })
 
@@ -345,7 +350,7 @@ summary = {
     "recipe_workflow_candidates_with_2plus_inputs": len(recipe_groups),
     "findings": [
         "Exact-ID page categories support page roles such as potions, unfinished potions, secondaries, herbs, food and drinks; they do not alone establish family or variant links.",
-        f"The existing 22 four-dose families (88 IDs) agree with sourced DOSE metadata; another {len(wiki_dose_groups)} exact-ID Wiki page families expose dose anchors for {sum(len(group['member_ids']) for group in wiki_dose_groups)} additional IDs. Preserve dose state and any quest/minigame categories.",
+        f"The existing {len(dose_groups)} ordinary dose families ({sum(len(group['member_ids']) for group in dose_groups)} IDs) are checked against their individual sourced DOSE metadata; another {len(wiki_dose_groups)} exact-ID Wiki page families expose dose anchors for {sum(len(group['member_ids']) for group in wiki_dose_groups)} additional IDs. Preserve dose state and any quest/minigame categories.",
         "Six food families have multiple exact-ID metadata members with source-backed serving or restriction dimensions; preserve each ID and its attributes.",
         f"{len(recipe_groups)} recipe groups are title-level material-to-product candidates only; exact output dose or serving IDs remain unresolved.",
         "Every catalog item without an exact-ID Wiki row is individually listed in unresolved-items.csv; no function is inferred from absent facts.",

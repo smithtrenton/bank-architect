@@ -6,6 +6,9 @@ from audit import ROOT
 def run(out):
  def load(name):return json.loads((out/name).read_text(encoding='utf-8-sig'))
  s=load('summary.json');g=load('grouping-summary.json')
+ dose=load('reviews/supplies-herblore/group-candidates.json')
+ dose_groups=dose['potion_dose_families']+dose['additional_wiki_dose_families']
+ dose_ids={i for group in dose_groups for i in group['member_ids']}
  def esc(v):return html.escape(str(v))
  def link(file,label):return f'<a href="{esc(file)}">{esc(label)}</a>'
  def wiki(title,label=None):return f'<a href="https://oldschool.runescape.wiki/w/{title}">{esc(label or title.replace("_"," "))}</a>'
@@ -16,7 +19,7 @@ def run(out):
  priorities=[
  ['Ammunition identity','32 javelin variants retain generic gear tags; seven brutal arrows fall through to cleanup; barbed bolt ID 881 falls into raw resources.','Use explicit projectile/weapon compatibility to propose ammunition membership. An ammo equipment slot also holds blessings, so it is insufficient alone.',wiki('Javelins')+'; '+wiki('Rune_brutal')+'; '+wiki('Barbed_bolts')],
  ['Farming stages','23 ordinary saplings are missing from the existing species families despite seed counterparts. There are 47 proposed Farming/material families.','Add exact seed-to-sapling stage edges; keep quest saplings and region-specific planting mechanics separate.',link('reviews/farming-materials/proposed-families.csv','Proposed families')+'; '+wiki('Sapling')],
- ['Dose-state families','134 sourced candidate families cover 466 IDs: 22 existing curated families and 112 more from explicit Wiki dose-version anchors.','Order dose states within each family, preserving each ID, special use, quest association and any area restriction.',link('reviews/supplies-herblore/group-candidates.json','Sourced dose and food groups')],
+ ['Dose-state families',f"{len(dose_groups)} candidate families cover {len(dose_ids)} exact IDs: {len(dose['potion_dose_families'])} curated families checked against individual metadata and {len(dose['additional_wiki_dose_families'])} additional Wiki dose-version groups.",'Order dose states within each family, preserving each ID, special use, quest association and any area restriction.',link('reviews/supplies-herblore/group-candidates.json','Sourced dose and food groups')],
  ['Skilling outfit blocks','Documented outfits include Angler, Spirit Angler, Farmer, Carpenter, Zealot, Smiths’ Uniform, Golden Prospector and camouflage groups missing from explicit set coverage.','Add exact component/slot membership. Body styles, recolours and alternate gloves remain distinct states.',wiki('XP_clothing')+'; '+wiki('Smiths%27_Uniform')],
  ['Utility state and restrictions','Full article checks distinguish reusable storage, lit/unlit lighting, rune storage, obsolete tokens and moderator-only teleports.','Use state-specific function. Deadman teleport tablet is moderator-only; Survival token is obsolete. Spirit flakes require a Fishing-supply role review rather than currency from category membership alone.',link('reviews/utilities-containers/role-grouping-candidates.csv','Utility candidates')+'; '+link('reviews/utilities-containers/state-families.csv','17 utility state families')+'; '+wiki('Deadman_teleport_tablet')+'; '+wiki('Spirit_flakes')],
  ['Reward keys and components','Brimstone key ID 23083, Malediction shard 2 ID 11932 and Scurrius’ spine ID 28798 currently fall through to cleanup.','Propose reward-key or boss-component families while retaining opening/crafting mechanics and source activity.',link('reviews/loot-quests-clues/priority-cases.csv','13 source-checked priority cases')],

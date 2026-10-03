@@ -1,5 +1,7 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import static com.pkoka5.ironmanbankarchitect.organize.BankPreviewItem.physicalSize;
+
 import com.pkoka5.ironmanbankarchitect.bank.BankItemSnapshot;
 import com.pkoka5.ironmanbankarchitect.bank.BankSnapshot;
 import com.pkoka5.ironmanbankarchitect.catalog.CatalogItem;
@@ -1066,13 +1068,6 @@ public final class BankOrganizationPreviewBuilder
 			return planned;
 		}
 
-		private static int physicalSize(List<BankPreviewItem> items)
-		{
-			int size = 0;
-			for (BankPreviewItem item : items) size += item.physicalBankSlotCount();
-			return size;
-		}
-
 		private static List<BankPreviewItem> items(List<LayoutEntry> source)
 		{
 			List<BankPreviewItem> items = new ArrayList<>(source.size());
@@ -1108,8 +1103,10 @@ public final class BankOrganizationPreviewBuilder
 		private List<BankPreviewItem> semanticLayout(List<BankPreviewItem> fallback,
 			LayoutRequest request, boolean sequential)
 		{
+			// The family engine assigns one cell per exact ID. Multiple physical copies
+			// keep their dense sorter order rather than claiming unsupported geometry.
 			plainRun = sequential;
-			if (sequential)
+			if (sequential || physicalSize(fallback) != fallback.size())
 			{
 				// The sorter's order is the layout: no family rectangles, no
 				// row-completing rearrangement, items simply wrap row by row.
