@@ -40,7 +40,7 @@ public class EffectiveItemClassificationExporterTest
 		assertEquals(4, stats.included);
 		assertEquals(1, stats.excluded);
 		List<String> rows = Files.readAllLines(output, StandardCharsets.UTF_8);
-		assertTrue(rows.stream().anyMatch(row -> row.startsWith("145\tSuper attack (3)\tPOTION\tdose-3\therblore\therblore.super-attack.3\t")));
+		assertTrue(rows.stream().anyMatch(row -> row.startsWith("145\tSuper attack (3)\tPOTION\tpotion-dose-3\therblore\therblore.super-attack.3\t")));
 		assertTrue(rows.stream().anyMatch(row -> row.startsWith("3841\tDamaged book\tGEAR\tshield\tcombat-gear\t\t")));
 		assertTrue(rows.stream().anyMatch(row -> row.startsWith("900001\tUnknown item #900001\t")
 			&& row.endsWith("\tbattle-royale")));

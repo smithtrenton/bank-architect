@@ -197,9 +197,18 @@ public class ResourceItemSortMetadataCatalogTest
 				assertEquals("category of " + item.getDisplayName(), ItemCategory.POTION, item.getCategory());
 				int maxDose = com.pkoka5.ironmanbankarchitect.organize.layout.PotionDoseSemanticRuleSet
 					.maxDoseFor(metadata.getItemId());
-				String expected = metadata.getVariantValue() == maxDose && maxDose == 2 ? "potion"
-					: metadata.getItemId() == 4417 ? "drink" : "potion-dose-" + metadata.getVariantValue();
-				assertEquals("subcategory of " + item.getDisplayName(), expected, item.getSubcategory());
+				if (maxDose == 2 && metadata.getVariantValue() == 2)
+				{
+					// Unreviewed full mixes retain the general subtype; reviewed states expose their dose.
+					assertTrue("subcategory of " + item.getDisplayName(),
+						Set.of("potion", "potion-dose-2").contains(item.getSubcategory()));
+				}
+				else
+				{
+					String expected = metadata.getItemId() == 4417 ? "drink"
+						: "potion-dose-" + metadata.getVariantValue();
+					assertEquals("subcategory of " + item.getDisplayName(), expected, item.getSubcategory());
+				}
 			}
 		}
 		usedSourceKeys.add("osrs-wiki-red-hot-sauce-15317107");

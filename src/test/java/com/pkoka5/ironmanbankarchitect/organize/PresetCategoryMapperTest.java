@@ -181,6 +181,8 @@ public class PresetCategoryMapperTest
 		assertEquals("potions-food", PresetCategoryMapper.map(BankPresets.IRONMAN, mixFull).getKey());
 		assertEquals("herblore", PresetCategoryMapper.map(BankPresets.IRONMAN, mixPartial).getKey());
 		assertEquals("potions-food", PresetCategoryMapper.map(BankPresets.IRONMAN, activityPotion).getKey());
+		assertRegistryItemsRoute("potions-food", 11429, 11461, 29192, 11204, 1978, 31844);
+		assertRegistryItemsRoute("herblore", 145, 147, 149, 11431, 11463, 29210);
 	}
 
 	@Test
