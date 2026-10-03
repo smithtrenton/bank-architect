@@ -1,0 +1,476 @@
+{
+  "schema": 1,
+  "scope": "Exact-ID manual semantic review of generic Cleanup; no name propagation",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "cases": [
+    {
+      "itemId": 29993,
+      "title": "Aldarium",
+      "sourceRevision": 15322737,
+      "sourceSha256": "68ded496e90ba3503ca88826f85cd8591c9f6cc1131e9152581dbf176921278b",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "addedRoles": [
+        "herblore-input"
+      ],
+      "semanticExcerpt": "is a [[herblore secondary]]",
+      "rationale": "Purchased alchemical ingredient combined with unfinished potions to make goading and prayer regeneration potions; primary Herblore secondary, not generic review."
+    },
+    {
+      "itemId": 30800,
+      "title": "Demonic tallow",
+      "sourceRevision": 15193049,
+      "sourceSha256": "553f22dc29693c7ab52bf6af66b02c89bf9bf6a2f896e8011508ee8fde55ee00",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "addedRoles": [
+        "herblore-input"
+      ],
+      "semanticExcerpt": "is a [[herblore secondary]]",
+      "rationale": "Tallow combines with unfinished torstol potion to create surge potion; boss-drop provenance does not erase the repeatable ingredient role."
+    },
+    {
+      "itemId": 1550,
+      "title": "Garlic",
+      "sourceRevision": 15350570,
+      "sourceSha256": "39fab821e6acabacaec01fd6d4e33a63acc4ceb685c3d3ee355ff25e89ee08e5",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "addedRoles": [
+        "herblore-input",
+        "cooking-ingredient",
+        "quest-use"
+      ],
+      "semanticExcerpt": "in [[Herblore]] in making [[Guthix balance potion]]s",
+      "rationale": "Non-edible garlic has repeatable Guthix balance potion and Cooking uses alongside several quests. Place with Herblore inputs under the preset secondary policy; preserve its other roles."
+    },
+    {
+      "itemId": 26231,
+      "title": "Nihil shard",
+      "sourceRevision": 15190623,
+      "sourceSha256": "6858abe6277cdcade5bb4a0cda4c0629f03e0d054f765aa280ffc891fc33157b",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-material",
+      "addedRoles": [
+        "herblore-input",
+        "equipment-component"
+      ],
+      "semanticExcerpt": "250 Nihil shards are required to create a [[Zaryte crossbow]]",
+      "rationale": "Shard is a weapon component and a precursor crushed into a potion secondary. Use the resource material stage as primary; retain the Herblore input role and boss provenance."
+    },
+    {
+      "itemId": 29784,
+      "title": "Araxyte venom sac",
+      "sourceRevision": 15351976,
+      "sourceSha256": "ba3a99e1b3bf53cbe21f9b585d6ae45f5b4b91b5fe13d4e55bc7eb203698c393",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "addedRoles": [
+        "herblore-input",
+        "poison-protection",
+        "venom-protection"
+      ],
+      "semanticExcerpt": "secondary ingredient]] used to create [[extended anti-venom+]]",
+      "rationale": "The raw sac upgrades anti-venom+ doses and is also eaten for poison/venom protection with self damage. Primary Herblore secondary under the raw-ingredient workflow policy; preserve both consumable effects."
+    },
+    {
+      "itemId": 464,
+      "title": "Strange fruit",
+      "sourceRevision": 15216991,
+      "sourceSha256": "2cc3ea5dccbbd4ad25e537f5ca8d9141b287dd8e36eee46353030e6ca726fe94",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "addedRoles": [
+        "run-energy",
+        "poison-protection",
+        "venom-protection"
+      ],
+      "semanticExcerpt": "It can be eaten to cure poison, venom, and restore 30% run energy",
+      "rationale": "Edible utility consumable belongs with supplies despite restoring no Hitpoints. Preserve run-energy and poison/venom cure roles; random-event provenance does not make it Cleanup."
+    },
+    {
+      "itemId": 1969,
+      "title": "Spinach roll",
+      "sourceRevision": 15183602,
+      "sourceSha256": "d917f85c53ece6d4cc9060a4b815fce9fd4c97c92690fcab11317698f7c7240f",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "addedRoles": [],
+      "semanticExcerpt": "is a [[food]] item that restores 2 [[hitpoints]] when eaten",
+      "rationale": "Finished edible food has a positive healing function; source as a random-event reward does not justify generic Cleanup."
+    },
+    {
+      "itemId": 1037,
+      "title": "Bunny ears",
+      "sourceRevision": 15184208,
+      "sourceSha256": "cd9fd4b8de3eec4c00c9db549429b221be45f9ec0a91e678f232371ace992eb3",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [
+        "warm-clothing",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "untradeable cosmetic holiday item worn on the head",
+      "rationale": "Article explicitly identifies cosmetic holiday headwear and toy-box storage. Preserve warm-clothing role; wearable identity and zero stats are not by themselves the rationale."
+    },
+    {
+      "itemId": 2631,
+      "title": "Highwayman mask",
+      "sourceRevision": 15350657,
+      "sourceSha256": "7ff413a5c0dd9604a186fd6151fd040d05c25a64a248007ce571d27b73ddc1fe",
+      "proposedCategory": "CLUE",
+      "proposedSubcategory": "cosmetic",
+      "addedRoles": [
+        "storage-option-costume-room",
+        "equipment-component",
+        "quest-use"
+      ],
+      "semanticExcerpt": "{{Costume storage|treasure chest|tier=easy}}",
+      "rationale": "Easy Treasure Trails accessory has no combat bonuses and explicit treasure-chest storage. Preserve combination into cavalier and mask and Shadow of the Storm clothing function alongside its existing clue reward/log roles."
+    },
+    {
+      "itemId": 6889,
+      "title": "Mage's book",
+      "sourceRevision": 15342025,
+      "sourceSha256": "60cc6a716df45090547110c0925b02a22a412525e1359b5852543477a97f6eda",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [
+        "magic-gear"
+      ],
+      "semanticExcerpt": "book in the [[shield]] slot",
+      "rationale": "Shield-slot magic equipment provides magic accuracy and 2% magic damage; minigame reward origin does not justify Cleanup."
+    },
+    {
+      "itemId": 6916,
+      "title": "Infinity top",
+      "sourceRevision": 15259502,
+      "sourceSha256": "c2fb0561f939449a65ce31abee8f18fc00cdbb2c605e625ec405fe90fb42ba6a",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [
+        "magic-gear",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "is [[magic armour]]",
+      "rationale": "Functional body-slot magic armour; retain wardrobe storage as a separate role."
+    },
+    {
+      "itemId": 6918,
+      "title": "Infinity hat",
+      "sourceRevision": 15326928,
+      "sourceSha256": "c90312a61db27b6f424ef36dfebe2dd0d5364e1fc94b52ab16470606361c6936",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "magic-gear",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "is [[magic armour]]",
+      "rationale": "Functional head-slot magic armour; retain wardrobe storage as a separate role."
+    },
+    {
+      "itemId": 6924,
+      "title": "Infinity bottoms",
+      "sourceRevision": 15259505,
+      "sourceSha256": "6937995677af3decbc3b43f658ed745c382cfcc87210ee4290be3881b94463aa",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "legs",
+      "addedRoles": [
+        "magic-gear",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "[[Armour#Magic armour|magic armour]]",
+      "rationale": "Functional leg-slot magic armour; retain wardrobe storage as a separate role."
+    },
+    {
+      "itemId": 12419,
+      "title": "Light infinity hat",
+      "sourceRevision": 15186167,
+      "sourceSha256": "a2133d5b318221db926d0f09ab085f1d34a7911b10cb4fb7e672b5f044f9fb26",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "magic-gear",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "The attached colour kit gives no additional bonuses",
+      "rationale": "Recoloured infinity armour retains its original combat stats. A cosmetic enhancement does not make the finished armour cosmetic-only; exact item ID and slot remain distinct."
+    },
+    {
+      "itemId": 12420,
+      "title": "Light infinity top",
+      "sourceRevision": 15186152,
+      "sourceSha256": "18124192948c7143de76201ddeac91529e488d9ebcc93a614f0adba3a6923188",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [
+        "magic-gear",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "The attached colour kit gives no additional bonuses",
+      "rationale": "Recoloured infinity armour retains its original combat stats. A cosmetic enhancement does not make the finished armour cosmetic-only; exact item ID and slot remain distinct."
+    },
+    {
+      "itemId": 12421,
+      "title": "Light infinity bottoms",
+      "sourceRevision": 15186168,
+      "sourceSha256": "07beea2de29b3b2c6ed3a6198598412865b03706c5c9be00e04cb5ec43997b8f",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "legs",
+      "addedRoles": [
+        "magic-gear",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "The attached colour kit gives no additional bonuses",
+      "rationale": "Recoloured infinity armour retains its original combat stats. A cosmetic enhancement does not make the finished armour cosmetic-only; exact item ID and slot remain distinct."
+    },
+    {
+      "itemId": 10342,
+      "title": "3rd Age mage hat",
+      "sourceRevision": 15326815,
+      "sourceSha256": "0423082edd088e607495682f9fec1aed42177152327cba11503e29fd4f9b01a5",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "magic-gear",
+        "clue-reward",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "It has a [[Magic damage]] bonus of 1%",
+      "rationale": "Head-slot magic armour has a positive magic damage bonus. Treasure Trails source and costume storage remain secondary roles."
+    },
+    {
+      "itemId": 10330,
+      "title": "3rd Age range top",
+      "sourceRevision": 15326826,
+      "sourceSha256": "e5e00fc2d50ec4f496f3a11b06ab53382ef8712a214101b8a161de2cca64d692",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "addedRoles": [
+        "ranged-gear",
+        "clue-reward",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "offers identical bonuses to a [[blessed d'hide body]]",
+      "rationale": "Functional ranged body armour, including strong magic defence. Treasure Trails source and costume storage remain secondary roles."
+    },
+    {
+      "itemId": 10146,
+      "title": "Orange salamander",
+      "sourceRevision": 15205104,
+      "sourceSha256": "699686e37dc430003936fa29715458a5609350db05461f60678e296ce4b1c8aa",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "semanticExcerpt": "is a two-handed weapon",
+      "rationale": "Captured Hunter output is a live two-handed weapon requiring tar ammunition, not a generic resource or Cleanup."
+    },
+    {
+      "itemId": 10147,
+      "title": "Red salamander",
+      "sourceRevision": 15205595,
+      "sourceSha256": "f84dea1fe3445d4ec293111676cbf34c8bded7b1381d3216d28cd8d74f4120ac",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "semanticExcerpt": "[[Tarromin tar]] is used as ammo for the salamander",
+      "rationale": "Live two-handed hybrid weapon uses tarromin tar ammunition; Hunter provenance does not make it Cleanup."
+    },
+    {
+      "itemId": 10148,
+      "title": "Black salamander",
+      "sourceRevision": 15322435,
+      "sourceSha256": "4def18c5f5f7108c220cd99a4c772c954a442228567fdabb93b63062387b9d0a",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "semanticExcerpt": "It is a two-handed weapon",
+      "rationale": "Live two-handed hybrid weapon uses harralander tar ammunition; Hunter provenance does not make it Cleanup."
+    },
+    {
+      "itemId": 10149,
+      "title": "Swamp lizard",
+      "sourceRevision": 15212295,
+      "sourceSha256": "a42783dd36e5f4777a993a4e4ec5ffd5275f76c7afcaa848f5775627291a05a0",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [],
+      "semanticExcerpt": "two-handed [[Ranged]] weapon",
+      "rationale": "Live two-handed hybrid weapon uses guam tar ammunition; Hunter provenance does not make it Cleanup."
+    },
+    {
+      "itemId": 10582,
+      "title": "Keris",
+      "sourceRevision": 15254686,
+      "sourceSha256": "3dd8b8ad6d3688ccee236cd44791566c4b1bfdc3fa2f8a5ea61b581aefc5c067",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon",
+        "kalphite-scabarite-damage"
+      ],
+      "semanticExcerpt": "deals 33% bonus damage against all [[Kalphite_(attribute)|kalphites and scabarites]]",
+      "rationale": "These three explicitly identified poisoned keris variants remain functional weapons with enemy-specific damage and a triple-damage proc; quest provenance does not erase combat function."
+    },
+    {
+      "itemId": 10583,
+      "title": "Keris",
+      "sourceRevision": 15254686,
+      "sourceSha256": "3dd8b8ad6d3688ccee236cd44791566c4b1bfdc3fa2f8a5ea61b581aefc5c067",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon",
+        "kalphite-scabarite-damage"
+      ],
+      "semanticExcerpt": "deals 33% bonus damage against all [[Kalphite_(attribute)|kalphites and scabarites]]",
+      "rationale": "These three explicitly identified poisoned keris variants remain functional weapons with enemy-specific damage and a triple-damage proc; quest provenance does not erase combat function."
+    },
+    {
+      "itemId": 10584,
+      "title": "Keris",
+      "sourceRevision": 15254686,
+      "sourceSha256": "3dd8b8ad6d3688ccee236cd44791566c4b1bfdc3fa2f8a5ea61b581aefc5c067",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "quest-weapon",
+        "kalphite-scabarite-damage"
+      ],
+      "semanticExcerpt": "deals 33% bonus damage against all [[Kalphite_(attribute)|kalphites and scabarites]]",
+      "rationale": "These three explicitly identified poisoned keris variants remain functional weapons with enemy-specific damage and a triple-damage proc; quest provenance does not erase combat function."
+    },
+    {
+      "itemId": 11037,
+      "title": "Brine sabre",
+      "sourceRevision": 15320270,
+      "sourceSha256": "3da825f0c8699320b539f77cb91544ef1e65b8a64672aece3438e2529c801b6b",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "special-attack"
+      ],
+      "semanticExcerpt": "is a one-handed [[weapon]]",
+      "rationale": "Functional one-handed melee weapon has a named special attack and independent rockslug/lobstrosity combat uses."
+    },
+    {
+      "itemId": 11128,
+      "title": "Berserker necklace",
+      "sourceRevision": 15182894,
+      "sourceSha256": "4606d4b9bb6c19df71fea7f7fe13abd590aa2b966670ec88be75f96c2c793c29",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "neck",
+      "addedRoles": [
+        "obsidian-damage"
+      ],
+      "semanticExcerpt": "increases the amount of damage the wearer does when wielding an obsidian melee weapon",
+      "rationale": "Neck-slot combat equipment grants a 20% obsidian melee damage bonus despite negative accuracy/defence. Preserve the conditional damage role rather than ranking solely by static stats."
+    },
+    {
+      "itemId": 11889,
+      "title": "Zamorakian hasta",
+      "sourceRevision": 15264893,
+      "sourceSha256": "bab361f4bae82343435f7c8ae333545f8cf166a5071907acdf13aff5b7d0044d",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "special-attack"
+      ],
+      "semanticExcerpt": "is a one-handed [[Weapons/Categories#Spear|spear]]",
+      "rationale": "Functional one-handed melee weapon retains the Zamorakian spear special attack and can be upgraded into a dragon hunter lance."
+    },
+    {
+      "itemId": 11905,
+      "title": "Trident of the Seas",
+      "sourceRevision": 15359438,
+      "sourceSha256": "778c83507413b0ee55b49401e7198616b4f8b83ce2442067baa2e4e6bb4040f9",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "fishing-utility"
+      ],
+      "semanticExcerpt": "one-handed [[powered staff]] requiring 75 [[Magic]] to wield",
+      "rationale": "The explicitly charged and partially charged trident states are powered combat staves. Retain documented drift-net Fishing utility without replacing primary combat placement."
+    },
+    {
+      "itemId": 11907,
+      "title": "Trident of the Seas",
+      "sourceRevision": 15359438,
+      "sourceSha256": "778c83507413b0ee55b49401e7198616b4f8b83ce2442067baa2e4e6bb4040f9",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [
+        "fishing-utility"
+      ],
+      "semanticExcerpt": "one-handed [[powered staff]] requiring 75 [[Magic]] to wield",
+      "rationale": "The explicitly charged and partially charged trident states are powered combat staves. Retain documented drift-net Fishing utility without replacing primary combat placement."
+    },
+    {
+      "itemId": 11924,
+      "title": "Malediction ward",
+      "sourceRevision": 15210770,
+      "sourceSha256": "9881efe7576a82807fc44bf420cf683ec06f5b41865ea5f69418120859b284fa",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [
+        "magic-gear"
+      ],
+      "semanticExcerpt": "is a mage-class shield",
+      "rationale": "Functional off-hand magic shield has magic attack and damage bonuses; component/upgrade and reward provenance are secondary."
+    },
+    {
+      "itemId": 11926,
+      "title": "Odium ward",
+      "sourceRevision": 15195167,
+      "sourceSha256": "3b662afd67b7627ae6b83b4d8c20862ce97d5a7cbb037857674eaaeaf2cfee38",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "shield",
+      "addedRoles": [
+        "ranged-gear"
+      ],
+      "semanticExcerpt": "is a [[Ranged]] shield",
+      "rationale": "Functional off-hand ranged shield provides ranged accuracy and strength; upgrade/reward provenance is secondary."
+    },
+    {
+      "itemId": 12006,
+      "title": "Abyssal tentacle",
+      "sourceRevision": 15322458,
+      "sourceSha256": "9beb1f1e81897d7367afc7310f49bb04d79ce56284b4a16756baa0ec9d661bba",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "addedRoles": [],
+      "semanticExcerpt": "is a [[weapon]] which requires 75 [[Attack]] to wield",
+      "rationale": "Degrading one-handed combat weapon remains usable until its attacks are exhausted; component origin does not make the assembled item Cleanup."
+    },
+    {
+      "itemId": 12357,
+      "title": "Katana",
+      "sourceRevision": 15325104,
+      "sourceSha256": "615f27c60bb361867679d932d53058b97cdb9b8a959561a0ea5c89da2bfb7089",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "2h",
+      "addedRoles": [
+        "clue-reward",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "technically a [[two-handed weapon]]",
+      "rationale": "Functional two-handed sword requires 40 Attack and has combat stats. Rare Treasure Trails reward and storage roles do not make it cosmetic-only."
+    },
+    {
+      "itemId": 12453,
+      "title": "Black wizard hat (g)",
+      "sourceRevision": 15323894,
+      "sourceSha256": "ec55ed0a6ed8201e19140e436695098a92defd05f1343a4e19bb11f81ff1076e",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "addedRoles": [
+        "magic-gear",
+        "clue-reward",
+        "storage-option-costume-room"
+      ],
+      "semanticExcerpt": "This item has the same bonuses as the regular black or blue [[Wizard hat]]",
+      "rationale": "Trimmed wizard hat retains positive magic bonuses. Keep functional gear primary and clue reward/costume storage as separate roles, consistent with reviewed blue wizard hats."
+    }
+  ]
+}

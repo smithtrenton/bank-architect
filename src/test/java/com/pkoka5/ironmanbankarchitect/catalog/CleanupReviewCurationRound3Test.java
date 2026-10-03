@@ -64,7 +64,7 @@ public class CleanupReviewCurationRound3Test
 		assertFamily(ItemCategory.UNIQUE, "slayer-boss-loot", 27681, 27684, 27687);
 		assertFamily(ItemCategory.GEAR, "combat-gear", 27690); // Voidwaker
 
-		assertFamily(ItemCategory.SKILLING, "resources", 7636); // Rod dust
+		assertFamily(ItemCategory.CLEANUP, "storage-cleanup", 7636); // Exhausted rod dust has no use.
 		assertFamily(ItemCategory.GEAR, "combat-gear",
 			7637, 7638, 7639, 7640, 7641, 7642, 7643, 7644, 7645,
 			7646, 7647, 7648); // Rod of Ivandis states

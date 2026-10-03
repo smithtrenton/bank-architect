@@ -42,7 +42,7 @@ itemId	expectedTabKey
 223	herblore
 225	herblore
 227	herblore
-229	resources
+229	herblore
 231	herblore
 233	skilling-tools
 239	herblore
@@ -441,7 +441,7 @@ itemId	expectedTabKey
 6746	combat-gear
 6786	clues-cosmetics
 6787	clues-cosmetics
-6889	storage-cleanup
+6889	combat-gear
 6920	combat-gear
 7001	storage-cleanup
 7053	skilling-tools

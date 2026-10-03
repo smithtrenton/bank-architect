@@ -2620,7 +2620,7 @@
 27687	UNIQUE	equipment-upgrade
 27690	GEAR	weapon
 # Remaining repeatable Rod of Ivandis production states.
-7636	SKILLING	crafting-material	Rod dust
+7636	CLEANUP	cleanup	Rod dust; Wiki revision 15315781
 7649	TOOL	tool	Rod mould
 # Complete cocktail-spirit family.
 2015	POTION	food	Vodka
@@ -3441,3 +3441,48 @@
 # Fishing enhancer/bait, not food.
 # https://oldschool.runescape.wiki/w/Special:Redirect/revision/15341236
 30900	SKILLING	fishing-material	Shark lure
+# Full category certification: exact Wiki revisions in tools/research/semantic-grouping-audit/certification/cleanup-other-policy.json
+29993	HERBLORE	secondary	Aldarium; Wiki revision 15322737
+30800	HERBLORE	secondary	Demonic tallow; Wiki revision 15193049
+1550	HERBLORE	secondary	Garlic; Wiki revision 15350570
+26231	SKILLING	crafting-material	Nihil shard; Wiki revision 15190623
+29784	HERBLORE	secondary	Araxyte venom sac; Wiki revision 15351976
+464	POTION	food	Strange fruit; Wiki revision 15216991
+1969	POTION	food	Spinach roll; Wiki revision 15183602
+1037	CLUE	cosmetic	Bunny ears; Wiki revision 15184208
+2631	CLUE	cosmetic	Highwayman mask; Wiki revision 15350657
+6889	GEAR	shield	Mage's book; Wiki revision 15342025
+6916	GEAR	body	Infinity top; Wiki revision 15259502
+6918	GEAR	head	Infinity hat; Wiki revision 15326928
+6924	GEAR	legs	Infinity bottoms; Wiki revision 15259505
+12419	GEAR	head	Light infinity hat; Wiki revision 15186167
+12420	GEAR	body	Light infinity top; Wiki revision 15186152
+12421	GEAR	legs	Light infinity bottoms; Wiki revision 15186168
+10342	GEAR	head	3rd Age mage hat; Wiki revision 15326815
+10330	GEAR	body	3rd Age range top; Wiki revision 15326826
+10146	GEAR	2h	Orange salamander; Wiki revision 15205104
+10147	GEAR	2h	Red salamander; Wiki revision 15205595
+10148	GEAR	2h	Black salamander; Wiki revision 15322435
+10149	GEAR	2h	Swamp lizard; Wiki revision 15212295
+10582	GEAR	weapon	Keris; Wiki revision 15254686
+10583	GEAR	weapon	Keris; Wiki revision 15254686
+10584	GEAR	weapon	Keris; Wiki revision 15254686
+11037	GEAR	weapon	Brine sabre; Wiki revision 15320270
+11128	GEAR	neck	Berserker necklace; Wiki revision 15182894
+11889	GEAR	weapon	Zamorakian hasta; Wiki revision 15264893
+11905	GEAR	weapon	Trident of the Seas; Wiki revision 15359438
+11907	GEAR	weapon	Trident of the Seas; Wiki revision 15359438
+11924	GEAR	shield	Malediction ward; Wiki revision 15210770
+11926	GEAR	shield	Odium ward; Wiki revision 15195167
+12006	GEAR	weapon	Abyssal tentacle; Wiki revision 15322458
+12357	GEAR	2h	Katana; Wiki revision 15325104
+12453	GEAR	head	Black wizard hat (g); Wiki revision 15323894
+# Root-reviewed material workflow and unusable byproducts; certification/materials-approved-policy.json
+229	HERBLORE	herblore-supply	Vial; Wiki revision 15183725
+323	CLEANUP	cleanup	Burnt fish (anchovies); Wiki revision 15188227
+343	CLEANUP	cleanup	Burnt fish (trout); Wiki revision 15290050
+357	CLEANUP	cleanup	Burnt fish (herring); Wiki revision 15303865
+367	CLEANUP	cleanup	Burnt fish (tuna); Wiki revision 15188231
+369	CLEANUP	cleanup	Burnt fish (sardine); Wiki revision 15188225
+25662	CLEANUP	cleanup	Ruined cavefish; Wiki revision 15190194
+25674	CLEANUP	cleanup	Ruined catfish; Wiki revision 15190187

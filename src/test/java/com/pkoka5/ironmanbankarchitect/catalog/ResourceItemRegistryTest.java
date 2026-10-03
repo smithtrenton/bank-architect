@@ -47,6 +47,8 @@ public class ResourceItemRegistryTest
 	@Test
 	public void curatedFoodIdsOverrideUnreliableGeneratedCategories()
 	{
+		assertCategory(464, "Strange fruit", ItemCategory.POTION);
+		assertCategory(1969, "Spinach roll", ItemCategory.POTION);
 		assertCategory(6705, "Potato with cheese", ItemCategory.POTION);
 		assertCategory(7058, "Mushroom potato", ItemCategory.POTION);
 		assertCategory(7946, "Monkfish", ItemCategory.POTION);
@@ -73,6 +75,7 @@ public class ResourceItemRegistryTest
 	@Test
 	public void valuableUpgradeComponentsAreNotFarmingOrCleanup()
 	{
+		assertCategory(26231, "Nihil shard", ItemCategory.SKILLING);
 		assertCategory(4207, "Crystal weapon seed", ItemCategory.UNIQUE);
 		assertCategory(25859, "Enhanced crystal weapon seed", ItemCategory.UNIQUE);
 		assertCategory(13229, "Pegasian crystal", ItemCategory.UNIQUE);
@@ -81,6 +84,12 @@ public class ResourceItemRegistryTest
 	@Test
 	public void unlabelledHighValueEquipmentIsRecognizedByEquipmentType()
 	{
+		for (int id : new int[]{6889, 6916, 6918, 6924, 10146, 10147, 10148, 10149,
+			10330, 10342, 10582, 10583, 10584, 11037, 11128, 11889, 11905, 11907,
+			11924, 11926, 12006, 12357, 12419, 12420, 12421, 12453})
+		{
+			assertEquals(ItemCategory.GEAR, ResourceItemRegistry.INSTANCE.describeOrUnknown(id).getCategory());
+		}
 		assertCategory(11832, "Bandos chestplate", ItemCategory.GEAR);
 		assertSubcategory(11832, "body");
 	}
@@ -173,6 +182,11 @@ public class ResourceItemRegistryTest
 	public void burntFishAndSpecialVialsDoNotFollowBroadFoodOrGlassNames()
 	{
 		assertCategory(375, "Burnt swordfish", ItemCategory.CLEANUP);
+		for (int id : new int[]{323, 343, 357, 367, 369, 7636, 25662, 25674})
+		{
+			assertEquals(ItemCategory.CLEANUP, ResourceItemRegistry.INSTANCE.describeOrUnknown(id).getCategory());
+			assertSubcategory(id, "cleanup");
+		}
 		assertCategory(22405, "Vial of blood", ItemCategory.CLEANUP);
 		assertCategory(22446, "Vial of blood", ItemCategory.UNIQUE);
 	}
@@ -181,6 +195,8 @@ public class ResourceItemRegistryTest
 	@Test
 	public void santaHatsClassifyWithTheOtherHolidayCosmetics()
 	{
+		assertCategory(1037, "Bunny ears", ItemCategory.CLUE);
+		assertCategory(2631, "Highwayman mask", ItemCategory.CLUE);
 		assertCategory(1050, "Santa hat", ItemCategory.CLUE);
 		assertSubcategory(1050, "cosmetic");
 		assertCategory(13343, "Black santa hat", ItemCategory.CLUE);
@@ -212,6 +228,11 @@ public class ResourceItemRegistryTest
 	@Test
 	public void completeHerbFamilyOverridesBadSourceCategories()
 	{
+		for (int id : new int[]{1550, 29784, 29993, 30800})
+		{
+			assertEquals(ItemCategory.HERBLORE, ResourceItemRegistry.INSTANCE.describeOrUnknown(id).getCategory());
+			assertSubcategory(id, "secondary");
+		}
 		assertCategory(2998, "Toadflax", ItemCategory.HERBLORE);
 		assertCategory(3000, "Snapdragon", ItemCategory.HERBLORE);
 		assertCategory(2481, "Lantadyme", ItemCategory.HERBLORE);
@@ -223,7 +244,9 @@ public class ResourceItemRegistryTest
 		assertCategory(1601, "Diamond", ItemCategory.SKILLING);
 		assertCategory(1603, "Ruby", ItemCategory.SKILLING);
 		assertCategory(1617, "Uncut diamond", ItemCategory.SKILLING);
-		assertCategory(229, "Vial", ItemCategory.SKILLING);
+		// The finished container follows its common potion-making use.
+		assertCategory(229, "Vial", ItemCategory.HERBLORE);
+		assertSubcategory(229, "herblore-supply");
 		assertCategory(1783, "Bucket of sand", ItemCategory.SKILLING);
 	}
 

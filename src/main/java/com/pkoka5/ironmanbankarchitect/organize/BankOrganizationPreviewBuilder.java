@@ -49,7 +49,7 @@ public final class BankOrganizationPreviewBuilder
 	private static final String ALCH_CATEGORY_KEY = "slayer-boss-loot";
 	private static final Set<String> FUNCTIONAL_RETENTION_TAGS = Collections.unmodifiableSet(
 		new LinkedHashSet<>(java.util.Arrays.asList("clue-required", "clue-utility", "quest-use", "quest-weapon",
-			"post-quest-tool", "special-attack", "spell-enhancement", "area-damage", "snail-protection", "prayer-gear", "skilling-outfit",
+			"post-quest-tool", "special-attack", "spell-enhancement", "area-damage", "snail-protection", "obsidian-damage", "kalphite-scabarite-damage", "prayer-gear", "skilling-outfit",
 			"ranged-ammunition", "transport-access", "bloom-utility", "prayer-training", "warm-clothing", "weight-reducing",
 			"prayer-utility", "mining-utility", "construction-utility", "tool-recharge",
 			"farming-utility", "herblore-utility", "hunter-utility", "fishing-utility",

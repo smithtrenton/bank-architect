@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "scope": "Nine exact-ID root-reviewed corrections; no family propagation",
+  "cases": [
+    {
+      "itemId": 229,
+      "title": "Vial",
+      "sourceRevision": 15183725,
+      "sourceSha256": "4c0e9bc1642912d62c97b8abed9dea17fe34cc2eb694c86469ef9c6dad3dcda3",
+      "semanticExcerpt": "are typically filled up with water and are most commonly used in the [[Herblore]] skill to make potions or mixes",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "herblore-supply",
+      "rationale": "Item 229 is an exact infobox variant in Vial revision 15183725. The exact empty vial is described as a potion container used in Herblore; its glassblowing origin is not its bank role. Article evidence: Vials are typically filled up with water and are most commonly used in the Herblore skill to make potions or mixes Proposed placement: HERBLORE/herblore-supply, tab herblore.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 323,
+      "title": "Burnt fish (anchovies)",
+      "sourceRevision": 15188227,
+      "sourceSha256": "e0392badbf3661795bca6d9d80881474aad83728b0df18af9fc24f7ac06427b6",
+      "semanticExcerpt": "The burnt fish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 323 is an exact infobox variant in Burnt fish (anchovies) revision 15188227. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The burnt fish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 343,
+      "title": "Burnt fish (trout)",
+      "sourceRevision": 15290050,
+      "sourceSha256": "a0f6db643a1c030348fd9616e3978875cbc5db7905e4141ec863c0f27cc48c29",
+      "semanticExcerpt": "The burnt fish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 343 is an exact infobox variant in Burnt fish (trout) revision 15290050. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The burnt fish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 357,
+      "title": "Burnt fish (herring)",
+      "sourceRevision": 15303865,
+      "sourceSha256": "79b94f36b158d035ef1b507cdf5b2a49d44ca64fd3f84c8921ea53f1c951da0a",
+      "semanticExcerpt": "The burnt fish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 357 is an exact infobox variant in Burnt fish (herring) revision 15303865. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The burnt fish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 367,
+      "title": "Burnt fish (tuna)",
+      "sourceRevision": 15188231,
+      "sourceSha256": "8573eba339bb6873ab3ab2015a9c55d282fd4866f71661f9100a60d47064f3c1",
+      "semanticExcerpt": "The burnt fish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 367 is an exact infobox variant in Burnt fish (tuna) revision 15188231. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The burnt fish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 369,
+      "title": "Burnt fish (sardine)",
+      "sourceRevision": 15188225,
+      "sourceSha256": "5a50216b6f2f06bbbc987ca865dd6287875f1c2559a56fd0f8662ceb4c964650",
+      "semanticExcerpt": "The burnt fish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 369 is an exact infobox variant in Burnt fish (sardine) revision 15188225. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The burnt fish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 7636,
+      "title": "Rod dust",
+      "sourceRevision": 15315781,
+      "sourceSha256": "67e33c21f5bace0390fcbd7b534dbe58ed0f7f8a2371bfcdaf7cfe5aed902c98",
+      "semanticExcerpt": "It has no use at all",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 7636 is an exact infobox variant in Rod dust revision 15315781. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: It has no use at all Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 25662,
+      "title": "Ruined cavefish",
+      "sourceRevision": 15190194,
+      "sourceSha256": "7d552c30f2fcc9647c42f5434c69d153ebe44af5ec85101963c0c61409528052",
+      "semanticExcerpt": "The ruined cavefish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 25662 is an exact infobox variant in Ruined cavefish revision 15190194. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The ruined cavefish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    },
+    {
+      "itemId": 25674,
+      "title": "Ruined catfish",
+      "sourceRevision": 15190187,
+      "sourceSha256": "cfa563f5422d2b12ec2fbe2dede024eb5dfce98a7d5af812632227b3c2dc2ac4",
+      "semanticExcerpt": "The ruined catfish has no use whatsoever",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "rationale": "Item 25674 is an exact infobox variant in Ruined catfish revision 15190187. The exact item page states that this failed byproduct has no use whatsoever, so it does not belong among resources. Article evidence: The ruined catfish has no use whatsoever Proposed placement: CLEANUP/cleanup, tab storage-cleanup.",
+      "reviewer": "root: independently read exact article lead and function statements"
+    }
+  ]
+}

@@ -33,7 +33,7 @@ def item_boxes(text):
                 pos += 1
         if depth:
             raise ValueError("Unbalanced item infobox")
-        params = dict(re.findall(r"^\|\s*([^=\n]+?)\s*=\s*(.*)$", text[match.start():pos], re.M))
+        params = dict(re.findall(r"^\|[ \t]*([^=\r\n]+?)[ \t]*=[ \t]*(.*)$", text[match.start():pos], re.M))
         # The outer Multi Infobox labels apply only to the corresponding item template.
         labels = re.findall(r"^\|text[0-9]+\s*=\s*(.*)$", text[:match.start()], re.M)
         yield params, labels[-1] if labels else ""

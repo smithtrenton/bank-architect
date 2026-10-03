@@ -333,7 +333,7 @@
 881	ranged-ammunition
 1436	runecrafting-input
 2577	clue-reward,collection-log-medium-treasure-trails
-2631	clue-reward,collection-log-easy-treasure-trails
+2631	clue-reward,collection-log-easy-treasure-trails,equipment-component,quest-use,storage-option-costume-room
 4522	light-source
 4524	light-source
 4537	light-source
@@ -673,3 +673,32 @@
 
 # Shark lure: pinned revision 15341236.
 30900	fishing-utility,storage-option-tackle-box
+# Category certification: independent functional roles retained from pinned Wiki articles
+29993	herblore-input
+30800	herblore-input
+1550	cooking-ingredient,herblore-input,quest-use
+26231	equipment-component,herblore-input
+29784	herblore-input,poison-protection,venom-protection
+464	poison-protection,run-energy,venom-protection
+1037	storage-option-costume-room,warm-clothing
+6889	magic-gear
+6916	magic-gear,storage-option-costume-room
+6918	magic-gear,storage-option-costume-room
+6924	magic-gear,storage-option-costume-room
+12419	magic-gear,storage-option-costume-room
+12420	magic-gear,storage-option-costume-room
+12421	magic-gear,storage-option-costume-room
+10342	clue-reward,magic-gear,storage-option-costume-room
+10330	clue-reward,ranged-gear,storage-option-costume-room
+10582	kalphite-scabarite-damage,quest-weapon
+10583	kalphite-scabarite-damage,quest-weapon
+10584	kalphite-scabarite-damage,quest-weapon
+11037	special-attack
+11128	obsidian-damage
+11889	special-attack
+11905	fishing-utility
+11907	fishing-utility
+11924	magic-gear
+11926	ranged-gear
+12357	clue-reward,storage-option-costume-room
+12453	clue-reward,magic-gear,storage-option-costume-room
