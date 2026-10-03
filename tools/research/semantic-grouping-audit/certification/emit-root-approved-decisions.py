@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the seven pinned root-approved policy files.
+"""Emit exact-ID decisions from the nine pinned root-approved policy files.
 
-This is a read-only certification artifact builder. It does not read candidate
-review outputs and never changes plugin sources or the frozen reviewer packets.
+This read-only builder verifies pinned candidate evidence without accepting
+candidate decisions as approvals. It never changes plugin sources or the frozen
+reviewer packets; approvals come from the separate root policy pins.
 """
 from __future__ import annotations
 
@@ -30,6 +31,8 @@ POLICY_NAMES = (
     "cleanup-gear-approved-policy.json",
     "gear-slot-approved-policy.json",
     "gear-primary-approved-policy.json",
+    "food-primary-approved-policy.json",
+    "raw-food-primary-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -107,24 +110,41 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
         canonical = hashlib.sha256(json.dumps(policy, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
         if canonical != approved["canonicalSha256"] or sorted(case["itemId"] for case in policy["cases"]) != approved["approvedItemIds"] or len(policy["cases"]) != approved["caseCount"]:
             raise ValueError(f"Root policy contents or exact ID set differ from the separate approval pin: {name}")
-        if name == "gear-primary-approved-policy.json":
-            verifier_path = CERT / "verify-gear-primary-policy.py"
-            spec = importlib.util.spec_from_file_location("root_gear_primary_verifier", verifier_path)
+        primary_verifiers = {
+            "gear-primary-approved-policy.json": ("verify-gear-primary-policy.py", 939),
+            "food-primary-approved-policy.json": ("verify-food-primary-policy.py", 40),
+        }
+        if name in primary_verifiers:
+            script, expected_count = primary_verifiers[name]
+            spec = importlib.util.spec_from_file_location("root_primary_verifier", CERT / script)
             if spec is None or spec.loader is None:
-                raise ValueError("Cannot load the approved Gear provenance verifier")
+                raise ValueError("Cannot load the approved primary provenance verifier: " + script)
             verifier = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(verifier)
             verifier.verify_policy(policy)
-            if len(policy["cases"]) != 939:
-                raise ValueError("Expected exactly 939 root-approved unchanged Gear cases")
+            if len(policy["cases"]) != expected_count:
+                raise ValueError(f"Expected exactly {expected_count} approved unchanged cases in {name}")
+        if name == "raw-food-primary-approved-policy.json":
+            raw_inputs = {
+                "articleIndex": ARTICLE_INDEX,
+                "materialsPacket": PACKET_DIR / "skilling-farming.jsonl",
+                "rawFishReview": BASE / "reviews/materials-positive-cohorts/20261003-raw-fish-cooking-inputs/root-review-packet.json",
+            }
+            if any(sha256(path) != policy["sourceHashes"][key] for key, path in raw_inputs.items()):
+                raise ValueError("Raw-food frozen review inputs changed")
+            raw_review = json.loads(raw_inputs["rawFishReview"].read_text(encoding="utf-8-sig"))
+            if (policy.get("status") != "root-reviewed primary assignments only" or
+                    (len(policy["cases"]) != 21 or policy.get("expectedCaseCount") != 21) or
+                    {case["itemId"] for case in policy["cases"]} != {row["itemId"] for row in raw_review["included"]}):
+                raise ValueError("Raw-food approved exact review cohort changed")
         for case in policy["cases"]:
             item_id = int(case["itemId"])
             if item_id in cases:
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 1169:
-        raise ValueError(f"Expected exactly 1,169 disjoint approved policy cases, found {len(cases)}")
+    if len(cases) != 1230:
+        raise ValueError(f"Expected exactly 1,230 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -218,6 +238,14 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
         raise ValueError(f"item {item_id}: title does not contain an exact pinned Infobox Item variant")
 
     excerpt = verify_quote(source, item_id, case.get("semanticExcerpt", ""), "semanticExcerpt")
+    if policy_name == "raw-food-primary-approved-policy.json":
+        raw = (ROOT / source["path"]).read_text(encoding="utf-8")
+        subject = re.search(r"[']{3}([^\n]*?)[']{3}", raw)
+        if subject is None or excerpt != raw[subject.start():].split("\n\n", 1)[0].strip():
+            raise ValueError(f"item {item_id}: raw-food evidence must be the full literal own-subject lead")
+        cooking = case.get("secondaryExcerpts", [])
+        if not cooking or any(not re.search(r"cook", quote, re.I) for quote in cooking):
+            raise ValueError(f"item {item_id}: missing direct literal Cooking-input clause")
     evidence = [citation(title, source, item_id, excerpt)]
     secondary = case.get("secondaryExcerpts", [])
     if isinstance(secondary, dict):
@@ -257,7 +285,10 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
-    expected = "certify" if policy_name == "gear-primary-approved-policy.json" else "revise"
+    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json"}
+    expected = "certify" if primary_only else "revise"
+    if primary_only and (roles or case.get("proposedTags") or tag_evidence):
+        raise ValueError(f"item {item_id}: unchanged-primary policy cannot add tag or supplemental-role claims")
     if decision != expected:
         raise ValueError(f"item {item_id}: {policy_name} produced {decision}, expected {expected}")
     rationale = str(case.get("rationale") or normalized(excerpt))
@@ -287,9 +318,9 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
             "secondaryExcerpts": secondary_quotes,
             "exactVariantFacts": facts,
             "tagEvidence": tag_evidence,
-            **({"bonusSourceProof": case["bonusSourceProof"],
-                "approvalScope": "primary category, subcategory and tab only; tags retained and supplemental roles unassessed"}
-               if case.get("bonusSourceProof") else {}),
+            **({"bonusSourceProof": case["bonusSourceProof"]} if case.get("bonusSourceProof") else {}),
+            **({"approvalScope": "primary category, subcategory and tab only; tags retained and supplemental roles unassessed"}
+               if primary_only else {}),
         },
     }
 
@@ -446,7 +477,7 @@ def main() -> None:
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
                                ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
-                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py")},
+                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py")},
         "sourceHashes": {
             "policies": policy_hashes,
             "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),
@@ -454,6 +485,8 @@ def main() -> None:
             "articleIndex": sha256(ARTICLE_INDEX),
             "frozenCoverage": sha256(coverage_path),
             "gearBonusSourceProof": sha256(BASE / "reviews/gear-v2/bonus-source-proof.json"),
+            "foodCandidatePacket": sha256(BASE / "reviews/supplies-food-positive-v8-root-replay/food-positive-rule-candidates.jsonl"),
+            "rawFishReview": sha256(BASE / "reviews/materials-positive-cohorts/20261003-raw-fish-cooking-inputs/root-review-packet.json"),
             "frozenPackets": packet_hashes,
         },
         "output": (str(args.output.relative_to(ROOT)) if args.output.is_relative_to(ROOT) else str(args.output)).replace("\\", "/"),

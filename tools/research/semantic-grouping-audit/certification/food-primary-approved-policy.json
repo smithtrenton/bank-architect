@@ -1,0 +1,1547 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "scope": "40 unchanged ordinary food primary assignments; existing tags retained and supplemental roles unassessed.",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "expectedCaseCount": 40,
+  "reviewedPrimaryRule": "Own exact numeric-ID item state has Eat, equipable=No, and a full literal named-subject definition plus a subject-specific positive Hitpoints consumption mechanic. Prepared ordinary foods retain primary Food placement even when their source documents secondary recipe/quest uses. Mode-only copies require separate review.",
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "suppliesPacket": "779ffeace2645483e3d784bb619991901223965271a2550e1e084329a7dce4dc",
+    "candidatePacket": "5a4df8eab51f41d22ad3e4417230b7d7e143e844767179911e1d704ce4c5a6aa",
+    "adversarialReview": "73ebf5da33aad73deae18e872855afbb2865693a3af2df767b2ae221fd689d5d"
+  },
+  "explicitAdditionalHolds": [
+    {
+      "itemId": 26149,
+      "title": "Tuna (Deadman starter pack)",
+      "reason": "Distinct Deadman-only starter-pack copy is held for mode-copy routing. Its healing function is established, but does not settle the mode-retention taxonomy."
+    }
+  ],
+  "reviewRecord": "Root read all41 exact source definitions and eating/healing states, inspected competing full-page contexts and the special Eel sushi and delayed-healing hunter-meat paragraphs, and replayed the candidate builder. The40 ordinary IDs are approved only for their existing primary category/subcategory/tab; no numerical healing, tag, bankability or exhaustive secondary-role assertion is added to runtime data. A separate adversarial exact-state pass found no conflicting current-use condition among the40 ordinary IDs; raw source paragraphs, not normalized candidate renderings, supply the quoted healing evidence.",
+  "cases": [
+    {
+      "itemId": 319,
+      "title": "Anchovies",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Anchovies''' are a type of [[fish]] that restores 1 [[Hitpoints|Hitpoint]] when eaten. It can be obtained by cooking [[raw anchovies]] on a [[fire]] or [[cooking range]], granting 30 experience when successful. When cooking there is a chance to fail, resulting in [[burnt anchovies]]. The burn rate decreases as the player's [[Cooking]] level increases. Anchovies are one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 34, or 31 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Anchovies''' are a type of [[fish]] that restores 1 [[Hitpoints|Hitpoint]] when eaten. It can be obtained by cooking [[raw anchovies]] on a [[fire]] or [[cooking range]], granting 30 experience when successful. When cooking there is a chance to fail, resulting in [[burnt anchovies]]. The burn rate decreases as the player's [[Cooking]] level increases. Anchovies are one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 34, or 31 when using the Lumbridge range.",
+      "sourceRevision": 15182684,
+      "sourceSha256": "ddbce1ca56744a1b191f2732f3eee8cd37f0bb5de68890b90d5a948cb386754c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "319"
+        },
+        {
+          "field": "name",
+          "value": "Anchovies"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 325,
+      "title": "Sardine",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Sardine''' is a type of fish that restores 4 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw sardine]] on a [[fire]] or [[cooking range]], granting 40 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (sardine)|burnt sardine]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases. Sardine is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 38, or 34 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Sardine''' is a type of fish that restores 4 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw sardine]] on a [[fire]] or [[cooking range]], granting 40 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (sardine)|burnt sardine]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases. Sardine is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 38, or 34 when using the Lumbridge range.",
+      "sourceRevision": 15183383,
+      "sourceSha256": "69889fd05e22a21f84450add1a33d36c5f84b619b96b7d220fa98d24992c080b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "325"
+        },
+        {
+          "field": "name",
+          "value": "Sardine"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 329,
+      "title": "Salmon",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Salmon''' is a type of fish that restores 9 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw salmon]] on a [[fire]] or [[cooking range]], requiring level 25 [[Cooking]] and granting 90 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases. Salmon is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 58, or 55 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Salmon''' is a type of fish that restores 9 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw salmon]] on a [[fire]] or [[cooking range]], requiring level 25 [[Cooking]] and granting 90 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases. Salmon is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 58, or 55 when using the Lumbridge range.",
+      "sourceRevision": 15237880,
+      "sourceSha256": "0859fcbb6566917d55c2b189aea6e93608a19936866e90c5d074a4c61d7982f8",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "329"
+        },
+        {
+          "field": "name",
+          "value": "Salmon"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 333,
+      "title": "Trout",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Trout''' is a type of fish that restores 7 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw trout]] on a [[fire]] or [[cooking range]], requiring level 15 [[Cooking]] and granting 70 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt trout]]. The [[burn rate]] decreases as the player's Cooking level increases. Trout is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 49, or 45 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Trout''' is a type of fish that restores 7 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw trout]] on a [[fire]] or [[cooking range]], requiring level 15 [[Cooking]] and granting 70 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt trout]]. The [[burn rate]] decreases as the player's Cooking level increases. Trout is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 49, or 45 when using the Lumbridge range.",
+      "sourceRevision": 15183465,
+      "sourceSha256": "ca6fc83d112420c5d3ffa3c3fad0c9047e6efc1f229ff3b4ca32ea4e7e6db3f0",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "333"
+        },
+        {
+          "field": "name",
+          "value": "Trout"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 339,
+      "title": "Cod",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cod''' is a type of fish that restores 7 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw cod]] on a [[fire]] or [[cooking range]], requiring level 18 [[Cooking]] and granting 75 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases. Cod is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 51 on a fire, 49 on a range, or 46 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cod''' is a type of fish that restores 7 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw cod]] on a [[fire]] or [[cooking range]], requiring level 18 [[Cooking]] and granting 75 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases. Cod is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 51 on a fire, 49 on a range, or 46 when using the Lumbridge range.",
+      "sourceRevision": 15183623,
+      "sourceSha256": "9b1e63c0f28dd7ff20cf800695c812621a4a37b3c13797edf9d7dbc2603dbec9",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "339"
+        },
+        {
+          "field": "name",
+          "value": "Cod"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 347,
+      "title": "Herring",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Herring''' is a type of [[fish]] that restores 5 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw herring]] on a [[fire]] or [[cooking range]], requiring level 5 [[Cooking]] and granting 50 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (herring)|burnt herring]]. The [[burn rate]] decreases as the player's Cooking level increases. Herring is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 41, or 38 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Herring''' is a type of [[fish]] that restores 5 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw herring]] on a [[fire]] or [[cooking range]], requiring level 5 [[Cooking]] and granting 50 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (herring)|burnt herring]]. The [[burn rate]] decreases as the player's Cooking level increases. Herring is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 41, or 38 when using the Lumbridge range.",
+      "sourceRevision": 15257976,
+      "sourceSha256": "70559f86b6f1340fe1bb9c5a2368f0632c94154aa5dca1bd01258ee67817bc4f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "347"
+        },
+        {
+          "field": "name",
+          "value": "Herring"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 351,
+      "title": "Pike",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Pike''' is a type of fish that restores 8 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw pike]] on a [[fire]] or [[cooking range]], requiring level 20 [[Cooking]] and granting 80 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt pike]]. The [[burn rate]] decreases as the player's Cooking level increases. Pike is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 54, or 49 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Pike''' is a type of fish that restores 8 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw pike]] on a [[fire]] or [[cooking range]], requiring level 20 [[Cooking]] and granting 80 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (trout)|burnt pike]]. The [[burn rate]] decreases as the player's Cooking level increases. Pike is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 54, or 49 when using the Lumbridge range.",
+      "sourceRevision": 15183580,
+      "sourceSha256": "56067a5e7b08915d799a650ed32c1ef3ac599391ac5f03b9b3484785435088cb",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "351"
+        },
+        {
+          "field": "name",
+          "value": "Pike"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 355,
+      "title": "Mackerel",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Mackerel''' is a type of fish that restores 6 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw mackerel]] on a [[fire]] or [[cooking range]], requiring level 10 [[Cooking]] and granting 60 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (herring)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases. Mackerel is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 45, or 41 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Mackerel''' is a type of fish that restores 6 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw mackerel]] on a [[fire]] or [[cooking range]], requiring level 10 [[Cooking]] and granting 60 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (herring)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases. Mackerel is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 45, or 41 when using the Lumbridge range.",
+      "sourceRevision": 15183667,
+      "sourceSha256": "2e65c0833a3000b511d2293a1fc977950303c2d7c9e8b06b1672f837259dac45",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "355"
+        },
+        {
+          "field": "name",
+          "value": "Mackerel"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 361,
+      "title": "Tuna",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Tuna''' is a type of [[fish]] that restores 10 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw tuna]] on a [[fire]] or [[cooking range]], requiring level 30 [[Cooking]] and granting 100 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt tuna]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 63 on both ranges and fires.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Tuna''' is a type of [[fish]] that restores 10 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw tuna]] on a [[fire]] or [[cooking range]], requiring level 30 [[Cooking]] and granting 100 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt tuna]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 63 on both ranges and fires.",
+      "sourceRevision": 15358604,
+      "sourceSha256": "e385310430b0ffa3f5a9365e975b982c0933c52fea5b8840dc25ebf53cf32713",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "361"
+        },
+        {
+          "field": "name",
+          "value": "Tuna"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 365,
+      "title": "Bass",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Bass''' is a type of [[fish]] that restores 13 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw bass]] on a [[fire]] or [[cooking range]], requiring level 43 [[Cooking]] and granting 130 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (bass)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 80 on both ranges and fires.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Bass''' is a type of [[fish]] that restores 13 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw bass]] on a [[fire]] or [[cooking range]], requiring level 43 [[Cooking]] and granting 130 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[Burnt fish (bass)|burnt fish]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 80 on both ranges and fires.",
+      "sourceRevision": 15241606,
+      "sourceSha256": "b1df1e0ae1b51d159fbd0e40b6b4ca76776874334333804882ba36dcbf556be6",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "365"
+        },
+        {
+          "field": "name",
+          "value": "Bass"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 373,
+      "title": "Swordfish",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Swordfish''' is a type of [[fish]] that restores 14 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw swordfish]] on a [[fire]] or [[cooking range]], requiring level 45 [[Cooking]] and granting 140 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt swordfish]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 80 on ranges and level 86 on fires.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Swordfish''' is a type of [[fish]] that restores 14 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw swordfish]] on a [[fire]] or [[cooking range]], requiring level 45 [[Cooking]] and granting 140 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt swordfish]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 80 on ranges and level 86 on fires.",
+      "sourceRevision": 15183520,
+      "sourceSha256": "4196e38fc43beda656140d7d3137d17beda444d8a7aa1d586419189ed6e0ea45",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "373"
+        },
+        {
+          "field": "name",
+          "value": "Swordfish"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 379,
+      "title": "Lobster",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Lobster''' is a type of [[fish]] that restores 12 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw lobster]] on a [[fire]] or [[cooking range]], requiring level 40 [[Cooking]] and granting 120 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt lobster]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 74.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Lobster''' is a type of [[fish]] that restores 12 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw lobster]] on a [[fire]] or [[cooking range]], requiring level 40 [[Cooking]] and granting 120 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt lobster]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will stop burning entirely at Cooking level 74.",
+      "sourceRevision": 15183358,
+      "sourceSha256": "ee7e294d5eedf34aa0311968cc3fe715f05d4c7050f37ec31bc361776e1a1a64",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "379"
+        },
+        {
+          "field": "name",
+          "value": "Lobster"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 385,
+      "title": "Shark",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Shark''' is a type of [[fish]] that restores 20 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw shark]] on a [[fire]] or [[cooking range]], requiring level 80 [[Cooking]] and granting 210 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt shark]]. The [[burn rate]] decreases as the player's Cooking level increases. It will only stop burning entirely if the player is wearing a [[Cooking cape]], or using [[Cooking gauntlets]] at level 94 (84 if elite [[Kourend & Kebos Diary]] is completed while cooking at the [[Hosidius Kitchen|Hosidius kitchen]]).",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Shark''' is a type of [[fish]] that restores 20 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw shark]] on a [[fire]] or [[cooking range]], requiring level 80 [[Cooking]] and granting 210 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt shark]]. The [[burn rate]] decreases as the player's Cooking level increases. It will only stop burning entirely if the player is wearing a [[Cooking cape]], or using [[Cooking gauntlets]] at level 94 (84 if elite [[Kourend & Kebos Diary]] is completed while cooking at the [[Hosidius Kitchen|Hosidius kitchen]]).",
+      "sourceRevision": 15183388,
+      "sourceSha256": "dfa696e4168b0510e85f06989bb123c8db4e53415c521b092d4b4480e0401203",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "385"
+        },
+        {
+          "field": "name",
+          "value": "Shark"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 391,
+      "title": "Manta ray",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''manta ray''' is a type of [[food]] that restores 22 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw manta ray]] on a [[fire]] or [[cooking range]], requiring level 91 [[Cooking]] and granting 216.3 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt manta ray]]. The [[burn rate]] decreases as the player's Cooking level increases. It will only stop burning entirely when the [[Cooking cape]] is worn.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''manta ray''' is a type of [[food]] that restores 22 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw manta ray]] on a [[fire]] or [[cooking range]], requiring level 91 [[Cooking]] and granting 216.3 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt manta ray]]. The [[burn rate]] decreases as the player's Cooking level increases. It will only stop burning entirely when the [[Cooking cape]] is worn.",
+      "sourceRevision": 15184402,
+      "sourceSha256": "79842eeb9e560ea4fe6d236e58e9b5bfca429ecb40a75edc00cba6c5234fcac7",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "391"
+        },
+        {
+          "field": "name",
+          "value": "Manta ray"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 397,
+      "title": "Sea turtle",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Sea turtles''' are a type of [[food]] that restores 21 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw sea turtle]] on a [[fire]] or [[cooking range]], requiring level 82 [[Cooking]] and granting 211.3 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt sea turtle]]. The [[burn rate]] decreases as the player's Cooking level increases. Sea turtles never stop burning altogether even at level 99, unless the player is wearing a [[Cooking cape]].",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Sea turtles''' are a type of [[food]] that restores 21 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw sea turtle]] on a [[fire]] or [[cooking range]], requiring level 82 [[Cooking]] and granting 211.3 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt sea turtle]]. The [[burn rate]] decreases as the player's Cooking level increases. Sea turtles never stop burning altogether even at level 99, unless the player is wearing a [[Cooking cape]].",
+      "sourceRevision": 15256536,
+      "sourceSha256": "9aac62aab8a018380ff91b55d33f320a1b3e779383b407a92b141840cb938316",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "397"
+        },
+        {
+          "field": "name",
+          "value": "Sea turtle"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 2003,
+      "title": "Stew",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Stew''' is a type of [[food]] that restores 11 [[Hitpoints]] when eaten. It can be obtained by cooking [[uncooked stew]] on a [[fire]] or [[cooking range]], requiring level 25 [[Cooking]] and granting 117 [[experience]] when successful. When cooking there is a chance to fail, resulting in [[burnt stew]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases. Stew is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 58, or 54 when using the Lumbridge range.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Stew''' is a type of [[food]] that restores 11 [[Hitpoints]] when eaten. It can be obtained by cooking [[uncooked stew]] on a [[fire]] or [[cooking range]], requiring level 25 [[Cooking]] and granting 117 [[experience]] when successful. When cooking there is a chance to fail, resulting in [[burnt stew]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases. Stew is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 58, or 54 when using the Lumbridge range.",
+      "sourceRevision": 15252770,
+      "sourceSha256": "487b8eca227d796f52009d906f9fc2b686c115f128cf548d901f7efde222e022",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2003"
+        },
+        {
+          "field": "name",
+          "value": "Stew"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 2011,
+      "title": "Curry",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Curry''' is a type of [[food]] that restores 19 [[Hitpoints]] when eaten. An empty [[bowl]] will remain after consumption. It can be obtained by cooking [[uncooked curry]] on a [[fire]] or [[cooking range]], requiring level 60 [[Cooking]] and granting 280 experience when successful. When cooking, there is a chance to fail, resulting in [[burnt curry]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases, and it will stop burning entirely at Cooking level 74.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Curry''' is a type of [[food]] that restores 19 [[Hitpoints]] when eaten. An empty [[bowl]] will remain after consumption. It can be obtained by cooking [[uncooked curry]] on a [[fire]] or [[cooking range]], requiring level 60 [[Cooking]] and granting 280 experience when successful. When cooking, there is a chance to fail, resulting in [[burnt curry]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases, and it will stop burning entirely at Cooking level 74.",
+      "sourceRevision": 15271864,
+      "sourceSha256": "afc87371765f7d5009e03c639da673638d88edab6fbf063fd204443ce651b307",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2011"
+        },
+        {
+          "field": "name",
+          "value": "Curry"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 2309,
+      "title": "Bread",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Bread''' is a type of [[food]] that restores 5 [[Hitpoints]] when eaten. It can be obtained by baking [[bread dough]] on a [[cooking range]], granting 40 [[experience]] when successful. When cooking there is a chance to fail, resulting in [[burnt bread]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases. Bread is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 38, or 34 when using the Lumbridge range. Bread may also be bought or stolen from the [[Ardougne Baker's Stall.|Ardougne Baker's Stall]] in the [[Ardougne]] marketplace.{{clear|left}}",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Bread''' is a type of [[food]] that restores 5 [[Hitpoints]] when eaten. It can be obtained by baking [[bread dough]] on a [[cooking range]], granting 40 [[experience]] when successful. When cooking there is a chance to fail, resulting in [[burnt bread]]. The [[burn rate]] decreases as the player's [[Cooking]] level increases. Bread is one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 38, or 34 when using the Lumbridge range. Bread may also be bought or stolen from the [[Ardougne Baker's Stall.|Ardougne Baker's Stall]] in the [[Ardougne]] marketplace.{{clear|left}}",
+      "sourceRevision": 15182634,
+      "sourceSha256": "f7f0a69102c0ed431283b6bb010e7ae73221c812844a7216f866bace6f3c1c74",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2309"
+        },
+        {
+          "field": "name",
+          "value": "Bread"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 3144,
+      "title": "Cooked karambwan",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked karambwan''' is a type of [[fish]] that restores 18 [[Hitpoints]] when eaten. They can be obtained by cooking [[raw karambwan]] on a [[fire]] or [[cooking range]]. Cooking a karambwan requires level 30 [[Cooking]], and grants 190 experience when successful.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked karambwan''' is a type of [[fish]] that restores 18 [[Hitpoints]] when eaten. They can be obtained by cooking [[raw karambwan]] on a [[fire]] or [[cooking range]]. Cooking a karambwan requires level 30 [[Cooking]], and grants 190 experience when successful.",
+      "sourceRevision": 15358532,
+      "sourceSha256": "dfb774e3e7371a0418b6f1f96b5cbf3ec40dda971faa9f810e2fcbfd30fdfd6c",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3144"
+        },
+        {
+          "field": "name",
+          "value": "Cooked karambwan"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 6705,
+      "title": "Potato with cheese",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Potato with cheese''' is a [[food]] item that heals 16 [[Hitpoints]] when eaten and is consumed in one bite. It can be made with a [[Cooking]] level of 47 by using a piece of [[cheese]] on a [[potato with butter]]. Doing so grants 40 Cooking [[experience]] and does not require the use of a [[fire]] or [[range]].",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Potato with cheese''' is a [[food]] item that heals 16 [[Hitpoints]] when eaten and is consumed in one bite. It can be made with a [[Cooking]] level of 47 by using a piece of [[cheese]] on a [[potato with butter]]. Doing so grants 40 Cooking [[experience]] and does not require the use of a [[fire]] or [[range]].",
+      "sourceRevision": 15183795,
+      "sourceSha256": "c89ee9e150ab8461f27bdf6ea3a25ae60c7c09ed39f7280fd187ad1eb1df0f21",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6705"
+        },
+        {
+          "field": "name",
+          "value": "Potato with cheese"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 7058,
+      "title": "Mushroom potato",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''mushroom potato''' is [[food]] that heals 20 [[Hitpoints]] when consumed. 64 [[Cooking]] is required to make them by adding [[mushroom & onion]] to a [[potato with butter]] yielding 55 Cooking [[experience]], 270.5 experience if made from scratch.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''mushroom potato''' is [[food]] that heals 20 [[Hitpoints]] when consumed. 64 [[Cooking]] is required to make them by adding [[mushroom & onion]] to a [[potato with butter]] yielding 55 Cooking [[experience]], 270.5 experience if made from scratch.",
+      "sourceRevision": 15185157,
+      "sourceSha256": "20b4b3a69cf8bfed2e206b49dfc121522bbe60ea48945529e1294d1548b5c5c5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7058"
+        },
+        {
+          "field": "name",
+          "value": "Mushroom potato"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 7060,
+      "title": "Tuna potato",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''tuna potato''' is a type of [[food]] that restores 22 [[Hitpoints]] when eaten. It can be obtained by following the steps to combine various items (listed below). To follow all the preparation steps requires level 68 [[Cooking]] and grants 10 Cooking experience for a grand total of 309.5 Cooking experience (all the necessary steps).",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''tuna potato''' is a type of [[food]] that restores 22 [[Hitpoints]] when eaten. It can be obtained by following the steps to combine various items (listed below). To follow all the preparation steps requires level 68 [[Cooking]] and grants 10 Cooking experience for a grand total of 309.5 Cooking experience (all the necessary steps).",
+      "sourceRevision": 15292986,
+      "sourceSha256": "27bc537ef5c44cbca6e5c5e7e3652c5d2c717546513e4bbfbef8d6dffa5f91ac",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7060"
+        },
+        {
+          "field": "name",
+          "value": "Tuna potato"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 7946,
+      "title": "Monkfish",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Monkfish''' is a type of [[fish]] that restores 16 [[Hitpoints]] when eaten.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Monkfish''' is a type of [[fish]] that restores 16 [[Hitpoints]] when eaten.",
+      "sourceRevision": 15183439,
+      "sourceSha256": "11f8bc5fb623cc2291c29c647e11ead68fa8f9a0219e6ac0c538cce35f435e5f",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7946"
+        },
+        {
+          "field": "name",
+          "value": "Monkfish"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 10971,
+      "title": "Eel sushi",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Eel sushi''' is a traditional dish of the [[Dorgeshuun]] cave goblins. It consists of a [[Raw cave eel|raw cave]]/[[Raw slimy eel|slimy eel]] wrapped in [[swamp weed]]. It cannot be made by players.",
+      "secondaryExcerpts": [
+        "Eel sushi can be obtained randomly when selling food to [[Gourmet]]s in [[Dorgesh-Kaan]]. Unlike most other Dorgeshuun cuisine, it heals 10 [[Hitpoints]] when eaten. They also give a temporary [[Cooking]] boost of +1."
+      ],
+      "nutritionExcerpt": "Eel sushi can be obtained randomly when selling food to [[Gourmet]]s in [[Dorgesh-Kaan]]. Unlike most other Dorgeshuun cuisine, it heals 10 [[Hitpoints]] when eaten. They also give a temporary [[Cooking]] boost of +1.",
+      "sourceRevision": 15185840,
+      "sourceSha256": "c9b4639481d94a9ff3731ccf70985203666fa103abbf0db3f04b7ea256ac8434",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "10971"
+        },
+        {
+          "field": "name",
+          "value": "Eel sushi"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 11936,
+      "title": "Dark crab",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''dark crab''' is a type of [[food]] that restores 22 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw dark crab]] on a [[fire]] or [[cooking range]], requiring level 90 [[Cooking]] and granting 215 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt dark crab]]. The [[burn rate]] decreases as the player's Cooking level increases. It will only stop burning entirely if the player is wearing a [[Cooking cape]]. The chance to burn is decreased by using the [[Hosidius Kitchen|city kitchens]] when the easy or elite [[Kourend & Kebos Diary]] has been completed (5 and 10% respectively).",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''dark crab''' is a type of [[food]] that restores 22 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw dark crab]] on a [[fire]] or [[cooking range]], requiring level 90 [[Cooking]] and granting 215 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt dark crab]]. The [[burn rate]] decreases as the player's Cooking level increases. It will only stop burning entirely if the player is wearing a [[Cooking cape]]. The chance to burn is decreased by using the [[Hosidius Kitchen|city kitchens]] when the easy or elite [[Kourend & Kebos Diary]] has been completed (5 and 10% respectively).",
+      "sourceRevision": 15185342,
+      "sourceSha256": "7dce13a2e60dea4e17efd43f0644c674b24c194711bee27db7025cad77d97b35",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11936"
+        },
+        {
+          "field": "name",
+          "value": "Dark crab"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29128,
+      "title": "Cooked wild kebbit",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked wild kebbit''' is a type of [[hunter meat]] that restores a total of 8 [[Hitpoints]] when eaten, 4 are restored immediately, 4 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked wild kebbit''' is a type of [[hunter meat]] that restores a total of 8 [[Hitpoints]] when eaten, 4 are restored immediately, 4 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210248,
+      "sourceSha256": "45d833eb02468b92078e04bf71b70812b0a39bdb7469ad1faecbe8b70f88fd42",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29128"
+        },
+        {
+          "field": "name",
+          "value": "Cooked wild kebbit"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29131,
+      "title": "Cooked barb-tailed kebbit",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked barb-tailed kebbit''' is a type of [[hunter meat]] that restores a total of 12 [[Hitpoints]] when eaten, 7 are restored immediately, 5 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked barb-tailed kebbit''' is a type of [[hunter meat]] that restores a total of 12 [[Hitpoints]] when eaten, 7 are restored immediately, 5 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210253,
+      "sourceSha256": "669bcb99eba665be937a017832987b6a9baa183c77bbe03c0753bc579e801074",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29131"
+        },
+        {
+          "field": "name",
+          "value": "Cooked barb-tailed kebbit"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29134,
+      "title": "Cooked dashing kebbit",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked dashing kebbit''' is a type of [[hunter meat]] that restores a total of 23 [[Hitpoints]] when eaten, 13 are restored immediately,  10 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s).  The secondary heal also restores 10 points of [[run energy]]. Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked dashing kebbit''' is a type of [[hunter meat]] that restores a total of 23 [[Hitpoints]] when eaten, 13 are restored immediately,  10 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s).  The secondary heal also restores 10 points of [[run energy]]. Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210258,
+      "sourceSha256": "f4b5cff6026e6253b84651b194f303a6e437876778089104391ece54636556e1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29134"
+        },
+        {
+          "field": "name",
+          "value": "Cooked dashing kebbit"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29137,
+      "title": "Cooked pyre fox",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked pyre fox''' is a type of [[hunter meat]] that restores a total of 19 [[Hitpoints]] when eaten, 11 are restored immediately, 8 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked pyre fox''' is a type of [[hunter meat]] that restores a total of 19 [[Hitpoints]] when eaten, 11 are restored immediately, 8 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210263,
+      "sourceSha256": "8d2cdef26a0633db1f5dcea8f771cb0bbafe85a3794c95ee229f8239adb0d252",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29137"
+        },
+        {
+          "field": "name",
+          "value": "Cooked pyre fox"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29140,
+      "title": "Cooked sunlight antelope",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked sunlight antelope''' is a type of [[hunter meat]] that restores a total of 21 [[Hitpoints]] when eaten, 12 are restored immediately, 9 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked sunlight antelope''' is a type of [[hunter meat]] that restores a total of 21 [[Hitpoints]] when eaten, 12 are restored immediately, 9 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210270,
+      "sourceSha256": "79186b59dae5d8d2f39da02351fd5627444d7c2079462a4c7847dd388f171564",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29140"
+        },
+        {
+          "field": "name",
+          "value": "Cooked sunlight antelope"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29143,
+      "title": "Cooked moonlight antelope",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked moonlight antelope''' is a type of [[hunter meat]] that restores a total of 26 [[Hitpoints]] when eaten, 14 are restored immediately, 12 are restored after a delay of {{Ticks|7}}. The secondary heal also cures [[poison]] and reduces [[venom]] to poison. Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked moonlight antelope''' is a type of [[hunter meat]] that restores a total of 26 [[Hitpoints]] when eaten, 14 are restored immediately, 12 are restored after a delay of {{Ticks|7}}. The secondary heal also cures [[poison]] and reduces [[venom]] to poison. Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15240215,
+      "sourceSha256": "5c3c5c32ca96c543ea1b976bfdc4e024ffa2da7fd931cbf08407c03f0cebabda",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29143"
+        },
+        {
+          "field": "name",
+          "value": "Cooked moonlight antelope"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29146,
+      "title": "Cooked larupia",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked larupia''' is a type of [[hunter meat]] that restores a total of 11 [[Hitpoints]] when eaten, 6 are restored immediately, 5 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked larupia''' is a type of [[hunter meat]] that restores a total of 11 [[Hitpoints]] when eaten, 6 are restored immediately, 5 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210280,
+      "sourceSha256": "e3963fa2aa7e24dd6c0daa6c4d02bf265068ddba4437c6766386315517cf0730",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29146"
+        },
+        {
+          "field": "name",
+          "value": "Cooked larupia"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29149,
+      "title": "Cooked graahk",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked graahk''' is a type of [[hunter meat]] that restores a total of 14 [[Hitpoints]] when eaten, 8 are restored immediately, 6 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked graahk''' is a type of [[hunter meat]] that restores a total of 14 [[Hitpoints]] when eaten, 8 are restored immediately, 6 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15210285,
+      "sourceSha256": "dcb9f1995dea5cdc0ca1e208af50f95172d422a6160ed348d1048d76bfa473d3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29149"
+        },
+        {
+          "field": "name",
+          "value": "Cooked graahk"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 29152,
+      "title": "Cooked kyatt",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Cooked kyatt''' is a type of [[hunter meat]] that restores a total of 17 [[Hitpoints]] when eaten, 9 are restored immediately, 8 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Cooked kyatt''' is a type of [[hunter meat]] that restores a total of 17 [[Hitpoints]] when eaten, 9 are restored immediately, 8 are restored after a delay of 7 [[RuneScape clock|ticks]] (4.2s). Eating another hunter meat too quickly will waste any pending healing, as the most recent delayed heal will replace older effects that have not completed yet. Standard foods and potions do not interrupt this pending heal.",
+      "sourceRevision": 15333016,
+      "sourceSha256": "7125035e2780154a38ac38a66758bf7f95f5bbf776742a093e0ba0500dd2cee9",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "29152"
+        },
+        {
+          "field": "name",
+          "value": "Cooked kyatt"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 32312,
+      "title": "Giant krill",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Giant krill''' is a type of [[fish]] that restores 17 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw giant krill]] on a [[fire]] or [[cooking range]]. Cooking a giant krill requires level 69 [[Cooking]], and grants 177.5 [[experience]] when successful.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Giant krill''' is a type of [[fish]] that restores 17 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw giant krill]] on a [[fire]] or [[cooking range]]. Cooking a giant krill requires level 69 [[Cooking]], and grants 177.5 [[experience]] when successful.",
+      "sourceRevision": 15351996,
+      "sourceSha256": "249715b33ba23503fd0a64285fc4eca7ac427241f176bffb164e4339c1825ca1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32312"
+        },
+        {
+          "field": "name",
+          "value": "Giant krill"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 32320,
+      "title": "Haddock",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Haddock''' is a type of [[fish]] that restores 18 [[Hitpoints]] when eaten. Haddock may also boost hitpoints above the base level, by 20% of the base level or by 10, whichever is lower. Similar to the [[anglerfish]], eating a haddock will not overheal if the player is in combat in a [[PvP]] area, whether with another player or a monster.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Haddock''' is a type of [[fish]] that restores 18 [[Hitpoints]] when eaten. Haddock may also boost hitpoints above the base level, by 20% of the base level or by 10, whichever is lower. Similar to the [[anglerfish]], eating a haddock will not overheal if the player is in combat in a [[PvP]] area, whether with another player or a monster.",
+      "sourceRevision": 15352001,
+      "sourceSha256": "74f3bc14fa9a7406d0ca2e619144b4576fb18f7f59d5e29760953983dad7e6d7",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32320"
+        },
+        {
+          "field": "name",
+          "value": "Haddock"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 32328,
+      "title": "Yellowfin",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Yellowfin''' is a type of [[fish]] that restores 19 [[Hitpoints]] and 20% [[run energy]] when eaten.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Yellowfin''' is a type of [[fish]] that restores 19 [[Hitpoints]] and 20% [[run energy]] when eaten.",
+      "sourceRevision": 15352055,
+      "sourceSha256": "13cf5117ed915cea6057d4c0e7ca81d1fc4106ea3d20d655585a498cb5f307e9",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32328"
+        },
+        {
+          "field": "name",
+          "value": "Yellowfin"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 32336,
+      "title": "Halibut",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Halibut''' is a type of [[fish]] that restores 20 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw halibut]] on a [[fire]] or [[cooking range]]. Cooking a halibut requires level 83 [[Cooking]], and grants 212.5 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt halibut]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will only stop burning at level 99 when cooking at the [[Hosidius Kitchen]] with the elite [[Kourend & Kebos Diary]] completed.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Halibut''' is a type of [[fish]] that restores 20 [[Hitpoints]] when eaten. It can be obtained by cooking [[raw halibut]] on a [[fire]] or [[cooking range]]. Cooking a halibut requires level 83 [[Cooking]], and grants 212.5 [[experience]] when successful. When cooking there is a chance to fail, resulting in a [[burnt halibut]]. The [[burn rate]] decreases as the player's Cooking level increases, and it will only stop burning at level 99 when cooking at the [[Hosidius Kitchen]] with the elite [[Kourend & Kebos Diary]] completed.",
+      "sourceRevision": 15352002,
+      "sourceSha256": "7e38ae7dbe87f44b3cc0a71d8df3b3ce3b593897f150ef9d1fcfe4e13eed0a15",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32336"
+        },
+        {
+          "field": "name",
+          "value": "Halibut"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 32344,
+      "title": "Bluefin",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Bluefin''' is a type of [[fish]] that restores 22 [[Hitpoints]] and 5 [[prayer points]] when eaten.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Bluefin''' is a type of [[fish]] that restores 22 [[Hitpoints]] and 5 [[prayer points]] when eaten.",
+      "sourceRevision": 15351984,
+      "sourceSha256": "c81f8c3ef18aba6c7de49282b525cb41b3033b54a9f83e29ee5a5469a84c8cbc",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32344"
+        },
+        {
+          "field": "name",
+          "value": "Bluefin"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    },
+    {
+      "itemId": 32352,
+      "title": "Marlin",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "semanticExcerpt": "'''Marlin''' is a type of [[fish]] that restores 24 [[Hitpoints]] when eaten, making it the highest immediate-healing single-bite food.",
+      "secondaryExcerpts": [],
+      "nutritionExcerpt": "'''Marlin''' is a type of [[fish]] that restores 24 [[Hitpoints]] when eaten, making it the highest immediate-healing single-bite food.",
+      "sourceRevision": 15352012,
+      "sourceSha256": "55b6bae45993698eff5e6aa7d7503086acb381cbad983a15d4c1e0ee9c01a470",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "32352"
+        },
+        {
+          "field": "name",
+          "value": "Marlin"
+        },
+        {
+          "field": "options",
+          "value": "Eat, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The exact ordinary prepared food has its own Eat option and direct subject-specific Hitpoints-restoring consumption mechanic. Its current primary Food placement is supported; documented recipe, quest, skill-boost or other uses remain secondary and unassessed rather than being treated as absent."
+    }
+  ]
+}

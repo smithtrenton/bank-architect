@@ -1,0 +1,752 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "expectedCaseCount": 21,
+  "scope": "21 unchanged raw-fish Cooking-input primary assignments; tags retained and supplemental roles unassessed.",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "materialsPacket": "415b1b0ecc9ea35cad7d1b0eb7476110472dc113231ebe61294ef94120345ddb",
+    "rawFishReview": "bcbda28285765e806e0e7206c737519f62fcf91db9064730881fb1c313ff1e87"
+  },
+  "reviewedPrimaryRule": "Each own pinned exact numeric-ID raw item binding has a full named-subject definition and literal direct Cooking-input clause. Current SKILLING/raw-food/resources targets are confirmed individually. Acquisition restrictions and secondary bait/quest/offering uses do not erase that direct ordinary raw-input workflow. No alias, cross-page recipe-title or family role propagation is approved.",
+  "reviewRecord": "Root read all21 raw source subject definitions, direct cooking clauses and competing-use contexts. Rawkarambwan3142 is a Cooking input with both poor and thorough cooking; the edible thorough output requires Tai Bwo Wannai Trio. Other exact rows and37 noexactBinding rows remain unapproved. Root rejected the packet suggestion that rawkarambwan3142 itself is vessel bait: the cited bait is the separate rawkarambwanji3150. Root also read the rawsea turtle395 lyre-offering mechanic and does not adopt the packet claim that competing uses are absent.",
+  "cases": [
+    {
+      "itemId": 327,
+      "title": "Raw sardine",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw sardines''' are fish that require a [[Fishing]] level of 5 to catch by using a normal [[fishing rod]] on a bait fishing spot, by the sea. [[Fishing bait]] is required in the inventory, one being used for each catch, which yields 20 Fishing experience. Raw sardines may be cooked at level 1 [[Cooking]] to produce cooked [[sardine]]s.",
+      "secondaryExcerpts": [
+        "Raw sardines may be cooked at level 1 [[Cooking]] to produce cooked [[sardine]]s."
+      ],
+      "sourceRevision": 15331276,
+      "sourceSha256": "3179eb017560201454a5a83f895699217872a4f27311b054fdc9a1232d5500a3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "327"
+        },
+        {
+          "field": "name",
+          "value": "Raw sardine"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 331,
+      "title": "Raw salmon",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw salmon''' are fish that can be caught with a [[Fishing]] level of 30, granting 70 Fishing experience per catch. It can be cooked into [[salmon]] with a [[Cooking]] level of 25. Players will stop burning salmon unaided at a Cooking level of 58 or 55 when using the [[Lumbridge Castle]] range. Successfully cooking a salmon yields 90 Cooking experience. Raw salmon are caught through fly fishing, which requires a Fishing level of 30, a [[fly fishing rod]], and [[feathers]]. The fish are caught with the lure option at [[Rod Fishing spot (lure, bait)|Lure/Bait fishing spots]] found in rivers. Fly fishing trout and salmon is a very common way for players to train Fishing quickly.",
+      "secondaryExcerpts": [
+        "It can be cooked into [[salmon]] with a [[Cooking]] level of 25."
+      ],
+      "sourceRevision": 15331268,
+      "sourceSha256": "0a5d57416a8df91fe1d24d609c69ef38368a2fd00ac1fbcda06e35f883cad276",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "331"
+        },
+        {
+          "field": "name",
+          "value": "Raw salmon"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 335,
+      "title": "Raw trout",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw trout''' are fish that can caught through fly fishing, which requires a [[fly fishing rod]] and [[feathers]].",
+      "secondaryExcerpts": [
+        "It can be cooked into [[trout]] with a [[Cooking]] level of 15."
+      ],
+      "sourceRevision": 15331267,
+      "sourceSha256": "d4e2485ac1b8214b9861a2bc9b673574d3a9b85f0b99fade535db6f81c9cf7c2",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "335"
+        },
+        {
+          "field": "name",
+          "value": "Raw trout"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 341,
+      "title": "Raw cod",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw cod''' is a fish that can be caught with a [[big net|big fishing net]] at any [[Fishing spot (big net, harpoon)|fishing spot]]. It requires a [[Fishing]] level of 23 to catch and grants 45 fishing experience per catch. It can be cooked into [[cod]] with level 18 [[Cooking]]. The most common spot to fish cod is [[Catherby]].",
+      "secondaryExcerpts": [
+        "It can be cooked into [[cod]] with level 18 [[Cooking]]."
+      ],
+      "sourceRevision": 15342741,
+      "sourceSha256": "86c4e9f661ed56a1d870e2dbbc3fb3eae8ee423bf9c0d6a8a2edbe04f140e908",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "341"
+        },
+        {
+          "field": "name",
+          "value": "Raw cod"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 345,
+      "title": "Raw herring",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw herring''' is an item that is obtained through the [[Fishing]] skill by using a [[fishing rod]] with [[fishing bait]] on a [[Fishing_spot_(small_net,_bait)|net/bait fishing spot]] using the bait option. Herrings can only be caught in fishing spots by the sea. Catching a raw herring grants 30 [[Fishing]] experience. It can be cooked into [[herring]] with a [[Cooking]] level of 5, granting 50 [[Cooking]] experience.",
+      "secondaryExcerpts": [
+        "It can be cooked into [[herring]] with a [[Cooking]] level of 5, granting 50 [[Cooking]] experience."
+      ],
+      "sourceRevision": 15331274,
+      "sourceSha256": "24aa85efaa6a431666984181c7500e50e8a7c5ba0298090c4b1f3afdc76fb53a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "345"
+        },
+        {
+          "field": "name",
+          "value": "Raw herring"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 349,
+      "title": "Raw pike",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw pike''' are fish that can be caught with a [[Fishing]] level of 25, granting 60 fishing experience per catch. They can be cooked into [[pike]] with a [[Cooking]] level of 20. Successfully cooking a raw pike gives 80 Cooking experience. Raw pike are caught through bait fishing, which requires a [[fishing rod]] and [[Fishing bait|bait]].",
+      "secondaryExcerpts": [
+        "They can be cooked into [[pike]] with a [[Cooking]] level of 20."
+      ],
+      "sourceRevision": 15331271,
+      "sourceSha256": "34adad5333d8f1dc7a8c8c7cbab47e4967ac51b1611bb5587d46b7ce41999b58",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "349"
+        },
+        {
+          "field": "name",
+          "value": "Raw pike"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 353,
+      "title": "Raw mackerel",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw mackerel''' is a fish that can be caught with a [[big fishing net]] at any big net [[Fishing spot (big net, harpoon)|fishing spot]]. It requires a [[Fishing]] level of 16 to catch and can be cooked into [[mackerel]] with level 10 [[Cooking]]. The most common spot to fish mackerel is [[Catherby]]. There's a possibility that 10 raw mackerel will be required for a part in the quest [[In Aid of the Myreque]].",
+      "secondaryExcerpts": [
+        "can be cooked into [[mackerel]] with level 10 [[Cooking]]."
+      ],
+      "sourceRevision": 15331272,
+      "sourceSha256": "291dff686def4b79309a9dc09948c95d16966b790afdc8133dc9885dc567155a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "353"
+        },
+        {
+          "field": "name",
+          "value": "Raw mackerel"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 359,
+      "title": "Raw tuna",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw tuna''' is a type of [[fish]], obtained by [[harpoon]] fishing at a [[Fishing spot (cage, harpoon)|cage/harpoon fishing spot]]. Raw tuna require 35 [[Fishing]] to catch and award the player 80 [[experience]] when caught. They can be sold, or cooked with a [[Cooking]] level of 30 to produce [[tuna]], granting 100 experience in Cooking and will no longer be burned after level 63. The cooked version is often used by mid-levelled players when training [[combat]].",
+      "secondaryExcerpts": [
+        "They can be sold, or cooked with a [[Cooking]] level of 30 to produce [[tuna]], granting 100 experience in Cooking"
+      ],
+      "sourceRevision": 15359168,
+      "sourceSha256": "995af0e433a03d22cab68734964f88889ffe62236d266a476e328ade7875cd7a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "359"
+        },
+        {
+          "field": "name",
+          "value": "Raw tuna"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 363,
+      "title": "Raw bass",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''raw bass''' can be caught by players with a [[Fishing]] level of 46 or higher using a [[big fishing net]] at a [[Fishing spot (big net, harpoon)|fishing spot]], this cannot be boosted. Doing so yields 100 Fishing [[experience]] per bass caught. They can be cooked into [[bass]] with a [[Cooking]] level of 43.",
+      "secondaryExcerpts": [
+        "They can be cooked into [[bass]] with a [[Cooking]] level of 43."
+      ],
+      "sourceRevision": 15331273,
+      "sourceSha256": "f329315a4aed1ba4ef4f878cf591aebe342d4ba18bce5bc4c03ccecca658dd40",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "363"
+        },
+        {
+          "field": "name",
+          "value": "Raw bass"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 371,
+      "title": "Raw swordfish",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''raw swordfish''' is a type of [[fish]] that players can catch at level 50 [[Fishing]] with a [[harpoon]] at [[Fishing_spot_(cage,_harpoon)|cage and harpoon fishing spots]], and can be cooked at level 45 [[Cooking]]. It also can be obtained at level 60 fishing while [[drift net fishing]] which cannot be boosted.",
+      "secondaryExcerpts": [
+        "can be cooked at level 45 [[Cooking]]."
+      ],
+      "sourceRevision": 15359167,
+      "sourceSha256": "678ff13c079597f9cf692c35104f6c3d5bce769af293050ec386294e6599398b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "371"
+        },
+        {
+          "field": "name",
+          "value": "Raw swordfish"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 377,
+      "title": "Raw lobster",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''raw lobster''' is a type of [[fish|crustacean]] which can be caught at level 40 [[Fishing]] with a [[lobster pot]], resulting in 90 Fishing [[experience]]. It can be cooked into [[lobster]] at level 40 [[Cooking]], yielding 120 Cooking experience. Starting at level 74 Cooking, raw lobsters will no longer [[Burnt lobster|burn]]; wearing [[cooking gauntlets]] reduces this threshold to 64 Cooking instead.",
+      "secondaryExcerpts": [
+        "It can be cooked into [[lobster]] at level 40 [[Cooking]], yielding 120 Cooking experience."
+      ],
+      "sourceRevision": 15331269,
+      "sourceSha256": "cd3601d40d92c0aa1f59d60c7940c44fe877400ac21bad23b829e6831f014df4",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "377"
+        },
+        {
+          "field": "name",
+          "value": "Raw lobster"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 383,
+      "title": "Raw shark",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw sharks''' can be fished with a [[harpoon]] with level 76 [[Fishing]]. They require level 80 [[Cooking]] to cook into [[shark]]s and heal 20 [[Hitpoints]] each. Raw sharks can be caught at many net/harpoon [[Fishing_spot_(big_net,_harpoon)|fishing spots]] with locations including the [[Fishing Guild]], [[Catherby]], [[Burgh de Rott]], [[Rellekka]], [[Iorwerth Camp]], [[Hosidius|East of Hosidius]], [[Jatizso]], [[Isle of Souls]], [[Gwenith]], and [[Salvager Overlook]]. They can be caught by sailing a [[raft]] at sea [[Boat fishing spot (big net, harpoon)|north-west of Musa Point]]. Raw sharks can also be caught without using a harpoon at level 96 Fishing and 76 Strength by starting the second part of [[Barbarian Training#Barehanded fishing|barbarian fishing]] with [[Otto Godblessed]]. The rate at which they are caught can be increased with the use of [[shark lure]], but doing so will reduce the experience gained.",
+      "secondaryExcerpts": [
+        "They require level 80 [[Cooking]] to cook into [[shark]]s and heal 20 [[Hitpoints]] each."
+      ],
+      "sourceRevision": 15359165,
+      "sourceSha256": "65b4057a2d040530f536eae908b5b0905f67ec97d2108317c6ab9f7c5f569126",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "383"
+        },
+        {
+          "field": "name",
+          "value": "Raw shark"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 389,
+      "title": "Raw manta ray",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw manta ray''' are [[fish]] that can be obtained with level 81 [[Fishing]]. They can be caught while playing the [[Fishing Trawler]], from the [[Tempoross]] [[Reward pool]], or while [[Underwater#Drift net fishing|drift net]] fishing at [[Fossil Island]] with 90 [[Fishing]], which cannot be boosted. They are also a possible reward from a [[bowl of fish]] bought from [[Mairin's Market]]. They can be cooked into [[manta ray]]s with 91 [[Cooking]], giving 216.3 experience.",
+      "secondaryExcerpts": [
+        "They can be cooked into [[manta ray]]s with 91 [[Cooking]], giving 216.3 experience."
+      ],
+      "sourceRevision": 15213248,
+      "sourceSha256": "2cb57d848e01a97a78acd36136a188c547ae7ec983223404a32a84bea2b6c4a3",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "389"
+        },
+        {
+          "field": "name",
+          "value": "Raw manta ray"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 395,
+      "title": "Raw sea turtle",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw sea turtle''' are fish that can be obtained with level 79 [[Fishing]]. They can be caught while playing the [[Fishing Trawler]] [[Minigames|minigame]], from the [[Tempoross]] [[Reward pool]], or while [[Underwater#Drift net fishing|drift net]] fishing at [[Fossil Island]] with 80 [[Fishing]], which cannot be boosted. They are also a possible reward from a [[bowl of fish]] bought from [[Mairin's Market]]. They can be cooked into [[sea turtle]]s with 82 [[Cooking]], giving 211.3 experience.",
+      "secondaryExcerpts": [
+        "They can be cooked into [[sea turtle]]s with 82 [[Cooking]], giving 211.3 experience."
+      ],
+      "sourceRevision": 15185410,
+      "sourceSha256": "570805a10453579a8c67b08ed4738d167fc77d44b5619746bbf053e6d6c98bcb",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "395"
+        },
+        {
+          "field": "name",
+          "value": "Raw sea turtle"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 2148,
+      "title": "Raw lava eel",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw lava eels''' require level 53 [[Fishing]] to catch, and a [[Cooking]] level of 53 to cook. Raw lava eels may be caught using an [[oily fishing rod]] and [[fishing bait|bait]] in the lava rivers found in [[Taverley Dungeon]], the [[Wilderness]] [[Lava Maze]], the [[Charred Dungeon]] (level 60 [[Sailing]]), and the [[Wyrmscraig Cavern]] (after completion of [[Fallen From Grace]]).",
+      "secondaryExcerpts": [
+        "a [[Cooking]] level of 53 to cook."
+      ],
+      "sourceRevision": 15285456,
+      "sourceSha256": "7eef22be7fd41d9b783ad08e5590ca4a42b822d6fa40ea6e9a7f712bcab5735b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2148"
+        },
+        {
+          "field": "name",
+          "value": "Raw lava eel"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "[[Heroes' Quest]]"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 3142,
+      "title": "Raw karambwan",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw karambwan''' are [[fish|octopodes]] native to the tropical island of [[Karamja]]. Catching one requires 65 [[Fishing]] and a [[karambwan vessel]] using [[raw karambwanji]] as bait after completing the fishing portion of the [[Tai Bwo Wannai Trio]] quest. Each catch yields 50 Fishing [[experience]]. The karambwan [[Fishing spot (karambwan)|fishing spot]]s are north of the [[Shipyard (Karamja)|Karamja Shipyard]] and east of the [[harpie bug swarm]]s at [[fairy ring]] code {{Fairycode|dkp}}, or alternatively fished [[Boat fishing spot (karambwan)|at sea]] while on a [[raft]].",
+      "secondaryExcerpts": [
+        "When using a raw karambwan on a [[fire]] or [[cooking range]], two options of cooking are given: poorly or thoroughly."
+      ],
+      "sourceRevision": 15304463,
+      "sourceSha256": "03e931c9fd28f961ec568435c7e9ff31691407e1f19fb569b4e37e05226f3f40",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3142"
+        },
+        {
+          "field": "name",
+          "value": "Raw karambwan"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 3379,
+      "title": "Raw slimy eel",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw slimy eel''' is a fish that can be caught with a [[fishing rod]] and [[fishing bait]]. They require a [[Fishing]] level of 28 to catch, and grant 80 Fishing experience per catch when caught in the [[Lumbridge Swamp Caves]], [[Dorgesh-Kaan South Dungeon]], or the [[Ruins of Camdozaal]]. They grant 65 Fishing experience when caught in the [[Mort Myre Swamp]]. It can be cooked into [[cooked slimy eel]] with a [[Cooking]] level of 28.",
+      "secondaryExcerpts": [
+        "It can be cooked into [[cooked slimy eel]] with a [[Cooking]] level of 28."
+      ],
+      "sourceRevision": 15326628,
+      "sourceSha256": "45c6e7f052c67cd7254bfe960c5b815a423ba5d45456a9856e28e2e348a6ec6a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3379"
+        },
+        {
+          "field": "name",
+          "value": "Raw slimy eel"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 5001,
+      "title": "Raw cave eel",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw cave eels''' are fish that require a [[Fishing]] level of 38 to be caught and grants 80 fishing experience per catch, as well as a [[Cooking]] level of 38 to be cooked; doing so turns it into a [[cave eel]]. They can be used with [[Giant frog legs]] on the life altar in [[Creature Creation]] to make a [[frogeel]].",
+      "secondaryExcerpts": [
+        "as well as a [[Cooking]] level of 38 to be cooked; doing so turns it into a [[cave eel]]."
+      ],
+      "sourceRevision": 15326686,
+      "sourceSha256": "40bb9b39e8d837fa12a6cebee4306b384e23c4eaedea12dce07f89d2e883cc24",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5001"
+        },
+        {
+          "field": "name",
+          "value": "Raw cave eel"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 7944,
+      "title": "Raw monkfish",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw monkfish''' are [[fish]] that can be caught with a [[Fishing]] level of at least 62 and [[small fishing net]], granting 120 Fishing [[experience]] points per fish. Monkfish fishing spots can be found at [[Piscatoris Fishing Colony]] (near [[fairy ring]] {{Fairycode|akq}}) and in the [[Boat fishing spot (Piscatoris Fishing Colony)|nearby ocean]] accessible via sailing a [[raft]]; both spots require the completion of [[Swan Song]] to fish from.",
+      "secondaryExcerpts": [
+        "Raw monkfish can be cooked at level 62 Cooking, and yield 150 experience if they are successfully cooked."
+      ],
+      "sourceRevision": 15331275,
+      "sourceSha256": "d7a41123d8bb397bd3fd81ac8ab08fa267521d9112b3a4658012b31085aa3754",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "7944"
+        },
+        {
+          "field": "name",
+          "value": "Raw monkfish"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 11934,
+      "title": "Raw dark crab",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''raw dark crab''' is a [[members-only]] [[fish]] found in the [[Wilderness]]. Dark crabs require a [[Fishing]] level of at least 85 and give 130 Fishing [[experience]] per catch. A [[lobster pot]] is used to catch dark crabs, along with [[dark fishing bait]]. Dark fishing bait can be obtained as a drop from various monsters in the Wilderness or bought from other players at the [[Grand Exchange]].",
+      "secondaryExcerpts": [
+        "They require a [[Cooking]] level of at least 90 to cook and give 215 Cooking experience per fish."
+      ],
+      "sourceRevision": 15296400,
+      "sourceSha256": "0ae3d713a4cef86fa9e7ae2f9aa19fa8ccd3fa7e752e8c4792f230d38817ff52",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "11934"
+        },
+        {
+          "field": "name",
+          "value": "Raw dark crab"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    },
+    {
+      "itemId": 13439,
+      "title": "Raw anglerfish",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "semanticExcerpt": "'''Raw anglerfish''' are a type of fish found only in [[Port Piscarilius]] or via [[boat fishing]] nearby. In order to catch this fish, players require level 82 in [[Fishing]], a [[fishing rod]], and either [[sandworms]] or [[diabolic worms]]. Each catch grants 120 Fishing [[experience]] (or 79.2 if using diabolic worms). Anglerfish are located at the bait fishing spot south of [[Tynan's Fishing Supplies]], or they can be caught by boat fishing from any player boat [https://oldschool.runescape.wiki/w/Boat_fishing_spot_(anglerfish) slightly north-east] of the Piscarilius foodhall. Anglerfish fishing spots on land have a highly random movement timer, ranging from as little as 8 ticks (4.8 seconds) up to 1000 ticks (approximately 10 minutes), making them considered an unreliable AFK fishing option. However, anglerfish fishing spots at sea do not move and so they are the better option for AFK fishing.",
+      "secondaryExcerpts": [
+        "Cooking anglerfish requires level 84 in [[Cooking]], and gives 230 experience."
+      ],
+      "sourceRevision": 15357467,
+      "sourceSha256": "2c2fbe90b33b883133a085b871fb64da458e064d299e3a4a8af19e92db30baf5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "13439"
+        },
+        {
+          "field": "name",
+          "value": "Raw anglerfish"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact raw fish is a directly documented Cooking input, supporting its current raw-food resource placement. Approval is limited to this primary workflow; other uses and conditional output-state restrictions remain unassessed. It does not assert that every cooked output is edible."
+    }
+  ]
+}
