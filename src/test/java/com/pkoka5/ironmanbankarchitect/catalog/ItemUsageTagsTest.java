@@ -23,6 +23,55 @@ public class ItemUsageTagsTest
 		assertFalse(CompositeItemCatalog.DEFAULT.describeOrUnknown(4683).hasTag("prayer-gear"));
 		assertEquals(ItemCategory.CLEANUP, CompositeItemCatalog.DEFAULT.describeOrUnknown(20405).getCategory());
 	}
+
+	@Test public void reviewedJavelinsAndBarbedBoltsCarryIndependentAmmunitionFacts()
+	{
+		int[] ammunition = {825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836,
+			5642, 5643, 5644, 5645, 5646, 5647, 5648, 5649, 5650, 5651, 5652, 5653,
+			19484, 19486, 19488, 19490, 21318, 21320, 21322, 21324, 881};
+		for (int id : ammunition)
+		{
+			assertEquals("ammo", CompositeItemCatalog.DEFAULT.describeOrUnknown(id).getSubcategory());
+			assertTrue("Missing ranged ammunition fact " + id,
+				CompositeItemCatalog.DEFAULT.describeOrUnknown(id).hasTag("ranged-ammunition"));
+		}
+		for (int id : new int[]{47, 9419, 22941, 22943, 22945, 22947})
+			assertFalse("Ammunition fact must stay exact " + id,
+				CompositeItemCatalog.DEFAULT.describeOrUnknown(id).hasTag("ranged-ammunition"));
+	}
+
+	@Test public void utilityAndWardFactsAreExactAndIndependent()
+	{
+		for (int id : new int[]{32, 38, 594, 4522, 4524, 4537, 4539, 4700, 4701, 4702})
+		{
+			CatalogItem item = CompositeItemCatalog.DEFAULT.describeOrUnknown(id);
+			assertEquals("light-source", item.getSubcategory());
+			assertTrue(item.hasTag("light-source"));
+		}
+		for (int id : new int[]{11931, 11932, 11933})
+		{
+			CatalogItem item = CompositeItemCatalog.DEFAULT.describeOrUnknown(id);
+			assertEquals("equipment-upgrade", item.getSubcategory());
+			assertTrue(item.hasTag("recipe-material"));
+			assertTrue(item.hasTag("equipment-component"));
+		}
+		assertEquals("rune-container", CompositeItemCatalog.DEFAULT.describeOrUnknown(24416).getSubcategory());
+		assertTrue(CompositeItemCatalog.DEFAULT.describeOrUnknown(24607).hasTag("blighted"));
+		assertTrue(CompositeItemCatalog.DEFAULT.describeOrUnknown(24607).hasTag("wilderness-restricted"));
+		assertTrue(CompositeItemCatalog.DEFAULT.describeOrUnknown(596).hasTag("light-source"));
+	}
+
+	@Test public void goutTuberHasIndependentPlantingFoodAndExchangeFacts()
+	{
+		CatalogItem gout = CompositeItemCatalog.DEFAULT.describeOrUnknown(6311);
+		assertEquals(ItemCategory.FARMING, gout.getCategory());
+		assertTrue(gout.hasTag("farming-planting"));
+		assertTrue(gout.hasTag("edible"));
+		assertTrue(gout.hasTag("exchangeable"));
+		CatalogItem snapdragon = CompositeItemCatalog.DEFAULT.describeOrUnknown(29538);
+		assertEquals(ItemCategory.CLEANUP, snapdragon.getCategory());
+	}
+
 	@Test public void clueFactsDoNotSpreadToNotesNamesakesOrPoisonedWeapons()
 	{
 		for (int id : new int[]{579, 1061, 1167, 1205, 4310, 5525})

@@ -40,7 +40,7 @@ public class PotionDoseSemanticRuleSetTest
 		ids(2440, 157, 159, 161), ids(2448, 181, 183, 185));
 
 	@Test
-	public void canonicalRuleContainsAllTwentyTwoExactDescendingDoseFamilies()
+	public void canonicalRuleKeepsTheOriginalFamiliesAndAddsReviewedDoseFamilies()
 	{
 		LayoutRequest request = PotionDoseSemanticRuleSet.forEntries(Collections.emptyList());
 
@@ -54,7 +54,7 @@ public class PotionDoseSemanticRuleSetTest
 			rule.getAllowedWidths());
 		assertFalse(rule.hasWidthEvidence());
 		assertTrue(rule.getSpilloverCompatibleRuleKeys().isEmpty());
-		assertEquals(22, rule.getAtoms().size());
+		assertEquals(95, rule.getAtoms().size());
 
 		for (int familyIndex = 0; familyIndex < FAMILY_KEYS.size(); familyIndex++)
 		{
@@ -69,6 +69,38 @@ public class PotionDoseSemanticRuleSetTest
 				assertMetadata(atom.getAtomKey(), atom.getItemIds().get(memberIndex), expectedDose);
 			}
 		}
+		for (int familyIndex = FAMILY_KEYS.size(); familyIndex < rule.getAtoms().size(); familyIndex++)
+		{
+			SemanticAtom atom = rule.getAtoms().get(familyIndex);
+			assertTrue(atom.getAtomKey(), atom.getAtomKey().startsWith("dose.wiki."));
+			int width = atom.getItemIds().size();
+			assertTrue(width == 2 || width == 4);
+			for (int memberIndex = 0; memberIndex < width; memberIndex++)
+			{
+				int dose = width - memberIndex;
+				assertEquals("dose-" + dose, atom.getMembers().get(memberIndex).getMemberKey());
+				assertMetadata(atom.getAtomKey(), atom.getItemIds().get(memberIndex), dose);
+			}
+		}
+	}
+
+	@Test
+	public void ordinaryPartialDoseEligibilityUsesOnlyExactReviewedFamilies()
+	{
+		assertEquals(4, PotionDoseSemanticRuleSet.maxDoseFor(139));
+		assertEquals(0, PotionDoseSemanticRuleSet.maxDoseFor(24598));
+		assertEquals(0, PotionDoseSemanticRuleSet.maxDoseFor(11734));
+		for (int itemId : new int[] {29080, 29081, 29082, 29083})
+		{
+			assertEquals(0, PotionDoseSemanticRuleSet.maxDoseFor(itemId));
+			assertFalse(PotionDoseSemanticRuleSet.isPartialDose(itemId, ItemCategory.POTION, "potion-dose-1"));
+		}
+		assertFalse(PotionDoseSemanticRuleSet.isPartialDose(11734, ItemCategory.POTION, "activity-potion"));
+		assertTrue(PotionDoseSemanticRuleSet.isPartialDose(139, ItemCategory.POTION, "potion-dose-3"));
+		assertTrue(PotionDoseSemanticRuleSet.isPartialDose(143, ItemCategory.POTION, "potion-dose-1"));
+		assertFalse(PotionDoseSemanticRuleSet.isPartialDose(2434, ItemCategory.POTION, "potion-dose-4"));
+		assertFalse(PotionDoseSemanticRuleSet.isPartialDose(139, ItemCategory.TOOL, "potion-dose-3"));
+		assertFalse(PotionDoseSemanticRuleSet.isPartialDose(139, ItemCategory.POTION, "potion-dose-2"));
 	}
 
 	@Test

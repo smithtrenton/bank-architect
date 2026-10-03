@@ -39,6 +39,17 @@ public class IronmanMainItemSorterTest
 	}
 
 	@Test
+	public void exactRunePouchStateFamiliesStayAdjacentInReviewedOrder()
+	{
+		List<BankPreviewItem> items = new ArrayList<>();
+		for (int id : new int[]{24416, 12791, 27509, 27281})
+			items.add(new BankPreviewItem(ResourceItemRegistry.INSTANCE.findById(id).get(), 1));
+		List<Integer> ids = IronmanMainItemSorter.sort(items).stream()
+			.map(BankPreviewItem::getItemId).collect(Collectors.toList());
+		assertEquals(Arrays.asList(27281, 27509, 12791, 24416), ids);
+	}
+
+	@Test
 	public void mainDelegatesItsTeleportBandToTheTeleportWorkflow()
 	{
 		List<BankPreviewItem> sorted = IronmanMainItemSorter.sort(Arrays.asList(

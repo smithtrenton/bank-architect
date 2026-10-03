@@ -56,6 +56,66 @@ public class CanonicalItemClassificationOverridesTest
 	}
 
 	@Test
+	public void reviewedJavelinsAndBarbedBoltsHaveAmmoClassificationWithoutPromotingComponents()
+	{
+		int[] ammoIds = {825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836,
+			5642, 5643, 5644, 5645, 5646, 5647, 5648, 5649, 5650, 5651, 5652, 5653,
+			19484, 19486, 19488, 19490, 21318, 21320, 21322, 21324, 881};
+		for (int itemId : ammoIds)
+		{
+			ItemClassificationRefiner.Classification classification =
+				CanonicalItemClassificationOverrides.find(itemId).get();
+			assertEquals("item " + itemId, ItemCategory.GEAR, classification.getCategory());
+			assertEquals("item " + itemId, "ammo", classification.getSubcategory());
+		}
+		assertFalse("Barbed bolt tips remain a component", CanonicalItemClassificationOverrides.find(47).isPresent());
+	}
+
+	@Test
+	public void exactUtilityDestinationsKeepIndependentRoleFacts()
+	{
+		for (int id : new int[]{32, 38, 594, 4522, 4524, 4537, 4539, 4700, 4701, 4702})
+		{
+			CatalogItem item = CompositeItemCatalog.DEFAULT.describeOrUnknown(id);
+			assertEquals(ItemCategory.TOOL, item.getCategory());
+			assertEquals("light-source", item.getSubcategory());
+			assertTrue(item.hasTag("light-source"));
+		}
+		for (int id : new int[]{1436, 7936, 24704})
+		{
+			CatalogItem item = CompositeItemCatalog.DEFAULT.describeOrUnknown(id);
+			assertEquals(ItemCategory.SKILLING, item.getCategory());
+			assertEquals("raw-resource", item.getSubcategory());
+			assertTrue(item.hasTag("runecrafting-input"));
+		}
+		assertEquals("rune-container", CompositeItemCatalog.DEFAULT.describeOrUnknown(24416).getSubcategory());
+		assertEquals("rune", CompositeItemCatalog.DEFAULT.describeOrUnknown(24607).getSubcategory());
+	}
+
+	@Test
+	public void maledictionShardsAreExactEquipmentUpgradeComponents()
+	{
+		for (int id : new int[]{11931, 11932, 11933})
+		{
+			ItemClassificationRefiner.Classification row = CanonicalItemClassificationOverrides.find(id).get();
+			assertEquals(ItemCategory.UNIQUE, row.getCategory());
+			assertEquals("equipment-upgrade", row.getSubcategory());
+			assertTrue(CompositeItemCatalog.DEFAULT.describeOrUnknown(id).hasTag("recipe-material"));
+		}
+	}
+
+	@Test
+	public void goutTuberUsesFarmingClassificationWithoutChangingQuestSnapdragon()
+	{
+		ItemClassificationRefiner.Classification gout = CanonicalItemClassificationOverrides.find(6311).get();
+		assertEquals(ItemCategory.FARMING, gout.getCategory());
+		assertEquals("farming", gout.getSubcategory());
+		ItemClassificationRefiner.Classification snapdragon = CanonicalItemClassificationOverrides.find(29538).get();
+		assertEquals(ItemCategory.CLEANUP, snapdragon.getCategory());
+		assertEquals("quest-item", snapdragon.getSubcategory());
+	}
+
+	@Test
 	public void validTableClassifiesAndClosesItsStream()
 	{
 		boolean[] closed = {false};

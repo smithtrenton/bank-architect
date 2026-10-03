@@ -1,0 +1,127 @@
+{
+  "domain": "combat gear, ammunition, cosmetic clothing, skilling outfits, cosmetic variants",
+  "status": "completed_mechanical_domain_review",
+  "examined_runtime_files": [
+    "src/main/java/com/pkoka5/ironmanbankarchitect/catalog/ItemClassificationRefiner.java",
+    "src/main/java/com/pkoka5/ironmanbankarchitect/organize/PresetCategoryMapper.java",
+    "src/main/java/com/pkoka5/ironmanbankarchitect/organize/BankTags.java",
+    "src/main/java/com/pkoka5/ironmanbankarchitect/organize/layout/ItemSetCatalog.java"
+  ],
+  "policy": [
+    {
+      "rule": "preserve_identity",
+      "meaning": "Each exact item ID remains an independent item. Group only as an optional semantic set/block; variants, charges, recolours, kits, and similar names do not erase distinctions."
+    },
+    {
+      "rule": "exact_membership",
+      "meaning": "Use explicit reviewed item-ID membership for gear/outfit/cosmetic families. Never propagate membership through name similarity alone."
+    },
+    {
+      "rule": "evidence_positive",
+      "meaning": "A missing bonus, equipment slot, wiki category, or page association is unknown, not negative evidence."
+    },
+    {
+      "rule": "overlapping_roles",
+      "meaning": "Represent independent roles as facets (combat equipable, ammunition/thrown weapon, skilling utility/outfit, cosmetic/reward, transformation/ornament state). Route according to primary player workflow only when supported by explicit evidence and current preset rules."
+    },
+    {
+      "rule": "no_stat_cleanup",
+      "meaning": "Zero or absent combat bonuses do not imply cosmetic or junk. Stat-neutral utility gear, defensive pieces, cosmetic variants of functional equipment, and item-specific mechanics remain eligible."
+    }
+  ],
+  "deterministic_detectors": [
+    {
+      "predicate": "Local reviewed set catalog contains exact item ID with domain, setKey, and slotRank.",
+      "name": "exact-set-membership",
+      "use": "Detect current deterministic family and ordering coverage."
+    },
+    {
+      "predicate": "Exact Wiki item record links the item ID to a named equipment slot or documented equipability.",
+      "name": "explicit-equipment-fact",
+      "use": "Positive evidence for equipment role; does not imply combat stats."
+    },
+    {
+      "predicate": "At least one exact-ID combat bonus field is nonzero.",
+      "name": "positive-combat-bonus",
+      "use": "Positive combat-gear evidence only; zeros/missing values do not demote."
+    },
+    {
+      "predicate": "Exact-ID Wiki description/category or game mechanic identifies ammo/munition/projectile/thrown weapon; compatible weapon/style may be recorded separately.",
+      "name": "explicit-ammo-role",
+      "use": "Ammunition grouping; do not infer from name token alone."
+    },
+    {
+      "predicate": "Wiki set page or exact-ID page documents components and a shared outfit/set effect or reward set.",
+      "name": "explicit-outfit-set",
+      "use": "Skilling outfit semantic block, preserving each component."
+    },
+    {
+      "predicate": "Exact-ID source documents cosmetic/recolour/ornament/transmog role, or item is explicitly a cosmetic clothing/reward item.",
+      "name": "explicit-cosmetic-state",
+      "use": "Cosmetic grouping with link to base item when documented; cosmetic does not imply nonfunctional."
+    }
+  ],
+  "ambiguity_handling": [
+    "An item can be a combat item and have a cosmetic variant; retain its combat and cosmetic relationship separately.",
+    "A skilling outfit can be wearable and still belong in the skilling workflow rather than combat gear.",
+    "Clothing appearance alone is not enough to classify a piece as cosmetic: verify combat or skilling function.",
+    "Ornament kits and consumable transformation items are separate inventory identities from their resulting item.",
+    "Unavailable/ambiguous source facts remain unverified and are excluded from negative detectors."
+  ],
+  "source_requirements": [
+    "Exact item page or authoritative Wiki set page with stable oldid/revision permalink.",
+    "For grouped outfit members: component list and effect/source statement, plus exact IDs or unambiguous item-page cross-links.",
+    "For ammo compatibility: exact Wiki ammunition and weapon compatibility tables/pages where practical.",
+    "Log source page title, oldid, retrieval date, and fields supporting each edge; never cite generic name similarity."
+  ],
+  "current_gaps": [
+    "ItemClassificationRefiner uses broad name token logic for some equipment slot and ammo-component classifications; it is a candidate discovery layer and needs exact-ID fact review.",
+    "PresetCategoryMapper routes all ItemSetCatalog gear domain members to combat-gear; review explicit set catalog membership and any wearable utility/overlap exceptions.",
+    "BankTags routes only subcategories ammo and thrown-weapon to ammunition; verify catalog vocabulary catches every actual munition while preserving usable thrown combat weapons.",
+    "Skilling outfit recognition includes a hardcoded subset and legacy TOOL fallback; exact outfit-set catalog coverage should be checked by ID.",
+    "ItemSetCatalog is already the appropriate exact-ID mechanism, but families must preserve functional categories and variant identity; no name-based propagation."
+  ],
+  "findings": [],
+  "coverage": {
+    "effectiveIdsTotal": 32586,
+    "reviewRows": 12576,
+    "exactIdWikiRows": 6889,
+    "noExactIdWikiRows": 5687,
+    "costumeRoomCategoryPositive": 1943,
+    "exactEquipmentSlotWithZeroBonuses": 2154,
+    "localSetMemberRows": {
+      "gear": 144,
+      "tools": 83,
+      "cosmetics": 164,
+      "cosmetic-family": 48
+    }
+  },
+  "dataset": "tmp/semantic-audit/joined.jsonl (32,586 effective IDs; 12,576 rows in this domain review universe)",
+  "reviewFlagCounts": {
+    "ammoRouteReview": 14,
+    "outfitSetCoverageReview": 308,
+    "clothingRewardFamilyReview": 1872,
+    "costumeRoomStorageFacet": 1943,
+    "zeroBonusWearableIdentity": 2154,
+    "wikiIdCoverageGapUnknown": 5687
+  },
+  "highValueFindings": [
+    "32 exact-ID ballista javelins currently use generic GEAR/gear and miss the Ammunition tag; see verified-groups.json.",
+    "Seven Wiki-confirmed brutal arrows currently use CLEANUP/cleanup despite positive arrows/ammo evidence.",
+    "Barbed bolts ID 881 currently use SKILLING/raw-resources despite positive bolt-ammo evidence.",
+    "Documented outfit families lack exact ItemSetCatalog blocks: Angler, Spirit Angler, Farmer, Carpenter, Zealot, Smiths Uniform, Raiments of the Eye, Golden Prospector, four Hunter camouflage sets."
+  ],
+  "sourceControls": [
+    "Exact item IDs remain distinct. Optional set edges need explicit source-linked membership.",
+    "Positive Category:Ammunition slot items or equipment_slot=ammo alone does not mean projectile ammo; blessings and traversal utilities share that slot.",
+    "Missing facts mean unknown. No absence, zero-stat, or similar-name negative inference.",
+    "Items storable in the costume room is a storage facet, not proof of cosmetic-only role or a specific destination."
+  ],
+  "outputs": {
+    "reviewScript": "build-review.js",
+    "perItemReview": "reviewed-items.csv",
+    "mechanicalSummary": "audit-summary.json",
+    "verifiedGroupingProposals": "verified-groups.json",
+    "conclusions": "conclusions.json"
+  }
+}

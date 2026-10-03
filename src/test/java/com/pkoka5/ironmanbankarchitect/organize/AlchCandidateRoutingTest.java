@@ -23,7 +23,8 @@ public class AlchCandidateRoutingTest
 
 	@Test public void knownUsesProtectOrdinaryReviewedAndBulkStockFromAutomaticAlchRouting()
 	{
-		for (String role : Arrays.asList("clue-required", "quest-use", "special-attack", "skilling-outfit"))
+		for (String role : Arrays.asList("clue-required", "clue-utility", "quest-use", "special-attack", "skilling-outfit",
+			"prayer-gear", "warm-clothing", "weight-reducing", "ranged-ammunition", "transport-access"))
 		{
 			for (int quantity : new int[]{1, 2, 25})
 			{
@@ -43,6 +44,32 @@ public class AlchCandidateRoutingTest
 			new BankItemSnapshot(99001, 1, 0), new BankItemSnapshot(ItemID.RUNE_PLATEBODY, 2, 1))),
 			GEAR_CATALOG, BankPresets.IRONMAN, candidate -> Optional.of(meleeBody(100)), candidate -> 39000);
 		assertEquals(1, categoryByKey(ordinary, "slayer-boss-loot").getItemCount());
+	}
+
+	@Test
+	public void provenanceAndGenericCombatTagsDoNotSuppressAutomaticAlch()
+	{
+		for (String role : Arrays.asList("magic-gear", "quest-associated", "wiki-quest-item",
+			"clue-reward", "slayer-reward", "pet", "collection-log-scurrius", "storage-option-construction",
+			"refill-required", "activity-deadman", "blighted", "wilderness-restricted"))
+		{
+			CatalogItem tagged = new CatalogItem(3, "Gear 3", ItemCategory.GEAR, "body",
+				Collections.singleton(role), null);
+			ItemCatalog catalog = id -> Optional.of(id == 3 ? tagged
+				: new CatalogItem(id, "Gear " + id, ItemCategory.GEAR, "body", Collections.emptySet(), null));
+			BankOrganizationPreview preview = BankOrganizationPreviewBuilder.build(new BankSnapshot(Arrays.asList(
+				new BankItemSnapshot(1, 1, 0), new BankItemSnapshot(2, 1, 1), new BankItemSnapshot(3, 17, 2))),
+				catalog, BankPresets.IRONMAN, id -> Optional.of(meleeBody(id == 3 ? 100 : 300)), id -> 39000);
+			assertEquals(role, 1, categoryByKey(preview, "slayer-boss-loot").getItemCount());
+		}
+		ItemCatalog mixedRoles = id -> Optional.of(new CatalogItem(id, "Gear " + id, ItemCategory.GEAR, "body",
+			id == 3 ? new java.util.HashSet<>(Arrays.asList("quest-use", "collection-log-scurrius"))
+			: Collections.emptySet(), null));
+		BankOrganizationPreview mixed = BankOrganizationPreviewBuilder.build(new BankSnapshot(Arrays.asList(
+			new BankItemSnapshot(1, 1, 0), new BankItemSnapshot(2, 1, 1), new BankItemSnapshot(3, 17, 2))),
+			mixedRoles, BankPresets.IRONMAN, id -> Optional.of(meleeBody(id == 3 ? 100 : 300)), id -> 39000);
+		assertEquals(3, categoryByKey(mixed, "combat-gear").getItemCount());
+		assertEquals(0, categoryByKey(mixed, "slayer-boss-loot").getItemCount());
 	}
 
 	@Test

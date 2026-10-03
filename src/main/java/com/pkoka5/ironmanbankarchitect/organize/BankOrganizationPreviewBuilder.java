@@ -45,6 +45,16 @@ public final class BankOrganizationPreviewBuilder
 	// (smithing/crafting output), not a gear option the player switches to.
 	private static final int BULK_STOCK_QUANTITY = 8;
 	private static final String ALCH_CATEGORY_KEY = "slayer-boss-loot";
+	private static final Set<String> FUNCTIONAL_RETENTION_TAGS = Collections.unmodifiableSet(
+		new LinkedHashSet<>(java.util.Arrays.asList("clue-required", "clue-utility", "quest-use", "quest-weapon",
+			"post-quest-tool", "special-attack", "prayer-gear", "skilling-outfit",
+			"ranged-ammunition", "transport-access", "bloom-utility", "prayer-training", "warm-clothing", "weight-reducing",
+			"prayer-utility", "mining-utility", "construction-utility", "tool-recharge",
+			"farming-utility", "herblore-utility", "hunter-utility", "fishing-utility",
+			"crafting-utility", "smithing-utility", "runecrafting-utility", "runecrafting-input",
+			"resource-container", "essence-container", "runecrafting-container", "rune-container",
+			"ammo-container", "key-container", "scroll-container", "repeatable-key-use",
+			"camulet-recharge")));
 
 	private BankOrganizationPreviewBuilder()
 	{
@@ -198,10 +208,8 @@ public final class BankOrganizationPreviewBuilder
 			// the full potions rather than as Herblore's to-decant pile, so
 			// each potion runs 4 to 1 in one place.
 			boolean partDoseAsPotion = options.potionDoses() == PotionDoseOrder.BY_FAMILY
-				&& (normalizedSubcategory(catalogItem).startsWith("potion-dose-")
-					|| normalizedSubcategory(catalogItem).startsWith("dose-"))
-				&& !normalizedSubcategory(catalogItem).equals("potion-dose-4")
-				&& !normalizedSubcategory(catalogItem).equals("dose-4");
+				&& PotionDoseSemanticRuleSet.isPartialDose(catalogItem.getItemId(),
+					catalogItem.getCategory(), catalogItem.getSubcategory());
 			if (partDoseAsPotion)
 			{
 				category = preset.getCategory("potions-food");
@@ -514,6 +522,15 @@ public final class BankOrganizationPreviewBuilder
 			bankItem.isPlaceholder(), bankItem.getPhysicalSlotQuantities()).withLayoutTag(tagKey), bankItem.getSlotIndex());
 	}
 
+	private static boolean hasFunctionalRetentionRole(CatalogItem item)
+	{
+		for (String tag : item.getTags())
+		{
+			if (FUNCTIONAL_RETENTION_TAGS.contains(tag)) return true;
+		}
+		return false;
+	}
+
 	/**
 	 * Ironman alch rule: a combat gear item whose style+slot already has two
 	 * strictly better owned items is a duplicate the player will realistically
@@ -528,6 +545,7 @@ public final class BankOrganizationPreviewBuilder
 	 * {@link IronmanAlchCandidateCatalog} is exempt: an explicit maintainer
 	 * decision outranks the automatic rule.</p>
 	 */
+
 	private static boolean isAlchCandidate(BankPreset preset, BankCategory category, CatalogItem catalogItem, int quantity,
 		GearStatsSource gearStats, ItemValueSource itemValues, Map<String, List<OwnedGear>> ownedGearByKey)
 	{
@@ -535,7 +553,7 @@ public final class BankOrganizationPreviewBuilder
 		{
 			return false;
 		}
-		if (!catalogItem.getTags().isEmpty()
+		if (hasFunctionalRetentionRole(catalogItem)
 			|| WikiItemLists.INSTANCE.isSpecialAttackWeapon(catalogItem.getDisplayName()))
 		{
 			// Known roles can matter despite weaker stats. A bank layout cannot
@@ -729,7 +747,7 @@ public final class BankOrganizationPreviewBuilder
 				if (saved != null)
 				{
 					sequenceByTag.put(tag.getKey(),
-						blockSequence(saved, new ArrayList<>(tag.getValue().keySet())));
+						blockSequence(saved, tag.getValue()));
 				}
 			}
 			if (sequenceByTag.isEmpty())
@@ -767,16 +785,27 @@ public final class BankOrganizationPreviewBuilder
 		 * block now containing it - the arrangement survives an item joining
 		 * a catalogued family - and is otherwise skipped but kept stored.
 		 */
-		private List<String> blockSequence(List<String> saved, List<String> curated)
+		private List<String> blockSequence(List<String> saved, Map<String, List<BankPreviewItem>> present)
 		{
+			List<String> curated = new ArrayList<>(present.keySet());
 			List<String> arranged = new ArrayList<>();
 			for (String key : saved)
 			{
-				String resolved = curated.contains(key) ? key : successorOf(key, curated);
-				if (resolved != null && !arranged.contains(resolved))
+				List<String> resolvedKeys = new ArrayList<>();
+				if (curated.contains(key)) resolvedKeys.add(key);
+				else if (key.startsWith("name:"))
 				{
-					arranged.add(resolved);
+					for (String current : curated)
+						for (BankPreviewItem member : present.get(current))
+							if (key.equals(BlockKeys.legacyNameKeyOf(member))) { resolvedKeys.add(current); break; }
 				}
+				else
+				{
+					String successor = successorOf(key, curated, present);
+					if (successor != null) resolvedKeys.add(successor);
+				}
+				for (String resolved : resolvedKeys)
+					if (!arranged.contains(resolved)) arranged.add(resolved);
 			}
 			if (arranged.isEmpty())
 			{
@@ -807,7 +836,8 @@ public final class BankOrganizationPreviewBuilder
 			return sequence;
 		}
 
-		private String successorOf(String savedKey, List<String> curated)
+		private String successorOf(String savedKey, List<String> curated,
+			Map<String, List<BankPreviewItem>> present)
 		{
 			if (!savedKey.startsWith("item:"))
 			{
@@ -822,14 +852,9 @@ public final class BankOrganizationPreviewBuilder
 			{
 				return null;
 			}
-			for (LayoutEntry entry : entries)
-			{
-				if (entry.getItem().getItemId() == itemId)
-				{
-					String current = BlockKeys.blockKeyOf(entry.getItem());
-					return curated.contains(current) ? current : null;
-				}
-			}
+			for (Map.Entry<String, List<BankPreviewItem>> block : present.entrySet())
+				for (BankPreviewItem item : block.getValue())
+					if (item.getItemId() == itemId) return curated.contains(block.getKey()) ? block.getKey() : null;
 			return null;
 		}
 
@@ -873,10 +898,9 @@ public final class BankOrganizationPreviewBuilder
 
 		private String inferredTagKeyOf(BankPreviewItem item)
 		{
-			String subcategory = item.getSubcategory() == null ? ""
-				: item.getSubcategory().trim().toLowerCase();
 			if (options.potionDoses() == PotionDoseOrder.BY_FAMILY
-				&& subcategory.startsWith("potion-dose-") && !subcategory.equals("potion-dose-4"))
+				&& PotionDoseSemanticRuleSet.isPartialDose(item.getItemId(),
+					item.getItemCategory(), item.getSubcategory()))
 			{
 				return "potions";
 			}

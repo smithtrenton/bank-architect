@@ -26,6 +26,12 @@ public class ResourceSemanticRuleSetTest
 		Arrays.asList(2351, 2355, 2357, 2359, 2361, 2363);
 	private static final List<Integer> GEM_RAW = Arrays.asList(1623, 1621, 1619, 1617, 1631);
 	private static final List<Integer> GEM_PROCESSED = Arrays.asList(1607, 1605, 1603, 1601, 1615);
+	private static final List<Integer> METAL_CATALOG_ORES =
+		Arrays.asList(440, 442, 444, 447, 449, 451, 668, 13356);
+	private static final List<Integer> METAL_CATALOG_BARS =
+		Arrays.asList(2351, 2355, 2357, 2359, 2361, 2363, 9467, 13354);
+	private static final List<Integer> GEM_EXTENDED_RAW = Arrays.asList(1627, 1629, 6571, 19496);
+	private static final List<Integer> GEM_EXTENDED_PROCESSED = Arrays.asList(1611, 1613, 6573, 19493);
 	private static final List<Integer> NORMAL_LOGS =
 		Arrays.asList(1511, 1521, 1519, 1517, 1515, 1513, 19669);
 	private static final List<Integer> CONSTRUCTION_LOGS =
@@ -56,7 +62,7 @@ public class ResourceSemanticRuleSetTest
 		LayoutRequest request = ResourceSemanticRuleSet.forEntries(Collections.emptyList());
 
 		assertFalse(request.hasCurrentDenseCategoryOrder());
-		assertEquals(5, request.getRules().size());
+		assertEquals(6, request.getRules().size());
 		assertMetalRows(request.getRules().get(0));
 		assertFalse(request.getRules().get(0).hasWidthEvidence());
 
@@ -67,9 +73,13 @@ public class ResourceSemanticRuleSetTest
 			request.getRules().get(1).getWidthEvidence());
 		assertEquals(5, request.getRules().get(1).getPreferredWidth());
 
-		assertWoodRows(request.getRules().get(2));
-		assertCraftingRows(request.getRules().get(3));
-		assertFletchingRuns(request.getRules().get(4));
+		assertRule(request.getRules().get(2), "resource.gem.extended.raw-processed",
+			Arrays.asList("gem.jade", "gem.red-topaz", "gem.onyx", "gem.zenyte"),
+			GEM_EXTENDED_RAW, GEM_EXTENDED_PROCESSED);
+		assertFalse(request.getRules().get(2).hasWidthEvidence());
+		assertWoodRows(request.getRules().get(3));
+		assertCraftingRows(request.getRules().get(4));
+		assertFletchingRuns(request.getRules().get(5));
 	}
 
 	@Test
@@ -463,12 +473,12 @@ public class ResourceSemanticRuleSetTest
 		assertEquals(ConfidenceTier.HIGH, rule.getConfidenceTier());
 		assertEquals(ShapePrimitive.STAGE_MATRIX, rule.getShapePrimitive());
 		assertEquals(Arrays.asList("metal.iron", "metal.silver", "metal.gold", "metal.mithril",
-			"metal.adamantite", "metal.runite"),
+			"metal.adamantite", "metal.runite", "metal.blurite", "metal.lovakite"),
 			atomKeys(rule));
 		for (int index = 0; index < rule.getAtoms().size(); index++)
 		{
 			SemanticAtom atom = rule.getAtoms().get(index);
-			assertEquals(Arrays.asList(METAL_MATRIX_ORES.get(index), METAL_MATRIX_BARS.get(index)),
+			assertEquals(Arrays.asList(METAL_CATALOG_ORES.get(index), METAL_CATALOG_BARS.get(index)),
 				atom.getItemIds());
 			assertEquals("raw", atom.getMembers().get(0).getMemberKey());
 			assertEquals("processed", atom.getMembers().get(1).getMemberKey());

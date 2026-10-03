@@ -1,6 +1,8 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
 import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
+import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
+import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -53,6 +55,9 @@ final class ToolItemSorter
 
 	private static String family(BankPreviewItem item)
 	{
+		ItemSortMetadata metadata = ResourceItemSortMetadataCatalog.INSTANCE.findById(item.getItemId()).orElse(null);
+		if (metadata != null && metadata.getVariantKind() == ItemSortMetadata.VariantKind.STATE)
+			return "state:" + metadata.getFamilyKey();
 		String name = normalized(item.getDisplayName());
 		int role = roleRank(item);
 		if (role == 0)
@@ -98,6 +103,9 @@ final class ToolItemSorter
 
 	private static int slotRank(BankPreviewItem item)
 	{
+		ItemSortMetadata metadata = ResourceItemSortMetadataCatalog.INSTANCE.findById(item.getItemId()).orElse(null);
+		if (metadata != null && metadata.getVariantKind() == ItemSortMetadata.VariantKind.STATE)
+			return metadata.getVariantValue();
 		int role = roleRank(item);
 		if (role != 0 && role != 60)
 		{

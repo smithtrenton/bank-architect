@@ -87,9 +87,9 @@ public class HerbloreItemSorterTest
 			item(3, "Irit seed"),
 			item(4, "Irit potion (unf)"),
 			item(5, "Eye of newt"),
-			item(6, "Super attack (3)"),
-			item(7, "Super attack (2)"),
-			item(8, "Super attack (1)")));
+			item(145, "Super attack (3)"),
+			item(147, "Super attack (2)"),
+			item(149, "Super attack (1)")));
 
 		assertEquals(Arrays.asList(
 			"Grimy irit", "Clean irit", "Irit seed", "Irit potion (unf)",

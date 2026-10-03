@@ -1,9 +1,13 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
+import com.pkoka5.ironmanbankarchitect.catalog.RequiredResource;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -21,30 +25,26 @@ final class HerbloreItemSorter
 	private static final int GRID_COLUMNS = 8;
 	private static final int MIN_CHAIN_CELLS = 2;
 
-	private static final Chain[] CHAINS = {
-		chain("guam", "attack potion", "eye of newt"),
-		chain("marrentill", "antipoison", "unicorn horn"),
-		chain("tarromin", "strength potion", "limpwurt"),
-		chain("harralander", "energy potion", "chocolate dust"),
-		chain("ranarr", "prayer potion", "snape grass"),
-		chain("toadflax", "saradomin brew", "crushed nest"),
-		chain("irit", "super attack", "eye of newt"),
-		chain("avantoe", "super energy", "mort myre fungus"),
-		chain("kwuarm", "super strength", "limpwurt"),
-		chain("snapdragon", "super restore", "red spiders"),
-		chain("cadantine", "super defence", "white berries"),
-		chain("lantadyme", "magic potion", "potato cactus"),
-		chain("dwarf weed", "ranging potion", "wine of zamorak"),
-		chain("torstol", "super combat potion")
-	};
+	private static final RequiredResource<Chain[]> CHAINS = new RequiredResource<>("Herblore chains",
+		HerbloreItemSorter::loadChains);
+
+	private static Chain[] loadChains()
+	{
+		Chain[] chains = new Chain[14];
+		for (int i = 0; i < chains.length; i++)
+		{
+			String[] row = ClassificationNames.group(99 + i);
+			chains[i] = chain(row[0], row[1], Arrays.copyOfRange(row, 2, row.length));
+		}
+		return chains;
+	}
 
 	/**
 	 * The order the runs appear in when the tab is grouped by kind rather than by
 	 * recipe: the chain a herb actually travels, with the seeds behind it.
 	 */
-	private static final List<String> RUN_ORDER = java.util.Arrays.asList(
-		"grimy-herbs", "clean-herbs", "unfinished-potions", "secondaries",
-		"herb-seeds", "potion-doses", "herblore-other");
+	private static final RequiredResource<List<String>> RUN_ORDER = new RequiredResource<>("Herblore run order",
+		() -> Collections.unmodifiableList(Arrays.asList(ClassificationNames.group(113))));
 
 	private HerbloreItemSorter()
 	{
@@ -117,8 +117,9 @@ final class HerbloreItemSorter
 
 	private static int runRank(BankPreviewItem item)
 	{
-		int index = RUN_ORDER.indexOf(runKey(item));
-		return index < 0 ? RUN_ORDER.size() : index;
+		List<String> order = RUN_ORDER.get();
+		int index = order.indexOf(runKey(item));
+		return index < 0 ? order.size() : index;
 	}
 
 	/** Which part of the chain an item belongs to, by the same rule the tags use. */
@@ -148,9 +149,10 @@ final class HerbloreItemSorter
 		// Allocate shared secondaries from the highest-tier owned chain down.
 		// Insert accepted rows at the front so the final visual order remains
 		// low-to-high even though ownership is resolved high-to-low.
-		for (int chainIndex = CHAINS.length - 1; chainIndex >= 0; chainIndex--)
+		Chain[] chains = CHAINS.get();
+		for (int chainIndex = chains.length - 1; chainIndex >= 0; chainIndex--)
 		{
-			Chain chain = CHAINS[chainIndex];
+			Chain chain = chains[chainIndex];
 			RecipeRow row = matchChain(chain, unused);
 			if (row.itemCount() >= MIN_CHAIN_CELLS && row.hasHerbInput())
 			{

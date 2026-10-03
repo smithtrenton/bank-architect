@@ -20,7 +20,7 @@
 22398	GEAR	weapon	Ivandis flail
 22986	GEAR	neck	Bonecrusher necklace
 25781	TOOL	skilling-utility	Ash sanctifier
-24416	RUNE	rune-container	Rune pouch (l)
+24416	RUNE	rune-container	Rune pouch (l); Rune pouch (l)
 9433	GEAR	ammo	Bolt pouch: preserve reviewed Combat destination, group with ammunition
 2963	TOOL	quest-utility	Silver sickle (b): repeatable Bloom tool
 # Guild hunter outfit audit: docs/research/item-role-audit-skilling-october-2.md
@@ -88,12 +88,12 @@
 20511	GEAR	head
 24531	GEAR	head	Broken Penance hats are repairable by Perdu
 4740	GEAR	ammo	Bolt rack
-20220	GEAR	ammo	Holy blessing
-20223	GEAR	ammo	Unholy blessing
-20226	GEAR	ammo	Peaceful blessing
-20229	GEAR	ammo	Honourable blessing
-20232	GEAR	ammo	War blessing
-20235	GEAR	ammo	Ancient blessing
+20220	GEAR	gear	Prayer blessing: wearable equipment, not ammunition
+20223	GEAR	gear	Prayer blessing: wearable equipment, not ammunition
+20226	GEAR	gear	Prayer blessing: wearable equipment, not ammunition
+20229	GEAR	gear	Prayer blessing: wearable equipment, not ammunition
+20232	GEAR	gear	Prayer blessing: wearable equipment, not ammunition
+20235	GEAR	gear	Prayer blessing: wearable equipment, not ammunition
 31088	GEAR	feet	Avernic treads
 31091	GEAR	feet	Avernic treads (pr)
 31092	GEAR	feet	Avernic treads (pe)
@@ -448,10 +448,10 @@
 4482	HERBLORE	herblore	Herb tea mix variants used to make Guthix rest
 9019	HERBLORE	herblore	Magic essence (unf)
 # Wiki: https://oldschool.runescape.wiki/w/Goblin_potion?oldid=15195296
-26581	POTION	potion-dose-4	Goblin potion(4)
-26583	POTION	potion-dose-3	Goblin potion(3)
-26585	POTION	potion-dose-2	Goblin potion(2)
-26587	POTION	potion-dose-1	Goblin potion(1)
+26581	TOOL	quest-utility	Dose family Goblin potion; pinned source revision 15195296
+26583	TOOL	quest-utility	Dose family Goblin potion; pinned source revision 15195296
+26585	TOOL	quest-utility	Dose family Goblin potion; pinned source revision 15195296
+26587	TOOL	quest-utility	Dose family Goblin potion; pinned source revision 15195296
 # Wiki: https://oldschool.runescape.wiki/w/Ardrigal_mixture?oldid=15185810
 # Wiki: https://oldschool.runescape.wiki/w/Unicorn_horn_(Underground_Pass)?oldid=15185533
 # Wiki: https://oldschool.runescape.wiki/w/Grimy_ardrigal?oldid=15186651
@@ -2130,7 +2130,7 @@
 # Wiki: https://oldschool.runescape.wiki/w/Impling
 # Wiki: https://oldschool.runescape.wiki/w/Small_fur_pouch
 11260	TOOL	resource-container	Required to retain caught implings in Puro-Puro
-29466	TOOL	hunter-tool	Open small fur pouch remains a reusable Hunter container
+29466	TOOL	resource-container	Open small fur pouch remains a reusable Hunter container; Small fur pouch (open)
 # Wiki: https://oldschool.runescape.wiki/w/Potions
 10109	HERBLORE	secondary	Ground into the secondary for Hunter potions
 # Repeatable Farming, Firemaking and cave-light utilities.
@@ -2178,7 +2178,7 @@
 10595	TOOL	quest-utility	Clockwork suit, unwound
 10596	TOOL	quest-utility	Clockwork suit, wound
 5350	FARMING	farming-supply	Empty plant pot; later plant-pot stages were already FARMING
-6311	FARMING	produce	Gout tuber
+6311	FARMING	farming	Gout tuber: exact plantable herb-patch tuber
 11095	TOOL	runecrafting-utility	Abyssal bracelet(5)
 11097	TOOL	runecrafting-utility	Abyssal bracelet(4)
 11099	TOOL	runecrafting-utility	Abyssal bracelet(3)
@@ -2927,3 +2927,513 @@
 6416	TOOL	thieving-tool	Maple blackjack: reviewed exact functional item
 6418	TOOL	thieving-tool	Maple blackjack(o): reviewed exact functional item
 6420	TOOL	thieving-tool	Maple blackjack(d): reviewed exact functional item
+
+# Reviewed exact ammunition IDs: javelins have ammo equipment slots and are fired by ballistae.
+# https://oldschool.runescape.wiki/w/Weapons
+# https://oldschool.runescape.wiki/w/Crossbow_(weapon)
+# Barbed bolts are crossbow ammunition; barbed bolt tips are a separate component.
+# https://oldschool.runescape.wiki/w/Barbed_bolts
+# https://oldschool.runescape.wiki/w/Bolts
+# Exact Wiki item pages support the four cut-gem endpoint IDs and preserve their resource destination.
+# https://oldschool.runescape.wiki/w/Jade?oldid=15357741
+# https://oldschool.runescape.wiki/w/Red_topaz?oldid=15357744
+# https://oldschool.runescape.wiki/w/Onyx?oldid=15357764
+# https://oldschool.runescape.wiki/w/Zenyte?oldid=15357771
+# Exact utility and functional loot routes: source URLs/revisions retained in tmp/semantic-implementation/utilities-loot/accepted-changes.json
+32	TOOL	light-source	Lit black candle
+38	TOOL	light-source	Black candle
+594	TOOL	light-source	Lit torch
+825	GEAR	ammo	Bronze javelin: ballista ammunition
+826	GEAR	ammo	Iron javelin: ballista ammunition
+827	GEAR	ammo	Steel javelin: ballista ammunition
+828	GEAR	ammo	Mithril javelin: ballista ammunition
+829	GEAR	ammo	Adamant javelin: ballista ammunition
+830	GEAR	ammo	Rune javelin: ballista ammunition
+831	GEAR	ammo	Bronze javelin(p): ballista ammunition
+832	GEAR	ammo	Iron javelin(p): ballista ammunition
+833	GEAR	ammo	Steel javelin(p): ballista ammunition
+834	GEAR	ammo	Mithril javelin(p): ballista ammunition
+835	GEAR	ammo	Adamant javelin(p): ballista ammunition
+836	GEAR	ammo	Rune javelin(p): ballista ammunition
+881	GEAR	ammo	Barbed bolts: crossbow ammunition
+1436	SKILLING	raw-resource	Rune essence
+1611	SKILLING	gem	Jade
+1613	SKILLING	gem	Red topaz
+4522	TOOL	light-source	Oil lamp
+4524	TOOL	light-source	Oil lamp
+4537	TOOL	light-source	Oil lantern
+4539	TOOL	light-source	Oil lantern
+4601	TELEPORT	teleport-charge	Ugthanki dung: Camulet recharge
+4700	TOOL	light-source	Sapphire lantern
+4701	TOOL	light-source	Sapphire lantern
+4702	TOOL	light-source	Sapphire lantern
+5418	TOOL	resource-container	Empty sack
+5509	TOOL	runecrafting-container	Small pouch
+5510	TOOL	runecrafting-container	Medium pouch
+5511	TOOL	runecrafting-container	Medium pouch
+5512	TOOL	runecrafting-container	Large pouch
+5513	TOOL	runecrafting-container	Large pouch
+5514	TOOL	runecrafting-container	Giant pouch
+5515	TOOL	runecrafting-container	Giant pouch
+5642	GEAR	ammo	Bronze javelin(p+): ballista ammunition
+5643	GEAR	ammo	Iron javelin(p+): ballista ammunition
+5644	GEAR	ammo	Steel javelin(p+): ballista ammunition
+5645	GEAR	ammo	Mithril javelin(p+): ballista ammunition
+5646	GEAR	ammo	Adamant javelin(p+): ballista ammunition
+5647	GEAR	ammo	Rune javelin(p+): ballista ammunition
+5648	GEAR	ammo	Bronze javelin(p++): ballista ammunition
+5649	GEAR	ammo	Iron javelin(p++): ballista ammunition
+5650	GEAR	ammo	Steel javelin(p++): ballista ammunition
+5651	GEAR	ammo	Mithril javelin(p++): ballista ammunition
+5652	GEAR	ammo	Adamant javelin(p++): ballista ammunition
+5653	GEAR	ammo	Rune javelin(p++): ballista ammunition
+6183	CURRENCY	currency	Frog token
+6306	CURRENCY	currency	Trading sticks
+6529	CURRENCY	currency	Tokkul
+6573	SKILLING	gem	Onyx
+7936	SKILLING	raw-resource	Pure essence
+9082	HERBLORE	secondary	Ground tooth: repeatable potion ingredient
+11932	UNIQUE	equipment-upgrade	Malediction shard 2: ward component
+12012	CURRENCY	currency	Golden nugget
+12791	RUNE	rune-container	Rune pouch
+12854	TOOL	resource-container	Flamtaer bag
+19484	GEAR	ammo	Dragon javelin: ballista ammunition
+19486	GEAR	ammo	Dragon javelin(p): ballista ammunition
+19488	GEAR	ammo	Dragon javelin(p+): ballista ammunition
+19490	GEAR	ammo	Dragon javelin(p++): ballista ammunition
+19493	SKILLING	gem	Zenyte
+21318	GEAR	ammo	Amethyst javelin: ballista ammunition
+21320	GEAR	ammo	Amethyst javelin(p): ballista ammunition
+21322	GEAR	ammo	Amethyst javelin(p+): ballista ammunition
+21324	GEAR	ammo	Amethyst javelin(p++): ballista ammunition
+21555	CURRENCY	currency	Numulite
+23083	UNIQUE	reward-key	Brimstone key: repeatable reward chest key
+24607	RUNE	rune	Blighted ancient ice sack
+24704	SKILLING	raw-resource	Daeyalt essence
+25459	TOOL	resource-container	Bronze coffin
+25461	TOOL	resource-container	Steel coffin
+25463	TOOL	resource-container	Black coffin
+25465	TOOL	resource-container	Silver coffin
+25467	TOOL	resource-container	Gold coffin
+25469	TOOL	resource-container	Open bronze coffin
+25470	TOOL	resource-container	Open steel coffin
+25471	TOOL	resource-container	Open black coffin
+25472	TOOL	resource-container	Open silver coffin
+25473	TOOL	resource-container	Open gold coffin
+25527	CURRENCY	currency	Stardust
+26784	TOOL	runecrafting-container	Colossal pouch
+26786	TOOL	runecrafting-container	Colossal pouch
+27281	RUNE	rune-container	Divine rune pouch
+27509	RUNE	rune-container	Divine rune pouch (l)
+28798	UNIQUE	weapon-upgrade	Scurrius' spine: weapon component
+29295	TOOL	resource-container	Small meat pouch
+29299	TOOL	resource-container	Small fur pouch
+29301	TOOL	resource-container	Medium fur pouch
+29309	TOOL	resource-container	Huntsman's kit
+29462	TOOL	resource-container	Small meat pouch (open)
+29468	TOOL	resource-container	Medium fur pouch (open)
+
+# Exact wearable prayer blessing and Splitbark hands-slot corrections; see gear/accepted-changes.json.
+3391	GEAR	hands	Splitbark gloves: exact hands-slot equipment
+11931	UNIQUE	equipment-upgrade	Malediction shard 1: Malediction ward component
+11933	UNIQUE	equipment-upgrade	Malediction shard 3: Malediction ward component
+
+# Exact-ID ballista ammunition; item pages document the metal/poison variants and ballista use.
+# https://oldschool.runescape.wiki/w/Bronze_javelin?oldid=15305303
+# https://oldschool.runescape.wiki/w/Iron_javelin?oldid=15305305
+# https://oldschool.runescape.wiki/w/Steel_javelin?oldid=15182590
+# https://oldschool.runescape.wiki/w/Mithril_javelin?oldid=15182826
+# https://oldschool.runescape.wiki/w/Adamant_javelin?oldid=15182726
+# https://oldschool.runescape.wiki/w/Rune_javelin?oldid=15305301
+# https://oldschool.runescape.wiki/w/Dragon_javelin
+# https://oldschool.runescape.wiki/w/Amethyst_javelin
+# Exact camouflage outfit pieces and their verified source revisions:
+# https://oldschool.runescape.wiki/w/Wood_camo_top?oldid=15209270
+# https://oldschool.runescape.wiki/w/Wood_camo_legs?oldid=15209271
+# https://oldschool.runescape.wiki/w/Jungle_camo_top?oldid=15208507
+# https://oldschool.runescape.wiki/w/Jungle_camo_legs?oldid=15208508
+# https://oldschool.runescape.wiki/w/Desert_camo_top?oldid=15209211
+# https://oldschool.runescape.wiki/w/Desert_camo_legs?oldid=15209212
+# https://oldschool.runescape.wiki/w/Polar_camo_top?oldid=15209253
+# https://oldschool.runescape.wiki/w/Polar_camo_legs?oldid=15209254
+# Source-pinned exact-dose and food corrections; dose identity is separate from role.
+11734	POTION	activity-potion	Dose family Absorption; pinned source revision 15276987
+11735	POTION	activity-potion	Dose family Absorption; pinned source revision 15276987
+11736	POTION	activity-potion	Dose family Absorption; pinned source revision 15276987
+11737	POTION	activity-potion	Dose family Absorption; pinned source revision 15276987
+11461	POTION	potion	Dose family Agility mix; pinned source revision 15182638
+11463	POTION	potion-dose-1	Dose family Agility mix; pinned source revision 15182638
+3032	POTION	potion-dose-4	Dose family Agility potion; pinned source revision 15250405
+3034	POTION	potion-dose-3	Dose family Agility potion; pinned source revision 15250405
+3036	POTION	potion-dose-2	Dose family Agility potion; pinned source revision 15250405
+3038	POTION	potion-dose-1	Dose family Agility potion; pinned source revision 15250405
+26340	POTION	potion-dose-4	Dose family Ancient brew; pinned source revision 15342079
+26342	POTION	potion-dose-3	Dose family Ancient brew; pinned source revision 15342079
+26344	POTION	potion-dose-2	Dose family Ancient brew; pinned source revision 15342079
+26346	POTION	potion-dose-1	Dose family Ancient brew; pinned source revision 15342079
+26350	POTION	potion	Dose family Ancient mix; pinned source revision 15190672
+26353	POTION	potion-dose-1	Dose family Ancient mix; pinned source revision 15190672
+11473	POTION	potion	Dose family Anti-poison supermix; pinned source revision 15182645
+11475	POTION	potion-dose-1	Dose family Anti-poison supermix; pinned source revision 15182645
+5943	POTION	potion-dose-4	Dose family Antidote+; pinned source revision 15182643
+5945	POTION	potion-dose-3	Dose family Antidote+; pinned source revision 15182643
+5947	POTION	potion-dose-2	Dose family Antidote+; pinned source revision 15182643
+5949	POTION	potion-dose-1	Dose family Antidote+; pinned source revision 15182643
+11501	POTION	potion	Dose family Antidote+ mix; pinned source revision 15182646
+11503	POTION	potion-dose-1	Dose family Antidote+ mix; pinned source revision 15182646
+5952	POTION	potion-dose-4	Dose family Antidote++; pinned source revision 15185228
+5954	POTION	potion-dose-3	Dose family Antidote++; pinned source revision 15185228
+5956	POTION	potion-dose-2	Dose family Antidote++; pinned source revision 15185228
+5958	POTION	potion-dose-1	Dose family Antidote++; pinned source revision 15185228
+11505	POTION	potion	Dose family Antifire mix; pinned source revision 15182640
+11507	POTION	potion-dose-1	Dose family Antifire mix; pinned source revision 15182640
+25765	POTION	activity-potion	Dose family Antipoison (+); pinned source revision 15190223
+25764	POTION	activity-potion	Dose family Antipoison (+); pinned source revision 15190223
+25763	POTION	activity-potion	Dose family Antipoison (+); pinned source revision 15190223
+25762	POTION	activity-potion	Dose family Antipoison (+); pinned source revision 15190223
+25757	POTION	activity-potion	Dose family Antipoison (-); pinned source revision 15190222
+25756	POTION	activity-potion	Dose family Antipoison (-); pinned source revision 15190222
+25755	POTION	activity-potion	Dose family Antipoison (-); pinned source revision 15190222
+25754	POTION	activity-potion	Dose family Antipoison (-); pinned source revision 15190222
+11433	POTION	potion	Dose family Antipoison mix; pinned source revision 15182641
+11435	POTION	potion-dose-1	Dose family Antipoison mix; pinned source revision 15182641
+25761	POTION	activity-potion	Dose family Antipoison potion; pinned source revision 15183744
+25760	POTION	activity-potion	Dose family Antipoison potion; pinned source revision 15183744
+25759	POTION	activity-potion	Dose family Antipoison potion; pinned source revision 15183744
+25758	POTION	activity-potion	Dose family Antipoison potion; pinned source revision 15183744
+31650	POTION	potion-dose-4	Dose family Armadyl brew; pinned source revision 15359666
+31653	POTION	potion-dose-3	Dose family Armadyl brew; pinned source revision 15359666
+31656	POTION	potion-dose-2	Dose family Armadyl brew; pinned source revision 15359666
+31659	POTION	potion-dose-1	Dose family Armadyl brew; pinned source revision 15359666
+11429	POTION	potion	Dose family Attack mix; pinned source revision 15182705
+11431	POTION	potion-dose-1	Dose family Attack mix; pinned source revision 15182705
+22461	POTION	potion-dose-4	Dose family Bastion potion; pinned source revision 15293966
+22464	POTION	potion-dose-3	Dose family Bastion potion; pinned source revision 15293966
+22467	POTION	potion-dose-2	Dose family Bastion potion; pinned source revision 15293966
+22470	POTION	potion-dose-1	Dose family Bastion potion; pinned source revision 15293966
+22449	POTION	potion-dose-4	Dose family Battlemage potion; pinned source revision 15188871
+22452	POTION	potion-dose-3	Dose family Battlemage potion; pinned source revision 15188871
+22455	POTION	potion-dose-2	Dose family Battlemage potion; pinned source revision 15188871
+22458	POTION	potion-dose-1	Dose family Battlemage potion; pinned source revision 15188871
+29189	POTION	potion	Dose family Black warlock mix; pinned source revision 15347561
+29207	POTION	potion-dose-1	Dose family Black warlock mix; pinned source revision 15347561
+24598	POTION	restricted-potion	Dose family Blighted super restore; pinned source revision 15350740
+24601	POTION	restricted-potion	Dose family Blighted super restore; pinned source revision 15350740
+24603	POTION	restricted-potion	Dose family Blighted super restore; pinned source revision 15350740
+24605	POTION	restricted-potion	Dose family Blighted super restore; pinned source revision 15350740
+25159	POTION	activity-potion	Dose family Castlewars brew; pinned source revision 15214949
+25160	POTION	activity-potion	Dose family Castlewars brew; pinned source revision 15214949
+25161	POTION	activity-potion	Dose family Castlewars brew; pinned source revision 15214949
+25162	POTION	activity-potion	Dose family Castlewars brew; pinned source revision 15214949
+11445	POTION	potion	Dose family Combat mix; pinned source revision 15185497
+11447	POTION	potion-dose-1	Dose family Combat mix; pinned source revision 15185497
+26150	POTION	activity-potion	Dose family Combat potion (Deadman starter pack); pinned source revision 15190594
+26151	POTION	activity-potion	Dose family Combat potion (Deadman starter pack); pinned source revision 15190594
+26152	POTION	activity-potion	Dose family Combat potion (Deadman starter pack); pinned source revision 15190594
+26153	POTION	activity-potion	Dose family Combat potion (Deadman starter pack); pinned source revision 15190594
+6470	FARMING	farming	Dose family Compost potion; pinned source revision 15184321
+6472	FARMING	farming	Dose family Compost potion; pinned source revision 15184321
+6474	FARMING	farming	Dose family Compost potion; pinned source revision 15184321
+6476	FARMING	farming	Dose family Compost potion; pinned source revision 15184321
+11457	POTION	potion	Dose family Defence mix; pinned source revision 15186270
+11459	POTION	potion-dose-1	Dose family Defence mix; pinned source revision 15186270
+24635	POTION	potion-dose-4	Dose family Divine bastion potion; pinned source revision 15331551
+24638	POTION	potion-dose-3	Dose family Divine bastion potion; pinned source revision 15331551
+24641	POTION	potion-dose-2	Dose family Divine bastion potion; pinned source revision 15331551
+24644	POTION	potion-dose-1	Dose family Divine bastion potion; pinned source revision 15331551
+24623	POTION	potion-dose-4	Dose family Divine battlemage potion; pinned source revision 15331550
+24626	POTION	potion-dose-3	Dose family Divine battlemage potion; pinned source revision 15331550
+24629	POTION	potion-dose-2	Dose family Divine battlemage potion; pinned source revision 15331550
+24632	POTION	potion-dose-1	Dose family Divine battlemage potion; pinned source revision 15331550
+23745	POTION	potion-dose-4	Dose family Divine magic potion; pinned source revision 15331552
+23748	POTION	potion-dose-3	Dose family Divine magic potion; pinned source revision 15331552
+23751	POTION	potion-dose-2	Dose family Divine magic potion; pinned source revision 15331552
+23754	POTION	potion-dose-1	Dose family Divine magic potion; pinned source revision 15331552
+23733	POTION	potion-dose-4	Dose family Divine ranging potion; pinned source revision 15331553
+23736	POTION	potion-dose-3	Dose family Divine ranging potion; pinned source revision 15331553
+23739	POTION	potion-dose-2	Dose family Divine ranging potion; pinned source revision 15331553
+23742	POTION	potion-dose-1	Dose family Divine ranging potion; pinned source revision 15331553
+23697	POTION	potion-dose-4	Dose family Divine super attack potion; pinned source revision 15331554
+23700	POTION	potion-dose-3	Dose family Divine super attack potion; pinned source revision 15331554
+23703	POTION	potion-dose-2	Dose family Divine super attack potion; pinned source revision 15331554
+23706	POTION	potion-dose-1	Dose family Divine super attack potion; pinned source revision 15331554
+23685	POTION	potion-dose-4	Dose family Divine super combat potion; pinned source revision 15331555
+23688	POTION	potion-dose-3	Dose family Divine super combat potion; pinned source revision 15331555
+23691	POTION	potion-dose-2	Dose family Divine super combat potion; pinned source revision 15331555
+23694	POTION	potion-dose-1	Dose family Divine super combat potion; pinned source revision 15331555
+23721	POTION	potion-dose-4	Dose family Divine super defence potion; pinned source revision 15331556
+23724	POTION	potion-dose-3	Dose family Divine super defence potion; pinned source revision 15331556
+23727	POTION	potion-dose-2	Dose family Divine super defence potion; pinned source revision 15331556
+23730	POTION	potion-dose-1	Dose family Divine super defence potion; pinned source revision 15331556
+23709	POTION	potion-dose-4	Dose family Divine super strength potion; pinned source revision 15331557
+23712	POTION	potion-dose-3	Dose family Divine super strength potion; pinned source revision 15331557
+23715	POTION	potion-dose-2	Dose family Divine super strength potion; pinned source revision 15331557
+23718	POTION	potion-dose-1	Dose family Divine super strength potion; pinned source revision 15331557
+23885	POTION	activity-potion	Dose family Egniol potion; pinned source revision 15214950
+23884	POTION	activity-potion	Dose family Egniol potion; pinned source revision 15214950
+23883	POTION	activity-potion	Dose family Egniol potion; pinned source revision 15214950
+23882	POTION	activity-potion	Dose family Egniol potion; pinned source revision 15214950
+20924	POTION	activity-potion	Dose family Elder (+); pinned source revision 15188119
+20923	POTION	activity-potion	Dose family Elder (+); pinned source revision 15188119
+20922	POTION	activity-potion	Dose family Elder (+); pinned source revision 15188119
+20921	POTION	activity-potion	Dose family Elder (+); pinned source revision 15188119
+20916	POTION	activity-potion	Dose family Elder (-); pinned source revision 15188118
+20915	POTION	activity-potion	Dose family Elder (-); pinned source revision 15188118
+20914	POTION	activity-potion	Dose family Elder (-); pinned source revision 15188118
+20913	POTION	activity-potion	Dose family Elder (-); pinned source revision 15188118
+20920	POTION	activity-potion	Dose family Elder potion; pinned source revision 15188120
+20919	POTION	activity-potion	Dose family Elder potion; pinned source revision 15188120
+20918	POTION	activity-potion	Dose family Elder potion; pinned source revision 15188120
+20917	POTION	activity-potion	Dose family Elder potion; pinned source revision 15188120
+11453	POTION	potion	Dose family Energy mix; pinned source revision 15320432
+11455	POTION	potion-dose-1	Dose family Energy mix; pinned source revision 15320432
+29824	POTION	potion-dose-4	Dose family Extended anti-venom+; pinned source revision 15267078
+29827	POTION	potion-dose-3	Dose family Extended anti-venom+; pinned source revision 15267078
+29830	POTION	potion-dose-2	Dose family Extended anti-venom+; pinned source revision 15267078
+29833	POTION	potion-dose-1	Dose family Extended anti-venom+; pinned source revision 15267078
+11951	POTION	potion-dose-4	Dose family Extended antifire; pinned source revision 15359567
+11953	POTION	potion-dose-3	Dose family Extended antifire; pinned source revision 15359567
+11955	POTION	potion-dose-2	Dose family Extended antifire; pinned source revision 15359567
+11957	POTION	potion-dose-1	Dose family Extended antifire; pinned source revision 15359567
+11960	POTION	potion	Dose family Extended antifire mix; pinned source revision 15185447
+11962	POTION	potion-dose-1	Dose family Extended antifire mix; pinned source revision 15185447
+31638	POTION	potion-dose-4	Dose family Extended stamina potion; pinned source revision 15309268
+31641	POTION	potion-dose-3	Dose family Extended stamina potion; pinned source revision 15309268
+31644	POTION	potion-dose-2	Dose family Extended stamina potion; pinned source revision 15309268
+31647	POTION	potion-dose-1	Dose family Extended stamina potion; pinned source revision 15309268
+22209	POTION	potion-dose-4	Dose family Extended super antifire; pinned source revision 15188729
+22212	POTION	potion-dose-3	Dose family Extended super antifire; pinned source revision 15188729
+22215	POTION	potion-dose-2	Dose family Extended super antifire; pinned source revision 15188729
+22218	POTION	potion-dose-1	Dose family Extended super antifire; pinned source revision 15188729
+22221	POTION	potion	Dose family Extended super antifire mix; pinned source revision 15188730
+22224	POTION	potion-dose-1	Dose family Extended super antifire mix; pinned source revision 15188730
+31614	POTION	potion-dose-4	Dose family Extreme energy potion; pinned source revision 15194169
+31617	POTION	potion-dose-3	Dose family Extreme energy potion; pinned source revision 15194169
+31620	POTION	potion-dose-2	Dose family Extreme energy potion; pinned source revision 15194169
+31623	POTION	potion-dose-1	Dose family Extreme energy potion; pinned source revision 15194169
+11477	POTION	potion	Dose family Fishing mix; pinned source revision 15185858
+11479	POTION	potion-dose-1	Dose family Fishing mix; pinned source revision 15185858
+2438	POTION	potion-dose-4	Dose family Fishing potion; pinned source revision 15183994
+151	POTION	potion-dose-3	Dose family Fishing potion; pinned source revision 15183994
+153	POTION	potion-dose-2	Dose family Fishing potion; pinned source revision 15183994
+155	POTION	potion-dose-1	Dose family Fishing potion; pinned source revision 15183994
+27629	POTION	potion-dose-4	Dose family Forgotten brew; pinned source revision 15191164
+27632	POTION	potion-dose-3	Dose family Forgotten brew; pinned source revision 15191164
+27635	POTION	potion-dose-2	Dose family Forgotten brew; pinned source revision 15191164
+27638	POTION	potion-dose-1	Dose family Forgotten brew; pinned source revision 15191164
+30137	POTION	potion-dose-4	Dose family Goading potion; pinned source revision 15271198
+30140	POTION	potion-dose-3	Dose family Goading potion; pinned source revision 15271198
+30143	POTION	potion-dose-2	Dose family Goading potion; pinned source revision 15271198
+30146	POTION	potion-dose-1	Dose family Goading potion; pinned source revision 15271198
+7660	POTION	pvm-utility	Dose family Guthix balance; pinned source revision 15350148
+7662	POTION	pvm-utility	Dose family Guthix balance; pinned source revision 15350148
+7664	POTION	pvm-utility	Dose family Guthix balance; pinned source revision 15350148
+7666	POTION	pvm-utility	Dose family Guthix balance; pinned source revision 15350148
+4417	POTION	drink	Dose family Guthix rest; pinned source revision 15360451
+4419	POTION	potion-dose-3	Dose family Guthix rest; pinned source revision 15360451
+4421	POTION	potion-dose-2	Dose family Guthix rest; pinned source revision 15360451
+4423	POTION	potion-dose-1	Dose family Guthix rest; pinned source revision 15360451
+31590	POTION	pvm-utility	Dose family Haemostatic dressing; pinned source revision 15355891
+31593	POTION	pvm-utility	Dose family Haemostatic dressing; pinned source revision 15355891
+31596	POTION	pvm-utility	Dose family Haemostatic dressing; pinned source revision 15355891
+31599	POTION	pvm-utility	Dose family Haemostatic dressing; pinned source revision 15355891
+9998	POTION	potion-dose-4	Dose family Hunter potion; pinned source revision 15184175
+10000	POTION	potion-dose-3	Dose family Hunter potion; pinned source revision 15184175
+10002	POTION	potion-dose-2	Dose family Hunter potion; pinned source revision 15184175
+10004	POTION	potion-dose-1	Dose family Hunter potion; pinned source revision 15184175
+11517	POTION	potion	Dose family Hunting mix; pinned source revision 15186277
+11519	POTION	potion-dose-1	Dose family Hunting mix; pinned source revision 15186277
+20948	POTION	activity-potion	Dose family Kodai (+); pinned source revision 15188126
+20947	POTION	activity-potion	Dose family Kodai (+); pinned source revision 15188126
+20946	POTION	activity-potion	Dose family Kodai (+); pinned source revision 15188126
+20945	POTION	activity-potion	Dose family Kodai (+); pinned source revision 15188126
+20940	POTION	activity-potion	Dose family Kodai (-); pinned source revision 15188124
+20939	POTION	activity-potion	Dose family Kodai (-); pinned source revision 15188124
+20938	POTION	activity-potion	Dose family Kodai (-); pinned source revision 15188124
+20937	POTION	activity-potion	Dose family Kodai (-); pinned source revision 15188124
+20944	POTION	activity-potion	Dose family Kodai potion; pinned source revision 15188125
+20943	POTION	activity-potion	Dose family Kodai potion; pinned source revision 15188125
+20942	POTION	activity-potion	Dose family Kodai potion; pinned source revision 15188125
+20941	POTION	activity-potion	Dose family Kodai potion; pinned source revision 15188125
+9021	POTION	potion-dose-4	Dose family Magic essence; pinned source revision 15184293
+9022	POTION	potion-dose-3	Dose family Magic essence; pinned source revision 15184293
+9023	POTION	potion-dose-2	Dose family Magic essence; pinned source revision 15184293
+9024	POTION	potion-dose-1	Dose family Magic essence; pinned source revision 15184293
+11489	POTION	potion	Dose family Magic essence mix; pinned source revision 15186272
+11491	POTION	potion-dose-1	Dose family Magic essence mix; pinned source revision 15186272
+11513	POTION	potion	Dose family Magic mix; pinned source revision 15185861
+11515	POTION	potion-dose-1	Dose family Magic mix; pinned source revision 15185861
+27202	POTION	potion-dose-4	Dose family Menaphite remedy; pinned source revision 15344098
+27205	POTION	potion-dose-3	Dose family Menaphite remedy; pinned source revision 15344098
+27208	POTION	potion-dose-2	Dose family Menaphite remedy; pinned source revision 15344098
+27211	POTION	potion-dose-1	Dose family Menaphite remedy; pinned source revision 15344098
+10909	HERBLORE	unfinished-potion	Dose family Mixture - step 1; pinned source revision 15188993
+10911	HERBLORE	unfinished-potion	Dose family Mixture - step 1; pinned source revision 15188993
+10913	HERBLORE	unfinished-potion	Dose family Mixture - step 1; pinned source revision 15188993
+10915	HERBLORE	unfinished-potion	Dose family Mixture - step 1; pinned source revision 15188993
+10917	HERBLORE	unfinished-potion	Dose family Mixture - step 2; pinned source revision 15188994
+10919	HERBLORE	unfinished-potion	Dose family Mixture - step 2; pinned source revision 15188994
+10921	HERBLORE	unfinished-potion	Dose family Mixture - step 2; pinned source revision 15188994
+10923	HERBLORE	unfinished-potion	Dose family Mixture - step 2; pinned source revision 15188994
+29195	POTION	potion	Dose family Moonlight moth mix; pinned source revision 15354455
+29213	POTION	potion-dose-1	Dose family Moonlight moth mix; pinned source revision 15354455
+20996	POTION	activity-potion	Dose family Overload (+); pinned source revision 15188137
+20995	POTION	activity-potion	Dose family Overload (+); pinned source revision 15188137
+20994	POTION	activity-potion	Dose family Overload (+); pinned source revision 15188137
+20993	POTION	activity-potion	Dose family Overload (+); pinned source revision 15188137
+20988	POTION	activity-potion	Dose family Overload (-); pinned source revision 15188106
+20987	POTION	activity-potion	Dose family Overload (-); pinned source revision 15188106
+20986	POTION	activity-potion	Dose family Overload (-); pinned source revision 15188106
+20985	POTION	activity-potion	Dose family Overload (-); pinned source revision 15188106
+20992	POTION	activity-potion	Dose family Overload (Chambers of Xeric); pinned source revision 15188136
+20991	POTION	activity-potion	Dose family Overload (Chambers of Xeric); pinned source revision 15188136
+20990	POTION	activity-potion	Dose family Overload (Chambers of Xeric); pinned source revision 15188136
+20989	POTION	activity-potion	Dose family Overload (Chambers of Xeric); pinned source revision 15188136
+11730	POTION	activity-potion	Dose family Overload (Nightmare Zone); pinned source revision 15184317
+11731	POTION	activity-potion	Dose family Overload (Nightmare Zone); pinned source revision 15184317
+11732	POTION	activity-potion	Dose family Overload (Nightmare Zone); pinned source revision 15184317
+11733	POTION	activity-potion	Dose family Overload (Nightmare Zone); pinned source revision 15184317
+25203	POTION	activity-potion	Dose family Potion of power; pinned source revision 15267919
+25204	POTION	activity-potion	Dose family Potion of power; pinned source revision 15267919
+25205	POTION	activity-potion	Dose family Potion of power; pinned source revision 15267919
+25206	POTION	activity-potion	Dose family Potion of power; pinned source revision 15267919
+20968	POTION	potion-dose-4	Dose family Prayer enhance; pinned source revision 15267306
+20967	POTION	potion-dose-3	Dose family Prayer enhance; pinned source revision 15267306
+20966	POTION	potion-dose-2	Dose family Prayer enhance; pinned source revision 15267306
+20965	POTION	potion-dose-1	Dose family Prayer enhance; pinned source revision 15267306
+20972	POTION	potion-dose-4	Dose family Prayer enhance (+); pinned source revision 15267305
+20971	POTION	potion-dose-3	Dose family Prayer enhance (+); pinned source revision 15267305
+20970	POTION	potion-dose-2	Dose family Prayer enhance (+); pinned source revision 15267305
+20969	POTION	potion-dose-1	Dose family Prayer enhance (+); pinned source revision 15267305
+20964	POTION	potion-dose-4	Dose family Prayer enhance (-); pinned source revision 15267303
+20963	POTION	potion-dose-3	Dose family Prayer enhance (-); pinned source revision 15267303
+20962	POTION	potion-dose-2	Dose family Prayer enhance (-); pinned source revision 15267303
+20961	POTION	potion-dose-1	Dose family Prayer enhance (-); pinned source revision 15267303
+11465	POTION	potion	Dose family Prayer mix; pinned source revision 15185860
+11467	POTION	potion-dose-1	Dose family Prayer mix; pinned source revision 15185860
+30125	POTION	potion-dose-4	Dose family Prayer regeneration potion; pinned source revision 15324376
+30128	POTION	potion-dose-3	Dose family Prayer regeneration potion; pinned source revision 15324376
+30131	POTION	potion-dose-2	Dose family Prayer regeneration potion; pinned source revision 15324376
+30134	POTION	potion-dose-1	Dose family Prayer regeneration potion; pinned source revision 15324376
+11509	POTION	potion	Dose family Ranging mix; pinned source revision 15185862
+11511	POTION	potion-dose-1	Dose family Ranging mix; pinned source revision 15185862
+20699	POTION	activity-potion	Dose family Rejuvenation potion; pinned source revision 15187998
+20700	POTION	activity-potion	Dose family Rejuvenation potion; pinned source revision 15187998
+20701	POTION	activity-potion	Dose family Rejuvenation potion; pinned source revision 15187998
+20702	POTION	activity-potion	Dose family Rejuvenation potion; pinned source revision 15187998
+4842	POTION	potion-dose-4	Dose family Relicym's balm; pinned source revision 15223391
+4844	POTION	potion-dose-3	Dose family Relicym's balm; pinned source revision 15223391
+4846	POTION	potion-dose-2	Dose family Relicym's balm; pinned source revision 15223391
+4848	POTION	potion-dose-1	Dose family Relicym's balm; pinned source revision 15223391
+11437	POTION	potion	Dose family Relicym's mix; pinned source revision 15186273
+11439	POTION	potion-dose-1	Dose family Relicym's mix; pinned source revision 15186273
+11449	POTION	potion	Dose family Restore mix; pinned source revision 15186271
+11451	POTION	potion-dose-1	Dose family Restore mix; pinned source revision 15186271
+20960	POTION	activity-potion	Dose family Revitalisation (+); pinned source revision 15188129
+20959	POTION	activity-potion	Dose family Revitalisation (+); pinned source revision 15188129
+20958	POTION	activity-potion	Dose family Revitalisation (+); pinned source revision 15188129
+20957	POTION	activity-potion	Dose family Revitalisation (+); pinned source revision 15188129
+20952	POTION	activity-potion	Dose family Revitalisation (-); pinned source revision 15188127
+20951	POTION	activity-potion	Dose family Revitalisation (-); pinned source revision 15188127
+20950	POTION	activity-potion	Dose family Revitalisation (-); pinned source revision 15188127
+20949	POTION	activity-potion	Dose family Revitalisation (-); pinned source revision 15188127
+20956	POTION	activity-potion	Dose family Revitalisation potion; pinned source revision 15188128
+20955	POTION	activity-potion	Dose family Revitalisation potion; pinned source revision 15188128
+20954	POTION	activity-potion	Dose family Revitalisation potion; pinned source revision 15188128
+20953	POTION	activity-potion	Dose family Revitalisation potion; pinned source revision 15188128
+29186	POTION	potion	Dose family Ruby harvest mix; pinned source revision 15347558
+29204	POTION	potion-dose-1	Dose family Ruby harvest mix; pinned source revision 15347558
+10925	POTION	potion-dose-4	Dose family Sanfew serum; pinned source revision 15236706
+10927	POTION	potion-dose-3	Dose family Sanfew serum; pinned source revision 15236706
+10929	POTION	potion-dose-2	Dose family Sanfew serum; pinned source revision 15236706
+10931	POTION	potion-dose-1	Dose family Sanfew serum; pinned source revision 15236706
+29180	POTION	potion	Dose family Sapphire glacialis mix; pinned source revision 15347557
+29198	POTION	potion-dose-1	Dose family Sapphire glacialis mix; pinned source revision 15347557
+3408	TOOL	skilling-utility	Dose family Serum 207; pinned source revision 15337306
+3410	TOOL	skilling-utility	Dose family Serum 207; pinned source revision 15337306
+3412	TOOL	skilling-utility	Dose family Serum 207; pinned source revision 15337306
+3414	TOOL	skilling-utility	Dose family Serum 207; pinned source revision 15337306
+3416	TOOL	skilling-utility	Dose family Serum 208; pinned source revision 15318033
+3417	TOOL	skilling-utility	Dose family Serum 208; pinned source revision 15318033
+3418	TOOL	skilling-utility	Dose family Serum 208; pinned source revision 15318033
+3419	TOOL	skilling-utility	Dose family Serum 208; pinned source revision 15318033
+29183	POTION	potion	Dose family Snowy knight mix; pinned source revision 15347560
+29201	POTION	potion-dose-1	Dose family Snowy knight mix; pinned source revision 15347560
+12633	POTION	potion	Dose family Stamina mix; pinned source revision 15356613
+12635	POTION	potion-dose-1	Dose family Stamina mix; pinned source revision 15356613
+11443	POTION	potion	Dose family Strength mix; pinned source revision 15185859
+11441	POTION	potion-dose-1	Dose family Strength mix; pinned source revision 15185859
+29192	POTION	potion	Dose family Sunlight moth mix; pinned source revision 15357075
+29210	POTION	potion-dose-1	Dose family Sunlight moth mix; pinned source revision 15357075
+21994	POTION	potion	Dose family Super antifire mix; pinned source revision 15188645
+21997	POTION	potion-dose-1	Dose family Super antifire mix; pinned source revision 15188645
+21978	POTION	potion-dose-4	Dose family Super antifire potion; pinned source revision 15355225
+21981	POTION	potion-dose-3	Dose family Super antifire potion; pinned source revision 15355225
+21984	POTION	potion-dose-2	Dose family Super antifire potion; pinned source revision 15355225
+21987	POTION	potion-dose-1	Dose family Super antifire potion; pinned source revision 15355225
+11497	POTION	potion	Dose family Super def. mix; pinned source revision 15186355
+11499	POTION	potion-dose-1	Dose family Super def. mix; pinned source revision 15186355
+11481	POTION	potion	Dose family Super energy mix; pinned source revision 15186274
+11483	POTION	potion-dose-1	Dose family Super energy mix; pinned source revision 15186274
+31602	POTION	potion-dose-4	Dose family Super fishing potion; pinned source revision 15293487
+31605	POTION	potion-dose-3	Dose family Super fishing potion; pinned source revision 15293487
+31608	POTION	potion-dose-2	Dose family Super fishing potion; pinned source revision 15293487
+31611	POTION	potion-dose-1	Dose family Super fishing potion; pinned source revision 15293487
+31626	POTION	potion-dose-4	Dose family Super hunter potion; pinned source revision 15312328
+31629	POTION	potion-dose-3	Dose family Super hunter potion; pinned source revision 15312328
+31632	POTION	potion-dose-2	Dose family Super hunter potion; pinned source revision 15312328
+31635	POTION	potion-dose-1	Dose family Super hunter potion; pinned source revision 15312328
+11726	POTION	activity-potion	Dose family Super magic potion; pinned source revision 15184364
+11727	POTION	activity-potion	Dose family Super magic potion; pinned source revision 15184364
+11728	POTION	activity-potion	Dose family Super magic potion; pinned source revision 15184364
+11729	POTION	activity-potion	Dose family Super magic potion; pinned source revision 15184364
+11722	POTION	activity-potion	Dose family Super ranging; pinned source revision 15184365
+11723	POTION	activity-potion	Dose family Super ranging; pinned source revision 15184365
+11724	POTION	activity-potion	Dose family Super ranging; pinned source revision 15184365
+11725	POTION	activity-potion	Dose family Super ranging; pinned source revision 15184365
+11493	POTION	potion	Dose family Super restore mix; pinned source revision 15186356
+11495	POTION	potion-dose-1	Dose family Super restore mix; pinned source revision 15186356
+11485	POTION	potion	Dose family Super str. mix; pinned source revision 15186268
+11487	POTION	potion-dose-1	Dose family Super str. mix; pinned source revision 15186268
+11469	POTION	potion	Dose family Superattack mix; pinned source revision 15205287
+11471	POTION	potion-dose-1	Dose family Superattack mix; pinned source revision 15205287
+30875	POTION	potion-dose-4	Dose family Surge potion; pinned source revision 15328559
+30878	POTION	potion-dose-3	Dose family Surge potion; pinned source revision 15328559
+30881	POTION	potion-dose-2	Dose family Surge potion; pinned source revision 15328559
+30884	POTION	potion-dose-1	Dose family Surge potion; pinned source revision 15328559
+20936	POTION	activity-potion	Dose family Twisted (+); pinned source revision 15188123
+20935	POTION	activity-potion	Dose family Twisted (+); pinned source revision 15188123
+20934	POTION	activity-potion	Dose family Twisted (+); pinned source revision 15188123
+20933	POTION	activity-potion	Dose family Twisted (+); pinned source revision 15188123
+20928	POTION	activity-potion	Dose family Twisted (-); pinned source revision 15188121
+20927	POTION	activity-potion	Dose family Twisted (-); pinned source revision 15188121
+20926	POTION	activity-potion	Dose family Twisted (-); pinned source revision 15188121
+20925	POTION	activity-potion	Dose family Twisted (-); pinned source revision 15188121
+20932	POTION	activity-potion	Dose family Twisted potion; pinned source revision 15188122
+20931	POTION	activity-potion	Dose family Twisted potion; pinned source revision 15188122
+20930	POTION	activity-potion	Dose family Twisted potion; pinned source revision 15188122
+20929	POTION	activity-potion	Dose family Twisted potion; pinned source revision 15188122
+20980	POTION	activity-potion	Dose family Xeric's aid; pinned source revision 15188134
+20979	POTION	activity-potion	Dose family Xeric's aid; pinned source revision 15188134
+20978	POTION	activity-potion	Dose family Xeric's aid; pinned source revision 15188134
+20977	POTION	activity-potion	Dose family Xeric's aid; pinned source revision 15188134
+20984	POTION	activity-potion	Dose family Xeric's aid (+); pinned source revision 15188135
+20983	POTION	activity-potion	Dose family Xeric's aid (+); pinned source revision 15188135
+20982	POTION	activity-potion	Dose family Xeric's aid (+); pinned source revision 15188135
+20981	POTION	activity-potion	Dose family Xeric's aid (+); pinned source revision 15188135
+20976	POTION	activity-potion	Dose family Xeric's aid (-); pinned source revision 15188133
+20975	POTION	activity-potion	Dose family Xeric's aid (-); pinned source revision 15188133
+20974	POTION	activity-potion	Dose family Xeric's aid (-); pinned source revision 15188133
+20973	POTION	activity-potion	Dose family Xeric's aid (-); pinned source revision 15188133
+2450	POTION	potion-dose-4	Dose family Zamorak brew; pinned source revision 15184356
+189	POTION	potion-dose-3	Dose family Zamorak brew; pinned source revision 15184356
+191	POTION	potion-dose-2	Dose family Zamorak brew; pinned source revision 15184356
+193	POTION	potion-dose-1	Dose family Zamorak brew; pinned source revision 15184356
+11521	POTION	potion	Dose family Zamorak mix; pinned source revision 15186530
+11523	POTION	potion-dose-1	Dose family Zamorak mix; pinned source revision 15186530
+2118	POTION	food	Pineapple ring; exact food and cooking-material evidence; revid 15184663
+4610	CLEANUP	quest-item	Red hot sauce; Drop-only quest-associated input, consumed on kebab; revid 15317107
+29080	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474
+29081	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474
+29082	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474
+29083	POTION	activity-potion	Moonlight potion restricted to Neypotzli; cannot be banked or taken outside; pinned revision 15192474

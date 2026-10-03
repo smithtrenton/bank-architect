@@ -1,10 +1,11 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
 import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
-
+import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadataCatalog;
 import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
+import com.pkoka5.ironmanbankarchitect.organize.layout.PotionDoseSemanticRuleSet;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -54,10 +55,9 @@ final class SupplyItemSorter
 	private static int byFamilyRoleRank(BankPreviewItem item, ItemSortMetadataCatalog metadataCatalog)
 	{
 		String subcategory = normalized(item.getSubcategory());
-		if (subcategory.startsWith("potion-dose-") || subcategory.startsWith("dose-"))
-		{
-			return 0;
-		}
+		if (doseMetadata(item, metadataCatalog).isPresent()
+			|| (item.getItemCategory() == ItemCategory.POTION && !sortMetadata(item, metadataCatalog).isPresent()
+				&& (subcategory.startsWith("potion-dose-") || subcategory.startsWith("dose-")))) return 0;
 		return roleRank(item, metadataCatalog);
 	}
 
@@ -65,12 +65,14 @@ final class SupplyItemSorter
 	{
 		String name = normalized(item.getDisplayName());
 		String subcategory = normalized(item.getSubcategory());
-		if (doseMetadata(item, metadataCatalog).isPresent()) return 0;
-		if (subcategory.equals("potion-dose-4") || subcategory.equals("dose-4")) return 0;
 		if (subcategory.contains("pvm-utility")) return 10;
+		if (subcategory.contains("activity-potion") || subcategory.contains("restricted-potion")) return 20;
+		if (subcategory.contains("drink")) return 40;
+		if (doseMetadata(item, metadataCatalog).isPresent()
+			|| (item.getItemCategory() == ItemCategory.POTION && !sortMetadata(item, metadataCatalog).isPresent()
+				&& (subcategory.equals("potion-dose-4") || subcategory.equals("dose-4")))) return 0;
 		if (foodMetadata(item, metadataCatalog).isPresent()) return 30;
 		if (subcategory.contains("food") || isFoodName(name)) return 30;
-		if (subcategory.contains("drink")) return 40;
 		if (subcategory.contains("potion") || name.contains(" mix")) return 20;
 		return 50;
 	}
@@ -130,7 +132,15 @@ final class SupplyItemSorter
 	private static String familyName(BankPreviewItem item, ItemSortMetadataCatalog metadataCatalog)
 	{
 		Optional<ItemSortMetadata> metadata = sortMetadata(item, metadataCatalog);
-		if (metadata.isPresent()) return metadata.get().getFamilyKey();
+		if (metadata.isPresent())
+		{
+			String familyKey = metadata.get().getFamilyKey();
+			if (doseMetadata(item, metadataCatalog).isPresent() && familyKey.startsWith("dose.wiki."))
+			{
+				return "potion." + familyKey.substring("dose.wiki.".length()) + "\u0000" + familyKey;
+			}
+			return familyKey;
+		}
 
 		String name = normalized(item.getDisplayName());
 		if (name.startsWith("half a ")) name = name.substring("half a ".length());
@@ -179,6 +189,11 @@ final class SupplyItemSorter
 	private static Optional<ItemSortMetadata> doseMetadata(BankPreviewItem item,
 		ItemSortMetadataCatalog metadataCatalog)
 	{
+		if (item.getItemCategory() != ItemCategory.POTION
+			|| PotionDoseSemanticRuleSet.maxDoseFor(item.getItemId()) == 0)
+		{
+			return Optional.empty();
+		}
 		return sortMetadata(item, metadataCatalog)
 			.filter(metadata -> metadata.getVariantKind() == ItemSortMetadata.VariantKind.DOSE)
 			.filter(metadata -> !metadata.isFood());

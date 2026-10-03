@@ -22,6 +22,7 @@ public final class ResourceSemanticRuleSet
 	private static final String METAL_RULE_KEY = "resource.metal.material-rows";
 	private static final String PRESENT_MATERIAL_ROWS_RULE_KEY = "resource.material.present-rows";
 	private static final String GEM_RULE_KEY = "resource.gem.raw-processed";
+	private static final String GEM_EXTENDED_RULE_KEY = "resource.gem.extended.raw-processed";
 	private static final String WOOD_RULE_KEY = "resource.wood.material-rows";
 	private static final String CRAFTING_RULE_KEY = "resource.crafting.workflow-rows";
 	private static final String FLETCHING_RULE_KEY = "resource.fletching.tier-runs";
@@ -46,6 +47,8 @@ public final class ResourceSemanticRuleSet
 
 		private final FamilyFact opalFamily = families("OPAL_FAMILY").get(0);
 		private final List<FamilyFact> gemFamilies = families("GEM_FAMILIES");
+		private final List<FamilyFact> coreGemFamilies = Collections.unmodifiableList(gemFamilies.subList(0, 5));
+		private final List<FamilyFact> extendedGemFamilies = Collections.unmodifiableList(gemFamilies.subList(5, gemFamilies.size()));
 
 		private final List<RowFact> woodRows = rows("WOOD_ROWS");
 
@@ -57,7 +60,8 @@ public final class ResourceSemanticRuleSet
 
 		private final List<SemanticRule> rules = Collections.unmodifiableList(Arrays.asList(
 			stageMatrix(METAL_RULE_KEY, metalFamilies, null),
-			stageMatrix(GEM_RULE_KEY, gemFamilies, SemanticWidthEvidenceFacts.GEM_RAW_PROCESSED),
+			stageMatrix(GEM_RULE_KEY, coreGemFamilies, SemanticWidthEvidenceFacts.GEM_RAW_PROCESSED),
+			stageMatrix(GEM_EXTENDED_RULE_KEY, extendedGemFamilies, null),
 			rowGroupMatrix(WOOD_RULE_KEY, woodRows),
 			rowGroupMatrix(CRAFTING_RULE_KEY, craftingRows),
 			horizontalRuns(FLETCHING_RULE_KEY, fletchingRows)));

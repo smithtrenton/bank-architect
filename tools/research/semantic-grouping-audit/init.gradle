@@ -1,0 +1,18 @@
+allprojects {
+ afterEvaluate {
+  sourceSets {
+   semanticAudit {
+    java.srcDir project.file('tools/research/semantic-grouping-audit')
+    compileClasspath += sourceSets.test.runtimeClasspath
+    runtimeClasspath += sourceSets.test.runtimeClasspath
+   }
+  }
+  tasks.register('exportSemanticAuditTags', JavaExec) {
+   dependsOn tasks.named('semanticAuditClasses')
+   classpath = sourceSets.semanticAudit.runtimeClasspath
+   mainClass = 'PresetTagExporter'
+   args providers.gradleProperty('semanticAuditInput').getOrElse('tmp/semantic-audit/effective.tsv'),
+    providers.gradleProperty('semanticAuditOutput').getOrElse('tmp/semantic-audit/preset-tags.tsv')
+  }
+ }
+}

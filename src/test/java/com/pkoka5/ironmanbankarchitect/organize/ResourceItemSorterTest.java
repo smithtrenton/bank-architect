@@ -30,6 +30,23 @@ public class ResourceItemSorterTest
 	}
 
 	@Test
+	public void exactMaterialMetadataKeepsNewOreAndGemStagesInReviewedOrder()
+	{
+		List<BankPreviewItem> sorted = ResourceItemSorter.sort(Arrays.asList(
+			item(32889, "Renamed lead bar", "unknown"), item(6573, "Renamed onyx", "unknown"),
+			item(13354, "Renamed lovakite bar", "unknown"), item(1613, "Renamed red topaz", "unknown"),
+			item(9467, "Renamed blurite bar", "unknown"), item(19496, "Renamed uncut zenyte", "unknown"),
+			item(31716, "Renamed lead ore", "unknown"), item(1627, "Renamed uncut jade", "unknown"),
+			item(13356, "Renamed lovakite ore", "unknown"), item(19493, "Renamed zenyte", "unknown"),
+			item(668, "Renamed blurite ore", "unknown"), item(1629, "Renamed uncut red topaz", "unknown"),
+			item(6571, "Renamed uncut onyx", "unknown"), item(1611, "Renamed jade", "unknown")
+		));
+
+		assertEquals(Arrays.asList(668, 13356, 31716, 9467, 13354, 32889,
+			1627, 1629, 6571, 19496, 1611, 1613, 6573, 19493), ids(sorted));
+	}
+
+	@Test
 	public void followsMaterialAndProcessingFlows()
 	{
 		List<BankPreviewItem> sorted = ResourceItemSorter.sort(Arrays.asList(

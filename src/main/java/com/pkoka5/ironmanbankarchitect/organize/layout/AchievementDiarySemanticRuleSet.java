@@ -1,5 +1,7 @@
 package com.pkoka5.ironmanbankarchitect.organize.layout;
 
+import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
+import com.pkoka5.ironmanbankarchitect.catalog.RequiredResource;
 import com.pkoka5.ironmanbankarchitect.organize.BankPreviewItem;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,11 +17,12 @@ import java.util.Objects;
  */
 public final class AchievementDiarySemanticRuleSet
 {
-	private static final String[][] REGION_ROWS = {
-		{"ardougne cloak", "desert amulet", "explorer's ring", "falador shield"},
-		{"fremennik sea boots", "kandarin headgear", "karamja gloves", "morytania legs"},
-		{"rada's blessing", "varrock armour", "western banner", "wilderness sword"}
-	};
+	private static final RequiredResource<String[][]> REGION_ROWS = new RequiredResource<>("diary regions",
+		() -> new String[][] {
+			ClassificationNames.group(120),
+			ClassificationNames.group(121),
+			ClassificationNames.group(122)
+		});
 
 	private AchievementDiarySemanticRuleSet()
 	{
@@ -28,13 +31,14 @@ public final class AchievementDiarySemanticRuleSet
 	public static LayoutRequest forEntries(List<LayoutEntry> entries)
 	{
 		Objects.requireNonNull(entries, "entries");
+		String[][] regions = REGION_ROWS.get();
 		List<SemanticAtom> rows = new ArrayList<>();
-		for (int rowIndex = 0; rowIndex < REGION_ROWS.length; rowIndex++)
+		for (int rowIndex = 0; rowIndex < regions.length; rowIndex++)
 		{
 			List<SemanticAtom.Member> members = new ArrayList<>();
-			for (int regionIndex = 0; regionIndex < REGION_ROWS[rowIndex].length; regionIndex++)
+			for (int regionIndex = 0; regionIndex < regions[rowIndex].length; regionIndex++)
 			{
-				LayoutEntry reward = bestReward(entries, REGION_ROWS[rowIndex][regionIndex]);
+				LayoutEntry reward = bestReward(entries, regions[rowIndex][regionIndex]);
 				if (reward != null)
 				{
 					members.add(new SemanticAtom.Member("region-" + regionIndex,
@@ -65,7 +69,7 @@ public final class AchievementDiarySemanticRuleSet
 	public static boolean isDiaryReward(BankPreviewItem item)
 	{
 		String name = normalized(item.getDisplayName());
-		for (String[] row : REGION_ROWS)
+		for (String[] row : REGION_ROWS.get())
 		{
 			for (String prefix : row)
 			{

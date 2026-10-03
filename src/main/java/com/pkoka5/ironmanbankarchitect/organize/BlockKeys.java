@@ -71,6 +71,18 @@ final class BlockKeys
 		return item.getDisplayName();
 	}
 
+	/** Legacy persisted key from before exact dose metadata assigned a family key. */
+	static String legacyNameKeyOf(BankPreviewItem item)
+	{
+		boolean legacyCategory = item.getItemCategory() == ItemCategory.POTION
+			|| item.getItemCategory() == ItemCategory.TELEPORT;
+		boolean exactDose = ResourceItemSortMetadataCatalog.INSTANCE.findById(item.getItemId())
+			.map(metadata -> metadata.getVariantKind() == ItemSortMetadata.VariantKind.DOSE).orElse(false);
+		if (!legacyCategory && !exactDose) return null;
+		String stripped = strippedName(item);
+		return stripped.equals(normalized(item.getDisplayName())) ? null : "name:" + stripped;
+	}
+
 	/** The display name without a charge suffix or a half-portion prefix. */
 	private static String strippedName(BankPreviewItem item)
 	{

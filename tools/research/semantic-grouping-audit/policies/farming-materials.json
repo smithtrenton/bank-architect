@@ -1,0 +1,111 @@
+{
+  "domain": "farming-produce-and-skill-materials",
+  "scope": [
+    "Farming seeds, tree seeds, saplings, seedlings, patch supplies, harvests, and produce containers",
+    "Raw and processed gathering materials for Mining, Smithing, Woodcutting, Crafting, Fletching, Construction, Firemaking, and Sailing",
+    "Crafting inputs and intermediate textiles, glass, jewellery, and leather materials",
+    "Production chains where one item can be an input to more than one skill"
+  ],
+  "functional_roles": {
+    "farming_planting": {
+      "destination": "seeds-farming/seeds",
+      "include": "Exact items documented as seeds planted in Farming patches, tree or fruit-tree seeds, plantable special seeds, seedlings and saplings, and direct crop-care supplies that the current catalog routes with Farming.",
+      "exclude": "Transport seeds, minigame reward tokens, non-plantable quest items, and seed-like names without a documented planting mechanic. Herb seeds keep their current Herblore role when the catalog specifically identifies them as Herblore seed inputs.",
+      "evidence": "Exact-ID Wiki page or Farming crop/seed table showing plantability, patch type, growth stage, and outputs. A category named Seeds alone is insufficient when the item could be a transport or activity item."
+    },
+    "farming_harvests": {
+      "destination": "seeds-farming/produce",
+      "include": "Items produced by harvesting a player-grown crop, tree, bush, cactus, mushroom, or other Farming patch, including produce with secondary Cooking, Herblore, Crafting, or Construction uses when its direct source is the documented harvest.",
+      "exclude": "Wild or monster-sourced items with the same name unless the exact item is also a Farming harvest; raw fish/meat remain Fishing/Cooking materials when their documented acquisition is fishing or hunting; processed foods remain Food.",
+      "evidence": "Exact item output in a crop or patch harvest table, or item page that names a Farming patch and harvest interaction. Record important downstream uses as overlap notes."
+    },
+    "farming_supports_and_containers": {
+      "destination": "seeds-farming/produce",
+      "include": "Farming-specific crop storage containers and consumable crop supports if existing category semantics place them with Farming produce.",
+      "exclude": "Reusable Farming tools such as spades, rakes, seed dibbers, watering cans, and secateurs, which belong with tools; general reusable resource storage belongs with containers.",
+      "evidence": "Exact mechanics for contents, capacity, use, and whether the item is reusable. Do not group empty, filled, charged, or growth-state variants unless their mechanics are verified."
+    },
+    "mining_and_smithing_chain": {
+      "destination": "resources/raw-resources",
+      "include": "Mining ores and documented mining materials grouped by source or processing chain; smelted bars as the processed stage; direct smithing intermediates such as arrowtips and nails may stay with their downstream production family when the exact catalog role already does so.",
+      "exclude": "Finished armour, weapons, jewellery, tools, and other functional equipment; unrelated items whose names contain ore, metal, or bar.",
+      "evidence": "Wiki mining/ore tables and smelting recipes establish ore-to-bar relationships. Smithing tables establish which bars become a distinct production component. Use exact IDs for alternate metals and states."
+    },
+    "woodcutting_and_wood_products": {
+      "destination": "resources/raw-resources",
+      "include": "Logs, bark, roots, and comparable harvested wood materials grouped by their exact wood tier or documented production chain; planks and other processed wood remain linked as processed resources with Construction noted as the principal downstream use.",
+      "exclude": "Finished bows, shields, furniture, or wearable items; similarly named quest items and unrelated bark or root objects.",
+      "evidence": "Wiki wood source and processing pages establish log types, yields, and plank conversion. Firemaking, Fletching, and Construction secondary uses are recorded without replacing the item’s raw or processed state."
+    },
+    "fletching_chain": {
+      "destination": "resources/ammo-components",
+      "include": "Fletching inputs and production intermediates such as arrow shafts, headless arrows, arrowtips, dart tips, bow blanks, crossbow stocks, limbs, and strings when current catalog tags classify them as ammo-components or resource materials.",
+      "exclude": "Finished usable arrows, bolts, darts, bows, crossbows, and combat equipment; generic feathers or logs may remain in their broader source-material groups if the current taxonomy does not specifically tag them for Fletching.",
+      "evidence": "Wiki Fletching production tables and item pages establish each exact recipe edge and whether the item is unfinished or usable equipment/ammunition."
+    },
+    "construction_materials": {
+      "destination": "resources/raw-resources",
+      "include": "Direct building inputs and Construction intermediates such as planks, nails, limestone or other processed building materials when the exact Wiki page documents construction use.",
+      "exclude": "Construction tools, finished furniture, POH teleport items, and generic ores/logs that have broader source-material roles unless the catalog has a dedicated Construction family.",
+      "evidence": "Wiki Construction room/furniture or material tables establish use. Keep the source form and processed building form distinguishable."
+    },
+    "firemaking_materials": {
+      "destination": "resources/raw-resources",
+      "include": "Logs and other exact items consumed or used as firemaking fuel, pyre materials, or documented firemaking-process inputs.",
+      "exclude": "Lighting tools and lamps, reusable light sources, Firemaking equipment/outfits, ashes as Prayer material, and items with merely fire-themed names.",
+      "evidence": "Wiki Firemaking pages establish fuel, consumption, and resulting item. Record secondary Firemaking use while preserving the canonical wood or Prayer role when that is the item's primary current grouping."
+    },
+    "sailing_materials": {
+      "destination": "resources/raw-resources",
+      "include": "Exact raw and processed resources whose Wiki pages document a Sailing recipe, vessel upgrade, repair, or construction role and which are not finished equipment or tools.",
+      "exclude": "Items with only nautical names, finished combat equipment, general Woodcutting/Mining materials without a documented Sailing use, and quest rewards without a repeatable material role.",
+      "evidence": "Exact Sailing item or recipe page and state-specific use. Since this content is newer, classify only item-ID/page evidence and mark missing or conflicting definitions unresolved."
+    },
+    "gem_and_jewellery_chain": {
+      "destination": "resources/gems",
+      "include": "Uncut and cut gems plus exact gem/jewellery workpieces already represented by the gems tag, grouped by the documented transformation stage and gem type.",
+      "exclude": "Glass, hides, leather, textiles, finished jewellery with transport or combat function, and wearable equipment. Do not put all Crafting-category pages in the gems tag.",
+      "evidence": "Exact item page or Crafting recipe establishes gem state or jewellery stage. Separate uncut, cut, unstrung, strung, and finished forms unless the current tag explicitly groups them and the stage remains clear."
+    },
+    "glassmaking_materials": {
+      "destination": "resources/raw-resources",
+      "include": "Sand, soda ash, buckets of sand, molten glass, and glassmaking intermediates documented in exact glassmaking recipes; keep them as a distinct subfamily inside the raw-resources fallback tag.",
+      "exclude": "Finished glassware, lanterns, or equipment; generic material names without glassmaking evidence.",
+      "evidence": "Exact recipe/table edges and page mechanics for sand/soda ash to molten glass to worked object. Recipe title edges support candidate links but do not prove a variant-specific chain."
+    },
+    "leather_and_textile_materials": {
+      "destination": "resources/raw-resources",
+      "include": "Hides, leather sheets, fibers, thread, wool, silk, and intermediate fabrics documented as material inputs; keep each source/process stage distinct within the raw-resources tag. Exact bow and crossbow strings remain in the Fletching component subfamily where the catalog identifies them.",
+      "exclude": "Finished armor, clothing, ropes used as equipment, and unrelated story items, even when the Wiki page carries Leather, Crafting, or Sailing categories.",
+      "evidence": "Exact item mechanics and recipe/material relations establish the material stage. A recipe title relation is a family candidate, not exact variant proof."
+    }
+  },
+  "overlap_resolution": [
+    "Track source provenance separately from primary bank destination. A crop harvested from Farming can be a Herblore, Cooking, Crafting, or Construction ingredient; the output note records both roles, while the primary destination follows the established catalog role unless exact Wiki evidence shows that role is incorrect.",
+    "Herb seeds, harvested herbs, and potion intermediates stay in the Herblore workflow when exact item roles and current subcategories explicitly identify them there; their Farming source is recorded as provenance rather than used to force them into the Farming seed or produce group.",
+    "For raw and processed resources, group exact production stages only when the Wiki establishes the transformation. Do not merge raw ores with bars, uncut gems with cut gems, fiber with cloth, unfinished items with usable finished equipment, or tool variants based only on similar names.",
+    "If one item feeds several skills, identify its immediate Wiki-documented role and note secondary uses. Use source acquisition only where the product goal is a source-skill grouping and there is no stronger current workflow role.",
+    "A generic Wiki category, search result, name token, or analog family can identify candidates but cannot finalize a new exact-ID assignment. Exact item page and state evidence controls.",
+    "A mismatch between Wiki name and registry name, two IDs sharing a name, an unverified Sailing state, or a content conflict is an explicit ambiguity. Do not infer from absence in a page, category, or current-bank sample."
+  ],
+  "confidence_rules": {
+    "high": "Exact-ID Wiki item page or recipe/harvest table confirms the role and relevant item state, with no material ambiguity.",
+    "medium": "Wiki establishes the family mechanic but does not completely disambiguate the exact ID, alternate state, or primary role.",
+    "low": "Candidate follows from a name, icon, generic category, analogy, or incomplete page evidence; retain as review-only.",
+    "unresolved": "Wiki evidence is missing, conflicting, or leaves source-versus-use priority or variant state ambiguous. Preserve the current role pending review."
+  },
+  "audit_columns": [
+    "item_id",
+    "wiki_name",
+    "current_category",
+    "current_subcategory",
+    "current_main_tag",
+    "candidate_role",
+    "candidate_destination",
+    "wiki_evidence",
+    "wiki_url",
+    "confidence",
+    "state_or_overlap_note",
+    "recommendation"
+  ]
+}

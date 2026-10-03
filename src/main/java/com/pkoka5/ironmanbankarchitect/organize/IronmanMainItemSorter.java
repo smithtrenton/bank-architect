@@ -1,5 +1,6 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
 import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
@@ -65,6 +66,8 @@ final class IronmanMainItemSorter
 		}
 		int byFamily = familyOrder(left).compareTo(familyOrder(right));
 		if (byFamily != 0) return byFamily;
+		int byState = Integer.compare(stateRank(left), stateRank(right));
+		if (byState != 0) return byState;
 		int byCharge = -Integer.compare(charge(left), charge(right));
 		if (byCharge != 0) return byCharge;
 		int byName = normalized(left.getDisplayName()).compareTo(normalized(right.getDisplayName()));
@@ -81,6 +84,8 @@ final class IronmanMainItemSorter
 	 */
 	private static String familyOrder(BankPreviewItem item)
 	{
+		Optional<ItemSortMetadata> state = stateMetadata(item);
+		if (state.isPresent()) return "\uFFFFstate\u0000" + state.get().getFamilyKey();
 		Optional<ItemSortMetadata> metadata = chargedJewelleryMetadata(item);
 		if (metadata.isPresent())
 		{
@@ -98,6 +103,17 @@ final class IronmanMainItemSorter
 		String name = normalized(item.getDisplayName());
 		int open = name.lastIndexOf('(');
 		return open > 0 && name.endsWith(")") ? name.substring(0, open).trim() : name;
+	}
+
+	private static int stateRank(BankPreviewItem item)
+	{
+		return stateMetadata(item).map(ItemSortMetadata::getVariantValue).orElse(-1);
+	}
+
+	private static Optional<ItemSortMetadata> stateMetadata(BankPreviewItem item)
+	{
+		return ResourceItemSortMetadataCatalog.INSTANCE.findById(item.getItemId())
+			.filter(metadata -> metadata.getVariantKind() == ItemSortMetadata.VariantKind.STATE);
 	}
 
 	private static int charge(BankPreviewItem item)
@@ -125,8 +141,7 @@ final class IronmanMainItemSorter
 			return 0;
 		}
 		String name = normalized(item.getDisplayName());
-		String[] order = {"air", "water", "earth", "fire", "mind", "body", "cosmic", "chaos",
-			"nature", "law", "death", "blood", "soul", "astral", "wrath"};
+		String[] order = ClassificationNames.group(143);
 		for (int index = 0; index < order.length; index++)
 		{
 			if (name.equals(order[index] + " rune"))
@@ -149,10 +164,7 @@ final class IronmanMainItemSorter
 			return 90;
 		}
 		String name = normalized(item.getDisplayName());
-		String[] order = {"varrock teleport", "lumbridge teleport", "falador teleport",
-			"teleport to house", "camelot teleport", "ardougne teleport", "watchtower teleport",
-			"trollheim teleport", "ape atoll teleport", "kourend castle teleport",
-			"civitas illa fortis teleport"};
+		String[] order = ClassificationNames.group(142);
 		for (int index = 0; index < order.length; index++)
 		{
 			if (name.equals(order[index]))

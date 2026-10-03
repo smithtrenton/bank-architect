@@ -41,6 +41,7 @@ public class ToolOutfitSemanticRuleSetTest
 		assertTrue(result.getConflicts().toString(), result.isSuccess());
 		assertVertical(result, outfit);
 	}
+
 	@Test
 	public void completeOutfitsBecomeSeparateHeadToFeetColumns()
 	{
@@ -58,6 +59,29 @@ public class ToolOutfitSemanticRuleSetTest
 		assertTrue(result.getConflicts().toString(), result.isSuccess());
 		assertVertical(result, angler);
 		assertVertical(result, lumberjack);
+	}
+
+	@Test
+	public void exactCamouflagePairsStayInTheirOwnVerticalColumns()
+	{
+		List<Integer> wood = Arrays.asList(10053, 10055);
+		List<Integer> jungle = Arrays.asList(10057, 10059);
+		List<Integer> desert = Arrays.asList(10061, 10063);
+		List<Integer> polar = Arrays.asList(10065, 10067);
+		List<Integer> input = new ArrayList<>(Arrays.asList(10067, 10053, 10059, 10061, 10055, 10065, 10057, 10063));
+		for (int id = 900001; id <= 900008; id++) input.add(id);
+
+		LayoutResult result = new SemanticBlockLayoutEngine().plan(request(input), input);
+
+		assertTrue(result.getConflicts().toString(), result.isSuccess());
+		assertVertical(result, wood);
+		assertVertical(result, jungle);
+		assertVertical(result, desert);
+		assertVertical(result, polar);
+		assertEquals(0, targetFor(result, 10053));
+		assertEquals(1, targetFor(result, 10057));
+		assertEquals(2, targetFor(result, 10061));
+		assertEquals(3, targetFor(result, 10065));
 	}
 
 	@Test

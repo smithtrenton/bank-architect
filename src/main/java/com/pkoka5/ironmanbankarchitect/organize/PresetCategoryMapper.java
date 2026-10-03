@@ -4,6 +4,7 @@ import com.pkoka5.ironmanbankarchitect.catalog.CatalogItem;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
 import com.pkoka5.ironmanbankarchitect.organize.layout.ItemSetCatalog;
+import com.pkoka5.ironmanbankarchitect.organize.layout.PotionDoseSemanticRuleSet;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
@@ -16,8 +17,6 @@ public final class PresetCategoryMapper
 	private static final Set<Integer> IRONMAN_RUNECRAFTING_TOOL_IDS = ids(
 		5509, 5510, 5511, 5512, 5513, 5514, 5515, 26784, 26786, 5521);
 	private static final Set<Integer> IRONMAN_UTILITY_CONTAINER_IDS = ids(19634);
-	private static final Set<Integer> IRONMAN_ACTIVITY_REWARD_IDS = ids(
-		6183, 6529, 6306, 12012, 25527, 21555);
 	private static final Set<Integer> IRONMAN_REVIEWED_TOOL_IDS = ids(13392, 25781);
 	private static final Set<Integer> IRONMAN_REVIEWED_LOOT_IDS = ids(
 		1201,
@@ -80,10 +79,6 @@ public final class PresetCategoryMapper
 		{
 			return "storage-cleanup";
 		}
-		if (IRONMAN_ACTIVITY_REWARD_IDS.contains(item.getItemId()))
-		{
-			return "clues-cosmetics";
-		}
 		if (gatherFrequentlyUsed && IronmanMainTabPolicy.belongsOnMain(item))
 		{
 			return "currency-utilities";
@@ -105,7 +100,7 @@ public final class PresetCategoryMapper
 		{
 			return "skilling-tools";
 		}
-		if (isPartialPotionDose(item))
+		if (PotionDoseSemanticRuleSet.isPartialDose(item.getItemId(), item.getCategory(), item.getSubcategory()))
 		{
 			return "herblore";
 		}
@@ -137,15 +132,6 @@ public final class PresetCategoryMapper
 		return Collections.unmodifiableSet(new HashSet<>(Arrays.asList(itemIds)));
 	}
 
-	private static boolean isPartialPotionDose(CatalogItem item)
-	{
-		return ResourceItemSortMetadataCatalog.INSTANCE.findById(item.getItemId())
-			.filter(metadata -> metadata.getVariantKind()
-				== com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata.VariantKind.DOSE)
-			.map(metadata -> metadata.getVariantValue() >= 1 && metadata.getVariantValue() <= 3)
-			.orElseGet(() -> item.getCategory() == ItemCategory.POTION
-				&& (item.getSubcategory().matches("(?:potion-)?dose-[123]")));
-	}
 
 	private static boolean isKnownFood(CatalogItem item)
 	{

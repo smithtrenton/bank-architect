@@ -1,9 +1,12 @@
 package com.pkoka5.ironmanbankarchitect.organize.layout;
 
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
+import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
+import com.pkoka5.ironmanbankarchitect.catalog.RequiredResource;
 import com.pkoka5.ironmanbankarchitect.catalog.OrderedItemFamilies;
 import java.util.Map;
+import java.util.LinkedHashMap;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,7 +27,9 @@ public final class PotionDoseSemanticRuleSet
 
 	private static final OrderedItemFamilies FAMILIES = new OrderedItemFamilies(
 		PotionDoseSemanticRuleSet.class.getResourceAsStream(
-			"/com/pkoka5/ironmanbankarchitect/catalog/potion-layout-families.tsv"), 4);
+			"/com/pkoka5/ironmanbankarchitect/catalog/potion-layout-families.tsv"), 0);
+	private static final RequiredResource<Map<Integer, Integer>> MAX_DOSE_BY_ID =
+		new RequiredResource<>("potion dose families", PotionDoseSemanticRuleSet::buildMaxDoseById);
 
 	private PotionDoseSemanticRuleSet()
 	{
@@ -45,11 +50,13 @@ public final class PotionDoseSemanticRuleSet
 		List<SemanticAtom> atoms = new ArrayList<>(FAMILIES.entries().size());
 		for (Map.Entry<String, List<Integer>> family : FAMILIES.entries().entrySet())
 		{
-			atoms.add(new SemanticAtom(family.getKey(), Arrays.asList(
-				new SemanticAtom.Member("dose-4", family.getValue().get(0)),
-				new SemanticAtom.Member("dose-3", family.getValue().get(1)),
-				new SemanticAtom.Member("dose-2", family.getValue().get(2)),
-				new SemanticAtom.Member("dose-1", family.getValue().get(3)))));
+			List<SemanticAtom.Member> stages = new ArrayList<>(family.getValue().size());
+			for (int index = 0; index < family.getValue().size(); index++)
+			{
+				int dose = family.getValue().size() - index;
+				stages.add(new SemanticAtom.Member("dose-" + dose, family.getValue().get(index)));
+			}
+			atoms.add(new SemanticAtom(family.getKey(), stages));
 		}
 
 		return SemanticRule.builder()
@@ -63,29 +70,50 @@ public final class PotionDoseSemanticRuleSet
 
 	private static void validateMetadata()
 	{
+		MAX_DOSE_BY_ID.get();
+	}
+
+	private static Map<Integer, Integer> buildMaxDoseById()
+	{
+		Map<Integer, Integer> result = new LinkedHashMap<>();
 		for (Map.Entry<String, List<Integer>> family : FAMILIES.entries().entrySet())
 		{
-			for (int index = 0; index < family.getValue().size(); index++)
+			int max = family.getValue().size();
+			if (max != 2 && max != 4)
+				throw new IllegalStateException("Dose family must have two or four members: " + family.getKey());
+			for (int index = 0; index < max; index++)
 			{
-				validateMember(family.getKey(), family.getValue().get(index), 4 - index);
+				int itemId = family.getValue().get(index);
+				ItemSortMetadata metadata = ResourceItemSortMetadataCatalog.INSTANCE.findById(itemId)
+					.orElseThrow(() -> new IllegalStateException("Missing potion metadata for itemId " + itemId));
+				if (!family.getKey().equals(metadata.getFamilyKey())
+					|| metadata.getVariantKind() != ItemSortMetadata.VariantKind.DOSE
+					|| metadata.getVariantValue() != max - index)
+					throw new IllegalStateException("Dose family metadata mismatch for itemId " + itemId);
+				result.put(itemId, max);
 			}
 		}
+		return Collections.unmodifiableMap(result);
 	}
 
-	private static void validateMember(String expectedFamilyKey, int itemId, int expectedDose)
+	public static int maxDoseFor(int itemId)
 	{
-		ItemSortMetadata metadata = ResourceItemSortMetadataCatalog.INSTANCE.findById(itemId)
-			.orElseThrow(() -> new IllegalStateException(
-				"Missing potion semantic metadata for itemId " + itemId));
-		if (!expectedFamilyKey.equals(metadata.getFamilyKey())
-			|| metadata.getVariantKind() != ItemSortMetadata.VariantKind.DOSE
-			|| metadata.getVariantValue() != expectedDose)
-		{
-			throw new IllegalStateException("Potion semantic metadata mismatch for itemId " + itemId
-				+ ": expected family=" + expectedFamilyKey + ", kind=DOSE, dose=" + expectedDose
-				+ " but was family=" + metadata.getFamilyKey() + ", kind="
-				+ metadata.getVariantKind() + ", dose=" + metadata.getVariantValue());
-		}
+		return MAX_DOSE_BY_ID.get().getOrDefault(itemId, 0);
 	}
 
+	public static boolean isPartialDose(int itemId, ItemCategory category, String subcategory)
+	{
+		if (category != ItemCategory.POTION || subcategory == null) return false;
+		String value = subcategory.trim().toLowerCase();
+		String prefix = value.startsWith("potion-dose-") ? "potion-dose-"
+			: value.startsWith("dose-") ? "dose-" : null;
+		if (prefix == null) return false;
+		int dose;
+		try { dose = Integer.parseInt(value.substring(prefix.length())); }
+		catch (NumberFormatException invalid) { return false; }
+		if (dose < 1 || dose > 4) return false;
+		ItemSortMetadata metadata = ResourceItemSortMetadataCatalog.INSTANCE.findById(itemId).orElse(null);
+		return metadata != null && metadata.getVariantKind() == ItemSortMetadata.VariantKind.DOSE
+			&& metadata.getVariantValue() == dose && dose < maxDoseFor(itemId);
+	}
 }

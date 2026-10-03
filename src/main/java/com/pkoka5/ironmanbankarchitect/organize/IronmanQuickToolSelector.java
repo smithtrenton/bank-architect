@@ -2,7 +2,8 @@ package com.pkoka5.ironmanbankarchitect.organize;
 
 import com.pkoka5.ironmanbankarchitect.bank.BankItemSnapshot;
 import com.pkoka5.ironmanbankarchitect.bank.BankSnapshot;
-import java.util.Arrays;
+import com.pkoka5.ironmanbankarchitect.catalog.OrderedItemFamilies;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -11,15 +12,9 @@ import java.util.Set;
 /** Selects one owned tool per quick-access family, preserving bank placeholders. */
 public final class IronmanQuickToolSelector
 {
-	private static final List<List<Integer>> HAMMER_TIERS = tiers(ids(25644, 29775), ids(2347));
-	private static final List<List<Integer>> CHISEL_TIERS = tiers(ids(34024), ids(1755));
-	private static final List<List<Integer>> PICKAXE_TIERS = tiers(
-		ids(23680), ids(13243, 25063, 30345), ids(20014, 11920, 12797, 23677, 25376, 30351),
-		ids(23276, 1275), ids(1271), ids(1273), ids(12297), ids(1269), ids(1267), ids(1265));
-	private static final List<List<Integer>> AXE_TIERS = tiers(
-		ids(28220, 23673), ids(13241, 25066, 30347), ids(28226, 20011),
-		ids(28217, 6739, 25378, 30352), ids(23279, 28214, 1359),
-		ids(1357), ids(1355), ids(1361), ids(1353), ids(1349), ids(1351));
+	private static final OrderedItemFamilies TABLE = new OrderedItemFamilies(
+		IronmanQuickToolSelector.class.getResourceAsStream(
+			"/com/pkoka5/ironmanbankarchitect/catalog/quick-tool-layout-families.tsv"), 0);
 
 	private IronmanQuickToolSelector()
 	{
@@ -35,10 +30,10 @@ public final class IronmanQuickToolSelector
 			owned.add(item.getItemId());
 		}
 		Set<Integer> selected = new LinkedHashSet<>();
-		selectHighest(owned, HAMMER_TIERS, selected);
-		selectHighest(owned, CHISEL_TIERS, selected);
-		selectHighest(owned, PICKAXE_TIERS, selected);
-		selectHighest(owned, AXE_TIERS, selected);
+		selectHighest(owned, tiers("HAMMER"), selected);
+		selectHighest(owned, tiers("CHISEL"), selected);
+		selectHighest(owned, tiers("PICKAXE"), selected);
+		selectHighest(owned, tiers("AXE"), selected);
 		return Collections.unmodifiableSet(selected);
 	}
 
@@ -51,10 +46,10 @@ public final class IronmanQuickToolSelector
 	/** Canonical Main segment: axe, pickaxe, hammer, chisel, then spade. */
 	public static int quickAccessRank(int itemId)
 	{
-		if (contains(AXE_TIERS, itemId)) return 0;
-		if (contains(PICKAXE_TIERS, itemId)) return 1;
-		if (contains(HAMMER_TIERS, itemId)) return 2;
-		if (contains(CHISEL_TIERS, itemId)) return 3;
+		if (contains(tiers("AXE"), itemId)) return 0;
+		if (contains(tiers("PICKAXE"), itemId)) return 1;
+		if (contains(tiers("HAMMER"), itemId)) return 2;
+		if (contains(tiers("CHISEL"), itemId)) return 3;
 		if (itemId == 952) return 4;
 		return -1;
 	}
@@ -84,14 +79,9 @@ public final class IronmanQuickToolSelector
 		return false;
 	}
 
-	@SafeVarargs
-	private static List<List<Integer>> tiers(List<Integer>... tiers)
+	private static List<List<Integer>> tiers(String family)
 	{
-		return Collections.unmodifiableList(Arrays.asList(tiers));
+		return new ArrayList<>(TABLE.group(family).values());
 	}
 
-	private static List<Integer> ids(Integer... ids)
-	{
-		return Collections.unmodifiableList(Arrays.asList(ids));
-	}
 }

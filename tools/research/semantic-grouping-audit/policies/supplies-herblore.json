@@ -1,0 +1,70 @@
+{
+  "domain": "potions-dose-workflows-food-drinks-cooking-ingredients-herbs-seeds-herblore-secondaries-unfinished-products",
+  "scope": "Research-only semantic review of all relevant effective catalog records. No production or test edits.",
+  "identity_rule": "A semantic claim attaches to an exact item ID. Similar names or shared recipes are candidate-generation signals only; they never substitute for exact-ID source evidence.",
+  "evidence_rules": [
+    "Use OSRS Wiki pages and exact item-ID relations from the joined dataset; retain URLs and oldids when supplied. If the snapshot omits the per-page revision, record retrieval date 2026-10-02 and mark the revision unavailable.",
+    "Do not infer function from missing bucket categories, bonuses, recipe fields, or metadata; false category flags are not negative evidence.",
+    "Distinguish an item's base identity from each supported role: consumable, ingredient, intermediate, seed/plant state, restricted copy, and quest-only tool or item.",
+    "Do not collapse dose, serving, charged, region-limited, minigame, or workflow states when the source identifies them as behaviorally distinct.",
+    "Treat current bank tags, user overrides, and existing curated groupings as hypotheses and mismatch detectors, not semantic evidence."
+  ],
+  "deterministic_candidate_detectors": [
+    {
+      "key": "dose-family",
+      "rule": "Exact-ID records that source evidence identifies as the same drinkable potion with dose decrement progression may form an ordered family (4, 3, 2, 1); validate dose and empty-container transition independently.",
+      "name_pattern_is_evidence": false
+    },
+    {
+      "key": "herb-states",
+      "rule": "Grimy herb, clean herb, and seed candidates are linked only when exact-ID page facts establish the same herb and seed product chain; retain special/quest herb identities separately.",
+      "name_pattern_is_evidence": false
+    },
+    {
+      "key": "herblore-recipe-graph",
+      "rule": "Link base, unfinished potion, secondary, and final product using documented input/output relations. Shared secondaries may have multiple valid recipe roles.",
+      "name_pattern_is_evidence": false
+    },
+    {
+      "key": "food-serving-family",
+      "rule": "Group exact-ID food variants only when the source establishes the same product and serving/depletion progression; retain bite count, healing timing/range, attack-delay role, and restriction as variant dimensions.",
+      "name_pattern_is_evidence": false
+    },
+    {
+      "key": "restricted-or-special-copy",
+      "rule": "Keep otherwise similar food or potion item IDs distinct where Wiki facts identify area, minigame, league, quest, or one-use restrictions; report as possible base-family relations with variant role.",
+      "name_pattern_is_evidence": false
+    },
+    {
+      "key": "cooking-ingredient",
+      "rule": "Candidate ingredients require a source-confirmed repeatable cooking/food recipe relation; a Cooking or food-related label alone is insufficient.",
+      "name_pattern_is_evidence": false
+    },
+    {
+      "key": "wiki-dose-anchors",
+      "rule": "An exact-ID Wiki item row with Category:Potions true and an explicit 1–4-dose version_anchor may join the dose-state family for the same page_name, ordered by anchor. This proves a dose-labelled variant, not necessarily ordinary drinkability; retain quest/minigame/workflow categories and exact IDs.",
+      "name_pattern_is_evidence": false
+    }
+  ],
+  "report_record_fields": [
+    "item_id",
+    "wiki_name",
+    "current_category",
+    "current_subcategory",
+    "candidate_family",
+    "candidate_role",
+    "variant_state",
+    "functional_facts",
+    "confidence",
+    "evidence_url",
+    "evidence_revision",
+    "reason",
+    "unresolved_question"
+  ],
+  "confidence": {
+    "high": "Exact-ID source facts directly establish function and the proposed family/role.",
+    "medium": "Exact-ID source confirms a relevant role, but family linkage or intended bank grouping remains ambiguous.",
+    "low": "Candidate detection is supported only indirectly or by incomplete exact-ID facts; keep unresolved and do not recommend production classification."
+  },
+  "source_snapshot_limit": "The joined infobox rows do not include per-row revision IDs. URLs and 2026-10-02 retrieval time are available; mark oldid unavailable unless a separate sourced catalog metadata record supplies it."
+}

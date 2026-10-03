@@ -165,19 +165,28 @@ public class PresetCategoryMapperTest
 			"potion-dose-3", Collections.emptySet(), null);
 		CatalogItem barbarianMix = new CatalogItem(11429, "Superattack mix(2)", ItemCategory.POTION,
 			"potion-dose-2", Collections.emptySet(), null);
+		CatalogItem mixFull = new CatalogItem(11461, "Agility mix(2)", ItemCategory.POTION,
+			"potion", Collections.emptySet(), null);
+		CatalogItem mixPartial = new CatalogItem(11463, "Agility mix(1)", ItemCategory.POTION,
+			"potion-dose-1", Collections.emptySet(), null);
+		CatalogItem activityPotion = new CatalogItem(11734, "Absorption(4)", ItemCategory.POTION,
+			"activity-potion", Collections.emptySet(), null);
 
 		assertEquals("herblore", PresetCategoryMapper.map(BankPresets.IRONMAN, partial).getKey());
 		assertEquals("potions-food", PresetCategoryMapper.map(BankPresets.IRONMAN, full).getKey());
-		assertEquals("herblore",
+		assertEquals("potions-food",
 			PresetCategoryMapper.map(BankPresets.IRONMAN, unknownPartial).getKey());
-		assertEquals("herblore",
+		assertEquals("potions-food",
 			PresetCategoryMapper.map(BankPresets.IRONMAN, barbarianMix).getKey());
+		assertEquals("potions-food", PresetCategoryMapper.map(BankPresets.IRONMAN, mixFull).getKey());
+		assertEquals("herblore", PresetCategoryMapper.map(BankPresets.IRONMAN, mixPartial).getKey());
+		assertEquals("potions-food", PresetCategoryMapper.map(BankPresets.IRONMAN, activityPotion).getKey());
 	}
 
 	@Test
 	public void ironmanIncludesLegacyPartialDoseItemsInHerblorePrep()
 	{
-		CatalogItem legacy = new CatalogItem(1, "Super attack (3)", ItemCategory.POTION,
+		CatalogItem legacy = new CatalogItem(145, "Super attack (3)", ItemCategory.POTION,
 			"dose-3", Collections.emptySet(), null);
 
 		assertEquals("herblore", PresetCategoryMapper.map(BankPresets.IRONMAN, legacy).getKey());
@@ -232,7 +241,7 @@ public class PresetCategoryMapperTest
 		}
 		for (int itemId : new int[] {6183, 6529, 6306, 12012, 25527, 21555})
 		{
-			assertEquals("clues-cosmetics", PresetCategoryMapper.map(BankPresets.IRONMAN,
+			assertEquals("currency-utilities", PresetCategoryMapper.map(BankPresets.IRONMAN,
 				item(itemId, ItemCategory.CURRENCY, "Activity reward")).getKey());
 		}
 	}
@@ -384,9 +393,12 @@ public class PresetCategoryMapperTest
 		assertRegistryItemsRoute("combat-gear", 732, 7645, 7646, 7647, 7648);
 		assertRegistryItemsRoute("potions-food",
 			3153, 7521, 7523, 7524, 7525, 7526,
-			7568, 2343, 30985, 7509, 7510, 4417, 4419, 4421, 4423, 6714,
-			2149, 22081, 9021, 9022, 9023, 9024, 4610, 2379,
-			3408, 3410, 3412, 3414, 3416, 3417, 3418, 3419, 11204, 7479);
+			7568, 2343, 30985, 7509, 7510, 4417, 6714,
+			2149, 22081, 9021, 2379,
+			11204, 7479);
+		assertRegistryItemsRoute("skilling-tools", 3408, 3410, 3412, 3414, 3416, 3417, 3418, 3419);
+		assertRegistryItemsRoute("storage-cleanup", 4610);
+		assertRegistryItemsRoute("herblore", 4419, 4421, 4423, 9022, 9023, 9024);
 	}
 
 	@Test

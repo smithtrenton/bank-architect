@@ -49,14 +49,11 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.CLEANUP, "burnt-food");
 		}
-		if ("burnt page".equals(name) || "searing page".equals(name) || "soaked page".equals(name)
-			|| "desiccated page".equals(name)
-			|| "zulrah's scales".equals(name) || "sunfire splinters".equals(name))
+		if (equalsAny(name, ClassificationNames.group(132)))
 		{
 			return new Classification(ItemCategory.UNIQUE, "equipment-charge");
 		}
-		if (name.endsWith(" element staff crown") || "barronite head".equals(name)
-			|| "barronite handle".equals(name) || "barronite guard".equals(name))
+		if (name.endsWith(" element staff crown") || equalsAny(name, ClassificationNames.group(131)))
 		{
 			return new Classification(ItemCategory.UNIQUE, "weapon-upgrade");
 		}
@@ -89,11 +86,11 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.TOOL, "resource-container");
 		}
-		if (containsAny(name, "looting bag", "soul bearer"))
+		if (containsAny(name, ClassificationNames.group(140)))
 		{
 			return new Classification(ItemCategory.TOOL, "utility-container");
 		}
-		if (containsAny(name, "strung rabbit foot", "brown apron"))
+		if (containsAny(name, ClassificationNames.group(139)))
 		{
 			return new Classification(ItemCategory.TOOL, "skilling-utility");
 		}
@@ -102,12 +99,11 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.TOOL, "quest-utility");
 		}
-		if ("basket".equals(name) || "bucket".equals(name) || "bucket of water".equals(name)
-			|| "jug".equals(name) || "jug of water".equals(name) || "pot".equals(name))
+		if (equalsAny(name, ClassificationNames.group(130)))
 		{
 			return new Classification(ItemCategory.TOOL, "utility-container");
 		}
-		if ("seed dibber".equals(name) || "emerald lantern".equals(name) || "unlit torch".equals(name))
+		if (equalsAny(name, ClassificationNames.group(129)))
 		{
 			return new Classification(ItemCategory.TOOL,
 				"seed dibber".equals(name) ? "tool" : "light-source");
@@ -124,8 +120,7 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.POTION, "pvm-utility");
 		}
-		if ("botanical pie".equals(name) || "half a botanical pie".equals(name)
-			|| "cake".equals(name) || "kebab".equals(name) || "stew".equals(name)
+		if (equalsAny(name, ClassificationNames.group(128))
 			|| (!name.startsWith("uncooked") && !name.startsWith("burnt")
 				&& (name.endsWith(" pie")
 					|| (name.endsWith(" cake") && !name.endsWith("rock cake")))))
@@ -144,12 +139,11 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.FARMING, "produce");
 		}
-		if ("caviar".equals(name) || "roe".equals(name) || "chocolate dust".equals(name)
-			|| "swamp tar".equals(name))
+		if (equalsAny(name, ClassificationNames.group(127)))
 		{
 			return new Classification(ItemCategory.HERBLORE, "secondary");
 		}
-		if ("spirit flakes".equals(name) || "jerboa tail".equals(name) || "kebbit claws".equals(name))
+		if (equalsAny(name, ClassificationNames.group(126)))
 		{
 			return new Classification(ItemCategory.SKILLING,
 				"spirit flakes".equals(name) ? "resource" : "hunter-resource");
@@ -192,7 +186,7 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.TOOL, "resource-container");
 		}
-		if (containsAny(name, "gardening trowel", "house keys"))
+		if (containsAny(name, ClassificationNames.group(138)))
 		{
 			return new Classification(ItemCategory.TOOL, "tool");
 		}
@@ -288,7 +282,7 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.UNIQUE, "equipment-upgrade");
 		}
-		if (name.contains("potion") && containsAny(name, "(unf)", "unfinished"))
+		if (name.contains("potion") && containsAny(name, ClassificationNames.group(137)))
 		{
 			return new Classification(ItemCategory.HERBLORE, "unfinished-potion");
 		}
@@ -333,7 +327,7 @@ final class ItemClassificationRefiner
 			return new Classification(ItemCategory.SKILLING, "glass-material");
 		}
 		if (name.contains("fabric roll") || "jute fibre".equals(name)
-			|| containsAny(name, "bow string", "crossbow string"))
+			|| containsAny(name, ClassificationNames.group(136)))
 		{
 			return new Classification(ItemCategory.SKILLING, "textile");
 		}
@@ -361,7 +355,7 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.RUNE, "runecrafting-focus");
 		}
-		if (containsAny(name, "lobster pot", "karambwan vessel")
+		if (containsAny(name, ClassificationNames.group(135))
 			|| "gadderhammer".equals(name))
 		{
 			// Checked before the fish rule: "lobster pot" and "karambwan
@@ -430,7 +424,7 @@ final class ItemClassificationRefiner
 		{
 			return new Classification(ItemCategory.SKILLING, "textile");
 		}
-		if (containsAny(name, "fishbowl", "unpowered orb"))
+		if (containsAny(name, ClassificationNames.group(134)))
 		{
 			return new Classification(ItemCategory.SKILLING, "crafting-material");
 		}
@@ -469,7 +463,7 @@ final class ItemClassificationRefiner
 		{
 			return "neck";
 		}
-		if (containsAny(name, " ring", "ring of"))
+		if (containsAny(name, ClassificationNames.group(133)))
 		{
 			return "ring";
 		}
@@ -523,24 +517,19 @@ final class ItemClassificationRefiner
 
 	private static boolean isFarmingProduce(String name)
 	{
-		return "apple".equals(name) || "banana".equals(name) || "orange".equals(name)
-			|| "curry leaf".equals(name) || "pineapple".equals(name) || "papaya fruit".equals(name)
-			|| "coconut".equals(name) || "dragonfruit".equals(name) || "strawberry".equals(name)
-			|| "watermelon".equals(name);
+		return equalsAny(name, ClassificationNames.group(125));
 	}
 
 	private static boolean isCookingMaterial(String name)
 	{
-		return "barley malt".equals(name) || "cheese".equals(name) || "egg".equals(name)
-			|| "gnome spice".equals(name) || "spice".equals(name) || "mushroom".equals(name)
-			|| "sulliuscep cap".equals(name);
+		return equalsAny(name, ClassificationNames.group(124));
 	}
 
 	private static boolean isUnenchantedJewellery(String name)
 	{
 		String base = name.endsWith(" (u)") ? name.substring(0, name.length() - 4) : name;
 		String[] materials = ClassificationNames.group(69);
-		String[] types = {"ring", "necklace", "bracelet", "amulet"};
+		String[] types = ClassificationNames.group(141);
 		for (String material : materials)
 		{
 			for (String type : types)
@@ -568,10 +557,7 @@ final class ItemClassificationRefiner
 	private static boolean isGem(String name)
 	{
 		String gem = name.startsWith("uncut ") ? name.substring("uncut ".length()) : name;
-		return "opal".equals(gem) || "jade".equals(gem) || "red topaz".equals(gem)
-			|| "sapphire".equals(gem) || "emerald".equals(gem) || "ruby".equals(gem)
-			|| "diamond".equals(gem) || "dragonstone".equals(gem) || "onyx".equals(gem)
-			|| "zenyte".equals(gem);
+		return equalsAny(gem, ClassificationNames.group(123));
 	}
 
 	private static boolean isBarrowsWeaponFamily(String name)

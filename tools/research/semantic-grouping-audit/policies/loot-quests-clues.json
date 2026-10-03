@@ -1,0 +1,92 @@
+{
+  "review_scope": [
+    "slayer_boss_activity_loot_and_uniques",
+    "quest_items_and_retained_functions",
+    "clue_requirements_and_rewards",
+    "collection_log_membership_trophies_pets_and_cleanup"
+  ],
+  "role_policy": {
+    "multi_role": "Store separate evidence-backed functional roles as an array. Do not force a unique destination from provenance alone; a boss drop may also be gear, a resource, a tool, or clue equipment.",
+    "provenance": "Record source activity and formal Collection Log membership as provenance flags, not as automatic destinations.",
+    "slayer_boss_activity": "Assign activity/loot role only when Wiki page category or text identifies a functional association (drop, reward, task equipment, task utility, or bossing use). Separate usable combat gear, supplies, and resources from trophies and low-use loot.",
+    "quest_items": "Quest association or the Wiki Quest item property is a provenance/quest-use flag. Preserve items with a repeatable or post-quest function in their functional category. Do not label every quest-associated item as cleanup. Quest association and the Quest items category alone do not prove post-quest reuse; a retained function needs separate item-page evidence.",
+    "clue_requirements": "Require direct evidence of use in an emote clue/Charlie task/other clue step, preferably an exact Wiki category or guide list. Keep broad clue preparation utilities (spade, teleports, energy supplies) in their normal utility/supplies roles while marking clue relevance when direct evidence exists. Do not infer from clue-themed names.",
+    "clue_rewards": "Use reward-table/category evidence to mark clue reward provenance. Assign the item's functional destination too (gear, cosmetic, resource, clue reward); reward provenance alone does not make it a clue requirement. Preserve an evidenced gear, tool, resource, or cosmetic role; clue-reward provenance is separate from clue-step requirements.",
+    "collection_log": "Represent formal Collection Log inclusion independently from personal collectibility. CL inclusion is not equivalent to cosmetic, unique usefulness, or clue role; absence from known CL sources is not negative proof. Formal item links and activity section headings provide exact listed-entry/source evidence; activity provenance is not destination or user collection preference.",
+    "pets_trophies": "A Wiki-confirmed pet/trophy or display/cosmetic function may justify a collectible role. Keep utility-bearing pets/items in all evidenced roles. Personal collection preference is user-specific and must not imply cleanup.",
+    "cleanup": "Only make a cleanup candidate when evidence supports no active, reusable, combat, clue, skilling, quest, storage, or personal collection function, and retain uncertainty where sources are incomplete. Wiki absence or a generic cleanup category alone is insufficient."
+  },
+  "source_policy": {
+    "evidence_order": [
+      "exact item page infobox and article body",
+      "exact Wiki category membership (including clue requirements, clue rewards, Slayer equipment, activity/Collection Log categories)",
+      "official Wiki guide or reward/drop list naming the exact item",
+      "repository catalog inference for candidate discovery only"
+    ],
+    "do_not_assert_from_name_alone": true,
+    "do_not_use_absence_as_proof": true,
+    "record_source_url_and_evidence_excerpt_or_category_title": true,
+    "snapshot_date": "2026-10-02"
+  },
+  "source_pages": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_weapon",
+      "supports": "Slayer equipment is functionally defined by use against Slayer monsters, including protective equipment, task finishers, and boosts. Individual category membership may need a page-level qualification."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Category:Items_needed_for_an_emote_clue",
+      "supports": "Exact item category for items required by at least one emote clue; category states 379 pages."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/User:Tirioll/stash",
+      "supports": "STASH units store emote clue items and can save bank space and bank trips."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Beginners_clue_scroll",
+      "supports": "Clue trails require specific held/equipped items and general prep utilities; clue rewards are a separate outcome."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Collection_log",
+      "supports": "Collection Log records most unique drops; the same item can share slots across multiple source pages. Membership records provenance, not a unique storage destination."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Category:Items_needed_for_an_emote_clue",
+      "supports": "Exact Wiki category membership is direct clue-step requirement evidence; it is page-level and must be treated separately from Treasure Trails reward membership."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Category:Treasure_Trails_rewards",
+      "supports": "Direct Treasure Trails reward provenance; reward membership does not establish that the item is required to complete a clue."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Category:Collection_log_items",
+      "supports": "Wiki page category for formal Collection Log items. Membership is a log fact; player storage preference is separate."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Category:Items_storable_in_the_costume_room",
+      "supports": "Items storable in costume-room storage; informs retained storage and cosmetic roles without requiring a cleanup inference."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Category:Pets",
+      "supports": "Wiki pet designation; personal collecting and bank placement remain player-specific."
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Collection_log?oldid=15356324",
+      "supports": "Formal Collection Log source sections; audit extracted only linked item names from structured activity tables, retaining activity heading as provenance."
+    }
+  ],
+  "collection_log_method": {
+    "source_url": "https://oldschool.runescape.wiki/w/Collection_log?oldid=15356324",
+    "revision_id": 15356324,
+    "extraction": "Parse {{plink|Item}} links only after ==Bosses== and before the closing {{Collection log}} transclusion; capture current section headings as provenance.",
+    "matching": "Normalize spaces and underscores and case-fold; match exact item page titles only.",
+    "limitation": "Some Wiki category members did not title-match a formal table link. Neither case is used as absence proof; duplicate row IDs may point to the same item page.",
+    "revision_timestamp": "2026-09-26T08:42:56Z"
+  },
+  "review_metrics": {
+    "cleanup_route_or_baseline_with_role_provenance_review_count": 2754,
+    "metric_meaning": "These rows have at least one positive Wiki/function/provenance signal and a CLEANUP catalog baseline or effective cleanup tag. This is a review queue, not proof of reusable post-quest function, desirable retention, or a destination.",
+    "current_cleanup_tag_rows": 11780,
+    "manual_review_status": "Mechanical full-catalog candidate review; priority examples are source-checked, but the complete queue was not manually adjudicated."
+  },
+  "provenance_vs_destination_policy": "Keep activity source, quest association, clue requirement/reward source, and Collection Log membership as distinct evidence fields. These facts do not choose a layout destination on their own."
+}

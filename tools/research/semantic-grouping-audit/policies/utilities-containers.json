@@ -1,0 +1,89 @@
+{
+  "domain": "currencies-runes-teleports-tools-containers",
+  "scope": [
+    "Currency and exchange tokens",
+    "Runes and spell-use supplies",
+    "Teleport devices, consumable teleports, transport access, and charge states",
+    "Tools, skill access, quest utility, and light sources",
+    "Resource containers and storage items"
+  ],
+  "functional_roles": {
+    "currency": {
+      "destination": "currency-utilities/currency",
+      "include": "Items used as money, exchange units, or a direct currency substitute; include special-mode tokens only when the item has a repeatable exchange or purchase role.",
+      "exclude": "Ordinary loot, tradeables, keys, tickets, and one-off quest tokens without a currency function.",
+      "evidence": "Wiki item mechanics or exchange/shop use, with an exact item ID and version/state match."
+    },
+    "runes_and_spell_supplies": {
+      "destination": "currency-utilities/runes",
+      "include": "Runes, combination runes, rune containers, and consumable cast supplies whose primary documented use is casting a spell.",
+      "exclude": "Runecrafting essence materials, essence pouches, talismans/tiaras, and other Runecraft tools remain skill resources/tools or focus items; magic weapons and worn combat gear remain gear.",
+      "evidence": "Wiki use/effect text establishes spell casting or spell-rune storage. A Runecraft category or the word rune alone does not establish castable spell-supply role."
+    },
+    "runecrafting_resources_and_tools": {
+      "destination": "resources/raw-resources for essence; skilling-tools/tools for pouches, talismans, and tiaras",
+      "include": "Rune essence, pure essence, Daeyalt essence, and containers or tools whose role is to support Runecrafting.",
+      "exclude": "Spell runes and rune pouches that store castable runes belong to the spell-supply role.",
+      "evidence": "Use the exact item page to distinguish Runecraft production inputs and essence storage from magic runes used to cast spells. Preserve damaged pouch and capacity states."
+    },
+    "teleports_and_transport": {
+      "destination": "currency-utilities/teleports",
+      "include": "Consumable teleport scrolls/tablets, rechargeable or degradable teleport devices, charges for a teleport device, teleport containers, and reusable access items whose primary documented effect is transport.",
+      "exclude": "Quest items with only incidental travel relevance, generic keys, and combat equipment whose travel effect is secondary to its combat role.",
+      "evidence": "Wiki effect/use text establishes transport and the exact state/charge variant. Variants may share a functional group while keeping distinct IDs and charge counts."
+    },
+    "tools_and_skill_access": {
+      "destination": "skilling-tools/tools",
+      "include": "Reusable tools, skill-enabling utility items, gathering/production tools, and task access items primarily used to perform or enable a skill activity.",
+      "exclude": "Crafting materials, rewards, or wearable combat gear when evidence shows their primary role is elsewhere. An equippable multi-use item remains gear if its combat or equipment role is substantial.",
+      "evidence": "Wiki use/effect text or documented recipe/activity use. Skill name in an item name is insufficient."
+    },
+    "light_sources": {
+      "destination": "skilling-tools/tools",
+      "include": "Lit/unlit light-source tools and replaceable-light variants when their function is illumination or environmental access.",
+      "exclude": "Firemaking materials that are consumed to start fires and decorative light-themed cosmetics.",
+      "evidence": "Wiki identifies the item as a light source, describes lighting state, or documents an area mechanic that requires it. Preserve lit, unlit, and charge/fuel states as separate item IDs."
+    },
+    "resource_containers": {
+      "destination": "skilling-tools/containers",
+      "include": "Reusable containers that store, carry, gather, or transform resources; include sacks, boxes, bags, barrels, baskets, kits, and containers with inventory contents.",
+      "exclude": "Ordinary ingredients, empty packaging with no reusable storage role, and containers that are primarily quest/story objects without a practical storage use.",
+      "evidence": "Wiki capacity/content/withdrawal behavior. Preserve open/closed, charged/uncharged, filled/empty, and size tiers as state variants. Do not merge states based on similar names."
+    }
+  },
+  "overlap_resolution": [
+    "Assign the main destination from the item's primary practical role established by Wiki mechanics, not from the current catalog label or name token alone.",
+    "Where a resource container holds a currency, rune, or teleport supply, classify the container by storage function and classify its contents by their own role.",
+    "Keep Wiki category facets separate from destination: Currency can coexist with a skilling-supply role, and Runecraft is not synonymous with Runes.",
+    "Where an item is both wearable/equippable and grants teleport, spell, or skill access, retain the equipment role when equipment utility is substantial; record the secondary use as a note or unresolved overlap instead of forcing a false single-purpose classification.",
+    "A direct Wiki item page and exact ID/state evidence outrank inferred family membership. Family analogies may generate review candidates but cannot establish a final classification.",
+    "Absence from Wiki category pages, searches, or the current bank fixture is not evidence that an item lacks a function. Mark unavailable or unresolved evidence explicitly.",
+    "Quest utility and transport can coexist. Route as transport only when transport is a persistent user-facing function, not merely a quest step."
+  ],
+  "frequent_use_policy": {
+    "base_behavior": "Do not universally assign frequently-used based on item type, popularity, bank presence, or expected account progression.",
+    "user_preference": "Allow the player to opt into a configurable set of frequently-used items or families for the main tab. This is a placement preference, not a factual semantic role.",
+    "safe_defaults": "Only items explicitly configured as staples by the product may receive a default frequent-use placement; preserve their semantic role as currency, rune, teleport, or tool in metadata.",
+    "account_limit": "Without usage telemetry or player settings, the plugin cannot know how often a specific player uses a tool or teleport. Do not infer individual usage from Wiki data."
+  },
+  "confidence_rules": {
+    "high": "Exact-ID Wiki page or structured mechanics match confirms primary function and relevant state.",
+    "medium": "Wiki confirms a functional family, but the exact item variant/state is not fully disambiguated.",
+    "low": "Classification is inferred from name, icon, similarity, a generic category, or incomplete Wiki evidence. Candidate only; no automatic rule.",
+    "unresolved": "Wiki evidence conflicts, is missing, or leaves multi-use priority/state ambiguous. Keep current role pending review and cite the ambiguity."
+  },
+  "audit_columns": [
+    "item_id",
+    "wiki_name",
+    "current_category",
+    "current_subcategory",
+    "current_main_tag",
+    "candidate_role",
+    "candidate_destination",
+    "wiki_evidence",
+    "wiki_url",
+    "confidence",
+    "state_or_overlap_note",
+    "recommendation"
+  ]
+}

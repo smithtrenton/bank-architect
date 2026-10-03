@@ -1,7 +1,8 @@
 package com.pkoka5.ironmanbankarchitect.organize.layout;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import com.pkoka5.ironmanbankarchitect.catalog.OrderedItemFamilies;
+import com.pkoka5.ironmanbankarchitect.catalog.RequiredResource;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -12,13 +13,10 @@ import java.util.Set;
 public final class RuneSemanticRuleSet
 {
 	private static final String RULE_KEY = "runes.four-wide-rows";
-	private static final List<List<Integer>> ROWS = Collections.unmodifiableList(Arrays.asList(
-		row(556, 555, 557, 554),
-		row(558, 562, 560, 565),
-		row(559, 564, 561, 563),
-		row(9075, 566, 4699, 21880),
-		row(4695, 4696, 4698, 4697),
-		row(4694, 28929, 30843)));
+	private static final RequiredResource<List<List<Integer>>> ROWS = new RequiredResource<>("rune rows",
+		() -> Collections.unmodifiableList(new ArrayList<>(new OrderedItemFamilies(
+			RuneSemanticRuleSet.class.getResourceAsStream(
+				"/com/pkoka5/ironmanbankarchitect/catalog/rune-layout-families.tsv"), 0).entries().values())));
 
 	private RuneSemanticRuleSet()
 	{
@@ -33,7 +31,7 @@ public final class RuneSemanticRuleSet
 	{
 		Objects.requireNonNull(entries, "entries");
 		return new LayoutRequest(gridStartColumn == 0 ? anchorFirstRune(entries) : entries,
-			Collections.singletonList(ruleForRows(ROWS))).withGridStartColumn(gridStartColumn);
+			Collections.singletonList(ruleForRows(ROWS.get()))).withGridStartColumn(gridStartColumn);
 	}
 
 	static LayoutRequest forMainEntries(List<LayoutEntry> entries)
@@ -50,7 +48,7 @@ public final class RuneSemanticRuleSet
 		{
 			present.add(entry.getItem().getItemId());
 		}
-		for (List<Integer> row : ROWS)
+		for (List<Integer> row : ROWS.get())
 		{
 			for (Integer itemId : row)
 			{
@@ -67,14 +65,15 @@ public final class RuneSemanticRuleSet
 		{
 			present.add(entry.getItem().getItemId());
 		}
+		List<List<Integer>> original = ROWS.get();
 		List<List<Integer>> rows = new ArrayList<>();
-		rows.add(ROWS.get(0));
-		rows.add(ROWS.get(1));
-		rows.add(ROWS.get(2));
+		rows.add(original.get(0));
+		rows.add(original.get(1));
+		rows.add(original.get(2));
 		List<Integer> tail = new ArrayList<>();
-		for (int row = 3; row < ROWS.size(); row++)
+		for (int row = 3; row < original.size(); row++)
 		{
-			for (Integer itemId : ROWS.get(row))
+			for (Integer itemId : original.get(row))
 			{
 				if (present.contains(itemId)) tail.add(itemId);
 			}
@@ -137,8 +136,4 @@ public final class RuneSemanticRuleSet
 		return atoms;
 	}
 
-	private static List<Integer> row(Integer... itemIds)
-	{
-		return Collections.unmodifiableList(Arrays.asList(itemIds));
-	}
 }

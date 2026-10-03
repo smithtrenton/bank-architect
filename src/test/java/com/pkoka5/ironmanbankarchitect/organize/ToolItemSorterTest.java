@@ -30,6 +30,18 @@ public class ToolItemSorterTest
 	}
 
 	@Test
+	public void exactLightSourceStatesStayAdjacentInReviewedOrder()
+	{
+		List<BankPreviewItem> items = Arrays.asList(
+			new BankPreviewItem(com.pkoka5.ironmanbankarchitect.catalog.ResourceItemRegistry.INSTANCE.findById(4539).get(), 1),
+			new BankPreviewItem(com.pkoka5.ironmanbankarchitect.catalog.ResourceItemRegistry.INSTANCE.findById(4524).get(), 1),
+			new BankPreviewItem(com.pkoka5.ironmanbankarchitect.catalog.ResourceItemRegistry.INSTANCE.findById(4537).get(), 1),
+			new BankPreviewItem(com.pkoka5.ironmanbankarchitect.catalog.ResourceItemRegistry.INSTANCE.findById(4522).get(), 1));
+		assertEquals(Arrays.asList(4522, 4524, 4537, 4539), ToolItemSorter.sort(items).stream()
+			.map(BankPreviewItem::getItemId).collect(Collectors.toList()));
+	}
+
+	@Test
 	public void groupsFishingHunterSlayerAndContainerToolsByUse()
 	{
 		List<BankPreviewItem> sorted = ToolItemSorter.sort(Arrays.asList(

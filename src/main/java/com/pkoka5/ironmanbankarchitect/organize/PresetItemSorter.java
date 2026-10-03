@@ -1,16 +1,15 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.organize.layout.ItemSetCatalog;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
 public final class PresetItemSorter
 {
-	private static final int[] IRONMAN_ACTIVITY_REWARD_IDS = {
-		6183, 6529, 6306, 12012, 25527, 21555
-	};
 	private PresetItemSorter()
 	{
 	}
@@ -121,23 +120,22 @@ public final class PresetItemSorter
 		if ("currency-utilities".equals(categoryKey))
 		{
 			return rank(name, subcategory,
-				group(0, "coins", "tokkul", "numulite", "trading sticks", "stardust", "nugget", "pearl"),
-				group(10, "mark of grace", "castle wars ticket", "pieces of eight"),
-				group(20, "blessing", "banner", "hilt"),
-				group(30, "key", "token"));
+				group(76),
+				group(77),
+				group(78),
+				group(79));
 		}
 
 		if ("teleports-runes".equals(categoryKey))
 		{
-			if (item.getItemCategory() == ItemCategory.RUNE || containsAny(name, " rune", "rune ", "essence"))
+			if (item.getItemCategory() == ItemCategory.RUNE || containsAny(name, ClassificationNames.group(148)))
 			{
 				return 0;
 			}
 			return rank(name, subcategory,
-				group(10, "tablet", "teletab", "teleport"),
-				group(20, "ring of", "games necklace", "amulet of", "skills necklace", "combat bracelet",
-					"necklace of passage", "burning amulet"),
-				group(30, "talisman", "ectophial", "medallion", "book of the dead", "whistle"));
+				group(80),
+				group(81),
+				group(82));
 		}
 
 		if ("combat-gear".equals(categoryKey))
@@ -148,12 +146,9 @@ public final class PresetItemSorter
 		if ("potions-food".equals(categoryKey))
 		{
 			return rank(name, subcategory,
-				group(0, "brew", "restore", "prayer potion", "stamina", "super combat",
-					"ranging potion", "magic potion", "attack", "strength", "defence", "holy wrench"),
-				group(30, "shark", "monkfish", "karambwan", "manta", "anglerfish", "lobster",
-					"swordfish", "tuna", "salmon", "trout", "pizza", "pie", "potato", "cake"),
-				group(60, "wine", "stew", "curry", "kebab", "fruit", "stout", "mind bomb",
-					"lizardkicker"));
+				group(83),
+				group(84),
+				group(85));
 		}
 
 		if ("farming-herblore".equals(categoryKey))
@@ -164,14 +159,14 @@ public final class PresetItemSorter
 		if ("resources".equals(categoryKey))
 		{
 			return rank(name, subcategory,
-				group(0, "ore", "coal"),
-				group(10, "bar"),
-				group(20, "log", "plank"),
-				group(30, "hide", "leather", "dragonhide"),
-				group(40, "gem", "uncut"),
-				group(50, "bone", "bones", "ash"),
-				group(60, "vial", "orb", "glass", "sand", "clay"),
-				group(70, "feather", "nail", "flax", "bow string"));
+				group(86),
+				group(87),
+				group(88),
+				group(89),
+				group(90),
+				group(91),
+				group(92),
+				group(93));
 		}
 
 		if ("storage-cleanup".equals(categoryKey))
@@ -187,12 +182,11 @@ public final class PresetItemSorter
 		String name = normalizedName(item.getDisplayName());
 		String subcategory = normalizedName(item.getSubcategory());
 		return rank(name, subcategory,
-			group(0, "seed", "sapling"),
-			group(10, "grimy", "clean", "herb", "leaf"),
-			group(20, "secondary", "eye of newt", "snape grass", "limpwurt", "white berries",
-				"mort myre", "unicorn horn"),
-			group(30, "unf", "unfinished"),
-			group(40, "potion"));
+			group(94),
+			group(95),
+			group(96),
+			group(97),
+			group(98));
 	}
 
 	public static String subgroupLabel(BankCategory category, BankPreviewItem item)
@@ -221,9 +215,10 @@ public final class PresetItemSorter
 		return 50;
 	}
 
-	private static Group group(int rank, String... needles)
+	private static Group group(int index)
 	{
-		return new Group(rank, needles);
+		String[] row = ClassificationNames.group(index);
+		return new Group(Integer.parseInt(row[0]), Arrays.copyOfRange(row, 1, row.length));
 	}
 
 	private static boolean containsAny(String value, String... needles)
@@ -247,7 +242,7 @@ public final class PresetItemSorter
 	private static int clueRank(BankPreviewItem item)
 	{
 		String name = normalizedName(item.getDisplayName());
-		String[] order = {"beginner", "easy", "medium", "hard", "elite", "master"};
+		String[] order = ClassificationNames.group(149);
 		for (int i = 0; i < order.length; i++)
 		{
 			if (name.contains("(" + order[i] + ")"))
@@ -255,18 +250,9 @@ public final class PresetItemSorter
 				return i;
 			}
 		}
-		if (isIronmanActivityReward(item.getItemId())) return 10;
 		return 20;
 	}
 
-	private static boolean isIronmanActivityReward(int itemId)
-	{
-		for (int candidate : IRONMAN_ACTIVITY_REWARD_IDS)
-		{
-			if (candidate == itemId) return true;
-		}
-		return false;
-	}
 
 	private static int bossLootRank(BankPreviewItem item)
 	{

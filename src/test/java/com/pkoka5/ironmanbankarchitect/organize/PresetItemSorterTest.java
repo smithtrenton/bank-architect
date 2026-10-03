@@ -163,10 +163,10 @@ public class PresetItemSorterTest
 	}
 
 	@Test
-	public void activityRewardsStayTogetherAfterTreasureTrailItems()
+	public void currenciesUseCurrencySortingAfterClueItems()
 	{
 		List<BankPreviewItem> sorted = PresetItemSorter.sort(
-			BankPresets.IRONMAN.getCategory("clues-cosmetics"), Arrays.asList(
+			BankPresets.IRONMAN.getCategory("currency-utilities"), Arrays.asList(
 				item(6183, "Frog token", ItemCategory.CURRENCY),
 				item(1, "Clue scroll (hard)", ItemCategory.CLUE),
 				item(2, "Reward casket (hard)", ItemCategory.CLUE),
@@ -177,9 +177,8 @@ public class PresetItemSorterTest
 				item(21555, "Numulite", ItemCategory.CURRENCY),
 				item(3, "Bob shirt", ItemCategory.CLUE)));
 
-		assertEquals(Arrays.asList("Clue scroll (hard)", "Reward casket (hard)",
-			"Frog token", "Golden nugget", "Numulite", "Stardust", "Tokkul", "Trading sticks",
-			"Bob shirt"), names(sorted));
+		assertEquals(Arrays.asList("Bob shirt", "Clue scroll (hard)", "Reward casket (hard)",
+			"Frog token", "Golden nugget", "Numulite", "Stardust", "Tokkul", "Trading sticks"), names(sorted));
 	}
 
 	@Test

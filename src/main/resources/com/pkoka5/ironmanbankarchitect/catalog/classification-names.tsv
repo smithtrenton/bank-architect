@@ -75,3 +75,77 @@
 73	cow	green	blue	red	black	bear	kebbit	fox	larupia	graahk	kyatt	dagannoth
 74	opal	jade	topaz	sapphire	emerald	ruby	diamond	dragonstone	onyx	zenyte
 75	shrimp	sardine	herring	anchovies	mackerel	trout	salmon	tuna	lobster	swordfish	monkfish	karambwan	shark	sea turtle	manta ray	anglerfish	eel	dark crab
+76	0	coins	tokkul	numulite	trading sticks	stardust	nugget	pearl
+77	10	mark of grace	castle wars ticket	pieces of eight
+78	20	blessing	banner	hilt
+79	30	key	token
+80	10	tablet	teletab	teleport
+81	20	ring of	games necklace	amulet of	skills necklace	combat bracelet	necklace of passage	burning amulet
+82	30	talisman	ectophial	medallion	book of the dead	whistle
+83	0	brew	restore	prayer potion	stamina	super combat	ranging potion	magic potion	attack	strength	defence	holy wrench
+84	30	shark	monkfish	karambwan	manta	anglerfish	lobster	swordfish	tuna	salmon	trout	pizza	pie	potato	cake
+85	60	wine	stew	curry	kebab	fruit	stout	mind bomb	lizardkicker
+86	0	ore	coal
+87	10	bar
+88	20	log	plank
+89	30	hide	leather	dragonhide
+90	40	gem	uncut
+91	50	bone	bones	ash
+92	60	vial	orb	glass	sand	clay
+93	70	feather	nail	flax	bow string
+94	0	seed	sapling
+95	10	grimy	clean	herb	leaf
+96	20	secondary	eye of newt	snape grass	limpwurt	white berries	mort myre	unicorn horn
+97	30	unf	unfinished
+98	40	potion
+99	guam	attack potion	eye of newt
+100	marrentill	antipoison	unicorn horn
+101	tarromin	strength potion	limpwurt
+102	harralander	energy potion	chocolate dust
+103	ranarr	prayer potion	snape grass
+104	toadflax	saradomin brew	crushed nest
+105	irit	super attack	eye of newt
+106	avantoe	super energy	mort myre fungus
+107	kwuarm	super strength	limpwurt
+108	snapdragon	super restore	red spiders
+109	cadantine	super defence	white berries
+110	lantadyme	magic potion	potato cactus
+111	dwarf weed	ranging potion	wine of zamorak
+112	torstol	super combat potion
+113	grimy-herbs	clean-herbs	unfinished-potions	secondaries	herb-seeds	potion-doses	herblore-other
+114	1000	torva	ancestral	masori	tumeken	twisted bow	scythe	shadow
+115	900	bandos	armadyl	ahrim	karil	zaryte	crystal	bowfa	bow of faerdhinen	toxic blowpipe	trident	occult	primordial	pegasian	eternal
+116	800	barrows	fighter torso	serpentine	faceguard	dragonfire	abyssal	whip	tentacle	dragon defender	rune defender	blessed d'hide	god d'hide	malediction	odium	toxic
+117	700	dragon	black d'hide	mystic	infinity	rune crossbow	magic shortbow	book of darkness	tome
+118	600	rune	red d'hide	blue d'hide	green d'hide	splitbark	xerician
+119	500	adamant	mithril	leather	wizard
+120	ardougne cloak	desert amulet	explorer's ring	falador shield
+121	fremennik sea boots	kandarin headgear	karamja gloves	morytania legs
+122	rada's blessing	varrock armour	western banner	wilderness sword
+123	opal	jade	red topaz	sapphire	emerald	ruby	diamond	dragonstone	onyx	zenyte
+124	barley malt	cheese	egg	gnome spice	spice	mushroom	sulliuscep cap
+125	apple	banana	orange	curry leaf	pineapple	papaya fruit	coconut	dragonfruit	strawberry	watermelon
+126	spirit flakes	jerboa tail	kebbit claws
+127	caviar	roe	chocolate dust	swamp tar
+128	botanical pie	half a botanical pie	cake	kebab	stew
+129	seed dibber	emerald lantern	unlit torch
+130	basket	bucket	bucket of water	jug	jug of water	pot
+131	barronite head	barronite handle	barronite guard
+132	burnt page	searing page	soaked page	desiccated page	zulrah's scales	sunfire splinters
+133	 ring	ring of
+134	fishbowl	unpowered orb
+135	lobster pot	karambwan vessel
+136	bow string	crossbow string
+137	(unf)	unfinished
+138	gardening trowel	house keys
+139	strung rabbit foot	brown apron
+140	looting bag	soul bearer
+141	ring	necklace	bracelet	amulet
+142	varrock teleport	lumbridge teleport	falador teleport	teleport to house	camelot teleport	ardougne teleport	watchtower teleport	trollheim teleport	ape atoll teleport	kourend castle teleport	civitas illa fortis teleport
+143	air	water	earth	fire	mind	body	cosmic	chaos	nature	law	death	blood	soul	astral	wrath
+144	ectophial	xeric's talisman	drakan's medallion	royal seed pod	enchanted lyre	pharaoh's sceptre	chronicle	kharedst's memoirs	book of the dead	teleport crystal	quetzal whistle	pendant of ates	skull sceptre
+145	ring of dueling	games necklace	amulet of glory	skills necklace	combat bracelet	burning amulet	necklace of passage	digsite pendant	ring of wealth	slayer ring	ring of returning	ring of the elements	ring of shadows	camulet	desert amulet	giantsoul amulet	sailors' amulet
+146	small	medium	large	giant	colossal
+147	ardougne cloak	desert amulet	explorer's ring	falador shield	fremennik sea boots	ghommal's hilt	kandarin headgear	karamja gloves	morytania legs	rada's blessing	varrock armour	western banner	wilderness sword
+148	 rune	rune 	essence
+149	beginner	easy	medium	hard	elite	master

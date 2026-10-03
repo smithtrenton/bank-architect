@@ -21,13 +21,12 @@ public class SupplyItemSorterTest
 	public void keepsAllFullDosePotionsAheadOfUtilitiesFoodAndDrinks()
 	{
 		List<BankPreviewItem> sorted = SupplyItemSorter.sort(Arrays.asList(
-			item(1, "Shark", "food"), item(2, "Super energy(4)", "potion-dose-4"),
-			item(3, "Prayer potion(4)", "potion-dose-4"), item(4, "Holy wrench", "pvm-utility"),
-			item(5, "Sanfew serum(4)", "potion-dose-4"), item(6, "Bandit's brew", "drink"),
-			item(7, "Superattack mix(2)", "potion")), NO_METADATA);
+			item(385, "Shark", "food"), item(3016, "Super energy(4)", "potion-dose-4"),
+			item(2434, "Prayer potion(4)", "potion-dose-4"), item(11105, "Holy wrench", "pvm-utility"),
+			item(10925, "Sanfew serum(4)", "potion-dose-4"), item(6, "Bandit's brew", "drink")));
 
 		assertEquals(Arrays.asList("Prayer potion(4)", "Sanfew serum(4)", "Super energy(4)",
-			"Holy wrench", "Superattack mix(2)", "Shark", "Bandit's brew"), names(sorted));
+			"Holy wrench", "Shark", "Bandit's brew"), names(sorted));
 	}
 
 	@Test
@@ -140,15 +139,16 @@ public class SupplyItemSorterTest
 	}
 
 	@Test
-	public void barbarianMixesStayOutsideTheStandardDoseGrid()
+	public void reviewedTwoDoseMixesJoinTheStandardDoseGrid()
 	{
 		List<BankPreviewItem> sorted = SupplyItemSorter.sort(Arrays.asList(
 			item(2434, "Prayer potion(4)", "potion-dose-4"),
 			item(143, "Prayer potion(1)", "potion-dose-1"),
-			item(11429, "Superattack mix(2)", "potion-dose-2")));
+			item(11429, "Attack mix(2)", "potion-dose-2"),
+			item(11431, "Attack mix(1)", "potion-dose-1")));
 
-		assertEquals(Arrays.asList("Prayer potion(4)", "Prayer potion(1)",
-			"Superattack mix(2)"), names(sorted));
+		assertEquals(Arrays.asList("Attack mix(2)", "Attack mix(1)",
+		"Prayer potion(4)", "Prayer potion(1)"), names(sorted));
 	}
 
 	@Test

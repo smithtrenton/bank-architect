@@ -87,6 +87,27 @@ public class BlockOrderTest
 	}
 
 	@Test
+	public void legacyDoseNameKeyResolvesOnlyToPresentFamiliesWithinItsTag()
+	{
+		BankLayoutOptions fullDose = BankLayoutOptions.DEFAULTS.withBlockArrangements(
+			BlockArrangements.EMPTY.withTag("potions", Arrays.asList("name:strength potion", "family:potion.attack")));
+		BankSnapshot full = new BankSnapshot(Arrays.asList(
+			new BankItemSnapshot(2428, 1, 0), new BankItemSnapshot(113, 1, 1)));
+		assertEquals(Arrays.asList(113, 2428), idsOn(build(full, fullDose),
+			BankLayoutPlan.defaultFor(BankPresets.IRONMAN).destinationOf("potions")));
+
+		BankLayoutOptions partialDose = new BankLayoutOptions(true, true, true,
+			Collections.emptyMap(), GearLayout.GRID_STYLES, PotionDoseOrder.BY_FAMILY,
+			RuneOrder.ALPHABETICAL, TeleportOrder.ALPHABETICAL)
+			.withBlockArrangements(BlockArrangements.EMPTY.withTag("potions",
+				Arrays.asList("name:strength potion", "family:potion.attack")));
+		BankSnapshot partial = new BankSnapshot(Arrays.asList(
+			new BankItemSnapshot(121, 1, 0), new BankItemSnapshot(115, 1, 1)));
+		assertEquals(Arrays.asList(115, 121), idsOn(build(partial, partialDose),
+			BankLayoutPlan.defaultFor(BankPresets.IRONMAN).destinationOf("potions")));
+	}
+
+	@Test
 	public void gearListPlaysTheSetsInTheArrangedOrder()
 	{
 		BankSnapshot gear = new BankSnapshot(Arrays.asList(

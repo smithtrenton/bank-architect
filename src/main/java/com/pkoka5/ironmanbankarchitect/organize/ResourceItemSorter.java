@@ -62,7 +62,6 @@ final class ResourceItemSorter
 		if (isSawmillCoupon(item)) return 2;
 		String name = normalized(item.getDisplayName());
 		String subcategory = normalized(item.getSubcategory());
-		if (isSailingMetal(name)) return 2;
 		if (isMiningResource(name)) return 3;
 
 		Optional<ItemSortMetadata> metadata = ResourceItemSortMetadataCatalog.INSTANCE.findById(item.getItemId())
@@ -70,6 +69,9 @@ final class ResourceItemSorter
 		if (metadata.isPresent())
 		{
 			String family = metadata.get().getFamilyKey();
+			if (family.equals("metal.blurite") || family.equals("metal.lovakite"))
+				return metadata.get().getVariantValue();
+			if (family.equals("metal.sailing-lead")) return metadata.get().getVariantValue();
 			if (family.startsWith("metal.")) return family.equals("metal.bars") ? 1 : 0;
 			if (family.startsWith("wood."))
 			{
@@ -79,6 +81,7 @@ final class ResourceItemSorter
 			if (family.startsWith("gem.")) return metadata.get().getVariantValue();
 		}
 
+		if (isSailingMetal(name)) return 2;
 		if (isMetal(name)) return name.endsWith(" bar") ? 1 : 0;
 		if (isWood(name))
 		{
@@ -219,13 +222,20 @@ final class ResourceItemSorter
 	{
 		Map<String, Integer> ranks = new LinkedHashMap<>();
 		ranks.put("metal.ores-base", 0);
+		ranks.put("metal.blurite", 5);
 		ranks.put("metal.ores-tier", 10);
+		ranks.put("metal.lovakite", 15);
 		ranks.put("metal.bars", 20);
+		ranks.put("metal.sailing-lead", 80);
+		ranks.put("gem.jade", 20);
+		ranks.put("gem.red-topaz", 30);
 		ranks.put("gem.sapphire", 40);
 		ranks.put("gem.emerald", 50);
 		ranks.put("gem.ruby", 60);
 		ranks.put("gem.diamond", 70);
 		ranks.put("gem.dragonstone", 80);
+		ranks.put("gem.onyx", 90);
+		ranks.put("gem.zenyte", 100);
 		ranks.put("fletching.ballista-assembly", 10);
 		return Collections.unmodifiableMap(ranks);
 	}

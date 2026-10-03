@@ -90,7 +90,8 @@ public class ResourceItemRegistryTest
 		assertCategory(811, "Rune dart", ItemCategory.GEAR);
 		assertCategory(554, "Fire rune", ItemCategory.RUNE);
 		assertCategory(556, "Air rune", ItemCategory.RUNE);
-		assertCategory(7936, "Pure essence", ItemCategory.RUNE);
+		assertCategory(7936, "Pure essence", ItemCategory.SKILLING);
+		assertSubcategory(7936, "raw-resource");
 	}
 
 	@Test
@@ -361,8 +362,10 @@ public class ResourceItemRegistryTest
 		assertCategory(28136, "Forestry kit", ItemCategory.TOOL);
 		assertCategory(25584, "Open fish barrel", ItemCategory.TOOL);
 		assertCategory(24481, "Open gem bag", ItemCategory.TOOL);
-		assertCategory(5509, "Small pouch", ItemCategory.RUNE);
-		assertCategory(5510, "Medium pouch", ItemCategory.RUNE);
+		assertCategory(5509, "Small pouch", ItemCategory.TOOL);
+		assertSubcategory(5509, "runecrafting-container");
+		assertCategory(5510, "Medium pouch", ItemCategory.TOOL);
+		assertSubcategory(5510, "runecrafting-container");
 		assertCategory(1734, "Thread", ItemCategory.SKILLING);
 		assertCategory(32085, "Sawmill coupon (oak plank)", ItemCategory.CURRENCY);
 	}
@@ -626,17 +629,17 @@ public class ResourceItemRegistryTest
 		assertCategory(4740, "Bolt rack", ItemCategory.GEAR);
 		assertSubcategory(4740, "ammo");
 		assertCategory(20220, "Holy blessing", ItemCategory.GEAR);
-		assertSubcategory(20220, "ammo");
+		assertSubcategory(20220, "gear");
 		assertCategory(20223, "Unholy blessing", ItemCategory.GEAR);
-		assertSubcategory(20223, "ammo");
+		assertSubcategory(20223, "gear");
 		assertCategory(20226, "Peaceful blessing", ItemCategory.GEAR);
-		assertSubcategory(20226, "ammo");
+		assertSubcategory(20226, "gear");
 		assertCategory(20229, "Honourable blessing", ItemCategory.GEAR);
-		assertSubcategory(20229, "ammo");
+		assertSubcategory(20229, "gear");
 		assertCategory(20232, "War blessing", ItemCategory.GEAR);
-		assertSubcategory(20232, "ammo");
+		assertSubcategory(20232, "gear");
 		assertCategory(20235, "Ancient blessing", ItemCategory.GEAR);
-		assertSubcategory(20235, "ammo");
+		assertSubcategory(20235, "gear");
 	}
 
 	@Test
@@ -903,10 +906,10 @@ public class ResourceItemRegistryTest
 		assertAuditFamily(new int[] {9019}, ItemCategory.HERBLORE, "herblore");
 
 		// Wiki: https://oldschool.runescape.wiki/w/Goblin_potion?oldid=15195296
-		assertClassification(26581, "Goblin potion(4)", ItemCategory.POTION, "potion-dose-4");
-		assertClassification(26583, "Goblin potion(3)", ItemCategory.POTION, "potion-dose-3");
-		assertClassification(26585, "Goblin potion(2)", ItemCategory.POTION, "potion-dose-2");
-		assertClassification(26587, "Goblin potion(1)", ItemCategory.POTION, "potion-dose-1");
+		assertClassification(26581, "Goblin potion(4)", ItemCategory.TOOL, "quest-utility");
+		assertClassification(26583, "Goblin potion(3)", ItemCategory.TOOL, "quest-utility");
+		assertClassification(26585, "Goblin potion(2)", ItemCategory.TOOL, "quest-utility");
+		assertClassification(26587, "Goblin potion(1)", ItemCategory.TOOL, "quest-utility");
 	}
 
 	@Test
@@ -1795,7 +1798,7 @@ public class ResourceItemRegistryTest
 		assertClassification(22711, "Collection log", ItemCategory.CLUE, "collection-trophy");
 		assertClassification(10107, "Long kebbit spike", ItemCategory.SKILLING, "ammo-component");
 		assertAuditFamily(new int[] {11260}, ItemCategory.TOOL, "resource-container");
-		assertAuditFamily(new int[] {29466}, ItemCategory.TOOL, "hunter-tool");
+		assertAuditFamily(new int[] {29466}, ItemCategory.TOOL, "resource-container");
 		assertAuditFamily(new int[] {6068, 6069, 10838, 10839}, ItemCategory.CLUE, "cosmetic");
 		assertClassification(10109, "Kebbit teeth", ItemCategory.HERBLORE, "secondary");
 		assertClassification(1735, "Shears", ItemCategory.TOOL, "tool");

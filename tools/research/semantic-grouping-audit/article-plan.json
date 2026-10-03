@@ -1,0 +1,56 @@
+[
+  {
+    "file": "collection-log-page.json",
+    "revision": 15356324
+  },
+  {
+    "file": "targeted-utilities-pages.json",
+    "titles": [
+      "Black candle",
+      "Black coffin",
+      "Bronze coffin",
+      "Deadman teleport tablet",
+      "Divine rune pouch",
+      "Empty sack",
+      "Flamtaer bag",
+      "Frog token",
+      "Gold coffin",
+      "Golden nugget",
+      "Huntsman's kit",
+      "Magic whistle",
+      "Medium fur pouch",
+      "Numulite",
+      "Oil lamp",
+      "Oil lantern",
+      "Rune pouch",
+      "Sapphire lantern",
+      "Silver coffin",
+      "Small fur pouch",
+      "Small meat pouch",
+      "Stardust",
+      "Steel coffin",
+      "Survival token",
+      "Tokkul",
+      "Torch",
+      "Trading sticks"
+    ]
+  },
+  {
+    "file": "targeted-utility-overlaps.json",
+    "titles": [
+      "Spirit flakes",
+      "Cowbell amulet",
+      "Blighted ancient ice sack"
+    ]
+  },
+  {
+    "file": "targeted-runecraft-pages.json",
+    "titles": [
+      "Rune essence",
+      "Pure essence",
+      "Daeyalt essence",
+      "Small pouch",
+      "Colossal pouch"
+    ]
+  }
+]

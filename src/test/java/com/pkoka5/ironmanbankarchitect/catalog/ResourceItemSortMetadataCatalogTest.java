@@ -30,7 +30,7 @@ public class ResourceItemSortMetadataCatalogTest
 		ItemSortMetadata halibut = catalog.findById(32336).get();
 		ItemSortMetadata prayerPotion = catalog.findById(2434).get();
 
-		assertEquals(408, catalog.size());
+		assertEquals(847, catalog.size());
 		assertEquals(20, shark.getImmediateHealMax());
 		assertEquals(ItemSortMetadata.HealModel.VARIABLE, anglerfish.getHealModel());
 		assertEquals(3, anglerfish.getImmediateHealMin());
@@ -47,8 +47,12 @@ public class ResourceItemSortMetadataCatalogTest
 		assertEquals(ItemSortMetadata.VariantKind.DOSE, prayerPotion.getVariantKind());
 		assertEquals(4, prayerPotion.getVariantValue());
 		assertEquals("osrs-wiki-potions-15243625", prayerPotion.getSourceKey());
+		assertEquals("light.oil-lamp", catalog.findById(4522).get().getFamilyKey());
+		assertEquals(ItemSortMetadata.VariantKind.STATE, catalog.findById(4522).get().getVariantKind());
+		assertEquals(1, catalog.findById(4524).get().getVariantValue());
+		assertEquals("utility.blighted-ice-sack", catalog.findById(24607).get().getFamilyKey());
 		assertFalse(catalog.findById(999_999).isPresent());
-		assertEquals(16, catalog.sourceKeys().size());
+		assertEquals(166, catalog.sourceKeys().size());
 		assertEquals("Pineapple pizza", ResourceItemRegistry.INSTANCE.findById(2301).get().getDisplayName());
 		assertEquals("Blighted manta ray", ResourceItemRegistry.INSTANCE.findById(24589).get().getDisplayName());
 		assertEquals("Halibut", ResourceItemRegistry.INSTANCE.findById(32336).get().getDisplayName());
@@ -61,18 +65,21 @@ public class ResourceItemSortMetadataCatalogTest
 		int doseCount = 0;
 		int chargeCount = 0;
 		int workflowStageCount = 0;
+		int stateCount = 0;
 		for (ItemSortMetadata metadata : ResourceItemSortMetadataCatalog.INSTANCE.entries())
 		{
 			if (metadata.isFood()) foodCount++;
 			if (metadata.getVariantKind() == ItemSortMetadata.VariantKind.DOSE) doseCount++;
 			if (metadata.getVariantKind() == ItemSortMetadata.VariantKind.CHARGE) chargeCount++;
 			if (metadata.getVariantKind() == ItemSortMetadata.VariantKind.WORKFLOW_STAGE) workflowStageCount++;
+			if (metadata.getVariantKind() == ItemSortMetadata.VariantKind.STATE) stateCount++;
 		}
 
-		assertEquals(43, foodCount);
-		assertEquals(88, doseCount);
+		assertEquals(44, foodCount);
+		assertEquals(470, doseCount);
 		assertEquals(81, chargeCount);
-		assertEquals(196, workflowStageCount);
+		assertEquals(210, workflowStageCount);
+		assertEquals(41, stateCount);
 		assertWorkflowFamily("herb.guam", 199, 249, 91);
 		assertWorkflowFamily("herb.ranarr", 207, 257, 99);
 		assertWorkflowFamily("herb.dwarf_weed", 217, 267, 109);
@@ -83,6 +90,13 @@ public class ResourceItemSortMetadataCatalogTest
 		assertResourceWorkflowFamily("gem.sapphire", 1623, 1607);
 		assertResourceWorkflowFamily("gem.opal", 1625, 1609);
 		assertResourceWorkflowFamily("gem.dragonstone", 1631, 1615);
+		assertResourceWorkflowFamily("gem.jade", 1627, 1611);
+		assertResourceWorkflowFamily("gem.red-topaz", 1629, 1613);
+		assertResourceWorkflowFamily("gem.onyx", 6571, 6573);
+		assertResourceWorkflowFamily("gem.zenyte", 19496, 19493);
+		assertResourceWorkflowFamily("metal.blurite", 668, 9467);
+		assertResourceWorkflowFamily("metal.lovakite", 13356, 13354);
+		assertResourceWorkflowFamily("metal.sailing-lead", 31716, 32889);
 		assertOrderedWorkflowFamily("wood.logs.normal",
 			new int[] {1511, 1521, 1519, 1517, 1515, 1513, 19669});
 		assertOrderedWorkflowFamily("wood.logs.construction",
@@ -126,6 +140,12 @@ public class ResourceItemSortMetadataCatalogTest
 		assertDoseFamily("potion.anti_venom", new int[] {12905, 12907, 12909, 12911});
 		assertDoseFamily("potion.anti_venom_plus", new int[] {12913, 12915, 12917, 12919});
 		assertDoseFamily("potion.saradomin_brew", new int[] {6685, 6687, 6689, 6691});
+		assertDoseFamily("dose.wiki.moonlight_potion", new int[] {29080, 29081, 29082, 29083});
+		for (int itemId : new int[] {29080, 29081, 29082, 29083})
+		{
+			assertEquals("activity-potion", ResourceItemRegistry.INSTANCE.findById(itemId).get().getSubcategory());
+			assertTrue(CompositeItemCatalog.DEFAULT.describeOrUnknown(itemId).hasTag("neypotzli"));
+		}
 	}
 
 	@Test
@@ -139,14 +159,19 @@ public class ResourceItemSortMetadataCatalogTest
 			23559, 23561, 23563, 23565,
 			23567, 23569, 23571, 23573,
 			23575, 23577, 23579, 23581,
-			23583, 23585, 23587, 23589,
-			26150, 26151, 26152, 26153
+			23583, 23585, 23587, 23589
 		};
 
 		for (int itemId : excludedIds)
 		{
 			assertFalse("context-only ID must not be curated: " + itemId,
 				ResourceItemSortMetadataCatalog.INSTANCE.findById(itemId).isPresent());
+		}
+		for (int itemId : new int[] {26150, 26151, 26152, 26153})
+		{
+			assertEquals("dose.wiki.combat_potion_deadman_starter_pack",
+				ResourceItemSortMetadataCatalog.INSTANCE.findById(itemId).get().getFamilyKey());
+			assertEquals(0, com.pkoka5.ironmanbankarchitect.organize.layout.PotionDoseSemanticRuleSet.maxDoseFor(itemId));
 		}
 	}
 
@@ -165,13 +190,19 @@ public class ResourceItemSortMetadataCatalogTest
 				assertEquals("category of " + item.getDisplayName(), ItemCategory.POTION, item.getCategory());
 				assertEquals("subcategory of " + item.getDisplayName(), "food", item.getSubcategory());
 			}
-			else if (metadata.getVariantKind() == ItemSortMetadata.VariantKind.DOSE)
+			else if (metadata.getVariantKind() == ItemSortMetadata.VariantKind.DOSE
+				&& com.pkoka5.ironmanbankarchitect.organize.layout.PotionDoseSemanticRuleSet
+					.maxDoseFor(metadata.getItemId()) > 0)
 			{
 				assertEquals("category of " + item.getDisplayName(), ItemCategory.POTION, item.getCategory());
-				assertEquals("subcategory of " + item.getDisplayName(),
-					"potion-dose-" + metadata.getVariantValue(), item.getSubcategory());
+				int maxDose = com.pkoka5.ironmanbankarchitect.organize.layout.PotionDoseSemanticRuleSet
+					.maxDoseFor(metadata.getItemId());
+				String expected = metadata.getVariantValue() == maxDose && maxDose == 2 ? "potion"
+					: metadata.getItemId() == 4417 ? "drink" : "potion-dose-" + metadata.getVariantValue();
+				assertEquals("subcategory of " + item.getDisplayName(), expected, item.getSubcategory());
 			}
 		}
+		usedSourceKeys.add("osrs-wiki-red-hot-sauce-15317107");
 		assertEquals(ResourceItemSortMetadataCatalog.INSTANCE.sourceKeys(), usedSourceKeys);
 	}
 
@@ -179,8 +210,8 @@ public class ResourceItemSortMetadataCatalogTest
 	public void acceptsNonFoodPotionDoseFactsIncludingAreaRestrictions()
 	{
 		String rows =
-			"2434\tpotion.prayer\tDOSE\t4\tNONE\tNONE\t0\t0\t0\tNONE\ttest-source\n" +
-			"24598\tpotion.blighted_super_restore\tDOSE\t4\tNONE\tNONE\t0\t0\t0\tBLIGHTED_AREAS\ttest-source\n";
+			"2434	potion.prayer	DOSE	4	NONE	NONE	0	0	0	NONE	test-source\n" +
+			"24598	potion.blighted_super_restore	DOSE	4	NONE	NONE	0	0	0	BLIGHTED_AREAS	test-source\n";
 		Map<Integer, ItemSortMetadata> loaded = ResourceItemSortMetadataCatalog.loadMetadata(
 			stream(SCHEMA + rows), Collections.singleton("test-source"));
 
@@ -199,21 +230,21 @@ public class ResourceItemSortMetadataCatalogTest
 	@Test
 	public void rejectsUnknownSourcesAndInvalidHealingModels()
 	{
-		assertInvalid("385\tfood.shark\tNONE\t0\tSTANDARD\tFIXED\t20\t20\t0\tNONE\tmissing\n",
+		assertInvalid("385	food.shark	NONE	0	STANDARD	FIXED	20	20	0	NONE	missing\n",
 			"unknown sourceKey", "missing");
-		assertInvalid("385\tfood.shark\tNONE\t0\tSTANDARD\tFIXED\t19\t20\t0\tNONE\ttest-source\n",
+		assertInvalid("385	food.shark	NONE	0	STANDARD	FIXED	19	20	0	NONE	test-source\n",
 			"FIXED healing", "equal");
-		assertInvalid("385\tfood.shark\tSERVINGS\t2\tSTANDARD\tFIXED\t20\t20\t0\tNONE\ttest-source\n",
+		assertInvalid("385	food.shark	SERVINGS	2	STANDARD	FIXED	20	20	0	NONE	test-source\n",
 			"SERVINGS metadata", "MULTI_BITE");
-		assertInvalid("385\titem.example\tSERVINGS\t2\tNONE\tNONE\t0\t0\t0\tNONE\ttest-source\n",
+		assertInvalid("385	item.example	SERVINGS	2	NONE	NONE	0	0	0	NONE	test-source\n",
 			"SERVINGS metadata", "MULTI_BITE");
-		assertInvalid("2434\tpotion.prayer\tDOSE\t0\tNONE\tNONE\t0\t0\t0\tNONE\ttest-source\n",
+		assertInvalid("2434	potion.prayer	DOSE	0	NONE	NONE	0	0	0	NONE	test-source\n",
 			"DOSE variant", "between 1 and 4");
-		assertInvalid("2434\tpotion.prayer\tDOSE\t5\tNONE\tNONE\t0\t0\t0\tNONE\ttest-source\n",
+		assertInvalid("2434	potion.prayer	DOSE	5	NONE	NONE	0	0	0	NONE	test-source\n",
 			"DOSE variant", "between 1 and 4");
-		assertInvalid("199\therb.guam\tWORKFLOW_STAGE\t-1\tNONE\tNONE\t0\t0\t0\tNONE\ttest-source\n",
+		assertInvalid("199	herb.guam	WORKFLOW_STAGE	-1	NONE	NONE	0	0	0	NONE	test-source\n",
 			"WORKFLOW_STAGE variant", "negative");
-		assertInvalid("2434\tpotion.prayer\tDOSE\t4\tNONE\tFIXED\t1\t1\t0\tNONE\ttest-source\n",
+		assertInvalid("2434	potion.prayer	DOSE	4	NONE	FIXED	1	1	0	NONE	test-source\n",
 			"non-food metadata", "healing facts");
 	}
 
@@ -226,22 +257,22 @@ public class ResourceItemSortMetadataCatalogTest
 	@Test
 	public void validatesSourceManifestShapeDatesAndDuplicates()
 	{
-		String valid = "test-source\thttps://oldschool.runescape.wiki/w/Food?oldid=1\t2026-07-13\t1\tCC BY-NC-SA 3.0\n";
+		String valid = "test-source	https://oldschool.runescape.wiki/w/Food?oldid=1	2026-07-13	1	CC BY-NC-SA 3.0\n";
 		Set<String> loaded = ResourceItemSortMetadataCatalog.loadSourceKeys(stream(SCHEMA + valid));
 		assertEquals(Collections.singleton("test-source"), loaded);
 
 		assertInvalidSource(valid + valid, "line 3", "duplicate source_key");
-		assertInvalidSource("test-source\thttp://example.com\t2026-07-13\t1\tlicense\n",
+		assertInvalidSource("test-source	http://example.com	2026-07-13	1	license\n",
 			"HTTPS", "source_url");
-		assertInvalidSource("test-source\thttps://example.com\tnot-a-date\t1\tlicense\n",
+		assertInvalidSource("test-source	https://example.com	not-a-date	1	license\n",
 			"line 2", "not-a-date");
-		assertInvalidSource("Bad Source\thttps://example.com\t2026-07-13\t1\tlicense\n",
+		assertInvalidSource("Bad Source	https://example.com	2026-07-13	1	license\n",
 			"source_key", "lowercase stable key");
-		assertInvalidSource("test-source\thttps://oldschool.runescape.wiki/w/Food?oldid=2\t2026-07-13\t1\tlicense\n",
+		assertInvalidSource("test-source	https://oldschool.runescape.wiki/w/Food?oldid=2	2026-07-13	1	license\n",
 			"oldid", "revision");
-		assertInvalidSource("test-source\thttps://oldschool.runescape.wiki/w/Food?oldid=abc\t2026-07-13\tabc\tCC BY-NC-SA 3.0\n",
+		assertInvalidSource("test-source	https://oldschool.runescape.wiki/w/Food?oldid=abc	2026-07-13	abc	CC BY-NC-SA 3.0\n",
 			"revision", "numeric");
-		assertInvalidSource("test-source\thttps://oldschool.runescape.wiki/w/Food?oldid=1\t2026-07-13\t1\tunknown\n",
+		assertInvalidSource("test-source	https://oldschool.runescape.wiki/w/Food?oldid=1	2026-07-13	1	unknown\n",
 			"license", "CC BY-NC-SA 3.0");
 	}
 
@@ -258,7 +289,7 @@ public class ResourceItemSortMetadataCatalogTest
 
 	private static String validRow(int itemId)
 	{
-		return itemId + "\tfood.shark\tNONE\t0\tSTANDARD\tFIXED\t20\t20\t0\tNONE\ttest-source\n";
+		return itemId + "	food.shark	NONE	0	STANDARD	FIXED	20	20	0	NONE	test-source\n";
 	}
 
 	private static void assertDoseFamily(String familyKey, int[] itemIds)

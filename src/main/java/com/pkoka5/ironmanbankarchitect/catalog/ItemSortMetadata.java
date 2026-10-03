@@ -20,7 +20,8 @@ public final class ItemSortMetadata
 		DOSE,
 		CHARGE,
 		SERVINGS,
-		WORKFLOW_STAGE
+		WORKFLOW_STAGE,
+		STATE
 	}
 
 	public enum FoodRole
@@ -106,6 +107,12 @@ public final class ItemSortMetadata
 				if (variantValue < 0)
 				{
 					throw new IllegalArgumentException("WORKFLOW_STAGE variant must not be negative");
+				}
+				break;
+			case STATE:
+				if (variantValue < 0)
+				{
+					throw new IllegalArgumentException("STATE variant must not be negative");
 				}
 				break;
 			case DOSE:

@@ -33,7 +33,7 @@ public final class ClassificationNames
 			}
 		}
 		catch (java.io.IOException ex) { throw new IllegalStateException("Cannot read classification names", ex); }
-		if (groups.size() != 76) throw new IllegalStateException("Incomplete classification names");
+		if (groups.size() != 150) throw new IllegalStateException("Incomplete classification names");
 		return java.util.Collections.unmodifiableList(groups);
 	}
 }

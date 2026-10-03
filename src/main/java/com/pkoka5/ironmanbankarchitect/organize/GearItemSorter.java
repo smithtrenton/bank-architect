@@ -676,25 +676,20 @@ final class GearItemSorter
 
 		String name = normalizedName(item.getDisplayName());
 		int score = 0;
-		score = Math.max(score, scoreIfContains(name, 1000, "torva", "ancestral", "masori", "tumeken", "twisted bow",
-			"scythe", "shadow"));
-		score = Math.max(score, scoreIfContains(name, 900, "bandos", "armadyl", "ahrim", "karil", "zaryte",
-			"crystal", "bowfa", "bow of faerdhinen", "toxic blowpipe", "trident", "occult", "primordial",
-			"pegasian", "eternal"));
-		score = Math.max(score, scoreIfContains(name, 800, "barrows", "fighter torso", "serpentine",
-			"faceguard", "dragonfire", "abyssal", "whip", "tentacle", "dragon defender", "rune defender",
-			"blessed d'hide", "god d'hide", "malediction", "odium", "toxic"));
-		score = Math.max(score, scoreIfContains(name, 700, "dragon", "black d'hide", "mystic", "infinity",
-			"rune crossbow", "magic shortbow", "book of darkness", "tome"));
-		score = Math.max(score, scoreIfContains(name, 600, "rune", "red d'hide", "blue d'hide", "green d'hide",
-			"splitbark", "xerician"));
-		score = Math.max(score, scoreIfContains(name, 500, "adamant", "mithril", "leather", "wizard"));
+		score = Math.max(score, scoreIfContains(name, 114));
+		score = Math.max(score, scoreIfContains(name, 115));
+		score = Math.max(score, scoreIfContains(name, 116));
+		score = Math.max(score, scoreIfContains(name, 117));
+		score = Math.max(score, scoreIfContains(name, 118));
+		score = Math.max(score, scoreIfContains(name, 119));
 		return score;
 	}
 
-	private static int scoreIfContains(String name, int score, String... needles)
+	private static int scoreIfContains(String name, int group)
 	{
-		return containsAny(name, needles) ? score : 0;
+		String[] row = ClassificationNames.group(group);
+		return containsAny(name, java.util.Arrays.copyOfRange(row, 1, row.length))
+			? Integer.parseInt(row[0]) : 0;
 	}
 
 	private static boolean containsAny(String value, String... needles)

@@ -1,5 +1,6 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
 import com.pkoka5.ironmanbankarchitect.catalog.CatalogItem;
 import com.pkoka5.ironmanbankarchitect.organize.layout.ItemSetCatalog;
 import java.util.Arrays;
@@ -25,18 +26,11 @@ final class IronmanMainTabPolicy
 	 */
 	private static final String GRACEFUL_FAMILY_PREFIX = "tools.graceful-";
 	private static final Set<Integer> RUNE_POUCH_IDS = Collections.unmodifiableSet(
-		new HashSet<>(Arrays.asList(12791, 27281, 27509)));
+		new HashSet<>(Arrays.asList(12791, 24416, 27281, 27509)));
 	private static final Set<Integer> RECURRING_UTILITY_IDS = Collections.unmodifiableSet(
 		new HashSet<>(Arrays.asList(
 			8013, 4251, 30638, 32399, 19564, 22400, 13393, 25818, 21389,
 			1755, 952, 24711)));
-
-	private static final String[] ACHIEVEMENT_REWARD_PREFIXES = {
-		"ardougne cloak", "desert amulet", "explorer's ring", "falador shield",
-		"fremennik sea boots", "ghommal's hilt", "kandarin headgear", "karamja gloves",
-		"morytania legs", "rada's blessing", "varrock armour", "western banner",
-		"wilderness sword"
-	};
 
 	private IronmanMainTabPolicy()
 	{
@@ -51,7 +45,7 @@ final class IronmanMainTabPolicy
 		}
 
 		String name = normalized(item.getDisplayName());
-		for (String prefix : ACHIEVEMENT_REWARD_PREFIXES)
+		for (String prefix : ClassificationNames.group(147))
 		{
 			if (name.equals(prefix) || name.startsWith(prefix + " "))
 			{

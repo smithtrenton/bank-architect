@@ -41,6 +41,18 @@ public class FarmingItemSorterTest
 	}
 
 	@Test
+	public void treeSeedlingsFollowOnlyTheirExactReviewedSeedPairs()
+	{
+		assertExactRun(Arrays.asList(5312, 5370, 5313, 5371, 5314, 5372, 5315, 5373,
+			5316, 5374, 21486, 21477, 21488, 21480, 22869, 22856, 22871, 22859,
+			31547, 31502, 31549, 31505, 31551, 31508, 23661, 23659));
+		assertExactRun(Arrays.asList(5283, 5496, 5284, 5497, 5285, 5498, 5286, 5499,
+			5287, 5500, 5288, 5501, 5289, 5502, 5290, 5503, 22877, 22866));
+		assertExactRun(Arrays.asList(5317, 5375, 22875, 22881, 22883, 22885,
+			31541, 31543, 31545, 21490));
+	}
+
+	@Test
 	public void partialFamiliesStayDenseWithoutInventingMissingSeeds()
 	{
 		List<BankPreviewItem> input = Arrays.asList(
@@ -90,6 +102,17 @@ public class FarmingItemSorterTest
 		assertTrue(start >= 0);
 		assertTrue((start + usedColumns) % 8 + expected.size() <= 8);
 		assertEquals(expected, actual.subList(start, start + expected.size()));
+	}
+
+	private static void assertExactRun(List<Integer> expected)
+	{
+		List<BankPreviewItem> input = new ArrayList<>();
+		for (int id : expected)
+		{
+			input.add(item(id, "Item " + id));
+		}
+		Collections.reverse(input);
+		assertEquals(expected, ids(FarmingItemSorter.layout(input, 0)));
 	}
 
 	private static void assertPermutation(List<BankPreviewItem> input, List<BankPreviewItem> output)

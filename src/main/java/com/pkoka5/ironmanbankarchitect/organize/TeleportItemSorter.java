@@ -1,5 +1,6 @@
 package com.pkoka5.ironmanbankarchitect.organize;
 
+import com.pkoka5.ironmanbankarchitect.catalog.ClassificationNames;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemCategory;
 import com.pkoka5.ironmanbankarchitect.catalog.ItemSortMetadata;
 import com.pkoka5.ironmanbankarchitect.catalog.ResourceItemSortMetadataCatalog;
@@ -79,8 +80,7 @@ final class TeleportItemSorter
 			return 100;
 		}
 		String name = normalized(item.getDisplayName());
-		String[] order = {"air", "water", "earth", "fire", "mind", "body", "cosmic", "chaos",
-			"nature", "law", "death", "blood", "soul", "astral", "wrath"};
+		String[] order = ClassificationNames.group(143);
 		for (int i = 0; i < order.length; i++)
 		{
 			if ((role == 0 && name.equals(order[i] + " rune"))
@@ -96,7 +96,7 @@ final class TeleportItemSorter
 	{
 		if (roleRank(item) != 21) return 100;
 		String name = normalized(item.getDisplayName());
-		String[] order = {"small", "medium", "large", "giant", "colossal"};
+		String[] order = ClassificationNames.group(146);
 		for (int i = 0; i < order.length; i++)
 		{
 			if (name.startsWith(order[i] + " pouch")) return i;
@@ -106,8 +106,7 @@ final class TeleportItemSorter
 
 	private static boolean isEssencePouch(String name)
 	{
-		return containsAny(name, "small pouch", "medium pouch", "large pouch", "giant pouch",
-			"colossal pouch");
+		return containsAny(name, ClassificationNames.group(6));
 	}
 
 	private static boolean isJewellery(BankPreviewItem item)
@@ -115,11 +114,7 @@ final class TeleportItemSorter
 		Optional<ItemSortMetadata> metadata = teleportJewelleryMetadata(item);
 		if (metadata.isPresent()) return true;
 		String name = normalized(item.getDisplayName());
-		return containsAny(name, "ring of dueling", "games necklace", "amulet of glory",
-			"skills necklace", "combat bracelet", "burning amulet", "necklace of passage",
-			"digsite pendant", "ring of wealth", "slayer ring", "ring of returning",
-			"ring of the elements", "ring of shadows", "camulet", "desert amulet",
-			"giantsoul amulet", "sailors' amulet");
+		return containsAny(name, ClassificationNames.group(145));
 	}
 
 	private static String familyName(BankPreviewItem item)
@@ -159,10 +154,7 @@ final class TeleportItemSorter
 
 	private static boolean isReusableDevice(String name)
 	{
-		return containsAny(name, "ectophial", "xeric's talisman", "drakan's medallion",
-			"royal seed pod", "enchanted lyre", "pharaoh's sceptre", "chronicle",
-			"kharedst's memoirs", "book of the dead", "teleport crystal",
-			"quetzal whistle", "pendant of ates", "skull sceptre");
+		return containsAny(name, ClassificationNames.group(144));
 	}
 
 	private static boolean isTablet(BankPreviewItem item)

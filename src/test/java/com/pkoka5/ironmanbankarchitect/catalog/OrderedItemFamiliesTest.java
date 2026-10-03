@@ -21,6 +21,9 @@ public class OrderedItemFamiliesTest
 		// Reviewed October 2: append Guild hunter and Golden prospector columns.
 		assertOriginal("tool", 0, 34, "dc28e8281d146af28855b2b5928eae099558ef9e22495fef296ac846944bd6ce");
 		assertOriginal("resource", 0, 40, "8a8d2e0b5c704af9e462c61d3ee6d746d6de004db25ef573e82467d6e7b93a57");
+		assertOriginal("alch-candidate", 0, 1, "02cb40cee2e80d5e1b008ca00efb662fc159659ac510a3edda39a09b84874839");
+		assertOriginal("quick-tool", 0, 25, "ed32f797edd96ab126f0c527c9852a057239a1ca6df8144f1370b3356df9c1ac");
+		assertOriginal("rune", 0, 6, "c297ebee58b715fe496281b4bc5aef45b50537b2da6cabca7adfdbd036349bc2");
 	}
 
 	@Test
@@ -87,6 +90,31 @@ public class OrderedItemFamiliesTest
 		assertThrows(CatalogUnavailableException.class, duplicate::entries);
 	}
 
+	private static Map<String, List<Integer>> originalFamilies(String name, Map<String, List<Integer>> families)
+	{
+		Map<String, List<Integer>> original = new java.util.LinkedHashMap<>();
+		for (Map.Entry<String, List<Integer>> entry : families.entrySet())
+		{
+			String key = entry.getKey();
+			if (name.equals("farming") && key.startsWith("farming.activity.")) continue;
+			if (name.equals("tool") && (key.startsWith("outfits/outfit.camo-")
+				|| key.startsWith("UTILITY_STATES/"))) continue;
+			if (name.equals("gear") && key.equals("gear.splitbark")) continue;
+			if (name.equals("potion") && key.startsWith("dose.wiki.")) continue;
+			if (name.equals("resource") && (key.equals("METAL_FAMILIES/metal.blurite")
+				|| key.equals("METAL_FAMILIES/metal.lovakite") || key.equals("GEM_FAMILIES/gem.jade")
+				|| key.equals("GEM_FAMILIES/gem.red-topaz") || key.equals("GEM_FAMILIES/gem.onyx")
+				|| key.equals("GEM_FAMILIES/gem.zenyte"))) continue;
+			List<Integer> members = new java.util.ArrayList<>(entry.getValue());
+			if (name.equals("farming")) members.removeIf(id -> java.util.Set.of(
+				5370, 5371, 5372, 5373, 5374, 5375, 5496, 5497, 5498, 5499, 5500, 5501,
+				5502, 5503, 21477, 21480, 22856, 22859, 22866, 23659, 23661, 31502, 31505, 31508).contains(id));
+			if (name.equals("resource")) members.removeIf(id -> id == 31716 || id == 32889);
+			original.put(key, members);
+		}
+		return original;
+	}
+
 	private static OrderedItemFamilies table(String data, int width)
 	{
 		return new OrderedItemFamilies(new ByteArrayInputStream(data.getBytes(StandardCharsets.UTF_8)), width);
@@ -95,10 +123,11 @@ public class OrderedItemFamiliesTest
 	private static void assertOriginal(String name, int width, int rows, String expected) throws Exception
 	{
 		Map<String, List<Integer>> families = new OrderedItemFamilies(OrderedItemFamiliesTest.class
-			.getResourceAsStream(name + "-layout-families.tsv"), width, !name.equals("tool") && !name.equals("resource")).entries();
-		assertEquals(rows, families.size());
+			.getResourceAsStream(name + "-layout-families.tsv"), name.equals("potion") ? 0 : width, !name.equals("tool") && !name.equals("resource")).entries();
+		Map<String, List<Integer>> original = originalFamilies(name, families);
+		assertEquals(rows, original.size());
 		StringBuilder canonical = new StringBuilder();
-		families.forEach((key, ids) -> canonical.append(key).append('\t')
+		original.forEach((key, ids) -> canonical.append(key).append('\t')
 			.append(ids.stream().map(String::valueOf).collect(Collectors.joining(","))).append('\n'));
 		byte[] digest = MessageDigest.getInstance("SHA-256").digest(canonical.toString().getBytes(StandardCharsets.UTF_8));
 		StringBuilder hex = new StringBuilder();

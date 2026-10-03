@@ -1,0 +1,258 @@
+{
+  "source_scope": "Exact-ID membership proposals only. Names are labels, not membership detectors. Every included ID has an exact Wiki join or is linked by the cited source page's explicit component list; unjoined IDs are called out separately and are not propagated by name.",
+  "set_catalog_baseline": {
+    "note": "These existing exact-ID groups were present in ItemSetCatalog and are recorded as baseline coverage. This audit did not independently verify every member.",
+    "member_rows_by_domain": {
+      "gear": 144,
+      "tools": 83,
+      "cosmetics": 164,
+      "cosmetic-family": 48
+    }
+  },
+  "proposals": [
+    {
+      "key": "tools.angler-outfit",
+      "name": "Angler outfit",
+      "destination_domain": "tools",
+      "member_ids": [13258, 13259, 13260, 13261],
+      "member_slots": ["hat", "top", "waders", "boots"],
+      "evidence": "The Skilling equipment page identifies the Angler outfit as a four-piece Fishing set; the Angler top page identifies item ID 13259 and its set membership.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Angler_top"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.spirit-angler-outfit",
+      "name": "Spirit angler outfit",
+      "destination_domain": "tools",
+      "member_ids": [25592, 25594, 25596, 25598],
+      "member_slots": ["headband", "top", "waders", "boots"],
+      "evidence": "The Skilling equipment page explicitly lists the Spirit angler set's four pieces and states each piece converts from the corresponding Angler piece. Keep this as a separate color/style set and retain the per-slot conversion relationship.",
+      "transforms_from": [13258, 13259, 13260, 13261],
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Update:Fishing_Skill_Boss_Poll_Blog"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.farmers-outfit",
+      "name": "Farmer's outfit",
+      "destination_domain": "tools",
+      "member_ids": [13640, 13641, 13642, 13643, 13644, 13645, 13646, 13647],
+      "member_slots": ["boro trousers (two exact item IDs)", "jacket", "shirt", "boots (two exact item IDs)", "strawhat (two exact item IDs)"],
+      "evidence": "The Skilling equipment and Farmer Gricoller's Rewards pages list the outfit components. The reward page says jacket and shirt are body-type alternatives; preserve those IDs and do not treat them as two simultaneously required slots.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Auto_weeder"
+      ],
+      "confidence": "high",
+      "caveat": "Exact-ID duplicates/variants remain separate rows; page component lists describe the semantic slots, not that every alternate is worn at once."
+    },
+    {
+      "key": "tools.carpenters-outfit",
+      "name": "Carpenter's outfit",
+      "destination_domain": "tools",
+      "member_ids": [24872, 24874, 24876, 24878],
+      "member_slots": ["helmet", "shirt", "trousers", "boots"],
+      "evidence": "The Skilling equipment page lists the four-piece Construction set; the Mahogany Homes reward page names each component and describes each as a piece of the Carpenter's outfit.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Adept_contract"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.zealots-robes",
+      "name": "Zealot's robes",
+      "destination_domain": "tools",
+      "member_ids": [25434, 25436, 25438, 25440],
+      "member_slots": ["robe top", "robe bottom", "helm", "boots"],
+      "evidence": "The Skilling equipment page lists the four pieces as the Zealot's Prayer set; the item pages and collection-log entries use the same exact component names. The set has a prayer utility effect even though it has no ordinary combat bonus, so keep it as useful equipment.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Zealot%27s_robes"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.smiths-uniform",
+      "name": "Smiths' Uniform",
+      "destination_domain": "tools",
+      "member_ids": [27023, 27025, 27027, 27029],
+      "member_slots": ["tunic", "trousers", "boots", "gloves"],
+      "evidence": "The Smiths' Uniform page lists these four pieces and their skilling effects. The matching blacksmith's helm is explicitly excluded from the outfit.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Smithing_armor?oldid=14910928"
+      ],
+      "confidence": "high",
+      "same_slot_upgrade_ids": [27031],
+      "upgrade_evidence": "Smiths gloves (i) combines Smiths gloves with Ice gloves and is separately storable; model it as a same-slot upgraded glove, not a fifth outfit slot.",
+      "upgrade_source": "https://oldschool.runescape.wiki/w/Smiths_gloves_%28i%29"
+    },
+    {
+      "key": "tools.raiments-of-the-eye",
+      "name": "Raiments of the Eye",
+      "destination_domain": "tools",
+      "member_ids": [26850, 26852, 26854, 26856, 26858, 26860, 26862, 26864, 26866, 26868, 26870, 26872, 26874],
+      "member_slots": ["hat", "robe top", "robe bottoms", "boots", "red/green/blue hat and robe variants"],
+      "evidence": "The exact-ID item pages join to the Raiments of the Eye page, which lists the base components and red, green, and blue variants; the outfit grants extra runes and can be stored in a magic wardrobe.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Raiments_of_the_Eye?oldid=14917005",
+        "https://oldschool.runescape.wiki/w/XP_clothing"
+      ],
+      "confidence": "high_for_listed_ids",
+      "unresolved_ids": [26851, 26853, 26857, 26859, 26861, 26865, 26867, 26871, 26873],
+      "unresolved_note": "These effective catalog IDs have no exact-ID Wiki fact in this joined snapshot. They may be related variants, but the audit does not inherit membership from similar names."
+    },
+    {
+      "key": "tools.golden-prospector-kit",
+      "name": "Golden prospector kit",
+      "destination_domain": "tools",
+      "member_ids": [25549, 25551, 25553, 25555],
+      "member_slots": ["helmet", "jacket", "legs", "boots"],
+      "evidence": "The Skilling equipment page lists four Golden prospector components and says each is made by applying a star fragment to its regular Prospector piece. Keep it as an alternate styled set linked by exact slot.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Prospector_kit"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.woodland-camouflage-gear",
+      "name": "Woodland camouflage gear",
+      "destination_domain": "tools",
+      "member_ids": [10053, 10055],
+      "member_slots": ["top", "legs"],
+      "evidence": "The Wiki set page names exactly these two pieces and describes the top and legs' weight-reduction effects. It also says the set can be stored in the costume-room armour case.",
+      "sources": ["https://oldschool.runescape.wiki/w/Wood_camo"],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.jungle-camouflage-gear",
+      "name": "Jungle camouflage gear",
+      "destination_domain": "tools",
+      "member_ids": [10057, 10059],
+      "member_slots": ["top", "legs"],
+      "evidence": "The Wiki item pages and Hunter gear table identify the Jungle camouflage top/legs as a two-piece Hunter gear set.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Jungle_camo",
+        "https://oldschool.runescape.wiki/w/Wood_camo"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.desert-camouflage-gear",
+      "name": "Desert camouflage gear",
+      "destination_domain": "tools",
+      "member_ids": [10061, 10063],
+      "member_slots": ["top", "legs"],
+      "evidence": "The Wiki item pages and Hunter gear table identify the Desert camouflage top/legs as a two-piece Hunter gear set.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Desert_camo",
+        "https://oldschool.runescape.wiki/w/Wood_camo"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "tools.polar-camouflage-gear",
+      "name": "Polar camouflage gear",
+      "destination_domain": "tools",
+      "member_ids": [10065, 10067],
+      "member_slots": ["top", "legs"],
+      "evidence": "The Wiki item pages and Hunter gear table identify the Polar camouflage top/legs as a two-piece Hunter gear set.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Polar_camo",
+        "https://oldschool.runescape.wiki/w/Wood_camo"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "gear.ammunition.javelins",
+      "name": "Ballista javelin ammunition",
+      "destination_domain": "gear",
+      "subcategory_proposal": "ammo",
+      "member_ids": [825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 5642, 5643, 5644, 5645, 5646, 5647, 5648, 5649, 5650, 5651, 5652, 5653, 19484, 19486, 19488, 19490, 21318, 21320, 21322, 21324],
+      "subfamilies": [
+        {"name": "Bronze javelins", "member_ids": [825, 831, 5642, 5648]},
+        {"name": "Iron javelins", "member_ids": [826, 832, 5643, 5649]},
+        {"name": "Steel javelins", "member_ids": [827, 833, 5644, 5650]},
+        {"name": "Mithril javelins", "member_ids": [828, 834, 5645, 5651]},
+        {"name": "Adamant javelins", "member_ids": [829, 835, 5646, 5652]},
+        {"name": "Rune javelins", "member_ids": [830, 836, 5647, 5653]},
+        {"name": "Dragon javelins", "member_ids": [19484, 19486, 19488, 19490]},
+        {"name": "Amethyst javelins", "member_ids": [21318, 21320, 21322, 21324]}
+      ],
+      "evidence": "Every listed ID has a unique exact-page/subpage Wiki equipment-slot=ammo match. Wiki combat pages identify javelins as ammunition fired by ballistae. Current catalog subcategory/tag is generic GEAR/gear, so the existing Ammunition tag misses them.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Weapons",
+        "https://oldschool.runescape.wiki/w/Crossbow_(weapon)",
+        "https://oldschool.runescape.wiki/w/Category:Ammunition_slot_items?oldid=10414775"
+      ],
+      "confidence": "high",
+      "caveat": "Poison states remain exact separate item IDs. Ammunition-slot membership alone is not the detector: the slot also contains blessings and utility items."
+    },
+    {
+      "key": "gear.ammunition.brutal-arrows",
+      "name": "Brutal arrows",
+      "destination_domain": "gear",
+      "subcategory_proposal": "ammo",
+      "member_ids": [4773, 4778, 4783, 4788, 4793, 4798, 4803],
+      "member_names": ["Bronze brutal", "Iron brutal", "Steel brutal", "Black brutal", "Mithril brutal", "Adamant brutal", "Rune brutal"],
+      "evidence": "Each exact-ID page has the positive Arrows category and a unique ammunition slot record. The Rune brutal page directly states its bow compatibility and gives ranged strength +60 (item ID 4803). All seven are currently CLEANUP/cleanup, so they miss the combat ammunition grouping.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Rune_brutal",
+        "https://oldschool.runescape.wiki/w/Calculator:Fletching/Ammo"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "gear.ammunition.barbed-bolts",
+      "name": "Barbed bolts",
+      "destination_domain": "gear",
+      "subcategory_proposal": "ammo",
+      "member_ids": [881],
+      "evidence": "Exact item page is categorized as Bolts and has a unique equipment-slot=ammo record; the Wiki Bolts page identifies barbed bolts among crossbow ammunition. Current classification is SKILLING/raw-resources.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Barbed_bolts",
+        "https://oldschool.runescape.wiki/w/Bolts"
+      ],
+      "confidence": "high"
+    },
+    {
+      "key": "activities.barbarian-assault-arrows",
+      "name": "Barbarian Assault arrows",
+      "destination_domain": "review-required",
+      "member_ids": [22227, 22228, 22229, 22230],
+      "member_names": ["Bullet arrow", "Field arrow", "Blunt arrow", "Barbed arrow"],
+      "evidence": "Exact pages are Arrows and ammo-slot items, and identify these as Barbarian Assault role-only arrows used against Penance Fighters/Rangers. Preserve their ammunition identity and consider an explicit activity set; do not infer that they are general banked combat ammunition.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/Barbarian_Assault",
+        "https://oldschool.runescape.wiki/w/Category:Ammunition_slot_items?oldid=10414775"
+      ],
+      "confidence": "high_for_activity_role",
+      "workflow_destination": "ambiguous; current source facts establish activity-only use but not the preferred Ironman bank tab"
+    }
+  ],
+  "explicit_non_propagation_cases": [
+    {
+      "item_id": 9419,
+      "name": "Mith grapple",
+      "current_subcategory": "skilling-utility",
+      "decision": "Keep its traversal-tool role. The Bolts page says it is used with a crossbow to grapple agility shortcuts and obstacles. Ammunition-slot and Bolts-category facts do not make it combat ammo.",
+      "source": "https://oldschool.runescape.wiki/w/Bolts"
+    },
+    {
+      "item_ids": [22941, 22943, 22945, 22947],
+      "name": "Rada's blessings",
+      "decision": "Keep wearable diary-reward identity. They occupy the ammunition slot but provide equipped prayer/fishing effects, not ranged ammunition.",
+      "sources": [
+        "https://oldschool.runescape.wiki/w/XP_clothing",
+        "https://oldschool.runescape.wiki/w/Category:Ammunition_slot_items?oldid=10414775"
+      ]
+    }
+  ]
+}
