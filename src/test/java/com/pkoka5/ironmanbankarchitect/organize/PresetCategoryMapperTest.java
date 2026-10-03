@@ -384,7 +384,7 @@ public class PresetCategoryMapperTest
 			22032, 28350, 28352, 1486, 2394, 22409, 28382, 21531, 29547,
 			29546, 3742, 22589, 28354, 29541, 22096, 28443, 2882, 1552,
 			280, 281, 282, 283, 25813, 33820, 4836, 28383, 28388, 29543,
-			26904, 7579, 25812, 29898, 29899, 33771, 9656, 9657, 9658,
+			26904, 25812, 29898, 29899, 33771, 9656, 9657, 9658,
 			3265, 28386, 28387, 33770, 29928);
 		assertRegistryItemsRoute("currency-utilities", 3691, 6125, 6126, 6127);
 		assertRegistryItemsRoute("resources", 7528, 3422, 3424, 3426, 3428,
@@ -395,7 +395,7 @@ public class PresetCategoryMapperTest
 			3153, 7521, 7523, 7524, 7525, 7526,
 			7568, 2343, 30985, 7509, 7510, 4417, 6714,
 			2149, 22081, 9021, 2379,
-			11204, 7479);
+			11204, 7479, 7579);
 		assertRegistryItemsRoute("skilling-tools", 3408, 3410, 3412, 3414, 3416, 3417, 3418, 3419);
 		assertRegistryItemsRoute("storage-cleanup", 4610);
 		assertRegistryItemsRoute("herblore", 4419, 4421, 4423, 9022, 9023, 9024);

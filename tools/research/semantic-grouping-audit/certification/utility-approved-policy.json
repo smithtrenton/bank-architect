@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "scope": "12 exact-ID root-reviewed independent utility/consumable/ingredient corrections",
+  "cases": [
+    {
+      "itemId": 431,
+      "title": "Karamjan rum",
+      "sourceRevision": 15315229,
+      "sourceSha256": "e6a83f4545ee53c742bd5efa36ac6ffcb62093247fd1d080cb412a5d83e82711",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "drink",
+      "proposedTags": [],
+      "semanticExcerpt": "Drinking the rum heals 5 [[Hitpoints]] and also boosts [[Strength]]",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 716,
+      "title": "Bullroarer",
+      "sourceRevision": 15322438,
+      "sourceSha256": "88981a054df2813fb50ceb3525d7ee2b71d6114ca01731a52fa18ca78b466835",
+      "proposedCategory": "TOOL",
+      "proposedSubcategory": "quest-utility",
+      "proposedTags": [],
+      "semanticExcerpt": "Once the Legends' Quest is complete, players should keep it for the master clue step",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 2126,
+      "title": "Dwellberries",
+      "sourceRevision": 15262776,
+      "sourceSha256": "6fd8c8eea429656274cd556001ca9ed23c463eebeb585f8deb79812aa8013112",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "produce",
+      "proposedTags": [],
+      "semanticExcerpt": "can be harvested from a [[bush patch]] after planting [[dwellberry seed]]s.",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 2875,
+      "title": "Bloated toad",
+      "sourceRevision": 15349998,
+      "sourceSha256": "d6dc2b2aef6287164837298289904dc6f81e6f33d0c6d609a294cd97eb52c72f",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "hunter-resource",
+      "proposedTags": [],
+      "semanticExcerpt": "are used to catch [[chompy bird]]s during and after the [[Big Chompy Bird Hunting]] [[quest]].",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 3695,
+      "title": "Pet rock",
+      "sourceRevision": 15351497,
+      "sourceSha256": "d3d4b60d17df4923573855b1a7b33b1bc7376b97dff962883f80a40eb9cfc114",
+      "proposedCategory": "TOOL",
+      "proposedSubcategory": "quest-utility",
+      "proposedTags": [],
+      "semanticExcerpt": "it can be used to substitute a player while attempting to open the two-man doors in the [[Waterbirth Island Dungeon]].",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 6469,
+      "title": "White tree fruit",
+      "sourceRevision": 15318045,
+      "sourceSha256": "27ce9e7cf116a270336406e11e0e909a9197f71c13bcbeb5e2ce7da98ea417b6",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "When eaten, white tree fruit restore 5-10% [[Energy|run energy]] and heal 3 health.",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 7572,
+      "title": "Red banana",
+      "sourceRevision": 15184440,
+      "sourceSha256": "18fc36488ba11161cb6bbfff66941eb29c01c24611fcf61cc5bbdb859f830841",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "It also heals 5 [[hitpoints]] if eaten.",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 7573,
+      "title": "Tchiki monkey nuts",
+      "sourceRevision": 15184444,
+      "sourceSha256": "12410523871d6f761f1c799f64881d080ba402bf8609df5cb0339ea3eb927474",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "They heal 5 [[hitpoints]], and can be ground with a [[pestle and mortar]]",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 7575,
+      "title": "Tchiki nut paste",
+      "sourceRevision": 15184445,
+      "sourceSha256": "cd768bd275ca6225a63bff5717994bde49240f1b3a378488277de1ec4dc00449",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "Tchiki nut paste heals 5 [[hitpoints]] when eaten",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 7579,
+      "title": "Stuffed snake",
+      "sourceRevision": 15232804,
+      "sourceSha256": "3d245ce72de054fcf8e376d2a5f3b128e597074ea83a9bf0ff6f91fae76a5f8e",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "A stuffed snake heals 20 [[Hitpoints]].",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 25979,
+      "title": "Keris partisan",
+      "sourceRevision": 15254688,
+      "sourceSha256": "363b98e6cf294a86d253208222646f71e92ae238d2c51cf0ad4895de500b38ba",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "weapon",
+      "proposedTags": [
+        "kalphite-scabarite-damage"
+      ],
+      "semanticExcerpt": "bonus damage against all [[Kalphite_(attribute)|kalphites and scabarites]]",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    },
+    {
+      "itemId": 6051,
+      "title": "Magic roots",
+      "sourceRevision": 15317723,
+      "sourceSha256": "d944684e1ae837df20088a7c5b835ed06d135c386bb3f26cd6cfb22f66ff0f61",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedTags": [],
+      "semanticExcerpt": "Magic roots are also a component in the [[Herblore]] skill to make [[antidote++]].",
+      "reviewer": "root: independently read exact-ID article and state/mechanic paragraphs"
+    }
+  ]
+}

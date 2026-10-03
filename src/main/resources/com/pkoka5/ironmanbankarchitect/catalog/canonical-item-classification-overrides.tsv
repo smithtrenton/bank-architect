@@ -790,7 +790,7 @@
 28383	CLEANUP	quest-item
 28388	CLEANUP	quest-item
 26904	CLEANUP	quest-item
-7579	CLEANUP	quest-item
+7579	POTION	food	Stuffed snake; Wiki revision 15232804
 25812	CLEANUP	quest-item
 29898	CLEANUP	quest-item
 29899	CLEANUP	quest-item
@@ -3486,3 +3486,42 @@
 369	CLEANUP	cleanup	Burnt fish (sardine); Wiki revision 15188225
 25662	CLEANUP	cleanup	Ruined cavefish; Wiki revision 15190194
 25674	CLEANUP	cleanup	Ruined catfish; Wiki revision 15190187
+# Root-reviewed non-equipment records; certification/gear-approved-policy.json
+797	CLEANUP	cleanup	Herb bowl (animation item); Wiki revision 15190489
+1588	CLEANUP	quest-item	Grip's keyring; Wiki revision 15187117
+1647	CLEANUP	cleanup	Black ring (interface item); Wiki revision 15237901
+1714	SKILLING	crafting-jewellery	Unstrung symbol; Wiki revision 15183849
+1720	SKILLING	crafting-jewellery	Unstrung emblem; Wiki revision 15297801
+1871	POTION	food	Chopped onion; Wiki revision 15205407
+1875	POTION	food	Onion & tomato; Wiki revision 15185164
+1881	SKILLING	cooking-material	Kebab mix; Wiki revision 15185163
+4825	SKILLING	crafting-material	Unstrung comp bow; Wiki revision 15187410
+7064	POTION	food	Egg and tomato; Wiki revision 15185171
+7072	POTION	food	Spicy sauce; Wiki revision 15185176
+7082	POTION	food	Fried mushrooms; Wiki revision 15183906
+7084	POTION	food	Fried onions; Wiki revision 15185160
+7090	CLEANUP	burnt-food	Burnt egg; Wiki revision 15188254
+7092	CLEANUP	burnt-food	Burnt onion; Wiki revision 15188261
+7094	CLEANUP	burnt-food	Burnt mushroom; Wiki revision 15188255
+7758	CLEANUP	cleanup	Rusty sword (animation item); Wiki revision 15190491
+9415	CLEANUP	cleanup	Grapple (animation item); Wiki revision 15190441
+9436	SKILLING	crafting-material	Sinew; Wiki revision 15303474
+10136	POTION	food	Rainbow fish; Wiki revision 15183822
+10140	CLEANUP	burnt-food	Burnt rainbow fish; Wiki revision 15188232
+11067	CLEANUP	cleanup	Black bracelet (interface item); Wiki revision 15224298
+31559	CLEANUP	burnt-food	Burnt swordtip squid; Wiki revision 15193887
+31700	SKILLING	raw-food	Raw rainbow crab meat; Wiki revision 15193840
+31703	POTION	food	Rainbow crab meat; Wiki revision 15352025
+31706	CLEANUP	burnt-food	Burnt rainbow crab meat; Wiki revision 15119632
+# Root-reviewed independent functions; certification/utility-approved-policy.json
+431	POTION	drink	Karamjan rum; Wiki revision 15315229
+716	TOOL	quest-utility	Bullroarer; Wiki revision 15322438
+2126	FARMING	produce	Dwellberries; Wiki revision 15262776
+2875	SKILLING	hunter-resource	Bloated toad; Wiki revision 15349998
+3695	TOOL	quest-utility	Pet rock; Wiki revision 15351497
+6469	POTION	food	White tree fruit; Wiki revision 15318045
+7572	POTION	food	Red banana; Wiki revision 15184440
+7573	POTION	food	Tchiki monkey nuts; Wiki revision 15184444
+7575	POTION	food	Tchiki nut paste; Wiki revision 15184445
+25979	GEAR	weapon	Keris partisan; Wiki revision 15254688
+6051	HERBLORE	secondary	Magic roots; Wiki revision 15317723

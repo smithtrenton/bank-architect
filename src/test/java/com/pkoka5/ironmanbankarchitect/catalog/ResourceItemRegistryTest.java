@@ -47,6 +47,10 @@ public class ResourceItemRegistryTest
 	@Test
 	public void curatedFoodIdsOverrideUnreliableGeneratedCategories()
 	{
+		assertAuditFamily(new int[]{1871, 1875, 7064, 7072, 7082, 7084, 10136, 31703},
+			ItemCategory.POTION, "food");
+		assertAuditFamily(new int[]{6469, 7572, 7573, 7575, 7579}, ItemCategory.POTION, "food");
+		assertAuditFamily(new int[]{431}, ItemCategory.POTION, "drink");
 		assertCategory(464, "Strange fruit", ItemCategory.POTION);
 		assertCategory(1969, "Spinach roll", ItemCategory.POTION);
 		assertCategory(6705, "Potato with cheese", ItemCategory.POTION);
@@ -182,6 +186,8 @@ public class ResourceItemRegistryTest
 	public void burntFishAndSpecialVialsDoNotFollowBroadFoodOrGlassNames()
 	{
 		assertCategory(375, "Burnt swordfish", ItemCategory.CLEANUP);
+		assertAuditFamily(new int[]{7090, 7092, 7094, 10140, 31559, 31706},
+			ItemCategory.CLEANUP, "burnt-food");
 		for (int id : new int[]{323, 343, 357, 367, 369, 7636, 25662, 25674})
 		{
 			assertEquals(ItemCategory.CLEANUP, ResourceItemRegistry.INSTANCE.describeOrUnknown(id).getCategory());
@@ -233,6 +239,7 @@ public class ResourceItemRegistryTest
 			assertEquals(ItemCategory.HERBLORE, ResourceItemRegistry.INSTANCE.describeOrUnknown(id).getCategory());
 			assertSubcategory(id, "secondary");
 		}
+		assertAuditFamily(new int[]{6051}, ItemCategory.HERBLORE, "secondary");
 		assertCategory(2998, "Toadflax", ItemCategory.HERBLORE);
 		assertCategory(3000, "Snapdragon", ItemCategory.HERBLORE);
 		assertCategory(2481, "Lantadyme", ItemCategory.HERBLORE);
@@ -248,6 +255,11 @@ public class ResourceItemRegistryTest
 		assertCategory(229, "Vial", ItemCategory.HERBLORE);
 		assertSubcategory(229, "herblore-supply");
 		assertCategory(1783, "Bucket of sand", ItemCategory.SKILLING);
+		assertAuditFamily(new int[]{1714, 1720}, ItemCategory.SKILLING, "crafting-jewellery");
+		assertAuditFamily(new int[]{4825, 9436}, ItemCategory.SKILLING, "crafting-material");
+		assertAuditFamily(new int[]{1881}, ItemCategory.SKILLING, "cooking-material");
+		assertAuditFamily(new int[]{31700}, ItemCategory.SKILLING, "raw-food");
+		assertAuditFamily(new int[]{1588}, ItemCategory.CLEANUP, "quest-item");
 	}
 
 	@Test
@@ -1475,7 +1487,7 @@ public class ResourceItemRegistryTest
 		assertAuditFamily(new int[] {28388}, ItemCategory.CLEANUP, "quest-item"); // strangler serum
 		assertAuditFamily(new int[] {29543}, ItemCategory.CLEANUP, "quest-item"); // strength dolmen
 		assertAuditFamily(new int[] {26904}, ItemCategory.CLEANUP, "quest-item"); // strong cup of tea
-		assertAuditFamily(new int[] {7579}, ItemCategory.CLEANUP, "quest-item"); // stuffed snake
+		assertAuditFamily(new int[] {7579}, ItemCategory.POTION, "food"); // Edible finished snake heals 20 HP.
 		assertAuditFamily(new int[] {25812}, ItemCategory.CLEANUP, "quest-item"); // sulphur potion
 		assertAuditFamily(new int[] {29898, 29899}, ItemCategory.CLEANUP, "quest-item"); // test kebabs
 		assertAuditFamily(new int[] {33771}, ItemCategory.CLEANUP, "quest-item"); // thick red potion
@@ -1793,7 +1805,11 @@ public class ResourceItemRegistryTest
 		}
 
 		assertClassification(1923, "Bowl", ItemCategory.TOOL, "cooking-tool");
-		assertClassification(1588, "Grip's keyring", ItemCategory.GEAR, "gear");
+		assertClassification(1588, "Grip's keyring", ItemCategory.CLEANUP, "quest-item");
+		assertAuditFamily(new int[]{716, 3695}, ItemCategory.TOOL, "quest-utility");
+		assertAuditFamily(new int[]{2875}, ItemCategory.SKILLING, "hunter-resource");
+		assertAuditFamily(new int[]{2126}, ItemCategory.FARMING, "produce");
+		assertAuditFamily(new int[]{25979}, ItemCategory.GEAR, "weapon");
 		assertClassification(9433, "Bolt pouch", ItemCategory.GEAR, "ammo");
 		assertClassification(25580, "Tackle box", ItemCategory.TOOL, "resource-container");
 		assertClassification(9419, "Mith grapple", ItemCategory.TOOL, "skilling-utility");

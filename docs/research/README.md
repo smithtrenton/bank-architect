@@ -4,7 +4,7 @@ This folder contains generated research artifacts. They are not production catal
 
 ## Product Research
 
-`category-certification-checkpoint-october-3.md` records 44 independently reviewed corrections,
+`category-certification-checkpoint-october-3.md` records 82 independently reviewed corrections,
 pinned exact-ID evidence and validation. It explicitly records that full preset certification
 remains incomplete; earlier export-wide passes were not a certification of every assignment.
 

@@ -110,7 +110,7 @@ itemId	expectedTabKey
 567	resources
 590	skilling-tools
 596	skilling-tools
-716	storage-cleanup
+716	skilling-tools
 771	storage-cleanup
 772	currency-utilities
 775	skilling-tools
@@ -288,7 +288,7 @@ itemId	expectedTabKey
 3396	resources
 3430	resources
 3434	resources
-3695	storage-cleanup
+3695	skilling-tools
 3749	combat-gear
 3755	combat-gear
 3853	currency-utilities

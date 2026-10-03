@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "scope": "26 exact-ID root-reviewed Gear misclassification corrections",
+  "cases": [
+    {
+      "itemId": 797,
+      "title": "Herb bowl (animation item)",
+      "sourceRevision": 15190489,
+      "sourceSha256": "f40df7440a4c1f011ddd5f870467cd73a0d7639e405457be16f5b2c90abdc14c",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedTags": [],
+      "semanticExcerpt": "Aside from this, it cannot be obtained.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1588,
+      "title": "Grip's keyring",
+      "sourceRevision": 15187117,
+      "sourceSha256": "bb0d427a484648ce24afc856ca32899f838264786c4305e13c93620808cbbdc7",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "quest-item",
+      "proposedTags": [],
+      "semanticExcerpt": "The keyring is used to unlock the door to a treasure room",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1647,
+      "title": "Black ring (interface item)",
+      "sourceRevision": 15237901,
+      "sourceSha256": "c4a67f4a60de8bc9f8862aa93683b9d8d5f7f036e2241361a0ab036fc4ba45f0",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedTags": [],
+      "semanticExcerpt": "is an [[interface item]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1714,
+      "title": "Unstrung symbol",
+      "sourceRevision": 15183849,
+      "sourceSha256": "d0a393ef719cf990523e69c87d5848d8ab3476b19f810b7df9bd044efecf8722",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-jewellery",
+      "proposedTags": [],
+      "semanticExcerpt": "It can be used with a [[ball of wool]] to create an [[unblessed symbol]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1720,
+      "title": "Unstrung emblem",
+      "sourceRevision": 15297801,
+      "sourceSha256": "6a99a31946cbe2a5b64c705711c22efff0d5f791cf59db401fc8ac3bd26a68de",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-jewellery",
+      "proposedTags": [],
+      "semanticExcerpt": "can be used with a [[ball of wool]] to create an [[unpowered symbol]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1871,
+      "title": "Chopped onion",
+      "sourceRevision": 15205407,
+      "sourceSha256": "a68767536f33891afd5e833cfec86d63d97b3213c64f9aceebec0ac7349497a2",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "restores 1 [[Hitpoints|Hitpoint]] when eaten.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1875,
+      "title": "Onion & tomato",
+      "sourceRevision": 15185164,
+      "sourceSha256": "4b777a6b9487d63d24f3d817817fa785d80afcab421235653afc67868b47eb11",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "restores 3 [[Hitpoints]] when eaten.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 1881,
+      "title": "Kebab mix",
+      "sourceRevision": 15185163,
+      "sourceSha256": "fdcf4ce341f1dac1b939070526aba1b842dde893350877a1678b60104ab9c562",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedTags": [],
+      "semanticExcerpt": "is an intermediate product towards making an [[ugthanki kebab]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 4825,
+      "title": "Unstrung comp bow",
+      "sourceRevision": 15187410,
+      "sourceSha256": "8d01b481844d74029439ff81b37eabb45cf04da92058cb5dfc8f770e29b9d7af",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-material",
+      "proposedTags": [],
+      "semanticExcerpt": "Stringing it with a [[Bow string]] creates a [[Comp ogre bow]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7064,
+      "title": "Egg and tomato",
+      "sourceRevision": 15185171,
+      "sourceSha256": "4749d4e2ff0d02b7acfeeb12564d8b36cc768ae3c82c43053111baa99425291d",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "Consuming it heals for 8 hitpoints.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7072,
+      "title": "Spicy sauce",
+      "sourceRevision": 15185176,
+      "sourceSha256": "8183564783406e2db3e49b5208eeb607c4d5bd6365d2b9170e26306bac64b59f",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "When eaten, it heals 2 hit points.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7082,
+      "title": "Fried mushrooms",
+      "sourceRevision": 15183906,
+      "sourceSha256": "ae98b2b9b575839548a7febb78aceb6f1a1eb943db4dea4d210fff61b1d770dd",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "When eaten, fried mushrooms heals 5 [[Hitpoints]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7084,
+      "title": "Fried onions",
+      "sourceRevision": 15185160,
+      "sourceSha256": "4a10b0a8b98ae9ff930839529d136af02be742e5811e6ec3e47dcd45125c88a0",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "When eaten, fried onions heal 5 [[hitpoints]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7090,
+      "title": "Burnt egg",
+      "sourceRevision": 15188254,
+      "sourceSha256": "8f3afd2fc196a81e0e3f19aff60a4d396e6a5488258d7bdd64c490497cea1aa8",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "burnt-food",
+      "proposedTags": [],
+      "semanticExcerpt": "The burnt egg has no use whatsoever, although it can be emptied to reclaim a [[bowl]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7092,
+      "title": "Burnt onion",
+      "sourceRevision": 15188261,
+      "sourceSha256": "c3bc2aaa04da56bffa09c42b5040f5babca4f387a2152bc98b57e559730a00cc",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "burnt-food",
+      "proposedTags": [],
+      "semanticExcerpt": "The burnt onion has no use whatsoever, although it can be emptied to reclaim a [[bowl]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7094,
+      "title": "Burnt mushroom",
+      "sourceRevision": 15188255,
+      "sourceSha256": "53922d47c7fa604eab66067a5e517edfe721303e0ce52b2617a1b0d62c1e66f1",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "burnt-food",
+      "proposedTags": [],
+      "semanticExcerpt": "The burnt mushroom has no use whatsoever, although it can be emptied to reclaim a [[bowl]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 7758,
+      "title": "Rusty sword (animation item)",
+      "sourceRevision": 15190491,
+      "sourceSha256": "41d461d69573c13585a77dcf909a42622a5b21b6dffa4b45647ea292e2e3f4f1",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedTags": [],
+      "semanticExcerpt": "Aside from this, the item cannot be obtained.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 9415,
+      "title": "Grapple (animation item)",
+      "sourceRevision": 15190441,
+      "sourceSha256": "f35274786c9d9ab972c86619f0ab38960ea884ded1751b143539b5dee2063992",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedTags": [],
+      "semanticExcerpt": "Aside from this, the item cannot be obtained.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 9436,
+      "title": "Sinew",
+      "sourceRevision": 15303474,
+      "sourceSha256": "9dd695e35256c8f03d8e56b46116f487ee9488aa7ab5336dfbb34564f25dd209",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-material",
+      "proposedTags": [],
+      "semanticExcerpt": "can be used on a [[spinning wheel]] by a [[member]] with 10 [[Crafting]] to create [[crossbow string]]",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 10136,
+      "title": "Rainbow fish",
+      "sourceRevision": 15183822,
+      "sourceSha256": "064a919835906043e2cf14410c9c2fe1cc571500ac1a016deb237b325a54565d",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "restores 11 [[Hitpoints]] when eaten.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 10140,
+      "title": "Burnt rainbow fish",
+      "sourceRevision": 15188232,
+      "sourceSha256": "ba0eb3ad09ac7cc89955bf328294214c8d82b998c8bace382ea58e3972c26b1e",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "burnt-food",
+      "proposedTags": [],
+      "semanticExcerpt": "The burnt rainbow fish has no use whatsoever.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 11067,
+      "title": "Black bracelet (interface item)",
+      "sourceRevision": 15224298,
+      "sourceSha256": "48cde0d3fb4c681e6363d0921b28d15308f97d0d7051e521b2ff891ea9c4fd76",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "cleanup",
+      "proposedTags": [],
+      "semanticExcerpt": "is an [[interface item]].",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 31559,
+      "title": "Burnt swordtip squid",
+      "sourceRevision": 15193887,
+      "sourceSha256": "3aaf9278130dbbab8fdc8053a84c8bbf1bc18fa36ec6ed8735cd7747d1b34768",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "burnt-food",
+      "proposedTags": [],
+      "semanticExcerpt": "The burnt swordtip squid has no use whatsoever.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 31700,
+      "title": "Raw rainbow crab meat",
+      "sourceRevision": 15193840,
+      "sourceSha256": "1b06df2c64f73665de15636e245ffecb702f7196b84724f59fd310ceff118ac5",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-food",
+      "proposedTags": [],
+      "semanticExcerpt": "It can then be cooked to produce [[rainbow crab meat]], granting 200 Cooking experience.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 31703,
+      "title": "Rainbow crab meat",
+      "sourceRevision": 15352025,
+      "sourceSha256": "47a4b62456f16869c101659089c9c52635d19ecbeac6aaddc44afbe0df641352",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedTags": [],
+      "semanticExcerpt": "restores 19 [[Hitpoints]] when eaten.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    },
+    {
+      "itemId": 31706,
+      "title": "Burnt rainbow crab meat",
+      "sourceRevision": 15119632,
+      "sourceSha256": "ddceea2bbb6dbe51a85292dc42028322fde1049a2c6f6a7e648da74d84615473",
+      "proposedCategory": "CLEANUP",
+      "proposedSubcategory": "burnt-food",
+      "proposedTags": [],
+      "semanticExcerpt": "The burnt rainbow crab meat has no use whatsoever.",
+      "reviewer": "root: independently read exact-ID page lead and relevant function paragraphs"
+    }
+  ]
+}

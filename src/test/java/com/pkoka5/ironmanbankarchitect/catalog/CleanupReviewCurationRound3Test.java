@@ -76,6 +76,7 @@ public class CleanupReviewCurationRound3Test
 	{
 		for (int itemId : new int[] {
 			0, -1, 2_000_000_000,
+			797, 1647, 7758, 9415, 11067, // Exact animation/interface records
 			34, // CERT lit candle
 			4530, // CERT candle lantern
 			17957, // PLACEHOLDER Chompy bird hat

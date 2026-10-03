@@ -1,6 +1,6 @@
 # Category certification checkpoint — 3 October 2026
 
-The current default preset has **not** been fully semantically certified. The earlier full-export passes and the completed 356 missing-item review do not establish correctness of every current assignment. This checkpoint applies 44 independently reviewed exact-ID corrections; all other pending reviewer findings remain outside production.
+The current default preset has **not** been fully semantically certified. The earlier full-export passes and the completed 356 missing-item review do not establish correctness of every current assignment. This checkpoint applies 82 independently reviewed exact-ID corrections; all other pending reviewer findings remain outside production.
 
 ## Scope and evidence
 
@@ -10,6 +10,8 @@ The acquisition downloaded 11,396 pinned Wiki articles, with zero acquisition er
 
 - `tools/research/semantic-grouping-audit/certification/cleanup-other-policy.json`: 35 exact-ID corrections independently reviewed in the main thread.
 - `tools/research/semantic-grouping-audit/certification/materials-approved-policy.json`: nine additional exact-ID corrections independently reviewed in the main thread.
+- `tools/research/semantic-grouping-audit/certification/gear-approved-policy.json`: 26 exact-ID corrections for records incorrectly classified as equipment.
+- `tools/research/semantic-grouping-audit/certification/utility-approved-policy.json`: 12 exact-ID corrections for independent utility, consumable and ingredient functions.
 
 Current reviewer scripts and cache identity research are still being tightened. Their candidate or first-pass decisions are not approved changes. No classification is certified solely from a keyword, name family, equipment flag, zero-valued equipment table, existing tag, quest association or absent Wiki field.
 
@@ -23,16 +25,24 @@ Current reviewer scripts and cache identity research are still being tightened. 
 - Empty vial follows its common Herblore container workflow instead of its glassblowing origin.
 - Five exact burnt-fish IDs, exhausted rod dust and two ruined Camdozaal fish move from Resources to Cleanup Review. Their exact articles explicitly state they have no use. This routing is a review destination, not an instruction to discard an account’s items.
 
+- Eight prepared foods leave Gear for Food; six burnt foods leave Gear for Cleanup. Burnt egg, onion and mushroom still permit bowl recovery, so the review does not claim they have no possible interaction.
+- Five animation/interface records leave Gear for Cleanup; Grip's keyring follows its quest-door function. Unstrung symbols/emblems, unstrung comp bow, sinew, kebab mix and raw rainbow crab meat move to their respective skilling inputs.
+- Bullroarer and pet rock move to quest utilities because their documented functions continue beyond their original quests. Bloated toad follows its consumed hunter-bait role; dwellberries follow the Farming crop workflow while retaining Cooking and quest uses.
+- Karamjan rum moves to drinks; white tree fruit, red banana, Tchiki monkey nuts/paste and stuffed snake move to Food based on documented consumption. Stuffed snake heals 20 Hitpoints.
+- Keris partisan moves to weapons and gains its kalphite/scabarite passive-damage tag; magic roots moves to Herblore secondaries for antidote++ production.
+
+Two proposed utility changes were rejected after reading the full mechanics: jewellery recharge uses the placed gilded totem pole rather than the carried gilded totem, and drift nets are consumed when harvesting. Neither item was changed by this checkpoint.
+
 The passive obsidian and kalphite/scabarite damage roles now protect their items from automatic alchemy routing. Live user overrides were not edited; this report does not claim every correction changes the user’s current bank.
 
 Two preference questions remain separate from factual review: edible holiday collectibles, and zero-stat wearable quest items retained as costumes. Existing behavior is preserved pending the user’s choices.
 
 ## Validation
 
-Java 11 `check jar` passes: 1,161 existing unit tests, 150 random-bank scenarios and 1,800 aggregate scenarios. Existing unit assertions and two real-bank fixture rows were updated; no new regression suite or fixture was introduced.
+Java 11 `check jar` passes: 1,161 existing unit tests, 150 random-bank scenarios and 1,800 aggregate scenarios. Existing unit assertions and four real-bank fixture rows were updated; no new regression suite or fixture was introduced.
 
-Against `da7ee97`, the saved simulation review contains four changed scenario metric rows, 26 aggregate Cleanup exits and six aggregate Cleanup entries. Every changed Cleanup ID belongs to the 44 approved cases; common Cleanup rows are unchanged. Only aggregate distinct IDs and occurrence totals changed in metadata. All 1,950 scenarios complete. Baseline checksums were updated after this comparison.
+Against `da7ee97`, the saved simulation review contains 18 changed scenario metric rows, 35 aggregate Cleanup exits and 14 aggregate Cleanup entries. Every changed Cleanup ID belongs to the 82 approved cases; common Cleanup rows are unchanged. Only aggregate distinct IDs and occurrence totals changed in metadata. All 1,950 scenarios complete. Baseline checksums were updated after this comparison.
 
-A fresh compiled export confirms all 44 category/subcategory targets. The rebuilt 0.7.1 jar contains 238 Java 11 class files and exact current catalog resource bytes. The review-size estimator’s highest total is 197,036 with estimated headroom 2,964; this is not an official Plugin Hub count.
+A fresh compiled export confirms all 82 category/subcategory targets. The rebuilt 0.7.1 jar contains 238 Java 11 class files and exact current bytes for all 19 TSV resources. Its SHA-256 is `1162567442890e646acdb58766f214bbb1fb65859b95c210775a58b572242ce4`. All 82 policy source revisions, exact IDs, hashes and literal excerpts were checked against the pinned article corpus. The review-size estimator’s highest total is 197,036 with estimated headroom 2,964; this is not an official Plugin Hub count.
 
 Upstream was fetched before this checkpoint; the branch contains its current `main` tip without a rebase gap. Full semantic certification remains active and incomplete.

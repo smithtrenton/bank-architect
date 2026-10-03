@@ -25,11 +25,13 @@ def run(args):
    if hashlib.sha256(text_path.read_bytes()).hexdigest()!=case['sourceSha256']:raise ValueError('Text digest differs')
    if ident not in source['exactInfoboxItemIds'] or str(ident) not in source['variants'] or case['semanticExcerpt'] not in text:raise ValueError('Exact ID or semantic evidence absent')
    roles=sorted(set(filter(None,current['tags'].split(',')))|set(case['addedRoles']))
+   semantic_roles=set(case['addedRoles'])
+   semantic_roles.add({'GEAR':'combat_equipment','POTION':'edible_consumable','HERBLORE':'herblore_ingredient','SKILLING':'crafting_component','CLUE':'cosmetic_collectible'}[case['proposedCategory']])
    destination={'HERBLORE':'herblore','SKILLING':'resources','POTION':'potions-food','CLUE':'clues-cosmetics','GEAR':'combat-gear'}[case['proposedCategory']]
-   decision.update(decision='revise',proposedCategory=case['proposedCategory'],proposedSubcategory=case['proposedSubcategory'],proposedRoles=sorted(case['addedRoles']),proposedTags=roles,
+   decision.update(decision='revise',proposedCategory=case['proposedCategory'],proposedSubcategory=case['proposedSubcategory'],proposedRoles=sorted(semantic_roles),proposedTags=roles,
                    semanticPredicate=case['rationale'],
                    proposedIronmanTabKey=destination,rationale=case['rationale'],
-                   evidence=[dict(kind='direct_variant',itemId=ident,source=source['sourceUrl'],sourceRevision=source['revid'],
+                   evidence=[dict(kind='direct_variant',itemId=ident,sourceTitle=case['title'],source=source['sourceUrl'],sourceRevision=source['revid'],
                                   sourceHash=source['sha256'],quote=case['semanticExcerpt'])])
   rows.append(decision)
  if set(cases)-{r['itemId'] for r in rows}:raise ValueError('Policy contains IDs outside frozen ownership')
