@@ -3662,3 +3662,26 @@
 10888	GEAR	2h	Barrelchest anchor; Wiki revision 15295166
 # Root-reviewed Tool subtype correction; certification/tool-subcategory-approved-policy.json
 21754	TOOL	slayer-tool	Rock thrownhammer: exact Slayer gargoyle finisher, including ranged reach
+
+# Root-reviewed direct Prayer bone subtypes; certification/prayer-bone-subcategory-approved-policy.json
+526	SKILLING	prayer-resource	Bones; Wiki revision 15327876
+528	SKILLING	prayer-resource	Burnt bones; Wiki revision 15339836
+530	SKILLING	prayer-resource	Bat bones; Wiki revision 15339839
+532	SKILLING	prayer-resource	Big bones; Wiki revision 15297558
+534	SKILLING	prayer-resource	Babydragon bones; Wiki revision 15270863
+536	SKILLING	prayer-resource	Dragon bones; Wiki revision 15344031
+3123	SKILLING	prayer-resource	Shaikahan bones; Wiki revision 15278864
+3125	SKILLING	prayer-resource	Jogre bones; Wiki revision 15270862
+3187	SKILLING	prayer-resource	Bones (Ape Atoll); Wiki revision 15322113
+4812	SKILLING	prayer-resource	Zogre bones; Wiki revision 15351885
+4830	SKILLING	prayer-resource	Fayrg bones; Wiki revision 15270871
+4832	SKILLING	prayer-resource	Raurg bones; Wiki revision 15270872
+4834	SKILLING	prayer-resource	Ourg bones; Wiki revision 15270870
+6729	SKILLING	prayer-resource	Dagannoth bones; Wiki revision 15316891
+6812	SKILLING	prayer-resource	Wyvern bones; Wiki revision 15359535
+22124	SKILLING	prayer-resource	Superior dragon bones; Wiki revision 15344032
+22780	SKILLING	prayer-resource	Wyrm bones; Wiki revision 15270884
+22786	SKILLING	prayer-resource	Hydra bones; Wiki revision 15270886
+28899	SKILLING	prayer-resource	Wyrmling bones; Wiki revision 15339825
+31726	SKILLING	prayer-resource	Strykewyrm bones; Wiki revision 15353197
+31729	SKILLING	prayer-resource	Frost dragon bones; Wiki revision 15270882

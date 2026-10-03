@@ -1860,6 +1860,9 @@ public class ResourceItemRegistryTest
 		assertClassification(2309, "Bread", ItemCategory.POTION, "food");
 		assertClassification(22081, "Locator orb", ItemCategory.POTION, "pvm-utility");
 		assertClassification(4286, "Bucket of slime", ItemCategory.SKILLING, "prayer-resource");
+		assertAuditFamily(new int[] {
+			526, 528, 530, 532, 534, 536, 3123, 3125, 3187, 4812, 4830, 4832, 4834, 6729, 6812, 22124, 22780, 22786, 28899, 31726, 31729
+		}, ItemCategory.SKILLING, "prayer-resource");
 		int[] damagedGodBooks = {3839, 3841, 3843, 12607, 12609, 12611};
 		for (int itemId : damagedGodBooks)
 		{

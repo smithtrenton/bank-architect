@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the fourteen pinned root-approved policy files.
+"""Emit exact-ID decisions from the sixteen pinned root-approved policy files.
 
 This read-only builder verifies pinned candidate evidence without accepting
 candidate decisions as approvals. It never changes plugin sources or the frozen
@@ -38,6 +38,8 @@ POLICY_NAMES = (
     "tool-subcategory-approved-policy.json",
     "tool-primary-approved-policy.json",
     "farming-primary-approved-policy.json",
+    "farming-supplemental-approved-policy.json",
+    "prayer-bone-subcategory-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -122,6 +124,7 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
             "rune-primary-approved-policy.json": ("verify-rune-primary-policy.py", 23),
             "tool-primary-approved-policy.json": ("verify-tool-primary-policy.py", 151),
             "farming-primary-approved-policy.json": ("verify-farming-primary-policy.py", 51),
+            "farming-supplemental-approved-policy.json": ("verify-farming-supplemental-policy.py", 66),
         }
         if name in primary_verifiers:
             script, expected_count = primary_verifiers[name]
@@ -152,8 +155,8 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 1528:
-        raise ValueError(f"Expected exactly 1,528 disjoint approved policy cases, found {len(cases)}")
+    if len(cases) != 1615:
+        raise ValueError(f"Expected exactly 1,615 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -228,6 +231,8 @@ def tab_for(category: str, subcategory: str, item_id: int) -> str:
         raise ValueError(f"item {item_id}: no preset tab route for category {category!r}")
     if item_id in {952, 1755}:
         return "currency-utilities"
+    if category == "FARMING" and subcategory == "herb-seed":
+        return "herblore"
     # Seed-like Farming subcategories share the normal seeds-farming tab.
     return STANDARD_TABS[category]
 
@@ -296,7 +301,7 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
-    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json"}
+    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json", "farming-supplemental-approved-policy.json"}
     expected = "certify" if primary_only else "revise"
     if primary_only and (roles or case.get("proposedTags") or tag_evidence):
         raise ValueError(f"item {item_id}: unchanged-primary policy cannot add tag or supplemental-role claims")
@@ -491,7 +496,7 @@ def main() -> None:
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
                                ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
-                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py")},
+                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py", "verify-farming-supplemental-policy.py")},
         "sourceHashes": {
             "policies": policy_hashes,
             "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),

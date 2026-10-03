@@ -1,0 +1,1132 @@
+{
+  "schema": 1,
+  "status": "root-reviewed primary assignments only",
+  "reviewer": "root",
+  "scope": "21 exact physical bone Prayer-resource subtype corrections; no tags or secondary-role additions.",
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "expectedCaseCount": 21,
+  "reviewRecord": "Root read all33 exact own bone definitions/states and material contexts, with complete source followups for nine competing-use articles; independent review caught missing Wolf/greegree contexts and confirms these21 Prayer primary targets. Wolf, seven monkey/greegree variants, two marinated quest states and two Construction training bones remain outside this policy. Superior raw bones provide Prayer directly; crushed-product Herblore mechanics are not transferred.",
+  "sourceInputPaths": {
+    "articleIndex": "tmp\\category-certification\\wiki-articles\\article-index.json",
+    "candidatePacket": "tmp\\category-certification\\reviews\\materials-positive-cohorts\\20261003-prayer-bone-primary\\root-review-packet.json",
+    "rootReadRecord": "tmp\\category-certification\\root-review\\bones-33-main-thread-source-review-v1.json",
+    "independentReview": "tmp\\category-certification\\root-review\\bones-33-complete-independent-followup-v1.json"
+  },
+  "cases": [
+    {
+      "itemId": 526,
+      "title": "Bones",
+      "sourceRevision": 15327876,
+      "sourceSha256": "528d8c5dd878584d2e6c399a0b5aad95b76941334da506d57fcd6c33451f2a29",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Bones detail.png|left|120x120px]]\r\n'''Bones''' are the [[remains]] of most [[monsters|creatures]] with an animalistic or humanoid appearance.",
+      "positiveFunctionExcerpt": "Bones give 4.5 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 13.5 XP when casting [[Sinister Offering]].\r\n* 13.5 XP when using the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 15.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]]. The Temple additionally has a 50% chance to not deplete the bones; effectively doubling the XP to 31.4 per bone.\r\n* 18 XP when offered at the [[Ectofuntus]] in the form of [[bonemeal]].\r\n* 20 XP when [[blessed bones|blessed]], broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed wine]], or 24 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.",
+      "secondaryExcerpts": [
+        "Bones give 4.5 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 13.5 XP when casting [[Sinister Offering]].\r\n* 13.5 XP when using the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 15.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]]. The Temple additionally has a 50% chance to not deplete the bones; effectively doubling the XP to 31.4 per bone.\r\n* 18 XP when offered at the [[Ectofuntus]] in the form of [[bonemeal]].\r\n* 20 XP when [[blessed bones|blessed]], broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed wine]], or 24 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.",
+        "25 regular bones are used in the [[Demon Slayer]] [[quest]].",
+        "[[File:Bones mouse hole.png|thumb|170px|Bones dropped by [[mouse|mice]] during [[Grim Tales]].]]\r\n*Burying normal bones from level 1 to 99 [[Prayer]] would require 2,896,541 bones at a cost of {{NoCoins|{{GEP|Bones|2896541}}|c}} and over 40 days of continuous burying.\r\n* During [[Grim Tales]], the relatively large [[mouse|mice]] in the [[mouse hole]] drop relatively large bones when killed.\r\n*When a monster dies and their bones despawn, they are taken to the Graveyard room of the [[Mage Training Arena]] to be converted to either [[bananas]] or [[peaches]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "526"
+        },
+        {
+          "field": "name",
+          "value": "Bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Bones are for burying!"
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 528,
+      "title": "Burnt bones",
+      "sourceRevision": 15339836,
+      "sourceSha256": "1802e1dac844ef35b695b21037761073bcca80345d8aafd5edfb344d6ecf718d",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Burnt bones detail.png|left|150px]]\r\n'''Burnt bones''' are one of the few [[Remains|bones]] that [[free players]] can bury to train [[Prayer]], with the others being [[bones|normal bones]], [[big bones]], and [[monkey bones]]. They can be found in the [[Kebos Battlefront]], the [[Lizardman Canyon]], the [[Dragon Nest]], and various locations in the [[Wilderness]].",
+      "positiveFunctionExcerpt": "Burnt bones give 4.5 Prayer experience when buried. This can be increased by offering the bones in different ways: \r\n* 13.5 XP when casting [[Sinister Offering]].\r\n* 13.5 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 15.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 18 XP when offered at the [[Ectofuntus]] in the form of [[burnt bonemeal]].",
+      "secondaryExcerpts": [
+        "{{External|rs}}\r\n{{Infobox Item\r\n|name = Burnt bones\r\n|image = [[File:Burnt bones.png]]\r\n|release = [[29 March]] [[2004]]\r\n|update = RS2 Launched!\r\n|members = No\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = Bones are for burying!\r\n|value = 1\r\n|weight = 0.500\r\n|respawn = 100\r\n|exchange = Yes\r\n|id = 528\r\n|leagueRegion = Kourend,Kandarin,Wilderness,Morytania,Varlamore\r\n}}\r\n[[File:Burnt bones detail.png|left|150px]]\r\n'''Burnt bones''' are one of the few [[Remains|bones]] that [[free players]] can bury to train [[Prayer]], with the others being [[bones|normal bones]], [[big bones]], and [[monkey bones]]. They can be found in the [[Kebos Battlefront]], the [[Lizardman Canyon]], the [[Dragon Nest]], and various locations in the [[Wilderness]].",
+        "Burnt bones give 4.5 Prayer experience when buried. This can be increased by offering the bones in different ways: \r\n* 13.5 XP when casting [[Sinister Offering]].\r\n* 13.5 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 15.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 18 XP when offered at the [[Ectofuntus]] in the form of [[burnt bonemeal]].",
+        "It is not recommended to train Prayer with burnt bones, as they are no different from regular [[bones]], which are much easier to obtain. Additionally, unlike regular bones, they cannot be blessed on the [[exposed altar]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "528"
+        },
+        {
+          "field": "name",
+          "value": "Burnt bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Bones are for burying!"
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 530,
+      "title": "Bat bones",
+      "sourceRevision": 15339839,
+      "sourceSha256": "15cd3a6c982cfcb8188d0617eb4d327a3eac7d1453ce1a2a07b198d510093ae8",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Bat bones detail.png|left|130px]]\r\n'''Bat bones''' are the [[remains]] obtained from killing [[bat]]s and [[giant bat]]s. Players will need bat bones for some [[quests]], including [[Merlin's Crystal]], [[Forgettable Tale...]], and [[Watchtower]].",
+      "positiveFunctionExcerpt": "Bat bones give 5.3 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 15.9 XP when casting [[Sinister Offering]].\r\n* 15.9 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 18.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 21.2 XP when offered at the [[Ectofuntus]] in the form of [[bat bonemeal]].\r\n* 25 XP when [[blessed bat bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 30 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.",
+      "secondaryExcerpts": [
+        "Bat bones give 5.3 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 15.9 XP when casting [[Sinister Offering]].\r\n* 15.9 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 18.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 21.2 XP when offered at the [[Ectofuntus]] in the form of [[bat bonemeal]].\r\n* 25 XP when [[blessed bat bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 30 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "530"
+        },
+        {
+          "field": "name",
+          "value": "Bat bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ew it's a pile of bones."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 532,
+      "title": "Big bones",
+      "sourceRevision": 15297558,
+      "sourceSha256": "70649856ee0ff35d5fe40336d378216b7dbe3aa85ca71924ecb1b47b7d8dd030",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Big bones detail.png|left|150px]]\r\n'''Big bones''' are a bigger variant of [[bones]]. They are always dropped by certain large monsters including [[giants]], [[ogre]]s, [[troll]]s, [[Cyclops|cyclopes]], and the [[lizard]]s in the Kharidian Desert just north of [[Nardah]]. A few spawns of big bones can also be found in the [[Bone Yard]] in the Wilderness, and in the area around the [[Colossal Wyrm Remains]] located in [[Varlamore|Varlamore's]] [[Avium Savannah]].",
+      "positiveFunctionExcerpt": "Big bones give 15 [[Prayer]] experience when buried. As a member, this can be increased by offering the bones in different ways: \r\n* 45 XP when casting [[Sinister Offering]].\r\n*45 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 52.5 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 60 XP when offered at the [[Ectofuntus]] in the form of [[big bonemeal]].\r\n* 60 XP when [[Blessed big bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 72 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*105 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 52.5 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "Big bones give 15 [[Prayer]] experience when buried. As a member, this can be increased by offering the bones in different ways: \r\n* 45 XP when casting [[Sinister Offering]].\r\n*45 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 52.5 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 60 XP when offered at the [[Ectofuntus]] in the form of [[big bonemeal]].\r\n* 60 XP when [[Blessed big bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 72 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*105 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 52.5 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "532"
+        },
+        {
+          "field": "name",
+          "value": "Big bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ew it's a pile of bones."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 534,
+      "title": "Babydragon bones",
+      "sourceRevision": 15270863,
+      "sourceSha256": "54094076bb9d10d0e29e4e844cc9a8c88f187dfa80d81f68bd299916e5870674",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Babydragon bones detail.png|left|130px]]\r\n'''Babydragon bones''' are dropped by [[Baby green dragon|baby green]], [[Baby blue dragon|blue]], [[Baby red dragon|red]] and [[baby black dragon|black dragon]]s. They can also be obtained as a common loot from [[dragon impling jar]]s and [[crystal impling jar]]s.",
+      "positiveFunctionExcerpt": "Babydragon bones give 30 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 90 XP when casting [[Sinister Offering]].\r\n* 90 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 105 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 120 XP when offered at the [[Ectofuntus]] in the form of [[Baby dragon bonemeal]].\r\n* 120 XP when [[Blessed babydragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 144 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 210 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 105 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "Babydragon bones give 30 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 90 XP when casting [[Sinister Offering]].\r\n* 90 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 105 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 120 XP when offered at the [[Ectofuntus]] in the form of [[Baby dragon bonemeal]].\r\n* 120 XP when [[Blessed babydragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 144 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 210 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 105 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "Using babydragon bones instead of [[dragon bones]] is a slower but cheaper method to gain Prayer experience."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "534"
+        },
+        {
+          "field": "name",
+          "value": "Babydragon bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ew it's a pile of bones."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 536,
+      "title": "Dragon bones",
+      "sourceRevision": 15344031,
+      "sourceSha256": "5f2f854508364133d907c38c587adb8d5ff6dd02a064172a169417480b8b90cf",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Dragon bones detail.png|left|140px]]\r\n'''Dragon bones''' are bones dropped by most adult [[Dragon (monster)|dragons]], which give 72 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 216 XP when casting [[Sinister Offering]].\r\n* 216 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 252 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 288 XP when offered at the [[Ectofuntus]] in the form of [[dragon bonemeal]].\r\n* 290 XP when [[Blessed dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 348 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*504 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 252 XP, which is the same as the gilded altars with two burners lit, but providing a 50% chance to not consume the bones.",
+      "positiveFunctionExcerpt": "[[File:Dragon bones detail.png|left|140px]]\r\n'''Dragon bones''' are bones dropped by most adult [[Dragon (monster)|dragons]], which give 72 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 216 XP when casting [[Sinister Offering]].\r\n* 216 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 252 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 288 XP when offered at the [[Ectofuntus]] in the form of [[dragon bonemeal]].\r\n* 290 XP when [[Blessed dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 348 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*504 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 252 XP, which is the same as the gilded altars with two burners lit, but providing a 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{External|rs|rsc=Dragon Bones|dw=Dragon Bones}}\r\n{{Infobox Item\r\n|name = Dragon bones\r\n|image = [[File:Dragon bones.png]]\r\n|release = [[23 October]] [[2002]]\r\n|update = Updates galore!\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = These would feed a dog for months!\r\n|value = 160\r\n|weight = 1.500\r\n|exchange = Yes\r\n|id = 536\r\n}}\r\n[[File:Dragon bones detail.png|left|140px]]\r\n'''Dragon bones''' are bones dropped by most adult [[Dragon (monster)|dragons]], which give 72 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 216 XP when casting [[Sinister Offering]].\r\n* 216 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 252 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 288 XP when offered at the [[Ectofuntus]] in the form of [[dragon bonemeal]].\r\n* 290 XP when [[Blessed dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 348 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*504 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 252 XP, which is the same as the gilded altars with two burners lit, but providing a 50% chance to not consume the bones.",
+        "A set of dragon bones is required for the [[Watchtower]] quest."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "536"
+        },
+        {
+          "field": "name",
+          "value": "Dragon bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "These would feed a dog for months!"
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 3123,
+      "title": "Shaikahan bones",
+      "sourceRevision": 15278864,
+      "sourceSha256": "f6b0e2af4ab909b623b02d486be565f02536fe7698d6aa039ef84fb0b91eabb2",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Shaikahan bones detail.png|left|150px]]\r\n'''Shaikahan bones''' are dropped by [[The Shaikahan]] when it is killed, which requires a [[Karambwan paste]]-poisoned [[spear]] or [[hasta]]. Note that any kills prior to [[Tai Bwo Wannai Trio]] will not yield any bones. Despite the examine text stating it glows with a yellow aura, its appearance remains akin to that of dragon bones.",
+      "positiveFunctionExcerpt": "Shaikahan bones give 25 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 75 XP when casting [[Sinister Offering]].\r\n* 75 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 87.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 100 XP when offered at the [[Ectofuntus]] in the form of [[Shaikahan bonemeal]].",
+      "secondaryExcerpts": [
+        "Shaikahan bones give 25 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 75 XP when casting [[Sinister Offering]].\r\n* 75 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 87.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 100 XP when offered at the [[Ectofuntus]] in the form of [[Shaikahan bonemeal]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3123"
+        },
+        {
+          "field": "name",
+          "value": "Shaikahan bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Large glistening bones which glow with a pale yellow aura."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 3125,
+      "title": "Jogre bones",
+      "sourceRevision": 15270862,
+      "sourceSha256": "fcfb4fd3396f4545cf35ae42e71e91c93c987af2f81ce3b5ff800ca9d0b9c5a0",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "{| style=\"float:left; padding-right:1em;\"\r\n|[[File:Jogre bones detail.png|left|140px]]\r\n|}\r\n'''Jogre bones''' are bones dropped by [[jogre]]s, which give 15 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 45 XP when casting [[Sinister Offering]].\r\n* 45 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 52.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 60 XP when offered at the [[Ectofuntus]] in the form of [[jogre bonemeal]].",
+      "positiveFunctionExcerpt": "{| style=\"float:left; padding-right:1em;\"\r\n|[[File:Jogre bones detail.png|left|140px]]\r\n|}\r\n'''Jogre bones''' are bones dropped by [[jogre]]s, which give 15 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 45 XP when casting [[Sinister Offering]].\r\n* 45 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 52.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 60 XP when offered at the [[Ectofuntus]] in the form of [[jogre bonemeal]].",
+      "secondaryExcerpts": [
+        "They can be lit with a [[tinderbox]] at level 30 [[Firemaking]] to make [[burnt jogre bones]], granting 90 Firemaking experience. Burnt jogre bones are used with [[karambwanji paste]] during the [[Tai Bwo Wannai Trio]] [[Quests|quest]] to make [[marinated j' bones]].",
+        "Jogre bones cannot be used on the [[Exposed altar]] in [[The Teomat]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3125"
+        },
+        {
+          "field": "name",
+          "value": "Jogre bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Fairly big bones which smell distinctly of Jogre."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 3187,
+      "title": "Bones (Ape Atoll)",
+      "sourceRevision": 15322113,
+      "sourceSha256": "4b21c68c9b603870769188256144bf9dfede53a6d4cc8c9011e3cb73d2b2e06c",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Bones (Ape Atoll) detail.png|130px|left]]\r\n'''Skeletal gorilla bones''' are dropped by the [[Skeleton (Ape Atoll)|skeletal gorillas]] in the [[Ape Atoll Dungeon]]. Unlike [[Bones|regular bones]], if these are left on the ground for too long, another skeletal gorilla will emerge from them and begin attacking any nearby players. If there are too many skeletal gorillas already spawned, they instead turn into \"burning bones\", which cannot be picked up. In addition, they cannot be turned into a [[greegree]].",
+      "positiveFunctionExcerpt": "Skeletal gorilla bones give 3 [[Prayer]] experience when buried, unlike standard [[monkey bones]], which give 5 experience. This can be increased by offering the bones in different ways: \r\n* 9 XP when casting [[Sinister Offering]].\r\n* 9 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 10.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 12 XP when offered at the [[Ectofuntus]] in the form of [[skeleton bonemeal]].",
+      "secondaryExcerpts": [
+        "Skeletal gorilla bones give 3 [[Prayer]] experience when buried, unlike standard [[monkey bones]], which give 5 experience. This can be increased by offering the bones in different ways: \r\n* 9 XP when casting [[Sinister Offering]].\r\n* 9 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 10.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 12 XP when offered at the [[Ectofuntus]] in the form of [[skeleton bonemeal]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "3187"
+        },
+        {
+          "field": "name",
+          "value": "Bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        },
+        {
+          "field": "examine",
+          "value": "They seem to shake slightly... It might be a good idea to bury them."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4812,
+      "title": "Zogre bones",
+      "sourceRevision": 15351885,
+      "sourceSha256": "b273a5f9f61011e5d5da5fc0bf66106f098754bd002f645792715b54fead1318",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Zogre bones detail.png|left|150px]]\r\n'''Zogre bones''' are bones obtained from killing [[zogre]]s and [[skogre]]s, which give 22.5 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 67.5 XP when casting [[Sinister Offering]].\r\n* 67.5 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 78.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 90 XP when offered at the [[Ectofuntus]] in the form of [[zogre bonemeal]].\r\n* 90 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 108 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.",
+      "positiveFunctionExcerpt": "[[File:Zogre bones detail.png|left|150px]]\r\n'''Zogre bones''' are bones obtained from killing [[zogre]]s and [[skogre]]s, which give 22.5 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 67.5 XP when casting [[Sinister Offering]].\r\n* 67.5 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 78.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 90 XP when offered at the [[Ectofuntus]] in the form of [[zogre bonemeal]].\r\n* 90 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 108 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.",
+      "secondaryExcerpts": [
+        "{{External|rs}}\r\n{{Confuse|Zogre bone}}\r\n{{Infobox Item\r\n|name = Zogre bones\r\n|image = [[File:Zogre bones.png]]\r\n|release = [[17 May]] [[2005]]\r\n|update = Zogre Flesh Eaters\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = A pile of Zombie Ogre bones.\r\n|value = 1\r\n|weight = 0.800\r\n|exchange = Yes\r\n|id = 4812\r\n}}\r\n[[File:Zogre bones detail.png|left|150px]]\r\n'''Zogre bones''' are bones obtained from killing [[zogre]]s and [[skogre]]s, which give 22.5 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 67.5 XP when casting [[Sinister Offering]].\r\n* 67.5 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 78.7 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]].\r\n* 90 XP when offered at the [[Ectofuntus]] in the form of [[zogre bonemeal]].\r\n* 90 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 108 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.",
+        "If burying the zogre bones in [[Jiggig]] or the [[Jiggig Dungeon]], there's a 1 in 3 chance and to spawn a [[skogre]] alongside the regular experience drop. The skogre will despawn after 5 minutes. A message in the chatbox appears {{Mes|The creature rises from the grave... again!}}."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4812"
+        },
+        {
+          "field": "name",
+          "value": "Zogre bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "A pile of Zombie Ogre bones."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4830,
+      "title": "Fayrg bones",
+      "sourceRevision": 15270871,
+      "sourceSha256": "375695e5f0a4c908e1ebaeceec9d7b7484c13bde65068f46efb80ba7eb2780d2",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Fayrg bones detail.png|left|140px]]\r\n'''Fayrg bones''' are bones available from looting [[ogre coffin]]s, which will often break lockpicks and decrease players' thieving abilities upon opening using thieving methods.",
+      "positiveFunctionExcerpt": "Fayrg bones give 84 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 252 XP when casting [[Sinister Offering]].\r\n* 252 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 294 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 335 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 336 XP when offered at the [[Ectofuntus]] in the form of [[fayrg bonemeal]].\r\n* 402 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 588 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 294 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "Fayrg bones give 84 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 252 XP when casting [[Sinister Offering]].\r\n* 252 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 294 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 335 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 336 XP when offered at the [[Ectofuntus]] in the form of [[fayrg bonemeal]].\r\n* 402 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 588 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 294 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "If burying the fayrg bones in [[Jiggig]], there's a 1 in 3{{fact}} chance to give no Prayer experience, and to instead spawn a [[skogre]]. The skogre will despawn after 5 minutes. A message in the chatbox appears \"The creature rises from the grave... again!\"."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4830"
+        },
+        {
+          "field": "name",
+          "value": "Fayrg bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ancient ogre bones from the ogre burial tomb."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4832,
+      "title": "Raurg bones",
+      "sourceRevision": 15270872,
+      "sourceSha256": "6e59c98e4bdf98730474c9b386b1278686c2ec1fac3101455049af2831687331",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Raurg bones detail.png|left|140px]]\r\n'''Raurg bones''' are bones available from looting [[ogre coffin]]s, which will often break lockpicks and decrease players' thieving abilities upon opening using thieving methods.",
+      "positiveFunctionExcerpt": "Raurg bones give 96 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 288 XP when casting [[Sinister Offering]].\r\n* 288 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 336 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 384 XP when offered at the [[Ectofuntus]] in the form of [[raurg bonemeal]].\r\n* 385 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 462 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 768 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 336 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "Raurg bones give 96 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 288 XP when casting [[Sinister Offering]].\r\n* 288 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 336 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 384 XP when offered at the [[Ectofuntus]] in the form of [[raurg bonemeal]].\r\n* 385 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 462 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 768 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 336 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "If burying the raurg bones in [[Jiggig]], there's a 1 in 3{{fact}} chance to give no Prayer experience, and to instead spawn a [[skogre]]. The skogre will despawn after 5 minutes. A message in the chatbox appears \"The creature rises from the grave... again!\"."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4832"
+        },
+        {
+          "field": "name",
+          "value": "Raurg bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ancient ogre bones from the ogre burial tomb."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 4834,
+      "title": "Ourg bones",
+      "sourceRevision": 15270870,
+      "sourceSha256": "6156b235edbbab677d9745aa02eea4a5c5c0c0bed5e2825cf84b0ba1592bcfcd",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Ourg bones detail.png|left|140px]]\r\n'''Ourg bones''' are bones obtained by killing [[Slash Bash]], the boss from [[Zogre Flesh Eaters]], stealing them from [[ogre coffin]]s via the [[Thieving]] skill, or using [[Ogre coffin key|keys]] dropped by [[zogre]]s and [[skogre]]s on nearby chests. As Slash Bash cannot be respawned after he has been killed once, ourg bones cannot be farmed from the boss.",
+      "positiveFunctionExcerpt": "Ourg bones give 140 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 420 XP when casting [[Sinister Offering]].\r\n* 420 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 490 XP when offered at a [[gilded altar]] with two lit burners.\r\n* 560 XP when offered at the [[Ectofuntus]] in the form of [[ourg bonemeal]].\r\n* 560 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 672 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*980 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 490 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "Ourg bones give 140 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 420 XP when casting [[Sinister Offering]].\r\n* 420 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 490 XP when offered at a [[gilded altar]] with two lit burners.\r\n* 560 XP when offered at the [[Ectofuntus]] in the form of [[ourg bonemeal]].\r\n* 560 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]].\r\n* 672 XP when blessed and broken down into [[blessed bone shards]] and offered at the [[libation bowl]] with [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*980 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 490 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "Due to only being able to obtain them once from Slash Bash, and ogre coffins being slow to loot, Ourg bones are relatively rare, and as a result are generally much pricier than [[bones]] that provide similar Prayer experience.",
+        "Ourg bones provide the second most Prayer experience of all bones in the game, surpassed only by [[superior dragon bones]]. Unlike superior dragon bones, they do not have a Prayer level requirement to offer them, and grant almost as much experience."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4834"
+        },
+        {
+          "field": "name",
+          "value": "Ourg bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ancient ogre bones from the ogre burial tomb."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 6729,
+      "title": "Dagannoth bones",
+      "sourceRevision": 15316891,
+      "sourceSha256": "28ecf28ba014ee073c9550b9646780e48032b2c53d9bb5ddf7a259c7b28565d6",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Dagannoth bones detail.png|left|150px]]\r\n'''Dagannoth bones''' are bones dropped by [[Dagannoth Rex]], [[Dagannoth Prime]], and [[Dagannoth Supreme]]. They are not obtained as drops from regular [[Dagannoth]], who only drop standard [[bones]].",
+      "positiveFunctionExcerpt": "Dagannoth bones give 125 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 375 XP when casting [[Sinister Offering]].\r\n* 375 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 437.5 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 500 XP when offered at the [[Ectofuntus]] in the form of [[dagannoth bonemeal]].\r\n* 500 XP when [[Dagannoth bones (blessed)|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 600 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 875 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 437.5 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "Dagannoth bones give 125 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 375 XP when casting [[Sinister Offering]].\r\n* 375 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 437.5 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 500 XP when offered at the [[Ectofuntus]] in the form of [[dagannoth bonemeal]].\r\n* 500 XP when [[Dagannoth bones (blessed)|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 600 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 875 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 437.5 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6729"
+        },
+        {
+          "field": "name",
+          "value": "Dagannoth bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "These would feed a dogfish for months!"
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 6812,
+      "title": "Wyvern bones",
+      "sourceRevision": 15359535,
+      "sourceSha256": "4183ae26a3b4695ff1688f86563389077bc98a87e62b12fad7744b1cecedba1c",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Wyvern bones detail.png|left|130px]] \r\n'''Wyvern bones''' are dropped by [[wyvern]]s, and give 72 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 216 XP when casting [[Sinister Offering]].\r\n* 216 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 252 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 288 XP when offered at the [[Ectofuntus]] in the form of [[wyvern bonemeal]]. \r\n* 290 XP when [[Blessed wyvern bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 348 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 504 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 252 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "positiveFunctionExcerpt": "[[File:Wyvern bones detail.png|left|130px]] \r\n'''Wyvern bones''' are dropped by [[wyvern]]s, and give 72 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 216 XP when casting [[Sinister Offering]].\r\n* 216 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 252 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 288 XP when offered at the [[Ectofuntus]] in the form of [[wyvern bonemeal]]. \r\n* 290 XP when [[Blessed wyvern bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 348 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 504 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 252 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{External|rs}}\r\n{{Infobox Item\r\n|name = Wyvern bones\r\n|image = [[File:Wyvern bones.png]]\r\n|release = [[12 December]] [[2005]]\r\n|update = Champions, Wyverns and Granite\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = Bones of a large flying creature!\r\n|value = 160\r\n|weight = 0.500\r\n|exchange = Yes\r\n|id = 6812\r\n}}\r\n[[File:Wyvern bones detail.png|left|130px]] \r\n'''Wyvern bones''' are dropped by [[wyvern]]s, and give 72 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 216 XP when casting [[Sinister Offering]].\r\n* 216 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 252 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 288 XP when offered at the [[Ectofuntus]] in the form of [[wyvern bonemeal]]. \r\n* 290 XP when [[Blessed wyvern bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 348 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 504 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 252 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6812"
+        },
+        {
+          "field": "name",
+          "value": "Wyvern bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Bones of a large flying creature!"
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 22124,
+      "title": "Superior dragon bones",
+      "sourceRevision": 15344032,
+      "sourceSha256": "851113e644361e4206365dee7fa250afbe20a65baaf83d125fc1882286a17f65",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Superior dragon bones detail.png|left|140px]]\r\n'''Superior dragon bones''' are obtained as a guaranteed drop from killing [[Vorkath]] and as an uncommon drop from killing [[frost dragon]]s. They can be crushed with a [[pestle and mortar]] to create [[crushed superior dragon bones]], which is a secondary ingredient in [[super antifire potion]]s, requiring level 92 [[Herblore]] to create.",
+      "positiveFunctionExcerpt": "Unlike other types of bones, superior dragon bones require a [[Prayer]] level of 70 (unboostable) to use, and give 150 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 450 XP when casting [[Sinister Offering]].\r\n* 450 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 525 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 600 XP when offered at the [[Ectofuntus]] in the form of [[superior dragon bonemeal]].\r\n* 605 XP when [[Blessed superior dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 726 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*1050 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 525 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{Infobox Item\r\n|name = Superior dragon bones\r\n|image = [[File:Superior dragon bones.png]]\r\n|release = [[4 January]] [[2018]]\r\n|update = Dragon Slayer II\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = There's something unnatural about these bones.\r\n|value = 160\r\n|weight = 1.800\r\n|exchange = Yes\r\n|id = 22124\r\n}}\r\n[[File:Superior dragon bones detail.png|left|140px]]\r\n'''Superior dragon bones''' are obtained as a guaranteed drop from killing [[Vorkath]] and as an uncommon drop from killing [[frost dragon]]s. They can be crushed with a [[pestle and mortar]] to create [[crushed superior dragon bones]], which is a secondary ingredient in [[super antifire potion]]s, requiring level 92 [[Herblore]] to create.",
+        "Unlike other types of bones, superior dragon bones require a [[Prayer]] level of 70 (unboostable) to use, and give 150 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 450 XP when casting [[Sinister Offering]].\r\n* 450 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 525 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 600 XP when offered at the [[Ectofuntus]] in the form of [[superior dragon bonemeal]].\r\n* 605 XP when [[Blessed superior dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 726 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n*1050 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 525 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "Superior dragon bones provide the most Prayer experience of any bone in the game, but they are very expensive, making them the top-tier choice for efficient training when cost is not a concern. When used at a [[gilded altar]], they require {{NoCoins|{{GEP|Superior dragon bones}}/525}} [[coins]] per experience, while regular [[dragon bones]] use {{NoCoins|{{GEP|Dragon bones}}/252}} coins per experience. As such, the most economical use is as a secondary for making [[super antifire potion]]s."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22124"
+        },
+        {
+          "field": "name",
+          "value": "Superior dragon bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "There's something unnatural about these bones."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 22780,
+      "title": "Wyrm bones",
+      "sourceRevision": 15270884,
+      "sourceSha256": "cac395e84b9f0903976ea67ae2873825b59dcdb894fa4ec8687cc9c3e1b6014d",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Wyrm bones detail.png|left|140px]]\r\n'''Wyrm bones''' are the [[remains]] obtained from killing [[wyrm]]s, which give 50 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 150 XP when casting [[Sinister Offering]].\r\n* 150 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 175 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 200 XP when offered at the [[Ectofuntus]] in the form of [[wyrm bonemeal]].\r\n* 210 XP when [[Blessed wyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 252 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 350 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 175 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "positiveFunctionExcerpt": "[[File:Wyrm bones detail.png|left|140px]]\r\n'''Wyrm bones''' are the [[remains]] obtained from killing [[wyrm]]s, which give 50 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 150 XP when casting [[Sinister Offering]].\r\n* 150 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 175 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 200 XP when offered at the [[Ectofuntus]] in the form of [[wyrm bonemeal]].\r\n* 210 XP when [[Blessed wyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 252 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 350 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 175 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{Infobox Item\r\n|name = Wyrm bones\r\n|image = [[File:Wyrm bones.png]]\r\n|release = [[10 January]] [[2019]]\r\n|update = The Kebos Lowlands\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = I wonder how Wyrms have bones...\r\n|value = 160\r\n|weight = 1.800\r\n|exchange = Yes\r\n|id = 22780\r\n}}\r\n[[File:Wyrm bones detail.png|left|140px]]\r\n'''Wyrm bones''' are the [[remains]] obtained from killing [[wyrm]]s, which give 50 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 150 XP when casting [[Sinister Offering]].\r\n* 150 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 175 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 200 XP when offered at the [[Ectofuntus]] in the form of [[wyrm bonemeal]].\r\n* 210 XP when [[Blessed wyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 252 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 350 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 175 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "Burying them while wearing a [[dragonbone necklace]] will restore 3 prayer points."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22780"
+        },
+        {
+          "field": "name",
+          "value": "Wyrm bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "I wonder how Wyrms have bones..."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 22786,
+      "title": "Hydra bones",
+      "sourceRevision": 15270886,
+      "sourceSha256": "bda9a0a34a854fd17423248da445479021bc8772be2199ee2873df357511d28b",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Hydra bones detail.png|left|140px]]\r\n'''Hydra bones''' are the remains obtained from killing [[hydra]]s or the [[Alchemical Hydra]], which give 110 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 330 XP when casting [[Sinister Offering]].\r\n* 330 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 385 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 440 XP when offered at the [[Ectofuntus]] in the form of [[hydra bonemeal]].\r\n* 465 XP when [[Blessed hydra bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 558 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 770 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 385 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "positiveFunctionExcerpt": "[[File:Hydra bones detail.png|left|140px]]\r\n'''Hydra bones''' are the remains obtained from killing [[hydra]]s or the [[Alchemical Hydra]], which give 110 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 330 XP when casting [[Sinister Offering]].\r\n* 330 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 385 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 440 XP when offered at the [[Ectofuntus]] in the form of [[hydra bonemeal]].\r\n* 465 XP when [[Blessed hydra bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 558 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 770 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 385 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{Infobox Item\r\n|name = Hydra bones\r\n|image = [[File:Hydra bones.png]]\r\n|release = [[10 January]] [[2019]]\r\n|update = The Kebos Lowlands\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = The bones of a hydra.\r\n|value = 160\r\n|weight = 1.800\r\n|exchange = Yes\r\n|id = 22786\r\n}}\r\n[[File:Hydra bones detail.png|left|140px]]\r\n'''Hydra bones''' are the remains obtained from killing [[hydra]]s or the [[Alchemical Hydra]], which give 110 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 330 XP when casting [[Sinister Offering]].\r\n* 330 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 385 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 440 XP when offered at the [[Ectofuntus]] in the form of [[hydra bonemeal]].\r\n* 465 XP when [[Blessed hydra bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 558 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 770 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 385 XP, which is the same as the gilded altars with two burners lit, but with an additional 50% chance to not consume the bones.",
+        "Burying them while wearing a [[dragonbone necklace]] will restore 4 prayer points.",
+        "Hydra bones provide the fourth highest amount of Prayer experience per [[bone]] in the game, behind [[dagannoth bones]], [[ourg bones]], and [[superior dragon bones]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "22786"
+        },
+        {
+          "field": "name",
+          "value": "Hydra bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "The bones of a hydra."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 28899,
+      "title": "Wyrmling bones",
+      "sourceRevision": 15339825,
+      "sourceSha256": "f067791c502b6e16714d4bd4cdbe58bcac066e96f39794f387e7c9749d1a45ec",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Wyrmling bones detail.png|130px|left]]\r\n'''Wyrmling bones''' are the [[remains]] obtained from killing [[wyrmling]]s, which give 21 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 63 XP when casting [[Sinister Offering]].\r\n* 63 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 73.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]]. The Temple additionally has a 50% chance to not deplete the bones; effectively doubling the XP to 147 per bone.\r\n* 105 XP when [[Blessed babywyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 126 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 120 XP when offered at the [[Ectofuntus]] in the form of [[baby dragon bonemeal]].",
+      "positiveFunctionExcerpt": "[[File:Wyrmling bones detail.png|130px|left]]\r\n'''Wyrmling bones''' are the [[remains]] obtained from killing [[wyrmling]]s, which give 21 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 63 XP when casting [[Sinister Offering]].\r\n* 63 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 73.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]]. The Temple additionally has a 50% chance to not deplete the bones; effectively doubling the XP to 147 per bone.\r\n* 105 XP when [[Blessed babywyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 126 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 120 XP when offered at the [[Ectofuntus]] in the form of [[baby dragon bonemeal]].",
+      "secondaryExcerpts": [
+        "{{Infobox Item\r\n|name = Wyrmling bones\r\n|image = [[File:Wyrmling bones.png]]\r\n|release = [[20 March]] [[2024]]\r\n|update = Varlamore: Part One\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = Ew it's a pile of bones.\r\n|value = 1\r\n|weight = 0.800\r\n|exchange = Yes\r\n|id = 28899\r\n}}\r\n[[File:Wyrmling bones detail.png|130px|left]]\r\n'''Wyrmling bones''' are the [[remains]] obtained from killing [[wyrmling]]s, which give 21 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways: \r\n* 63 XP when casting [[Sinister Offering]].\r\n* 63 XP when offered at the [[Sacred Bone Burner]] after the appropriate faith level has been achieved.\r\n* 73.5 XP when offered at a [[gilded altar]] with two burners lit or at the [[Chaos Temple (church)|Chaos Temple]]. The Temple additionally has a 50% chance to not deplete the bones; effectively doubling the XP to 147 per bone.\r\n* 105 XP when [[Blessed babywyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 126 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 120 XP when offered at the [[Ectofuntus]] in the form of [[baby dragon bonemeal]]."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "28899"
+        },
+        {
+          "field": "name",
+          "value": "Wyrmling bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "Ew it's a pile of bones."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 31726,
+      "title": "Strykewyrm bones",
+      "sourceRevision": 15353197,
+      "sourceSha256": "782dd0912fecfc1ab809439444232400680fd4eb627543e8ed6c132d3dd2659b",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Strykewyrm bones detail.png|left|140px]]\r\n'''Strykewyrm bones''' are [[Remains#Bones|bones]] dropped by [[Lava strykewyrm|lava]] and [[magma strykewyrm]]s, which give 60 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 180 XP when casting [[Sinister Offering]].\r\n* 180 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 210 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 200 XP when offered at the [[Ectofuntus]] in the form of [[Wyrm bonemeal]]. ([[Strykewyrm bonemeal]] is not obtainable as strykewyrm bones currently only create wyrm bonemeal.)\r\n* 185 XP when [[Blessed strykewyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 222 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 420 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 210 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "positiveFunctionExcerpt": "[[File:Strykewyrm bones detail.png|left|140px]]\r\n'''Strykewyrm bones''' are [[Remains#Bones|bones]] dropped by [[Lava strykewyrm|lava]] and [[magma strykewyrm]]s, which give 60 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 180 XP when casting [[Sinister Offering]].\r\n* 180 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 210 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 200 XP when offered at the [[Ectofuntus]] in the form of [[Wyrm bonemeal]]. ([[Strykewyrm bonemeal]] is not obtainable as strykewyrm bones currently only create wyrm bonemeal.)\r\n* 185 XP when [[Blessed strykewyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 222 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 420 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 210 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{Infobox Item\r\n|name = Strykewyrm bones\r\n|image = [[File:Strykewyrm bones.png]]\r\n|release = [[19 November]] [[2025]]\r\n|update = Sailing is OUT TODAY!\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|bankable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = The bones of a deadly strykewyrm.\r\n|value = 160\r\n|weight = 1.600\r\n|exchange = Yes\r\n|id = 31726\r\n}}\r\n[[File:Strykewyrm bones detail.png|left|140px]]\r\n'''Strykewyrm bones''' are [[Remains#Bones|bones]] dropped by [[Lava strykewyrm|lava]] and [[magma strykewyrm]]s, which give 60 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 180 XP when casting [[Sinister Offering]].\r\n* 180 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 210 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 200 XP when offered at the [[Ectofuntus]] in the form of [[Wyrm bonemeal]]. ([[Strykewyrm bonemeal]] is not obtainable as strykewyrm bones currently only create wyrm bonemeal.)\r\n* 185 XP when [[Blessed strykewyrm bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 222 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 420 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 210 XP, which is the same as the gilded altar with two burners lit, but with an additional 50% chance to not consume the bones."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31726"
+        },
+        {
+          "field": "name",
+          "value": "Strykewyrm bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "The bones of a deadly strykewyrm."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    },
+    {
+      "itemId": 31729,
+      "title": "Frost dragon bones",
+      "sourceRevision": 15270882,
+      "sourceSha256": "4fd3329cb2a9063ea4385aeea9465f33d59dd01fcfeffb2347c4989eeaf434ef",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "prayer-resource",
+      "semanticExcerpt": "[[File:Frost dragon bones detail.png|left|130px]]\r\n'''Frost dragon bones''' are bones dropped by [[frost dragon]]s, which give 100 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 300 XP when casting [[Sinister Offering]].\r\n* 300 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 350 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 400 XP when offered at the [[Ectofuntus]] in the form of [[frost dragon bonemeal]].\r\n* 420 XP when [[Blessed frost dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 504 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 700 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 350 XP, which is the same as the gilded altars with two burners lit, but providing a 50% chance to not consume the bones.",
+      "positiveFunctionExcerpt": "[[File:Frost dragon bones detail.png|left|130px]]\r\n'''Frost dragon bones''' are bones dropped by [[frost dragon]]s, which give 100 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 300 XP when casting [[Sinister Offering]].\r\n* 300 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 350 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 400 XP when offered at the [[Ectofuntus]] in the form of [[frost dragon bonemeal]].\r\n* 420 XP when [[Blessed frost dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 504 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 700 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 350 XP, which is the same as the gilded altars with two burners lit, but providing a 50% chance to not consume the bones.",
+      "secondaryExcerpts": [
+        "{{External|rs}}\r\n{{Infobox Item\r\n|name = Frost dragon bones\r\n|image = [[File:Frost dragon bones.png]]\r\n|release = [[19 November]] [[2025]]\r\n|update = Sailing is OUT TODAY!\r\n|members = Yes\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Bury, Drop\r\n|examine = They're rather cold.\r\n|value = 160\r\n|weight = 1.600\r\n|exchange = Yes\r\n|id = 31729\r\n}}\r\n[[File:Frost dragon bones detail.png|left|130px]]\r\n'''Frost dragon bones''' are bones dropped by [[frost dragon]]s, which give 100 [[Prayer]] experience when buried. This can be increased by offering the bones in different ways:\r\n* 300 XP when casting [[Sinister Offering]].\r\n* 300 XP when offered at the [[sacred bone burner]] after the appropriate faith level has been achieved.\r\n* 350 XP when offered at a [[gilded altar]] with two burners lit.\r\n* 400 XP when offered at the [[Ectofuntus]] in the form of [[frost dragon bonemeal]].\r\n* 420 XP when [[Blessed frost dragon bones|blessed]] and broken down into [[blessed bone shards]] and offered at the [[libation bowl]], or 504 XP when offered with a [[jug of blessed sunfire wine]]. [[Virilis]] outside the altar will exchange noted bones for 10 coins each.\r\n* 700 XP on average when offered at the [[Chaos Temple (church)|Chaos Temple]] in the Wilderness. Each offering gives 350 XP, which is the same as the gilded altars with two burners lit, but providing a 50% chance to not consume the bones."
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "31729"
+        },
+        {
+          "field": "name",
+          "value": "Frost dragon bones"
+        },
+        {
+          "field": "options",
+          "value": "Bury, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "stackable",
+          "value": "No"
+        },
+        {
+          "field": "noteable",
+          "value": "Yes"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        },
+        {
+          "field": "examine",
+          "value": "They're rather cold."
+        }
+      ],
+      "rationale": "Own physical bone has direct repeated Prayer burial/offering function; use the existing prayer-resource subtype while retaining Resources tab and every existing tag. Quest/monster acquisition is not an activity-only restriction. Material output states and secondary uses remain unassessed."
+    }
+  ],
+  "sourceHashes": {
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "candidatePacket": "cf5449ebbd999d15d0960d9e6d6b101cab42b49c99164f1bb5294890c6be250c",
+    "rootReadRecord": "34b09091455c3bb592b527b9a52b7d02fafe7f1dc2df813e5419d3d1ae6cccd5",
+    "independentReview": "a31c5fcd75115eb63c2b613d3611e36823c7b8da4d930f61f503f37ab55fc2e2"
+  }
+}

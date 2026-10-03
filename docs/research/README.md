@@ -4,11 +4,11 @@ This folder contains generated research artifacts. They are not production catal
 
 ## Product Research
 
-`category-certification-checkpoint-october-3.md` records 231 independently reviewed and applied corrections,
-637 confirmed clue-scroll placements, 939 confirmed equipment placements, 40 ordinary foods, 21 raw-fish Cooking inputs, 72 consumable player-transport items, 23 ordinary spellcasting runes, 151 tools, 51 ordinary planting seeds, pinned exact-ID evidence and validation. It explicitly records that full preset certification
+`category-certification-checkpoint-october-3.md` records 252 independently reviewed and applied corrections,
+637 confirmed clue-scroll placements, 939 confirmed equipment placements, 40 ordinary foods, 21 raw-fish Cooking inputs, 72 consumable player-transport items, 23 ordinary spellcasting runes, 151 tools, 51 ordinary planting seeds, 14 herb-patch seeds, six special seeds and 46 seedling states, pinned exact-ID evidence and validation. It explicitly records that full preset certification
 remains incomplete; earlier export-wide passes were not a certification of every assignment.
 `category-certification/approved-assignments.tsv` accounts for all 34,085 IDs and separates the
-2,165 approved primary assignments from the 31,920 that remain unresolved.
+2,252 approved primary assignments from the 31,833 that remain unresolved.
 
 `item-role-audit-final-october-2.md` records the final clue/quest/equipment batch, conditional
 cleanup protections, whole-export coverage measurement and the ingame test checklist.

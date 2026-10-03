@@ -1,20 +1,21 @@
 {
   "actionCounts": {
-    "certify": 1934,
-    "revise": 231,
-    "unresolved": 31920
+    "certify": 2000,
+    "revise": 252,
+    "unresolved": 31833
   },
-  "actionableRows": 2165,
+  "actionableRows": 2252,
   "decisionRows": 34085,
   "optionalRootCertificationCount": 637,
   "output": "tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl",
-  "outputSha256": "a7e668d93aa31574b57450655f4978d37b62fcf9c45119ae469cb39ee3d47b4d",
-  "policyCaseCount": 1528,
+  "outputSha256": "1827573babc0a0d80b48b861a0b3f7f85628b22f45a5a5292692fad9e9be5c58",
+  "policyCaseCount": 1615,
   "replayScriptHashes": {
-    "emit-root-approved-decisions.py": "f2fb49f764ee38296a63ad43797882ffc1522ce010a70f72a756c0f4e1d6429f",
+    "emit-root-approved-decisions.py": "195e23bd24a0065f974f75d4ffa2991accd559454c3a926171993a366e4a5e55",
     "ledger.py": "7eacf8f6f06baf91dee5d3dbf6651ca36489fb83fb7ce88d4df4f0b1ac7a4cb8",
     "review-approved-clue-scrolls.py": "f3fb7bbb0d90236ea8fc1fd8f62525c7b519abebf7c8821c0d87728b5a28bb9c",
     "verify-farming-primary-policy.py": "6dd2ebdccf8c9a37c0a591226fe89acabf0d53f11ef1b3326ff9ee998e885aac",
+    "verify-farming-supplemental-policy.py": "a5ab3d99616f799cfabc8c56f7bd71270df87fb0391841ebda4048cf58b74a33",
     "verify-food-primary-policy.py": "7c94e43044b1df30c9b8c2fe927196a7997ea21a9bb112b9c6ef984b6d5b9bba",
     "verify-gear-bonus-sources.py": "31f6cdf9415fec09f436cf3164b4434788977e356e86853d4889a7466023871d",
     "verify-gear-primary-policy.py": "d1e2f5f436248c0699701cb7dd7e3c19a0f3577b237b97a9b25da12f1aabbad6",
@@ -47,11 +48,13 @@
       "cleanup-gear-approved-policy.json": "843792667457a0ec681a8ba76f09608b03012d7fd456e825c196799b8a4f2b6b",
       "cleanup-other-policy.json": "031a30e94e27b4585780b87c66dde6316780e518ecc44645287584d591677af1",
       "farming-primary-approved-policy.json": "bd6a528ff4e90ce296108e97430740767e178d73f0677a8973a67ebe596492e3",
+      "farming-supplemental-approved-policy.json": "8311310706d15ef53bd7f3be9d522c8fa5d51fec302920f485c0c8c6c5b30ee9",
       "food-primary-approved-policy.json": "5c886d8ac5acddd9c7617cad09f90409fe67bc21cc8b5fa4d4841aae36c0f2f2",
       "gear-approved-policy.json": "dd1fb79594b172a91cf73b4510bd6252c9b3f432a3b094b0f80242added814a6",
       "gear-primary-approved-policy.json": "f17524150bea502639d351438ffe123aee5c06285f9089ca15979cceb4d9b9d1",
       "gear-slot-approved-policy.json": "d43dd73e86a331ead88be5d8ba16420d16299844506e2072a649ae4af9fe0cdf",
       "materials-approved-policy.json": "6a68ebeb421ec89857aa567935df37839c7655aa1b93f19f7d5bde7ca8f34ca2",
+      "prayer-bone-subcategory-approved-policy.json": "9a1bdd4e7a63ef5ad04a9a72a0d9a0d37cd56a6331e9019d5dee1d2836aa9f88",
       "raw-food-primary-approved-policy.json": "587baf2b0b59f459754ebd224b940b470b01ff1dab0eac77b56e537b64b4a8d1",
       "rune-primary-approved-policy.json": "bb5d67336e0c2a4cf892bd8f37e932e261caa7315b7b89a30c2d5888ef4a5cfd",
       "teleport-primary-approved-policy.json": "4edda743997c8adfe1845d59db6969f30ee0fb683f01e96c71174e2ecbcbddc0",
@@ -60,13 +63,13 @@
       "utility-approved-policy.json": "06ff2ef77124d95991d893dc7bac16c80128fce54a66fbdefa7b7b67bf1f65fe"
     },
     "rawFishReview": "bcbda28285765e806e0e7206c737519f62fcf91db9064730881fb1c313ff1e87",
-    "rootPolicyApprovals": "a922ba09bd868ca600fb9b5aa6883c0d449208c986ce101ad16035d1e3c21ddc",
+    "rootPolicyApprovals": "02384bf5985860ef566c9140e19cffc725d3c4cf04cf69ea7f737158c19970e6",
     "runeCandidatePacket": "b2707f06d2f71774ae62e8da30f10f6e676c2d4e2584130c0dc25d26627b04d8",
     "teleportCandidatePacket": "5ed9e5c2520dd16a754f9179d0371c152b8f13b954057e6a8ec2762ce54ac107",
     "toolCandidatePacket": "d98fbc467c6459208940c5c4e45fc096a3185892f1cef6ba70acb30f046c101f"
   },
   "summaryTsv": "docs/research/category-certification/approved-assignments.tsv",
-  "summaryTsvSha256": "59d329c86a50f6049ad08654a4a19d0eeeb911d80f764873f02c87bc7278a8ce",
+  "summaryTsvSha256": "91308948de85e0bb484b0f8aad2d8b48b2acb81b63cbd453b42b3b8877c00b14",
   "tabPolicy": "Standard target tabs are computed from the approved target category using the current preset mapper's category routes, plus explicit ID routes listed in this emitter. after-coverage is never read by the emitter.",
-  "unresolvedRows": 31920
+  "unresolvedRows": 31833
 }
