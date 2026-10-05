@@ -1,0 +1,424 @@
+{
+  "schema": "materials302-published-review-issues/v1",
+  "status": "Historical audit findings and additive root errata; no fact or completeness authority",
+  "precedence": "Read root errata before acting on audit claims. Other quote-gap findings remain provisional until all evidence entries are inspected.",
+  "historicalAuditIssues": {
+    "status": "independent research findings; no semantic approval",
+    "issues": [
+      {
+        "id": "slice2-definition-discovery-scope",
+        "severity": "definition inventory false-negative",
+        "count": 34,
+        "predicateCounts": {
+          "osrs.item.page-mechanics-observation@1": 22,
+          "osrs.item.normalized-mechanics-profile@1": 12
+        },
+        "recordIds": [
+          "claim-ae1cb4a2ed9acd6e211ff25231a3aae68ee8fd205f609ca699bc79090bd3c9b2",
+          "claim-d9e638edfd54a64d77238b2746cd62582ea7688d9f2b936260e002ab2a577a33",
+          "claim-3244916a757e8d88273dea378b9196c9eb1c51154305a528ac4f63c0bf813fc4",
+          "claim-7de2dbf37cda568786594f938ff5dc60cb0994582510404c3c8147f7b7bb6c49",
+          "claim-dd339c64e163b471e27a7e06dd2c0a74aeace733a2fa6544e17a5b4972545abf",
+          "claim-f4cb1ab0e69770fdbf4d43932a3128837b3d31ff902583aef21e5f053167a35e",
+          "claim-b270c3e6d93fbf047ce79bd6423f61e44a6542ce23931ab7a14aa9626f437fd6",
+          "claim-d71dead895f5eb8c3a536a476ecab9d1e62cc175e44509d18acde2f0985ba5e1",
+          "claim-08da4fdff76d9262a1fc8d0bd04eb65a6327d9e055fc9242eac26501c2524c8b",
+          "claim-e37d8cfcf9c08011fbcf9c3b1a7796f475708d7c0239fc60fd815bfb0edf4b6d",
+          "claim-3cdf105b1c0b52da2f4565f3d3b2fa4964143d0e059a54f22d8ff2d2583f477b",
+          "claim-a944a62aee76fbecbf8ce87b3fd130072aa954bf113ecb01bdee446bd5874059",
+          "claim-a310698ae157ae5d8cb785bce7d8c1c5026c3a25239db3b32d508ef6635c3a9b",
+          "claim-dc3769929cfb898d7d320893d3ee9c89969738ab350c5c022a9586cf13f1cd40",
+          "claim-3de4fe894894dcddec52d7b0927b06a7334745e6302488c121186bcfa23e5a2b",
+          "claim-4656f773a020a24206bdc73eb1feb7fb208899fb75470a90413ab577d158da50",
+          "claim-e7f3144c997c82fbe919c09736464e3878c540bf616800ad8a464e86d0b81b8e",
+          "claim-1f04bd8b79604c48e73f8278931f1960a8b17bc17dcef1fa032f11f7566af010",
+          "claim-3970635b44e87ea575b6aff306e455b1a450f4811f6a8f7f8ba8708513ec06db",
+          "claim-585c5095efdfb7e85a296325b4deda7e757b091a1e192c08040828f0838cbfa6",
+          "claim-5a990be4e4508d72c51b1f3b950611021b074d9b62d16f7aaf400073ea0e6eaf",
+          "claim-9596d69d4347974898157646b3a45afe951f53364e637c5f200d7a57375ebf6d",
+          "claim-33bfff3ca16057a4add3c016b32324b3a73febed89b635a159b43aec9f6c63e1",
+          "claim-69bd8fbceef966b16f8b2e422f413d56cbcf6c88007016c1a5738d5cb87a29a6",
+          "claim-900b35f5bce8e38f28e408f6e42f04822e11addd66699f1df1c2472b7d4906f2",
+          "claim-ab0454f1ad1ef2b7ea0c9b82d36e143bc0b5d98bf7be249314858b6d1c18d9dc",
+          "claim-6ad3c54a9fa29be1f78f6f13db9b6ee1e975056fe1d3a66342c10cd8f217929d",
+          "claim-acd265f6e174630c2866c8557dfda4a60304215db49e484fca67393e839f15e6",
+          "claim-37ee9f3cb4de0fe8974a5a88a72ab6b08da49a374b5d85161ad27e3ff562e732",
+          "claim-658c14368fbd2e9c754a0141a390ca3fe428c61cc982a5adaafd83e591eaa842",
+          "claim-873558fb3c7bdbcbe75dced9d3945030a813a8a0d8d3b064267422effc269b85",
+          "claim-a65e365abfeaa0e4a7d7961af0d34fc9c1e1c229f18ab4f215087d57df0ab926",
+          "claim-b909aa719835a8ad2bc57ac31f0fb609142929d94b9c30b8238125273b5836aa",
+          "claim-cd97f648107b089d1aac2ef9be89f4680a67ee850573ad6c66ca05b541983479"
+        ],
+        "finding": "All 34 keys have exactly one draft definition in their own pinned shard2 source packet map; slice2 raw annotation says missing. Keep sourcePacket-scoped provenance; both remain candidate-unreviewed and ruleUseAllowed=false. Page-mechanics has no valueShape, observedValueShape or recursiveValueShape. Normalized-profile has recursiveValueShape and claimSlot only, no valueShape or observedValueShape."
+      },
+      {
+        "id": "slice2-shard1-excerpt-shape-unspecified",
+        "severity": "open schema gap",
+        "count": 27,
+        "recordIds": [
+          "claim-0a3e74f887137b3314e21f76134acd8911df209e3d18e79754f06ab4771b9315",
+          "claim-1ffa3e1f4c84df18d1e98b49e2ef96edf51a769eadb72e41854ac05855ff808f",
+          "claim-3a113c5584a7c73abf8995d34e967a2f6937763592598d08dfe7b27d685ba19a",
+          "claim-597772e861e6134ddde326f40c99adde6e5f07a859ba07a82c82588ff3743dde",
+          "claim-8cab61ebe73844d3a2da7eec8327f01ca8530d46da5cab5f29556b30cb3b65e0",
+          "claim-cd552912691d8452338858799f0b89fb1b0730065e775d594b6f852da6dd45f8",
+          "claim-5b75b66851858774074710be8f1638a5b8c6f2bcb66335dd95e843afadebe513",
+          "claim-c832bdab3c4dcc4fc64e982e2634a56617838048c3c35eaf6c503c2cf0a90f7e",
+          "claim-c5335768c738d622a3550da9b1ff8bed32fe43c28e8eb1f3c35090f296d4aa7a",
+          "claim-c9c10b48bc5c356ee3586b5add2cf123f47b10dd83c5c6b34f700ccf28225edf",
+          "claim-2fae78a2a22fe6cdf5368db436c6d89fdb54f5da759d9a0dd037d6b0b6c10999",
+          "claim-6195466d8e1a393a8c2b01651067386d3bb2110d1a5e06472b1ecf401ebfc01b",
+          "claim-9c1f1c4ff7c8e39e5a1a64820a39e678f61719cbf079cc895880b2ef758564ba",
+          "claim-a594fa6afe9447aa9be740d41587d2360edd7651522565ade6aa5d68d9bb996c",
+          "claim-ca832ab5ce842c065a376402541377591d89c4d6d9316722eb92e069810f3b74",
+          "claim-2a139acc077fae50becf2f6277c40ade8793dc07131fb0124c0ba7f1aa7be90e",
+          "claim-40199773c319d3cb2267da60599ce08ae9e744c8e8587d4b6f64d91b7d01b35f",
+          "claim-a1cfa0ebd867430eb68fd9189c33fb54f7b59e90ef2bee41b97a3e025c9e45cf",
+          "claim-4f07a1c3c9bfc39f1be8d3af11f342f7f46f7b47e63725aa03474d0d8d460f78",
+          "claim-cea33a6e1d7292c0050356729c0bdffb246f263b7fbb254877abbdf8ddb51a61",
+          "claim-0bdab8cb2bb6fab7e0e69db53711a898f7ae1b1400d27981f83ed27a06116628",
+          "claim-279f70a01240885bad635cedb4eb5d98256f315dd95c62b7473286f3d8a667ac",
+          "claim-8f9bcc930222ef40e3a9571242f30225bc0ed2491e94c715112cdf74f305d60a",
+          "claim-ab2bb7df75f81489ccf9536f9cdadf7daa52b0cf322b1216b0feb4df88f47190",
+          "claim-b08636fc628fa303b6d4dfc99617e097da10ff8b9ef065465dcde02f1d4adfd7",
+          "claim-d97d27c5b1375d2cc03774a47f9b658712652f67d64d5d6d933b18da350cd3ab",
+          "claim-ff5a505643edc61e4071d0d27cd1ce180b4fe240653020b671107399ff66893d"
+        ],
+        "finding": "Exact shard1 excerpt definition exists once and remains candidate-unreviewed, ruleUseAllowed=false, with no declared value shapes. Observed claim-specific trees and 479 field paths/40 typed-quantity paths across these claims do not establish a common predicate schema."
+      },
+      {
+        "id": "unit-vocabulary-inconsistencies",
+        "severity": "candidate typed-unit corrections for source-owner review",
+        "findings": [
+          {
+            "itemId": 4289,
+            "recordId": "claim-a310698ae157ae5d8cb785bce7d8c1c5026c3a25239db3b32d508ef6635c3a9b",
+            "path": "$.functions[0].amount",
+            "captured": "osrs:hitpoint",
+            "candidateGuidance": "osrs:hitpoints",
+            "note": "Cooked-state healing amount; source says 1 hitpoint. Do not apply to raw item."
+          },
+          {
+            "itemId": 6357,
+            "recordId": "claim-f9b5b3b4946ff2c7937663209bac9589fcc2bee04b82dfe923ca30b3dcb7871b",
+            "captured": "osrs:item-count",
+            "recommended": "count:trading-stick",
+            "note": "Quoted prices explicitly say 100 and 120 trading sticks; Brown sandals sibling uses count:trading-stick."
+          },
+          {
+            "itemId": 1747,
+            "recordId": "claim-ed61f865239552dcded6aa014cbc280d4c90bdcd61ecdc4c1829c57aebc0642c",
+            "captured": "osrs:percent",
+            "neighboringValue": "ratio:percent",
+            "note": "Own source says 100% drop; adjacent dragonhide claims type the same rate ratio:percent."
+          },
+          {
+            "itemId": 6862,
+            "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac",
+            "path": "$.bonusTable.*.magicDamage",
+            "captured": "osrs:combat-bonus-point",
+            "recommended": "ratio:percent",
+            "note": "Magic damage bonus field is a percentage field; zero value is on the page, but claim quote omits the Infobox Bonuses block."
+          },
+          {
+            "itemId": 1749,
+            "recordId": "claim-4623a3a59a7c9dad13d0ab98229fa91b6d9b5dc46e125b525b5602ea36cd26de",
+            "captured": "osrs:coin-per-item",
+            "neighboringValue": "osrs:coin",
+            "note": "Quotes support 20 coins per hide and 45 in Canifis; check unit vocabulary consistency without changing the supported value."
+          }
+        ]
+      },
+      {
+        "id": "cross-state-fishbowl-profile",
+        "severity": "selected-state scope gap",
+        "itemId": 6668,
+        "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7",
+        "finding": "Water-filled Fishbowl profile attaches the 42 Crafting/42.5 XP/3 tick recipe output for empty bowl ID 6667 to selected water-filled ID 6668. The claim quote is infobox plus lead and omits the Recipe section. Retain as related family workflow or exact-bind to empty ID 6667 after review; do not transfer output-state recipe into selected-state mechanics."
+      },
+      {
+        "id": "slice4-fishbowl-route-schema-and-quote",
+        "severity": "schema plus claim evidence scope gap",
+        "itemId": 6669,
+        "recordId": "claim-c7c29a5720611bf5a0a62ef0c1b669d059767d5eddf48fd8a87f014dd06faafc",
+        "finding": "Route factValue uses `routeType`, `stages`, `exactSelectedOutput`, and `inputOutputItemIds`, but the derived expectedObservedSchema requires top-level `inputs` and `output`; definition valueShape allows route fields. Claim quote only includes initial 3-tick step; later one-tick water/seaweed steps exist in pinned page and page-review but not evidence quote. Keep candidate and flag schema/claim-local evidence; do not alter value or infer unsupported completeness."
+      },
+      {
+        "id": "claim-local-quote-omissions",
+        "severity": "evidence scope gaps; later source templates are present in full pinned pages",
+        "recordIds": [
+          "claim-73970e015485618f794a2b871fe4ec505a8ff6a26cdcbd14ef4aa59909bb6092",
+          "claim-e589e83a6845b13b6dacf78b48ffa48766fea8e89f30932ef3510e94f0d7458a",
+          "claim-8d9b9c1a9743bdb363851c3508561ecf42953efac93647b935287270bb5d62a3",
+          "claim-ae8c92b82c6c06efb5e5f0f03801bed04295c7ac89c45636a0bc57632d7dc286",
+          "claim-6c2e4c5ebec7fa7a359bddfa992ffb150e7c23902e1a5f54a4d5f1041fe3f42a",
+          "claim-95003e602fa84f6745777be0fddceeeae87dab64c864a570d2324cf12dd57682",
+          "claim-500247f7da731262d42418f268b7b042037ea0268254712f144d004c1d1d8928",
+          "claim-96fb75c0789293c773d3dca64f43866f2c6132bb32fa0e3942c52784b4ce8ef4",
+          "claim-8779205b34fcffd5b6c50b6b346a0e42cc2d9063aa826c906da1df65485b5c4c",
+          "claim-9fa8fafd612a14b21903b9f1c81028f8d19ffcc0838bac23966fddd61f07a109",
+          "claim-83633fc3750efb57749a5802bb8e25832169d7e367b4efa554aeff5ea20ecbcc"
+        ],
+        "note": "Includes recipe and prayer-info XP/level facts, batch 26 pots, Spinefish required Fishing level, Iron bar durations/XP/runes/quest counts, and coconut auto-fill ticks. Exact full pages contain these values, but claim-local quotes do not. Attach exact supporting excerpts or split scoped assertions before semantic approval."
+      },
+      {
+        "id": "source-negative-and-literal-guard",
+        "severity": "interpretation boundary",
+        "finding": "Keep unexpanded templates, empty arrays, no-contents notes, chart literal rows and omitted quantities as source gaps or raw literals. Do not convert them into false/zero values, normalized probabilities, successful recipe outcomes or bankability."
+      }
+    ]
+  },
+  "historicalAuditAddendum": {
+    "status": "independent page-level review addendum; candidate/unassessed only",
+    "sourceEvidence": "See independent-claim-definition-source-crosswalk.jsonl and source-page-inventory.json for exact claim evidence, pinned revisions, page hashes, and quote replay.",
+    "findings": [
+      {
+        "id": "claim-6862-bonus-unit-and-quote-scope",
+        "itemId": 6862,
+        "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac",
+        "finding": "The normalized profile captures the 14 zero Infobox Bonuses rows, including magicDamage, but the claim-local quote ends in the lead before Combat stats/Infobox Bonuses. The magic-damage field is percentage-valued; compare the same Wiki field for Diamond amulet, typed ratio:percent. Review the captured osrs:combat-bonus-point unit."
+      },
+      {
+        "id": "claim-6357-price-unit",
+        "itemId": 6357,
+        "recordId": "claim-f9b5b3b4946ff2c7937663209bac9589fcc2bee04b82dfe923ca30b3dcb7871b",
+        "finding": "Prices are explicitly 100 and 120 trading sticks, but the amount is typed osrs:item-count. Brown villager sandals sibling uses count:trading-stick. Values are sourced; the unit label needs review."
+      },
+      {
+        "id": "claim-1747-drop-rate-unit",
+        "itemId": 1747,
+        "recordId": "claim-ed61f865239552dcded6aa014cbc280d4c90bdcd61ecdc4c1829c57aebc0642c",
+        "finding": "Exact source supports 100% drop; this claim uses osrs:percent while adjacent hide claims use ratio:percent. Unit vocabulary mismatch, not unsupported rate."
+      },
+      {
+        "id": "claim-1749-sale-unit-vocabulary",
+        "itemId": 1749,
+        "recordId": "claim-4623a3a59a7c9dad13d0ab98229fa91b6d9b5dc46e125b525b5602ea36cd26de",
+        "finding": "Quotes directly support 20 coins for each hide and 45 in Canifis. The claim uses osrs:coin-per-item while neighboring hide claims use osrs:coin. Keep the supported value and check vocabulary consistency."
+      },
+      {
+        "id": "claim-6668-cross-state-recipe-profile",
+        "itemId": 6668,
+        "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7",
+        "finding": "Profile subject is water-filled Fishbowl ID 6668, but its origin/recipe fields describe Crafting level 42, 42.5 XP, 3 ticks, and output empty bowl ID 6667. The claim quote is Infobox plus lead and omits the recipe. Preserve as related-state family context or exact-bind to 6667 after review; do not transfer output-state recipe into selected-state mechanics."
+      },
+      {
+        "id": "claim-local-numeric-quote-gaps",
+        "recordIds": [
+          "claim-73970e015485618f794a2b871fe4ec505a8ff6a26cdcbd14ef4aa59909bb6092",
+          "claim-e589e83a6845b13b6dacf78b48ffa48766fea8e89f30932ef3510e94f0d7458a",
+          "claim-8d9b9c1a9743bdb363851c3508561ecf42953efac93647b935287270bb5d62a3",
+          "claim-ae8c92b82c6c06efb5e5f0f03801bed04295c7ac89c45636a0bc57632d7dc286",
+          "claim-6c2e4c5ebec7fa7a359bddfa992ffb150e7c23902e1a5f54a4d5f1041fe3f42a",
+          "claim-95003e602fa84f6745777be0fddceeeae87dab64c864a570d2324cf12dd57682",
+          "claim-500247f7da731262d42418f268b7b042037ea0268254712f144d004c1d1d8928",
+          "claim-96fb75c0789293c773d3dca64f43866f2c6132bb32fa0e3942c52784b4ce8ef4",
+          "claim-8779205b34fcffd5b6c50b6b346a0e42cc2d9063aa826c906da1df65485b5c4c",
+          "claim-9fa8fafd612a14b21903b9f1c81028f8d19ffcc0838bac23966fddd61f07a109",
+          "claim-83633fc3750efb57749a5802bb8e25832169d7e367b4efa554aeff5ea20ecbcc"
+        ],
+        "finding": "Later exact-page templates contain the asserted numbers, but claim-local quotes omit them: ID1941 level/output/batch quantities; prayer XP/levels for IDs 4257, 4268, 4261, 3325, 4265, 4256 and 4853; Spinefish required Fishing level 10; Iron bar durations/XP/runes/quest counts; Coconut shell 3-then-4 autofill ticks. Attach exact supporting excerpts or split assertions before semantic approval."
+      }
+    ]
+  },
+  "stageGapInventory": {
+    "schema": "materials-remaining302-audit-gap-register/v1",
+    "status": "research inventory; no semantic certification or dimension completion",
+    "stageManifest": {
+      "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-materials-remaining302-stage-manifest-20261004.json",
+      "sha256": "8936e3e40e042e7807bc859ee111cce1879814d0fa923e309b41710f1848a9c6"
+    },
+    "dimensionExtractionCoverage": {
+      "rows": 800,
+      "itemIds": 100,
+      "dimensionsPerItem": 8,
+      "statusCounts": {
+        "unassessed": 748,
+        "reviewed": 52
+      },
+      "meaning": "All rows remain fact-unassessed; reviewed status describes partial candidate extraction only and never completeness. A missing coverageComplete field is not interpreted as complete.",
+      "dimensionNames": [
+        "acquisition-origin",
+        "applicability-restrictions",
+        "bank-context",
+        "competing-roles",
+        "consumption-state",
+        "contents-containers",
+        "functions-effects",
+        "skills-recipes"
+      ],
+      "allCoverageRows": {
+        "path": "tmp/root-review/materials-durable-capture-remaining302-20261004/combined-dimension-coverage.jsonl",
+        "sha256": "42a8fbc9aa68edc210500bf8f7d328fe192da9180e8ace0b79c30399bb6af5e8"
+      }
+    },
+    "quantityAndUnitInventory": {
+      "candidateRows": 302,
+      "rowsWithNestedNumericLiterals": 179,
+      "rowsWithTypedQuantityNodes": 116,
+      "nestedNumericLiteralCount": 515,
+      "typedQuantityNodeCount": 398,
+      "separatelyListedTypedQuantityPathCount": 205,
+      "rowsWithLiteralNumbersButNoTypedQuantityPath": 119,
+      "reviewFile": {
+        "path": "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/numeric-unit-review.jsonl",
+        "sha256": "e87bf57c989133082a9855224a5176a62957cb405432b679ac275eeb631302e2"
+      },
+      "knownReviewQuestions": [
+        "6357 trading-stick unit",
+        "Woolly hat magic-damage unit",
+        "1747 and 6862 unit vocabulary",
+        "1749 per-hide measure is sourced but still requires distinction from unsupported variants"
+      ],
+      "interpretation": "This is a bounded numeric extraction inventory, not proof all page quantities, stages, units, conversions, or conditions are normalized."
+    },
+    "sourceQuoteAndVariantGaps": {
+      "pinnedPageRows": 100,
+      "pageInventory": {
+        "path": "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/source-page-inventory.json",
+        "sha256": "132c8070968c02741776ed97856071b14b29f89446a3ca0fa8dd89483ac3a5a7"
+      },
+      "crosswalk": {
+        "path": "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/independent-claim-definition-source-crosswalk.jsonl",
+        "sha256": "7cd18ec2c9af9579c7a7d6a36c7dee27c75e1b49cee20437ab7ef4cd3c1ed85f"
+      },
+      "auditReport": {
+        "path": "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/audit-report.json",
+        "sha256": "d7f5cc53c1dfea6ea546b052186b9e4264d96be6e1d7fa84c77fda339c9ab8fe"
+      },
+      "specificKnownGaps": [
+        "Fishbowl (seaweed), ID 6669: staged value lacks schema-required top-level inputs/output; the claim quote records the initial three-tick stage but omits later one-tick water/seaweed stages.",
+        "Crumbling tome: exact-revision transcript unavailable; stale ordinary rendering was not imported.",
+        "Pasty jogre bones, ID 3131: selected normal-bones/raw-paste variant coexists with neighboring burnt-bones Prayer text; do not transfer XP across variants.",
+        "Several values include numeric literals whose full source clauses appear elsewhere on the pinned page; claim-local excerpts do not always carry every relevant clause. Reconcile full own page before normalization."
+      ],
+      "recipeShapeException": {
+        "path": "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/recipe-shape-exception.json",
+        "sha256": "7d848afdf6f6e452141c18c2adfcfc7d5681e54129a60b68004bab1080e6e368"
+      }
+    },
+    "sourceDefinitionGaps": {
+      "candidateRecords": 302,
+      "exactScopedDefinitionCount": 302,
+      "candidateUnreviewed": 302,
+      "registered": 0,
+      "ruleUseAllowed": 0,
+      "note": "The 34 earlier slice-2 missing labels are narrow-lookup false negatives; crosswalk has one exact source-packet-scoped candidate definition per record. No global alias, rule registration, or approval follows."
+    },
+    "unassessedSemantics": [
+      "full functions/effects",
+      "recipes and complete stage chains",
+      "units and derived conversions",
+      "origins versus use restrictions",
+      "availability and historical state",
+      "consumption and transformation",
+      "secondary roles",
+      "bankability",
+      "tags",
+      "placement"
+    ],
+    "sourceReviewScope": {
+      "reviewerPageRefs": 100,
+      "sourcePathStrings": 95,
+      "revisionContentSnapshots": 91,
+      "rootReadAll95PathsAnd302Values": false
+    }
+  },
+  "rootEvidenceScopeErratum": {
+    "schema": "materials302-root-evidence-scope-addendum/v1",
+    "status": "research-only scoped reading and audit correction; no candidate edits or semantic approvals",
+    "input": {
+      "path": "tmp/root-review/materials302-4289-root-unit-correction-20261004/effective-assertions-remaining302-corrected.jsonl",
+      "sha256": "7f7c9d7496d134d1797d73ff5d2a34e05988da5638faccd0ba210ed2f9309277"
+    },
+    "readings": [
+      {
+        "itemId": 6862,
+        "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac",
+        "canonicalRecordSha256": "546be9032df0e648208bdb2f8670486ab9e7029d82fcf845dc1bd143e608b349",
+        "sourcePath": "tmp/category-certification/wiki-articles/text/15184896.txt",
+        "sourceRevision": 15184896,
+        "sourceSha256": "786773cdd1ab47f78c1e33026e3bbfdeda893d8b5f5840c1531390e9f2096fb2",
+        "fullOwnPageRead": true,
+        "completeFactValueStateAndAllEvidenceProjectionsRead": true,
+        "allEvidenceQuotesReplay": true,
+        "evidenceCount": 3,
+        "status": "unassessed"
+      },
+      {
+        "itemId": 6357,
+        "recordId": "claim-f9b5b3b4946ff2c7937663209bac9589fcc2bee04b82dfe923ca30b3dcb7871b",
+        "canonicalRecordSha256": "09b201614fd9fa864a023a8a7b03011a57d5e92f37b13a51deb4852efc3ce544",
+        "sourcePath": "tmp/category-certification/wiki-articles/text/15185719.txt",
+        "sourceRevision": 15185719,
+        "sourceSha256": "8c03ffa5f4fecc1a0377f78f978c1e0b88474366e8b57c9eb5aa8036bc9aaebf",
+        "fullOwnPageRead": true,
+        "completeFactValueStateAndAllEvidenceProjectionsRead": true,
+        "allEvidenceQuotesReplay": true,
+        "evidenceCount": 1,
+        "status": "unassessed"
+      },
+      {
+        "itemId": 6668,
+        "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7",
+        "canonicalRecordSha256": "8dfaac8fe9a9a13f425e1c6bb7c6f56909b074352011f3f78dead356685af9a5",
+        "sourcePath": "tmp/category-certification/wiki-articles/text/15286250.txt",
+        "sourceRevision": 15286250,
+        "sourceSha256": "c1b77d4184e8385755029b5bb060d600779db1630eca1c568a0c7724080fce42",
+        "fullOwnPageRead": true,
+        "completeFactValueStateAndAllEvidenceProjectionsRead": true,
+        "allEvidenceQuotesReplay": true,
+        "evidenceCount": 6,
+        "status": "unassessed"
+      }
+    ],
+    "findings": [
+      {
+        "itemId": 6862,
+        "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac",
+        "finding": "The sealed audit assertion that the claim omits the bonus-table quote is refuted by existing evidence[2]. The full literal Infobox Bonuses block is already attached and source-bound. Do not duplicate it. Magic damage unit remains a separate review issue; the zero numeric value is unchanged.",
+        "preserveOpenIssues": [
+          "magicDamage unit remains osrs:combat-bonus-point; candidate percent convention review pending",
+          "Historical 2013 acquisition dateRange in factValue is present in the full own page but not any current claim-local quote; separate evidence-gap review pending."
+        ]
+      },
+      {
+        "itemId": 6668,
+        "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7",
+        "finding": "Current evidence[4] and evidence[5] already cover the water and seaweed recipe stages. The empty-bowl Crafting origin remains related-state context needing scope repair and a supporting empty-bowl recipe quote.",
+        "preserveOpenIssues": [
+          "Rum Deal dismantling function is present in the full page but no existing evidence quote covers its paragraph.",
+          "Mogre acquisition wording in the unsuffixed lead does not independently bind the water-filled selected state; unexpanded drop-source templates remain gaps.",
+          "Fishbowl helmet result function must not become an equipped function of ID6668."
+        ]
+      },
+      {
+        "itemId": 6357,
+        "recordId": "claim-f9b5b3b4946ff2c7937663209bac9589fcc2bee04b82dfe923ca30b3dcb7871b",
+        "finding": "The full own page and current literal lead establish 120 trading sticks, or 100 while wearing Karamja gloves1 or better. Both quantity nodes are currently typed osrs:item-count; specific trading-stick normalization remains a separate candidate correction.",
+        "preserveOpenIssues": [
+          "The complete item has zero bonus clothing and magic-wardrobe storage context beyond this single literal carrier; this reading does not certify item completeness."
+        ]
+      }
+    ],
+    "limits": {
+      "factsApproved": 0,
+      "dimensionsCertified": 0,
+      "candidateRecordsChanged": 0,
+      "primaryTagsRolesDefinitionsRuntimeLiveBankChanged": false,
+      "full302SemanticReviewComplete": false
+    }
+  },
+  "root6669Followup": {
+    "recordId": "claim-c7c29a5720611bf5a0a62ef0c1b669d059767d5eddf48fd8a87f014dd06faafc",
+    "finding": "Root read the complete factValue/state/all evidence projections and the full Fishbowl page. All three recipe-stage quotes already exist and replay; the reported missing-stage quote finding is false. The derived top-level schema mismatch remains open.",
+    "sourceRevision": 15286250,
+    "sourceSha256": "c1b77d4184e8385755029b5bb060d600779db1630eca1c568a0c7724080fce42",
+    "semanticApprovalGranted": false
+  },
+  "resolved4289Finding": {
+    "path": "tmp/root-review/materials302-4289-root-unit-correction-20261004/overlay.json",
+    "sha256": "4cf67cd0561840f49d28c95f7381775d33b2a362cf5c8cddb60ae7c9e10fa977"
+  },
+  "semanticApprovalGranted": false
+}

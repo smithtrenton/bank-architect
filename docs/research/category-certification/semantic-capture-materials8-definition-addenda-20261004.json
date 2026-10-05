@@ -1,0 +1,70 @@
+{
+  "schema": "materials302-claim-local-definition-addenda-unsealed/v1",
+  "status": "unsealed candidate shape proposals only; no registrations and ruleUseAllowed remains false",
+  "addenda": [
+    {
+      "recordId": "claim-8779205b34fcffd5b6c50b6b346a0e42cc2d9063aa826c906da1df65485b5c4c",
+      "itemId": 6672,
+      "sourcePacket": "shard0_v2",
+      "predicate": "osrs.origin.pet-fish-acquisition",
+      "predicateVersion": 1,
+      "definitionPath": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+      "definitionSha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0",
+      "exactScope": "This candidate claim’s exact selected variant is Spinefish, ID 6672. Do not change sibling fish claims or infer global pet-fish requirements.",
+      "oldClaimLevelField": "requiredFishingLevel: {unit, value}",
+      "proposedShape": {
+        "generalFishingInfo": {
+          "skill": "string",
+          "level": {"unit": "osrs:skill-level", "value": "number"},
+          "experience": {"unit": "osrs:experience-point", "value": "number"},
+          "scope": "string"
+        },
+        "spinefishVariantRequirement": {
+          "selectedVariant": "string",
+          "selectedItemId": "integer",
+          "skill": "string",
+          "level": {"unit": "osrs:skill-level", "value": "number"},
+          "scope": "string"
+        }
+      },
+      "semanticBoundary": "Fishing info level 10 describes aquarium fishing method; page prose and chart show 70 for obtaining Spinefish. Keep those applicability meanings separately scoped. Candidate/unassessed only."
+    },
+    {
+      "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7",
+      "itemId": 6668,
+      "sourcePacket": "shard2_final_3132_unit",
+      "predicate": "osrs.item.normalized-mechanics-profile",
+      "predicateVersion": 1,
+      "definitionPath": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+      "definitionSha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488",
+      "exactScope": "All six evidence bindings identify name2=Fishbowl/id2=6668. Article-unsuffixed prose remains in the same candidate profile only with per-member article-level/state-unbound scope. The empty-bowl ID 6667 Crafting-origin member remains removed.",
+      "proposedRecursiveMemberAddendum": {
+        "functions[]/sourceScope": "string; explicit source scope for each sourced function",
+        "origins[]/sourceScope": "string; explicit source scope for each origin",
+        "scope": "string; mixed direct-state and explicitly article-level context may coexist but may not be conflated"
+      },
+      "semanticBoundary": "Mogres attribution is article-level and not item-source-expanded. Recipe for Disaster and Rum Deal prose are unsuffixed and not bound to selected state; the Rum Deal output Fishbowl variant remains unknown. Preserve existing exact state properties/recipes."
+    },
+    {
+      "recordId": "claim-9fa8fafd612a14b21903b9f1c81028f8d19ffcc0838bac23966fddd61f07a109",
+      "itemId": 2351,
+      "sourcePacket": "shard2_final_3132_unit",
+      "predicate": "osrs.item.normalized-mechanics-profile",
+      "predicateVersion": 1,
+      "definitionPath": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+      "definitionSha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488",
+      "exactScope": "Only the Superheat Item recipe within Iron bar ID 2351 receives the skill-associated XP pair; no other recipe XP values change.",
+      "proposedRecursiveMemberAddendum": {
+        "recipes[].experienceBySkill[]": {
+          "skill": "string",
+          "experience": {"unit": "osrs:experience-point", "value": "number"}
+        },
+        "origins[]": "Existing exact-page spawn provenance, supported by the source-section quote; no inferred coordinate or spawn availability semantics."
+      },
+      "semanticBoundary": "Superheat has Smithing 12.5 XP and Magic 53 XP as distinct associated values. Recipe input consumption remains unasserted where source template omits it."
+    }
+  ],
+  "unchangedCandidateDefinitions": true,
+  "registeredDefinitions": 0,
+  "ruleUseAllowed": false
+}

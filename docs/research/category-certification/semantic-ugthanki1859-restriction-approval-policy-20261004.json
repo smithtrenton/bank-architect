@@ -1,0 +1,42 @@
+{
+  "approvalScope": "item-fact",
+  "eligibility": {
+    "approvedMeaning": "For exact raw item 1859, the source denies the twice-cooking route to burnt meat. This is a source-stated transformation restriction, not a general prohibition on cooking or a claim about interface action availability.",
+    "beforeCandidateCanonicalSha256": "db23d04fef272671eb9cece22ec77fe40ab5145c537861d4ec96412db104007f",
+    "beforeHashDefinition": "Canonical complete original candidate including runId; no fields omitted.",
+    "definitionsRegistered": false,
+    "dimensionsRemainUnassessed": true,
+    "excludedScope": [
+      "sinew restriction approval",
+      "cooking recipe and experience",
+      "other raw or cooked states",
+      "ability to initiate interface actions",
+      "exclusive acquisition",
+      "availability",
+      "bankability",
+      "placement",
+      "usage tags",
+      "unit aliases",
+      "dimension completeness",
+      "runtime rules"
+    ],
+    "predicateDefinition": {
+      "jsonPointer": "",
+      "path": "tmp/root-review/materials1859-root-support-20261004/exact-1859-restriction-draft-meaning.json",
+      "sha256": "0f2210339f534ef1ddab0415e1b8b20da6ec162a6da797f7af88a7571a4914b0"
+    },
+    "recordIds": [
+      "claim-fd18875c2953b1c64965dcb9eceea66d81c16149a23d4a6c9c453ca0c103710e"
+    ],
+    "requirements": [
+      "Only status/reviewStage/review may change; all other complete claim content is preserved.",
+      "Exact item/source revision/hash/ID field/quote must replay.",
+      "Only the named twice-cooking-to-burnt-meat route is approved; the other source clause remains outside approval.",
+      "All semantic dimensions remain unassessed; no definition registration or rule activation."
+    ],
+    "rulesUsable": false
+  },
+  "eligibleRecordType": "fact-assessment",
+  "policyId": "semantic-item-fact-root-approval-ugthanki1859-restriction-v1",
+  "status": "detached exact item-fact policy; activated only by adjacent explicit root authorization"
+}

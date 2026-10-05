@@ -1,0 +1,24 @@
+{
+  "formatVersion": "semantic-definition-addendum/v1",
+  "status": "research-only; candidate-unregistered; no rule use or semantic approval",
+  "sourceManifest": {
+    "path": "tmp/root-review/semantic-metadata-definition-reconciliation-v3-20261003/manifest.json",
+    "sha256": "sha256:4cb59006a050ad8c4dac416b87a6816924737fcb2a127ecee4f0b02ca5c152f0"
+  },
+  "priorCaptureManifest": {
+    "path": "docs/research/category-certification/semantic-capture-manifest-20261003.json",
+    "sha256": "sha256:c4c9866f940ae5f216c9079c2ca1ec7bc309325aac26aa7b9af15fa658fba1be"
+  },
+  "outputs": {
+    "semantic-capture-predicates-v3-20261003.json": "sha256:5fc092bf040d8719fd2f1c88d3d1d677acbf3405ec4d187902df352f7232beab",
+    "semantic-capture-predicates-v3-validation-20261003.json": "sha256:d175a4d3961df75d7d3ab3e3dcacb59550491ca01255cdf9d58850d1a658524c"
+  },
+  "counts": {
+    "definitions": 31,
+    "pilotAssertionsShapeChecked": 32,
+    "numericLeavesUnitChecked": 74,
+    "approvedSemanticFacts": 0
+  },
+  "application": "Use these 31 exact predicate/version definitions in place of matching draft definitions in the base capture. Preserve the other 14 Materials drafts. Do not concatenate duplicate definition keys. Facts and full-universe coverage bytes and statuses stay unchanged. The two packet-level coverage-link proposals remain separate research, not replacements for full-register rows.",
+  "scope": "Recursive observed-value shape/unit reconciliation only; not full semantic truth, completeness, or future predicate registration."
+}

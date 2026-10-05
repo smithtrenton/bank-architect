@@ -1,0 +1,634 @@
+{
+  "schema": "ticket2168-root-resume-review/v1",
+  "result": "PASS bounded composition/source review",
+  "inputs": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2157-hats-manifest-20261004.json",
+      "sha256": "3f49bf675d983cda2d848edbae8017298e8d883d7b13993d8a38b080a1a66eca",
+      "bytes": 13674
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/stage-manifest.json",
+      "sha256": "3c3b960ca24ee22fa0d7297847d6c953e363aa58732763f88923b27cc6a3d4be",
+      "bytes": 22156
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/stage-seal.json",
+      "sha256": "fa5c48980be70dd06ee9dea326d0e36d23f731cd77f77e37559c82196b96cf13",
+      "bytes": 10307
+    },
+    {
+      "path": "tmp/root-review/semantic-resume-20261004/review_ticket.py",
+      "sha256": "73677c2c112c2893da17f89cec39cbf00e2c296970d5bdfaff86c669949c3e0e",
+      "bytes": 9542
+    }
+  ],
+  "counts": {
+    "assertions": 2168,
+    "exactIds": 1658,
+    "supported": 33,
+    "unassessed": 2135,
+    "coverageRows": 34085,
+    "dimensions": 272680,
+    "completeDimensions": 0
+  },
+  "joins": [
+    {
+      "recordId": "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+      "factValue": {
+        "activity": "Castle Wars",
+        "minimum": {
+          "unit": "time:minute",
+          "value": 15
+        }
+      },
+      "dependencies": [],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "draw",
+          "opponentScore": "nonzero",
+          "ownScore": "nonzero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 3
+        },
+        "world": "dedicated"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Dedicated Castle Wars worlds:",
+          "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e",
+          "rawFileByteOffsetEndExclusive": 811,
+          "rawFileByteOffsetStart": 782,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "* 3 tickets are earned if scores are tied at any number other than 0.",
+          "quoteSha256": "39346c081daf690fe03af8357283526978cd4ca189c0eeb032879478478d2011",
+          "rawFileByteOffsetEndExclusive": 987,
+          "rawFileByteOffsetStart": 918,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "win",
+          "opponentScore": "nonzero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 3
+        },
+        "world": "dedicated"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Dedicated Castle Wars worlds:",
+          "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e",
+          "rawFileByteOffsetEndExclusive": 811,
+          "rawFileByteOffsetStart": 782,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "* 3 tickets are earned for winning if the opposing team has scored.",
+          "quoteSha256": "993615ced84d0c5f91dd0bcf60f85ea57ca9b60c7e4fbc9f7e47a85ed4bf627c",
+          "rawFileByteOffsetEndExclusive": 1056,
+          "rawFileByteOffsetStart": 989,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "draw",
+          "opponentScore": "zero",
+          "ownScore": "zero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 2
+        },
+        "world": "dedicated"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Dedicated Castle Wars worlds:",
+          "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e",
+          "rawFileByteOffsetEndExclusive": 811,
+          "rawFileByteOffsetStart": 782,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "* 2 tickets are earned if scores are tied at 0-0.",
+          "quoteSha256": "77c113a2399b10eb4ebff179d85f59a4313deb9ad90483dd96307f5ef27b27c4",
+          "rawFileByteOffsetEndExclusive": 916,
+          "rawFileByteOffsetStart": 867,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "draw",
+          "opponentScore": "nonzero",
+          "ownScore": "nonzero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 2
+        },
+        "world": "ordinary"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Non-Castle Wars worlds:",
+          "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5",
+          "rawFileByteOffsetEndExclusive": 1154,
+          "rawFileByteOffsetStart": 1131,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "*2 tickets are earned if scores are tied at any number other than 0.",
+          "quoteSha256": "e6acc8a3e3111e1168c3f12153b99faa3f12b846e13df3e6eef0c5440a20b514",
+          "rawFileByteOffsetEndExclusive": 1321,
+          "rawFileByteOffsetStart": 1253,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "loss"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 1
+        },
+        "world": "ordinary"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Non-Castle Wars worlds:",
+          "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5",
+          "rawFileByteOffsetEndExclusive": 1154,
+          "rawFileByteOffsetStart": 1131,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "*1 ticket is earned if the player's team loses.",
+          "quoteSha256": "d416d15ff3fcf5026ac10f4558bb390037179928efc4c87fcdf66be619f72767",
+          "rawFileByteOffsetEndExclusive": 1203,
+          "rawFileByteOffsetStart": 1156,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "draw",
+          "opponentScore": "zero",
+          "ownScore": "zero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 1
+        },
+        "world": "ordinary"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Non-Castle Wars worlds:",
+          "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5",
+          "rawFileByteOffsetEndExclusive": 1154,
+          "rawFileByteOffsetStart": 1131,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "*1 ticket is earned if scores are tied at 0-0.",
+          "quoteSha256": "af531a821acbdda432bcc4ad8f07fa65b6e28167f09d37f16212a4be2f459556",
+          "rawFileByteOffsetEndExclusive": 1251,
+          "rawFileByteOffsetStart": 1205,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "win",
+          "opponentScore": "zero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 4
+        },
+        "world": "dedicated"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Dedicated Castle Wars worlds:",
+          "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e",
+          "rawFileByteOffsetEndExclusive": 811,
+          "rawFileByteOffsetStart": 782,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "* 4 tickets are earned for winning if the opposing team had 0 points.",
+          "quoteSha256": "ce5bb0acf2c9f2ff6c833018c229442a6ad8240aab8d0b17ebbae790fcb46a89",
+          "rawFileByteOffsetEndExclusive": 1127,
+          "rawFileByteOffsetStart": 1058,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "win",
+          "opponentScore": "zero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 3
+        },
+        "world": "ordinary"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Non-Castle Wars worlds:",
+          "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5",
+          "rawFileByteOffsetEndExclusive": 1154,
+          "rawFileByteOffsetStart": 1131,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "*3 tickets are earned for winning if the opposing team had 0 points.",
+          "quoteSha256": "ca5e30e3639f202de2354bf9a5e84627ff12791f8ce3863c27cf4d68fb8f7e57",
+          "rawFileByteOffsetEndExclusive": 1459,
+          "rawFileByteOffsetStart": 1391,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "loss"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 2
+        },
+        "world": "dedicated"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Dedicated Castle Wars worlds:",
+          "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e",
+          "rawFileByteOffsetEndExclusive": 811,
+          "rawFileByteOffsetStart": 782,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "* 2 tickets are earned if the player's team loses.",
+          "quoteSha256": "f39132982fa42cb6aea4d37c2a26ac1065ff839bea67ae9970af7c51610b3c4c",
+          "rawFileByteOffsetEndExclusive": 865,
+          "rawFileByteOffsetStart": 815,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    },
+    {
+      "recordId": "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+      "factValue": {
+        "condition": {
+          "matchOutcome": "win",
+          "opponentScore": "nonzero"
+        },
+        "quantity": {
+          "unit": "count:ticket",
+          "value": 2
+        },
+        "world": "ordinary"
+      },
+      "dependencies": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "contextPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "literalBindings": [
+        {
+          "literalQuote": "Non-Castle Wars worlds:",
+          "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5",
+          "rawFileByteOffsetEndExclusive": 1154,
+          "rawFileByteOffsetStart": 1131,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "*2 tickets are earned for winning if the opposing team has scored.",
+          "quoteSha256": "869e1e7176bc1ab08ebf83524882d80ec2be7ab1713789873736de15a280b2b9",
+          "rawFileByteOffsetEndExclusive": 1389,
+          "rawFileByteOffsetStart": 1323,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        },
+        {
+          "literalQuote": "players who spend at least 15 minutes in the game",
+          "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684",
+          "rawFileByteOffsetEndExclusive": 567,
+          "rawFileByteOffsetStart": 518,
+          "source": {
+            "bytes": 2056,
+            "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e"
+          }
+        }
+      ],
+      "definitionDraft": true
+    }
+  ],
+  "coverageDelta": [
+    {
+      "itemId": 4067,
+      "addedRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+        "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+        "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+        "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+        "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+        "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+        "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+        "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+        "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+        "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+        "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308"
+      ],
+      "dimensionsExact": true
+    }
+  ],
+  "pathOnlyInverseLines": 11,
+  "auxiliaryCopiesExact": 17,
+  "reviewMeaning": "One 15-minute eligibility clause plus ten world/outcome/score-conditioned award facts. This does not assert exhaustive award prerequisites or guarantee rewards merely for spending 15 minutes.",
+  "limits": [
+    "No new fact authorization: eleven previously authorized facts only.",
+    "Definitions remain draft/unregistered; rule use disabled.",
+    "No bank, category, tag, placement, membership or complete-dimension authority.",
+    "Independent audit must close and its actual findings must be read before publication.",
+    "Unchanged prefix inherits historical provenance and its recorded limits."
+  ]
+}

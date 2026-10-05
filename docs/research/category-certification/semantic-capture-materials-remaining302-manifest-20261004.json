@@ -1,0 +1,196 @@
+{
+  "schema": "published-materials-remaining302-candidate-capture/v1",
+  "status": "Published candidate capture; full semantic analysis incomplete; only ten preserved facts are supported",
+  "inputs": {
+    "docs/research/category-certification/semantic-approved-facts-effective-materials-first40-20261004.jsonl.gz": {
+      "sha256": "ac14a2bc01356b0d4a3167489a5a3855c05176387e2218c6b73a129812b3c104"
+    },
+    "docs/research/category-certification/semantic-capture-coverage-materials-first40-20261004.jsonl.gz": {
+      "sha256": "62a8ecc726b92ffc3a134f7d2c7cc14648cc330bcca6596b048371485b7798b0"
+    },
+    "docs/research/category-certification/semantic-capture-materials-first40-manifest-20261004.json": {
+      "sha256": "b38ef5b49ee84fa3a170e4392535bc9f19ee4f2487bfc328daf3842192a1e70f"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/cohort-assertions.jsonl": {
+      "sha256": "01482cc6e9057b0a15f923ae465e803b71cd34071aa157e6e46004e0e03a79a4"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/cohort-manifest.json": {
+      "sha256": "7aa592b08dee2715291a86c93fdb28d48eeedf1c99d968a1258730d5c766135c"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/integrated-review-manifest.json": {
+      "sha256": "30d9108e5b71668c6d693a43a986e7ea1ffd31d8650c93179ec6fd17c5cb0fbf"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/effective-assertions-remaining302.jsonl": {
+      "sha256": "9379296f4e61f6e71f402d52e4f35fd52ef193ed868cca328728c4124a8eccdd"
+    },
+    "tmp/root-review/materials302-4289-root-unit-correction-20261004/effective-assertions-remaining302-corrected.jsonl": {
+      "sha256": "7f7c9d7496d134d1797d73ff5d2a34e05988da5638faccd0ba210ed2f9309277"
+    },
+    "tmp/root-review/materials302-4289-root-unit-correction-20261004/manifest.json": {
+      "sha256": "48cc66107629301fa562387ed9fc34c26102fa58f1046a298135cead4c67a038"
+    },
+    "tmp/root-review/materials302-4289-root-unit-correction-20261004/overlay.json": {
+      "sha256": "4cf67cd0561840f49d28c95f7381775d33b2a362cf5c8cddb60ae7c9e10fa977"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-correction-transition-20261004/manifest.json": {
+      "sha256": "a63bdd79a40ee477ce8fde4019da3b295b6b842dbd63b7a27deac867c2a333d4"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/manifest.json": {
+      "sha256": "3980f47523b3d05c019f44de7af50e0b57985272de1c6afe6607755164355145"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/independent-claim-definition-source-crosswalk.jsonl": {
+      "sha256": "7cd18ec2c9af9579c7a7d6a36c7dee27c75e1b49cee20437ab7ef4cd3c1ed85f"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/definition-map-inventory.json": {
+      "sha256": "06d3ac291930794621de1e4f6b12c845f4d2d976176131a3e41072b0416d3b51"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/numeric-unit-review.jsonl": {
+      "sha256": "e87bf57c989133082a9855224a5176a62957cb405432b679ac275eeb631302e2"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/source-page-inventory.json": {
+      "sha256": "132c8070968c02741776ed97856071b14b29f89446a3ca0fa8dd89483ac3a5a7"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/recipe-shape-exception.json": {
+      "sha256": "7d848afdf6f6e452141c18c2adfcfc7d5681e54129a60b68004bab1080e6e368"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-independent-audit-20261004/audit-report.json": {
+      "sha256": "d7f5cc53c1dfea6ea546b052186b9e4264d96be6e1d7fa84c77fda339c9ab8fe"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/remaining302-root-reading-guide.md": {
+      "sha256": "d7abf1ee8a59bd73171148ab0e7c770e74229a9c087720c2b747ca0170ec281d"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/remaining302-issue-overlay.json": {
+      "sha256": "35a23eaf999f035c57601512d76fcb00f03b7c223def3896640a868fd068fa0c"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/combined-reviewed-assertions.jsonl": {
+      "sha256": "8e89946a24d6b3e91a2ee61c6515047614561d022856b0731064bfdddf25ac1d"
+    },
+    "tmp/root-review/materials-durable-capture-remaining302-20261004/combined-dimension-coverage.jsonl": {
+      "sha256": "42a8fbc9aa68edc210500bf8f7d328fe192da9180e8ace0b79c30399bb6af5e8"
+    },
+    "tmp/root-review/materials-first40-postpublication-independent-audit-20261004/manifest.json": {
+      "sha256": "cc34365a2d6e41ce5768de88f392ac7f07c33ef12d8c9ff354bc07de37980d74"
+    },
+    "tmp/root-review/materials-first40-postpublication-independent-audit-20261004/protected-file-results.jsonl": {
+      "sha256": "cc6279cbff21a16d77c9b376a8cad977baa6c6f32ed2101156548262704af632"
+    }
+  },
+  "frozenNavigation": {
+    "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/frozen-navigation/index.json",
+    "sha256": "8283a88af4582998c640e91514a063f6ee30a4d45f0d9479dc59c77203f292df",
+    "sourceManifestSha256": "b38ef5b49ee84fa3a170e4392535bc9f19ee4f2487bfc328daf3842192a1e70f"
+  },
+  "outputs": {
+    "docs/research/category-certification/semantic-capture-materials-remaining302-candidates-20261004.jsonl.gz": {
+      "sha256": "4fd13727b4c38341eea0aaedc3e86990ea8530883134dfd4a1729c57c7ce4b72",
+      "expandedSha256": "7017f56c6201a9709c67ca6e995173792b6352c756e1e0bea45609d23fc1dd5e",
+      "bytes": 132799,
+      "stagedSource": {
+        "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-materials-remaining302-candidates-20261004.jsonl.gz",
+        "sha256": "4fd13727b4c38341eea0aaedc3e86990ea8530883134dfd4a1729c57c7ce4b72"
+      }
+    },
+    "docs/research/category-certification/semantic-approved-facts-effective-materials-remaining302-20261004.jsonl.gz": {
+      "sha256": "6e36ee87cfa6f92a8568d031e594dbda3f9b0cb75ad3060f9c7e29f247bd5fa2",
+      "expandedSha256": "7e45caa86ac8e8c7c22bf14380caf10248dba09e27d5fd68dab74ae0ceae4150",
+      "bytes": 499504,
+      "stagedSource": {
+        "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-approved-facts-effective-materials-remaining302-20261004.jsonl.gz",
+        "sha256": "6e36ee87cfa6f92a8568d031e594dbda3f9b0cb75ad3060f9c7e29f247bd5fa2"
+      }
+    },
+    "docs/research/category-certification/semantic-capture-coverage-materials-remaining302-20261004.jsonl.gz": {
+      "sha256": "76619b857b1d6db83371217eeebd7d1d5beca142d7876ebbcbab74595d1c33d9",
+      "expandedSha256": "cfbcde4c92dfd5fd3918e6b422b4329e0f859ab6fee6dee336c1badb2b3c96eb",
+      "bytes": 562603,
+      "stagedSource": {
+        "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-coverage-materials-remaining302-20261004.jsonl.gz",
+        "sha256": "76619b857b1d6db83371217eeebd7d1d5beca142d7876ebbcbab74595d1c33d9"
+      }
+    },
+    "docs/research/category-certification/semantic-capture-materials-remaining302-source-map-20261004.json": {
+      "sha256": "659479693857e322204c0807dc9348351cb6065320fcdea79f017d948e908520",
+      "bytes": 4116473,
+      "stagedSource": {
+        "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-materials-remaining302-source-map-20261004.json",
+        "sha256": "bb5676297690d5ecc30e38025d348177ec9cdfffffcef241daa12ecc4ef389ba"
+      }
+    },
+    "docs/research/category-certification/semantic-capture-materials-remaining302-definition-map-20261004.json": {
+      "sha256": "784aff5f3c3aef952a96cc419af98dea149a042b46b946c705a898094d1efd0d",
+      "bytes": 777668,
+      "stagedSource": {
+        "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-materials-remaining302-definition-map-20261004.json",
+        "sha256": "d116e7189d40021c56c5c34c13983b8f3d6e37caeca2b7a4bcb4b9ac96666976"
+      }
+    },
+    "docs/research/category-certification/semantic-capture-materials-remaining302-reading-guide-20261004.md": {
+      "sha256": "3ca4007b8413a51c01b97df060625b879a83b92176bdb060136b4762c25a770f",
+      "bytes": 5318,
+      "stagedSource": {
+        "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-materials-remaining302-reading-guide-20261004.md",
+        "sha256": "c9942d555f140f39a824899b1c8e5b88608b862689e679d1d8d341f2091f099d"
+      }
+    }
+  },
+  "counts": {
+    "publishedBaseFacts": 334,
+    "preservedSupportedApprovals": 10,
+    "newCandidateFacts": 302,
+    "candidateItemIds": 100,
+    "effectiveFacts": 636,
+    "effectiveItemIds": 167,
+    "effectiveSupported": 10,
+    "candidateUnassessed": 626,
+    "coverageRows": 34085,
+    "coverageRowsWithOnlyTopLevelRefChanges": 100,
+    "candidateFactRefsAdded": 302,
+    "itemDimensionMapsPreserved": 34085,
+    "individualDimensionObjectsPreserved": 272680,
+    "sourcePacketDefinitionMatches": 302,
+    "registeredDefinitions": 0,
+    "ruleUseAllowedDefinitions": 0,
+    "protectedFilesPinned": 486,
+    "completeDimensionsCertified": 0
+  },
+  "preservation": {
+    "334PriorRawLinesExactPrefix": true,
+    "10SupportedFactObjectsExact": true,
+    "CandidateRecordIdsDisjoint": true,
+    "CoverageOnlyTopLevelReferencesChanged": true,
+    "AllCatalogDecisionsLegacyTagsAndDimensionObjectsPreserved": true,
+    "NoOfficialAssignmentOrRuntimeFileWritten": true,
+    "HistoricalNavigationFilesCopiedAndPathResolved": true,
+    "All486ProtectedFilePinsMatchAtPriorAuditCheckpoint": true
+  },
+  "semanticLimits": {
+    "rootReadAll95SourcePathsAnd302Values": false,
+    "fourReviewersPerformedSourceExtraction": true,
+    "semanticApprovalsGranted": 0,
+    "completeDimensionsCertified": 0,
+    "definitionsRegistered": 0,
+    "fullSemanticReviewPending": true
+  },
+  "issueRegister": {
+    "path": "docs/research/category-certification/semantic-capture-materials-remaining302-issues-20261004.json",
+    "sha256": "ce0a2f6eb2dcff71c0b87f17d4221914374f091a5dae681699e185bad0529c43"
+  },
+  "stagedManifest": {
+    "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/semantic-capture-materials-remaining302-stage-manifest-20261004.json",
+    "sha256": "8936e3e40e042e7807bc859ee111cce1879814d0fa923e309b41710f1848a9c6"
+  },
+  "stageReceipt": {
+    "path": "tmp/root-review/materials-remaining302-durable-successor-v2-20261004/final-audit-receipt-20261004.json",
+    "sha256": "0d86377b99480003d512eaac30ed9d3fd44806d5a44d500946bb86cbc6864530"
+  },
+  "independentIntegrityAudit": {
+    "path": "tmp/root-review/materials636-v2-independent-integrity-audit-successor-20261004/manifest.json",
+    "sha256": "e584f09595fcd7206e3ba052ab44ec126a2b9721c81a1a026b63e62a98e507db"
+  },
+  "rootReadingErratum": {
+    "path": "tmp/root-review/materials302-root-evidence-scope-addendum-20261004/manifest.json",
+    "sha256": "6c0b58947f0ab2c6378a23f41557c4a902df91df5e411ce830af2d6fc9356a06"
+  },
+  "semanticApprovalGranted": false,
+  "taxonomyRedesign": "Deferred until full semantic analysis and tag grouping"
+}

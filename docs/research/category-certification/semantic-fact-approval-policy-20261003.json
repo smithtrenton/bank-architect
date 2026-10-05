@@ -1,0 +1,34 @@
+{
+  "policyId": "semantic-item-fact-root-approval-v1",
+  "status": "detached policy draft; effective only after root explicitly authorizes an exact assertion",
+  "approvalScope": "item-fact",
+  "eligibleRecordType": "fact-assessment",
+  "eligibility": {
+    "recordIds": [
+      "claim-63630669b1634c17d250677680f2c720ca2628dca6884c0c5cb71fae72d35e71",
+      "claim-caaaf9c544244fdb126d5841dac47ff71442a15c5fd18f5711a1093dbd347165",
+      "claim-3f6c7d12ddf7f35b3c93b36d37354ac3123e63f91346f66787e7a402e7472e67",
+      "claim-01df7426d5bc751dee89ce9b07f9fcaa840775392218fa5f5a408cd912c07510",
+      "claim-a4372ea8437555e25bb8cf8e6297b2be338c83976e2cdefb74f74a9fffa32e86",
+      "claim-fe90dc269ca7ea6f56f83e02891429f97a310b62824cfdc5b0c8a5dd37c9b5c8",
+      "claim-8e09686a446995b5154d3ee14210cf32a8eea04d7454b5dd565123e57fbb4857",
+      "claim-12e39109b63c5ebeee6101c42e38b7fed615048e7a56aef1a5c2ba29fbe3c237",
+      "claim-cfcb8861dcc5e3a7ea3a73fbf04eb69ff70f5d1254f9954c7e4eb168e92760ef",
+      "claim-9047232a9ce036ae85ba76c840182e6ec83effe401a2c4ab2d77a6e7582da15c"
+    ],
+    "requirements": [
+      "Exact full candidate object and recordId must match the frozen effective source snapshots and proposal pins.",
+      "Record remains a direct fact-assessment with exact item state, own-page exact-wiki evidence, item ID and source revision/hash/quote bound.",
+      "Approve only the exact item-fact clause represented by this one assertion; do not infer a category, usage tag, alias, other item state, availability, bankability, recipe completion, or omitted function.",
+      "The current predicate/version/fact namespace/name/value type must join exactly to the pinned candidate definition; that definition remains candidate-unregistered and unavailable to runtime rules.",
+      "Semantic dimensions and coverage remain unassessed. This policy does not claim completeness or grant placement/tag approval.",
+      "Every record requires explicit root authorization with exact recordId, before-claim hash, reviewer, UTC timestamp, approvalRef, detached policy hash, and item-fact scope. No batch, source replay, prior approval, or authoring status substitutes for per-record authorization.",
+      "Only status= supported and reviewStage= root-approved may change. Preserve all other claim content, source/evidence/history bytes, state, exact variant, and runId. Add the schema-required review object only after explicit authorization.",
+      "Compute review.claimSha256 from canonical complete output claim excluding only runId and review, matching semantic-records.py canonical JSON rules.",
+      "The writer must refuse existing output paths and must never modify frozen sources, production files, official records, definitions, or coverage rows."
+    ],
+    "approvalScopeValues": ["item-fact"],
+    "definitionRuntimeStatus": "candidate-unregistered; no predicate registration or rule availability",
+    "coverageStatus": "unassessed"
+  }
+}

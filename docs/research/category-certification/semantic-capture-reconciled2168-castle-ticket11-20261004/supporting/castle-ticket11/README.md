@@ -1,0 +1,9 @@
+# Castle wars ticket eleven-record supported transition stage
+
+This fresh immutable research stage applies the activated root authorization to exactly eleven source-scoped `item-fact` assertions for item 4067, Castle wars ticket. The native candidate preimages, state, qualifiers, values, evidence, source observations and extensions are retained exactly. Each record changes only `status` (`unassessed` to `supported`), `reviewStage` (`candidate` to `root-approved`), and the schema-required review object. The record IDs remain stable.
+
+`exact-before-after.jsonl` holds complete before and after objects. `transition-ledger.jsonl` records exact values, source/evidence context, dependency references, review metadata, hashes and changed fields. `inverse-proof.json` restores every complete preimage. `supported-item-facts.jsonl` is the eleven-row staged successor. The `supporting` directory preserves byte-identical policy, authorization, root reading proof, proposal and context bindings, and independent-audit pins.
+
+The minimum-activity duration remains scoped to Castle Wars activity awards. Each of the ten ticket quantities retains its world, outcome and score conditions and its dependency on the separate minimum-eligibility claim. `dedicated` maps to Dedicated Castle Wars worlds; `ordinary` maps to Non-Castle Wars worlds. The source-context bindings and full own-page evidence remain alongside the staged records.
+
+The existing `semantic-records.py validate ... --sources` validator passed all eleven rows. It checks schema, identity and source replay and reports that it grants no semantic approval. The root authorization is limited to item-facts. Definitions remain unregistered, rules unusable, and dimensions unassessed. No categories, tags, placements, bank rows, production files, tests, runtime changes or publication are part of this stage.

@@ -1,0 +1,18 @@
+{
+  "schema": "materials302-claim-local-corrections-retained-gaps/v1",
+  "status": "candidate-only; no semantic/dimension approvals",
+  "allEightClaims": "reviewStage=candidate and status=unassessed; all eight category-certification dimensions remain unassessed",
+  "gaps": [
+    {"itemId": 6672, "recordId": "claim-8779205b34fcffd5b6c50b6b346a0e42cc2d9063aa826c906da1df65485b5c4c", "gap": "Fishbowl Fishing-info level 10 describes aquarium fishing; Spinefish-specific level 70 is separately supported by prose and chart. Chart success chance/level interpretation is not normalized, and other variant requirements remain outside this claim."},
+    {"itemId": 6668, "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7", "gap": "Mogres origin remains article-level because source tables contain distinct Empty and Full/#Water transclusions that are not expanded in this packet. Recipe for Disaster and Rum Deal statements remain unsuffixed/state-unbound; Rum Deal's Fishbowl output variant is unknown."},
+    {"itemId": 6862, "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac", "gap": "Toy-box costume storage is not bank eligibility; bankability remains unknown. The 2013 Rare Drops origin is historical, not current availability."},
+    {"itemId": 2351, "recordId": "claim-9fa8fafd612a14b21903b9f1c81028f8d19ffcc0838bac23966fddd61f07a109", "gap": "Item-source Drop sources template remains unexpanded. Spawn rows support the listed world spawns only; no account availability or bankability is inferred. Recipe consumption remains unknown where templates omit it."},
+    {"itemId": 6357, "recordId": "claim-f9b5b3b4946ff2c7937663209bac9589fcc2bee04b82dfe923ca30b3dcb7871b", "gap": "The unit refinement is candidate-local only; availability, preference, and category certification remain unassessed."},
+    {"itemId": 1747, "recordId": "claim-ed61f865239552dcded6aa014cbc280d4c90bdcd61ecdc4c1829c57aebc0642c", "gap": "The rate-unit refinement is candidate-local only; direct applicability and other uses remain unassessed."},
+    {"itemId": 1749, "recordId": "claim-4623a3a59a7c9dad13d0ab98229fa91b6d9b5dc46e125b525b5602ea36cd26de", "gap": "Keep coin-per-item as currently typed; no shared unit vocabulary normalization is proposed."},
+    {"items": [3325, 4265], "gap": "Added byte-exact Prayer info citations support existing candidate values; no approval or account-specific usage claim is made."}
+  ],
+  "bankEligibility": "Unknown for all rows unless independently sourced and reviewed; do not infer from costume storage or world spawn evidence.",
+  "semanticApprovalCount": 0,
+  "registeredDefinitionCount": 0
+}

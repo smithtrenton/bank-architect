@@ -1,3 +1,21 @@
+## Active continuation: 4 October 2026
+
+The user resumed the research goal; work is active and incomplete. See [the continuation record](category-certification/semantic-resume-october-4.md) and `tmp/root-review/semantic-resume-20261004/resume-notes.json`. Git remains main/3eb071e6205ba5a2c03b859ab6a020986f9f89b1. All 5,303 closeout pins and 40 historical mappings passed before resuming. Whole preimages of these four introductions are archived in the new checkpoint.
+
+Current durable semantic capture is 2,168 assertions / 1,658 exact IDs / 33 supported / 2,135 unassessed, manifest `7cd1003c9d81bfcd6e2dc6ed29f888e29d066f44e842fdbbc70df718c1c93dba`. Eleven previously authorized conditioned ticket facts are composed after fresh root/independent review, source validation and independent durable-copy replay. All 34,085 rows / 272,680 dimensions remain unassessed; zero complete. Draft definitions remain unregistered and disabled for rules.
+
+Fresh cohort reconciliation and root 61–80/81–100 readings remain proposal evidence, with source, unit, state and lineage limits recorded. The 21–40 reviewer's post-seal revisions have an explicit missing-preimage limitation. Existing placements, bank/exact19 overlays, Potion387 and bank-ignore integration are preserved. Full semantic analysis precedes category re-evaluation and tag grouping. Earlier introductions below are historical context.
+
+---
+
+## Session closed: 4 October 2026
+
+The user ended the session; the research goal is paused and incomplete. Start with the [October4 closeout](category-certification/session-closeout-october-4.md) and `tmp/root-review/session-closeout-october4-20261004/resume-notes.json`. Git main/3eb071e6205ba5a2c03b859ab6a020986f9f89b1, prior placement approvals and live bank rows are preserved. Potion387 and bank-ignore integrations remain complete. Durable semantic capture remains2157 assertions/1657 IDs/22 supported/2135 unassessed, with34085 rows/272680 dimensions unassessed and zero complete.
+
+Root next400 readings cover40 native values/states and28 whole own pages. Eleven authorized ticket facts are supported only in an unpublished2168 composition; its path-only repair and root preservation replay pass, but final independent audit remains unsealed. Newly sealed candidates and interrupted cohorts are distinguished in the closeout inventory. Ten running agents were interrupted. No new tags/categories/placements/bank rows, production/test changes, commits or branches were made. Full semantic analysis precedes categorization and tag grouping. Earlier introductions below are preserved historical context; resolve their input hashes through archived preimages.
+
+---
+
 # Category certification checkpoint — 3 October 2026
 
 The current default preset has **not** been fully semantically certified. The earlier full-export passes and the completed 356 missing-item review do not establish correctness of every current assignment. This checkpoint records 252 independently reviewed and applied exact-ID corrections plus 637 independently confirmed clue-scroll placements and 939 unchanged equipment placements, 40 ordinary foods, 21 raw-fish Cooking inputs, 72 consumable player-transport items, 23 ordinary spellcasting runes, 151 unchanged tools, 51 ordinary planting seeds, 14 herb-patch seeds, six special seeds and 46 seedling states: 2,252 approved primary assignments in total. The other 31,833 assignments remain unapproved in the authoritative ledger; reviewer candidates are not counted as approvals.

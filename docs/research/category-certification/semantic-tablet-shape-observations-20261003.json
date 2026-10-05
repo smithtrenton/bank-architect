@@ -1,0 +1,2293 @@
+{
+  "formatVersion": "tablet-fact-value-shape-and-units-observation/v1",
+  "interpretation": "Observed tokens are not asserted to be centrally registered. Units are preserved exactly as found. Numeric leaves were checked recursively for an adjacent unit or bonusUnit field; this does not prove semantic sufficiency or rule compatibility.",
+  "numericLeavesWithoutAdjacentExplicitUnit": [],
+  "numericLeavesWithoutAdjacentExplicitUnitCount": 0,
+  "predicateShapeVariants": [
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "distinctFromTabletUse",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "required",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "spell",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "unlockSource",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.applicability.creation-requirement",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 8,
+          "shape": {
+            "fields": [
+              {
+                "key": "independentOfCurrentSpellbook",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.applicability.spellbook-context",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "relatedRestriction",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceReportedBehavior",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "worksOnBonesInsideMageTrainingArena",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.applicability.use-context",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "condition",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "location",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "works",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "condition",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "target",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "works",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "location",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "target",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "works",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "location",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "task",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "works",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "task",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "works",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.applicability.use-exclusion",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "exception",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "condition",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "location",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "spellUnlock",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "ordinaryUse",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "magicLevel",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "runes",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "spellUnlock",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "experienceAwardedOnUse",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "magicLevel",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "experienceAwardedOnUse",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.applicability.use-requirements",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "creationStatus",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "currentInfoboxTradeable",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "directUseStatus",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "historicalChange",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceLeadAvailability",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.availability.source-status",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "context",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "economicsText",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "staffs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "context",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "scope",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "staffClass",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 3,
+          "shape": {
+            "fields": [
+              {
+                "key": "context",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "staffs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "context",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "staffs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 2,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "context",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "staffs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 3,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.function.cost-efficiency-context",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "benefits",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 2,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "exception",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "condition",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "location",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "spellUnlockRequired",
+                      "shape": {
+                        "jsonType": "boolean"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "ordinaryUseScope",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "unlockedSpellRequiredForTabletUse",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.function.inventory-efficiency",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "action",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "inputItems",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 2,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "outputItem",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "quantityPerUse",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "useAudience",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 3,
+          "shape": {
+            "fields": [
+              {
+                "key": "action",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "outputState",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "targets",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "useAudience",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 3,
+          "shape": {
+            "fields": [
+              {
+                "key": "action",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "outputState",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "targets",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 2,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "useAudience",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "action",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "spell",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "statedEffect",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "useAudience",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.function.magic-tablet-transformation",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "epistemicStatus",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "normalSpellbookCondition",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "reportedEffect",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.function.reported-assumption",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 8,
+          "shape": {
+            "fields": [
+              {
+                "key": "documentedMode",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "exclusiveOriginClaim",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "siteAsStated",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.origin.documented-creation",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "additionalSkillContext",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": []
+                }
+              },
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "experience",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "amount",
+                      "shape": {
+                        "jsonType": "integer"
+                      }
+                    },
+                    {
+                      "key": "awardedAt",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "unit",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "facilityNarrative",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 4,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "inputs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 4,
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "item",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "quantity",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "output",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "item",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "quantity",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "recipeTemplateFacility",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceComment",
+                "shape": {
+                  "jsonType": "null"
+                }
+              },
+              {
+                "key": "stage",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "additionalSkillContext",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": []
+                }
+              },
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "experience",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "amount",
+                      "shape": {
+                        "jsonType": "number"
+                      }
+                    },
+                    {
+                      "key": "awardedAt",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "unit",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "facilityNarrative",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "inputs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 3,
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "item",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "quantity",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "output",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "item",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "quantity",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "recipeTemplateFacility",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceComment",
+                "shape": {
+                  "jsonType": "null"
+                }
+              },
+              {
+                "key": "stage",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 2,
+          "shape": {
+            "fields": [
+              {
+                "key": "additionalSkillContext",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": []
+                }
+              },
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "experience",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "amount",
+                      "shape": {
+                        "jsonType": "number"
+                      }
+                    },
+                    {
+                      "key": "awardedAt",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "unit",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "facilityNarrative",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "inputs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 4,
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "item",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "quantity",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "output",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "item",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "quantity",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "recipeTemplateFacility",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceComment",
+                "shape": {
+                  "jsonType": "null"
+                }
+              },
+              {
+                "key": "stage",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "additionalSkillContext",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": []
+                }
+              },
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "experience",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "amount",
+                      "shape": {
+                        "jsonType": "number"
+                      }
+                    },
+                    {
+                      "key": "awardedAt",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "unit",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "facilityNarrative",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "inputs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 4,
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "item",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "quantity",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "output",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "item",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "quantity",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "recipeTemplateFacility",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceComment",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "stage",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 2,
+          "shape": {
+            "fields": [
+              {
+                "key": "additionalSkillContext",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": []
+                }
+              },
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "experience",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "amount",
+                      "shape": {
+                        "jsonType": "number"
+                      }
+                    },
+                    {
+                      "key": "awardedAt",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "unit",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "facilityNarrative",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 2,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "inputs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 3,
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "item",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "quantity",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "output",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "item",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "quantity",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "recipeTemplateFacility",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceComment",
+                "shape": {
+                  "jsonType": "null"
+                }
+              },
+              {
+                "key": "stage",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "additionalSkillContext",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 1,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "experience",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "amount",
+                      "shape": {
+                        "jsonType": "number"
+                      }
+                    },
+                    {
+                      "key": "awardedAt",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "unit",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "facilityNarrative",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 3,
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "inputs",
+                "shape": {
+                  "jsonType": "array",
+                  "observedElementShapes": [
+                    {
+                      "count": 3,
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "item",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "quantity",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "output",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "item",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "quantity",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "recipeTemplateFacility",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "sourceComment",
+                "shape": {
+                  "jsonType": "null"
+                }
+              },
+              {
+                "key": "stage",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 6,
+          "shape": {
+            "fields": [
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "boostable",
+                            "shape": {
+                              "jsonType": "boolean"
+                            }
+                          },
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "recipeTime",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "makeXTiming",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "withMakeX",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          },
+                          {
+                            "key": "withoutMakeX",
+                            "shape": {
+                              "fields": [
+                                {
+                                  "key": "unit",
+                                  "shape": {
+                                    "jsonType": "string"
+                                  }
+                                },
+                                {
+                                  "key": "value",
+                                  "shape": {
+                                    "jsonType": "integer"
+                                  }
+                                }
+                              ],
+                              "jsonType": "object"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    },
+                    {
+                      "key": "templateTicks",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        },
+        {
+          "factCount": 2,
+          "shape": {
+            "fields": [
+              {
+                "key": "creationSkill",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "name",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "requiredLevel",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "boostable",
+                            "shape": {
+                              "jsonType": "boolean"
+                            }
+                          },
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              },
+              {
+                "key": "phase",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "recipeTime",
+                "shape": {
+                  "fields": [
+                    {
+                      "key": "makeXTiming",
+                      "shape": {
+                        "jsonType": "string"
+                      }
+                    },
+                    {
+                      "key": "templateTicks",
+                      "shape": {
+                        "fields": [
+                          {
+                            "key": "unit",
+                            "shape": {
+                              "jsonType": "string"
+                            }
+                          },
+                          {
+                            "key": "value",
+                            "shape": {
+                              "jsonType": "integer"
+                            }
+                          }
+                        ],
+                        "jsonType": "object"
+                      }
+                    }
+                  ],
+                  "jsonType": "object"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.skill.creation-recipe",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 8,
+          "shape": {
+            "fields": [
+              {
+                "key": "consumedOnUse",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "noteable",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "options",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "stackable",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.state.interface-observation",
+      "predicateVersion": 1
+    },
+    {
+      "observedShapes": [
+        {
+          "factCount": 1,
+          "shape": {
+            "fields": [
+              {
+                "key": "note",
+                "shape": {
+                  "jsonType": "string"
+                }
+              },
+              {
+                "key": "singleUse",
+                "shape": {
+                  "jsonType": "boolean"
+                }
+              },
+              {
+                "key": "statedTarget",
+                "shape": {
+                  "jsonType": "string"
+                }
+              }
+            ],
+            "jsonType": "object"
+          }
+        }
+      ],
+      "predicate": "osrs.state.single-use",
+      "predicateVersion": 1
+    }
+  ],
+  "purpose": "Observed structure only; not a JSON Schema, approved predicate shape, or rule registry.",
+  "unitTokensObserved": [
+    {
+      "fieldPaths": {
+        "$factValue.inputs[0].quantity.unit": 8,
+        "$factValue.inputs[1].quantity.unit": 8,
+        "$factValue.inputs[2].quantity.unit": 8,
+        "$factValue.inputs[3].quantity.unit": 4,
+        "$factValue.output.quantity.unit": 8
+      },
+      "form": "explicit structured unit field",
+      "occurrences": 36,
+      "token": "count:item"
+    },
+    {
+      "fieldPaths": {
+        "$factValue.experience.unit": 8
+      },
+      "form": "explicit structured unit field",
+      "occurrences": 8,
+      "token": "osrs:experience-point"
+    },
+    {
+      "fieldPaths": {
+        "$factValue.recipeTime.makeXTiming.withMakeX.unit": 6,
+        "$factValue.recipeTime.makeXTiming.withoutMakeX.unit": 6,
+        "$factValue.recipeTime.templateTicks.unit": 8
+      },
+      "form": "explicit structured unit field",
+      "occurrences": 20,
+      "token": "osrs:game-tick"
+    },
+    {
+      "fieldPaths": {
+        "$factValue.creationSkill.requiredLevel.unit": 16
+      },
+      "form": "explicit structured unit field",
+      "occurrences": 16,
+      "token": "osrs:skill-level"
+    }
+  ],
+  "unitTokensObservedCount": 4
+}

@@ -1,0 +1,207 @@
+{
+  "schema": "semantic-approved-fact-overlay-manifest/v1",
+  "status": "effective candidate capture; only the ten preserved facts are approved",
+  "approvalScope": "item-fact",
+  "applicationOrder": [
+    "Apply the existing 20261003 capture candidates and exact stable-ID correction layer.",
+    "Append the existing disjoint 20261003 tablet candidates.",
+    "Append semantic-capture-package-potion-candidates-20261004.jsonl.gz by stable recordId.",
+    "Replace the ten exact approved stable IDs using the unchanged semantic-approved-facts-20261003.jsonl overlay."
+  ],
+  "composition": "Exact recordId union and replacement. Never concatenate historical replacements; the V7 effective projection already contains its V6-to-V7 corrections.",
+  "counts": {
+    "effectiveAssertions": 294,
+    "exactItemIds": 61,
+    "supportedRootApprovedAssertions": 10,
+    "approvedExactItemIds": 6,
+    "candidateUnassessedAssertions": 284,
+    "completeDimensionsCertified": 0,
+    "unassessedDimensionAssessments": 272680
+  },
+  "baseManifest": {
+    "path": "docs/research/category-certification/semantic-approved-facts-manifest-20261003.json",
+    "sha256": "89ebd4ebdda672d8c46e2d01d2869507c0554b86758ad683b81e82e32ada66a0"
+  },
+  "frozenSourcePins": {
+    "docs/research/category-certification/semantic-approved-facts-manifest-20261003.json": "89ebd4ebdda672d8c46e2d01d2869507c0554b86758ad683b81e82e32ada66a0",
+    "docs/research/category-certification/semantic-approved-facts-20261003.jsonl": "d073647f4518b41640351e8011c7359a39fcf0784733ea0ea222758386bf5db6",
+    "docs/research/category-certification/semantic-capture-coverage-20261003.jsonl.gz": "f3304b9fb576e039b2cfcd6a175969d7f957bd42b734ded91ee3397b0e0e75b3",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/durable-facts-effective.jsonl": "43f85593c62d26203a5ea8176580af6b3f9c4b61274d86f4b43cdd2c636c73f9",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/package-assertions-effective.jsonl": "c5f73ca68d5ff1b5eb07c98d83b93cc300fb8a333a4a2f0dc450d219f81193ed",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/manifest.json": "254b130ba87f638a79e1ee8a5239942cd91c667e210fd1930ea9c9a83700d5cb",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/manifest.json": "c7e54900c02e640f1d4ac8315d6fa508bf5e222946706d50ad6f94416a5b2ebe",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/nested-field-definitions-addendum.json": "5653631bcd06fae56b30a4457dfcb683d99b1eca6b91ddea5964a8c2a25c1c30",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/occurrence-definition-crosswalk.jsonl": "91c073ac989fbec7a54d3712f025f10b5134637aa3c0fc3fdcd497ae76e6bb34",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/totalunit-correction-delta.json": "536a63439654d5437b1be7b24267e06f1cdfb213d35b676111261f4d9a507365",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/manifest.json": "018d113fa1dd1658b9f803fd95f161561ac57e0ff0e7dba911a27f6788e25a13",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/effective-merged-projection.jsonl": "6bcbdc08fe393678621e8c84d6815f115d8581f94254fb65477e397d000886f4",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/manifest.json": "898cb6b8036023737738495cd280837571fcf30a54747125ce458430476956f9",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/effective-merged-projection.jsonl": "837a8986e36d4e2b9cb2635c9385a73f8d1e39df14d3ac287ddcdf9e3bb6d2a2",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/potion-v6-to-v7-raw-table-output-crosswalk.json": "c2fe834673be8247d96820fbd9bc2ecb0bd4cc6bfe5b95392da3df652821f0fe",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/candidate-predicate-definitions.json": "8704b20cb4988e13c1b7bd04163886303053896c3bdeb62c25f75f22ffea3882",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/observed-field-path-shapes.json": "617c9739283389f8554a335b1d86da05611d3dd7f315fc7ad554dfd5e224e74d",
+    "tmp/root-review/potion-package-v3-raw-table-output-independent-audit-20261004/manifest.json": "ee487d321d4efcb08102bd85b4de5ebf33e4aced7dcfc86be095b097a84a24ad",
+    "tmp/root-review/potion-package-v3-raw-table-output-independent-audit-20261004/audit.json": "af920e707fbb8ebc1335ab9c371f8146e93aa900f4ec557b7131db6dde7f2d4b",
+    "tmp/root-review/potion-v6-resource-output-audit-erratum-20261003/manifest.json": "a3dbf2ac284f945f2977d8e32f22c980379a9735b04a135debe0534cd0376c0d",
+    "tmp/root-review/potion-v6-resource-output-audit-erratum-20261003/erratum.json": "53aa6a4207bd4af43c29af4816ced19c0450ee76ff3e1c1ea478a8491f7c0a66",
+    "docs/research/category-certification/approved-assignments.tsv": "8edd5bd90bfae6c1a886441a02089641505792f317ebb71245daa11652482041",
+    "docs/research/category-certification/approved-assignments-manifest.json": "b85110c6e76a3e4c326158cd9b71ebbf7b177bc1a842805d21036d77fe7d03cf",
+    "tools/research/semantic-grouping-audit/certification/semantic-records.schema.json": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a",
+    "tools/research/semantic-grouping-audit/certification/semantic-records.py": "7f1e422463d53d58ffae16ccfbfe637c8b6d05f24b0acec9c0419924c294a47a",
+    "docs/research/category-certification/semantic-capture-candidates-20261003.jsonl.gz": "ed516878f0f155239734b4c367e31436b0ab3bf4e74bce1a6a0dfdf18659c6bc",
+    "docs/research/category-certification/semantic-capture-corrections-20261003.jsonl": "25a31d2cfdb1dc8b9fd74596cc08bd09f5baceae28c311b0946bdc7f90b7f7d4",
+    "docs/research/category-certification/semantic-capture-corrections-manifest-20261003.json": "6a780d61c9faa45d1a91bbe6f3f117ddde4510e47544658f5662d47880770227",
+    "docs/research/category-certification/semantic-capture-predicates-v3-20261003.json": "5fc092bf040d8719fd2f1c88d3d1d677acbf3405ec4d187902df352f7232beab",
+    "docs/research/category-certification/semantic-capture-predicates-v3-manifest-20261003.json": "5bf0803839c77d5e9a1e4476a21cf4d4bb8a2983638011b92561ed8f8bba0683",
+    "docs/research/category-certification/semantic-capture-predicates-v3-validation-20261003.json": "d175a4d3961df75d7d3ab3e3dcacb59550491ca01255cdf9d58850d1a658524c",
+    "docs/research/category-certification/semantic-tablet-candidates-20261003.jsonl.gz": "d4d8c351744536d3f8691d3d1baac7561a13a544e104b2bb9026e2a31aeb96ca",
+    "docs/research/category-certification/semantic-tablet-manifest-20261003.json": "a0007659c8f0dc18897a183b43cd160ebaffb4a0690e0bb8001ae4c4ecf363b5",
+    "docs/research/category-certification/semantic-tablet-predicates-20261003.json": "94694e77536ff671c7a9515e93dfc6611f82b3aa71ae38c468304bfc61c0b98a",
+    "tmp/root-review/semantic-first-ten-root-reading-20261003/manifest.json": "8130f7c4cf95d5703007759452a77cb15007bff93e0a3cf1eaa52080f9188bc7",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15235147.txt": "2ae83196e5d73f6f296caa45b0aae6316695668669e5950f2d5d0b5fd6fa65c2",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15316439.txt": "f4acd65139e059ba4739892e9a7cdd0b0d59a60496a7c6ab07d777785fbd0279",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15254576.txt": "6a9b5bfd40814fb7165162ff934f29814e3bc7862b7f31e2588d6b8c3a5023e8",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15282058.txt": "523e1692d0f0460a3003aec835daff2f0aa7c04690babc16a70a00b047a03887",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/source-pages/15185095.txt": "fdcce969928d9cc6c8e88451d8621fc47918ec131f757a224fc180456207ada4",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/source-pages/15185101.txt": "efcfe030466fe81f6380cec451ea6348c704c8090918dee9a1276b57fa77759d",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/definition-layer-index.jsonl": "06467eb3cd0b7164458e7565f102abd8dc12b3fc130bbbefdb22618040baf090",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/layer-history.jsonl": "0deaf4a08020c2178b574c4b97562e02a3e11dc4a031c24966de959a81b929d8",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/merged-fact-projection.jsonl": "fe6ed0476a60cf387c6d41f4844b7ab258b704dab6e1436a9d5c585d940b7619",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/nested-field-definitions-addendum.json": "819ba4774883a98d45fa3e8e6e685614c035ab4bf11ac5d1a82ace0cf0cba21f",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/README.md": "9d75fc1ce92406cf648bcabc24478d11edb27c36a7c4d47c04e8b40e5b731f15",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/reconciliation.json": "06621c96cc390830029106bd5fff2a01961d0ccbeb78d8127d4cf44737ae718b",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/source-page-pins.jsonl": "90882d873ebfe7c65708f99808ca81f90a0e6c5fba2b72082c96341fa355216a",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/universe-coverage-joins.jsonl": "a97d2c5c019b60eee17896607c9ecd5d7a118857d55ec553ef2688f4c342536e",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/verify_v2.py": "fb4fd8bcae26510062c37f8b2408ac47931a70423a0a1bc1e78248e323cd9a88",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/verify_v3.py": "cc503fc8ba8f795c9241690fc1da2b08652084914cc867b72807974d43df107d",
+    "tmp/root-review/package-durable-checkpoint-design-v3-20261003/semantic-validation.json": "7c1771e0b4a26d620d7581b291e8c6477565590de0c13fb0f157b08d1a27b14a",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/actual-coordinate-unit-links.jsonl": "cf61387881b0b9cbec68a87545bd4cec0a6e465ec6f93122640cfcaf9a32343f",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/definition-status-crosswalk.json": "d381c16240a4d0aefa048790c45c9431d0270f3fca23d1af08d9a940206d35e8",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/occurrence-replay.jsonl": "52212533f06eec740434e9f797a6d7b222f05d0f901259fee07457a4c18c82be",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/README.md": "02d63e0ec48fd01208d261ab27a3425484a488877dfff6e65be7b1bfe7eafe15",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/semantic-validation.json": "e77ba2d70616dff57450e5837e9bc855c21748052a1fc3e0501fa7ea2f462c2a",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/verification.json": "f5cd2e2c15d894e07a77e87eaca148a052f7314540235a0a7e4bb7da1d5bc9ea",
+    "tmp/root-review/package-v3-unit-link-totalunit-correction-20261003/verify_totalunit_successor.py": "48123da717919ad109b314f130baa700e3411cbef077349deacb7f922e78ab95",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/additive-scoped-potion-facts.jsonl": "90c2e02f6d924df0946044be0cb14401d790a068a0eee87092034f3235511327",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/candidate-predicate-definitions.json": "90597e8f8ef0ba42c96f1677d36e8ea2f76771f0e5d1778db60fcd35b5a7fac3",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/corrected-activation-and-condition-candidates.jsonl": "4c52709bb8dc61773c50e33e971e8f433157483c18adfb754a64a3625a135d10",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/corrected-potion-role-effect-candidates.jsonl": "678e66a0e4d6d94c99dd99eb2ada4c37312d94884321e6d3181254687c45f1f0",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/effective-package-assertions.jsonl": "faaeae4042c23cd2cf8e2699043375bc321151b6eaf80fc13d09c9081f201b7f",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/frozen-durable-facts.jsonl": "43f85593c62d26203a5ea8176580af6b3f9c4b61274d86f4b43cdd2c636c73f9",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/frozen-package-assertions.jsonl": "c5f73ca68d5ff1b5eb07c98d83b93cc300fb8a333a4a2f0dc450d219f81193ed",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/historical-replacement-count-erratum.json": "8d27bcae66bfad02b9c8f5b861aa35ecb35c93e5e85168863278f528b29ae6b6",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/observed-field-path-shapes.json": "d691e623f93ef74796278a94384c0cfc67821bc6438c89b19023613f8a7e70c0",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/potion-v3-to-v4-correction-crosswalk.json": "0229b5a7a0a06a8a6e0fdd92f95d516888cc88e1afa10e8c7868ad99cd957075",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/potion-v4-to-v5-resource-output-crosswalk.json": "172da008e121fd2e8d4760dcfb4e72e52b5342eebcca8f4480a3c6fd5c324513",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/potion-v5-to-v6-coefficient-crosswalk.json": "363b0b2409cb3f603858dd3841e406c8ba60a3b3553ef5a1c276a2125e559540",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/README.md": "70b6fca15469e8a4f41485673a3fd5692bbb34c7aea4af57c32da8279e046cb4",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/source-validation.json": "67577d3017ddf2fba8c2aa0c41e943f53a8c066bcd0205f9bff225686e4f1a1e",
+    "tmp/root-review/potion-package-v3-saradomin-offset-preservation-20261003/prior-v3-stable-id-replacement-crosswalk-history.json": "3269d62e7d01d0891cc8cc0939b3e0f591484ac3ee7ef97ff48a343cce93d048",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/additive-scoped-potion-facts.jsonl": "90c2e02f6d924df0946044be0cb14401d790a068a0eee87092034f3235511327",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/corrected-activation-and-condition-candidates.jsonl": "4c52709bb8dc61773c50e33e971e8f433157483c18adfb754a64a3625a135d10",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/corrected-potion-role-effect-candidates.jsonl": "5f2e3f5c000c2bd0d1d48cfadca56efea5796e3856a67a1d61d97defbc243b68",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/effective-package-assertions.jsonl": "fa72e3b682bdb997ca0769fa9da011c39fd24afd5234418a4b85e8dc0c60de16",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/frozen-durable-facts.jsonl": "43f85593c62d26203a5ea8176580af6b3f9c4b61274d86f4b43cdd2c636c73f9",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/frozen-package-assertions.jsonl": "c5f73ca68d5ff1b5eb07c98d83b93cc300fb8a333a4a2f0dc450d219f81193ed",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/historical-replacement-count-erratum.json": "8d27bcae66bfad02b9c8f5b861aa35ecb35c93e5e85168863278f528b29ae6b6",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/potion-v3-to-v4-correction-crosswalk.json": "0229b5a7a0a06a8a6e0fdd92f95d516888cc88e1afa10e8c7868ad99cd957075",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/potion-v4-to-v5-resource-output-crosswalk.json": "172da008e121fd2e8d4760dcfb4e72e52b5342eebcca8f4480a3c6fd5c324513",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/potion-v5-to-v6-coefficient-crosswalk.json": "363b0b2409cb3f603858dd3841e406c8ba60a3b3553ef5a1c276a2125e559540",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/prior-v3-stable-id-replacement-crosswalk-history.json": "3269d62e7d01d0891cc8cc0939b3e0f591484ac3ee7ef97ff48a343cce93d048",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/README.md": "8981d9412749e98bc5c59bde70dc86831b9555929a7cdb5ecf2b1cc44839db96",
+    "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/source-validation.json": "67577d3017ddf2fba8c2aa0c41e943f53a8c066bcd0205f9bff225686e4f1a1e",
+    "tmp/root-review/potion-package-role-effect-normalization-20261003/own-page-source-snapshots/15183989.txt": "5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+    "tmp/root-review/potion-package-role-effect-normalization-20261003/own-page-source-snapshots/15342079.txt": "06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6"
+  },
+  "candidateDelta": {
+    "path": "docs/research/category-certification/semantic-capture-package-potion-candidates-20261004.jsonl.gz",
+    "sha256": "253feba24a0416cda5a59a8c2a77671b9c6061a230b81ad3a40aea0c1c08fdf2"
+  },
+  "effectiveFacts": {
+    "path": "docs/research/category-certification/semantic-approved-facts-effective-20261004.jsonl.gz",
+    "sha256": "7b247e8e0c14a39a620eb5eee633243f788da5bb58d7d7883baea27a495ae8ec"
+  },
+  "coverage": {
+    "path": "docs/research/category-certification/semantic-capture-coverage-20261004.jsonl.gz",
+    "sha256": "9f7612599e972a17490d1581287111892eea911652940ff29b06a0456f0bda09",
+    "addedTopLevelRefs": 245,
+    "changedRows": 54,
+    "dimensionsPreserved": 272680,
+    "catalogFields": "Frozen navigation metadata from the pinned coverage input; not recalculated as live current approvals."
+  },
+  "frozenNavigationMetadataContext": {
+    "sourceCheckpoint": {
+      "ownPrimaryApprovalCount": 3840,
+      "bankContextPlacementCount": 1490
+    },
+    "sourceManifest": {
+      "path": "docs/research/category-certification/semantic-capture-source-assignment-manifest-20261004.json",
+      "originalPath": "docs/research/category-certification/approved-assignments-manifest.json",
+      "sha256": "b85110c6e76a3e4c326158cd9b71ebbf7b177bc1a842805d21036d77fe7d03cf"
+    },
+    "sourceSummaryTsv": {
+      "path": "docs/research/category-certification/semantic-capture-source-approved-assignments-20261004.tsv",
+      "originalPath": "docs/research/category-certification/approved-assignments.tsv",
+      "sha256": "8edd5bd90bfae6c1a886441a02089641505792f317ebb71245daa11652482041"
+    },
+    "interpretation": "These are historical source-checkpoint bytes. Later bank integration may change live assignments; this writer preserves the existing coverage catalog fields unchanged and does not promote the snapshot as live status."
+  },
+  "approvedFacts": {
+    "path": "docs/research/category-certification/semantic-approved-facts-20261003.jsonl",
+    "sha256": "d073647f4518b41640351e8011c7359a39fcf0784733ea0ea222758386bf5db6"
+  },
+  "sourceMap": {
+    "path": "docs/research/category-certification/semantic-package-potion-source-map-20261004.json",
+    "sha256": "d4e72256a5f0701c8c0eadc1b1f9222ba31ad42dae6b5da44d33d4cdcc5bf8f1"
+  },
+  "candidateDefinitions": [
+    {
+      "path": "docs/research/category-certification/semantic-package-field-definitions-candidates-20261004.json",
+      "sha256": "5653631bcd06fae56b30a4457dfcb683d99b1eca6b91ddea5964a8c2a25c1c30",
+      "registered": false
+    },
+    {
+      "path": "docs/research/category-certification/semantic-potion-predicate-candidates-20261004.json",
+      "sha256": "ee44f3071e809a5c6d90d3e0e2ff90f45832038626ef2e289624451197254e19",
+      "registered": false
+    },
+    {
+      "path": "docs/research/category-certification/semantic-potion-field-shapes-20261004.json",
+      "sha256": "7d09b95ee4c4052fadc04b4aee21d02b415a5fe21f3d39d94f2352b999263a0a",
+      "registered": false
+    }
+  ],
+  "historicalSourceMaps": [
+    {
+      "path": "docs/research/category-certification/semantic-potion-v6-to-v7-crosswalk-20261004.json",
+      "sha256": "c2fe834673be8247d96820fbd9bc2ecb0bd4cc6bfe5b95392da3df652821f0fe"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-package-field-occurrence-crosswalk-20261004.jsonl",
+      "sha256": "91c073ac989fbec7a54d3712f025f10b5134637aa3c0fc3fdcd497ae76e6bb34"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-package-unit-link-correction-delta-20261004.json",
+      "sha256": "536a63439654d5437b1be7b24267e06f1cdfb213d35b676111261f4d9a507365"
+    }
+  ],
+  "v7IndependentAudit": {
+    "path": "docs/research/category-certification/semantic-potion-v7-independent-audit-20261004.json",
+    "sha256": "af920e707fbb8ebc1335ab9c371f8146e93aa900f4ec557b7131db6dde7f2d4b"
+  },
+  "preservationProof": {
+    "path": "docs/research/category-certification/semantic-approved-facts-preservation-20261004.json",
+    "sha256": "46d72d3f9b38613f6791a1dd5c02f48208478e5b338c6635588511aa99852397"
+  },
+  "potionV7": {
+    "manifestPath": "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/manifest.json",
+    "manifestSha256": "898cb6b8036023737738495cd280837571fcf30a54747125ce458430476956f9",
+    "effectiveProjectionPath": "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/effective-merged-projection.jsonl",
+    "effectiveProjectionSha256": "837a8986e36d4e2b9cb2635c9385a73f8d1e39df14d3ac287ddcdf9e3bb6d2a2",
+    "correctionDeltaPath": "tmp/root-review/potion-package-v3-raw-table-output-units-20261004/potion-v6-to-v7-raw-table-output-crosswalk.json",
+    "correctionDeltaSha256": "c2fe834673be8247d96820fbd9bc2ecb0bd4cc6bfe5b95392da3df652821f0fe"
+  },
+  "definitionsRemainCandidateUnregistered": true,
+  "noRuleUsabilityGranted": true,
+  "scopeLimits": "Item-fact candidate capture and navigation only. No additional approval, placement, tag, alias, bankability, availability, or dimension-completeness decision."
+}

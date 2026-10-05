@@ -1,0 +1,90 @@
+{
+  "counts": {
+    "assertions": 1116,
+    "certifiedDimensions": 0,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "newCandidateAssertions": 480,
+    "supported": 10,
+    "unassessed": 1106,
+    "uniqueItemIds": 647
+  },
+  "coverageRegister": {
+    "path": "docs/research/category-certification/semantic-capture-coverage-frontier480-20261004.jsonl.gz",
+    "sha256": "c469fdb8d6797633dd356a66e84dac92011e786d03d96265226a318d302e3fff"
+  },
+  "definitionStatus": "unregistered packet-scoped drafts; exact file/hash/pointer references retained; no aliases",
+  "definitionsRegistered": false,
+  "effectiveSnapshot": {
+    "path": "docs/research/category-certification/semantic-capture-effective-frontier480-20261004.jsonl.gz",
+    "sha256": "c1f54684c9df03b2eb4fa8c06371ec32af9e113b7cd7346f6efd77cb11abbc98"
+  },
+  "fullSemanticCertificationComplete": false,
+  "inputs": [
+    {
+      "path": "tmp/root-review/frontier480-candidate-union-stage-20261004/manifest.json",
+      "sha256": "ec118cd0fca80e4fa60480d9074e4b71766a4fb735ff45945444711bdda4ccea"
+    },
+    {
+      "path": "tmp/root-review/frontier480-candidate-union-stage-20261004/stage-proof.json",
+      "sha256": "d490dc7c0ad775c6a7aae6d9678df7fe6dac4b23a8607c579274be4f6d7c9493"
+    },
+    {
+      "path": "tmp/root-review/frontier480-candidate-union-independent-audit-20261004/manifest.json",
+      "sha256": "f52412ff99070afac48f54afa7fbb9de0d03ae8c7b41400dfe4456b76809e94d"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-approved-facts-effective-materials8-corrected-20261004.jsonl.gz",
+      "sha256": "ed03d2c04293b5a31adbb7c78dc6c75ec239f825abc44fade4381a13b77ff985"
+    },
+    {
+      "path": "tmp/root-review/frontier480-root-durable-publication-20261004/publish.py",
+      "sha256": "b5801cb07f5c5cbaddb16699b8d1b0b03aa2387e14fcda7a797b908dd056c100"
+    },
+    {
+      "path": "tmp/root-review/frontier480-root-durable-publication-20261004/native-validation.json",
+      "sha256": "717f93635f5432389a429eb7c5c99cc7d9169c82798fab90969e35d931bbac4a"
+    }
+  ],
+  "limitations": [
+    "Root has not read all480 semantic values or all370 full own pages. Integrity/source replay and bounded interpretation review do not approve meaning or completeness.",
+    "time:game-tick appears42 times in raw assertion text but23 times as typed unit/value dictionary objects; osrs:game-tick remains distinct with no inferred alias.",
+    "Twelve Crystal shield sourceLiteral descriptions are normalized renderings, not verbatim Wiki quotations. Their paired literalEvidence quotations retain pinned source text.",
+    "Some unitDefinitionRef targets are separately pinned Gear20 V4 or Activity/Storage draft definition artifacts, not copies in the twelve shard directories.",
+    "Holiday1959/1961 bounded root reading identified unit/local-citation/origin gaps; follow-up candidate corrections remain separate. Historical reported8HP for1961 is conditional history, not a current healing conflict.",
+    "Source caches and nested draft artifacts remain under ignored tmp; retain exact pinned inputs for full replay. No full fresh-checkout source reconstruction is claimed."
+  ],
+  "outputs": {
+    "semantic-capture-coverage-frontier480-20261004.jsonl.gz": {
+      "path": "docs/research/category-certification/semantic-capture-coverage-frontier480-20261004.jsonl.gz",
+      "sha256": "c469fdb8d6797633dd356a66e84dac92011e786d03d96265226a318d302e3fff"
+    },
+    "semantic-capture-effective-frontier480-20261004.jsonl.gz": {
+      "path": "docs/research/category-certification/semantic-capture-effective-frontier480-20261004.jsonl.gz",
+      "sha256": "c1f54684c9df03b2eb4fa8c06371ec32af9e113b7cd7346f6efd77cb11abbc98"
+    },
+    "semantic-capture-frontier480-definition-joins-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-frontier480-definition-joins-20261004.json",
+      "sha256": "ee48967d990a33ab80a4b90849bebd8487c397186314089e95f6f48904eaf92a"
+    },
+    "semantic-capture-frontier480-source-bindings-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-frontier480-source-bindings-20261004.json",
+      "sha256": "7affaae44177ffc393bc9845d047f92e5aa6f466b033180a78c925acfaa82cb6"
+    },
+    "semantic-capture-frontier480-source-crosswalk-20261004.jsonl": {
+      "path": "docs/research/category-certification/semantic-capture-frontier480-source-crosswalk-20261004.jsonl",
+      "sha256": "3c5ec6efd20b1cb33200a9d2285d048d64e64ae6b668c260134173b707ab7feb"
+    }
+  },
+  "preservation": {
+    "allDimensionObjectsExact": true,
+    "existingSupportedObjectsExact": true,
+    "noPlacementOrTagChanges": true,
+    "old636RawPrefixExact": true,
+    "unselectedCoverageRawLinesExact": true
+  },
+  "rulesUsable": false,
+  "schema": "published-frontier480-candidate-capture/v1",
+  "semanticApprovalGranted": false,
+  "status": "candidate capture only; full semantic analysis incomplete; no new approvals"
+}

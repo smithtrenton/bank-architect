@@ -1,0 +1,114 @@
+{
+  "schema": "castle-ticket11-independent-scope-audit/v1",
+  "status": "sealed independent audit; no approval or authorization",
+  "sourceProposalManifest": {
+    "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/manifest.json",
+    "sha256": "84afa19c999f2c692528e09d52942c5bd3f55a7248ef3ad63c38edfa23d7e282"
+  },
+  "builderHelper": {
+    "path": "tmp/root-review/build_castle_ticket11_independent_scope_audit.py",
+    "sha256": "9e77ae8a9a4b3b5f79c504d93b703e511e4a45705959ac171abe56cbf7588876",
+    "pinnedAsInput": true
+  },
+  "scope": {
+    "candidateFacts": 11,
+    "exactItemId": 4067,
+    "actualDraftDefinitions": 2,
+    "sourceEvidenceBindings": 31,
+    "fullOwnPagesReadToEOF": 1,
+    "nativeValuesOrEvidenceChanged": 0,
+    "semanticApprovalsGranted": 0,
+    "definitionRegistrationsGranted": 0,
+    "categoriesTagsPlacementsOrBankActions": 0,
+    "testsRun": false
+  },
+  "inputs": [
+    {
+      "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+      "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+      "bytes": 2056
+    },
+    {
+      "path": "tmp/root-review/build_castle_ticket11_independent_scope_audit.py",
+      "sha256": "9e77ae8a9a4b3b5f79c504d93b703e511e4a45705959ac171abe56cbf7588876",
+      "bytes": 21099
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/manifest.json",
+      "sha256": "84afa19c999f2c692528e09d52942c5bd3f55a7248ef3ad63c38edfa23d7e282",
+      "bytes": 1963
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/proposed-root-fact-scope.json",
+      "sha256": "a67eb34bd823cb415513226a148b80fdc0033bac2efca168e7b6b24bbbe8f864",
+      "bytes": 5897
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/selected-native-candidates.jsonl",
+      "sha256": "b77f12d22cdec4ebe0a628266ffccedcf06688781f430648b25c6f9961c22e88",
+      "bytes": 48623
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367
+    },
+    {
+      "path": "tmp/root-review/prepare_castle_ticket11_root_fact_scope_20261004.py",
+      "sha256": "7f540c3cccf86ab60eb6a9c751dfad778a3f48039fd3c6ec8b26af1771ef9e4e",
+      "bytes": 6047
+    },
+    {
+      "path": "tmp/root-review/utility161-current1655-semantic-gap-review-20261004/claim-review-index.jsonl",
+      "sha256": "30ba1cb45cb5d73fdbe78f2515fa246582bfed11a9cfd1827a9428faef24501b",
+      "bytes": 2869717
+    },
+    {
+      "path": "tmp/root-review/utility161-current1655-semantic-meaning-successor-20261004/claim-meaning-review-index.jsonl",
+      "sha256": "346a6556ced23bca8f734a17b7a773da28b301122cb45892897f27dcf1e588dc",
+      "bytes": 2257236
+    },
+    {
+      "path": "tmp/root-review/utility161-direct-root-reading-continuation-20261004/resume-notes.json",
+      "sha256": "711904160c19d9467c88dfe26800f3f856579f7754087805eab5c4f8c03b8b5d",
+      "bytes": 812536
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/audit-report.json",
+      "sha256": "6c106db1b2d3666a4c6ec04af4163dd40aa2ac326c11ece95e606668c8f392b2",
+      "bytes": 1378
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/definition-audit.json",
+      "sha256": "0d7369e092ec369ac757f5fba52ddcadec01c26a079b32ce514144995d3f49f7",
+      "bytes": 4397
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/excluded-claims-and-scope.json",
+      "sha256": "19cb8acf32051018b02d873398ef4cf4cde625a1a7e3f43b5e94d279235176ae",
+      "bytes": 2274
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/full-source-read-to-eof.json",
+      "sha256": "f6573af80e1270bf184ff7c74068082c2db9c77391336931793f8944f28eccf1",
+      "bytes": 2546
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/literal-source-binding-audit.jsonl",
+      "sha256": "fb8ba3b0fdfef71e4d3953ff95d648b7f338825495e4ee04db1712b49d48b6db",
+      "bytes": 8985
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/native-index-and-condition-audit.jsonl",
+      "sha256": "25119ff737c14c007033d538ab37a529d53d7c032570a018d9777fb23a047870",
+      "bytes": 75710
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/scope-evaluation.json",
+      "sha256": "b6331b6621bd7cd4125fbaa69a13280c496e7874e969e722aa9c0fe9f7a8d55b",
+      "bytes": 1990
+    }
+  ]
+}

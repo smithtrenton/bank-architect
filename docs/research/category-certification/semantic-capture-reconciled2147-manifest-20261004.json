@@ -1,0 +1,127 @@
+{
+  "schema": "semantic-capture-reconciled2147-publication/v1",
+  "status": "durable research candidate snapshot; not full semantic certification",
+  "counts": {
+    "assertions": 2147,
+    "exactItemIds": 1647,
+    "supported": 12,
+    "unassessed": 2135,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "completeDimensions": 0,
+    "appendedWave3Claims": 492,
+    "appendedWave3Ids": 480,
+    "draftNavigationRows": 986
+  },
+  "sourceStage": {
+    "path": "tmp/root-review/semantic-2147-wave3-corrected-stage-v2-20261004/manifest.json",
+    "sha256": "741a04afcfb27eb19c3cd9b9b2b48a188315f302d1742d62dd044f167eef69a5"
+  },
+  "independentAudit": {
+    "path": "tmp/root-review/semantic-2147-wave3-corrected-v2-independent-composition-audit-20261004/manifest.json",
+    "sha256": "ae9cb1467e81a8f200bf1643325f53a9e0ca67af95a6c8e3c329236c60b8c8c9"
+  },
+  "baseline": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled1655-manifest-20261004.json",
+    "sha256": "d606037e5679ff631f841d11a08c7d11964ba8d2ec46a4272809b82522abd210"
+  },
+  "rootReplays": [
+    {
+      "path": "tmp/root-review/metadata-scope-root-review-continuation-20261004/root-replay.json",
+      "sha256": "5eaef1ed0517e407cd4b1882fd9cb143634c4e7a722d12ebd9c0e12930741e0e"
+    },
+    {
+      "path": "tmp/root-review/metadata-scope-root-review-continuation-20261004/glory-v2-root-replay.json",
+      "sha256": "50a4b96bdc95670fe1c156ba186b4b2cb53108dd5875d76898c5d33abf4ab1c1"
+    },
+    {
+      "path": "tmp/root-review/metadata-scope-root-review-continuation-20261004/additional-sealed-pin-replay.json",
+      "sha256": "8b99f775253556cbdbdb2587010805fe7bc1bb8aa959f28b1ec7bbd3ebdf2af7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-effective-reconciled2147-20261004.jsonl.gz",
+      "sha256": "849640f1eb55394ca1e3e70c74fdd91907a4dc556de901075d2bf1b98d3f0e1d",
+      "byteLength": 4988501
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-coverage-reconciled2147-20261004.jsonl.gz",
+      "sha256": "6cfe325f095518e6ec5c6481c2ff7291476233aebf307e28433400d9b259cc41",
+      "byteLength": 633016
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2147-source-crosswalk-20261004.jsonl",
+      "sha256": "9b7d7f0abc5e9ba9b4f0326079a910886aa2f5e4e121d74a2151a0f64e72c268",
+      "byteLength": 14467685
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2147-draft-navigation-20261004.jsonl",
+      "sha256": "087f8600b606f04c8263904bae6e153f248101ac2ac2a3a2ad07f004da30e972",
+      "byteLength": 1076191
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2147-record-history-20261004.jsonl",
+      "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+      "byteLength": 28483
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2147-source-capsule-index-20261004.json",
+      "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+      "byteLength": 178917
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2147-limits-20261004.json",
+      "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+      "byteLength": 1343
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2147-food-count-erratum-20261004.json",
+      "sha256": "a7beff06e41e7951b6c497a2587525f322903e44577e60fd3e0fac20441d9e56",
+      "byteLength": 4878
+    }
+  ],
+  "foodCountReferences": {
+    "frozenOriginalWave3ToPublished2147": {
+      "changed": 4,
+      "unchanged": 0
+    },
+    "FoodV2PacketLocalIncrementalDelta": {
+      "changed": 3,
+      "unchanged": 1
+    },
+    "stageV1ToV2EffectiveChanged": 1,
+    "publishedErratum": "docs/research/category-certification/semantic-capture-reconciled2147-food-count-erratum-20261004.json"
+  },
+  "preservation": {
+    "all1655PriorRawRecordsExactPrefix": true,
+    "supported12Exact": true,
+    "only480CoverageCandidateRefRowsChangedVersus1655": true,
+    "allDimensionObjectsTagsPlacementsUnchanged": true,
+    "allPayloadsByteExactStage": true,
+    "priorSnapshotsRetained": true,
+    "activeAliasesAndRulesAdded": 0
+  },
+  "definitionNavigation": {
+    "status": "partial draft-unregistered",
+    "concretePathTargets": 26,
+    "registeredTargets": 0,
+    "unjoinedOrUnmappedReferences": 2113,
+    "limits": "Source replay and navigable carriers do not establish mechanics meaning or complete leaf/unit definitions."
+  },
+  "limitations": [
+    "No full2147 semantic reading claim.",
+    "All272680 dimensions remain unassessed.",
+    "No category/tag/placement/currentbank changes or new fact approvals in this snapshot.",
+    "Five separately root-authorized Glory wear claims are pending supported-stage audit/publication; not composed here.",
+    "Next500 fourteen native candidates have fresh validator failures and remain outside this snapshot.",
+    "Unresolved identities and predecessor lineage gaps remain open."
+  ],
+  "publisher": {
+    "protectedPinsPrechecked": 2261,
+    "frozenInputPinsPrechecked": 3864,
+    "productionChanged": false,
+    "newTests": false,
+    "gitMutation": false
+  }
+}

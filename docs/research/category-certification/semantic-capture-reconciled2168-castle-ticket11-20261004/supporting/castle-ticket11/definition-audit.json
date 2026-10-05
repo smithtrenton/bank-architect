@@ -1,0 +1,151 @@
+{
+  "definitions": {
+    "osrs.origin.minimum-activity-duration": {
+      "definitionStatus": "draft-unregistered",
+      "meaning": "Source-backed candidate assertion shape; exact per-claim evidence and state remain authoritative.",
+      "name": "osrs.origin.minimum-activity-duration",
+      "observedValueShapes": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "activity": {
+              "type": "string"
+            },
+            "minimum": {
+              "additionalProperties": false,
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "type": "object"
+        }
+      ],
+      "predicate": "wiki-own-source:osrs-origin-minimum-activity-duration",
+      "predicateVersion": 1,
+      "ruleUseAllowed": false,
+      "sourceScope": "candidate capture only; never an item category or approval"
+    },
+    "osrs.quantity.castle-wars-ticket-award": {
+      "definitionStatus": "draft-unregistered",
+      "meaning": "Conditioned ticket award with match result, own/opponent score state, world mode, and exact ticket count; Wanted! amount stays unspecified.",
+      "name": "osrs.quantity.castle-wars-ticket-award",
+      "observedValueShapes": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "condition": {
+              "additionalProperties": false,
+              "properties": {
+                "matchOutcome": {
+                  "type": "string"
+                },
+                "opponentScore": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "quantity": {
+              "additionalProperties": false,
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "type": "object"
+            },
+            "world": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "condition": {
+              "additionalProperties": false,
+              "properties": {
+                "matchOutcome": {
+                  "type": "string"
+                },
+                "opponentScore": {
+                  "type": "string"
+                },
+                "ownScore": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "quantity": {
+              "additionalProperties": false,
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "type": "object"
+            },
+            "world": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "condition": {
+              "additionalProperties": false,
+              "properties": {
+                "matchOutcome": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "quantity": {
+              "additionalProperties": false,
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "type": "object"
+            },
+            "world": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        }
+      ],
+      "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+      "predicateVersion": 2,
+      "ruleUseAllowed": false,
+      "sourceScope": "candidate capture only; never an item category or approval"
+    }
+  },
+  "definitionCount": 2,
+  "allDraftUnregistered": true,
+  "allRuleUseDisabled": true,
+  "all11ValuesFitObservedShapes": true,
+  "registrationGranted": false
+}

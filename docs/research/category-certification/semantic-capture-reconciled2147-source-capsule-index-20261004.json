@@ -1,0 +1,3070 @@
+{
+  "schema": "wave3-source-capsule-index/v1",
+  "count": 383,
+  "sources": [
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15182618.txt",
+      "sourceRevision": 15182618,
+      "sourceSha256": "082e559be4c01f99a06c8a74d12ecb2d390c7d8500926a75eeb6ceeeec6b460b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15182618-15182618.txt.txt",
+      "capsuleSha256": "082e559be4c01f99a06c8a74d12ecb2d390c7d8500926a75eeb6ceeeec6b460b",
+      "bytes": 2180
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15182672.txt",
+      "sourceRevision": 15182672,
+      "sourceSha256": "cfe16ab3dba245ad50c0e02309b90734d83b71a5361d323c90b71857a34f3b39",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15182672-15182672.txt.txt",
+      "capsuleSha256": "cfe16ab3dba245ad50c0e02309b90734d83b71a5361d323c90b71857a34f3b39",
+      "bytes": 1960
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183098.txt",
+      "sourceRevision": 15183098,
+      "sourceSha256": "9a5e9848f089c8854fe9553e8b5c5e292874dd04fe0c0715522ce9d414acbd4c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183098-15183098.txt.txt",
+      "capsuleSha256": "9a5e9848f089c8854fe9553e8b5c5e292874dd04fe0c0715522ce9d414acbd4c",
+      "bytes": 2011
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183102.txt",
+      "sourceRevision": 15183102,
+      "sourceSha256": "45d16d140fe6ad279820f6333a047089df1c3ec65569a8bd24f6ad82c2e74e8d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183102-15183102.txt.txt",
+      "capsuleSha256": "45d16d140fe6ad279820f6333a047089df1c3ec65569a8bd24f6ad82c2e74e8d",
+      "bytes": 2866
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183113.txt",
+      "sourceRevision": 15183113,
+      "sourceSha256": "1952806a2ae844adbe771879236a50805828fb085eec36b7535b5682390b40e8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183113-15183113.txt.txt",
+      "capsuleSha256": "1952806a2ae844adbe771879236a50805828fb085eec36b7535b5682390b40e8",
+      "bytes": 2854
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183137.txt",
+      "sourceRevision": 15183137,
+      "sourceSha256": "7c4cfebc78ba9bba82e961455001b545843fc1072696ada0e621ae5c89d3074d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183137-15183137.txt.txt",
+      "capsuleSha256": "7c4cfebc78ba9bba82e961455001b545843fc1072696ada0e621ae5c89d3074d",
+      "bytes": 1738
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183437.txt",
+      "sourceRevision": 15183437,
+      "sourceSha256": "20aedb42c55f9ee4d20b1245e27f56b1c372d364b92f4dfae8e266e6ff882413",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183437-15183437.txt.txt",
+      "capsuleSha256": "20aedb42c55f9ee4d20b1245e27f56b1c372d364b92f4dfae8e266e6ff882413",
+      "bytes": 2511
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183510.txt",
+      "sourceRevision": 15183510,
+      "sourceSha256": "79f9d61a689314368db5211f4ef3d7d3bdb3d342b461b3421e8c6b5cb9b855bf",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183510-15183510.txt.txt",
+      "capsuleSha256": "79f9d61a689314368db5211f4ef3d7d3bdb3d342b461b3421e8c6b5cb9b855bf",
+      "bytes": 2129
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15183749.txt",
+      "sourceRevision": 15183749,
+      "sourceSha256": "d9c7344d8d67d378af9070d436f2b0198304626a9be4058d0d21b57eae552e20",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183749-15183749.txt.txt",
+      "capsuleSha256": "d9c7344d8d67d378af9070d436f2b0198304626a9be4058d0d21b57eae552e20",
+      "bytes": 1581
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184250.txt",
+      "sourceRevision": 15184250,
+      "sourceSha256": "8044af837d3ada026959cf741bde21077a911dfa67fc617ff4d00284a883241f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184250-15184250.txt.txt",
+      "capsuleSha256": "8044af837d3ada026959cf741bde21077a911dfa67fc617ff4d00284a883241f",
+      "bytes": 2919
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184278.txt",
+      "sourceRevision": 15184278,
+      "sourceSha256": "52b0f51c05d6113a09bd28756acdc5af33234be69da4afc3785fe43eec5c9d62",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184278-15184278.txt.txt",
+      "capsuleSha256": "52b0f51c05d6113a09bd28756acdc5af33234be69da4afc3785fe43eec5c9d62",
+      "bytes": 2083
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184293.txt",
+      "sourceRevision": 15184293,
+      "sourceSha256": "cde7103e91a0543ff9c467335d0ae157cf8075a7115cfbfee2f006106a425c49",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184293-15184293.txt.txt",
+      "capsuleSha256": "cde7103e91a0543ff9c467335d0ae157cf8075a7115cfbfee2f006106a425c49",
+      "bytes": 3590
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184478.txt",
+      "sourceRevision": 15184478,
+      "sourceSha256": "857f4dc3fc613dcee330f2a9b0e3be9b9d065170d01d0effc3b11c8bf5279fbf",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184478-15184478.txt.txt",
+      "capsuleSha256": "857f4dc3fc613dcee330f2a9b0e3be9b9d065170d01d0effc3b11c8bf5279fbf",
+      "bytes": 2973
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184690.txt",
+      "sourceRevision": 15184690,
+      "sourceSha256": "84168ccefae1d377526eb25108474514d26cd54c43bb1edec1a7038d75e14fad",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184690-15184690.txt.txt",
+      "capsuleSha256": "84168ccefae1d377526eb25108474514d26cd54c43bb1edec1a7038d75e14fad",
+      "bytes": 1327
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184696.txt",
+      "sourceRevision": 15184696,
+      "sourceSha256": "84b381ec1949747141ff4d05b49b89c83da301e6efb7b75f7a5ba9ff0d83bfe4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184696-15184696.txt.txt",
+      "capsuleSha256": "84b381ec1949747141ff4d05b49b89c83da301e6efb7b75f7a5ba9ff0d83bfe4",
+      "bytes": 1426
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184708.txt",
+      "sourceRevision": 15184708,
+      "sourceSha256": "f9d8152ca3935dca11f3f790cd7838e83a9d774687b9f75c2074329d0d75fc0f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184708-15184708.txt.txt",
+      "capsuleSha256": "f9d8152ca3935dca11f3f790cd7838e83a9d774687b9f75c2074329d0d75fc0f",
+      "bytes": 1557
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184770.txt",
+      "sourceRevision": 15184770,
+      "sourceSha256": "0b56fc7188a187e3bb3d9dcf1f1a0c2495760435ebd041711c22793eea74761a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184770-15184770.txt.txt",
+      "capsuleSha256": "0b56fc7188a187e3bb3d9dcf1f1a0c2495760435ebd041711c22793eea74761a",
+      "bytes": 2077
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184930.txt",
+      "sourceRevision": 15184930,
+      "sourceSha256": "2322baa7e245168514f7fd5e78d2971f96c137c63259746ab258bde013e64d54",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184930-15184930.txt.txt",
+      "capsuleSha256": "2322baa7e245168514f7fd5e78d2971f96c137c63259746ab258bde013e64d54",
+      "bytes": 1246
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185035.txt",
+      "sourceRevision": 15185035,
+      "sourceSha256": "05b9c057febf5590681b08ba156a303439bb5126e5fe641804bc990cca5eeb3d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185035-15185035.txt.txt",
+      "capsuleSha256": "05b9c057febf5590681b08ba156a303439bb5126e5fe641804bc990cca5eeb3d",
+      "bytes": 1593
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185075.txt",
+      "sourceRevision": 15185075,
+      "sourceSha256": "b81a950ec8f0848be68c6ea3c58e43115c2daab91ba693e0cbd86611a2f9e12e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185075-15185075.txt.txt",
+      "capsuleSha256": "b81a950ec8f0848be68c6ea3c58e43115c2daab91ba693e0cbd86611a2f9e12e",
+      "bytes": 1041
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185288.txt",
+      "sourceRevision": 15185288,
+      "sourceSha256": "c508d9bd3660671b215e2d6f67b36fb67142c3960e3001765416fd084898c934",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185288-15185288.txt.txt",
+      "capsuleSha256": "c508d9bd3660671b215e2d6f67b36fb67142c3960e3001765416fd084898c934",
+      "bytes": 940
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185306.txt",
+      "sourceRevision": 15185306,
+      "sourceSha256": "f2dbe3bf7c837b78cda3908cd6a0d29c8f3030f7afc158e4b2e65c371ac859ed",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185306-15185306.txt.txt",
+      "capsuleSha256": "f2dbe3bf7c837b78cda3908cd6a0d29c8f3030f7afc158e4b2e65c371ac859ed",
+      "bytes": 1711
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185617.txt",
+      "sourceRevision": 15185617,
+      "sourceSha256": "ebe44b2b99b0b66afc9e4771f8ffa69ba1440964b54c7b7688c337cad7734f81",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185617-15185617.txt.txt",
+      "capsuleSha256": "ebe44b2b99b0b66afc9e4771f8ffa69ba1440964b54c7b7688c337cad7734f81",
+      "bytes": 2681
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185762.txt",
+      "sourceRevision": 15185762,
+      "sourceSha256": "483cef4aded0ccb76f7a9511b57d972e811f55eaa979bdcf3ac8951afa1dc643",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185762-15185762.txt.txt",
+      "capsuleSha256": "483cef4aded0ccb76f7a9511b57d972e811f55eaa979bdcf3ac8951afa1dc643",
+      "bytes": 1729
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185766.txt",
+      "sourceRevision": 15185766,
+      "sourceSha256": "b0244eb57666b9f333ae41c1b47bb46ebb595a3b794e29ca462e2f128b295a8e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185766-15185766.txt.txt",
+      "capsuleSha256": "b0244eb57666b9f333ae41c1b47bb46ebb595a3b794e29ca462e2f128b295a8e",
+      "bytes": 1538
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185772.txt",
+      "sourceRevision": 15185772,
+      "sourceSha256": "fc264eedb99bfae9f2fff5b191a5bd69047a97886cfb90592badf56040f4f8c7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185772-15185772.txt.txt",
+      "capsuleSha256": "fc264eedb99bfae9f2fff5b191a5bd69047a97886cfb90592badf56040f4f8c7",
+      "bytes": 1105
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185773.txt",
+      "sourceRevision": 15185773,
+      "sourceSha256": "2919e45773b7abf6c5696f707e8dd5c161d7d7a6bbb79e5fd97cd8bd82497121",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185773-15185773.txt.txt",
+      "capsuleSha256": "2919e45773b7abf6c5696f707e8dd5c161d7d7a6bbb79e5fd97cd8bd82497121",
+      "bytes": 938
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185779.txt",
+      "sourceRevision": 15185779,
+      "sourceSha256": "b2c052eb9c9b3fa140e94309ea26e4422ec85a7529ab1841e486d7dd36fffea6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185779-15185779.txt.txt",
+      "capsuleSha256": "b2c052eb9c9b3fa140e94309ea26e4422ec85a7529ab1841e486d7dd36fffea6",
+      "bytes": 2735
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185837.txt",
+      "sourceRevision": 15185837,
+      "sourceSha256": "2d5a5db147055dcc779f5634ac2ac744ff11f40a6b3e02f8dedfee3c8d618dbb",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185837-15185837.txt.txt",
+      "capsuleSha256": "2d5a5db147055dcc779f5634ac2ac744ff11f40a6b3e02f8dedfee3c8d618dbb",
+      "bytes": 967
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15185838.txt",
+      "sourceRevision": 15185838,
+      "sourceSha256": "b5b124e530117f5bde8fe0aa77cde135061fdef9aa2b01eac013b985174daf6a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185838-15185838.txt.txt",
+      "capsuleSha256": "b5b124e530117f5bde8fe0aa77cde135061fdef9aa2b01eac013b985174daf6a",
+      "bytes": 1024
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186063.txt",
+      "sourceRevision": 15186063,
+      "sourceSha256": "6641fef45cc10cfea203a2c7b7a77746b644199333014882735f10048a2c2dd8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186063-15186063.txt.txt",
+      "capsuleSha256": "6641fef45cc10cfea203a2c7b7a77746b644199333014882735f10048a2c2dd8",
+      "bytes": 1583
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186459.txt",
+      "sourceRevision": 15186459,
+      "sourceSha256": "12e31aa95db63f1ea73432b754ad8d4a190d13578a09940197112ca1f3dca534",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186459-15186459.txt.txt",
+      "capsuleSha256": "12e31aa95db63f1ea73432b754ad8d4a190d13578a09940197112ca1f3dca534",
+      "bytes": 1948
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186592.txt",
+      "sourceRevision": 15186592,
+      "sourceSha256": "861dbbafb21e3ca66991daae4d5443ea715cf1f8e26fb37b819baa3f77373c53",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186592-15186592.txt.txt",
+      "capsuleSha256": "861dbbafb21e3ca66991daae4d5443ea715cf1f8e26fb37b819baa3f77373c53",
+      "bytes": 3459
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186855.txt",
+      "sourceRevision": 15186855,
+      "sourceSha256": "98f61cd065dc9ba7c432d03fb8da9c114c8c113d6fe95c28cc3813a300da67c0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186855-15186855.txt.txt",
+      "capsuleSha256": "98f61cd065dc9ba7c432d03fb8da9c114c8c113d6fe95c28cc3813a300da67c0",
+      "bytes": 1159
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186856.txt",
+      "sourceRevision": 15186856,
+      "sourceSha256": "14a73e45ead17aa507c63a33f980d4ba505b2275282facdb094cbab236587bd0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186856-15186856.txt.txt",
+      "capsuleSha256": "14a73e45ead17aa507c63a33f980d4ba505b2275282facdb094cbab236587bd0",
+      "bytes": 1288
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186862.txt",
+      "sourceRevision": 15186862,
+      "sourceSha256": "06cc87fe1f469782cdb64f633226c539a68bb8d94e3d3723dafe9a775f0b8e13",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186862-15186862.txt.txt",
+      "capsuleSha256": "06cc87fe1f469782cdb64f633226c539a68bb8d94e3d3723dafe9a775f0b8e13",
+      "bytes": 975
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186945.txt",
+      "sourceRevision": 15186945,
+      "sourceSha256": "0dfb9fb817cc43ea18a9d4f63cca3a250f2435f650570014c2e24e1a19e4cca9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186945-15186945.txt.txt",
+      "capsuleSha256": "0dfb9fb817cc43ea18a9d4f63cca3a250f2435f650570014c2e24e1a19e4cca9",
+      "bytes": 1584
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187282.txt",
+      "sourceRevision": 15187282,
+      "sourceSha256": "341bace0127608c50df48154370ac075ccdcce0dc2b59afdd0c319698cc321e5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187282-15187282.txt.txt",
+      "capsuleSha256": "341bace0127608c50df48154370ac075ccdcce0dc2b59afdd0c319698cc321e5",
+      "bytes": 650
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187295.txt",
+      "sourceRevision": 15187295,
+      "sourceSha256": "66e4c24ad2b53088ecd4f8b21b67613e9e6d52b2d8f0ea0e382969ce9265dfce",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187295-15187295.txt.txt",
+      "capsuleSha256": "66e4c24ad2b53088ecd4f8b21b67613e9e6d52b2d8f0ea0e382969ce9265dfce",
+      "bytes": 670
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187871.txt",
+      "sourceRevision": 15187871,
+      "sourceSha256": "f78124a53bab2e1b7aa9b31a5c6714020f5172bb502db687b3ae1587d26eb0fc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187871-15187871.txt.txt",
+      "capsuleSha256": "f78124a53bab2e1b7aa9b31a5c6714020f5172bb502db687b3ae1587d26eb0fc",
+      "bytes": 1596
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187874.txt",
+      "sourceRevision": 15187874,
+      "sourceSha256": "0397a8c510e9c3cde0a695a2ccaccdd0f778e3e628454952b2651909122bf439",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187874-15187874.txt.txt",
+      "capsuleSha256": "0397a8c510e9c3cde0a695a2ccaccdd0f778e3e628454952b2651909122bf439",
+      "bytes": 2442
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187876.txt",
+      "sourceRevision": 15187876,
+      "sourceSha256": "efddd7f4ccde8985f64066cf06ccf524dbfbdf8b1405e006d84206bfe0918c4d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187876-15187876.txt.txt",
+      "capsuleSha256": "efddd7f4ccde8985f64066cf06ccf524dbfbdf8b1405e006d84206bfe0918c4d",
+      "bytes": 1967
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187901.txt",
+      "sourceRevision": 15187901,
+      "sourceSha256": "54563a62927715b1c33e8938aae694741633dd2a125eaad0129688d0aa16e4d3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187901-15187901.txt.txt",
+      "capsuleSha256": "54563a62927715b1c33e8938aae694741633dd2a125eaad0129688d0aa16e4d3",
+      "bytes": 2681
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187902.txt",
+      "sourceRevision": 15187902,
+      "sourceSha256": "279fd20be24c422f4bc2b41e44a1b711995d3f4d7a199ee6caac91b3751df7c0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187902-15187902.txt.txt",
+      "capsuleSha256": "279fd20be24c422f4bc2b41e44a1b711995d3f4d7a199ee6caac91b3751df7c0",
+      "bytes": 2754
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187903.txt",
+      "sourceRevision": 15187903,
+      "sourceSha256": "61c162c28e825bf35ea1340dfb594b097419ef7a1ce9ea388fc8307a9bff9d1c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187903-15187903.txt.txt",
+      "capsuleSha256": "61c162c28e825bf35ea1340dfb594b097419ef7a1ce9ea388fc8307a9bff9d1c",
+      "bytes": 2659
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187905.txt",
+      "sourceRevision": 15187905,
+      "sourceSha256": "95cf96bcaa5bc323d6387e62ca354e75a84946f5a5663ff3bb429889c8de0aa9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187905-15187905.txt.txt",
+      "capsuleSha256": "95cf96bcaa5bc323d6387e62ca354e75a84946f5a5663ff3bb429889c8de0aa9",
+      "bytes": 2858
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187906.txt",
+      "sourceRevision": 15187906,
+      "sourceSha256": "e9d7edf5227d52abc4f5763fe21711323c2d8b0b2e078ee591e4580780303a55",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187906-15187906.txt.txt",
+      "capsuleSha256": "e9d7edf5227d52abc4f5763fe21711323c2d8b0b2e078ee591e4580780303a55",
+      "bytes": 2667
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187907.txt",
+      "sourceRevision": 15187907,
+      "sourceSha256": "5b901c2acb7a2ab9eba2b6208d3db84801f603d9d5cedae004001fef3f91f318",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187907-15187907.txt.txt",
+      "capsuleSha256": "5b901c2acb7a2ab9eba2b6208d3db84801f603d9d5cedae004001fef3f91f318",
+      "bytes": 2699
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187908.txt",
+      "sourceRevision": 15187908,
+      "sourceSha256": "67e0ed12e38c8e8109d9cc29d8eb625e31df4297cb796f6ee285a8e46d91d9f0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187908-15187908.txt.txt",
+      "capsuleSha256": "67e0ed12e38c8e8109d9cc29d8eb625e31df4297cb796f6ee285a8e46d91d9f0",
+      "bytes": 2648
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187909.txt",
+      "sourceRevision": 15187909,
+      "sourceSha256": "dd96d5cb35922547e4e73f42bdaf0def8b2c3c02e863a09ee2ff13c8372ba6dd",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187909-15187909.txt.txt",
+      "capsuleSha256": "dd96d5cb35922547e4e73f42bdaf0def8b2c3c02e863a09ee2ff13c8372ba6dd",
+      "bytes": 2690
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15187910.txt",
+      "sourceRevision": 15187910,
+      "sourceSha256": "dc88168e12bcc5808090c714948f733a2967f73bb05d96661fe8265d7b403126",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187910-15187910.txt.txt",
+      "capsuleSha256": "dc88168e12bcc5808090c714948f733a2967f73bb05d96661fe8265d7b403126",
+      "bytes": 2648
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188066.txt",
+      "sourceRevision": 15188066,
+      "sourceSha256": "c3c47b24d3b78d554d084d358a6652e77a059747a29780dc1866aa974881132d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188066-15188066.txt.txt",
+      "capsuleSha256": "c3c47b24d3b78d554d084d358a6652e77a059747a29780dc1866aa974881132d",
+      "bytes": 5049
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188091.txt",
+      "sourceRevision": 15188091,
+      "sourceSha256": "24ed8cf3b3cf30179119a0a9bebc8aa6f81041826d7a7af72a35aa11662dd1e3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188091-15188091.txt.txt",
+      "capsuleSha256": "24ed8cf3b3cf30179119a0a9bebc8aa6f81041826d7a7af72a35aa11662dd1e3",
+      "bytes": 975
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188191.txt",
+      "sourceRevision": 15188191,
+      "sourceSha256": "1773b11f3d95990adb8b5a5c398bdc69c142d67d05a4225846dbc4a3486d7d56",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188191-15188191.txt.txt",
+      "capsuleSha256": "1773b11f3d95990adb8b5a5c398bdc69c142d67d05a4225846dbc4a3486d7d56",
+      "bytes": 2831
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188200.txt",
+      "sourceRevision": 15188200,
+      "sourceSha256": "cc9d81ad2a3515e0cdacf4abf7f2b08955cd22904f0e72b778cb720213983732",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188200-15188200.txt.txt",
+      "capsuleSha256": "cc9d81ad2a3515e0cdacf4abf7f2b08955cd22904f0e72b778cb720213983732",
+      "bytes": 1109
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188203.txt",
+      "sourceRevision": 15188203,
+      "sourceSha256": "0de7c76dccb758c6a90364aa6e09212c315dbea7f66325001987c5e59949250a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188203-15188203.txt.txt",
+      "capsuleSha256": "0de7c76dccb758c6a90364aa6e09212c315dbea7f66325001987c5e59949250a",
+      "bytes": 1151
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188211.txt",
+      "sourceRevision": 15188211,
+      "sourceSha256": "6a32adf70ef3cca58cba529dfeee7ff04eea8d05cda29d891f61ddf1eda0bb23",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188211-15188211.txt.txt",
+      "capsuleSha256": "6a32adf70ef3cca58cba529dfeee7ff04eea8d05cda29d891f61ddf1eda0bb23",
+      "bytes": 1224
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188287.txt",
+      "sourceRevision": 15188287,
+      "sourceSha256": "4d6f402af1d88cc00cd68f4a9b9a724b6070e5499edc8d9a806ecd59fddb6617",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188287-15188287.txt.txt",
+      "capsuleSha256": "4d6f402af1d88cc00cd68f4a9b9a724b6070e5499edc8d9a806ecd59fddb6617",
+      "bytes": 1867
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188292.txt",
+      "sourceRevision": 15188292,
+      "sourceSha256": "02947fc1a34939721a6d21a55a93e1ede783867d16bb6164d92c48635d0c0a96",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188292-15188292.txt.txt",
+      "capsuleSha256": "02947fc1a34939721a6d21a55a93e1ede783867d16bb6164d92c48635d0c0a96",
+      "bytes": 768
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188293.txt",
+      "sourceRevision": 15188293,
+      "sourceSha256": "0fa845ba0cf526b94fb5aa32ee2cda1058b1d251fa588e8b5a973d5d8f6717a6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188293-15188293.txt.txt",
+      "capsuleSha256": "0fa845ba0cf526b94fb5aa32ee2cda1058b1d251fa588e8b5a973d5d8f6717a6",
+      "bytes": 767
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188296.txt",
+      "sourceRevision": 15188296,
+      "sourceSha256": "d5bbab22a2bedecf7257e988d8c2bc6c4800bd4af4ab020746342cc9e2aed2e5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188296-15188296.txt.txt",
+      "capsuleSha256": "d5bbab22a2bedecf7257e988d8c2bc6c4800bd4af4ab020746342cc9e2aed2e5",
+      "bytes": 769
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188298.txt",
+      "sourceRevision": 15188298,
+      "sourceSha256": "9020b82ebd742a31f46f3115d37d6b4151b979fcd7bc6351d600554678dd14d4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188298-15188298.txt.txt",
+      "capsuleSha256": "9020b82ebd742a31f46f3115d37d6b4151b979fcd7bc6351d600554678dd14d4",
+      "bytes": 747
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188315.txt",
+      "sourceRevision": 15188315,
+      "sourceSha256": "b61fbc2ad6f95e922f7f0d8105f4d73d505f2122eb020cedf651852fabfdbe7b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188315-15188315.txt.txt",
+      "capsuleSha256": "b61fbc2ad6f95e922f7f0d8105f4d73d505f2122eb020cedf651852fabfdbe7b",
+      "bytes": 1498
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188318.txt",
+      "sourceRevision": 15188318,
+      "sourceSha256": "5361742e7c8806ee45d08bbddcf9e17afe22b9d8f42f5c462c9143bc63706112",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188318-15188318.txt.txt",
+      "capsuleSha256": "5361742e7c8806ee45d08bbddcf9e17afe22b9d8f42f5c462c9143bc63706112",
+      "bytes": 1498
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188322.txt",
+      "sourceRevision": 15188322,
+      "sourceSha256": "d114a263db588bfebe77d2ee0523a3ef9ee1e7f46fd7f44d4d83c934c73b097d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188322-15188322.txt.txt",
+      "capsuleSha256": "d114a263db588bfebe77d2ee0523a3ef9ee1e7f46fd7f44d4d83c934c73b097d",
+      "bytes": 1494
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188324.txt",
+      "sourceRevision": 15188324,
+      "sourceSha256": "6c3e69dc6800f9f3f7fc4ea123f67e51f41b799bc822eaaa362d36be7a1b04f1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188324-15188324.txt.txt",
+      "capsuleSha256": "6c3e69dc6800f9f3f7fc4ea123f67e51f41b799bc822eaaa362d36be7a1b04f1",
+      "bytes": 1505
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188391.txt",
+      "sourceRevision": 15188391,
+      "sourceSha256": "ffa97dcf04327298de930d824849368e41b307b6aa8f2683819583b4697b3c4e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188391-15188391.txt.txt",
+      "capsuleSha256": "ffa97dcf04327298de930d824849368e41b307b6aa8f2683819583b4697b3c4e",
+      "bytes": 3043
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188476.txt",
+      "sourceRevision": 15188476,
+      "sourceSha256": "d364620810424da65e3f9d9f319fe4668d7fe58a3e07eac1fb647d743f48fd02",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188476-15188476.txt.txt",
+      "capsuleSha256": "d364620810424da65e3f9d9f319fe4668d7fe58a3e07eac1fb647d743f48fd02",
+      "bytes": 1127
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188542.txt",
+      "sourceRevision": 15188542,
+      "sourceSha256": "eb59f449212021b9a9d332da79f7ad61718184c7bd1bf576c5ccb0902ad5a4f2",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188542-15188542.txt.txt",
+      "capsuleSha256": "eb59f449212021b9a9d332da79f7ad61718184c7bd1bf576c5ccb0902ad5a4f2",
+      "bytes": 1022
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188770.txt",
+      "sourceRevision": 15188770,
+      "sourceSha256": "c9007ecae66dccf0758b95cda91ea083fbcaea2e953eb98355570f323f3809d2",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188770-15188770.txt.txt",
+      "capsuleSha256": "c9007ecae66dccf0758b95cda91ea083fbcaea2e953eb98355570f323f3809d2",
+      "bytes": 2102
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188835.txt",
+      "sourceRevision": 15188835,
+      "sourceSha256": "81e345a33c8165dad5932ba96404926dc533a68ee9318f4e21e28cef38d2b33e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188835-15188835.txt.txt",
+      "capsuleSha256": "81e345a33c8165dad5932ba96404926dc533a68ee9318f4e21e28cef38d2b33e",
+      "bytes": 2184
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188843.txt",
+      "sourceRevision": 15188843,
+      "sourceSha256": "246d56c95808f3bc0a2e0b6ad207df626c6e10a1b1c51359c36b963c9e20a564",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188843-15188843.txt.txt",
+      "capsuleSha256": "246d56c95808f3bc0a2e0b6ad207df626c6e10a1b1c51359c36b963c9e20a564",
+      "bytes": 899
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15188999.txt",
+      "sourceRevision": 15188999,
+      "sourceSha256": "a54817ad2c5fa3a596a8dc6ac753e13e6af5987be4934fc858cc4a1327485eea",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188999-15188999.txt.txt",
+      "capsuleSha256": "a54817ad2c5fa3a596a8dc6ac753e13e6af5987be4934fc858cc4a1327485eea",
+      "bytes": 2516
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189000.txt",
+      "sourceRevision": 15189000,
+      "sourceSha256": "ad96f050be90fb89769273a18e8564b6d1fab0d46d68c8e15474f816462f98b1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189000-15189000.txt.txt",
+      "capsuleSha256": "ad96f050be90fb89769273a18e8564b6d1fab0d46d68c8e15474f816462f98b1",
+      "bytes": 2555
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189004.txt",
+      "sourceRevision": 15189004,
+      "sourceSha256": "9ca9ea88411523d53f2117341438c083a45234ff4ad2c970f519f3ea21eb275b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189004-15189004.txt.txt",
+      "capsuleSha256": "9ca9ea88411523d53f2117341438c083a45234ff4ad2c970f519f3ea21eb275b",
+      "bytes": 2719
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189143.txt",
+      "sourceRevision": 15189143,
+      "sourceSha256": "e7543972d76e4be73f96e0d649ef2462ce233f13a341f3341922ca3470b53938",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189143-15189143.txt.txt",
+      "capsuleSha256": "e7543972d76e4be73f96e0d649ef2462ce233f13a341f3341922ca3470b53938",
+      "bytes": 1248
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189157.txt",
+      "sourceRevision": 15189157,
+      "sourceSha256": "42b02150190b34a852992e72bc61b84ca90e93dbb4618be2fb3c7ba35db2a633",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189157-15189157.txt.txt",
+      "capsuleSha256": "42b02150190b34a852992e72bc61b84ca90e93dbb4618be2fb3c7ba35db2a633",
+      "bytes": 1756
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189387.txt",
+      "sourceRevision": 15189387,
+      "sourceSha256": "dd2af3f143bd487543fa728784a3ad187c2d5738701bcae73d1d1ac95f799d57",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189387-15189387.txt.txt",
+      "capsuleSha256": "dd2af3f143bd487543fa728784a3ad187c2d5738701bcae73d1d1ac95f799d57",
+      "bytes": 887
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189498.txt",
+      "sourceRevision": 15189498,
+      "sourceSha256": "566564d24b89ae4d8e9774970564a4a2bd2509dab5f850d8c0b2bdf3fb4e2ba2",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189498-15189498.txt.txt",
+      "capsuleSha256": "566564d24b89ae4d8e9774970564a4a2bd2509dab5f850d8c0b2bdf3fb4e2ba2",
+      "bytes": 1364
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189618.txt",
+      "sourceRevision": 15189618,
+      "sourceSha256": "47298d97b19029b323c47ba6b6166fd44e0019c085b1bbff6151d71be3e77f71",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189618-15189618.txt.txt",
+      "capsuleSha256": "47298d97b19029b323c47ba6b6166fd44e0019c085b1bbff6151d71be3e77f71",
+      "bytes": 1106
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189620.txt",
+      "sourceRevision": 15189620,
+      "sourceSha256": "91f329c1f62c5febdb488b8984439a31d1e3746e6520bd3934db1a8170eaf087",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189620-15189620.txt.txt",
+      "capsuleSha256": "91f329c1f62c5febdb488b8984439a31d1e3746e6520bd3934db1a8170eaf087",
+      "bytes": 1033
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189882.txt",
+      "sourceRevision": 15189882,
+      "sourceSha256": "91e6b7191c0985648df2d57d5013b292285f023a13406cdc3bb67d2e92cbd9ea",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189882-15189882.txt.txt",
+      "capsuleSha256": "91e6b7191c0985648df2d57d5013b292285f023a13406cdc3bb67d2e92cbd9ea",
+      "bytes": 2142
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15189957.txt",
+      "sourceRevision": 15189957,
+      "sourceSha256": "b6f4b254aa3c7e01bf13266a10b62b611273cd1ade806b7ec8b462e6286b6fb6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189957-15189957.txt.txt",
+      "capsuleSha256": "b6f4b254aa3c7e01bf13266a10b62b611273cd1ade806b7ec8b462e6286b6fb6",
+      "bytes": 1212
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15190085.txt",
+      "sourceRevision": 15190085,
+      "sourceSha256": "ccff80f52004aec2f66ea38991b04bd132cf968d0ab1e331ca8d10608e229a20",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190085-15190085.txt.txt",
+      "capsuleSha256": "ccff80f52004aec2f66ea38991b04bd132cf968d0ab1e331ca8d10608e229a20",
+      "bytes": 1101
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15190190.txt",
+      "sourceRevision": 15190190,
+      "sourceSha256": "e21b7daf7428012608ced4ad9932311b43a59a77c53bf6d56a895f398334daf0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190190-15190190.txt.txt",
+      "capsuleSha256": "e21b7daf7428012608ced4ad9932311b43a59a77c53bf6d56a895f398334daf0",
+      "bytes": 990
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15190197.txt",
+      "sourceRevision": 15190197,
+      "sourceSha256": "040181de34d1eedf2881feb883706c3b2bfb46b1e6246b628042bbad5785de87",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190197-15190197.txt.txt",
+      "capsuleSha256": "040181de34d1eedf2881feb883706c3b2bfb46b1e6246b628042bbad5785de87",
+      "bytes": 993
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15190402.txt",
+      "sourceRevision": 15190402,
+      "sourceSha256": "51747d6b48435a8475e1535fbd3838eaaf6bc5bfd4b2d8fa811c9de71db06bab",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190402-15190402.txt.txt",
+      "capsuleSha256": "51747d6b48435a8475e1535fbd3838eaaf6bc5bfd4b2d8fa811c9de71db06bab",
+      "bytes": 15597
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15209255.txt",
+      "sourceRevision": 15209255,
+      "sourceSha256": "1349f105320b5964c7366a7f8a617d825f3c15f9cfd7cb355ec06bc47f40a8b7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15209255-15209255.txt.txt",
+      "capsuleSha256": "1349f105320b5964c7366a7f8a617d825f3c15f9cfd7cb355ec06bc47f40a8b7",
+      "bytes": 2479
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15209263.txt",
+      "sourceRevision": 15209263,
+      "sourceSha256": "c5d8fbbb689f7435a3b81070f8bf4e6144f0caf342982380b2731509ed2a2c5a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15209263-15209263.txt.txt",
+      "capsuleSha256": "c5d8fbbb689f7435a3b81070f8bf4e6144f0caf342982380b2731509ed2a2c5a",
+      "bytes": 2642
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15209296.txt",
+      "sourceRevision": 15209296,
+      "sourceSha256": "36870c3d0ef52835c8f23ad00d19c481316f9d06b722a3f2c1f2360eebf95515",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15209296-15209296.txt.txt",
+      "capsuleSha256": "36870c3d0ef52835c8f23ad00d19c481316f9d06b722a3f2c1f2360eebf95515",
+      "bytes": 5314
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15211390.txt",
+      "sourceRevision": 15211390,
+      "sourceSha256": "ad01320e3410aa843a223e9d60c7747f4720253778e3bc0170c15d53637ce548",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15211390-15211390.txt.txt",
+      "capsuleSha256": "ad01320e3410aa843a223e9d60c7747f4720253778e3bc0170c15d53637ce548",
+      "bytes": 3842
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15211391.txt",
+      "sourceRevision": 15211391,
+      "sourceSha256": "c6a9b2d0333263f1f8a2751bb62ba0a5d4decff08e0d8c20085fa7600fd876ff",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15211391-15211391.txt.txt",
+      "capsuleSha256": "c6a9b2d0333263f1f8a2751bb62ba0a5d4decff08e0d8c20085fa7600fd876ff",
+      "bytes": 3602
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15211393.txt",
+      "sourceRevision": 15211393,
+      "sourceSha256": "bee5255bb8040c68de94fa2b62943a131bbef6951ceb9ed2a17fd32de9c19418",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15211393-15211393.txt.txt",
+      "capsuleSha256": "bee5255bb8040c68de94fa2b62943a131bbef6951ceb9ed2a17fd32de9c19418",
+      "bytes": 4113
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15215030.txt",
+      "sourceRevision": 15215030,
+      "sourceSha256": "d8e7832c933e0491c6993a20a92838bd328746ea7af0c90d4beff80c00d53cde",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15215030-15215030.txt.txt",
+      "capsuleSha256": "d8e7832c933e0491c6993a20a92838bd328746ea7af0c90d4beff80c00d53cde",
+      "bytes": 2247
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15218650.txt",
+      "sourceRevision": 15218650,
+      "sourceSha256": "97a5f8edd280f3cdf502ef2043e5e16a91e4842a5db0cb9087f8599f0677dc1c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15218650-15218650.txt.txt",
+      "capsuleSha256": "97a5f8edd280f3cdf502ef2043e5e16a91e4842a5db0cb9087f8599f0677dc1c",
+      "bytes": 3824
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15218984.txt",
+      "sourceRevision": 15218984,
+      "sourceSha256": "b56e8a7227d6066cd4c0810d599f5ee120edc560947f003d9c4685154614fa70",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15218984-15218984.txt.txt",
+      "capsuleSha256": "b56e8a7227d6066cd4c0810d599f5ee120edc560947f003d9c4685154614fa70",
+      "bytes": 3554
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15224221.txt",
+      "sourceRevision": 15224221,
+      "sourceSha256": "68de98473a0f59ad80774ee52be7b9ca5e153902b674a98cf2fd235e1a75a18e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15224221-15224221.txt.txt",
+      "capsuleSha256": "68de98473a0f59ad80774ee52be7b9ca5e153902b674a98cf2fd235e1a75a18e",
+      "bytes": 23965
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15227341.txt",
+      "sourceRevision": 15227341,
+      "sourceSha256": "49417ea972124ec65a27464709f3496de4b2f298e2e8f5bd9e1bb9fa9d8d8b0f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15227341-15227341.txt.txt",
+      "capsuleSha256": "49417ea972124ec65a27464709f3496de4b2f298e2e8f5bd9e1bb9fa9d8d8b0f",
+      "bytes": 5856
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15227370.txt",
+      "sourceRevision": 15227370,
+      "sourceSha256": "a8009479cfdac286412cb45a551fef8bd76f8a067a8f1883a7a6dbbe1ef58fc9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15227370-15227370.txt.txt",
+      "capsuleSha256": "a8009479cfdac286412cb45a551fef8bd76f8a067a8f1883a7a6dbbe1ef58fc9",
+      "bytes": 3486
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15232691.txt",
+      "sourceRevision": 15232691,
+      "sourceSha256": "5e53133b863ba30b61af848b33577bc6fb8faaa119671da3ce4c208c3fadd0c3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15232691-15232691.txt.txt",
+      "capsuleSha256": "5e53133b863ba30b61af848b33577bc6fb8faaa119671da3ce4c208c3fadd0c3",
+      "bytes": 2980
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15234510.txt",
+      "sourceRevision": 15234510,
+      "sourceSha256": "4be4576dd8fb45ac5322fd73fcfff20422f81e899f26ed444664164741a2075a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15234510-15234510.txt.txt",
+      "capsuleSha256": "4be4576dd8fb45ac5322fd73fcfff20422f81e899f26ed444664164741a2075a",
+      "bytes": 4223
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15234513.txt",
+      "sourceRevision": 15234513,
+      "sourceSha256": "f10667f74d888a4998ef0adca603657747a6f0c8a796fd2640593c081017194c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15234513-15234513.txt.txt",
+      "capsuleSha256": "f10667f74d888a4998ef0adca603657747a6f0c8a796fd2640593c081017194c",
+      "bytes": 1559
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15234516.txt",
+      "sourceRevision": 15234516,
+      "sourceSha256": "021abb38fdb286282e4de1de7f15adbccf77f0b03d95462ddebcc57fb9de1114",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15234516-15234516.txt.txt",
+      "capsuleSha256": "021abb38fdb286282e4de1de7f15adbccf77f0b03d95462ddebcc57fb9de1114",
+      "bytes": 1615
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15234520.txt",
+      "sourceRevision": 15234520,
+      "sourceSha256": "6cc053214f66a45fac436aceb265fb8261b635cfb82a02df4bd998e6571ed881",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15234520-15234520.txt.txt",
+      "capsuleSha256": "6cc053214f66a45fac436aceb265fb8261b635cfb82a02df4bd998e6571ed881",
+      "bytes": 1768
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15242183.txt",
+      "sourceRevision": 15242183,
+      "sourceSha256": "da0302a5e71f58906aab11bad2ae4bc3f19d3132fa37b1e0f0eb91bffeaff3ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15242183-15242183.txt.txt",
+      "capsuleSha256": "da0302a5e71f58906aab11bad2ae4bc3f19d3132fa37b1e0f0eb91bffeaff3ec",
+      "bytes": 3657
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15242184.txt",
+      "sourceRevision": 15242184,
+      "sourceSha256": "abf31dbb73ccbac5e657d93cc2c1a5a2ec057affd59cd12520a59dfd1a176b7f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15242184-15242184.txt.txt",
+      "capsuleSha256": "abf31dbb73ccbac5e657d93cc2c1a5a2ec057affd59cd12520a59dfd1a176b7f",
+      "bytes": 4413
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15250571.txt",
+      "sourceRevision": 15250571,
+      "sourceSha256": "fbbbfb54a1dd2b187698c1e11fc8a7e10422f94c137f90e1b20fa5e330e6d59b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15250571-15250571.txt.txt",
+      "capsuleSha256": "fbbbfb54a1dd2b187698c1e11fc8a7e10422f94c137f90e1b20fa5e330e6d59b",
+      "bytes": 1271
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15255384.txt",
+      "sourceRevision": 15255384,
+      "sourceSha256": "8892b35723e86db9209ed89ab1bb5d7833822bcaba750cb0a2f0429499d26a3b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15255384-15255384.txt.txt",
+      "capsuleSha256": "8892b35723e86db9209ed89ab1bb5d7833822bcaba750cb0a2f0429499d26a3b",
+      "bytes": 3344
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15257982.txt",
+      "sourceRevision": 15257982,
+      "sourceSha256": "b06bea62dfd0e829796ca8a4cb75be7d73a782c4e0afef0c592cafe05c26204a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15257982-15257982.txt.txt",
+      "capsuleSha256": "b06bea62dfd0e829796ca8a4cb75be7d73a782c4e0afef0c592cafe05c26204a",
+      "bytes": 3461
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15258576.txt",
+      "sourceRevision": 15258576,
+      "sourceSha256": "ce22f3f257bb1fad78124a584be6bd321f5bc918625fcefab8b3fa998b4b8c6c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15258576-15258576.txt.txt",
+      "capsuleSha256": "ce22f3f257bb1fad78124a584be6bd321f5bc918625fcefab8b3fa998b4b8c6c",
+      "bytes": 1426
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15260478.txt",
+      "sourceRevision": 15260478,
+      "sourceSha256": "41e2fe2a4e866526807f46e89628e26c542f401bcac9f00e8ef88d8d350d3871",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15260478-15260478.txt.txt",
+      "capsuleSha256": "41e2fe2a4e866526807f46e89628e26c542f401bcac9f00e8ef88d8d350d3871",
+      "bytes": 6251
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15261968.txt",
+      "sourceRevision": 15261968,
+      "sourceSha256": "fface0b64571dcb83b109aaf6c2b3de55a21fe6dda26584da817bef724c4c6cc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15261968-15261968.txt.txt",
+      "capsuleSha256": "fface0b64571dcb83b109aaf6c2b3de55a21fe6dda26584da817bef724c4c6cc",
+      "bytes": 3500
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15271583.txt",
+      "sourceRevision": 15271583,
+      "sourceSha256": "58bb0a01a0397ca3115f4b37eacdfdc322f8c23ddee0c452d8158cefde267fc7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15271583-15271583.txt.txt",
+      "capsuleSha256": "58bb0a01a0397ca3115f4b37eacdfdc322f8c23ddee0c452d8158cefde267fc7",
+      "bytes": 7517
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15272035.txt",
+      "sourceRevision": 15272035,
+      "sourceSha256": "619101b4b78aa7edd58903f454b5b00182e872d1e811c3a1105bf749e20ef130",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15272035-15272035.txt.txt",
+      "capsuleSha256": "619101b4b78aa7edd58903f454b5b00182e872d1e811c3a1105bf749e20ef130",
+      "bytes": 2937
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15275995.txt",
+      "sourceRevision": 15275995,
+      "sourceSha256": "5bf5cfd1928c63ab138f1631964bd6883e84eae48b4985dc6ed75db19efabcd6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15275995-15275995.txt.txt",
+      "capsuleSha256": "5bf5cfd1928c63ab138f1631964bd6883e84eae48b4985dc6ed75db19efabcd6",
+      "bytes": 2423
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15289037.txt",
+      "sourceRevision": 15289037,
+      "sourceSha256": "b950d27b57fa9edf8cc526fc588dcb4c8aba8fc16adc971d0480ef051962bfbe",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15289037-15289037.txt.txt",
+      "capsuleSha256": "b950d27b57fa9edf8cc526fc588dcb4c8aba8fc16adc971d0480ef051962bfbe",
+      "bytes": 3639
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15293960.txt",
+      "sourceRevision": 15293960,
+      "sourceSha256": "b1a837adfd5834ef1795e59b988a7d268f8de402a49b92606ebb60e2d0a77bdd",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15293960-15293960.txt.txt",
+      "capsuleSha256": "b1a837adfd5834ef1795e59b988a7d268f8de402a49b92606ebb60e2d0a77bdd",
+      "bytes": 2556
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15297441.txt",
+      "sourceRevision": 15297441,
+      "sourceSha256": "e01016110617ea923a238f88eb287b2a62b4446b4c1397f4128f28dfdf55f016",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15297441-15297441.txt.txt",
+      "capsuleSha256": "e01016110617ea923a238f88eb287b2a62b4446b4c1397f4128f28dfdf55f016",
+      "bytes": 2148
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15303956.txt",
+      "sourceRevision": 15303956,
+      "sourceSha256": "271bcc37aeff3c10a0c8b52145fe82501a3814ea3292bb78cffe76b62a368e64",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15303956-15303956.txt.txt",
+      "capsuleSha256": "271bcc37aeff3c10a0c8b52145fe82501a3814ea3292bb78cffe76b62a368e64",
+      "bytes": 2654
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15305528.txt",
+      "sourceRevision": 15305528,
+      "sourceSha256": "9aa5cfb7728ca98778bed0fd54ec96908ef0d22d5b94b904831c746ecd4b9edd",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15305528-15305528.txt.txt",
+      "capsuleSha256": "9aa5cfb7728ca98778bed0fd54ec96908ef0d22d5b94b904831c746ecd4b9edd",
+      "bytes": 1466
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15305851.txt",
+      "sourceRevision": 15305851,
+      "sourceSha256": "ee2dc1a08ec3b033e4246211a40f7aeefb71114839933d6ce6819734efd73833",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15305851-15305851.txt.txt",
+      "capsuleSha256": "ee2dc1a08ec3b033e4246211a40f7aeefb71114839933d6ce6819734efd73833",
+      "bytes": 3617
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15311911.txt",
+      "sourceRevision": 15311911,
+      "sourceSha256": "63eeca1b4c93e6f1b76d1bebc759991ae192d70b08a14ac45746f2746ca37ac6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15311911-15311911.txt.txt",
+      "capsuleSha256": "63eeca1b4c93e6f1b76d1bebc759991ae192d70b08a14ac45746f2746ca37ac6",
+      "bytes": 7111
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15313220.txt",
+      "sourceRevision": 15313220,
+      "sourceSha256": "8bfbe400f8df96d818fc9ebf4d70eb7883c30e8c7f14b57dadfe13560b7f60b3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15313220-15313220.txt.txt",
+      "capsuleSha256": "8bfbe400f8df96d818fc9ebf4d70eb7883c30e8c7f14b57dadfe13560b7f60b3",
+      "bytes": 1072
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15313255.txt",
+      "sourceRevision": 15313255,
+      "sourceSha256": "77e0df78f4d9ce5841d6cb7f62e50a75d17771b4a71e416601a79ed420e53246",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15313255-15313255.txt.txt",
+      "capsuleSha256": "77e0df78f4d9ce5841d6cb7f62e50a75d17771b4a71e416601a79ed420e53246",
+      "bytes": 8943
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15313770.txt",
+      "sourceRevision": 15313770,
+      "sourceSha256": "272b608060fd7a7c6d712a4e261bc529ca1d14c77a03301a117b48893bd971a4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15313770-15313770.txt.txt",
+      "capsuleSha256": "272b608060fd7a7c6d712a4e261bc529ca1d14c77a03301a117b48893bd971a4",
+      "bytes": 3187
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15314518.txt",
+      "sourceRevision": 15314518,
+      "sourceSha256": "81a166b1a3f337b5d8eecb49c57d6f02fc171ba64162495e12e1447914b585ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15314518-15314518.txt.txt",
+      "capsuleSha256": "81a166b1a3f337b5d8eecb49c57d6f02fc171ba64162495e12e1447914b585ec",
+      "bytes": 9337
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15314519.txt",
+      "sourceRevision": 15314519,
+      "sourceSha256": "47dcd019acec60e53724b3b17b46a2495cd4d870a2c10b57fdd3fe7ce2741974",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15314519-15314519.txt.txt",
+      "capsuleSha256": "47dcd019acec60e53724b3b17b46a2495cd4d870a2c10b57fdd3fe7ce2741974",
+      "bytes": 10217
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15315198.txt",
+      "sourceRevision": 15315198,
+      "sourceSha256": "9440097e6afdc919405b761d2405637f63c4a58fea5a1eb6be01b472ad869a58",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15315198-15315198.txt.txt",
+      "capsuleSha256": "9440097e6afdc919405b761d2405637f63c4a58fea5a1eb6be01b472ad869a58",
+      "bytes": 12286
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15316885.txt",
+      "sourceRevision": 15316885,
+      "sourceSha256": "c33d1796d71d5be986b0fea19ea4a9ab5cd78c7e3afb62f53261b566ff5bd640",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15316885-15316885.txt.txt",
+      "capsuleSha256": "c33d1796d71d5be986b0fea19ea4a9ab5cd78c7e3afb62f53261b566ff5bd640",
+      "bytes": 8121
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15317864.txt",
+      "sourceRevision": 15317864,
+      "sourceSha256": "aeb840cbc1fba45d318bdc32bc62c688551819c771fbbaf5872ee3e512206f91",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15317864-15317864.txt.txt",
+      "capsuleSha256": "aeb840cbc1fba45d318bdc32bc62c688551819c771fbbaf5872ee3e512206f91",
+      "bytes": 1958
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15320072.txt",
+      "sourceRevision": 15320072,
+      "sourceSha256": "a683fddfedb50b86c93be7f03fd28640384acb567770120d121fe5286ffc2f17",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15320072-15320072.txt.txt",
+      "capsuleSha256": "a683fddfedb50b86c93be7f03fd28640384acb567770120d121fe5286ffc2f17",
+      "bytes": 2268
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15322182.txt",
+      "sourceRevision": 15322182,
+      "sourceSha256": "fcb91a01678b9f662bad9a1c64c7348f2a2be12b2bb72e19ae252a27fd240dad",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15322182-15322182.txt.txt",
+      "capsuleSha256": "fcb91a01678b9f662bad9a1c64c7348f2a2be12b2bb72e19ae252a27fd240dad",
+      "bytes": 4730
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15322323.txt",
+      "sourceRevision": 15322323,
+      "sourceSha256": "a2e684a0c2b468a8b9ea519e412acc6947d263f659d02f7f0f7fe7fff4dd9989",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15322323-15322323.txt.txt",
+      "capsuleSha256": "a2e684a0c2b468a8b9ea519e412acc6947d263f659d02f7f0f7fe7fff4dd9989",
+      "bytes": 2375
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15322822.txt",
+      "sourceRevision": 15322822,
+      "sourceSha256": "698024bbcd5f9751c48d82b8b1d7befbf506b2657af6a6ca07f8d0638ae3594f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15322822-15322822.txt.txt",
+      "capsuleSha256": "698024bbcd5f9751c48d82b8b1d7befbf506b2657af6a6ca07f8d0638ae3594f",
+      "bytes": 2856
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15323378.txt",
+      "sourceRevision": 15323378,
+      "sourceSha256": "21744d14fbcbeb22af7874938e745bb4b28b9b82a4e87ede44ca9328e8b873af",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323378-15323378.txt.txt",
+      "capsuleSha256": "21744d14fbcbeb22af7874938e745bb4b28b9b82a4e87ede44ca9328e8b873af",
+      "bytes": 7300
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15323900.txt",
+      "sourceRevision": 15323900,
+      "sourceSha256": "13895eef93e0e2fc7723cfaf57a3fbfaf4722986bbcc95a4ca287cfc16193c3e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323900-15323900.txt.txt",
+      "capsuleSha256": "13895eef93e0e2fc7723cfaf57a3fbfaf4722986bbcc95a4ca287cfc16193c3e",
+      "bytes": 2400
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15323925.txt",
+      "sourceRevision": 15323925,
+      "sourceSha256": "8b0206c47a35404e1fdf2e8bdfe4654262b00a422ae10acff3f9711da8bedba7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323925-15323925.txt.txt",
+      "capsuleSha256": "8b0206c47a35404e1fdf2e8bdfe4654262b00a422ae10acff3f9711da8bedba7",
+      "bytes": 1542
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324082.txt",
+      "sourceRevision": 15324082,
+      "sourceSha256": "c69941e491d46e9f4ed32c0b60191415e46095adec649f364f5872c54c9f148d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324082-15324082.txt.txt",
+      "capsuleSha256": "c69941e491d46e9f4ed32c0b60191415e46095adec649f364f5872c54c9f148d",
+      "bytes": 2772
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324084.txt",
+      "sourceRevision": 15324084,
+      "sourceSha256": "e3676270b2c7fa01c6cdd3d191eda9b134a585fd09c6c4d152ac93122076e068",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324084-15324084.txt.txt",
+      "capsuleSha256": "e3676270b2c7fa01c6cdd3d191eda9b134a585fd09c6c4d152ac93122076e068",
+      "bytes": 2258
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324085.txt",
+      "sourceRevision": 15324085,
+      "sourceSha256": "21a9b1b9e50d5be438f5ece9b0bb5787cece0ae901137d5d1e1aeaf322afc261",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324085-15324085.txt.txt",
+      "capsuleSha256": "21a9b1b9e50d5be438f5ece9b0bb5787cece0ae901137d5d1e1aeaf322afc261",
+      "bytes": 2258
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324116.txt",
+      "sourceRevision": 15324116,
+      "sourceSha256": "0215dec66e07bb081d6bb4d6ee2c2fa01f0cf2114df6df7361b97600ead70735",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324116-15324116.txt.txt",
+      "capsuleSha256": "0215dec66e07bb081d6bb4d6ee2c2fa01f0cf2114df6df7361b97600ead70735",
+      "bytes": 2833
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324793.txt",
+      "sourceRevision": 15324793,
+      "sourceSha256": "89f12adf5d2fa600862e4326a63d1ddbb0acae9e14d25088b861f45dd3ed4486",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324793-15324793.txt.txt",
+      "capsuleSha256": "89f12adf5d2fa600862e4326a63d1ddbb0acae9e14d25088b861f45dd3ed4486",
+      "bytes": 2775
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324920.txt",
+      "sourceRevision": 15324920,
+      "sourceSha256": "2363890fd23c0b4b26493c88f3a292e69e9d3d553c2e27d9efbeda28a41dfbfb",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324920-15324920.txt.txt",
+      "capsuleSha256": "2363890fd23c0b4b26493c88f3a292e69e9d3d553c2e27d9efbeda28a41dfbfb",
+      "bytes": 1810
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15324923.txt",
+      "sourceRevision": 15324923,
+      "sourceSha256": "a71704e9aba13eba336686b72663b9893a8cf897dedade8562f236c62cf912f8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324923-15324923.txt.txt",
+      "capsuleSha256": "a71704e9aba13eba336686b72663b9893a8cf897dedade8562f236c62cf912f8",
+      "bytes": 1810
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15326820.txt",
+      "sourceRevision": 15326820,
+      "sourceSha256": "a93cd8163fe551436e530154258928fd2e6eb2f376165bd5cb93a617d11a0058",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326820-15326820.txt.txt",
+      "capsuleSha256": "a93cd8163fe551436e530154258928fd2e6eb2f376165bd5cb93a617d11a0058",
+      "bytes": 2694
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15326822.txt",
+      "sourceRevision": 15326822,
+      "sourceSha256": "85fca02524aa48617a79d8528be2ef58e6d41fe135100b41b1eb8c87643f3247",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326822-15326822.txt.txt",
+      "capsuleSha256": "85fca02524aa48617a79d8528be2ef58e6d41fe135100b41b1eb8c87643f3247",
+      "bytes": 2377
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15326824.txt",
+      "sourceRevision": 15326824,
+      "sourceSha256": "cd98de39159c34a6ceded0c560f36eaf16f9dbb48a681882cecdc6541a9e09c3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326824-15326824.txt.txt",
+      "capsuleSha256": "cd98de39159c34a6ceded0c560f36eaf16f9dbb48a681882cecdc6541a9e09c3",
+      "bytes": 2592
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15326837.txt",
+      "sourceRevision": 15326837,
+      "sourceSha256": "ac4ba269ef92d27f813671b2ac91363dc7745796be9db4b89494487088578094",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326837-15326837.txt.txt",
+      "capsuleSha256": "ac4ba269ef92d27f813671b2ac91363dc7745796be9db4b89494487088578094",
+      "bytes": 3822
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15327687.txt",
+      "sourceRevision": 15327687,
+      "sourceSha256": "0ed12c9975fbf8bdb7a2fe271986f959721d0dbb6dfc176ce42f393373e860e0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15327687-15327687.txt.txt",
+      "capsuleSha256": "0ed12c9975fbf8bdb7a2fe271986f959721d0dbb6dfc176ce42f393373e860e0",
+      "bytes": 1370
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15327899.txt",
+      "sourceRevision": 15327899,
+      "sourceSha256": "c8fcab7c90faa2b820a6bf7f39824654573ae09f6d683a1cfa03da41c30f26ab",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15327899-15327899.txt.txt",
+      "capsuleSha256": "c8fcab7c90faa2b820a6bf7f39824654573ae09f6d683a1cfa03da41c30f26ab",
+      "bytes": 1941
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15334084.txt",
+      "sourceRevision": 15334084,
+      "sourceSha256": "1f03da18bff1d67f801c35e00896a6e1caeb14705dd4601a6f31385ca1286fec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15334084-15334084.txt.txt",
+      "capsuleSha256": "1f03da18bff1d67f801c35e00896a6e1caeb14705dd4601a6f31385ca1286fec",
+      "bytes": 919
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15334093.txt",
+      "sourceRevision": 15334093,
+      "sourceSha256": "8c25957ea4c200a6d6dcb799f80e25096e941c95da48f2573dc9828cb2267102",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15334093-15334093.txt.txt",
+      "capsuleSha256": "8c25957ea4c200a6d6dcb799f80e25096e941c95da48f2573dc9828cb2267102",
+      "bytes": 1136
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15339489.txt",
+      "sourceRevision": 15339489,
+      "sourceSha256": "1c83a1b76f8db6bbf5ce2c0e314e92389fc54f5988b08b0e1a6be115e7f1d653",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15339489-15339489.txt.txt",
+      "capsuleSha256": "1c83a1b76f8db6bbf5ce2c0e314e92389fc54f5988b08b0e1a6be115e7f1d653",
+      "bytes": 3758
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15341177.txt",
+      "sourceRevision": 15341177,
+      "sourceSha256": "f4a65b728e65651fee1f8f7b64f99d9c6b612dd5977a4887d46b18d93ed11b95",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15341177-15341177.txt.txt",
+      "capsuleSha256": "f4a65b728e65651fee1f8f7b64f99d9c6b612dd5977a4887d46b18d93ed11b95",
+      "bytes": 4524
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15342422.txt",
+      "sourceRevision": 15342422,
+      "sourceSha256": "70b8192b6e20e128ab65f49cec891badb1be6dbc0aae8d74aa37f3e26978fbfe",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15342422-15342422.txt.txt",
+      "capsuleSha256": "70b8192b6e20e128ab65f49cec891badb1be6dbc0aae8d74aa37f3e26978fbfe",
+      "bytes": 4662
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15343679.txt",
+      "sourceRevision": 15343679,
+      "sourceSha256": "a71d222be4442fce210a4dc5dcd8a5943ee6962fbff4d8d2414dadd7d3442a44",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15343679-15343679.txt.txt",
+      "capsuleSha256": "a71d222be4442fce210a4dc5dcd8a5943ee6962fbff4d8d2414dadd7d3442a44",
+      "bytes": 7994
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15344270.txt",
+      "sourceRevision": 15344270,
+      "sourceSha256": "613ccae26e98288f8cca15171728b6b9c98107ede0dca7c882253af9bf9456bc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15344270-15344270.txt.txt",
+      "capsuleSha256": "613ccae26e98288f8cca15171728b6b9c98107ede0dca7c882253af9bf9456bc",
+      "bytes": 1186
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15345883.txt",
+      "sourceRevision": 15345883,
+      "sourceSha256": "cdb6fa1bbe44c1e6729bdcf85e20d88e1852fc7b821aadb87238dce1e8a0bbd4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15345883-15345883.txt.txt",
+      "capsuleSha256": "cdb6fa1bbe44c1e6729bdcf85e20d88e1852fc7b821aadb87238dce1e8a0bbd4",
+      "bytes": 2384
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15346511.txt",
+      "sourceRevision": 15346511,
+      "sourceSha256": "22064f7e361706ecea61ada96402edc994287271e14cf2fd71e6195d65933f09",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15346511-15346511.txt.txt",
+      "capsuleSha256": "22064f7e361706ecea61ada96402edc994287271e14cf2fd71e6195d65933f09",
+      "bytes": 1385
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15347989.txt",
+      "sourceRevision": 15347989,
+      "sourceSha256": "38d71b3fb132d2b1997b14a0d0e9b8e6d76a255758f48ebdfba7c4a6683001c1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15347989-15347989.txt.txt",
+      "capsuleSha256": "38d71b3fb132d2b1997b14a0d0e9b8e6d76a255758f48ebdfba7c4a6683001c1",
+      "bytes": 3439
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15349568.txt",
+      "sourceRevision": 15349568,
+      "sourceSha256": "2a6562f952c5147704b4b1864767fc236a276fcb3b91fb2858a7097aa17dadca",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15349568-15349568.txt.txt",
+      "capsuleSha256": "2a6562f952c5147704b4b1864767fc236a276fcb3b91fb2858a7097aa17dadca",
+      "bytes": 1690
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15349639.txt",
+      "sourceRevision": 15349639,
+      "sourceSha256": "a7f015ea5ac10ae6a71ab3c9da55dc53fad4f875758a429f7bb52093b118e74f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15349639-15349639.txt.txt",
+      "capsuleSha256": "a7f015ea5ac10ae6a71ab3c9da55dc53fad4f875758a429f7bb52093b118e74f",
+      "bytes": 3398
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15349747.txt",
+      "sourceRevision": 15349747,
+      "sourceSha256": "0a52bc4b9545dd40366ae0e5c9878078582fb0167f5b5b4fca73032b1d384efa",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15349747-15349747.txt.txt",
+      "capsuleSha256": "0a52bc4b9545dd40366ae0e5c9878078582fb0167f5b5b4fca73032b1d384efa",
+      "bytes": 1723
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15349883.txt",
+      "sourceRevision": 15349883,
+      "sourceSha256": "ae2319d9c1193e02f8b3ec28e6d422f3a303027788bf8dcfb14d405fdf84a85f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15349883-15349883.txt.txt",
+      "capsuleSha256": "ae2319d9c1193e02f8b3ec28e6d422f3a303027788bf8dcfb14d405fdf84a85f",
+      "bytes": 4562
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15350148.txt",
+      "sourceRevision": 15350148,
+      "sourceSha256": "1a3f7abc2770ca623c6e2a93b9d394ca68cebb097533c34293ecfb56209a39e3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15350148-15350148.txt.txt",
+      "capsuleSha256": "1a3f7abc2770ca623c6e2a93b9d394ca68cebb097533c34293ecfb56209a39e3",
+      "bytes": 6475
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15350165.txt",
+      "sourceRevision": 15350165,
+      "sourceSha256": "1117a622064c27804acd41c2e48002b930b2141b5b38db249cf4d050ccfef3ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15350165-15350165.txt.txt",
+      "capsuleSha256": "1117a622064c27804acd41c2e48002b930b2141b5b38db249cf4d050ccfef3ec",
+      "bytes": 4822
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15350259.txt",
+      "sourceRevision": 15350259,
+      "sourceSha256": "88cf3dc188be97a9d316df0afda8c6699e896761ea4db47146737e98c1dd4fd5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15350259-15350259.txt.txt",
+      "capsuleSha256": "88cf3dc188be97a9d316df0afda8c6699e896761ea4db47146737e98c1dd4fd5",
+      "bytes": 4446
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15351510.txt",
+      "sourceRevision": 15351510,
+      "sourceSha256": "5f2aa9ecdecb1fe15b7722d793f46f00b5d330be448e33284b2d3b8ff82b10be",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15351510-15351510.txt.txt",
+      "capsuleSha256": "5f2aa9ecdecb1fe15b7722d793f46f00b5d330be448e33284b2d3b8ff82b10be",
+      "bytes": 3566
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15351988.txt",
+      "sourceRevision": 15351988,
+      "sourceSha256": "ffc1f984c3a84397d57e69d2a1fb1400bdc69d7b3c104af89fa1d2514313f623",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15351988-15351988.txt.txt",
+      "capsuleSha256": "ffc1f984c3a84397d57e69d2a1fb1400bdc69d7b3c104af89fa1d2514313f623",
+      "bytes": 1058
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352021.txt",
+      "sourceRevision": 15352021,
+      "sourceSha256": "bd59a17f0af6dc82975e19410f1d1ec1a85b50b9aeb0d1989ee4a7e78f5aa16d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352021-15352021.txt.txt",
+      "capsuleSha256": "bd59a17f0af6dc82975e19410f1d1ec1a85b50b9aeb0d1989ee4a7e78f5aa16d",
+      "bytes": 1054
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352027.txt",
+      "sourceRevision": 15352027,
+      "sourceSha256": "a7527ab0b354a82af40eb43b08749940c816c4e1e5312c5039b9c52bd78e23ef",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352027-15352027.txt.txt",
+      "capsuleSha256": "a7527ab0b354a82af40eb43b08749940c816c4e1e5312c5039b9c52bd78e23ef",
+      "bytes": 1050
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352031.txt",
+      "sourceRevision": 15352031,
+      "sourceSha256": "3a340c17643c343a68fdb815ef59f872ac7c33165297f0062c6ba1f0b767468f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352031-15352031.txt.txt",
+      "capsuleSha256": "3a340c17643c343a68fdb815ef59f872ac7c33165297f0062c6ba1f0b767468f",
+      "bytes": 4058
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352074.txt",
+      "sourceRevision": 15352074,
+      "sourceSha256": "f222e68524a80a005858920b712646f33a4b8362bffe94f216a9df07e774c277",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352074-15352074.txt.txt",
+      "capsuleSha256": "f222e68524a80a005858920b712646f33a4b8362bffe94f216a9df07e774c277",
+      "bytes": 6195
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352300.txt",
+      "sourceRevision": 15352300,
+      "sourceSha256": "fba361b8b3fcbbefceff494b85f9a1080fef6ba15425abbc756a568f44b6938e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352300-15352300.txt.txt",
+      "capsuleSha256": "fba361b8b3fcbbefceff494b85f9a1080fef6ba15425abbc756a568f44b6938e",
+      "bytes": 2006
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352323.txt",
+      "sourceRevision": 15352323,
+      "sourceSha256": "92166980641307391c1a82c553dc994ceb038eba816085829aac28897d7e4cc9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352323-15352323.txt.txt",
+      "capsuleSha256": "92166980641307391c1a82c553dc994ceb038eba816085829aac28897d7e4cc9",
+      "bytes": 5775
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15352840.txt",
+      "sourceRevision": 15352840,
+      "sourceSha256": "f5084b9bd24f845f732486cddf9eacde12ef9ee99bfe948f40fa541f32573358",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352840-15352840.txt.txt",
+      "capsuleSha256": "f5084b9bd24f845f732486cddf9eacde12ef9ee99bfe948f40fa541f32573358",
+      "bytes": 903
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15353911.txt",
+      "sourceRevision": 15353911,
+      "sourceSha256": "28bf442a964097381a763bcb1ce5ba90f6f7ec47880e96b456c7b16113778ff8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15353911-15353911.txt.txt",
+      "capsuleSha256": "28bf442a964097381a763bcb1ce5ba90f6f7ec47880e96b456c7b16113778ff8",
+      "bytes": 2806
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15354908.txt",
+      "sourceRevision": 15354908,
+      "sourceSha256": "26fb85820ab42301307a8ea0d04651c29bd5b6a14af2ee7543d96849b1f7c996",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15354908-15354908.txt.txt",
+      "capsuleSha256": "26fb85820ab42301307a8ea0d04651c29bd5b6a14af2ee7543d96849b1f7c996",
+      "bytes": 4165
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15355139.txt",
+      "sourceRevision": 15355139,
+      "sourceSha256": "254b52d5c203c93929d54aa99315040f46db4f7a4621f07e381ed6a5022e348a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15355139-15355139.txt.txt",
+      "capsuleSha256": "254b52d5c203c93929d54aa99315040f46db4f7a4621f07e381ed6a5022e348a",
+      "bytes": 2824
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15355582.txt",
+      "sourceRevision": 15355582,
+      "sourceSha256": "ced20fe7c110d619f9b5f1ddd8c705a07d1a4ec9675b046feb50245f7d4f156e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15355582-15355582.txt.txt",
+      "capsuleSha256": "ced20fe7c110d619f9b5f1ddd8c705a07d1a4ec9675b046feb50245f7d4f156e",
+      "bytes": 1389
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15356964.txt",
+      "sourceRevision": 15356964,
+      "sourceSha256": "b4ecc4135616b894822eef28bb79bca635c53ab04b68fb81fdeba4a4374cec58",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15356964-15356964.txt.txt",
+      "capsuleSha256": "b4ecc4135616b894822eef28bb79bca635c53ab04b68fb81fdeba4a4374cec58",
+      "bytes": 5638
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15357984.txt",
+      "sourceRevision": 15357984,
+      "sourceSha256": "521fd10bd0f62d5c6ebfc6e1772d0880499cccfc7c107701f2f92a2b3f1d43c4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15357984-15357984.txt.txt",
+      "capsuleSha256": "521fd10bd0f62d5c6ebfc6e1772d0880499cccfc7c107701f2f92a2b3f1d43c4",
+      "bytes": 7076
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15358316.txt",
+      "sourceRevision": 15358316,
+      "sourceSha256": "6622401e26cd2637867ae8d6a06d59ad6aef4cd412f4e3db35951c440f0e736a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358316-15358316.txt.txt",
+      "capsuleSha256": "6622401e26cd2637867ae8d6a06d59ad6aef4cd412f4e3db35951c440f0e736a",
+      "bytes": 4046
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15358484.txt",
+      "sourceRevision": 15358484,
+      "sourceSha256": "78dbfaeb85c43a95d6c18f7dd45acebc1b40774d3fe38485d9379e27a2bac6bb",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358484-15358484.txt.txt",
+      "capsuleSha256": "78dbfaeb85c43a95d6c18f7dd45acebc1b40774d3fe38485d9379e27a2bac6bb",
+      "bytes": 3772
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15358901.txt",
+      "sourceRevision": 15358901,
+      "sourceSha256": "8cbf0700f3a6121861fdb7efa2ab7162eddb3441f85a76b78f18f03e81bf249e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358901-15358901.txt.txt",
+      "capsuleSha256": "8cbf0700f3a6121861fdb7efa2ab7162eddb3441f85a76b78f18f03e81bf249e",
+      "bytes": 3529
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15358948.txt",
+      "sourceRevision": 15358948,
+      "sourceSha256": "eddc8f6c32901eb9279ca7c6bff1158303924b3794e5a6b180f2715fb19870ff",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358948-15358948.txt.txt",
+      "capsuleSha256": "eddc8f6c32901eb9279ca7c6bff1158303924b3794e5a6b180f2715fb19870ff",
+      "bytes": 2150
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15358949.txt",
+      "sourceRevision": 15358949,
+      "sourceSha256": "6fd71c1c7483163f998b33073b3e377ec16b4ec9c206c0de8d0063167f5d5af0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358949-15358949.txt.txt",
+      "capsuleSha256": "6fd71c1c7483163f998b33073b3e377ec16b4ec9c206c0de8d0063167f5d5af0",
+      "bytes": 1433
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15359254.txt",
+      "sourceRevision": 15359254,
+      "sourceSha256": "58a6dbec8b6e2cbac927f4f5a539c23b37b2563ecdb25d4ab7ee06316b4d97ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15359254-15359254.txt.txt",
+      "capsuleSha256": "58a6dbec8b6e2cbac927f4f5a539c23b37b2563ecdb25d4ab7ee06316b4d97ec",
+      "bytes": 4957
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15359288.txt",
+      "sourceRevision": 15359288,
+      "sourceSha256": "a11f562e312753bd561110072769119dc4dcc54a6a3b570543ea8379f299b9f7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15359288-15359288.txt.txt",
+      "capsuleSha256": "a11f562e312753bd561110072769119dc4dcc54a6a3b570543ea8379f299b9f7",
+      "bytes": 3476
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15359290.txt",
+      "sourceRevision": 15359290,
+      "sourceSha256": "f9a583cae397c3106e67c26c4a5482a83ca7c3fbcecd7f4cfa8acd781330e853",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15359290-15359290.txt.txt",
+      "capsuleSha256": "f9a583cae397c3106e67c26c4a5482a83ca7c3fbcecd7f4cfa8acd781330e853",
+      "bytes": 6583
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15359595.txt",
+      "sourceRevision": 15359595,
+      "sourceSha256": "90f70451df570ca5dc8085535d1a05ff502836477472b0dd67346009efdb4404",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15359595-15359595.txt.txt",
+      "capsuleSha256": "90f70451df570ca5dc8085535d1a05ff502836477472b0dd67346009efdb4404",
+      "bytes": 2956
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15360281.txt",
+      "sourceRevision": 15360281,
+      "sourceSha256": "1ff11016def2e8e8ff1bfc569cbbcf20df80c8322c9d7423bcbb3340903b450e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360281-15360281.txt.txt",
+      "capsuleSha256": "1ff11016def2e8e8ff1bfc569cbbcf20df80c8322c9d7423bcbb3340903b450e",
+      "bytes": 8720
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15360451.txt",
+      "sourceRevision": 15360451,
+      "sourceSha256": "0c9180421991e71c5c773c6a7b1ad5575b7a77a28fb00d9be29cafabee4b4d7c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360451-15360451.txt.txt",
+      "capsuleSha256": "0c9180421991e71c5c773c6a7b1ad5575b7a77a28fb00d9be29cafabee4b4d7c",
+      "bytes": 7300
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15360563.txt",
+      "sourceRevision": 15360563,
+      "sourceSha256": "e3a0ff14a81352712f8cce878347dc8aa2b39c5321c1a45ddbced5b406fa44a1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360563-15360563.txt.txt",
+      "capsuleSha256": "e3a0ff14a81352712f8cce878347dc8aa2b39c5321c1a45ddbced5b406fa44a1",
+      "bytes": 4537
+    },
+    {
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15360601.txt",
+      "sourceRevision": 15360601,
+      "sourceSha256": "aea4e76016ebcf691757ba4e625c3f73142ac6d5ae41501d7c9a06428aaee101",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360601-15360601.txt.txt",
+      "capsuleSha256": "aea4e76016ebcf691757ba4e625c3f73142ac6d5ae41501d7c9a06428aaee101",
+      "bytes": 6578
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183004.txt",
+      "sourceRevision": 15183004,
+      "sourceSha256": "b5d4dbd90b6a04a686eb327594a0f8de30b88bccccf084388b96719fe5f84e35",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183004-15183004.txt.txt",
+      "capsuleSha256": "b5d4dbd90b6a04a686eb327594a0f8de30b88bccccf084388b96719fe5f84e35",
+      "bytes": 2847
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183051.txt",
+      "sourceRevision": 15183051,
+      "sourceSha256": "18ae0f3640d2a2dd474c69ea29f96cc1909abbccd7816c08376d419976f291b1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183051-15183051.txt.txt",
+      "capsuleSha256": "18ae0f3640d2a2dd474c69ea29f96cc1909abbccd7816c08376d419976f291b1",
+      "bytes": 1518
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183052.txt",
+      "sourceRevision": 15183052,
+      "sourceSha256": "7d1405b16c49ba4f39f24d23e8ee820887887a3f13c81bcc2ce1ddf1a9cdc00d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183052-15183052.txt.txt",
+      "capsuleSha256": "7d1405b16c49ba4f39f24d23e8ee820887887a3f13c81bcc2ce1ddf1a9cdc00d",
+      "bytes": 1650
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183097.txt",
+      "sourceRevision": 15183097,
+      "sourceSha256": "c902decb9d576d8d94fa70dbda080f1e58f9b242779f9b0d79061ad9dc9bf86f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183097-15183097.txt.txt",
+      "capsuleSha256": "c902decb9d576d8d94fa70dbda080f1e58f9b242779f9b0d79061ad9dc9bf86f",
+      "bytes": 1987
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183101.txt",
+      "sourceRevision": 15183101,
+      "sourceSha256": "cee98fd02a5ec4ac56fc7a4683eb6200ad2b8fb79a3b65be6aa61021296e23c9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183101-15183101.txt.txt",
+      "capsuleSha256": "cee98fd02a5ec4ac56fc7a4683eb6200ad2b8fb79a3b65be6aa61021296e23c9",
+      "bytes": 2459
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183109.txt",
+      "sourceRevision": 15183109,
+      "sourceSha256": "647f622ec6ee29d4db0277f104eb36bba75c8ee6af37d7663c27483a2a5302e9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183109-15183109.txt.txt",
+      "capsuleSha256": "647f622ec6ee29d4db0277f104eb36bba75c8ee6af37d7663c27483a2a5302e9",
+      "bytes": 1539
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183111.txt",
+      "sourceRevision": 15183111,
+      "sourceSha256": "101783469490d53dc1ca4bb7b74e65df4014f854a968291973b425e312e1f720",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183111-15183111.txt.txt",
+      "capsuleSha256": "101783469490d53dc1ca4bb7b74e65df4014f854a968291973b425e312e1f720",
+      "bytes": 1757
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183132.txt",
+      "sourceRevision": 15183132,
+      "sourceSha256": "cca80e644fa3c1a901b769557030c4e30272c549fa69f22c7bb6324e7374c0d7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183132-15183132.txt.txt",
+      "capsuleSha256": "cca80e644fa3c1a901b769557030c4e30272c549fa69f22c7bb6324e7374c0d7",
+      "bytes": 1172
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183197.txt",
+      "sourceRevision": 15183197,
+      "sourceSha256": "e50f909d5fa955ef840d2014283815cb71b3aa548f80765fb8313521d1517e44",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183197-15183197.txt.txt",
+      "capsuleSha256": "e50f909d5fa955ef840d2014283815cb71b3aa548f80765fb8313521d1517e44",
+      "bytes": 5071
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183254.txt",
+      "sourceRevision": 15183254,
+      "sourceSha256": "cb1d5cf2ef58e3346efb696a9cb83e4ab9cac7edbd65d6e37769de081f053151",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183254-15183254.txt.txt",
+      "capsuleSha256": "cb1d5cf2ef58e3346efb696a9cb83e4ab9cac7edbd65d6e37769de081f053151",
+      "bytes": 1447
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15183815.txt",
+      "sourceRevision": 15183815,
+      "sourceSha256": "ca26f03a637d0181ff1bcaa06dbff49d6fed2c878efbaae4ef25c8c060a36804",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15183815-15183815.txt.txt",
+      "capsuleSha256": "ca26f03a637d0181ff1bcaa06dbff49d6fed2c878efbaae4ef25c8c060a36804",
+      "bytes": 3813
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184153.txt",
+      "sourceRevision": 15184153,
+      "sourceSha256": "4f47c40f3a4669610a599533f239b14dc48386f287d68599392ac73d7589802f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184153-15184153.txt.txt",
+      "capsuleSha256": "4f47c40f3a4669610a599533f239b14dc48386f287d68599392ac73d7589802f",
+      "bytes": 1586
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184192.txt",
+      "sourceRevision": 15184192,
+      "sourceSha256": "c544e3590f395f1227a762667fec08de354e2eda13afc2b42a984fb8bf92c17d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184192-15184192.txt.txt",
+      "capsuleSha256": "c544e3590f395f1227a762667fec08de354e2eda13afc2b42a984fb8bf92c17d",
+      "bytes": 1019
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184226.txt",
+      "sourceRevision": 15184226,
+      "sourceSha256": "f8b8044c7f42e7c8897996ab7b1b062f589bca9c75430a7f48cc15917e43a47a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184226-15184226.txt.txt",
+      "capsuleSha256": "f8b8044c7f42e7c8897996ab7b1b062f589bca9c75430a7f48cc15917e43a47a",
+      "bytes": 992
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184351.txt",
+      "sourceRevision": 15184351,
+      "sourceSha256": "ada61b07acbf19592b4ebd4679e993152ce56a95c41864a80ee10168cea065c4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184351-15184351.txt.txt",
+      "capsuleSha256": "ada61b07acbf19592b4ebd4679e993152ce56a95c41864a80ee10168cea065c4",
+      "bytes": 1983
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184494.txt",
+      "sourceRevision": 15184494,
+      "sourceSha256": "d6df1312cdee495a6a2fc3c44ed8e87f7ca3cb16fd50e4a9150a304cf446022d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184494-15184494.txt.txt",
+      "capsuleSha256": "d6df1312cdee495a6a2fc3c44ed8e87f7ca3cb16fd50e4a9150a304cf446022d",
+      "bytes": 2902
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184496.txt",
+      "sourceRevision": 15184496,
+      "sourceSha256": "2863c2a814f24c4459f8dbf877dcb60112b754ad013df27c32fd567dbc3b5e2e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184496-15184496.txt.txt",
+      "capsuleSha256": "2863c2a814f24c4459f8dbf877dcb60112b754ad013df27c32fd567dbc3b5e2e",
+      "bytes": 3278
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184655.txt",
+      "sourceRevision": 15184655,
+      "sourceSha256": "9cefe2939a66d82ae12bd6dfaabc2956e164f874b5daf1748405c8e274b54809",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184655-15184655.txt.txt",
+      "capsuleSha256": "9cefe2939a66d82ae12bd6dfaabc2956e164f874b5daf1748405c8e274b54809",
+      "bytes": 1241
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184700.txt",
+      "sourceRevision": 15184700,
+      "sourceSha256": "eb7362a176bc0560606d4bb1e49a8ccafbefb892cb6db81c7ec56ae3c0cccd88",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184700-15184700.txt.txt",
+      "capsuleSha256": "eb7362a176bc0560606d4bb1e49a8ccafbefb892cb6db81c7ec56ae3c0cccd88",
+      "bytes": 1346
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184703.txt",
+      "sourceRevision": 15184703,
+      "sourceSha256": "947eb2fe201486cae098ea35f84547605823dff6ceba9cec95b0131b8966b6a8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184703-15184703.txt.txt",
+      "capsuleSha256": "947eb2fe201486cae098ea35f84547605823dff6ceba9cec95b0131b8966b6a8",
+      "bytes": 1703
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184706.txt",
+      "sourceRevision": 15184706,
+      "sourceSha256": "9cabff96e5ad9d63b1b8fab6fe59a16c3ae8b116adc2c588cc30cb5576a54247",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184706-15184706.txt.txt",
+      "capsuleSha256": "9cabff96e5ad9d63b1b8fab6fe59a16c3ae8b116adc2c588cc30cb5576a54247",
+      "bytes": 1468
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184768.txt",
+      "sourceRevision": 15184768,
+      "sourceSha256": "bad68f7a4f06e8361339155c4bf7282d9eb8a359f5c91c29eaeb4527cecffacf",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184768-15184768.txt.txt",
+      "capsuleSha256": "bad68f7a4f06e8361339155c4bf7282d9eb8a359f5c91c29eaeb4527cecffacf",
+      "bytes": 2108
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15184842.txt",
+      "sourceRevision": 15184842,
+      "sourceSha256": "c8cfb5d3d0f8483e8c4b684ce94ee5b6fab93ceb1d619d7c27ec9b1577e32a1e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15184842-15184842.txt.txt",
+      "capsuleSha256": "c8cfb5d3d0f8483e8c4b684ce94ee5b6fab93ceb1d619d7c27ec9b1577e32a1e",
+      "bytes": 2913
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185135.txt",
+      "sourceRevision": 15185135,
+      "sourceSha256": "82963261493ee80b823df2c44e7f95425a2a5bb4e245b05b5a09de7ec2a8085f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185135-15185135.txt.txt",
+      "capsuleSha256": "82963261493ee80b823df2c44e7f95425a2a5bb4e245b05b5a09de7ec2a8085f",
+      "bytes": 2001
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185251.txt",
+      "sourceRevision": 15185251,
+      "sourceSha256": "305f1ef731ab73ebba2cde3054820f9b66525c1eb6a5c56c793ab76ceb0f9c9f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185251-15185251.txt.txt",
+      "capsuleSha256": "305f1ef731ab73ebba2cde3054820f9b66525c1eb6a5c56c793ab76ceb0f9c9f",
+      "bytes": 1105
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185253.txt",
+      "sourceRevision": 15185253,
+      "sourceSha256": "bda7f2ea296a4f736cf3ee416df7019e98082f5356bd79f174ade25aa1d1b31a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185253-15185253.txt.txt",
+      "capsuleSha256": "bda7f2ea296a4f736cf3ee416df7019e98082f5356bd79f174ade25aa1d1b31a",
+      "bytes": 1189
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185304.txt",
+      "sourceRevision": 15185304,
+      "sourceSha256": "e6e08d3303abe720cbb4eff0c0a976dbe02bf4ae82e20b4b99f9260a8bc586f0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185304-15185304.txt.txt",
+      "capsuleSha256": "e6e08d3303abe720cbb4eff0c0a976dbe02bf4ae82e20b4b99f9260a8bc586f0",
+      "bytes": 1720
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185552.txt",
+      "sourceRevision": 15185552,
+      "sourceSha256": "74728173ffab2b506cbea86a1a67fca0619cf0fc46458477d89e723f32315bf7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185552-15185552.txt.txt",
+      "capsuleSha256": "74728173ffab2b506cbea86a1a67fca0619cf0fc46458477d89e723f32315bf7",
+      "bytes": 6206
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185758.txt",
+      "sourceRevision": 15185758,
+      "sourceSha256": "7c05ba06ee873381c830a372089b232be938c297cc878f601a6fbc587a8133c4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185758-15185758.txt.txt",
+      "capsuleSha256": "7c05ba06ee873381c830a372089b232be938c297cc878f601a6fbc587a8133c4",
+      "bytes": 1202
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185760.txt",
+      "sourceRevision": 15185760,
+      "sourceSha256": "4145479c90ce2a0b8f73af5411fadcc14c20cec5e6bce32aa60186b5fb11da6f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185760-15185760.txt.txt",
+      "capsuleSha256": "4145479c90ce2a0b8f73af5411fadcc14c20cec5e6bce32aa60186b5fb11da6f",
+      "bytes": 1379
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185761.txt",
+      "sourceRevision": 15185761,
+      "sourceSha256": "d3c68e07fdf0204fa3d6a2ed7a36233c57f8d48aad388403eb9011298784db29",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185761-15185761.txt.txt",
+      "capsuleSha256": "d3c68e07fdf0204fa3d6a2ed7a36233c57f8d48aad388403eb9011298784db29",
+      "bytes": 1726
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185765.txt",
+      "sourceRevision": 15185765,
+      "sourceSha256": "824c45e37eaa8b820a44da8dd0892531cebf53c4139cddd9d3062ccb2216f3dc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185765-15185765.txt.txt",
+      "capsuleSha256": "824c45e37eaa8b820a44da8dd0892531cebf53c4139cddd9d3062ccb2216f3dc",
+      "bytes": 956
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185768.txt",
+      "sourceRevision": 15185768,
+      "sourceSha256": "a6c0d1b50cf8ab8c108a620c78730eda5074f49b42f178dcd9569eeb7fba6a66",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185768-15185768.txt.txt",
+      "capsuleSha256": "a6c0d1b50cf8ab8c108a620c78730eda5074f49b42f178dcd9569eeb7fba6a66",
+      "bytes": 1041
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185771.txt",
+      "sourceRevision": 15185771,
+      "sourceSha256": "2aa999a2e5e2447842ff6952ebb35e31f13655b63e877cd512dd15ed2da0e0b9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185771-15185771.txt.txt",
+      "capsuleSha256": "2aa999a2e5e2447842ff6952ebb35e31f13655b63e877cd512dd15ed2da0e0b9",
+      "bytes": 1042
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185774.txt",
+      "sourceRevision": 15185774,
+      "sourceSha256": "1f56b57b1032686d0b6777ba8676ba86c8e62bdabd6d7e9411dce4fdd877bd3b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185774-15185774.txt.txt",
+      "capsuleSha256": "1f56b57b1032686d0b6777ba8676ba86c8e62bdabd6d7e9411dce4fdd877bd3b",
+      "bytes": 1027
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185778.txt",
+      "sourceRevision": 15185778,
+      "sourceSha256": "3400f7a601d92c193738eeeffa034a1094376682e62774660e27547491e5416e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185778-15185778.txt.txt",
+      "capsuleSha256": "3400f7a601d92c193738eeeffa034a1094376682e62774660e27547491e5416e",
+      "bytes": 2522
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185782.txt",
+      "sourceRevision": 15185782,
+      "sourceSha256": "772bc7e3a4e42dd74bb0a357ba691be69992d1a0020cd2281978703261c5dbd8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185782-15185782.txt.txt",
+      "capsuleSha256": "772bc7e3a4e42dd74bb0a357ba691be69992d1a0020cd2281978703261c5dbd8",
+      "bytes": 2447
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15185844.txt",
+      "sourceRevision": 15185844,
+      "sourceSha256": "6dbab02ffb62a1009f847cf5c616c37a2417d51ab323e809ec55e49e763edd35",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15185844-15185844.txt.txt",
+      "capsuleSha256": "6dbab02ffb62a1009f847cf5c616c37a2417d51ab323e809ec55e49e763edd35",
+      "bytes": 1102
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186589.txt",
+      "sourceRevision": 15186589,
+      "sourceSha256": "f30bd71e998d00115b9fb4e79309e04725ff599a1815c8baf07fd1e8261b06f1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186589-15186589.txt.txt",
+      "capsuleSha256": "f30bd71e998d00115b9fb4e79309e04725ff599a1815c8baf07fd1e8261b06f1",
+      "bytes": 3048
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186594.txt",
+      "sourceRevision": 15186594,
+      "sourceSha256": "312b36152d7599a4c7555392e996061d04b1c9769ae5398f53aebd5131dff66c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186594-15186594.txt.txt",
+      "capsuleSha256": "312b36152d7599a4c7555392e996061d04b1c9769ae5398f53aebd5131dff66c",
+      "bytes": 3370
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186630.txt",
+      "sourceRevision": 15186630,
+      "sourceSha256": "958ce57f1e1de279f80cb2236319f5c09592f71248ebf7342f5648c103e2cf25",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186630-15186630.txt.txt",
+      "capsuleSha256": "958ce57f1e1de279f80cb2236319f5c09592f71248ebf7342f5648c103e2cf25",
+      "bytes": 1193
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186632.txt",
+      "sourceRevision": 15186632,
+      "sourceSha256": "2649ee7eb51a39d3394977bd7c228c68d0dab69e3b450a09cd5666f65faa1913",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186632-15186632.txt.txt",
+      "capsuleSha256": "2649ee7eb51a39d3394977bd7c228c68d0dab69e3b450a09cd5666f65faa1913",
+      "bytes": 1258
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186637.txt",
+      "sourceRevision": 15186637,
+      "sourceSha256": "e0ed5360e2ad12b0a2972b36b8e6606de1b860f1d3c6e26dbdf55ebc382db8c8",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186637-15186637.txt.txt",
+      "capsuleSha256": "e0ed5360e2ad12b0a2972b36b8e6606de1b860f1d3c6e26dbdf55ebc382db8c8",
+      "bytes": 1217
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186639.txt",
+      "sourceRevision": 15186639,
+      "sourceSha256": "5b7c29ef5507733a0e706ab0493a4edc47282c940c59c904417c59acaf780ba5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186639-15186639.txt.txt",
+      "capsuleSha256": "5b7c29ef5507733a0e706ab0493a4edc47282c940c59c904417c59acaf780ba5",
+      "bytes": 1253
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186640.txt",
+      "sourceRevision": 15186640,
+      "sourceSha256": "c515b8b67528092ac74301c46e828fe390848cc304d17776e8d78b69fd006dde",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186640-15186640.txt.txt",
+      "capsuleSha256": "c515b8b67528092ac74301c46e828fe390848cc304d17776e8d78b69fd006dde",
+      "bytes": 1229
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186643.txt",
+      "sourceRevision": 15186643,
+      "sourceSha256": "8b660bf4431739995cd8e5a20e2f148eaedc7a30be227f67277e2242ea53ef72",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186643-15186643.txt.txt",
+      "capsuleSha256": "8b660bf4431739995cd8e5a20e2f148eaedc7a30be227f67277e2242ea53ef72",
+      "bytes": 1542
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186644.txt",
+      "sourceRevision": 15186644,
+      "sourceSha256": "9ee3c5c3420331e03eef20469604bb8da42fee9b65ba97ebcf372068b20ed8da",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186644-15186644.txt.txt",
+      "capsuleSha256": "9ee3c5c3420331e03eef20469604bb8da42fee9b65ba97ebcf372068b20ed8da",
+      "bytes": 1480
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186646.txt",
+      "sourceRevision": 15186646,
+      "sourceSha256": "7328750deaed4275580744e656f2e5423846d7b4fa4f6d5278acb9e1fb8fd31b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186646-15186646.txt.txt",
+      "capsuleSha256": "7328750deaed4275580744e656f2e5423846d7b4fa4f6d5278acb9e1fb8fd31b",
+      "bytes": 1493
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186649.txt",
+      "sourceRevision": 15186649,
+      "sourceSha256": "b854706ae0f6ccc1cec3acbda56f8cf3746a578bbdd518bbf98749856ee591d6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186649-15186649.txt.txt",
+      "capsuleSha256": "b854706ae0f6ccc1cec3acbda56f8cf3746a578bbdd518bbf98749856ee591d6",
+      "bytes": 1493
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186650.txt",
+      "sourceRevision": 15186650,
+      "sourceSha256": "2b89fa4370d10dff0234e5010b62c69d3e3cfeea31fd3e40cd5a76f249143301",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186650-15186650.txt.txt",
+      "capsuleSha256": "2b89fa4370d10dff0234e5010b62c69d3e3cfeea31fd3e40cd5a76f249143301",
+      "bytes": 3737
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186813.txt",
+      "sourceRevision": 15186813,
+      "sourceSha256": "bc788d1446e5b91277f4bbf4961dabbc0e541fbf8e26f0528e788c02d53ddc8a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186813-15186813.txt.txt",
+      "capsuleSha256": "bc788d1446e5b91277f4bbf4961dabbc0e541fbf8e26f0528e788c02d53ddc8a",
+      "bytes": 1361
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186853.txt",
+      "sourceRevision": 15186853,
+      "sourceSha256": "7b98b4753289d2b9352582a286f9ca5841cbcb44d507a9fd14a006112725e60c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186853-15186853.txt.txt",
+      "capsuleSha256": "7b98b4753289d2b9352582a286f9ca5841cbcb44d507a9fd14a006112725e60c",
+      "bytes": 1348
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186860.txt",
+      "sourceRevision": 15186860,
+      "sourceSha256": "bdd5e0edb653d864ff038193a2d7c063b5de01ba94ae56c8d2e2df2d45987d59",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186860-15186860.txt.txt",
+      "capsuleSha256": "bdd5e0edb653d864ff038193a2d7c063b5de01ba94ae56c8d2e2df2d45987d59",
+      "bytes": 969
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15186946.txt",
+      "sourceRevision": 15186946,
+      "sourceSha256": "6c0cdceb94d73899c9d6430699d4ce55869ec6f4e2942c2d77e13eef232b4ef3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15186946-15186946.txt.txt",
+      "capsuleSha256": "6c0cdceb94d73899c9d6430699d4ce55869ec6f4e2942c2d77e13eef232b4ef3",
+      "bytes": 1573
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187278.txt",
+      "sourceRevision": 15187278,
+      "sourceSha256": "5b23c8d7eab190380af9feb307462a0049613fb23d7ddf485bb35bebfb4b3349",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187278-15187278.txt.txt",
+      "capsuleSha256": "5b23c8d7eab190380af9feb307462a0049613fb23d7ddf485bb35bebfb4b3349",
+      "bytes": 637
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187284.txt",
+      "sourceRevision": 15187284,
+      "sourceSha256": "98fb9642763106c0126bcac0dfd2d06bfdfac95906db67d0f29fc03d59317001",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187284-15187284.txt.txt",
+      "capsuleSha256": "98fb9642763106c0126bcac0dfd2d06bfdfac95906db67d0f29fc03d59317001",
+      "bytes": 1669
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187290.txt",
+      "sourceRevision": 15187290,
+      "sourceSha256": "75a98de99cda8e93099d3120d4299bfc0158273b6e4196b9bee640da2068510d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187290-15187290.txt.txt",
+      "capsuleSha256": "75a98de99cda8e93099d3120d4299bfc0158273b6e4196b9bee640da2068510d",
+      "bytes": 675
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187440.txt",
+      "sourceRevision": 15187440,
+      "sourceSha256": "f3b5b6752395c219be9acb3b1589a999d2a160fcb7a7de249771623a21832f2a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187440-15187440.txt.txt",
+      "capsuleSha256": "f3b5b6752395c219be9acb3b1589a999d2a160fcb7a7de249771623a21832f2a",
+      "bytes": 8271
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187870.txt",
+      "sourceRevision": 15187870,
+      "sourceSha256": "d34d3273b803d793ae7b637d605683efa115d05bff32571efd29c89072c9b5c6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187870-15187870.txt.txt",
+      "capsuleSha256": "d34d3273b803d793ae7b637d605683efa115d05bff32571efd29c89072c9b5c6",
+      "bytes": 1603
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187873.txt",
+      "sourceRevision": 15187873,
+      "sourceSha256": "a8b2df4f08ae4b08b983a2730359c33e8c5be4afd7f9c4f28c472dd658cc6909",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187873-15187873.txt.txt",
+      "capsuleSha256": "a8b2df4f08ae4b08b983a2730359c33e8c5be4afd7f9c4f28c472dd658cc6909",
+      "bytes": 2518
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187874.txt",
+      "sourceRevision": 15187874,
+      "sourceSha256": "0397a8c510e9c3cde0a695a2ccaccdd0f778e3e628454952b2651909122bf439",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187874-15187874.txt.txt",
+      "capsuleSha256": "0397a8c510e9c3cde0a695a2ccaccdd0f778e3e628454952b2651909122bf439",
+      "bytes": 2442
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187877.txt",
+      "sourceRevision": 15187877,
+      "sourceSha256": "2a072d6695caef7d86905cf6f2890b7b323f1c0ff3c9939c6e5ab5c29481401e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187877-15187877.txt.txt",
+      "capsuleSha256": "2a072d6695caef7d86905cf6f2890b7b323f1c0ff3c9939c6e5ab5c29481401e",
+      "bytes": 2079
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187896.txt",
+      "sourceRevision": 15187896,
+      "sourceSha256": "4243705764c5f3f92d1d51ddae31399f6f89318ba2f405b9f2915ba65501f0cf",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187896-15187896.txt.txt",
+      "capsuleSha256": "4243705764c5f3f92d1d51ddae31399f6f89318ba2f405b9f2915ba65501f0cf",
+      "bytes": 2944
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187901.txt",
+      "sourceRevision": 15187901,
+      "sourceSha256": "54563a62927715b1c33e8938aae694741633dd2a125eaad0129688d0aa16e4d3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187901-15187901.txt.txt",
+      "capsuleSha256": "54563a62927715b1c33e8938aae694741633dd2a125eaad0129688d0aa16e4d3",
+      "bytes": 2681
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187902.txt",
+      "sourceRevision": 15187902,
+      "sourceSha256": "279fd20be24c422f4bc2b41e44a1b711995d3f4d7a199ee6caac91b3751df7c0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187902-15187902.txt.txt",
+      "capsuleSha256": "279fd20be24c422f4bc2b41e44a1b711995d3f4d7a199ee6caac91b3751df7c0",
+      "bytes": 2754
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187903.txt",
+      "sourceRevision": 15187903,
+      "sourceSha256": "61c162c28e825bf35ea1340dfb594b097419ef7a1ce9ea388fc8307a9bff9d1c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187903-15187903.txt.txt",
+      "capsuleSha256": "61c162c28e825bf35ea1340dfb594b097419ef7a1ce9ea388fc8307a9bff9d1c",
+      "bytes": 2659
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187904.txt",
+      "sourceRevision": 15187904,
+      "sourceSha256": "34e9eceaab561926f01e65e01822b1e4ed3d92915a48ae6871e984cdfbf907c9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187904-15187904.txt.txt",
+      "capsuleSha256": "34e9eceaab561926f01e65e01822b1e4ed3d92915a48ae6871e984cdfbf907c9",
+      "bytes": 2167
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187905.txt",
+      "sourceRevision": 15187905,
+      "sourceSha256": "95cf96bcaa5bc323d6387e62ca354e75a84946f5a5663ff3bb429889c8de0aa9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187905-15187905.txt.txt",
+      "capsuleSha256": "95cf96bcaa5bc323d6387e62ca354e75a84946f5a5663ff3bb429889c8de0aa9",
+      "bytes": 2858
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187906.txt",
+      "sourceRevision": 15187906,
+      "sourceSha256": "e9d7edf5227d52abc4f5763fe21711323c2d8b0b2e078ee591e4580780303a55",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187906-15187906.txt.txt",
+      "capsuleSha256": "e9d7edf5227d52abc4f5763fe21711323c2d8b0b2e078ee591e4580780303a55",
+      "bytes": 2667
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187907.txt",
+      "sourceRevision": 15187907,
+      "sourceSha256": "5b901c2acb7a2ab9eba2b6208d3db84801f603d9d5cedae004001fef3f91f318",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187907-15187907.txt.txt",
+      "capsuleSha256": "5b901c2acb7a2ab9eba2b6208d3db84801f603d9d5cedae004001fef3f91f318",
+      "bytes": 2699
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187908.txt",
+      "sourceRevision": 15187908,
+      "sourceSha256": "67e0ed12e38c8e8109d9cc29d8eb625e31df4297cb796f6ee285a8e46d91d9f0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187908-15187908.txt.txt",
+      "capsuleSha256": "67e0ed12e38c8e8109d9cc29d8eb625e31df4297cb796f6ee285a8e46d91d9f0",
+      "bytes": 2648
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187909.txt",
+      "sourceRevision": 15187909,
+      "sourceSha256": "dd96d5cb35922547e4e73f42bdaf0def8b2c3c02e863a09ee2ff13c8372ba6dd",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187909-15187909.txt.txt",
+      "capsuleSha256": "dd96d5cb35922547e4e73f42bdaf0def8b2c3c02e863a09ee2ff13c8372ba6dd",
+      "bytes": 2690
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15187910.txt",
+      "sourceRevision": 15187910,
+      "sourceSha256": "dc88168e12bcc5808090c714948f733a2967f73bb05d96661fe8265d7b403126",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15187910-15187910.txt.txt",
+      "capsuleSha256": "dc88168e12bcc5808090c714948f733a2967f73bb05d96661fe8265d7b403126",
+      "bytes": 2648
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188097.txt",
+      "sourceRevision": 15188097,
+      "sourceSha256": "c29dd72e7012817219c2b0059638d06cbcb0297ebfa9eb8d402772a45fa417c4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188097-15188097.txt.txt",
+      "capsuleSha256": "c29dd72e7012817219c2b0059638d06cbcb0297ebfa9eb8d402772a45fa417c4",
+      "bytes": 2044
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188116.txt",
+      "sourceRevision": 15188116,
+      "sourceSha256": "a1d628198397fb740cabed6b6fa3a11a229bcc93abbabe5b3f2c37dc19e60507",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188116-15188116.txt.txt",
+      "capsuleSha256": "a1d628198397fb740cabed6b6fa3a11a229bcc93abbabe5b3f2c37dc19e60507",
+      "bytes": 1125
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188201.txt",
+      "sourceRevision": 15188201,
+      "sourceSha256": "9efb33d4ebd767af4279bc21e16889f389c6e05c374beb8e20e3e3313679aeac",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188201-15188201.txt.txt",
+      "capsuleSha256": "9efb33d4ebd767af4279bc21e16889f389c6e05c374beb8e20e3e3313679aeac",
+      "bytes": 1111
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188202.txt",
+      "sourceRevision": 15188202,
+      "sourceSha256": "c4acbc38597cf6373faa8e320c3c96601ebc08f457d0a2fa0801c98764080cd0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188202-15188202.txt.txt",
+      "capsuleSha256": "c4acbc38597cf6373faa8e320c3c96601ebc08f457d0a2fa0801c98764080cd0",
+      "bytes": 1175
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188212.txt",
+      "sourceRevision": 15188212,
+      "sourceSha256": "90bcdb73d97017794b548dab24e77497a5d8fceb844fd60f938071dbe6bc4739",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188212-15188212.txt.txt",
+      "capsuleSha256": "90bcdb73d97017794b548dab24e77497a5d8fceb844fd60f938071dbe6bc4739",
+      "bytes": 1121
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188286.txt",
+      "sourceRevision": 15188286,
+      "sourceSha256": "7a7f7f36e486cf1780a0906270e9f429cd57d66272ac5598f8e40cd643c9ab51",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188286-15188286.txt.txt",
+      "capsuleSha256": "7a7f7f36e486cf1780a0906270e9f429cd57d66272ac5598f8e40cd643c9ab51",
+      "bytes": 1813
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188291.txt",
+      "sourceRevision": 15188291,
+      "sourceSha256": "8e5dd1bbd5d0cdd9e9ddc6017e7c633e6162b99d8fd765c3d2ac3e83c81a094c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188291-15188291.txt.txt",
+      "capsuleSha256": "8e5dd1bbd5d0cdd9e9ddc6017e7c633e6162b99d8fd765c3d2ac3e83c81a094c",
+      "bytes": 1373
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188294.txt",
+      "sourceRevision": 15188294,
+      "sourceSha256": "189f01beb61f9213e597e9a3acd19485c11d6bdc512492893f725cce6800a3ea",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188294-15188294.txt.txt",
+      "capsuleSha256": "189f01beb61f9213e597e9a3acd19485c11d6bdc512492893f725cce6800a3ea",
+      "bytes": 762
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188299.txt",
+      "sourceRevision": 15188299,
+      "sourceSha256": "2b10f0d9f1baed4a6dc40944051a72ea306c02bc62116d341ca28960ed31b8d1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188299-15188299.txt.txt",
+      "capsuleSha256": "2b10f0d9f1baed4a6dc40944051a72ea306c02bc62116d341ca28960ed31b8d1",
+      "bytes": 792
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188301.txt",
+      "sourceRevision": 15188301,
+      "sourceSha256": "4335c37a4c183e580d15cdbacbaa5c37f0362fd71ec6d53e70f04e8566a1139e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188301-15188301.txt.txt",
+      "capsuleSha256": "4335c37a4c183e580d15cdbacbaa5c37f0362fd71ec6d53e70f04e8566a1139e",
+      "bytes": 735
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188316.txt",
+      "sourceRevision": 15188316,
+      "sourceSha256": "3beb09a261ad10f01789882f7ca498d7dd312360965a373c24327844597dfeb7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188316-15188316.txt.txt",
+      "capsuleSha256": "3beb09a261ad10f01789882f7ca498d7dd312360965a373c24327844597dfeb7",
+      "bytes": 1506
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188319.txt",
+      "sourceRevision": 15188319,
+      "sourceSha256": "6cfb3227f0532ad384f52386327a22e80df1ce602eade128ba8ef37d21617c31",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188319-15188319.txt.txt",
+      "capsuleSha256": "6cfb3227f0532ad384f52386327a22e80df1ce602eade128ba8ef37d21617c31",
+      "bytes": 1536
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188323.txt",
+      "sourceRevision": 15188323,
+      "sourceSha256": "fece8018f27a46ae7e97d57628d55ab05aa736f2a4e563fd24b4451b5c3f3223",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188323-15188323.txt.txt",
+      "capsuleSha256": "fece8018f27a46ae7e97d57628d55ab05aa736f2a4e563fd24b4451b5c3f3223",
+      "bytes": 1489
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188325.txt",
+      "sourceRevision": 15188325,
+      "sourceSha256": "03223d06c20dd192ff0e45e7351d921b88b7ce6a12e99a0b39ecc09bac4549ed",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188325-15188325.txt.txt",
+      "capsuleSha256": "03223d06c20dd192ff0e45e7351d921b88b7ce6a12e99a0b39ecc09bac4549ed",
+      "bytes": 1498
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188794.txt",
+      "sourceRevision": 15188794,
+      "sourceSha256": "b18634bc86cf6119d406d2d2a212f3ab72a2a1d48cc3b0a19a622420361a63ce",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188794-15188794.txt.txt",
+      "capsuleSha256": "b18634bc86cf6119d406d2d2a212f3ab72a2a1d48cc3b0a19a622420361a63ce",
+      "bytes": 2601
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188810.txt",
+      "sourceRevision": 15188810,
+      "sourceSha256": "72e52dd938c544d46f17cea023bb7f4d94f533feb500cee49611e5a02adfc560",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188810-15188810.txt.txt",
+      "capsuleSha256": "72e52dd938c544d46f17cea023bb7f4d94f533feb500cee49611e5a02adfc560",
+      "bytes": 1481
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188833.txt",
+      "sourceRevision": 15188833,
+      "sourceSha256": "778f321b0f798a1406ad420726cdb7523c1cfd3f4f1aaeb00d94b735425fc4fc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188833-15188833.txt.txt",
+      "capsuleSha256": "778f321b0f798a1406ad420726cdb7523c1cfd3f4f1aaeb00d94b735425fc4fc",
+      "bytes": 1619
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188996.txt",
+      "sourceRevision": 15188996,
+      "sourceSha256": "a678341e16848c075746af06d5c174fd5febd84f2dbc50c7b7367da122ea050d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188996-15188996.txt.txt",
+      "capsuleSha256": "a678341e16848c075746af06d5c174fd5febd84f2dbc50c7b7367da122ea050d",
+      "bytes": 1551
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15188999.txt",
+      "sourceRevision": 15188999,
+      "sourceSha256": "a54817ad2c5fa3a596a8dc6ac753e13e6af5987be4934fc858cc4a1327485eea",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15188999-15188999.txt.txt",
+      "capsuleSha256": "a54817ad2c5fa3a596a8dc6ac753e13e6af5987be4934fc858cc4a1327485eea",
+      "bytes": 2516
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15189000.txt",
+      "sourceRevision": 15189000,
+      "sourceSha256": "ad96f050be90fb89769273a18e8564b6d1fab0d46d68c8e15474f816462f98b1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189000-15189000.txt.txt",
+      "capsuleSha256": "ad96f050be90fb89769273a18e8564b6d1fab0d46d68c8e15474f816462f98b1",
+      "bytes": 2555
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15189005.txt",
+      "sourceRevision": 15189005,
+      "sourceSha256": "91b2b9788cf8b30d458ea18e52c8837788916eddb1891231a25691e2b7c1fbff",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189005-15189005.txt.txt",
+      "capsuleSha256": "91b2b9788cf8b30d458ea18e52c8837788916eddb1891231a25691e2b7c1fbff",
+      "bytes": 2706
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15189619.txt",
+      "sourceRevision": 15189619,
+      "sourceSha256": "71b0e9672cc8053474a4ad05c62ee73a2a1677dca2a3666607ccde9221a42e69",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15189619-15189619.txt.txt",
+      "capsuleSha256": "71b0e9672cc8053474a4ad05c62ee73a2a1677dca2a3666607ccde9221a42e69",
+      "bytes": 806
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15190343.txt",
+      "sourceRevision": 15190343,
+      "sourceSha256": "ef93e88541b6d6c9b61b753738c8c53a682bdf5a05df4489d6f95879d7d7bb49",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190343-15190343.txt.txt",
+      "capsuleSha256": "ef93e88541b6d6c9b61b753738c8c53a682bdf5a05df4489d6f95879d7d7bb49",
+      "bytes": 4193
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15190402.txt",
+      "sourceRevision": 15190402,
+      "sourceSha256": "51747d6b48435a8475e1535fbd3838eaaf6bc5bfd4b2d8fa811c9de71db06bab",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190402-15190402.txt.txt",
+      "capsuleSha256": "51747d6b48435a8475e1535fbd3838eaaf6bc5bfd4b2d8fa811c9de71db06bab",
+      "bytes": 15597
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15190522.txt",
+      "sourceRevision": 15190522,
+      "sourceSha256": "027daae6726bff593429a35e8fad3d360d141dead9348b273dfc223a1017e4ab",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15190522-15190522.txt.txt",
+      "capsuleSha256": "027daae6726bff593429a35e8fad3d360d141dead9348b273dfc223a1017e4ab",
+      "bytes": 759
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15206550.txt",
+      "sourceRevision": 15206550,
+      "sourceSha256": "62e5332c95ac919938f384a69fef2492e8fa62aab8041ad8abf984f05161ae6b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15206550-15206550.txt.txt",
+      "capsuleSha256": "62e5332c95ac919938f384a69fef2492e8fa62aab8041ad8abf984f05161ae6b",
+      "bytes": 2839
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15209255.txt",
+      "sourceRevision": 15209255,
+      "sourceSha256": "1349f105320b5964c7366a7f8a617d825f3c15f9cfd7cb355ec06bc47f40a8b7",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15209255-15209255.txt.txt",
+      "capsuleSha256": "1349f105320b5964c7366a7f8a617d825f3c15f9cfd7cb355ec06bc47f40a8b7",
+      "bytes": 2479
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15209296.txt",
+      "sourceRevision": 15209296,
+      "sourceSha256": "36870c3d0ef52835c8f23ad00d19c481316f9d06b722a3f2c1f2360eebf95515",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15209296-15209296.txt.txt",
+      "capsuleSha256": "36870c3d0ef52835c8f23ad00d19c481316f9d06b722a3f2c1f2360eebf95515",
+      "bytes": 5314
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15213291.txt",
+      "sourceRevision": 15213291,
+      "sourceSha256": "29db90d9323f7c1a5671714a3ab48ae784aa063c0accaac9f17bd8778799a383",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15213291-15213291.txt.txt",
+      "capsuleSha256": "29db90d9323f7c1a5671714a3ab48ae784aa063c0accaac9f17bd8778799a383",
+      "bytes": 1823
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15213294.txt",
+      "sourceRevision": 15213294,
+      "sourceSha256": "f975e9cbf07402c6a3c1f1caee4785a3eb88fb5eebb17ce83173c2c9b0b5200e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15213294-15213294.txt.txt",
+      "capsuleSha256": "f975e9cbf07402c6a3c1f1caee4785a3eb88fb5eebb17ce83173c2c9b0b5200e",
+      "bytes": 1735
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15213297.txt",
+      "sourceRevision": 15213297,
+      "sourceSha256": "3dc3632ec2dedadc78dd62f9bbfc187f021219de1afebbe353bef33ee89097c5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15213297-15213297.txt.txt",
+      "capsuleSha256": "3dc3632ec2dedadc78dd62f9bbfc187f021219de1afebbe353bef33ee89097c5",
+      "bytes": 2599
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15215060.txt",
+      "sourceRevision": 15215060,
+      "sourceSha256": "a485811e6206a84306699206329bd8e1ae5efe70fc4380a851d9dcd3ed827729",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15215060-15215060.txt.txt",
+      "capsuleSha256": "a485811e6206a84306699206329bd8e1ae5efe70fc4380a851d9dcd3ed827729",
+      "bytes": 1296
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15224221.txt",
+      "sourceRevision": 15224221,
+      "sourceSha256": "68de98473a0f59ad80774ee52be7b9ca5e153902b674a98cf2fd235e1a75a18e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15224221-15224221.txt.txt",
+      "capsuleSha256": "68de98473a0f59ad80774ee52be7b9ca5e153902b674a98cf2fd235e1a75a18e",
+      "bytes": 23965
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15227370.txt",
+      "sourceRevision": 15227370,
+      "sourceSha256": "a8009479cfdac286412cb45a551fef8bd76f8a067a8f1883a7a6dbbe1ef58fc9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15227370-15227370.txt.txt",
+      "capsuleSha256": "a8009479cfdac286412cb45a551fef8bd76f8a067a8f1883a7a6dbbe1ef58fc9",
+      "bytes": 3486
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15228400.txt",
+      "sourceRevision": 15228400,
+      "sourceSha256": "7d7f236e225b4dd551eaa457280aa04ceb6e4368d5e4144035e108b69c17065e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15228400-15228400.txt.txt",
+      "capsuleSha256": "7d7f236e225b4dd551eaa457280aa04ceb6e4368d5e4144035e108b69c17065e",
+      "bytes": 3214
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15239865.txt",
+      "sourceRevision": 15239865,
+      "sourceSha256": "341b118d5c11ad7ff413ad2653ee9dc67deac946c9f76c17dfcd3fb636436e96",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15239865-15239865.txt.txt",
+      "capsuleSha256": "341b118d5c11ad7ff413ad2653ee9dc67deac946c9f76c17dfcd3fb636436e96",
+      "bytes": 2138
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15242180.txt",
+      "sourceRevision": 15242180,
+      "sourceSha256": "01854013faac56be8ad5af58ea151787de5a55e56d375309fc876a663c61ca93",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15242180-15242180.txt.txt",
+      "capsuleSha256": "01854013faac56be8ad5af58ea151787de5a55e56d375309fc876a663c61ca93",
+      "bytes": 3008
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15242183.txt",
+      "sourceRevision": 15242183,
+      "sourceSha256": "da0302a5e71f58906aab11bad2ae4bc3f19d3132fa37b1e0f0eb91bffeaff3ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15242183-15242183.txt.txt",
+      "capsuleSha256": "da0302a5e71f58906aab11bad2ae4bc3f19d3132fa37b1e0f0eb91bffeaff3ec",
+      "bytes": 3657
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15242184.txt",
+      "sourceRevision": 15242184,
+      "sourceSha256": "abf31dbb73ccbac5e657d93cc2c1a5a2ec057affd59cd12520a59dfd1a176b7f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15242184-15242184.txt.txt",
+      "capsuleSha256": "abf31dbb73ccbac5e657d93cc2c1a5a2ec057affd59cd12520a59dfd1a176b7f",
+      "bytes": 4413
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15259082.txt",
+      "sourceRevision": 15259082,
+      "sourceSha256": "6c6b2b376d468297afa6e3546e5e865cf409c30aaed0ab12205eccf6d47c0c47",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15259082-15259082.txt.txt",
+      "capsuleSha256": "6c6b2b376d468297afa6e3546e5e865cf409c30aaed0ab12205eccf6d47c0c47",
+      "bytes": 1080
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15260326.txt",
+      "sourceRevision": 15260326,
+      "sourceSha256": "0c70a9ba3567233cd173ece525a22e9e9c5513f4bebc32b1d78eb86da0841cdc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15260326-15260326.txt.txt",
+      "capsuleSha256": "0c70a9ba3567233cd173ece525a22e9e9c5513f4bebc32b1d78eb86da0841cdc",
+      "bytes": 3406
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15260466.txt",
+      "sourceRevision": 15260466,
+      "sourceSha256": "2d579ef4744945981949c336bf5d3898355284be2075f706a18b4206c5535bb5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15260466-15260466.txt.txt",
+      "capsuleSha256": "2d579ef4744945981949c336bf5d3898355284be2075f706a18b4206c5535bb5",
+      "bytes": 5575
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15260468.txt",
+      "sourceRevision": 15260468,
+      "sourceSha256": "16eb78e4f86a0a678200c138414e6f94546785f366f580e028fd653745753f60",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15260468-15260468.txt.txt",
+      "capsuleSha256": "16eb78e4f86a0a678200c138414e6f94546785f366f580e028fd653745753f60",
+      "bytes": 6300
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15260473.txt",
+      "sourceRevision": 15260473,
+      "sourceSha256": "b1de48235e395cd287c5056fa48fbae6a3d57f73ebe790c668adbfdb5f79419c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15260473-15260473.txt.txt",
+      "capsuleSha256": "b1de48235e395cd287c5056fa48fbae6a3d57f73ebe790c668adbfdb5f79419c",
+      "bytes": 6016
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15274557.txt",
+      "sourceRevision": 15274557,
+      "sourceSha256": "f4301c5c2734db2d0a311e106c0340cd36acf1f1995c96405cfc9945fd1226e1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15274557-15274557.txt.txt",
+      "capsuleSha256": "f4301c5c2734db2d0a311e106c0340cd36acf1f1995c96405cfc9945fd1226e1",
+      "bytes": 6947
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15275786.txt",
+      "sourceRevision": 15275786,
+      "sourceSha256": "609732fa5bab1a0f52e73894879a9ba71c839f40a7c5d3cc03675c3f8f25855a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15275786-15275786.txt.txt",
+      "capsuleSha256": "609732fa5bab1a0f52e73894879a9ba71c839f40a7c5d3cc03675c3f8f25855a",
+      "bytes": 5505
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15275999.txt",
+      "sourceRevision": 15275999,
+      "sourceSha256": "e90a8b97899f800f7d04fb18ab4c38999993b295e01c74711aee419a6e6bc9f4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15275999-15275999.txt.txt",
+      "capsuleSha256": "e90a8b97899f800f7d04fb18ab4c38999993b295e01c74711aee419a6e6bc9f4",
+      "bytes": 2289
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15284416.txt",
+      "sourceRevision": 15284416,
+      "sourceSha256": "6080e1341d003ede096b8b9ef249ce8adead9a6cb174a9fd8293d97368e8b36a",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15284416-15284416.txt.txt",
+      "capsuleSha256": "6080e1341d003ede096b8b9ef249ce8adead9a6cb174a9fd8293d97368e8b36a",
+      "bytes": 2175
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15289037.txt",
+      "sourceRevision": 15289037,
+      "sourceSha256": "b950d27b57fa9edf8cc526fc588dcb4c8aba8fc16adc971d0480ef051962bfbe",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15289037-15289037.txt.txt",
+      "capsuleSha256": "b950d27b57fa9edf8cc526fc588dcb4c8aba8fc16adc971d0480ef051962bfbe",
+      "bytes": 3639
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15304461.txt",
+      "sourceRevision": 15304461,
+      "sourceSha256": "2c97b0bd318c5ba0d51dbb50fc0d2154976a3797befbf69e19f07831b2f75465",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15304461-15304461.txt.txt",
+      "capsuleSha256": "2c97b0bd318c5ba0d51dbb50fc0d2154976a3797befbf69e19f07831b2f75465",
+      "bytes": 5390
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15307158.txt",
+      "sourceRevision": 15307158,
+      "sourceSha256": "0afabc75047209a562b625049051ef61a535327fd24723155f86f9e0b7d5df63",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15307158-15307158.txt.txt",
+      "capsuleSha256": "0afabc75047209a562b625049051ef61a535327fd24723155f86f9e0b7d5df63",
+      "bytes": 1078
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15312327.txt",
+      "sourceRevision": 15312327,
+      "sourceSha256": "fb052146569903f3d2d448faf58345c852e7e0b2cfb2c26f3be4f025143c92ea",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15312327-15312327.txt.txt",
+      "capsuleSha256": "fb052146569903f3d2d448faf58345c852e7e0b2cfb2c26f3be4f025143c92ea",
+      "bytes": 3757
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15314454.txt",
+      "sourceRevision": 15314454,
+      "sourceSha256": "5901711e43d0ff0c93681848ba4370e54bef843281f0cb5f216d919c3b66a13f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15314454-15314454.txt.txt",
+      "capsuleSha256": "5901711e43d0ff0c93681848ba4370e54bef843281f0cb5f216d919c3b66a13f",
+      "bytes": 20311
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15314691.txt",
+      "sourceRevision": 15314691,
+      "sourceSha256": "a8b6cc7b0a78afc57a06755307405839d648bc0cfc121812503d52d6a677baf1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15314691-15314691.txt.txt",
+      "capsuleSha256": "a8b6cc7b0a78afc57a06755307405839d648bc0cfc121812503d52d6a677baf1",
+      "bytes": 1519
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15315198.txt",
+      "sourceRevision": 15315198,
+      "sourceSha256": "9440097e6afdc919405b761d2405637f63c4a58fea5a1eb6be01b472ad869a58",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15315198-15315198.txt.txt",
+      "capsuleSha256": "9440097e6afdc919405b761d2405637f63c4a58fea5a1eb6be01b472ad869a58",
+      "bytes": 12286
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15315689.txt",
+      "sourceRevision": 15315689,
+      "sourceSha256": "5b5853e7edc481abe659722bdf8dcd084d35930a718356b5db5e99b4d6083eee",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15315689-15315689.txt.txt",
+      "capsuleSha256": "5b5853e7edc481abe659722bdf8dcd084d35930a718356b5db5e99b4d6083eee",
+      "bytes": 3702
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15315731.txt",
+      "sourceRevision": 15315731,
+      "sourceSha256": "322f69a40aaefaef4da919582a03fd920bca372f7054c4ad2597e37ec0f348dd",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15315731-15315731.txt.txt",
+      "capsuleSha256": "322f69a40aaefaef4da919582a03fd920bca372f7054c4ad2597e37ec0f348dd",
+      "bytes": 6753
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15317517.txt",
+      "sourceRevision": 15317517,
+      "sourceSha256": "7335f7a625394fbc397be3279996d81d744a8b698ee34179f345b90db9e10d35",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15317517-15317517.txt.txt",
+      "capsuleSha256": "7335f7a625394fbc397be3279996d81d744a8b698ee34179f345b90db9e10d35",
+      "bytes": 3288
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15319844.txt",
+      "sourceRevision": 15319844,
+      "sourceSha256": "ad894b34667b5f41e71b6a72e4f716a16350619d353c0f2e0195f3665bf1a51c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15319844-15319844.txt.txt",
+      "capsuleSha256": "ad894b34667b5f41e71b6a72e4f716a16350619d353c0f2e0195f3665bf1a51c",
+      "bytes": 8351
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15322208.txt",
+      "sourceRevision": 15322208,
+      "sourceSha256": "1793cb5f7a4ad5c46d567843de6877b0b253f332a3e81059d86284d77b50f681",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15322208-15322208.txt.txt",
+      "capsuleSha256": "1793cb5f7a4ad5c46d567843de6877b0b253f332a3e81059d86284d77b50f681",
+      "bytes": 3249
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15322401.txt",
+      "sourceRevision": 15322401,
+      "sourceSha256": "bd5c015bc32e2a20b65fbda51713a80f72b4b333c06a4a0c7d0091eeff8e38df",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15322401-15322401.txt.txt",
+      "capsuleSha256": "bd5c015bc32e2a20b65fbda51713a80f72b4b333c06a4a0c7d0091eeff8e38df",
+      "bytes": 3716
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323903.txt",
+      "sourceRevision": 15323903,
+      "sourceSha256": "a572f7eca0a43b4e12cee0a41d4c2da7633259c063d25001713b0ffe267759db",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323903-15323903.txt.txt",
+      "capsuleSha256": "a572f7eca0a43b4e12cee0a41d4c2da7633259c063d25001713b0ffe267759db",
+      "bytes": 2380
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323911.txt",
+      "sourceRevision": 15323911,
+      "sourceSha256": "46bf38ed5b0a1fb473aafa51196a8172a4ef93993d97fc47cc772c51f6e2dd51",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323911-15323911.txt.txt",
+      "capsuleSha256": "46bf38ed5b0a1fb473aafa51196a8172a4ef93993d97fc47cc772c51f6e2dd51",
+      "bytes": 1706
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323916.txt",
+      "sourceRevision": 15323916,
+      "sourceSha256": "74f61c672e672a812ff44ea4c981d41cf2fa6b9176e955301e6f58d92e6622be",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323916-15323916.txt.txt",
+      "capsuleSha256": "74f61c672e672a812ff44ea4c981d41cf2fa6b9176e955301e6f58d92e6622be",
+      "bytes": 1447
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323920.txt",
+      "sourceRevision": 15323920,
+      "sourceSha256": "619999df3e6ab31285201c5dd241eae0879c57d765643df0c1a25c00cb1d521c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323920-15323920.txt.txt",
+      "capsuleSha256": "619999df3e6ab31285201c5dd241eae0879c57d765643df0c1a25c00cb1d521c",
+      "bytes": 1643
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323922.txt",
+      "sourceRevision": 15323922,
+      "sourceSha256": "9654166021cb32c42279351d45ab1f7bbf801aff68710eee0cdce33f81b0407e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323922-15323922.txt.txt",
+      "capsuleSha256": "9654166021cb32c42279351d45ab1f7bbf801aff68710eee0cdce33f81b0407e",
+      "bytes": 1434
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323947.txt",
+      "sourceRevision": 15323947,
+      "sourceSha256": "50f7e0f45bb5a05eec5f335bdc6bec6bb43cd18d28d6a1799957d5e609703b04",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323947-15323947.txt.txt",
+      "capsuleSha256": "50f7e0f45bb5a05eec5f335bdc6bec6bb43cd18d28d6a1799957d5e609703b04",
+      "bytes": 1680
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323948.txt",
+      "sourceRevision": 15323948,
+      "sourceSha256": "d77c7ed2f7376591fe95d91523e23db157cea6b2fd57bdeb323fe14e8c1537e0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323948-15323948.txt.txt",
+      "capsuleSha256": "d77c7ed2f7376591fe95d91523e23db157cea6b2fd57bdeb323fe14e8c1537e0",
+      "bytes": 1640
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323950.txt",
+      "sourceRevision": 15323950,
+      "sourceSha256": "b9da6541bffb829579a195a3a62001f60a4d683e32e46ca9f823cf6c15916ee5",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323950-15323950.txt.txt",
+      "capsuleSha256": "b9da6541bffb829579a195a3a62001f60a4d683e32e46ca9f823cf6c15916ee5",
+      "bytes": 1656
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323952.txt",
+      "sourceRevision": 15323952,
+      "sourceSha256": "2ffe22231cc2bec225bc32e0af851b70aee5772af5bdea08957b99faac30c6a4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323952-15323952.txt.txt",
+      "capsuleSha256": "2ffe22231cc2bec225bc32e0af851b70aee5772af5bdea08957b99faac30c6a4",
+      "bytes": 1427
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323955.txt",
+      "sourceRevision": 15323955,
+      "sourceSha256": "5266ead23f9e1113fd100ca69059315fcd462a09496d4b1aeaef3453b08c3483",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323955-15323955.txt.txt",
+      "capsuleSha256": "5266ead23f9e1113fd100ca69059315fcd462a09496d4b1aeaef3453b08c3483",
+      "bytes": 1682
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15323958.txt",
+      "sourceRevision": 15323958,
+      "sourceSha256": "f3ef8b11a7b0a01f0e56b2fd0e51b5901eeb0032c33747803fa2c84f5408c5cd",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15323958-15323958.txt.txt",
+      "capsuleSha256": "f3ef8b11a7b0a01f0e56b2fd0e51b5901eeb0032c33747803fa2c84f5408c5cd",
+      "bytes": 1637
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324117.txt",
+      "sourceRevision": 15324117,
+      "sourceSha256": "6a0d7657adb75156b6af947bfac841851563ea9f2df4b7e66b906d325e1fde7d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324117-15324117.txt.txt",
+      "capsuleSha256": "6a0d7657adb75156b6af947bfac841851563ea9f2df4b7e66b906d325e1fde7d",
+      "bytes": 2902
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324148.txt",
+      "sourceRevision": 15324148,
+      "sourceSha256": "dd81941069cbca3f19232fe9e10eb625126ea1dd51730c6e7f7fda5c02610e02",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324148-15324148.txt.txt",
+      "capsuleSha256": "dd81941069cbca3f19232fe9e10eb625126ea1dd51730c6e7f7fda5c02610e02",
+      "bytes": 1779
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324150.txt",
+      "sourceRevision": 15324150,
+      "sourceSha256": "176cf44c3b5d0dfa8359314d0dd8b80927afa89235cd5e09224d60ead650433d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324150-15324150.txt.txt",
+      "capsuleSha256": "176cf44c3b5d0dfa8359314d0dd8b80927afa89235cd5e09224d60ead650433d",
+      "bytes": 1730
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324151.txt",
+      "sourceRevision": 15324151,
+      "sourceSha256": "1b4592ef42b0d85d629034d0103900124cbc7400862ca7f9869925c88255acea",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324151-15324151.txt.txt",
+      "capsuleSha256": "1b4592ef42b0d85d629034d0103900124cbc7400862ca7f9869925c88255acea",
+      "bytes": 1744
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324795.txt",
+      "sourceRevision": 15324795,
+      "sourceSha256": "8c8854c3264fea961f1d0eda6c91e687e5fa3ceb0f3efc86cbbcb64f53405542",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324795-15324795.txt.txt",
+      "capsuleSha256": "8c8854c3264fea961f1d0eda6c91e687e5fa3ceb0f3efc86cbbcb64f53405542",
+      "bytes": 2651
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324806.txt",
+      "sourceRevision": 15324806,
+      "sourceSha256": "a524c8e3759b31ab1601691fd8eb32711bca87c213ba0adeffda0d556af8bd67",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324806-15324806.txt.txt",
+      "capsuleSha256": "a524c8e3759b31ab1601691fd8eb32711bca87c213ba0adeffda0d556af8bd67",
+      "bytes": 4299
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324862.txt",
+      "sourceRevision": 15324862,
+      "sourceSha256": "3561ba01c67061daa891f117b0b5e29de080845a435789b410075962b9899a3b",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324862-15324862.txt.txt",
+      "capsuleSha256": "3561ba01c67061daa891f117b0b5e29de080845a435789b410075962b9899a3b",
+      "bytes": 1699
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324869.txt",
+      "sourceRevision": 15324869,
+      "sourceSha256": "e1fd96bbfd929bf7524bc949ef2d5bc515fe532bf0d1e5879be212e503efe033",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324869-15324869.txt.txt",
+      "capsuleSha256": "e1fd96bbfd929bf7524bc949ef2d5bc515fe532bf0d1e5879be212e503efe033",
+      "bytes": 2156
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324872.txt",
+      "sourceRevision": 15324872,
+      "sourceSha256": "8b2fe45137f550487ba1b7696e41ecf2f32b3b40cbea1cde0790ed56e5c05acc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324872-15324872.txt.txt",
+      "capsuleSha256": "8b2fe45137f550487ba1b7696e41ecf2f32b3b40cbea1cde0790ed56e5c05acc",
+      "bytes": 2318
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324884.txt",
+      "sourceRevision": 15324884,
+      "sourceSha256": "507e9318ba117e96f01d1ccc02706cf94a651e978c020a27cbe40d4461e18186",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324884-15324884.txt.txt",
+      "capsuleSha256": "507e9318ba117e96f01d1ccc02706cf94a651e978c020a27cbe40d4461e18186",
+      "bytes": 2379
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15324922.txt",
+      "sourceRevision": 15324922,
+      "sourceSha256": "654ea18b2da523264b409872e8f45dbeaea741e5b2f3374d84d4f42172ca0435",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15324922-15324922.txt.txt",
+      "capsuleSha256": "654ea18b2da523264b409872e8f45dbeaea741e5b2f3374d84d4f42172ca0435",
+      "bytes": 1810
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15325070.txt",
+      "sourceRevision": 15325070,
+      "sourceSha256": "eaa7313d4e88936925e4fc643dd11897d776102e43b4a1a24f4574f673edc8ee",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15325070-15325070.txt.txt",
+      "capsuleSha256": "eaa7313d4e88936925e4fc643dd11897d776102e43b4a1a24f4574f673edc8ee",
+      "bytes": 2003
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15326250.txt",
+      "sourceRevision": 15326250,
+      "sourceSha256": "b8b7a0aa4d0f265a27e884cb825a9384447b0990d2060a0123740eff52196545",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326250-15326250.txt.txt",
+      "capsuleSha256": "b8b7a0aa4d0f265a27e884cb825a9384447b0990d2060a0123740eff52196545",
+      "bytes": 3394
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15326818.txt",
+      "sourceRevision": 15326818,
+      "sourceSha256": "1f4e86a94d309c8f250dde8343fb6100992f1d001259e5ce8065fcb6526721b6",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326818-15326818.txt.txt",
+      "capsuleSha256": "1f4e86a94d309c8f250dde8343fb6100992f1d001259e5ce8065fcb6526721b6",
+      "bytes": 3020
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15326823.txt",
+      "sourceRevision": 15326823,
+      "sourceSha256": "5519ba312a570962ec990ed51a2c1e523d59b8478b31bb7bbdab4c6c006bfaac",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326823-15326823.txt.txt",
+      "capsuleSha256": "5519ba312a570962ec990ed51a2c1e523d59b8478b31bb7bbdab4c6c006bfaac",
+      "bytes": 2261
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15326825.txt",
+      "sourceRevision": 15326825,
+      "sourceSha256": "9281df44b1a2e8ab4568a9b03abf0eb10068bf38a4d0602c29aad587638a4afc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326825-15326825.txt.txt",
+      "capsuleSha256": "9281df44b1a2e8ab4568a9b03abf0eb10068bf38a4d0602c29aad587638a4afc",
+      "bytes": 2563
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15326827.txt",
+      "sourceRevision": 15326827,
+      "sourceSha256": "d8d683bae312f69340826b92bcab0b82096a82cc0a6fa769e715a6eaaab70f42",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15326827-15326827.txt.txt",
+      "capsuleSha256": "d8d683bae312f69340826b92bcab0b82096a82cc0a6fa769e715a6eaaab70f42",
+      "bytes": 2620
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15342489.txt",
+      "sourceRevision": 15342489,
+      "sourceSha256": "63b0e62e2c1c22dd542a76d99c700e57b33672d386c24d3e4584a23d6cb85a51",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15342489-15342489.txt.txt",
+      "capsuleSha256": "63b0e62e2c1c22dd542a76d99c700e57b33672d386c24d3e4584a23d6cb85a51",
+      "bytes": 2904
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15345632.txt",
+      "sourceRevision": 15345632,
+      "sourceSha256": "492b124ed3e4584e74bdcbbffc7f6a6aa32b2656f9b93e21d180e352c26443b0",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15345632-15345632.txt.txt",
+      "capsuleSha256": "492b124ed3e4584e74bdcbbffc7f6a6aa32b2656f9b93e21d180e352c26443b0",
+      "bytes": 4707
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15345650.txt",
+      "sourceRevision": 15345650,
+      "sourceSha256": "8e3a7b19ea576b119379ab36db24729f4ea31dd76ddf2467a94695d33f10a451",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15345650-15345650.txt.txt",
+      "capsuleSha256": "8e3a7b19ea576b119379ab36db24729f4ea31dd76ddf2467a94695d33f10a451",
+      "bytes": 5025
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15345654.txt",
+      "sourceRevision": 15345654,
+      "sourceSha256": "a0709e4a47d971b51f02ba498f8b6e35228c96d50a25f5b415365e8ae04ea5ed",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15345654-15345654.txt.txt",
+      "capsuleSha256": "a0709e4a47d971b51f02ba498f8b6e35228c96d50a25f5b415365e8ae04ea5ed",
+      "bytes": 14356
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15349225.txt",
+      "sourceRevision": 15349225,
+      "sourceSha256": "80c651241d748bda71915210282a4cd111a9497b324c786b0b6c8d31f9e03ace",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15349225-15349225.txt.txt",
+      "capsuleSha256": "80c651241d748bda71915210282a4cd111a9497b324c786b0b6c8d31f9e03ace",
+      "bytes": 3433
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15350148.txt",
+      "sourceRevision": 15350148,
+      "sourceSha256": "1a3f7abc2770ca623c6e2a93b9d394ca68cebb097533c34293ecfb56209a39e3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15350148-15350148.txt.txt",
+      "capsuleSha256": "1a3f7abc2770ca623c6e2a93b9d394ca68cebb097533c34293ecfb56209a39e3",
+      "bytes": 6475
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15350165.txt",
+      "sourceRevision": 15350165,
+      "sourceSha256": "1117a622064c27804acd41c2e48002b930b2141b5b38db249cf4d050ccfef3ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15350165-15350165.txt.txt",
+      "capsuleSha256": "1117a622064c27804acd41c2e48002b930b2141b5b38db249cf4d050ccfef3ec",
+      "bytes": 4822
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15351997.txt",
+      "sourceRevision": 15351997,
+      "sourceSha256": "bae660b36dd836022b10c30473b663b7618b0f48b955faa9a56bea532e361bb1",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15351997-15351997.txt.txt",
+      "capsuleSha256": "bae660b36dd836022b10c30473b663b7618b0f48b955faa9a56bea532e361bb1",
+      "bytes": 2038
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15352040.txt",
+      "sourceRevision": 15352040,
+      "sourceSha256": "f1c53bfbea18cf5dad9699807b84c94bfea45db88fd6fb79899fe9e598ff35a3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352040-15352040.txt.txt",
+      "capsuleSha256": "f1c53bfbea18cf5dad9699807b84c94bfea45db88fd6fb79899fe9e598ff35a3",
+      "bytes": 640
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15352763.txt",
+      "sourceRevision": 15352763,
+      "sourceSha256": "6e50443c98d8c26ddba4ac1004e8d8ff141002873e68611f9154fe236737f10d",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352763-15352763.txt.txt",
+      "capsuleSha256": "6e50443c98d8c26ddba4ac1004e8d8ff141002873e68611f9154fe236737f10d",
+      "bytes": 3777
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15352809.txt",
+      "sourceRevision": 15352809,
+      "sourceSha256": "2e439a621838d2f256990ae4f85d0309bda7e735b527329234b9c4226eea1ccc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15352809-15352809.txt.txt",
+      "capsuleSha256": "2e439a621838d2f256990ae4f85d0309bda7e735b527329234b9c4226eea1ccc",
+      "bytes": 1914
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15353907.txt",
+      "sourceRevision": 15353907,
+      "sourceSha256": "cd2fb0cd7bc2a22597ce8530a3c5b0dd0bca1d48cd8e34e0088efdc4bc869595",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15353907-15353907.txt.txt",
+      "capsuleSha256": "cd2fb0cd7bc2a22597ce8530a3c5b0dd0bca1d48cd8e34e0088efdc4bc869595",
+      "bytes": 2633
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15353910.txt",
+      "sourceRevision": 15353910,
+      "sourceSha256": "747e041464ba9de35f15cfc100660bceadda28ca443e32183050545b674818dc",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15353910-15353910.txt.txt",
+      "capsuleSha256": "747e041464ba9de35f15cfc100660bceadda28ca443e32183050545b674818dc",
+      "bytes": 2672
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15353918.txt",
+      "sourceRevision": 15353918,
+      "sourceSha256": "ef7964290b4fea60c87847508cf122dcd8f1cdb840e97c9971a576540bf08583",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15353918-15353918.txt.txt",
+      "capsuleSha256": "ef7964290b4fea60c87847508cf122dcd8f1cdb840e97c9971a576540bf08583",
+      "bytes": 2755
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15355203.txt",
+      "sourceRevision": 15355203,
+      "sourceSha256": "8d6596d66da15b63fa49d4937a609441db7ee02c8856aefbfd9bdadf495dd6ec",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15355203-15355203.txt.txt",
+      "capsuleSha256": "8d6596d66da15b63fa49d4937a609441db7ee02c8856aefbfd9bdadf495dd6ec",
+      "bytes": 2104
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15357820.txt",
+      "sourceRevision": 15357820,
+      "sourceSha256": "0039f11d135e5806fde4f610dec9881feeb751d86ceea045240538b908f13ba3",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15357820-15357820.txt.txt",
+      "capsuleSha256": "0039f11d135e5806fde4f610dec9881feeb751d86ceea045240538b908f13ba3",
+      "bytes": 7639
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15358506.txt",
+      "sourceRevision": 15358506,
+      "sourceSha256": "8a42384132e5d4562fe8d4c2111de5b1c4a5ae03195c78c5924882ee8848ac1e",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358506-15358506.txt.txt",
+      "capsuleSha256": "8a42384132e5d4562fe8d4c2111de5b1c4a5ae03195c78c5924882ee8848ac1e",
+      "bytes": 2937
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15358933.txt",
+      "sourceRevision": 15358933,
+      "sourceSha256": "a683a9da468dcafb782406685855ab5d305bf5fd7be33b93c603735f6cb53963",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358933-15358933.txt.txt",
+      "capsuleSha256": "a683a9da468dcafb782406685855ab5d305bf5fd7be33b93c603735f6cb53963",
+      "bytes": 1427
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15358941.txt",
+      "sourceRevision": 15358941,
+      "sourceSha256": "4e01bc190f1f1d994507380f904d2916b801ffade54dde35295112b17fdc1964",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358941-15358941.txt.txt",
+      "capsuleSha256": "4e01bc190f1f1d994507380f904d2916b801ffade54dde35295112b17fdc1964",
+      "bytes": 1634
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15358953.txt",
+      "sourceRevision": 15358953,
+      "sourceSha256": "2c309cba777ebb8ebea56ebac708b874ff41391a105a00dee4494a8c5412d217",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15358953-15358953.txt.txt",
+      "capsuleSha256": "2c309cba777ebb8ebea56ebac708b874ff41391a105a00dee4494a8c5412d217",
+      "bytes": 1461
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15359526.txt",
+      "sourceRevision": 15359526,
+      "sourceSha256": "9cb6ab373c36649fe39c70651c0f766582dcbc6f7fe88d97844bcd79f4d33a8f",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15359526-15359526.txt.txt",
+      "capsuleSha256": "9cb6ab373c36649fe39c70651c0f766582dcbc6f7fe88d97844bcd79f4d33a8f",
+      "bytes": 3344
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15359581.txt",
+      "sourceRevision": 15359581,
+      "sourceSha256": "9923bf5fe0183ab1648c031f8acb99758de2d98c9cbf52260d726a356eacbef4",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15359581-15359581.txt.txt",
+      "capsuleSha256": "9923bf5fe0183ab1648c031f8acb99758de2d98c9cbf52260d726a356eacbef4",
+      "bytes": 4482
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15360451.txt",
+      "sourceRevision": 15360451,
+      "sourceSha256": "0c9180421991e71c5c773c6a7b1ad5575b7a77a28fb00d9be29cafabee4b4d7c",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360451-15360451.txt.txt",
+      "capsuleSha256": "0c9180421991e71c5c773c6a7b1ad5575b7a77a28fb00d9be29cafabee4b4d7c",
+      "bytes": 7300
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15360501.txt",
+      "sourceRevision": 15360501,
+      "sourceSha256": "450062a325f313de0520ea11a96913d3d8ec40fb422cd84707291eddea6bcbcf",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360501-15360501.txt.txt",
+      "capsuleSha256": "450062a325f313de0520ea11a96913d3d8ec40fb422cd84707291eddea6bcbcf",
+      "bytes": 4542
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15360537.txt",
+      "sourceRevision": 15360537,
+      "sourceSha256": "7e198f3cde69941dda32c67355f6979a3a54f77e54d2a25e9dea0058e73285b9",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360537-15360537.txt.txt",
+      "capsuleSha256": "7e198f3cde69941dda32c67355f6979a3a54f77e54d2a25e9dea0058e73285b9",
+      "bytes": 4000
+    },
+    {
+      "sourcePath": "tmp\\category-certification\\wiki-articles\\text\\15360811.txt",
+      "sourceRevision": 15360811,
+      "sourceSha256": "f3fb7d9b1d8291b43dfc9c8dc49b7eeccd10f8cbb009c0089b61043e8400a435",
+      "capsulePath": "tmp/root-review/semantic-2147-wave3-corrected-stage-20261004/source-capsules/15360811-15360811.txt.txt",
+      "capsuleSha256": "f3fb7d9b1d8291b43dfc9c8dc49b7eeccd10f8cbb009c0089b61043e8400a435",
+      "bytes": 3705
+    }
+  ]
+}

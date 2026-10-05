@@ -1,0 +1,7 @@
+{
+  "schema": "research-packet-seal/v1",
+  "manifestPath": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/manifest.json",
+  "manifestSha256": "1bf3737def881beda2c77ea7e6cd98b12f61a10e5fd8f71f10fda8c6f0564e2f",
+  "sealed": true,
+  "immutability": "Do not rerun writer or edit after sealing; later changes require a distinct successor."
+}

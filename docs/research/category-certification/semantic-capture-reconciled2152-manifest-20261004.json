@@ -1,0 +1,169 @@
+{
+  "schema": "semantic-capture-reconciled2152-publication/v1",
+  "status": "durable research candidate snapshot; not full semantic certification",
+  "counts": {
+    "assertions": 2152,
+    "exactItemIds": 1652,
+    "supported": 17,
+    "unassessed": 2135,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "completeDimensions": 0,
+    "appendedPreviouslyApprovedGloryClaims": 5,
+    "draftNavigationRows": 991
+  },
+  "sourceStage": {
+    "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/manifest.json",
+    "sha256": "b2bcc64aa12d4e87f7833a10f93ed05d70416deb485fb7ff94705c2e68fac247"
+  },
+  "independentAudit": {
+    "path": "tmp/root-review/semantic-2152-glory-independent-audit-20261004/manifest.json",
+    "sha256": "7c66263b28be494eb9aab37940bad91153150190e7e628961e1c93da60ba9ac0"
+  },
+  "baseline": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-manifest-20261004.json",
+    "sha256": "8221072505873cd062dea59556f4c7d2c9d5a4ade67208cf8e8f8b508a16ad90"
+  },
+  "rootReplay": {
+    "path": "tmp/root-review/reconciled2152-root-publication-20261004/root-composition-replay.json",
+    "sha256": "fea51e0c85114adb1dda38eaf8644b1976d83c09f63d7b81261473b3ec8d131f"
+  },
+  "gloryApprovalPublication": {
+    "path": "docs/research/category-certification/semantic-glory-wear-publication-manifest-20261004.json",
+    "sha256": "97822fc48310b0665f765d55e480d23c2c4eaba136f861a2ef279e109a0f183a"
+  },
+  "foodOriginalErratum": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-food-count-erratum-20261004.json",
+    "sha256": "a7beff06e41e7951b6c497a2587525f322903e44577e60fd3e0fac20441d9e56"
+  },
+  "foodPathResolutionNote": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-food-path-resolution-20261004.json",
+    "sha256": "f5d03876ee40644479b589cf6796165dc5c571f99caa42909bc6116271594436"
+  },
+  "outputs": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-effective-reconciled2152-20261004.jsonl.gz",
+      "sha256": "c3da3325e20e55c5f445fa8aacf9e747ae85ed69a426d90119654417974d19d5",
+      "byteLength": 4995610,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/effective-2152.jsonl.gz",
+        "sha256": "c3da3325e20e55c5f445fa8aacf9e747ae85ed69a426d90119654417974d19d5"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-coverage-reconciled2152-20261004.jsonl.gz",
+      "sha256": "f1e8f4cf46d522ed5819e3d6a1d44abf9546482f2fe0b2a42218b0d6df5c3586",
+      "byteLength": 633226,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/coverage-34085.jsonl.gz",
+        "sha256": "f1e8f4cf46d522ed5819e3d6a1d44abf9546482f2fe0b2a42218b0d6df5c3586"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-source-crosswalk-20261004.jsonl",
+      "sha256": "cfe4fa91a8309853186f62141f1d18f0353c95392a18cb923d497307fad59044",
+      "byteLength": 14557182,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/source-crosswalk-2152.jsonl",
+        "sha256": "cfe4fa91a8309853186f62141f1d18f0353c95392a18cb923d497307fad59044"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-draft-navigation-20261004.jsonl",
+      "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+      "byteLength": 1078911,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/draft-navigation-991.jsonl",
+        "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-record-history-20261004.jsonl",
+      "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+      "byteLength": 28483,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/record-history-unchanged.jsonl",
+        "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-source-capsule-index-20261004.json",
+      "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+      "byteLength": 178917,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/source-capsule-index-unchanged.json",
+        "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-limits-20261004.json",
+      "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+      "byteLength": 1343,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/limits-unchanged.json",
+        "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-composition-report-20261004.json",
+      "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+      "byteLength": 2411,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/composition-report.json",
+        "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-coverage-five-reference-deltas-20261004.jsonl",
+      "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+      "byteLength": 2872,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/coverage-five-reference-deltas.jsonl",
+        "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-food-path-resolution-provenance-20261004.json",
+      "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+      "byteLength": 957,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/food-path-resolution-provenance.json",
+        "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db"
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-glory-five-claim-lineage-20261004.jsonl",
+      "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+      "byteLength": 10152,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-glory-composition-stage-20261004/glory-five-claim-lineage.jsonl",
+        "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c"
+      }
+    }
+  ],
+  "preservation": {
+    "all2147PriorRawRecordsExactPrefix": true,
+    "prior12SupportedRowsExact": true,
+    "fivePublishedSupportedRowsAppendedByteExact": true,
+    "onlyFiveCoverageTopReferencesChanged": true,
+    "all272680DimensionsTagsPlacementsUnchanged": true,
+    "priorCrosswalkNavigationPrefixesExact": true,
+    "allPayloadsByteExactStage": true,
+    "allPriorSnapshotsRetained": true,
+    "activeAliasesRegistrationsRulesAdded": 0
+  },
+  "limits": [
+    "No full2152 semantic reading or dimension completeness claim.",
+    "Five Glory approvals cover only no wearing prerequisites stated in the Members-world source paragraph for exact IDs1704/1706/1708/1710/1712.",
+    "No category/tag/placement/live-bank changes or additional semantic approvals.",
+    "Definition navigation remains partial and unregistered; concrete bindings do not establish complete mechanics/unit definitions.",
+    "Seven Spell claims retain known unassessed unsupported meaning proposals pending separately audited corrections.",
+    "Materials/Utility/next500/next800 candidate analyses and unresolved-source/lineage gaps remain open."
+  ],
+  "publisher": {
+    "frozenPinsPrechecked": 4036,
+    "productionChanged": false,
+    "newTests": false,
+    "gitMutation": false
+  }
+}

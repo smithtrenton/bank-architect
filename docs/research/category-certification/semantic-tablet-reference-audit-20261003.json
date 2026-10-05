@@ -1,0 +1,19 @@
+{
+  "all77ReferencesResolve": true,
+  "allFactsCoverageReferenced": false,
+  "coverageRows": 85,
+  "crossItemReferences": [],
+  "danglingReferences": [],
+  "duplicateReferenceOccurrences": 9,
+  "facts": 69,
+  "formatVersion": "tablet-effective-reference-audit/v1",
+  "referencesChecked": 77,
+  "uniqueReferencedRecordIds": 68,
+  "unreferencedEffectiveFacts": [
+    {
+      "itemId": 8022,
+      "predicate": "osrs.availability.source-status",
+      "recordId": "claim-8662a4025333494c3338d3b0a52dc797c8f5c09beee286ec11415135335c5d20"
+    }
+  ]
+}

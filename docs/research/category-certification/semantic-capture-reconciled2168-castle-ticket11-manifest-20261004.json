@@ -1,0 +1,601 @@
+{
+  "schema": "semantic-capture-reconciled2168-castle-ticket11-publication/v1",
+  "status": "research effective snapshot; eleven previously authorized supported facts appended; full semantic analysis incomplete",
+  "counts": {
+    "assertions": 2168,
+    "exactIds": 1658,
+    "supported": 33,
+    "unassessed": 2135,
+    "coverageRows": 34085,
+    "dimensions": 272680,
+    "completeDimensions": 0
+  },
+  "baseline": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2157-hats-manifest-20261004.json",
+    "sha256": "3f49bf675d983cda2d848edbae8017298e8d883d7b13993d8a38b080a1a66eca",
+    "byteLength": 13674
+  },
+  "sourceStage": {
+    "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/stage-manifest.json",
+    "sha256": "3c3b960ca24ee22fa0d7297847d6c953e363aa58732763f88923b27cc6a3d4be",
+    "byteLength": 22156
+  },
+  "sourceStageSeal": {
+    "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/stage-seal.json",
+    "sha256": "fa5c48980be70dd06ee9dea326d0e36d23f731cd77f77e37559c82196b96cf13",
+    "byteLength": 10307
+  },
+  "independentAuditAcceptance": {
+    "path": "tmp/root-review/semantic-resume-20261004/independent-root-acceptance.json",
+    "sha256": "19169fa4702ec98ac69f66cc578ef4df54b7e96578479ad03139b4dce503b993",
+    "byteLength": 3237
+  },
+  "rootReplay": {
+    "path": "tmp/root-review/semantic-resume-20261004/ticket-root-review.json",
+    "sha256": "aa73a27c6e8f4d2f5adc78bdd2e942a42075e15e11335127d23f826de666bac4",
+    "byteLength": 25616
+  },
+  "validation": {
+    "path": "tmp/root-review/semantic-resume-20261004/published-native-validation.json",
+    "sha256": "d2ddfe7ca971b1ec39f1478fca3f3abb9a0a147f535e9216286bb55860801949",
+    "byteLength": 173
+  },
+  "outputs": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/composition-replay.json",
+      "sha256": "964b0b35cef432a9c18cfc5a4ba69d35fd36ed62a0baa03d08b9eee076c1c62b",
+      "byteLength": 2559,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/composition-replay.json",
+        "sha256": "964b0b35cef432a9c18cfc5a4ba69d35fd36ed62a0baa03d08b9eee076c1c62b",
+        "byteLength": 2559
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/coverage-34085.jsonl.gz",
+      "sha256": "f430643b3b0bcc0d93da32440448893fa4e3c4bf39983903ba9ab25b205337c0",
+      "byteLength": 634014,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/coverage-34085.jsonl.gz",
+        "sha256": "f430643b3b0bcc0d93da32440448893fa4e3c4bf39983903ba9ab25b205337c0",
+        "byteLength": 634014
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/coverage-reference-delta.jsonl",
+      "sha256": "65fa8baf7970218268c8e5c32b5942a3c139cefcaec55a947d3654eb64437f96",
+      "byteLength": 1867,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/coverage-reference-delta.jsonl",
+        "sha256": "65fa8baf7970218268c8e5c32b5942a3c139cefcaec55a947d3654eb64437f96",
+        "byteLength": 1867
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/crosswalk-path-repair.json",
+      "sha256": "4645a1fbc4c63ef2e94cbb47eb65b19e6959e05966580a881f027ddf5871db9f",
+      "byteLength": 255500,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/crosswalk-path-repair.json",
+        "sha256": "4645a1fbc4c63ef2e94cbb47eb65b19e6959e05966580a881f027ddf5871db9f",
+        "byteLength": 255500
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-draft-navigation.jsonl",
+      "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+      "byteLength": 1078911,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-draft-navigation.jsonl",
+        "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+        "byteLength": 1078911
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-food-path-resolution-provenance.json",
+      "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+      "byteLength": 957,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-food-path-resolution-provenance.json",
+        "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+        "byteLength": 957
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-glory-five-claim-lineage.jsonl",
+      "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+      "byteLength": 10152,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-glory-five-claim-lineage.jsonl",
+        "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+        "byteLength": 10152
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-canonical-id-and-source-proof.jsonl",
+      "sha256": "7e6664b12dcaa03b1657133b5537f9dced219c1e4a9b20e2145f707a4c82d9ad",
+      "byteLength": 7026,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-canonical-id-and-source-proof.jsonl",
+        "sha256": "7e6664b12dcaa03b1657133b5537f9dced219c1e4a9b20e2145f707a4c82d9ad",
+        "byteLength": 7026
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-coverage-reference-deltas.jsonl",
+      "sha256": "569513ea55372ab2c6eaeae912b2f86e0aa0b92622596343efd5fe945f2de230",
+      "byteLength": 1938,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-coverage-reference-deltas.jsonl",
+        "sha256": "569513ea55372ab2c6eaeae912b2f86e0aa0b92622596343efd5fe945f2de230",
+        "byteLength": 1938
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-source-crosswalk-additions.jsonl",
+      "sha256": "3b842f200548c2669228f25b0e4783f25e509e82562e2c7be06c224a550280d9",
+      "byteLength": 42166,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-source-crosswalk-additions.jsonl",
+        "sha256": "3b842f200548c2669228f25b0e4783f25e509e82562e2c7be06c224a550280d9",
+        "byteLength": 42166
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-stage-lineage-erratum.json",
+      "sha256": "518a77fd41b862d82bccee078e75590b06238c3354330731b161332c2f32086a",
+      "byteLength": 5765,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-stage-lineage-erratum.json",
+        "sha256": "518a77fd41b862d82bccee078e75590b06238c3354330731b161332c2f32086a",
+        "byteLength": 5765
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-composition-report.json",
+      "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+      "byteLength": 2411,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-composition-report.json",
+        "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+        "byteLength": 2411
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-coverage-five-reference-deltas.jsonl",
+      "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+      "byteLength": 2872,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-coverage-five-reference-deltas.jsonl",
+        "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+        "byteLength": 2872
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-limits.json",
+      "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+      "byteLength": 1343,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-limits.json",
+        "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+        "byteLength": 1343
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-record-history.jsonl",
+      "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+      "byteLength": 28483,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-record-history.jsonl",
+        "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+        "byteLength": 28483
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-source-capsule-index.json",
+      "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+      "byteLength": 178917,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-source-capsule-index.json",
+        "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+        "byteLength": 178917
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-crosswalk-digest-delta.jsonl",
+      "sha256": "ffed460db6e07586a0858162dc5e8cfb51f65f16516ad55775b27c78de7b4d9a",
+      "byteLength": 2408,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-crosswalk-digest-delta.jsonl",
+        "sha256": "ffed460db6e07586a0858162dc5e8cfb51f65f16516ad55775b27c78de7b4d9a",
+        "byteLength": 2408
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-nine-meaning-proposals.jsonl",
+      "sha256": "b8e82b2ea21abcea331ed98985a25f336f63eb69d163f0541589ccc8cb2deebb",
+      "byteLength": 26568,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-nine-meaning-proposals.jsonl",
+        "sha256": "b8e82b2ea21abcea331ed98985a25f336f63eb69d163f0541589ccc8cb2deebb",
+        "byteLength": 26568
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-original-stage-terminator-erratum.json",
+      "sha256": "c4f80e26a7efc9b29298ed4e68a38be760d41d08a9b1147c1ef2f76cf5d23ff9",
+      "byteLength": 4681,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-original-stage-terminator-erratum.json",
+        "sha256": "c4f80e26a7efc9b29298ed4e68a38be760d41d08a9b1147c1ef2f76cf5d23ff9",
+        "byteLength": 4681
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-before-after.jsonl",
+      "sha256": "b4b8c0884265dc5a21d2750a59a9a488322e82637ff406dcedc0507fe9e78156",
+      "byteLength": 4335406,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-before-after.jsonl",
+        "sha256": "b4b8c0884265dc5a21d2750a59a9a488322e82637ff406dcedc0507fe9e78156",
+        "byteLength": 4335406
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-lineage.jsonl",
+      "sha256": "2e7290bce0495926a7823d9032745ea60022db223fa2e189cd5e0048fc67e1cf",
+      "byteLength": 11927,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-lineage.jsonl",
+        "sha256": "2e7290bce0495926a7823d9032745ea60022db223fa2e189cd5e0048fc67e1cf",
+        "byteLength": 11927
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/effective-2168.jsonl.gz",
+      "sha256": "1bd7351acb35b359896ca86392db614a261bc2e3494c54f4878c7818f1f20f26",
+      "byteLength": 5001991,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/effective-2168.jsonl.gz",
+        "sha256": "1bd7351acb35b359896ca86392db614a261bc2e3494c54f4878c7818f1f20f26",
+        "byteLength": 5001991
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/native-validation.json",
+      "sha256": "b0630d77503f052a14a18e9211f06acf53219a16bd6a72462578643f8ad80f3d",
+      "byteLength": 1004,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/native-validation.json",
+        "sha256": "b0630d77503f052a14a18e9211f06acf53219a16bd6a72462578643f8ad80f3d",
+        "byteLength": 1004
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/path-repair-provenance.json",
+      "sha256": "aa09f595227ae8a8ff5942a094c665ec95a6be2003d41518ca14e1aaa8b9f7ca",
+      "byteLength": 1491,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/path-repair-provenance.json",
+        "sha256": "aa09f595227ae8a8ff5942a094c665ec95a6be2003d41518ca14e1aaa8b9f7ca",
+        "byteLength": 1491
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/README.md",
+      "sha256": "95c1b71ffec53d94478cec531e4dc1cfe1cd946175005f87902c6e6fa1141054",
+      "byteLength": 3010,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/README.md",
+        "sha256": "95c1b71ffec53d94478cec531e4dc1cfe1cd946175005f87902c6e6fa1141054",
+        "byteLength": 3010
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/source-crosswalk-2168.jsonl",
+      "sha256": "3062691ee417a16e03f9811090e26ca736d76870be66ec46271b5e9227a15b41",
+      "byteLength": 14690447,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/source-crosswalk-2168.jsonl",
+        "sha256": "3062691ee417a16e03f9811090e26ca736d76870be66ec46271b5e9227a15b41",
+        "byteLength": 14690447
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/definition-audit.json",
+      "sha256": "0d7369e092ec369ac757f5fba52ddcadec01c26a079b32ce514144995d3f49f7",
+      "byteLength": 4397,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/definition-audit.json",
+        "sha256": "0d7369e092ec369ac757f5fba52ddcadec01c26a079b32ce514144995d3f49f7",
+        "byteLength": 4397
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/exact-before-after.jsonl",
+      "sha256": "a0d4cd3cf2eed8e956fee6db373f0d66c9fb34b29287436d259043af667f9bbd",
+      "byteLength": 107309,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/exact-before-after.jsonl",
+        "sha256": "a0d4cd3cf2eed8e956fee6db373f0d66c9fb34b29287436d259043af667f9bbd",
+        "byteLength": 107309
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/inverse-proof.json",
+      "sha256": "0ef8ef03ab5d247a850072910b0c6635945f1224f1cb8e024514313ea4d88d94",
+      "byteLength": 73648,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/inverse-proof.json",
+        "sha256": "0ef8ef03ab5d247a850072910b0c6635945f1224f1cb8e024514313ea4d88d94",
+        "byteLength": 73648
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/native-validation.json",
+      "sha256": "1513f3a346b5ca53a2e13fa9e0a2b9531bf5b437bb6cb2662e3b67df0094c53c",
+      "byteLength": 886,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/native-validation.json",
+        "sha256": "1513f3a346b5ca53a2e13fa9e0a2b9531bf5b437bb6cb2662e3b67df0094c53c",
+        "byteLength": 886
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/own-source-15184720.txt",
+      "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+      "byteLength": 2056,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/own-source-15184720.txt",
+        "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+        "byteLength": 2056
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/README.md",
+      "sha256": "6d1f601303da80b446c46b5249f7555004344ff5a33db618dea9749ca35a1c40",
+      "byteLength": 1873,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/README.md",
+        "sha256": "6d1f601303da80b446c46b5249f7555004344ff5a33db618dea9749ca35a1c40",
+        "byteLength": 1873
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/seal.json",
+      "sha256": "f7d0a909d0959b7c80b1a48e9b6957be077371516a0423700373f006d72e6c99",
+      "byteLength": 3403,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/seal.json",
+        "sha256": "f7d0a909d0959b7c80b1a48e9b6957be077371516a0423700373f006d72e6c99",
+        "byteLength": 3403
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supported-item-facts.jsonl",
+      "sha256": "c4f55b13a97fa642083fcbcdec217be87ce2e1865af778b355695d80741898ec",
+      "byteLength": 53683,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supported-item-facts.jsonl",
+        "sha256": "c4f55b13a97fa642083fcbcdec217be87ce2e1865af778b355695d80741898ec",
+        "byteLength": 53683
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/approval-policy.json",
+      "sha256": "77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+      "byteLength": 38359,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/approval-policy.json",
+        "sha256": "77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "byteLength": 38359
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/independent-audit-manifest.json",
+      "sha256": "1bf3737def881beda2c77ea7e6cd98b12f61a10e5fd8f71f10fda8c6f0564e2f",
+      "byteLength": 4746,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/independent-audit-manifest.json",
+        "sha256": "1bf3737def881beda2c77ea7e6cd98b12f61a10e5fd8f71f10fda8c6f0564e2f",
+        "byteLength": 4746
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/independent-audit-seal.json",
+      "sha256": "d8f1b92b39814d2b266c39bb7729e0615f1e00eb1f2e436f6e2a10e299d507fa",
+      "byteLength": 356,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/independent-audit-seal.json",
+        "sha256": "d8f1b92b39814d2b266c39bb7729e0615f1e00eb1f2e436f6e2a10e299d507fa",
+        "byteLength": 356
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/proposal-manifest.json",
+      "sha256": "84afa19c999f2c692528e09d52942c5bd3f55a7248ef3ad63c38edfa23d7e282",
+      "byteLength": 1963,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/proposal-manifest.json",
+        "sha256": "84afa19c999f2c692528e09d52942c5bd3f55a7248ef3ad63c38edfa23d7e282",
+        "byteLength": 1963
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/proposed-root-fact-scope.json",
+      "sha256": "a67eb34bd823cb415513226a148b80fdc0033bac2efca168e7b6b24bbbe8f864",
+      "byteLength": 5897,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/proposed-root-fact-scope.json",
+        "sha256": "a67eb34bd823cb415513226a148b80fdc0033bac2efca168e7b6b24bbbe8f864",
+        "byteLength": 5897
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/root-authorization.json",
+      "sha256": "f29b6bbb1f1c7f28a87021b7837b221f0cafe1abbf31a6754e2553d9edfe7bf0",
+      "byteLength": 10399,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/root-authorization.json",
+        "sha256": "f29b6bbb1f1c7f28a87021b7837b221f0cafe1abbf31a6754e2553d9edfe7bf0",
+        "byteLength": 10399
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/root-replay.json",
+      "sha256": "902aaf945b5cdc09b2145042d9300edf8b7282c8ff69c873bcffc23769c2bf72",
+      "byteLength": 31178,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/root-replay.json",
+        "sha256": "902aaf945b5cdc09b2145042d9300edf8b7282c8ff69c873bcffc23769c2bf72",
+        "byteLength": 31178
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "byteLength": 60367,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+        "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+        "byteLength": 60367
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/transition-checks.jsonl",
+      "sha256": "1a9b4ec7614c3c3f1c140d800ff4dcffcc41c5dc6da30d3e7713dcaac41834e4",
+      "byteLength": 2748,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/transition-checks.jsonl",
+        "sha256": "1a9b4ec7614c3c3f1c140d800ff4dcffcc41c5dc6da30d3e7713dcaac41834e4",
+        "byteLength": 2748
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/supporting/castle-ticket11/transition-ledger.jsonl",
+      "sha256": "b0710b3a7d863fb1fd8f894dde1b5346cca6ae3abcfb77442959c4965168d41c",
+      "byteLength": 59252,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/supporting/castle-ticket11/transition-ledger.jsonl",
+        "sha256": "b0710b3a7d863fb1fd8f894dde1b5346cca6ae3abcfb77442959c4965168d41c",
+        "byteLength": 59252
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/ticket11-crosswalk-additions.jsonl",
+      "sha256": "c3ab322513d60a96b5af19136927d0ea6162c50a39e943516960db1e11d12290",
+      "byteLength": 91099,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/ticket11-crosswalk-additions.jsonl",
+        "sha256": "c3ab322513d60a96b5af19136927d0ea6162c50a39e943516960db1e11d12290",
+        "byteLength": 91099
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/validator-manifest.json",
+      "sha256": "b3481ed97974770d7699e39161a7d17f66bd873471035e7b882ddab3a84ac109",
+      "byteLength": 896,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/validator-manifest.json",
+        "sha256": "b3481ed97974770d7699e39161a7d17f66bd873471035e7b882ddab3a84ac109",
+        "byteLength": 896
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/provenance/stage-manifest.json",
+      "sha256": "3c3b960ca24ee22fa0d7297847d6c953e363aa58732763f88923b27cc6a3d4be",
+      "byteLength": 22156,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/stage-manifest.json",
+        "sha256": "3c3b960ca24ee22fa0d7297847d6c953e363aa58732763f88923b27cc6a3d4be",
+        "byteLength": 22156
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/provenance/stage-seal.json",
+      "sha256": "fa5c48980be70dd06ee9dea326d0e36d23f731cd77f77e37559c82196b96cf13",
+      "byteLength": 10307,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004/stage-seal.json",
+        "sha256": "fa5c48980be70dd06ee9dea326d0e36d23f731cd77f77e37559c82196b96cf13",
+        "byteLength": 10307
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/provenance/root-review.json",
+      "sha256": "aa73a27c6e8f4d2f5adc78bdd2e942a42075e15e11335127d23f826de666bac4",
+      "byteLength": 25616,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-resume-20261004/ticket-root-review.json",
+        "sha256": "aa73a27c6e8f4d2f5adc78bdd2e942a42075e15e11335127d23f826de666bac4",
+        "byteLength": 25616
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/provenance/independent-root-acceptance.json",
+      "sha256": "19169fa4702ec98ac69f66cc578ef4df54b7e96578479ad03139b4dce503b993",
+      "byteLength": 3237,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-resume-20261004/independent-root-acceptance.json",
+        "sha256": "19169fa4702ec98ac69f66cc578ef4df54b7e96578479ad03139b4dce503b993",
+        "byteLength": 3237
+      }
+    }
+  ],
+  "corePayloads": {
+    "effective": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/effective-2168.jsonl.gz",
+      "sha256": "1bd7351acb35b359896ca86392db614a261bc2e3494c54f4878c7818f1f20f26",
+      "byteLength": 5001991
+    },
+    "sourceCrosswalk": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/source-crosswalk-2168.jsonl",
+      "sha256": "3062691ee417a16e03f9811090e26ca736d76870be66ec46271b5e9227a15b41",
+      "byteLength": 14690447
+    },
+    "coverage": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004/coverage-34085.jsonl.gz",
+      "sha256": "f430643b3b0bcc0d93da32440448893fa4e3c4bf39983903ba9ab25b205337c0",
+      "byteLength": 634014
+    }
+  },
+  "referencePolicy": {
+    "nativeSourceDefinitionAuthorizationPaths": "Unchanged repository-relative original paths and exact hashes remain authoritative.",
+    "crosswalkPrefix": {
+      "rawLines": 2157,
+      "inheritedManifest": {
+        "path": "docs/research/category-certification/semantic-capture-reconciled2157-hats-manifest-20261004.json",
+        "sha256": "3f49bf675d983cda2d848edbae8017298e8d883d7b13993d8a38b080a1a66eca",
+        "byteLength": 13674
+      },
+      "scope": "Original prefix reference conventions and historical limits retained byte-exact."
+    },
+    "crosswalkAdditions": {
+      "rawLines": 11,
+      "pointer": "/sourceContext/fullContextPacketPath",
+      "basePath": "docs/research/category-certification/semantic-capture-reconciled2168-castle-ticket11-20261004",
+      "sourceBasePath": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-path-repair-stage-20261004",
+      "allContextReferencesResolveToExactPinnedBytes": true
+    },
+    "copiedStageMetadata": "Original stage reports/README/manifests describe historical unpublished preparation; this publication manifest records the current durable state."
+  },
+  "preservation": {
+    "prior2157CompleteRawLinesExact": true,
+    "all22PriorSupportedFactsExact": true,
+    "elevenAuthorizedSupportedRawLinesExact": true,
+    "crosswalkPriorRawPrefixExact": true,
+    "pathRepairChangesOnlyElevenContextPointers": true,
+    "all17AuxiliaryPayloadsExact": true,
+    "coverageOnly4067TopLevelReferencesChanged": true,
+    "all272680DimensionMapsExactUnassessed": true,
+    "productionPolicyTestsJarAndFixturesExact": true
+  },
+  "limits": [
+    "No new fact authorization; publication composes only eleven previously authorized item-facts.",
+    "Every award retains world/outcome/score conditions and dependency on separate 15-minute eligibility fact.",
+    "Eligibility is not an exhaustive prerequisite list or an unconditional award guarantee.",
+    "Both actual definitions remain draft/unregistered; rule use remains disabled.",
+    "No complete dimensions, category/tag/placement/bank authority or runtime change.",
+    "Historical lineage gaps and unchanged prefix limitations remain preserved."
+  ]
+}

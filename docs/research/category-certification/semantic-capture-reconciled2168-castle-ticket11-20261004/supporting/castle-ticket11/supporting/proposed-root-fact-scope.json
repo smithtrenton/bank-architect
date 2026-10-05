@@ -1,0 +1,98 @@
+{
+  "schema": "castle-ticket11-proposed-root-fact-scope/v1",
+  "status": "proposal only; not activated and no authorization granted",
+  "itemId": 4067,
+  "reviewIndices": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "eligibleClaimIds": [
+    "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+    "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+    "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+    "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+    "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+    "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+    "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+    "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+    "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+    "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+    "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308"
+  ],
+  "beforeCandidateCanonicalSha256ByRecordId": {
+    "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb": "9dc3617d1ebf677187e8726b3c2d414294c0ea96657c8ed1da4173856b22e390",
+    "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7": "e075c4e21f327bf1de88206ff06cf8eef2eb9d05f47b747ebc522b24ce92acea",
+    "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5": "0600b594c3999b3585b6063933751f172660e0ce7cff5caa0c9d3f60fafaa12f",
+    "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a": "761acea76a5287f5e6fb291411b3c297549495ada188b53a048e7b437f07bc1a",
+    "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7": "fe6acd919a463b8c04a417c659ff36b1687ad88c95402e8be17e35ed0aec764b",
+    "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c": "570cf4d5602d710f58c03073aac5c2c17bc63dc78ccf0ebd8130f9747d9e21d6",
+    "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9": "41eb773e5fd04848fb57d580bcd0233772125b8bd70b5e11fca33e42acbfe291",
+    "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5": "8527ad8f9cdc1145234d6473e33643bcf063ffe688b7bafb4a0a2cbf494559c9",
+    "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170": "107c7806fb16fe159a36a57d8a23eef7b1933c1543d0bef8d22c25e3c0ae73a1",
+    "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7": "47c7ef368f2dc4f39245b01768482c1b60d318931577001a028d4ba4ccd071cd",
+    "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308": "c2496c0862efe97afd80aa1f1c690dfd80060d1d80e6b05848e452f3c22656a5"
+  },
+  "proposedApprovalScope": [
+    "item-fact"
+  ],
+  "proposedInterpretation": "Minimum15 minutes is scoped to Castle Wars activity awards. Ten table-row ticket counts are world/outcome/score-conditioned and must be interpreted alongside the separate minimum-eligibility claim, not as unconditional reward guarantees.",
+  "sourceRevision": 15184720,
+  "source": {
+    "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+    "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+    "bytes": 2056
+  },
+  "worldAliases": {
+    "dedicated": "Dedicated Castle Wars worlds",
+    "ordinary": "Non-Castle Wars worlds"
+  },
+  "dependencies": {
+    "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb": [],
+    "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ],
+    "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+    ]
+  },
+  "notAuthorized": [
+    "Exchange/refund clause with collapsed native quote (row48), Wanted! origin evidence (row47), negative teleportation (row49), transformation/refund mismatches (row61).",
+    "Any route other than the scoped Castle Wars activity, all reward prerequisites completeness, membership/availability, price/equipment/bank context.",
+    "Category/tag/primary-placement/bank/rule changes; definition registration or complete item dimension."
+  ],
+  "nativeFieldChangesProposed": 0,
+  "futureReview": "Independent matrix and root decision required before any supported transition; original native/evidence/context flags stay frozen as provenance."
+}

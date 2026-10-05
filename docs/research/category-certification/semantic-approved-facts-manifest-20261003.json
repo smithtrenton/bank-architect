@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-approved-fact-overlay-manifest/v1",
+  "approvalScope": "item-fact",
+  "applicationOrder": [
+    "semantic-capture-candidates-20261003.jsonl.gz",
+    "semantic-capture-corrections-20261003.jsonl (replace stable recordId)",
+    "semantic-tablet-candidates-20261003.jsonl.gz (append disjoint stable IDs)",
+    "semantic-approved-facts-20261003.jsonl (replace ten exact stable IDs)"
+  ],
+  "composition": "Replace exact stable record IDs. Never concatenate history, candidates and approvals.",
+  "counts": {
+    "effectiveAssertions": 118,
+    "exactItemIds": 20,
+    "supportedRootApprovedAssertions": 10,
+    "approvedExactItemIds": 6,
+    "candidateUnassessedAssertions": 108,
+    "completeDimensionsCertified": 0,
+    "unassessedDimensionAssessments": 272680
+  },
+  "acceptedPolicy": {
+    "path": "docs/research/category-certification/semantic-fact-approval-policy-20261003.json",
+    "sha256": "1d91f8026572326001ae1456eb8cae12563b02b7b8c4d8a9dd382245e6ab6068",
+    "activation": "Exact detached bytes accepted by the separate root authorization; historical draft wording retained."
+  },
+  "rootAuthorization": {
+    "path": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json",
+    "sha256": "467dca260bc5f99007ba6a8db802ffaf7e3d74780739dc10c0a56d9fb8b15a81"
+  },
+  "approvedFacts": {
+    "path": "docs/research/category-certification/semantic-approved-facts-20261003.jsonl",
+    "sha256": "d073647f4518b41640351e8011c7359a39fcf0784733ea0ea222758386bf5db6"
+  },
+  "frozenInputs": {
+    "docs/research/category-certification/semantic-capture-candidates-20261003.jsonl.gz": "ed516878f0f155239734b4c367e31436b0ab3bf4e74bce1a6a0dfdf18659c6bc",
+    "docs/research/category-certification/semantic-capture-corrections-20261003.jsonl": "25a31d2cfdb1dc8b9fd74596cc08bd09f5baceae28c311b0946bdc7f90b7f7d4",
+    "docs/research/category-certification/semantic-capture-corrections-manifest-20261003.json": "6a780d61c9faa45d1a91bbe6f3f117ddde4510e47544658f5662d47880770227",
+    "docs/research/category-certification/semantic-capture-predicates-v3-20261003.json": "5fc092bf040d8719fd2f1c88d3d1d677acbf3405ec4d187902df352f7232beab",
+    "docs/research/category-certification/semantic-capture-predicates-v3-manifest-20261003.json": "5bf0803839c77d5e9a1e4476a21cf4d4bb8a2983638011b92561ed8f8bba0683",
+    "docs/research/category-certification/semantic-capture-predicates-v3-validation-20261003.json": "d175a4d3961df75d7d3ab3e3dcacb59550491ca01255cdf9d58850d1a658524c",
+    "docs/research/category-certification/semantic-tablet-candidates-20261003.jsonl.gz": "d4d8c351744536d3f8691d3d1baac7561a13a544e104b2bb9026e2a31aeb96ca",
+    "docs/research/category-certification/semantic-tablet-manifest-20261003.json": "a0007659c8f0dc18897a183b43cd160ebaffb4a0690e0bb8001ae4c4ecf363b5",
+    "docs/research/category-certification/semantic-tablet-predicates-20261003.json": "94694e77536ff671c7a9515e93dfc6611f82b3aa71ae38c468304bfc61c0b98a",
+    "tmp/root-review/semantic-first-ten-root-reading-20261003/manifest.json": "8130f7c4cf95d5703007759452a77cb15007bff93e0a3cf1eaa52080f9188bc7",
+    "tools/research/semantic-grouping-audit/certification/semantic-records.schema.json": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a",
+    "tools/research/semantic-grouping-audit/certification/semantic-records.py": "7f1e422463d53d58ffae16ccfbfe637c8b6d05f24b0acec9c0419924c294a47a",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15235147.txt": "2ae83196e5d73f6f296caa45b0aae6316695668669e5950f2d5d0b5fd6fa65c2",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15316439.txt": "f4acd65139e059ba4739892e9a7cdd0b0d59a60496a7c6ab07d777785fbd0279",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15254576.txt": "6a9b5bfd40814fb7165162ff934f29814e3bc7862b7f31e2588d6b8c3a5023e8",
+    "tmp/root-review/semantic-metadata-sufficiency-20261003/frozen-inputs/source-pages/15282058.txt": "523e1692d0f0460a3003aec835daff2f0aa7c04690babc16a70a00b047a03887",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/source-pages/15185095.txt": "fdcce969928d9cc6c8e88451d8621fc47918ec131f757a224fc180456207ada4",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/source-pages/15185101.txt": "efcfe030466fe81f6380cec451ea6348c704c8090918dee9a1276b57fa77759d"
+  },
+  "preparedOutputs": {
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/frozen-before-claims.jsonl": "3dbb9861117286a838a4a8b24d5718be11e469916f335e3918d27a611553af8d",
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/root-approval-request.json": "f146320ad202ff4760570bfff4a0550db6e75c90b6009f0feda0dc178bc7fd45",
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/root-authorization-template.json": "882c95f1f35d577bed6aefd1001626782abfec83be71eca078d9dbf04e1fa746",
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/verification-report.json": "c19417a7964771f2597515d99f3569ef7fd45f2bfe8f4796118c42f363625f42",
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/README.md": "4c75366a06beb75a0ec0b7e5e376aff1d2aa13bcea338969b2761a4036a447c8",
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/semantic-fact-approval-policy-draft.json": "1d91f8026572326001ae1456eb8cae12563b02b7b8c4d8a9dd382245e6ab6068",
+    "tmp/root-review/semantic-fact-approval-draft-v3-20261003/approval-draft.mjs": "eb2d2e542781d32cc4eabaa964271b62b3daf389a4c948a885f90c8f68a36e56"
+  },
+  "approvalRequest": {
+    "path": "tmp/root-review/semantic-fact-approval-draft-v3-20261003/root-approval-request.json",
+    "sha256": "f146320ad202ff4760570bfff4a0550db6e75c90b6009f0feda0dc178bc7fd45"
+  },
+  "independentDraftReview": {
+    "path": "tmp/root-review/semantic-fact-approval-draft-independent-audit-20261003/assessment.md",
+    "sha256": "3810842297097eecfb64f24bf01cc77ace4b2f5077b901c0b4b132107f4a5e56"
+  },
+  "rootReading": {
+    "path": "tmp/root-review/semantic-first-ten-root-reading-20261003/root-reading-notes.json",
+    "sha256": "cf7a3091f05058d5148320c2c11dd24ba7412178e6467f853ef76e6c8ce43025"
+  },
+  "preservation": {
+    "path": "tmp/root-review/semantic-first-ten-durable-publication-20261003/preservation-proof-v2.json",
+    "sha256": "c4698d31d3eb8a228afdfda9f9c92249da571b67b77af0f06ad99b489a3e71e7"
+  },
+  "validation": {
+    "validRecords": 118,
+    "sourceReplay": true,
+    "manifestChecked": false,
+    "semanticApprovalGranted": false
+  },
+  "definitionsRemainCandidateUnregistered": true,
+  "noRuleUsabilityGranted": true,
+  "scopeLimits": "Narrow item-fact clauses only. No category/tag/alias/availability/bankability/sibling-state approval or semantic completeness.",
+  "sourceReplayRequirement": "Full raw source replay requires the pinned local source cache; hashes do not reconstruct raw evidence.",
+  "publisher": {
+    "path": "tmp/root-review/publish_first_ten_semantic_facts_20261003.py",
+    "sha256": "16c356310353bb8cc17d26b31927a1cda8975b15ccb8da41e09a13169a3ddb4d"
+  },
+  "proofFinalizer": {
+    "path": "tmp/root-review/finalize_first_ten_semantic_publication_proof_20261003.py",
+    "sha256": "2e08c9b319315af3e26c4b544390f3684da616494896b0c29399308bf24563e6"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "format": "potion-v6-resource-output-check-erratum/v1",
+  "status": "research-only audit correction; no fact or definition approval",
+  "previousAuditManifestSha256": "24894e0f97969c2a2096d39942941c7f2ca928c9120c9124010ded7fb1f85994",
+  "v6ManifestSha256": "018d113fa1dd1658b9f803fd95f161561ac57e0ff0e7dba911a27f6788e25a13",
+  "causeOfFalseBoolean": {
+    "previousPredicate": "resourceOutputUnitsCorrectForPrayerAndZamorakBranches",
+    "actualBoolean": false,
+    "reason": "The audit helper expected unqualified `prayer-point` for IDs 139, 3026 and 26342 while records carry `osrs:prayer-point`; ID 189 already used namespaced units. This was a check bug, not a formula-branch source mismatch.",
+    "correctedFormulaBranchRows": [
+      {
+        "itemId": 139,
+        "recordId": "claim-6223d47ce34d85477ece6c78d23dcf0e5ab70049cd973edac40f1a5a413f2880",
+        "effectIndex": 0,
+        "effectKind": "restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 7,
+        "matches": true
+      },
+      {
+        "itemId": 139,
+        "recordId": "claim-6223d47ce34d85477ece6c78d23dcf0e5ab70049cd973edac40f1a5a413f2880",
+        "effectIndex": 1,
+        "effectKind": "conditional-restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 7,
+        "matches": true
+      },
+      {
+        "itemId": 139,
+        "recordId": "claim-309fbe21664e755f7722b336cb6964d9b8e35d076b4f2d6d27a2e6c0c1fcd88d",
+        "effectIndex": 0,
+        "effectKind": "restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 7,
+        "matches": true
+      },
+      {
+        "itemId": 139,
+        "recordId": "claim-309fbe21664e755f7722b336cb6964d9b8e35d076b4f2d6d27a2e6c0c1fcd88d",
+        "effectIndex": 1,
+        "effectKind": "conditional-restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 7,
+        "matches": true
+      },
+      {
+        "itemId": 189,
+        "recordId": "claim-96cb5985a342844a822e0ecbba50243cf934166135345d2ee7d3e425d0bb20ae",
+        "effectIndex": 3,
+        "effectKind": "hitpoints-drain",
+        "expectedOutputUnit": "osrs:hitpoint",
+        "formulaOutputUnit": "osrs:hitpoint",
+        "flatOffsetUnit": "osrs:hitpoint",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:hitpoint",
+        "treeConstantValue": 0,
+        "matches": true
+      },
+      {
+        "itemId": 189,
+        "recordId": "claim-96cb5985a342844a822e0ecbba50243cf934166135345d2ee7d3e425d0bb20ae",
+        "effectIndex": 4,
+        "effectKind": "resource-restore",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 0,
+        "matches": true
+      },
+      {
+        "itemId": 26342,
+        "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+        "effectIndex": 1,
+        "effectKind": "restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 2,
+        "matches": true
+      },
+      {
+        "itemId": 139,
+        "recordId": "claim-233ea93e6c6ded27718b950396a9858add014b339a91efc0239919c6af9cbdd3",
+        "effectIndex": 0,
+        "effectKind": "restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 7,
+        "matches": true
+      },
+      {
+        "itemId": 139,
+        "recordId": "claim-233ea93e6c6ded27718b950396a9858add014b339a91efc0239919c6af9cbdd3",
+        "effectIndex": 1,
+        "effectKind": "conditional-restore-level-points",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 7,
+        "matches": true
+      },
+      {
+        "itemId": 3026,
+        "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+        "effectIndex": 1,
+        "effectKind": "conditional-prayer-restore",
+        "expectedOutputUnit": "osrs:prayer-point",
+        "formulaOutputUnit": "osrs:prayer-point",
+        "flatOffsetUnit": "osrs:prayer-point",
+        "inputUnit": "osrs:skill-level",
+        "treeConstantUnit": "osrs:prayer-point",
+        "treeConstantValue": 8,
+        "matches": true
+      }
+    ],
+    "allFormulaBranchRowsMatch": true
+  },
+  "independentRawTableGapFindings": [
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "predicate": "wiki.potion.dose-specific-drink-effect-profile",
+      "fieldPath": "factValue.rawEffectTablePairObservations[*].result.unit",
+      "arrayIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "currentUnits": {
+        "osrs:skill-level": 25
+      },
+      "sourceScopedInterpretation": "shared Stat/Prayer restore table; without target binding one output unit cannot be assigned as skill-level only",
+      "status": "candidate capture gap; no replacement or approval in this erratum"
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "predicate": "wiki.potion.dose-specific-drink-effect-profile",
+      "fieldPath": "factValue.rawEffectTablePairObservations[*].result.unit",
+      "arrayIndices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "currentUnits": {
+        "osrs:skill-level": 27
+      },
+      "sourceScopedInterpretation": "Prayer-only conditional table; Prayer-point result unit is supported by the Effects heading and formula",
+      "status": "candidate capture gap; no replacement or approval in this erratum"
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "predicate": "wiki.potion.dose-specific-drink-effect-profile",
+      "fieldPath": "factValue.rawEffectTablePairObservations[*].result.unit",
+      "arrayIndices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "currentUnits": {
+        "osrs:skill-level": 10
+      },
+      "sourceScopedInterpretation": "Prayer Restore subsection; source-order rows are Prayer points, but observation rows currently use skill-level",
+      "status": "candidate capture gap; no replacement or approval in this erratum"
+    }
+  ],
+  "sourcePins": [
+    {
+      "itemId": 3026,
+      "title": "Super restore",
+      "revision": 15183989,
+      "path": "tmp/root-review/potion-package-role-effect-normalization-20261003/own-page-source-snapshots/15183989.txt",
+      "sha256": "5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+      "recordsBound": 1,
+      "allMatchCandidateEvidence": true,
+      "exactHeadings": {
+        "Stat/Prayer restore": true,
+        "conditional Prayer table": true
+      }
+    },
+    {
+      "itemId": 26342,
+      "title": "Ancient brew",
+      "revision": 15342079,
+      "path": "tmp/root-review/potion-package-role-effect-normalization-20261003/own-page-source-snapshots/15342079.txt",
+      "sha256": "06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+      "recordsBound": 1,
+      "allMatchCandidateEvidence": true,
+      "exactHeadings": {
+        "Prayer restore": true,
+        "Stat drain by level": true
+      }
+    },
+    {
+      "itemId": 139,
+      "title": "Prayer potion",
+      "revision": 15351343,
+      "path": "tmp/root-review/potion-package-role-effect-normalization-20261003/own-page-source-snapshots/15351343.txt",
+      "sha256": "182005eebeff73a7d44e34f51b90b689554b9540fe75cce6de405e6518789ab8",
+      "recordsBound": 3,
+      "allMatchCandidateEvidence": true,
+      "maxCapeInLeadAndEffects": true
+    },
+    {
+      "itemId": 189,
+      "title": "Zamorak brew",
+      "revision": 15184356,
+      "path": "tmp/root-review/potion-package-role-effect-normalization-20261003/own-page-source-snapshots/15184356.txt",
+      "sha256": "22a4d00bcf11e50c1a9cfefd8bdd7bc91700f6a42bf149659da9e83e3a999a63",
+      "recordsBound": 1,
+      "allMatchCandidateEvidence": true,
+      "exactHeadings": {
+        "===Attack Boost===": true,
+        "===Strength Boost===": true,
+        "===Prayer Restore===": true,
+        "===Defence Drain===": true,
+        "===Hitpoints Drain===": true
+      }
+    }
+  ],
+  "sourcePinChecksPass": true,
+  "sourceScopeClarification": "Zamorak Attack, Strength and Defence formula branches are skill-level outputs and are excluded from resource-output checks; its two resource branches and five source-ordered table subsections use separate targets and units.",
+  "limits": [
+    "The false boolean is corrected as an audit interpretation only.",
+    "Raw table rows listed as gaps remain unchanged and unassessed; this report does not infer row-unit replacement.",
+    "No category/tag approval, predicate registration, evaluator, official/production edit, or semantic completeness claim."
+  ]
+}

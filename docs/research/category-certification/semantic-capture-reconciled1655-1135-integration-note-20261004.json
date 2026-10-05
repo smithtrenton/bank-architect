@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-1135-supported-integration-note/v1",
+  "status": "interpretive sidecar; approved fact is preserved byte-for-byte",
+  "recordPath": "docs/research/category-certification/semantic-skill1135-supported-fact-20261004.jsonl",
+  "recordSha256": "7c525e1e81d1c5907a51bae8f415cbb6e10154f357294cf6352c9e1434c78ff2",
+  "recordId": "claim-10d9aba20c7c58e7eb32ca7814539fed62ceb2fd887e702e0f59f86bd8f1289b",
+  "authoritativeCurrentFields": {
+    "status": "supported",
+    "reviewStage": "root-approved",
+    "review": {
+      "approvalPolicySha256": "sha256:2538ead4b7fdf42485dd35fc2a5ebdab907f24d1860b182c06e549109378b21f",
+      "approvalRef": "docs/research/category-certification/semantic-skill1135-root-authorization-20261004.json#claim-10d9aba20c7c58e7eb32ca7814539fed62ceb2fd887e702e0f59f86bd8f1289b",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "claimSha256": "sha256:fe8b72ce3df0582f8c45f4631d49ba5acba14bbb53ca5eefe1b7ea45e3728802",
+      "reviewedAt": "2026-10-04T13:49:33.434305Z",
+      "reviewer": "Codex root"
+    }
+  },
+  "historicalExtractionAdvisory": {
+    "jsonPointer": "/extensions/candidate-audit/claimStatus",
+    "value": "candidate/unassessed",
+    "interpretation": "This nested label records the historical candidate extraction audit. The independent approval audit verified the authorized top-level supported status and review delta. Preserve this nested field unchanged; it is not the current approval status.",
+    "auditManifestPath": "tmp/root-review/gear1135-root-support-independent-audit-20261004/manifest.json",
+    "auditManifestSha256": "d9ae8aed8ab8aae27f8eb6dfc195e0ff53e82df8e6c9033ae2257600cdcde633"
+  },
+  "approvedScope": "Exact item-fact only: Defence level 40 requirement for wearing item 1135; all eight dimensions remain unassessed; no definition registration or rule use."
+}

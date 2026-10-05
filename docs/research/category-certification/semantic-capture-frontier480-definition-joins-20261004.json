@@ -1,0 +1,485 @@
+{
+  "schema": "candidate-union-draft-definition-joins/v1",
+  "status": "all packet-scoped/unregistered; rules unusable; no aliases or registration",
+  "joinRule": "Exact assertion predicate + predicateVersion + fact namespace/name; retain the source member packet binding and each listed draft-definition artifact. No cross-packet alias or unit equivalence is inferred.",
+  "materialsLineage": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-materials-remaining302-definition-map-20261004.json",
+      "sha256": "784aff5f3c3aef952a96cc419af98dea149a042b46b946c705a898094d1efd0d",
+      "status": "preserved predecessor definition map for existing Materials assertions"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-materials8-definition-addenda-20261004.json",
+      "sha256": "b36efdd3624e7708f35db37b506dfbd5a112872c74a9f944887da05acf011d19",
+      "status": "preserved corrected capture draft addenda; unregistered"
+    }
+  ],
+  "joins": [
+    {
+      "predicate": "item-fact.source-semantic-profile.candidate",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "source-semantic-profile",
+      "status": "draft-unregistered; packet-scoped only",
+      "bindings": [
+        {
+          "cohort": "food-drink-ownsource-774",
+          "partition": 2,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-2/manifest.json",
+          "packetManifestSha256": "ddabb3ddee256c3cdd46635ff5b286627820be94ed0b64d6e0ed65d23ef45a40",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-2/native-fact-records.jsonl",
+          "recordFileSha256": "f214ef108fc46078f68cf9deac5890f715af6c2c36aef729065455dab3d3b5a4",
+          "packetDefinitionMetadata": {},
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-2/draft-predicate-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        }
+      ]
+    },
+    {
+      "predicate": "osrs:item.source-semantic-profile",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "osrs.source-semantic-profile",
+      "status": "draft-unregistered; packet-scoped only",
+      "bindings": [
+        {
+          "cohort": "supplies-herblore-direct-exact",
+          "partition": 0,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-0/manifest.json",
+          "packetManifestSha256": "01fb8e0f3d5e86cf4eceac34245174310f1adb4fe8cbcc49a66faf1af6ba6af5",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-0/semantic-records.jsonl",
+          "recordFileSha256": "1b4ca41ca93280ba21c8b6820ffe36dbb15404803c3733e058fa36e38984a1e4",
+          "packetDefinitionMetadata": {
+            "predicateDefinitions": [
+              {
+                "namespace": "item-fact",
+                "name": "osrs.source-semantic-profile",
+                "version": 1,
+                "status": "unregistered"
+              }
+            ],
+            "rulesUsable": false
+          },
+          "definitionArtifactPaths": [],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "food-drink-ownsource-774",
+          "partition": 1,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-1/manifest.json",
+          "packetManifestSha256": "d83a8478baccc5d8e390c2a170f71c32c9151ef1cfc746eaf6994b5b94b63a4a",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-1/native-fact-records.jsonl",
+          "recordFileSha256": "b16146dad9cf6ace12c7fa3138dcd5fcc8f6e700ed195136118f13fcadf6ec8b",
+          "packetDefinitionMetadata": {
+            "definitionsRegistered": false,
+            "existingUnitDefinitionReference": {
+              "unit": "osrs:game-tick",
+              "sourceUnitStatus": "existing corpus unit",
+              "sourceDefinitionPath": "tmp/root-review/activity-storage-primary-first20-semantic-capture-20261004/draft-predicate-definition.json",
+              "sourceDefinitionSha256": "3fe158f461ad6b5efb29592710d9e409c353621ae9c856386d4f5644bbe9049a",
+              "sourceManifestPath": "tmp/root-review/activity-storage-primary-first20-semantic-capture-20261004/manifest.json",
+              "sourceManifestSha256": "6af0dba719d164bdee2540c3b0b6735745a2e136ac997d3b0ce29c0188c2de47",
+              "packetStatus": "candidate-unregistered; no global alias"
+            },
+            "rulesUsable": false
+          },
+          "definitionArtifactPaths": [],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        }
+      ]
+    },
+    {
+      "predicate": "osrs:item.source-semantic-profile",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "source-semantic-profile",
+      "status": "draft-unregistered; packet-scoped only",
+      "bindings": [
+        {
+          "cohort": "supplies-herblore-direct-exact",
+          "partition": 3,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-3/manifest.json",
+          "packetManifestSha256": "428f7f6d31ca167ecc54d2c8705d1cdb9253e91c4716feee446145182ed66fd6",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-3/semantic-records.jsonl",
+          "recordFileSha256": "deb164cbb2d28daffc4a68b7c2433fc5e808b8571c863f5c167f78366d063d5c",
+          "packetDefinitionMetadata": {},
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-3/draft-predicate-definitions.v1.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "food-drink-ownsource-774",
+          "partition": 0,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-0/manifest.json",
+          "packetManifestSha256": "ac1e25d37e3788721099b87e061d72457680c8521f48086d3ba2cdcfd014bc9d",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-0/semantic-records.jsonl",
+          "recordFileSha256": "2cb83e448e973417e7d5d56e8a1561b1e5281d70176677e64d023b69e0ecc164",
+          "packetDefinitionMetadata": {},
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-0/draft-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "food-drink-ownsource-774",
+          "partition": 3,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-3/packet-manifest.json",
+          "packetManifestSha256": "de60b6b3b47e6dd53795bbf0eb0c8d8c0eb925906ee2ed8a7e0bc150134a247c",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/food-drink-ownsource-774-part-3/native-candidate-profiles.jsonl",
+          "recordFileSha256": "427ec5c3df8864bb59fecde9b9e8ff5cf4fd2a2647d98750fa6486ba286a2384",
+          "packetDefinitionMetadata": {
+            "definition": {
+              "predicate": "osrs:item.source-semantic-profile",
+              "version": 1,
+              "status": "draft-unregistered",
+              "rulesUsable": false,
+              "meaning": "Research-only profile holding literal exact-page evidence, candidate documented facts, unresolved unknowns, source conflicts, and eight semantic dimension coverage rows for one exact item state."
+            }
+          },
+          "definitionArtifactPaths": [],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "gear-broad-exactvariant-908",
+          "partition": 0,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-0/manifest.json",
+          "packetManifestSha256": "c45dc1828172f214fcb31c6672085d49809748c1f0b2840ac07b05caf5d9018e",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-0/native-fact-records.jsonl",
+          "recordFileSha256": "3522f987a403aa88433c68fd41eefb1c3523ea25fe4bb976dd758fbf01ac3f77",
+          "packetDefinitionMetadata": {},
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-0/draft-predicate-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "gear-broad-exactvariant-908",
+          "partition": 1,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-1/manifest.json",
+          "packetManifestSha256": "2ee7c7fa4bf306e9f734222bca9486dd0d74aab1ab634474d0d34eaad9522b8b",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-1/candidate-assertions.jsonl",
+          "recordFileSha256": "0c069305cf05fcf424cbeebd7d52b0cc325042530547f62c16d1d1530ec7cbe7",
+          "packetDefinitionMetadata": {
+            "predicateDefinitionsStatus": "unregistered"
+          },
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-1/draft-predicate-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "gear-broad-exactvariant-908",
+          "partition": 2,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-2/packet-manifest.json",
+          "packetManifestSha256": "0d9d4832fb370d670ca9da667b1564d17216591515a9aa4d12bbefa9acbb8548",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-2/semantic-records.jsonl",
+          "recordFileSha256": "0a2f417471d94f2ed3e54d6baf69a3ff5f0d4ecc3a8c814757de03c4cc46d28b",
+          "packetDefinitionMetadata": {},
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-2/draft-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        },
+        {
+          "cohort": "tools-exact-ownsource-188",
+          "partition": 0,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/tools-exact-ownsource-188-part-0/capture-manifest.json",
+          "packetManifestSha256": "c9cf72469b36befed5e0668e7e016dccfc5a23df5046d550cee49149b300f3db",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/tools-exact-ownsource-188-part-0/native-fact-records.jsonl",
+          "recordFileSha256": "a4bccd0b221fcd2bb9cdd07e396e7ce02a6722df7b90ac3d58ce180341a9d40a",
+          "packetDefinitionMetadata": {
+            "registeredPredicates": 0
+          },
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/tools-exact-ownsource-188-part-0/predicate-definition.json",
+            "tmp/root-review/semantic-frontier-capture-20261004/tools-exact-ownsource-188-part-0/quantity-unit-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        }
+      ]
+    },
+    {
+      "predicate": "source.semantic-profile",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "semantic-profile",
+      "status": "draft-unregistered; packet-scoped only",
+      "bindings": [
+        {
+          "cohort": "supplies-herblore-direct-exact",
+          "partition": 1,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-1/manifest.json",
+          "packetManifestSha256": "406d23c38278cb3be9842c608216aa82c5ecb55261400437501ce7db583f542c",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-1/semantic-profile-assertions.jsonl",
+          "recordFileSha256": "7594ce61982eb1607b1d0a62630b6446cfafe53c2de68c77c1b9f1ad4536dd72",
+          "packetDefinitionMetadata": {
+            "definitions": [
+              {
+                "namespace": "item-fact",
+                "name": "item-function",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "item-effect",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "skill-role",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "recipe-input",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "recipe-output",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "creation-requirement",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "use-requirement",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "container-contents",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "acquisition-origin",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "applicability-condition",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "consumption-behavior",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "state-transition",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "competing-use",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "bank-condition",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Draft placeholder; do not use in rules until explicitly reviewed and registered."
+              },
+              {
+                "namespace": "item-fact",
+                "name": "semantic-profile",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Candidate exact-own-page semantic profile containing normalized interpretations and raw source references."
+              },
+              {
+                "namespace": "predicate",
+                "name": "source.semantic-profile",
+                "version": 1,
+                "status": "unregistered",
+                "meaning": "Candidate source-semantic-profile envelope. Not consumable by rules until registered."
+              }
+            ],
+            "quantityUnitDefinitions": {
+              "path": "quantity-unit-definitions.json",
+              "status": "unregistered; unusable by rules",
+              "unitCount": 11,
+              "units": [
+                "count:dose",
+                "count:item",
+                "osrs:coin",
+                "osrs:experience-point",
+                "osrs:game-tick",
+                "osrs:hitpoint",
+                "osrs:skill-level",
+                "osrs:skill-level-per-minute",
+                "ratio:percent",
+                "time:minute",
+                "time:second"
+              ],
+              "sha256": "e7b06d2f6f947a9d9235d026c7f57cbb518a225d7dc74a6da8dc98664c3e67c0"
+            }
+          },
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-1/quantity-unit-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        }
+      ]
+    },
+    {
+      "predicate": "wiki.own-page-source-semantic-profile",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "source-semantic-profile",
+      "status": "draft-unregistered; packet-scoped only",
+      "bindings": [
+        {
+          "cohort": "supplies-herblore-direct-exact",
+          "partition": 2,
+          "packetManifestPath": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-2/manifest.json",
+          "packetManifestSha256": "e130229c93797bcf6844728759952cf60534f9a7251324a75642bcc06d8ebdea",
+          "recordFile": "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-2/item-semantic-profiles.jsonl",
+          "recordFileSha256": "ac79b4a2f0274504e185e7db44ccc7eeaf0f7dceb4d8598fefd9b758d36bf610",
+          "packetDefinitionMetadata": {
+            "draftDefinitionsPath": "draft-fact-definitions.json",
+            "registeredDefinitions": 0
+          },
+          "definitionArtifactPaths": [
+            "tmp/root-review/semantic-frontier-capture-20261004/supplies-herblore-direct-exact-part-2/draft-fact-definitions.json"
+          ],
+          "mappingStatus": "packet-scoped draft-only declaration/artifact join; no global predicate alias or registration"
+        }
+      ]
+    }
+  ],
+  "unitDefinitionRefs": [
+    {
+      "sourcePath": "tmp/root-review/activity-storage-primary-first20-canonical-conversion-design-20261004/candidate-predicate-definition.json",
+      "sourceSha256": "sha256:32291c44d69b5b2ce1c29ec77f53e4973dfa0dc9668f9e1f3707dc7c2ac02835",
+      "jsonPointer": "/definitions/0/draftUnitSemantics/count:item",
+      "definitionStatus": "candidate-unregistered",
+      "unit": "count:item",
+      "value": 6,
+      "sourceLiteral": "|output1quantity = 6"
+    },
+    {
+      "sourcePath": "tmp/root-review/activity-storage-primary-first20-canonical-conversion-design-20261004/candidate-predicate-definition.json",
+      "sourceSha256": "sha256:32291c44d69b5b2ce1c29ec77f53e4973dfa0dc9668f9e1f3707dc7c2ac02835",
+      "jsonPointer": "/definitions/0/draftUnitSemantics/osrs:game-tick",
+      "definitionStatus": "candidate-unregistered",
+      "unit": "osrs:game-tick",
+      "value": 2,
+      "sourceLiteral": "|ticks = 2"
+    },
+    {
+      "sourcePath": "tmp/root-review/activity-storage-primary-first20-canonical-conversion-design-20261004/candidate-predicate-definition.json",
+      "sourceSha256": "sha256:32291c44d69b5b2ce1c29ec77f53e4973dfa0dc9668f9e1f3707dc7c2ac02835",
+      "jsonPointer": "/definitions/0/draftUnitSemantics/ratio:probability",
+      "definitionStatus": "candidate-unregistered",
+      "unit": "ratio:probability",
+      "value": 0.00088261253309797,
+      "sourceLiteral": "1/1,133 per slot"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/coins",
+      "definitionStatus": "draft-unregistered",
+      "unit": "osrs:coin",
+      "value": 150000,
+      "sourceLiteral": "150,000 coins"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/equipmentBonus",
+      "definitionStatus": "draft-unregistered",
+      "unit": "osrs:bonus-point",
+      "value": 0,
+      "sourceLiteral": "|prayer = 0"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/experience",
+      "definitionStatus": "draft-unregistered",
+      "unit": "osrs:experience-point",
+      "value": 45,
+      "sourceLiteral": "|skill1exp = 45"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/magicDamage",
+      "definitionStatus": "draft-unregistered",
+      "unit": "ratio:percent",
+      "value": 1,
+      "sourceLiteral": "|mdmg3 = 1"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/percent",
+      "definitionStatus": "draft-unregistered",
+      "unit": "ratio:percent",
+      "value": 30,
+      "sourceLiteral": "with 30% increased damage"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/range",
+      "definitionStatus": "draft-unregistered",
+      "unit": "count:tile",
+      "value": 5,
+      "sourceLiteral": "|attackrange = 5"
+    },
+    {
+      "sourcePath": "tmp/root-review/gear20-secondary-semantic-capture-v4-20261004/draft-predicate-definitions.json",
+      "sourceSha256": "sha256:07fe0d47e091ac4eaa75af0825963170613d028bf5757244de90da826c0c4d7d",
+      "jsonPointer": "/definitions/0/unitConventions/skillLevel",
+      "definitionStatus": "draft-unregistered",
+      "unit": "osrs:skill-level",
+      "value": 70,
+      "sourceLiteral": "and 70 [[Magic]]"
+    }
+  ],
+  "unitVocabularyDisposition": {
+    "time:game-tick": "42 candidate quantity occurrences per sealed aggregate manifest; remains a separate unregistered packet-local vocabulary",
+    "osrs:game-tick": "kept as distinct existing identifier; no equivalence asserted",
+    "globalAliasesCreated": false,
+    "definitionsRegistered": false,
+    "rulesUsable": false
+  }
+}

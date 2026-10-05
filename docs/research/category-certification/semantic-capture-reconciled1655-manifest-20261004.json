@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-capture-reconciled1655-publication/v1",
+  "status": "durable research capture; twelve exact supported facts, other assertions and all dimensions unassessed",
+  "counts": {
+    "assertions": 1655,
+    "exactItemIds": 1167,
+    "supported": 12,
+    "unassessed": 1643,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "completeDimensions": 0
+  },
+  "sourceStage": {
+    "path": "tmp/root-review/semantic-1655-supported-successor-v2-20261004/manifest.json",
+    "sha256": "a556921c47758c24212b729aa96b4190bf3888de332416f9b1d0c41c48a107c9",
+    "byteLength": 499557
+  },
+  "sourceStageSeal": {
+    "path": "tmp/root-review/semantic-1655-supported-successor-v2-20261004/research-seal.json",
+    "sha256": "c6ea07b91c85ae3a0e7470274d41ca9608b65ba8001a81e8d139d1b7e6cb4fa0",
+    "byteLength": 755
+  },
+  "independentSuccessorAudit": {
+    "rootReviewedIndependentSuccessorAudit": true,
+    "auditSealFile": "research-seal.json",
+    "auditSealSha256": "5088f30107914344743b6e98402201e249620b96704ed7606c9bef74765de539",
+    "auditFiles": [
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/README.md",
+        "sha256": "325dd1c1e80fe7927817a46f5dd63cd8d035ad7aad805cee72821cdfcba13037",
+        "byteLength": 3901
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/audit-summary.json",
+        "sha256": "8769f28e769b6fe9e8531a76c40b72ccef10b3ae0e6098988f4708f0c2443783",
+        "byteLength": 5917
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/audit_successor.py",
+        "sha256": "2b077ada920c7845d082905d1983584143ac900f8c27a584820e7f4e1352b301",
+        "byteLength": 22394
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/crosswalk-audit.jsonl",
+        "sha256": "869601908d6ac576b63afb50fd28ef39b7fdc0ca5c2c7d770bcaa28811e93de8",
+        "byteLength": 642191
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/manifest-pin-audit.jsonl",
+        "sha256": "d8f263c0f14b32a24ef2d26570218526549ff13c79decb6b1070a85ac4dc9385",
+        "byteLength": 10607
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/native-validation-independent.json",
+        "sha256": "b0eba1016fbe60d5b3ffec18eb2d29ffa0d089cee69ad256ace7054a0492b345",
+        "byteLength": 679
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/navigation-audit.jsonl",
+        "sha256": "eb65cf7731122e0ce1941aa2c630d6f394672c3c98b1d4482f9c8ee5958a6de0",
+        "byteLength": 708053
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/protected-file-audit.jsonl",
+        "sha256": "c88a04e40cfe394dabc4f982f8ca4ee54113512b1a8a83e7f4c643cd4d3b73b7",
+        "byteLength": 619002
+      },
+      {
+        "path": "tmp/root-review/semantic-1655-supported-successor-v2-independent-audit-20261004/record-replacement-audit.jsonl",
+        "sha256": "3a446a21658c292c0b1cea05f5d8078828e8c39ee77f9190cba07239994a1571",
+        "byteLength": 2923592
+      }
+    ],
+    "rootScope": "candidate research publication with exact already-supported overlays; no new semantic or completeness approvals"
+  },
+  "baseline": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled1174-manifest-20261004.json",
+    "sha256": "7f7d294c983044aa7d9310ece4c2c141d985538151c20462e189718b4f6d83ba",
+    "byteLength": 7213
+  },
+  "historicalInputMappings": [
+    {
+      "inputPath": "docs/research/category-certification/semantic-metadata.md",
+      "historicalSha256": "86b38ee35a11fdaab3cb4bc89565c565584c88812b80f2b3bc9da60ae7aee424",
+      "immutableCopy": "tmp/root-review/reconciled1655-root-durable-publication-20261004/before-semantic-metadata.md",
+      "scope": "workflow context and protected-file history, not semantic source evidence"
+    },
+    {
+      "inputPath": "docs/research/category-certification/README.md",
+      "historicalSha256": "19f5195ac03d14068b0c7abcc98335983f4d0026c4ba8752c0db1f51a6feab56",
+      "immutableCopy": "tmp/root-review/reconciled1655-root-durable-publication-20261004/before-category-certification-README.md",
+      "scope": "workflow context and protected-file history, not semantic source evidence"
+    },
+    {
+      "inputPath": "docs/research/category-certification/session-handoff-october-3.md",
+      "historicalSha256": "6d566982a0a7b9c48e8486d03b00b75693b0c94fe942e3d22f5dabb7122150da",
+      "immutableCopy": "tmp/root-review/reconciled1655-root-durable-publication-20261004/before-session-handoff-october-3.md",
+      "scope": "workflow context and protected-file history, not semantic source evidence"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-effective-reconciled1655-20261004.jsonl.gz",
+      "sha256": "047d59e5ff59e14a7e1ae542797ff13bb87844f0a129333f0f37645e24731ebe",
+      "byteLength": 3979828
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-coverage-reconciled1655-20261004.jsonl.gz",
+      "sha256": "73d6fa396c7a2ae402d26e0547d903ad7a02ea4a871b1d0435793839c424454b",
+      "byteLength": 609272
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1655-source-crosswalk-20261004.jsonl",
+      "sha256": "f539711ce24efa439a8e99e5a3033d686f3a6306ae2aa05ab8814a0296ec45da",
+      "byteLength": 11225077
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1655-draft-navigation-20261004.jsonl",
+      "sha256": "e1fc1b506265a28a11596dc8199addf3eabbba6557676d22ea9f45c8ba3c5722",
+      "byteLength": 645808
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1655-record-history-20261004.jsonl",
+      "sha256": "6b40bf8ec060c741f6a9302fb06606e64efd9ddb61dc8a08ec96bd75c7d2c5ce",
+      "byteLength": 1421
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1655-1859-integration-note-20261004.json",
+      "sha256": "ef597e55406b714d1c9796c8080972093672815af44355ab0fa5436f30b49cca",
+      "byteLength": 993
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1655-1135-integration-note-20261004.json",
+      "sha256": "cb086aa0cc4887f084729b319626c4c2b5a5ab5c64487e9defba7601805feb68",
+      "byteLength": 1852
+    }
+  ],
+  "validation": {
+    "validRecords": 1655,
+    "sourceReplay": true,
+    "manifestChecked": false,
+    "semanticApprovalGranted": false
+  },
+  "navigation": {
+    "additionsRows": 494,
+    "baselineNavigation": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1174-draft-navigation-20261004.json",
+      "sha256": "4c85ed0a87eb95c508adc0fe57995682de89980308508b13599b44f4f71a07f1",
+      "byteLength": 7783
+    },
+    "coverage": "partial source-scoped draft navigation; not universal predicate/field/unit meanings",
+    "inheritedMissingPredicateMeanings": 80,
+    "inheritedGenericCandidateUnitTexts": 212,
+    "inheritedUnmappedUnitReferences": 28,
+    "new1859Units": 0,
+    "registeredDefinitions": 0,
+    "aliasesAdded": 0,
+    "rulesUsable": false
+  },
+  "preservation": {
+    "tenOldSupportedRecordsExact": true,
+    "baselineRawRecordsUnchanged": 1161,
+    "sameRecordReplacements": 13,
+    "additiveRecords": 481,
+    "coverageChangedRowsVersus1174": 481,
+    "coverageOtherRawRowsExact": 33604,
+    "allDimensionsCatalogDecisionsAndLegacyTagsUnchanged": true,
+    "existingPrimaryApprovalsAndLiveBankRowsUnchanged": true
+  },
+  "limitations": [
+    "Not full semantic certification of all34085 assignments.",
+    "No complete semantic dimensions certified; candidate publication/source replay does not approve interpretation.",
+    "Whole1655 root value/page reading and full definition/unit normalization remain pending.",
+    "1135 approval is only Defence40 for wear;1859 approval is only the named twice-cooking-to-burnt-meat route.",
+    "Historical nested candidate extraction labels remain preserved; separate integration notes explain current top-level support.",
+    "Pinned local research cache is required for source-byte replay; no fresh-checkout reconstruction guarantee.",
+    "No category redesign, tag grouping, runtime changes, new approvals, tests, commits, pushes or branches."
+  ],
+  "publisher": {
+    "path": "tmp/root-review/reconciled1655-root-durable-publication-20261004/publish.py",
+    "sha256": "8af32e58ce598db929b3e6e44cc8de407cbbd7b1014e57f48118883a9ded12af",
+    "byteLength": 10984
+  }
+}

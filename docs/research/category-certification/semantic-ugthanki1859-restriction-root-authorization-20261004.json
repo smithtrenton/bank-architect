@@ -1,0 +1,34 @@
+{
+  "approvalPolicySha256": "4cbed8dce7d6680f23d48a2f66e80da4b6d3b69f829bc499ceb918a229b99911",
+  "authorizations": [
+    {
+      "approvalRef": "docs/research/category-certification/semantic-ugthanki1859-restriction-root-authorization-20261004.json#claim-fd18875c2953b1c64965dcb9eceea66d81c16149a23d4a6c9c453ca0c103710e",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "beforeClaimSha256": "db23d04fef272671eb9cece22ec77fe40ab5145c537861d4ec96412db104007f",
+      "decision": "approve-supported",
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "recordId": "claim-fd18875c2953b1c64965dcb9eceea66d81c16149a23d4a6c9c453ca0c103710e",
+      "reviewedAt": "2026-10-04T14:33:14.561335Z",
+      "reviewer": "Codex root",
+      "scopeAcknowledged": true
+    }
+  ],
+  "policyAcceptance": {
+    "accepted": true,
+    "approvalRef": "docs/research/category-certification/semantic-ugthanki1859-restriction-root-authorization-20261004.json",
+    "reviewedAt": "2026-10-04T14:33:14.561335Z",
+    "reviewer": "Codex root"
+  },
+  "readingEvidence": {
+    "completeAssertionRead": true,
+    "exactQuote": "The raw ugthanki meat cannot be made into [[sinew]], and cannot be cooked twice to create burnt meat.",
+    "interpretation": "For exact raw item 1859, the source denies the twice-cooking route to burnt meat. This is a source-stated transformation restriction, not a general prohibition on cooking or a claim about interface action availability.",
+    "rootFullOwnPageRead": true,
+    "sourceRevision": 15187392,
+    "sourceSha256": "4f1c2a105529ce5d5039796118e3563784bd293e3046e7ecb6c2cc412ffcbb96"
+  },
+  "schema": "semantic-fact-root-authorization/v1"
+}

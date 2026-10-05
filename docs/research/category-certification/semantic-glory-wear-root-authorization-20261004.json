@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-fact-root-authorization/v1",
+  "approvalPolicySha256": "9d649a927bb42ab16cfdee81e6f87420a5cb8b4264549eca1ab4eef7ced65358",
+  "policyAcceptance": {
+    "accepted": true,
+    "reviewer": "Codex root",
+    "reviewedAt": "2026-10-04T19:08:27Z",
+    "approvalRef": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json"
+  },
+  "authorizations": [
+    {
+      "recordId": "claim-ed7e7a526506c29ce035f75ef65eb03cbc529f55e168c1feb8726cbdd7f1bddb",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "ee238cdc719ace7317de28d6de859379513770677958c3891d2d37c7b79f78a2",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T19:08:27Z",
+      "approvalRef": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json#claim-ed7e7a526506c29ce035f75ef65eb03cbc529f55e168c1feb8726cbdd7f1bddb",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-8255185e8b919e7846c8d4646e554cbd85509e0c6fcfef25e947cac7a1f1d7cf",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "e327d18b0b9b46beacd3d92a3867503aeedb8b4c1ab7f78e006cd086820c088f",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T19:08:27Z",
+      "approvalRef": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json#claim-8255185e8b919e7846c8d4646e554cbd85509e0c6fcfef25e947cac7a1f1d7cf",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-94079084b6cccb89a4b411e70aac75ca9f469b24f9b166a3381434b2e3e5e21c",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "b7780544e778b3fd88175471e814d2dbce1cb62d62968f88daee6e10ae2f817b",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T19:08:27Z",
+      "approvalRef": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json#claim-94079084b6cccb89a4b411e70aac75ca9f469b24f9b166a3381434b2e3e5e21c",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-6846391e0e4fc2a22eb0fada2b136626fafa381fc8ed03c18ebbae7c07860a34",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "5d3ea023577d4bec60ed39e7026b8fb19c8f446db4c342d403a2c63d5f353c2f",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T19:08:27Z",
+      "approvalRef": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json#claim-6846391e0e4fc2a22eb0fada2b136626fafa381fc8ed03c18ebbae7c07860a34",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-ca048364dfdae619d2cf13210b013584a4d38bcf21d3cf0e51bc4397559917a4",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "f17f83e5fe2f643e5f392b06079566690261f8fda041e2c080454fe7ebea5be7",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T19:08:27Z",
+      "approvalRef": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json#claim-ca048364dfdae619d2cf13210b013584a4d38bcf21d3cf0e51bc4397559917a4",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    }
+  ],
+  "readingEvidence": {
+    "rootFullOwnPageRead": true,
+    "sourceRevision": 15356028,
+    "sourceSha256": "40f89a07b34a932fbe6f1af6d63d93603357446a9e2f373cf12eb764874dcad0",
+    "exactQuote": "It is a very popular amulet in [[members]]-only worlds amongst players of all levels, as it provides good damage bonuses, has no requirements to wear, is much less expensive than the [[amulet of fury]], and offers useful [[teleport]]s.",
+    "completeAssertionRead": true,
+    "interpretation": "For exact selected item IDs 1704, 1706, 1708, 1710, and 1712, the cited own-page paragraph states in its members-only-worlds context that the amulet has no requirements to wear. An empty requirements list means only that no wearing prerequisites are stated in that paragraph context. It does not assert free-to-play availability or equip behavior, current bank eligibility, or any creation requirement; free-to-play applicability remains unknown.",
+    "rootAuthorizationBasis": "Explicit ROOT instruction authorizes only these five V2 wear-requirement claims, limited to no wearing prerequisites stated in the members-only-world paragraph.",
+    "rootReviewProof": "tmp/root-review/metadata-scope-root-review-continuation-20261004/glory-v2-root-replay.json",
+    "rootReviewProofSha256": "50a4b96bdc95670fe1c156ba186b4b2cb53108dd5875d76898c5d33abf4ab1c1",
+    "rootFullSourceReadProof": "tmp/root-review/utility-glory67-root-reading-20261004/manifest.json",
+    "independentV2ReviewSeal": "tmp/root-review/utility-glory67-native-lineage-independent-audit-20261004/seal.json",
+    "independentV2ReviewSealSha256": "8df977c80b44545a6f1da35bf439cc650992ec4aa2bbbe996f06a2841ce6c1f1"
+  }
+}

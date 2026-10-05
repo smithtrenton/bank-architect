@@ -1,0 +1,47 @@
+{
+  "schema": "semantic-metadata-recursive-definition-validation/v1",
+  "status": "passed; research-only structural validation, no semantic approval",
+  "pinnedPilotManifestSha256": "sha256:7776471a88e038af72cd55f868e99c795e9e9dcce40e16bb7802554bf934a4ec",
+  "pinnedAssertionsSha256": "sha256:8221d7271d2917103c24fc53569452c14ab558e6110cbb18a4b80d44bc602bcc",
+  "pinnedV2ManifestSha256": "sha256:53cab9f444a1e8b7d6decd63feac9e2461db2b9edbb67eb299688b1ae67f2856",
+  "assertionCount": 32,
+  "definitionCount": 31,
+  "exactPredicateVersionJoins": 32,
+  "recursiveShapeAssertionsChecked": 32,
+  "recursiveShapeErrors": 0,
+  "numericUnitErrors": 0,
+  "allStatusesCandidateUnassessed": true,
+  "arrayShapeUnion": "all members recursively incorporated; object properties required only when present in every merged observation",
+  "unitsReviewed": [
+    "count:item",
+    "count:dose",
+    "count:mark-of-grace",
+    "count:brimhaven-voucher",
+    "count:termite",
+    "count:volcanic-mine-point",
+    "count:tile",
+    "osrs:skill-level",
+    "osrs:experience-point",
+    "osrs:bonus-point",
+    "ratio:percent",
+    "time:hour",
+    "time:game-tick"
+  ],
+  "rawLiteralPolicy": "String formulas and ratio-like rarity literals remain inert; no calculations or probability coercions.",
+  "booleanPolicy": "Boolean values are retained as observed and remain scoped to the evidence statement.",
+  "coverageMissingLinks": [
+    {
+      "recordId": "claim-a47dc86635993b0f11904b98b64e0dff7a15ac26a1e951ae10245029d8b22d97",
+      "itemId": 12641,
+      "predicate": "osrs:function.recipe-input",
+      "dimension": "skills-recipes"
+    },
+    {
+      "recordId": "claim-fd786a325583be0c96d6cc27f675ef427c98d3dfeae234fdf70b48fc378f07dc",
+      "itemId": 19988,
+      "predicate": "osrs:storage.costume-room",
+      "dimension": "competing-roles"
+    }
+  ],
+  "coverageOverrideCount": 2
+}

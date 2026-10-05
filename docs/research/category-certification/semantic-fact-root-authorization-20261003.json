@@ -1,0 +1,153 @@
+{
+  "schema": "semantic-fact-root-authorization/v1",
+  "requestSha256": "f146320ad202ff4760570bfff4a0550db6e75c90b6009f0feda0dc178bc7fd45",
+  "approvalPolicySha256": "1d91f8026572326001ae1456eb8cae12563b02b7b8c4d8a9dd382245e6ab6068",
+  "policyAcceptance": {
+    "accepted": true,
+    "reviewer": "Codex root",
+    "reviewedAt": "2026-10-04T03:19:36Z",
+    "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json"
+  },
+  "authorizations": [
+    {
+      "recordId": "claim-63630669b1634c17d250677680f2c720ca2628dca6884c0c5cb71fae72d35e71",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "0ed8ac2748d1f4be24a12c3d41db8cbac7632407c5277ace14a05dc1c1a67bd5",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-63630669b1634c17d250677680f2c720ca2628dca6884c0c5cb71fae72d35e71",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-caaaf9c544244fdb126d5841dac47ff71442a15c5fd18f5711a1093dbd347165",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "ca163776e5a8b06a103818ba699899021db51ff01e7c14feddc502dca3b5d7de",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-caaaf9c544244fdb126d5841dac47ff71442a15c5fd18f5711a1093dbd347165",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-3f6c7d12ddf7f35b3c93b36d37354ac3123e63f91346f66787e7a402e7472e67",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "603187cb2ce073e0db531f4f312259f3f1cf4c8a23a4660b475bca41ed49aad6",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-3f6c7d12ddf7f35b3c93b36d37354ac3123e63f91346f66787e7a402e7472e67",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-01df7426d5bc751dee89ce9b07f9fcaa840775392218fa5f5a408cd912c07510",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "fae0c667bf193a5ec3babd01188cecce434b53510bea22dc657b1202b8181039",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-01df7426d5bc751dee89ce9b07f9fcaa840775392218fa5f5a408cd912c07510",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-a4372ea8437555e25bb8cf8e6297b2be338c83976e2cdefb74f74a9fffa32e86",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "55175b9deafe2c816a891334662ecbd78ad34c5e02b2db9211cf3a56a6179317",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-a4372ea8437555e25bb8cf8e6297b2be338c83976e2cdefb74f74a9fffa32e86",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-fe90dc269ca7ea6f56f83e02891429f97a310b62824cfdc5b0c8a5dd37c9b5c8",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "a50e084250e62c0395f57f54101edb1c17afb895432c3a1a796677575e17a23f",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-fe90dc269ca7ea6f56f83e02891429f97a310b62824cfdc5b0c8a5dd37c9b5c8",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-8e09686a446995b5154d3ee14210cf32a8eea04d7454b5dd565123e57fbb4857",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "94cece5e60691faa085fc40e192c475324521e8f10ce99b6b3ed0c8fbb5562bb",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-8e09686a446995b5154d3ee14210cf32a8eea04d7454b5dd565123e57fbb4857",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-12e39109b63c5ebeee6101c42e38b7fed615048e7a56aef1a5c2ba29fbe3c237",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "c2368f3ee5617856e453ae7ce87d3cfcaa6a4469eea2d09dbe9604c72e5ccb22",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-12e39109b63c5ebeee6101c42e38b7fed615048e7a56aef1a5c2ba29fbe3c237",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-cfcb8861dcc5e3a7ea3a73fbf04eb69ff70f5d1254f9954c7e4eb168e92760ef",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "d86ac9e94f8a7de70a88ffa5d17531381cbbebec32dcfeec7e4dd53502c3a916",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-cfcb8861dcc5e3a7ea3a73fbf04eb69ff70f5d1254f9954c7e4eb168e92760ef",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-9047232a9ce036ae85ba76c840182e6ec83effe401a2c4ab2d77a6e7582da15c",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "ed304202269e5cb3f1cf6e1160883fac41f9db507c7ea44c1303cf8f4d034a45",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T03:19:36Z",
+      "approvalRef": "docs/research/category-certification/semantic-fact-root-authorization-20261003.json#claim-9047232a9ce036ae85ba76c840182e6ec83effe401a2c4ab2d77a6e7582da15c",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    }
+  ]
+}

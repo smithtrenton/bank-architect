@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-fact-root-authorization/v1",
+  "approvalPolicySha256": "59c88e6f5d693d76c70d43759a317d161ed77d172ac42d7d533b21b339a57d8b",
+  "policyAcceptance": {
+    "accepted": true,
+    "reviewer": "Codex root",
+    "reviewedAt": "2026-10-04T21:19:16Z",
+    "approvalRef": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json"
+  },
+  "authorizations": [
+    {
+      "recordId": "claim-fedb5766c4af9072c8039f2b3f48fa22ddecd06de2bb6ee674561840f2ba75cf",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "e1208d807440a10f17e43594309cf314bf963e992c6bafbb5dcfaf7bf0c41625",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T21:19:16Z",
+      "approvalRef": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json#claim-fedb5766c4af9072c8039f2b3f48fa22ddecd06de2bb6ee674561840f2ba75cf",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-102bff13e203d2d9659ab2a329850e0e6a4579b47588bd18c8eb630b9053ff05",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "2113873cb1a91bdfa4962c2449f1c7c02ed51b61fd8cc53c7855c34cccc82f90",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T21:19:16Z",
+      "approvalRef": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json#claim-102bff13e203d2d9659ab2a329850e0e6a4579b47588bd18c8eb630b9053ff05",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-317b540164e74519cad7581a08f3ab1e619826d0c0e4f9a79c24a15c94e6e6df",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "c3f0ed66935f8582194b1029e8e603e9e4003b5ee77e73380c6d6b2315d35557",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T21:19:16Z",
+      "approvalRef": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json#claim-317b540164e74519cad7581a08f3ab1e619826d0c0e4f9a79c24a15c94e6e6df",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-e882576bb3e6394fd691edffbe8d1027bdd6996d75333199874229c21d59159f",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "07fa51b2c4e3bad459166aaba3a1b5ac477c434a47659e239075bfdf02c47a49",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T21:19:16Z",
+      "approvalRef": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json#claim-e882576bb3e6394fd691edffbe8d1027bdd6996d75333199874229c21d59159f",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    },
+    {
+      "recordId": "claim-82e9701a21408783b1da19ad71aded973d90e840937f438db2f443f4ccb750a1",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "f13f57b6c83affcc608254d920fecb3f25eae6c68e6ec93cc581c24354dea29d",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T21:19:16Z",
+      "approvalRef": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json#claim-82e9701a21408783b1da19ad71aded973d90e840937f438db2f443f4ccb750a1",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true
+    }
+  ],
+  "readingEvidence": {
+    "rootFullOwnPagesRead": 5,
+    "completeAssertionsRead": true,
+    "interpretation": "For each exact selected hat ID, the own-page bonus table explicitly lists head slot, Magic attack3 and defence3, all eleven other combat/prayer axes0, and magic damage0percent. No absent speed/range, membership, wearing prerequisite, origin, category/tag, bank or other-state assertion is authorized.",
+    "rootReviewProof": {
+      "path": "tmp/root-review/five-hat-root-authorization-20261004/root-replay.json",
+      "sha256": "2ba38efa50d184df3fea218fb16c342fee30774a5edc495cc7f623ee852d0126"
+    },
+    "independentReviewSeal": {
+      "path": "tmp/root-review/materials-five-hat-independent-audit-20261004/seal.json",
+      "sha256": "71c68581153da57e3a602a70b636f3d7f007f0c5ae2fe1a9a6f9d854848d5ccb"
+    }
+  }
+}

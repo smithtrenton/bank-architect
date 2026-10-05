@@ -1,0 +1,971 @@
+{
+  "schema": "materials-first40-draft-definition-provenance/v1",
+  "status": "unregistered candidate vocabulary; no rules or completeness approval",
+  "sources": [
+    {
+      "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+      "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+    },
+    {
+      "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+      "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+    },
+    {
+      "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+      "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+    }
+  ],
+  "selectedPredicateVersionKeys": 30,
+  "exactDraftDefinitionMatches": 30,
+  "keys": [
+    {
+      "predicate": "osrs.availability.obtainability",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.availability.obtainability",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "obtainability-statement",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "An own-page statement about whether the exact item is currently obtainable by players, kept separate from historical cache existence.",
+            "unitGuidance": "Boolean only when directly stated.",
+            "evidenceRequirement": "Pinned own-page current statement and any explicitly separate historical clause.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.effect.mining-perk-context",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.effect.mining-perk-context",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "conditional-mining-perks",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Conditional Mining and smithing perk outcomes, exact output quantities when stated, and qualitative ore-saving effects.",
+            "unitGuidance": "osrs:item-count for explicit yields; odds remain unknown when not stated.",
+            "evidenceRequirement": "Pinned own-page passage with exact activation conditions.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.effect.smelting-experience",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.effect.smelting-experience",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "conditional-experience-effect",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Smelting experience outcomes for the exact ore under explicit equipment conditions, preserving both conditional and normal values.",
+            "unitGuidance": "osrs:experience-point",
+            "evidenceRequirement": "Pinned own-page paragraph with stated conditions and quantities.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.animation-use",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.animation-use",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "animation-function",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Direct animation-specific function, activity/location, action target and temporal equipment state.",
+            "unitGuidance": "No numeric units unless source gives them.",
+            "evidenceRequirement": "Pinned own-page lead or use passage.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.autocast-capability",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.autocast-capability",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "autocast-capability",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Explicit autocast support by named spellbook while the exact item is equipped.",
+            "unitGuidance": "No numeric units.",
+            "evidenceRequirement": "Pinned own-page autocasting template or statement; preserve explicit yes/no values.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.downstream-material-substitution",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.downstream-material-substitution",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "downstream-substitution-use",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A downstream substitution role of an output derived from the subject item; does not transfer direct-use status to the upstream item.",
+            "unitGuidance": "No unit unless numeric source evidence exists.",
+            "evidenceRequirement": "Pinned own-page substitution passage and explicit upstream/output relationship.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.downstream-workflow-context",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.downstream-workflow-context",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "downstream-output-quest-workflow",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A downstream workflow involving an output derived from the subject item; subject is explicitly not asserted as the direct input to later crafting.",
+            "unitGuidance": "Quantities only when source states them; otherwise retain not-stated markers.",
+            "evidenceRequirement": "Pinned own-page paragraph bound to exact source item; represent intervening output state.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.equipped-stat-profile",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.equipped-stat-profile",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "equipped-stat-profile",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Exact equipped combat-stat profile, slot, attack speed and style sourced from the item’s own stat table.",
+            "unitGuidance": "osrs:attack-bonus; osrs:defence-bonus; osrs:strength-bonus; osrs:ranged-strength-bonus; osrs:magic-damage-percent; osrs:prayer-bonus; osrs:game-tick.",
+            "evidenceRequirement": "Pinned own-page stat table plus exact item infobox identity.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.operation-compatibility",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.operation-compatibility",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Explicitly stated compatibility or incompatibility for one named item operation, scoped to that operation.",
+            "valueShape": "operation:string,supported:boolean,scope:string",
+            "unitGuidance": "boolean",
+            "evidenceRequirement": "Exact own-page statement naming the operation and polarity; does not imply other functions or bankability.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "operation",
+                "scope",
+                "supported"
+              ],
+              "properties": {
+                "operation": {
+                  "type": "string"
+                },
+                "scope": {
+                  "type": "string"
+                },
+                "supported": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.ore-smelting-output",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.ore-smelting-output",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "ore-smelting-output",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Transformation/process role of an exact ore item into its named bar output when smelted; do not infer input/output count, skill requirement or consumption unless a source states it.",
+            "unitGuidance": "osrs:item-count only when explicitly stated",
+            "evidenceRequirement": "Pinned own-page direct statement plus exact ID-bound item infobox.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.function.role-competition",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.function.role-competition",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "direct-and-secondary-roles",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Multiple source-stated direct roles and the article’s explicit functional limitation, while keeping transformed-state uses separate.",
+            "unitGuidance": "No numeric units unless independently sourced.",
+            "evidenceRequirement": "Pinned own-page direct function/limitation passage.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.acquisition-origin",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+            "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.acquisition-origin",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A documented way the exact item can be obtained; listed source types do not imply completeness or availability.",
+            "unitGuidance": "Every nested numeric quantity includes a namespaced unit; unknown values are omitted or stated as not specified, never inferred.",
+            "evidenceRequirement": "Exact own-page Wiki revision/hash/path, ID-bound raw Infobox Item and literal quote that directly supports this fact.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.applicability",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+            "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.applicability",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A directly documented mode, activity, location, quest, target, or skill-state condition governing an exact item function.",
+            "unitGuidance": "Every nested numeric quantity includes a namespaced unit; unknown values are omitted or stated as not specified, never inferred.",
+            "evidenceRequirement": "Exact own-page Wiki revision/hash/path, ID-bound raw Infobox Item and literal quote that directly supports this fact.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.direct-effect",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+            "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.direct-effect",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A directly documented item effect, interaction, or function, including target and conditional outcomes; does not infer omitted effects.",
+            "unitGuidance": "Every nested numeric quantity includes a namespaced unit; unknown values are omitted or stated as not specified, never inferred.",
+            "evidenceRequirement": "Exact own-page Wiki revision/hash/path, ID-bound raw Infobox Item and literal quote that directly supports this fact.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.quest-use",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+            "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.quest-use",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A documented exact item quantity or role in a named quest; alternatives and conditions are retained.",
+            "unitGuidance": "Every nested numeric quantity includes a namespaced unit; unknown values are omitted or stated as not specified, never inferred.",
+            "evidenceRequirement": "Exact own-page Wiki revision/hash/path, ID-bound raw Infobox Item and literal quote that directly supports this fact.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.recipe-role",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+            "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.recipe-role",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A documented creation, processing, or material-input role tied to the exact item state; input quantities, outputs, requirements, experience, timing, and explicit consumption are retained only as sourced.",
+            "unitGuidance": "Every nested numeric quantity includes a namespaced unit; unknown values are omitted or stated as not specified, never inferred.",
+            "evidenceRequirement": "Exact own-page Wiki revision/hash/path, ID-bound raw Infobox Item and literal quote that directly supports this fact.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.trade-interaction",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard2-3132-hitpoints-unit-overlay-20261003/predicate-definitions.json",
+            "sha256": "f3b97556980ea1bd9e3a6b634572fe8c918c739c442fe057fc6f2343db237488"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.trade-interaction",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A documented sale or purchase interaction, including price and conditions.",
+            "unitGuidance": "Every nested numeric quantity includes a namespaced unit; unknown values are omitted or stated as not specified, never inferred.",
+            "evidenceRequirement": "Exact own-page Wiki revision/hash/path, ID-bound raw Infobox Item and literal quote that directly supports this fact.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.item.tradeability",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.item.tradeability",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Explicit tradeability statement for the exact item, preserving any source comparison without inferring the comparison item's own tradeability.",
+            "valueShape": "item:string,tradeable:boolean,comparison?:string",
+            "unitGuidance": "boolean",
+            "evidenceRequirement": "Exact own-page statement naming the item and tradeability.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "comparison",
+                "item",
+                "tradeable"
+              ],
+              "properties": {
+                "comparison": {
+                  "type": "string"
+                },
+                "item": {
+                  "type": "string"
+                },
+                "tradeable": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.observation.own-page-mechanics-excerpt",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.observation.own-page-mechanics-excerpt",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "own-page-mechanics-excerpt",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Verbatim, source-scoped own-page mechanics excerpt with section and candidate facet labels; numeric values are typed only when an explicit prose unit or recognized Recipe parameter supplies them.",
+            "unitGuidance": "Only explicit units are emitted, including osrs:skill-level, osrs:experience-point, osrs:coin, osrs:game-tick, osrs:percent, and osrs:item-count.",
+            "evidenceRequirement": "Pinned own-page exact-wiki excerpt with exact ID-bound variant, revision, raw page hash, and verbatim literal.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.origin.obtainment",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.origin.obtainment",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Documented source methods, including acquisition type, location and prerequisite conditions.",
+            "valueShape": "methods:array<object>{method:string,source:string,condition?:string}",
+            "unitGuidance": "none",
+            "evidenceRequirement": "Exact own-page acquisition prose; transcluded source tables remain unassessed.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "methods"
+              ],
+              "properties": {
+                "methods": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "method",
+                      "source"
+                    ],
+                    "properties": {
+                      "condition": {
+                        "type": "union",
+                        "variants": [
+                          {
+                            "type": "object",
+                            "required": [
+                              "level"
+                            ],
+                            "properties": {
+                              "level": {
+                                "type": "object",
+                                "required": [
+                                  "unit",
+                                  "value"
+                                ],
+                                "properties": {
+                                  "unit": {
+                                    "type": "string"
+                                  },
+                                  "value": {
+                                    "type": "number"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "method": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.origin.obtainment-methods",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.origin.obtainment-methods",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "acquisition-methods",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Documented acquisition sources, conditions and explicit stock quantities/periods for the exact item.",
+            "unitGuidance": "osrs:item-count; osrs:skill-level; osrs:coin.",
+            "evidenceRequirement": "Pinned own-page origin paragraph and recipe evidence for crafted acquisition.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.origin.production-event",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.origin.production-event",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Exact own-page acquisition or production context for an item, keeping event type, location, quest and conditions explicit.",
+            "valueShape": "events:array<object>{kind:string,location?:string,condition?:string,quest?:string}",
+            "unitGuidance": "none",
+            "evidenceRequirement": "Exact own lead/source sentence; listed events are not an exhaustive acquisition catalog.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "events"
+              ],
+              "properties": {
+                "events": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "kind"
+                    ],
+                    "properties": {
+                      "condition": {
+                        "type": "string"
+                      },
+                      "kind": {
+                        "type": "string"
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "quest": {
+                        "type": "string"
+                      },
+                      "rate": {
+                        "type": "object",
+                        "required": [
+                          "unit",
+                          "value"
+                        ],
+                        "properties": {
+                          "unit": {
+                            "type": "string"
+                          },
+                          "value": {
+                            "type": "number"
+                          }
+                        }
+                      },
+                      "source": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.origin.salvage-acquisition",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.origin.salvage-acquisition",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Explicit salvage-origin statement with named activity/source and exact skill-level condition.",
+            "valueShape": "method:string,condition:object{skill:string,level:object{value:number,unit:osrs:skill-level}}",
+            "unitGuidance": "osrs:skill-level",
+            "evidenceRequirement": "Exact own-page salvage statement; do not infer requirements for unrelated sources.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "condition",
+                "method"
+              ],
+              "properties": {
+                "condition": {
+                  "type": "object",
+                  "required": [
+                    "level",
+                    "skill"
+                  ],
+                  "properties": {
+                    "level": {
+                      "type": "object",
+                      "required": [
+                        "unit",
+                        "value"
+                      ],
+                      "properties": {
+                        "unit": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "number"
+                        }
+                      }
+                    },
+                    "skill": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "method": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.recipe.elemental-battlestaff-creation",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.recipe.elemental-battlestaff-creation",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "transformation-recipes",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Four element-specific transformations that use the exact battlestaff with a matching orb to create elemental battlestaves; no quantities are assumed.",
+            "unitGuidance": "osrs:item-count only when explicitly stated.",
+            "evidenceRequirement": "Pinned own-page transformation sentence; preserve the orb-creation prerequisite separately.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.recipe.fletching-creation",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.recipe.fletching-creation",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "creation-recipe",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Exact Fletching creation recipe with skill level, boostability, experience, ticks, tool, inputs, output, and only source-stated quantities.",
+            "unitGuidance": "osrs:skill-level; osrs:experience-point; osrs:game-tick; osrs:item-count.",
+            "evidenceRequirement": "Pinned own-page Recipe template bound to exact item infobox ID.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.requirement.equip-levels",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.requirement.equip-levels",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "equipment-use-requirement",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Skill-level requirements for wielding the exact item; applies to continued use/equipment, not creation or acquisition.",
+            "unitGuidance": "osrs:skill-level",
+            "evidenceRequirement": "Pinned own-page direct wield-requirement statement.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.requirement.mining-level",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.requirement.mining-level",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "skill-requirement",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A numeric Mining level requirement with an explicit action/stage qualifier such as mining the exact item.",
+            "unitGuidance": "osrs:skill-level",
+            "evidenceRequirement": "Pinned own-page statement; preserve which action the level applies to.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.source.item-description",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.source.item-description",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Exact source descriptor on the item page, stored as the author wording rather than a complete function or exclusion claim.",
+            "valueShape": "sourceDescriptor:string,scope:string,doesNotNegateOtherDocumentedClaims:boolean,bankabilityPolicy:string",
+            "unitGuidance": "none",
+            "evidenceRequirement": "Exact own-page descriptor sentence; do not turn it into a universal absence-of-use or bank-policy assertion.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "bankabilityPolicy",
+                "doesNotNegateOtherDocumentedClaims",
+                "scope",
+                "sourceDescriptor"
+              ],
+              "properties": {
+                "bankabilityPolicy": {
+                  "type": "string"
+                },
+                "doesNotNegateOtherDocumentedClaims": {
+                  "type": "boolean"
+                },
+                "scope": {
+                  "type": "string"
+                },
+                "sourceDescriptor": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.trade.npc-sale",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard0-corrections-v2-20261003/effective-predicate-definitions.json",
+            "sha256": "e5a567278db3f13177846b2a0e970f7674e12d43eb9fe44bcbd59fa8a7a559b0"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.trade.npc-sale",
+            "predicateVersion": 1,
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "Explicit NPC sale terms including numeric price, ring condition and excluded noted state.",
+            "valueShape": "buyer:string,prices:array<object>{amount:number,unit:osrs:coin,condition?:string},acceptsNoted:boolean",
+            "unitGuidance": "osrs:coin",
+            "evidenceRequirement": "Exact own-page sale statement; preserve conditional price and noted-state restriction.",
+            "ruleUseAllowed": false,
+            "observedValueShape": {
+              "type": "object",
+              "required": [
+                "acceptsNoted",
+                "buyer",
+                "prices"
+              ],
+              "properties": {
+                "acceptsNoted": {
+                  "type": "boolean"
+                },
+                "buyer": {
+                  "type": "string"
+                },
+                "prices": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "amount",
+                      "condition",
+                      "unit"
+                    ],
+                    "properties": {
+                      "amount": {
+                        "type": "number"
+                      },
+                      "condition": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "osrs.workflow.downstream-state-context",
+      "predicateVersion": 1,
+      "matches": [
+        {
+          "source": {
+            "path": "tmp/root-review/materials-first100-normalized-shard1-independent-fixes-20261003/predicate-definitions.json",
+            "sha256": "1dccf12b994de5ecde066c44f304cac7430a032c90fb3f8dbbc695bf2b7d0fa8"
+          },
+          "candidateDefinition": {
+            "predicate": "osrs.workflow.downstream-state-context",
+            "predicateVersion": 1,
+            "factNamespace": "item-fact",
+            "factName": "downstream-upgrade-context",
+            "valueType": "object",
+            "status": "candidate-unreviewed",
+            "meaning": "A later operation on a transformed state derived from the subject; the later-stage item is not recorded as a direct input use of the original exact item.",
+            "unitGuidance": "osrs:coin when stated.",
+            "evidenceRequirement": "Pinned own-page workflow paragraph with explicit transformed-state boundary.",
+            "ruleUseAllowed": false
+          }
+        }
+      ]
+    }
+  ],
+  "registrationGranted": false,
+  "ruleUseAllowed": false,
+  "completeNestedMeaningsShapesAndUnitsCertified": false,
+  "auditScopeAddendum": "The independent semantic audit inspected a narrower five-file definition set and found18/30. Including the original shard0 and shard2 candidate definitions resolves all30 exact draft joins. This does not register or approve their nested meanings, shapes or units."
+}

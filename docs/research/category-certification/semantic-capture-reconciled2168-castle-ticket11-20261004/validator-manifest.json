@@ -1,0 +1,12 @@
+{
+  "formatVersion": "semantic-snapshot/v1",
+  "runId": "research-semantic-capture-2168-castle-ticket11-20261004",
+  "sourceGitRevision": "current2157-manifest:3f49bf675d983cda2d848edbae8017298e8d883d7b13993d8a38b080a1a66eca + ticket11-transition:9bc6deb4136a56e4cf4138d52061ce56ab18871a9c0fb386afabd05ac5d859cc",
+  "recordsPath": "effective-2168.jsonl.gz",
+  "recordsSha256": "1bd7351acb35b359896ca86392db614a261bc2e3494c54f4878c7818f1f20f26",
+  "decompressedSha256": "6fa4b563d1867b889ec15bfcf5515b9d047936531e3685fcdcef4dcde9705ee1",
+  "schemaSha256": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a",
+  "sourceCrosswalkPath": "source-crosswalk-2168.jsonl",
+  "sourceCrosswalkSha256": "3062691ee417a16e03f9811090e26ca736d76870be66ec46271b5e9227a15b41",
+  "pathRepairPredecessorManifestSha256": "aee1ab713564909f7877399f32ce027936ae46b5d4d9c3a75239367c357f67d6"
+}

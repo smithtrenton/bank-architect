@@ -1,0 +1,1303 @@
+{
+  "schema": "castle-ticket11-supported-transition-inverse-proof/v1",
+  "recordCount": 11,
+  "records": [
+    {
+      "ordinal": 50,
+      "recordId": "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:d22faf0b263cba78910b9483b884c586d41a41e74d5babc8642d1c40e271815e",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:activity-minimum",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.origin.minimum-activity-duration",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "activity": "Castle Wars",
+          "minimum": {
+            "unit": "time:minute",
+            "value": 15
+          }
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-origin-minimum-activity-duration",
+        "predicateVersion": 1,
+        "qualifiers": {},
+        "recordId": "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 51,
+      "recordId": "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:b524f162a0c136e94037cd9ef7427de6d6a8b0b57a37accc3ce3106f5829dee7",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-2:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "* 3 tickets are earned if scores are tied at any number other than 0.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "nonzero",
+            "ownScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 3
+          },
+          "world": "dedicated"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 52,
+      "recordId": "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:2c0b29c90ac75845d50485a267242e549301656e9b16fdb0565455d3247ed525",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-3:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "* 3 tickets are earned for winning if the opposing team has scored.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 3
+          },
+          "world": "dedicated"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 53,
+      "recordId": "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:50ea6beae6cbe245b82fdd8ce8d210acbe0ab3d907f07e161ec9dd63f1cb872d",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-1:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "* 2 tickets are earned if scores are tied at 0-0.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "zero",
+            "ownScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "dedicated"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 54,
+      "recordId": "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:7a7297c27ac6b44c2fabe0d882cc523cd0a06d3a2fb914705e0aecfdd233b5ee",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-7:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "*2 tickets are earned if scores are tied at any number other than 0.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "nonzero",
+            "ownScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "ordinary"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 55,
+      "recordId": "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:0bbc2650663f31c7faba065887385d355a17827407abd987eb49b718f3acb8d7",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-5:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "*1 ticket is earned if the player's team loses.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "loss"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 1
+          },
+          "world": "ordinary"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 56,
+      "recordId": "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:03874cb745e61096f68a1398802ff6f04302a5408b73d5c8c6b365d7e5b3efa8",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-6:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "*1 ticket is earned if scores are tied at 0-0.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "zero",
+            "ownScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 1
+          },
+          "world": "ordinary"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 57,
+      "recordId": "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:27cf0a6cf02f2489d4064108ad39e8e5d558f2493b55606daba0445011832325",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-4:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "* 4 tickets are earned for winning if the opposing team had 0 points.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 4
+          },
+          "world": "dedicated"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 58,
+      "recordId": "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:196a4a49305dcae956ce93e0f832d92e4289f37a520a120d5b410a996fec1cd5",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-9:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "*3 tickets are earned for winning if the opposing team had 0 points.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 3
+          },
+          "world": "ordinary"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 59,
+      "recordId": "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:b12f4275d2fde8f250a7ee102d30d30678d50b46d82c88fa784301f9b5e02335",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-0:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "* 2 tickets are earned if the player's team loses.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "loss"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "dedicated"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    },
+    {
+      "ordinal": 60,
+      "recordId": "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+      "removedReview": {
+        "reviewer": "Codex root",
+        "reviewedAt": "2026-10-04T23:24:49Z",
+        "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+        "approvalPolicySha256": "sha256:77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+        "claimSha256": "sha256:63f92941526432b7243701b2e6d717a794fc57db9f134a27e7d24def67dbe74c",
+        "approvalScope": [
+          "item-fact"
+        ]
+      },
+      "restoredStatus": "unassessed",
+      "restoredReviewStage": "candidate",
+      "restoredRecord": {
+        "claimSource": "wiki-own-item:4067:award-8:structured-outcome",
+        "evidence": [
+          {
+            "exactVariant": {
+              "fields": {
+                "equipable": "No",
+                "examine": "I can exchange these for further items.",
+                "id": "4067",
+                "image": "[[File:Castle wars ticket.png]]",
+                "members": "No",
+                "name": "Castle wars ticket",
+                "noteable": "No",
+                "options": "Drop",
+                "quest": "No",
+                "release": "[[13 December]] [[2004]]",
+                "stackable": "Yes",
+                "tradeable": "No",
+                "update": "Castle Wars",
+                "value": "1",
+                "weight": "0.000"
+              },
+              "idField": "id",
+              "idFieldLiteral": "|id = 4067",
+              "infoboxRaw": "{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}",
+              "itemId": 4067
+            },
+            "kind": "exact-wiki",
+            "quote": "*2 tickets are earned for winning if the opposing team has scored.",
+            "sourcePath": "tmp/category-certification/wiki-articles/text/15184720.txt",
+            "sourceRevision": 15184720,
+            "sourceSha256": "sha256:5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+            "sourceTitle": "Castle wars ticket",
+            "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184720",
+            "subjectItemId": 4067
+          }
+        ],
+        "extensions": {
+          "captureContext": {
+            "activityOriginIsNotUseRestriction": true,
+            "bankabilityStatus": "unknown",
+            "candidateSemanticFact": true,
+            "categoryApprovalSeparate": true,
+            "dimensionLinksPartialOnly": true,
+            "semanticApprovalGranted": false
+          }
+        },
+        "fact": {
+          "name": "osrs.quantity.castle-wars-ticket-award",
+          "namespace": "item-fact",
+          "valueType": "object"
+        },
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "ordinary"
+        },
+        "formatVersion": "semantic-item-assertion/v1",
+        "itemId": 4067,
+        "itemName": "Castle wars ticket",
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "qualifiers": {},
+        "recordId": "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+        "recordType": "fact-assessment",
+        "reviewStage": "candidate",
+        "runId": "utility20-semantic-candidate-capture-20261004",
+        "sourceObservation": {
+          "currentPrimaryRouteContext": {
+            "assignmentTsvSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+            "category": "CURRENCY",
+            "decision": "unresolved",
+            "ironmanTabKey": "currency-utilities",
+            "ownerShard": "currency-runes-teleport",
+            "subcategory": "currency"
+          },
+          "exactVariantSelector": {
+            "idField": "id",
+            "idFieldLiteral": "|id = 4067",
+            "itemName": "Castle wars ticket",
+            "version": "unspecified"
+          },
+          "ownPageLeadLiteral": "{{External|rs}}\n{{Infobox Item\n|name = Castle wars ticket\n|image = [[File:Castle wars ticket.png]]\n|release = [[13 December]] [[2004]]\n|update = Castle Wars\n|members = No\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = Yes\n|noteable = No\n|options = Drop\n|examine = I can exchange these for further items.\n|value = 1\n|weight = 0.000\n|id = 4067\n}}\n[[File:Castle wars ticket detail.png|left|160px]]\n'''Castle Wars tickets''' are tickets that are awarded in the [[Castle Wars]] [[minigame]] to players who spend at least 15 minutes in the game. The amount of tickets earned are dependent on whether the player's team wins, loses or ties, as well as whether the opposing team has scored, and also on whether the player is in a dedicated Castle Wars world.\n\nDedicated Castle Wars worlds:\n\n* 2 tickets are earned if the player's team loses.\n* 2 tickets are earned if scores are tied at 0-0.\n* 3 tickets are earned if scores are tied at any number other than 0.\n* 3 tickets are earned for winning if the opposing team has scored.\n* 4 tickets are earned for winning if the opposing team had 0 points.\n\nNon-Castle Wars worlds:\n*1 ticket is earned if the player's team loses.\n*1 ticket is earned if scores are tied at 0-0.\n*2 tickets are earned if scores are tied at any number other than 0.\n*2 tickets are earned for winning if the opposing team has scored.\n*3 tickets are earned for winning if the opposing team had 0 points.\n\nTickets can be spent on items in the [[Castle Wars Ticket Exchange]] shop.\n\nItems can be sold back for a full ticket refund.\n"
+        },
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "status": "unassessed"
+      },
+      "inverseCanonicalEqualsBefore": true
+    }
+  ],
+  "allRestoreExact": true
+}

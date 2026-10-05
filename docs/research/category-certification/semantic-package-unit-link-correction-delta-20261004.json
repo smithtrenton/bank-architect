@@ -1,0 +1,160 @@
+{
+  "format": "exact-total-unit-correction-delta/v1",
+  "status": "candidate definition/crosswalk only; no fact change or approval",
+  "predecessorManifestSha256": "2c0edd261d08a27e64667c33a9b34f4e6441776b6739f5c0939bca700e2d1894",
+  "predecessorDefinitionsSha256": "8b2260139f477f95f96ce7226a47299925af34211815e18df7de385a21facf9d",
+  "successorDefinitionsSha256": "5653631bcd06fae56b30a4457dfcb683d99b1eca6b91ddea5964a8c2a25c1c30",
+  "predecessorCrosswalkSha256": "9c2057716104d33934b3d96e86598caae8d1b5b45de96bbac4d3ac34f3de3fc7",
+  "successorCrosswalkSha256": "91c073ac989fbec7a54d3712f025f10b5134637aa3c0fc3fdcd497ae76e6bb34",
+  "factPath": "tmp/root-review/package-durable-checkpoint-design-v3-20261003/package-assertions-effective.jsonl",
+  "factRecordId": "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c",
+  "itemId": 27019,
+  "factValueUnchanged": true,
+  "exactFactValue": {
+    "distributionMiningLevelCondition": "does not affect distribution",
+    "expectedPerPack": [
+      {
+        "item": "coal",
+        "quantity": 24.5,
+        "quantityUnit": "count:item"
+      },
+      {
+        "item": "iron ore",
+        "quantity": 3,
+        "quantityUnit": "count:item"
+      },
+      {
+        "item": "mithril ore",
+        "quantity": 1.9,
+        "quantityUnit": "count:item"
+      },
+      {
+        "item": "adamantite ore",
+        "quantity": 0.5,
+        "quantityUnit": "count:item"
+      },
+      {
+        "item": "runite ore",
+        "quantity": 0.085,
+        "quantityUnit": "count:item"
+      }
+    ],
+    "fixedPackTotal": 30,
+    "outputs": [
+      {
+        "distributionEstimated": true,
+        "item": "Coal",
+        "noted": true,
+        "observedCount": 46854,
+        "observedCountUnit": "count:item",
+        "quantityPerOccurrence": 1,
+        "quantityUnit": "count:item",
+        "rollUnit": "count:roll",
+        "rollsPerPack": 30
+      },
+      {
+        "distributionEstimated": true,
+        "item": "iron ore",
+        "noted": true,
+        "observedCount": 5803,
+        "observedCountUnit": "count:item",
+        "quantityPerOccurrence": 1,
+        "quantityUnit": "count:item",
+        "rollUnit": "count:roll",
+        "rollsPerPack": 30
+      },
+      {
+        "distributionEstimated": true,
+        "item": "mithril ore",
+        "noted": true,
+        "observedCount": 3701,
+        "observedCountUnit": "count:item",
+        "quantityPerOccurrence": 1,
+        "quantityUnit": "count:item",
+        "rollUnit": "count:roll",
+        "rollsPerPack": 30
+      },
+      {
+        "distributionEstimated": true,
+        "item": "adamantite ore",
+        "noted": true,
+        "observedCount": 870,
+        "observedCountUnit": "count:item",
+        "quantityPerOccurrence": 1,
+        "quantityUnit": "count:item",
+        "rollUnit": "count:roll",
+        "rollsPerPack": 30
+      },
+      {
+        "distributionEstimated": true,
+        "item": "runite ore",
+        "noted": true,
+        "observedCount": 162,
+        "observedCountUnit": "count:item",
+        "quantityPerOccurrence": 1,
+        "quantityUnit": "count:item",
+        "rollUnit": "count:roll",
+        "rollsPerPack": 30
+      }
+    ],
+    "samplePackCount": 1913,
+    "samplePackCountUnit": "count:pack",
+    "totalUnit": "count:item"
+  },
+  "sourceEvidencePin": {
+    "revision": 15190928,
+    "sha256": "11add36dd9fb1e701aad8246f3fd030656ecab507ebf793f85c262a5f4344f74",
+    "path": "tmp/category-certification/wiki-articles/text/15190928.txt",
+    "title": "Ore pack (Giants' Foundry)",
+    "quoteSubstring": "A pack contains 30 noted ores"
+  },
+  "definitionChanges": [
+    {
+      "path": "factValue.fixedPackTotal.appliesTo",
+      "before": null,
+      "after": "27019/wiki.package.contents"
+    },
+    {
+      "path": "factValue.fixedPackTotal.meaning",
+      "before": "The own page states that each pack contains 30 noted ores; the candidate field omits an explicit companion unit key, so this projection supplies its intended typed meaning without changing the fact object.",
+      "after": "The exact ID 27019 own page states that each pack contains 30 noted ores. This is the fixed per-pack item total; totalUnit is its explicit count:item companion."
+    },
+    {
+      "path": "factValue.fixedPackTotal.unitField",
+      "before": null,
+      "after": "totalUnit"
+    },
+    {
+      "path": "factValue.totalUnit.appliesTo",
+      "before": null,
+      "after": "27019/wiki.package.contents"
+    },
+    {
+      "path": "factValue.totalUnit.meaning",
+      "before": "Unit for the aggregate observed total in the candidate object.",
+      "after": "Unit companion for factValue.fixedPackTotal: each ID 27019 pack contains 30 items. This does not denote an aggregate observed sample total."
+    },
+    {
+      "path": "factValue.totalUnit.unitForPath",
+      "before": null,
+      "after": "factValue.fixedPackTotal"
+    }
+  ],
+  "crosswalkChanges": [
+    {
+      "recordId": "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c",
+      "itemId": 27019,
+      "path": "factValue.totalUnit",
+      "pathOccurrenceIndex": 0,
+      "before": "factValue.total",
+      "after": "factValue.fixedPackTotal"
+    }
+  ],
+  "statusCrosswalkChanges": [
+    "projectedDefinitionsSha256",
+    "factValue.fixedPackTotal.appliesTo",
+    "factValue.totalUnit.appliesTo"
+  ],
+  "approvalChanges": 0,
+  "definitionRegistrationChanges": 0
+}

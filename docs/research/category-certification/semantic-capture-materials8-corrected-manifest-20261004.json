@@ -1,0 +1,103 @@
+{
+  "counts": {
+    "assertions": 636,
+    "changedCandidates": 8,
+    "completeDimensions": 0,
+    "exactItemIds": 167,
+    "newApprovals": 0,
+    "preservedRawLines": 628,
+    "registeredDefinitions": 0,
+    "supported": 10,
+    "unassessed": 626,
+    "unassessedDimensions": 272680
+  },
+  "coverageSnapshot": {
+    "path": "docs/research/category-certification/semantic-capture-coverage-materials-remaining302-20261004.jsonl.gz",
+    "sha256": "76619b857b1d6db83371217eeebd7d1d5beca142d7876ebbcbab74595d1c33d9"
+  },
+  "definitionComposition": "Retain predecessor source-packet-scoped joins; apply the three claim-local draft shape addenda. All remain unregistered and unavailable to rules.",
+  "effectiveSnapshot": {
+    "path": "docs/research/category-certification/semantic-approved-facts-effective-materials8-corrected-20261004.jsonl.gz",
+    "sha256": "ed03d2c04293b5a31adbb7c78dc6c75ec239f825abc44fade4381a13b77ff985"
+  },
+  "historicalDraftFiles": "Copied addenda retain their historical unsealed-proposal labels and bytes. This manifest freezes them solely as candidate documentation, not definition registration or semantic authority.",
+  "inputs": [
+    {
+      "path": "tmp/root-review/materials8-root-candidate-successor-stage-20261004/manifest.json",
+      "sha256": "0d9fcdd8c1dccf64b4a2cfda4d1df56fd8590732bc14899623223c15b6450c75"
+    },
+    {
+      "path": "tmp/root-review/materials8-root-candidate-successor-independent-audit-20261004/manifest.json",
+      "sha256": "557c8cd4225248ba259abf0c8a23efb96625bb1becc63b8ea3da93447ab09e7f"
+    },
+    {
+      "path": "tmp/root-review/materials8-root-candidate-successor-independent-audit-20261004/audit.json",
+      "sha256": "7fcbd46dcbb26af463a241207b16682f58f88a5fa0a408c8942a278877c9c2a8"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-approved-facts-effective-materials-remaining302-20261004.jsonl.gz",
+      "sha256": "6e36ee87cfa6f92a8568d031e594dbda3f9b0cb75ad3060f9c7e29f247bd5fa2"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-materials-remaining302-manifest-20261004.json",
+      "sha256": "b60ca3bf78873ac0dd47925a48938a98f807d5522360a0327974f54d664da7d7"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-materials-remaining302-source-map-20261004.json",
+      "sha256": "659479693857e322204c0807dc9348351cb6065320fcdea79f017d948e908520"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-materials-remaining302-definition-map-20261004.json",
+      "sha256": "784aff5f3c3aef952a96cc419af98dea149a042b46b946c705a898094d1efd0d"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-materials-remaining302-issues-20261004.json",
+      "sha256": "ce0a2f6eb2dcff71c0b87f17d4221914374f091a5dae681699e185bad0529c43"
+    },
+    {
+      "path": "tmp/root-review/materials8-root-candidate-successor-stage-20261004/composition-proof.json",
+      "sha256": "00f284e08a785db3704a344c5403343e0c400dc6d81d89cf907878f010406313"
+    },
+    {
+      "path": "tmp/root-review/materials8-root-durable-publication-20261004/native-validation.json",
+      "sha256": "a1ad4aa72fe3b68bcc903cdb421b8df4afc3299800160066b29f2aae5533cb36"
+    },
+    {
+      "path": "tmp/root-review/materials8-root-durable-publication-20261004/publish.py",
+      "sha256": "2114adcbff83a60cfd88176b59390d1e221728574cec9b49dd4ea0ab33a710c7"
+    }
+  ],
+  "limitations": [
+    "Research candidate capture only; no categories, tags, or semantic facts approved.",
+    "Bank eligibility remains unknown unless a distinct cited source supports it.",
+    "Some article-level, transclusion, origin and consumption details remain unresolved as identified in retained-gaps.json."
+  ],
+  "outputs": {
+    "semantic-approved-facts-effective-materials8-corrected-20261004.jsonl.gz": {
+      "path": "docs/research/category-certification/semantic-approved-facts-effective-materials8-corrected-20261004.jsonl.gz",
+      "sha256": "ed03d2c04293b5a31adbb7c78dc6c75ec239f825abc44fade4381a13b77ff985"
+    },
+    "semantic-capture-materials8-corrections-20261004.jsonl": {
+      "path": "docs/research/category-certification/semantic-capture-materials8-corrections-20261004.jsonl",
+      "sha256": "9a1c62c080e1c1a036ef8bb2a8d282662709e80296283b53a45d75c2ffc61e15"
+    },
+    "semantic-capture-materials8-definition-addenda-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-materials8-definition-addenda-20261004.json",
+      "sha256": "b36efdd3624e7708f35db37b506dfbd5a112872c74a9f944887da05acf011d19"
+    },
+    "semantic-capture-materials8-gaps-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-materials8-gaps-20261004.json",
+      "sha256": "ca7bca8a8dc6a8c84aecd2fe694681780b0e49cd4d6e5964949feed35f6ab1a8"
+    },
+    "semantic-capture-materials8-source-addendum-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-materials8-source-addendum-20261004.json",
+      "sha256": "2a35166a5ad8aff2c392e39436704dbaa014a872b313efc99ff753b905f4d0e8"
+    }
+  },
+  "placementAndTags": "All placement decisions, legacy/runtime tags, existing approvals and live bank rows are preserved.",
+  "readingScope": "Eight full before assertions, both exact transition deltas and scoped definitions read; all8 full own pages read across prior/current root continuations. Remaining documented context and transclusion gaps stay explicit.",
+  "schema": "published-materials8-corrected-candidate-capture/v1",
+  "sourceComposition": "The effective assertions contain all corrected evidence. Retain the predecessor source map and original correction lineage; the source addendum maps newly added successor excerpts, not every existing excerpt.",
+  "status": "candidate capture only; full semantic analysis incomplete; no new approvals",
+  "use": "Read the effective snapshot directly. Do not concatenate historical assertions or replacement history."
+}

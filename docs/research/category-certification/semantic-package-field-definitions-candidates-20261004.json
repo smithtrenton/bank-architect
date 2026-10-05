@@ -1,0 +1,1088 @@
+{
+  "basePacket": "package-durable-checkpoint-design-v2-20261003 plus two reviewed barrel/Gem bag replacements",
+  "basePacketManifestSha256": "8e294ea13a73feb8656711d20e005599e7cbcf9085342fd8113b2650422ce55b",
+  "fieldDefinitions": [
+    {
+      "appliesTo": "27019/wiki.package.contents",
+      "meaning": "One exact table output for the named package; source table supplies exact item name, noting, occurrence quantity, sample count and rolls.",
+      "path": "factValue.outputs[]",
+      "type": "object"
+    },
+    {
+      "meaning": "Rendered drop-row output name. For 27019 the exact DropsLineReward literal names Coal; adjacent prose phrase “coal ores” remains prose and is not the item name.",
+      "path": "factValue.outputs[].item",
+      "type": "string"
+    },
+    {
+      "meaning": "Whether the exact output is noted, as stated by the table quantity qualifier.",
+      "path": "factValue.outputs[].noted",
+      "type": "boolean"
+    },
+    {
+      "meaning": "Marks the reported empirical output counts as estimates.",
+      "path": "factValue.outputs[].distributionEstimated",
+      "type": "boolean"
+    },
+    {
+      "meaning": "Observed item total across the sampled openings; not an exact per-pack count.",
+      "path": "factValue.outputs[].observedCount",
+      "type": "integer",
+      "unit": "count:item",
+      "unitField": "observedCountUnit"
+    },
+    {
+      "meaning": "Number of items for one listed occurrence; all five 27019 table rows state one noted item.",
+      "path": "factValue.outputs[].quantityPerOccurrence",
+      "type": "number",
+      "unit": "count:item",
+      "unitField": "quantityUnit"
+    },
+    {
+      "meaning": "Number of table rolls per pack.",
+      "path": "factValue.outputs[].rollsPerPack",
+      "type": "integer",
+      "unit": "count:roll",
+      "unitField": "rollUnit"
+    },
+    {
+      "meaning": "Source-reported average expectation per pack; fractional quantities are expected values, not a possible single opening result.",
+      "path": "factValue.expectedPerPack[]",
+      "type": "object"
+    },
+    {
+      "meaning": "Expected item count per pack as reported in prose.",
+      "path": "factValue.expectedPerPack[].quantity",
+      "type": "number",
+      "unit": "count:item",
+      "unitField": "quantityUnit"
+    },
+    {
+      "meaning": "The exact ID 27019 own page states that each pack contains 30 noted ores. This is the fixed per-pack item total; totalUnit is its explicit count:item companion.",
+      "path": "factValue.fixedPackTotal",
+      "type": "integer",
+      "unit": "count:item",
+      "appliesTo": "27019/wiki.package.contents",
+      "unitField": "totalUnit"
+    },
+    {
+      "meaning": "Number of sampled packs in the page’s empirical estimation.",
+      "path": "factValue.samplePackCount",
+      "type": "integer",
+      "unit": "count:pack",
+      "unitField": "samplePackCountUnit"
+    },
+    {
+      "enum": [
+        "count:item"
+      ],
+      "meaning": "Unit companion for factValue.fixedPackTotal: each ID 27019 pack contains 30 items. This does not denote an aggregate observed sample total.",
+      "path": "factValue.totalUnit",
+      "type": "string",
+      "appliesTo": "27019/wiki.package.contents",
+      "unitForPath": "factValue.fixedPackTotal"
+    },
+    {
+      "meaning": "Exact item-page statement that Mining level does not affect the ID 27019 output distribution; it is not an opening or use gate.",
+      "path": "factValue.distributionMiningLevelCondition",
+      "type": "string"
+    },
+    {
+      "meaning": "Explicit ID-scoped no-effect statement retained on the 27019 context; it must not be broadened to the other pack.",
+      "path": "factValue.distributionCondition",
+      "type": "string"
+    },
+    {
+      "meaning": "Scope note: package outputs include ore commodities and Coal; it explicitly does not claim the package performs the commodity Mining action.",
+      "path": "factValue.outputUse",
+      "type": "string"
+    },
+    {
+      "meaning": "A contained commodity’s own acquisition/gathering profile. Mining level and XP describe obtaining that commodity from its source, not purchase/opening/use of the package.",
+      "optionalFields": [
+        "levelRequired",
+        "levelUnit",
+        "experience",
+        "experienceUnit"
+      ],
+      "path": "factValue.containedItemAcquisitionContexts[]",
+      "requiredFields": [
+        "itemId",
+        "item",
+        "role",
+        "skill",
+        "sourceScope"
+      ],
+      "type": "object"
+    },
+    {
+      "meaning": "Exact catalog ID bound by that commodity’s own source pin; do not infer IDs from name similarity or sibling package contents.",
+      "path": "factValue.containedItemAcquisitionContexts[].itemId",
+      "type": "integer"
+    },
+    {
+      "meaning": "Commodity label associated with the bound itemId. Coal is Coal (ID 453), not an ore.",
+      "path": "factValue.containedItemAcquisitionContexts[].item",
+      "type": "string"
+    },
+    {
+      "meaning": "Gathering action. Coal uses “mine coal”; the ore rows use “mine the ore”.",
+      "path": "factValue.containedItemAcquisitionContexts[].role",
+      "type": "string"
+    },
+    {
+      "meaning": "Skill for this acquisition action; currently Mining.",
+      "path": "factValue.containedItemAcquisitionContexts[].skill",
+      "type": "string"
+    },
+    {
+      "meaning": "Minimum skill level stated for gathering the bound commodity. It does not gate pack acquisition, package opening, or use of an already contained item.",
+      "path": "factValue.containedItemAcquisitionContexts[].levelRequired",
+      "type": "integer",
+      "unit": "level:skill",
+      "unitField": "levelUnit"
+    },
+    {
+      "meaning": "Mining XP stated for gathering the bound commodity.",
+      "path": "factValue.containedItemAcquisitionContexts[].experience",
+      "type": "number",
+      "unit": "experience:mining-xp",
+      "unitField": "experienceUnit"
+    },
+    {
+      "meaning": "Required scope marker separating commodity acquisition context from package acquisition/open/use.",
+      "path": "factValue.containedItemAcquisitionContexts[].sourceScope",
+      "type": "string"
+    },
+    {
+      "meaning": "A use or transformation role of the exact contained commodity after opening; never a package function.",
+      "optionalFields": [
+        "levelRequired",
+        "levelUnit",
+        "experience",
+        "experienceUnit",
+        "coalQuantity",
+        "coalQuantityUnit"
+      ],
+      "path": "factValue.containedItemUseRoles[]",
+      "requiredFields": [
+        "itemId",
+        "item",
+        "role",
+        "skill",
+        "sourceScope"
+      ],
+      "type": "object"
+    },
+    {
+      "meaning": "Exact contained commodity ID whose use is described.",
+      "path": "factValue.containedItemUseRoles[].itemId",
+      "type": "integer"
+    },
+    {
+      "meaning": "Use/output relation, such as ore smelting, coal as an ingredient, or using the resulting silver/gold bar in jewellery crafting.",
+      "path": "factValue.containedItemUseRoles[].role",
+      "type": "string"
+    },
+    {
+      "meaning": "Skill attached to that exact use role; Smithing and, for the silver/gold bar jewellery continuation, Crafting.",
+      "path": "factValue.containedItemUseRoles[].skill",
+      "type": "string"
+    },
+    {
+      "meaning": "Use-skill requirement only when directly present in the own-page excerpt. Omitted means this record makes no requirement assertion; it does not mean level zero or no requirement.",
+      "path": "factValue.containedItemUseRoles[].levelRequired",
+      "type": "integer",
+      "unit": "level:skill",
+      "unitField": "levelUnit"
+    },
+    {
+      "meaning": "Smithing XP only when directly stated for that use. Omitted is unknown/not asserted, not zero.",
+      "path": "factValue.containedItemUseRoles[].experience",
+      "type": "number",
+      "unit": "experience:smithing-xp",
+      "unitField": "experienceUnit"
+    },
+    {
+      "meaning": "Coal input count for that exact smelting role, where directly stated.",
+      "path": "factValue.containedItemUseRoles[].coalQuantity",
+      "type": "integer",
+      "unit": "count:item",
+      "unitField": "coalQuantityUnit"
+    },
+    {
+      "meaning": "Required scope marker for a contained-item use after opening.",
+      "path": "factValue.containedItemUseRoles[].sourceScope",
+      "type": "string"
+    },
+    {
+      "appliesTo": "12859/wiki.package.state-and-function-context",
+      "meaning": "Nested role projection for one exact contained commodity. It is explicitly distinct from the package’s function.",
+      "path": "factValue.containedCommodityContext",
+      "requiredFields": [
+        "itemId",
+        "item",
+        "applicability",
+        "roles"
+      ],
+      "type": "object"
+    },
+    {
+      "const": 221,
+      "meaning": "Binds the added roles to Eye of newt, exact item ID 221.",
+      "path": "factValue.containedCommodityContext.itemId",
+      "type": "integer"
+    },
+    {
+      "const": "Eye of newt",
+      "meaning": "Exact contained commodity display name paired with ID 221.",
+      "path": "factValue.containedCommodityContext.item",
+      "type": "string"
+    },
+    {
+      "meaning": "Required statement that the roles describe an opened Eye of newt item, not Eye of newt pack ID 12859.",
+      "path": "factValue.containedCommodityContext.applicability",
+      "type": "string"
+    },
+    {
+      "meaning": "One commodity-use role with its own skill/activity/condition and quantity fields as applicable; alternative role shapes share this array.",
+      "optionalFields": [
+        "skill",
+        "activity",
+        "otherInput",
+        "condition",
+        "quantity",
+        "quantityUnit",
+        "ingredientItemId"
+      ],
+      "path": "factValue.containedCommodityContext.roles[]",
+      "requiredFields": [
+        "role",
+        "sourceSection"
+      ],
+      "type": "object"
+    },
+    {
+      "meaning": "Exact semantic role, such as potion ingredient, one-item quest ingredient, or Creature Creation input.",
+      "path": "factValue.containedCommodityContext.roles[].role",
+      "type": "string"
+    },
+    {
+      "meaning": "Skill for the specific Herblore role; omitted on quest and activity roles.",
+      "path": "factValue.containedCommodityContext.roles[].skill",
+      "type": "string"
+    },
+    {
+      "const": "own-page lead",
+      "meaning": "Stable section scope for the exact Eye of newt own-page excerpt; source revision and hash remain provenance.",
+      "path": "factValue.containedCommodityContext.roles[].sourceSection",
+      "type": "string"
+    },
+    {
+      "meaning": "Quest requirement quantity: one Eye of newt (ID 221) for Witch’s Potion and one for Recipe for Disaster, represented as two separate roles.",
+      "path": "factValue.containedCommodityContext.roles[].quantity",
+      "type": "integer",
+      "unit": "count:item",
+      "unitField": "quantityUnit"
+    },
+    {
+      "const": 221,
+      "meaning": "Exact item-ID binding for the quest ingredient.",
+      "path": "factValue.containedCommodityContext.roles[].ingredientItemId",
+      "type": "integer"
+    },
+    {
+      "meaning": "Applies only to Creature Creation: Tower of Life must have been completed before the eye and feather combination is used to create a newtroost.",
+      "path": "factValue.containedCommodityContext.roles[].condition",
+      "type": "string"
+    },
+    {
+      "meaning": "The own Eye of newt page names a feather. This field does not bind a feather catalog ID; that identity remains unasserted here.",
+      "path": "factValue.containedCommodityContext.roles[].otherInput",
+      "type": "string"
+    },
+    {
+      "meaning": "Activity context for the newtroost creation role; not a package-opening action.",
+      "path": "factValue.containedCommodityContext.roles[].activity",
+      "type": "string"
+    },
+    {
+      "appliesTo": "30795/wiki.package.state-and-function-context",
+      "meaning": "For full item ID 30795, opening yields 100 demonic tallow. The page separately says partial emptying creates a nontradeable partially empty barrel. This does not assert 100 for open ID 30798; that quantity remains unknown.",
+      "path": "factValue.stateTransition",
+      "type": "string"
+    },
+    {
+      "appliesTo": "30795/wiki.package.state-and-function-context",
+      "const": "Full",
+      "meaning": "Selects the full state bound by the exact own-page item-ID field and scopes the 100-item result to ID 30795.",
+      "path": "state.qualifiers.variant",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "meaning": "Purchase route stated for Gem bag family, exact closed item ID 12020; not a direct purchase claim for selected open ID 24481.",
+      "path": "factValue.familyPurchaseRoute",
+      "requiredFields": [
+        "appliesToItemId",
+        "item",
+        "itemState",
+        "acquisitionType",
+        "cost",
+        "costUnit",
+        "shop",
+        "sourceScope"
+      ],
+      "type": "object"
+    },
+    {
+      "const": 12020,
+      "meaning": "Exact closed-state item ID selected by the own-page infobox mapping.",
+      "path": "factValue.familyPurchaseRoute.appliesToItemId",
+      "type": "integer"
+    },
+    {
+      "const": "Closed",
+      "meaning": "State of Gem bag named by the cited purchase sentence.",
+      "path": "factValue.familyPurchaseRoute.itemState",
+      "type": "string"
+    },
+    {
+      "meaning": "Purchase price of 100 golden nuggets.",
+      "path": "factValue.familyPurchaseRoute.cost",
+      "type": "integer",
+      "unit": "currency:golden-nugget",
+      "unitField": "costUnit"
+    },
+    {
+      "const": "currency:golden-nugget",
+      "meaning": "Explicit unit for family purchase cost.",
+      "path": "factValue.familyPurchaseRoute.costUnit",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "meaning": "Exact transition from closed Gem bag ID 12020 to open Gem bag ID 24481 by the stated right-click Open action; not another acquisition/purchase route.",
+      "path": "factValue.openStateTransition",
+      "requiredFields": [
+        "fromItemId",
+        "fromState",
+        "action",
+        "actionMethod",
+        "toItemId",
+        "toState",
+        "sourceScope"
+      ],
+      "type": "object"
+    },
+    {
+      "const": 12020,
+      "meaning": "Closed-state source item ID.",
+      "path": "factValue.openStateTransition.fromItemId",
+      "type": "integer"
+    },
+    {
+      "const": 24481,
+      "meaning": "Open-state target ID and exact subject of the context claim.",
+      "path": "factValue.openStateTransition.toItemId",
+      "type": "integer"
+    },
+    {
+      "meaning": "Records that a direct purchase route for selected open ID 24481 is not separately stated on the pinned page; source limitation, not a universal negative.",
+      "path": "factValue.directPurchaseRouteForExactOpenId",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "Open",
+      "meaning": "Selects exact open-state ID 24481 and constrains applicability of transition/context fields.",
+      "path": "state.qualifiers.variant",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "Gem bag",
+      "meaning": "Display label of the closed Gem bag variant named by the purchase sentence; its exact selected item ID is separately bound as 12020.",
+      "path": "factValue.familyPurchaseRoute.item",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "shop purchase",
+      "meaning": "Source-described acquisition mode for the closed Gem bag at Prospector Percy’s Nugget Shop.",
+      "path": "factValue.familyPurchaseRoute.acquisitionType",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "meaning": "States the scope of the source purchase sentence and exact infobox binding to closed ID 12020; does not assert direct purchase of open ID 24481.",
+      "path": "factValue.familyPurchaseRoute.sourceScope",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "Closed",
+      "meaning": "State of the source item ID 12020 before the stated Open action.",
+      "path": "factValue.openStateTransition.fromState",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "Open",
+      "meaning": "Exact option action stated for changing the closed bag to the open bag.",
+      "path": "factValue.openStateTransition.action",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "right-click option",
+      "meaning": "Interaction method stated by the own-page sentence; it is not automated behavior.",
+      "path": "factValue.openStateTransition.actionMethod",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "const": "Open",
+      "meaning": "State of exact target item ID 24481 after the stated action.",
+      "path": "factValue.openStateTransition.toState",
+      "type": "string"
+    },
+    {
+      "appliesTo": "24481/wiki.package.acquisition",
+      "meaning": "Binds the transition to the exact own-page infobox mapping version1/id1=closed ID 12020 and version2/id2=open ID 24481 plus the stated Open option.",
+      "path": "factValue.openStateTransition.sourceScope",
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-0f261d24be7275eccc462508c5735fcd9949a9bba1910fece79a19d84f86ee96",
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c",
+        "claim-92f75efed500cdaa0d5e0949756b70daafda8d1769f70189ae072bd4657edbd6",
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161",
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Structural root object for the source-bound candidate fact value. This definition adds no interpretation beyond its child fields.",
+      "observedOccurrenceCount": 6,
+      "path": "factValue",
+      "registered": false,
+      "type": "object"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Exact source-bound contained commodity label “eye of newt” on this pack-context record. The separate nested context binds the contained commodity to item ID 221; this string alone is not an ID.",
+      "observedConstValue": "eye of newt",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.containedCommodity",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Collection of the four observed, separately scoped Eye of newt commodity-role records. The array shape itself adds no claims beyond its exact members.",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.containedCommodityContext.roles",
+      "registered": false,
+      "type": "array"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Explicit unit companion for the observed quest ingredient quantities; observed value is count:item. It does not supply a quantity where the field is absent.",
+      "observedOccurrenceCount": 2,
+      "observedUnitValues": [
+        "count:item"
+      ],
+      "path": "factValue.containedCommodityContext.roles[].quantityUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.containedCommodityContext.roles[].quantity"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Collection of the observed Mining acquisition-context records for contained commodities in the exact ID 27019 and 27693 profiles. It describes acquiring the commodity, not opening or using either pack.",
+      "observedOccurrenceCount": 2,
+      "path": "factValue.containedItemAcquisitionContexts",
+      "registered": false,
+      "type": "array"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for the observed Mining experience values in these acquisition contexts; observed value is experience:mining-xp.",
+      "observedOccurrenceCount": 12,
+      "observedUnitValues": [
+        "experience:mining-xp"
+      ],
+      "path": "factValue.containedItemAcquisitionContexts[].experienceUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.containedItemAcquisitionContexts[].experience"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for the observed Mining level requirement values in these acquisition contexts; observed value is level:skill.",
+      "observedOccurrenceCount": 12,
+      "observedUnitValues": [
+        "level:skill"
+      ],
+      "path": "factValue.containedItemAcquisitionContexts[].levelUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.containedItemAcquisitionContexts[].levelRequired"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Collection of the explicitly captured post-opening use-role records for exact item IDs in the ID 27019 and 27693 profiles. Missing role fields or rows are not negative facts.",
+      "observedOccurrenceCount": 2,
+      "path": "factValue.containedItemUseRoles",
+      "registered": false,
+      "type": "array"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for the explicitly present coal quantities; observed value is count:item. No coal quantity is supplied when the pair is absent.",
+      "observedOccurrenceCount": 8,
+      "observedUnitValues": [
+        "count:item"
+      ],
+      "path": "factValue.containedItemUseRoles[].coalQuantityUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.containedItemUseRoles[].coalQuantity"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for present Smithing experience values in the exact use roles; observed value is experience:smithing-xp. Missing pairs remain unknown.",
+      "observedOccurrenceCount": 12,
+      "observedUnitValues": [
+        "experience:smithing-xp"
+      ],
+      "path": "factValue.containedItemUseRoles[].experienceUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.containedItemUseRoles[].experience"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Display label paired in the same role object with its explicit itemId. It is not an identity substitute and does not assert any unlisted item IDs.",
+      "observedOccurrenceCount": 16,
+      "path": "factValue.containedItemUseRoles[].item",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for present skill-level requirement values in these use roles; observed value is level:skill. Missing pairs do not mean no requirement.",
+      "observedOccurrenceCount": 6,
+      "observedUnitValues": [
+        "level:skill"
+      ],
+      "path": "factValue.containedItemUseRoles[].levelUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.containedItemUseRoles[].levelRequired"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-0f261d24be7275eccc462508c5735fcd9949a9bba1910fece79a19d84f86ee96"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Source-bound use statement that demonic tallow is an ingredient for surge potions; this records the contained material use context and does not assert an additional barrel action.",
+      "observedConstValue": "demonic tallow is an ingredient for surge potions",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.containedUse",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Collection of five source-reported expected average output rows for exact package ID 27019. These expected quantities are not single-opening guarantees.",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.expectedPerPack",
+      "registered": false,
+      "type": "array"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Text label for the output in one expected-value row. The page’s row label is preserved; this field alone does not bind a numeric item ID.",
+      "observedOccurrenceCount": 5,
+      "path": "factValue.expectedPerPack[].item",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for the expected quantity; observed value is count:item.",
+      "observedOccurrenceCount": 5,
+      "observedUnitValues": [
+        "count:item"
+      ],
+      "path": "factValue.expectedPerPack[].quantityUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.expectedPerPack[].quantity"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92f75efed500cdaa0d5e0949756b70daafda8d1769f70189ae072bd4657edbd6"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Named shop for the family purchase route on the exact ID 24481 context record; the route object scopes purchase to closed Gem bag ID 12020. The pinned own-page source names Prospector Percy’s Nugget Shop.",
+      "observedConstValue": "Prospector Percy's Nugget Shop",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.familyPurchaseRoute.shop",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Collection of the five exact output-table rows for package ID 27019. Each member carries its own item label and stated distribution/sample fields.",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.outputs",
+      "registered": false,
+      "type": "array"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for observed sample output totals; observed value is count:item.",
+      "observedOccurrenceCount": 5,
+      "observedUnitValues": [
+        "count:item"
+      ],
+      "path": "factValue.outputs[].observedCountUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.outputs[].observedCount"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for quantity per listed occurrence; observed value is count:item.",
+      "observedOccurrenceCount": 5,
+      "observedUnitValues": [
+        "count:item"
+      ],
+      "path": "factValue.outputs[].quantityUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.outputs[].quantityPerOccurrence"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for rollsPerPack; observed value is count:roll.",
+      "observedOccurrenceCount": 5,
+      "observedUnitValues": [
+        "count:roll"
+      ],
+      "path": "factValue.outputs[].rollUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.outputs[].rollsPerPack"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Unit companion for the samplePackCount field; observed value is count:pack.",
+      "observedOccurrenceCount": 1,
+      "observedUnitValues": [
+        "count:pack"
+      ],
+      "path": "factValue.samplePackCountUnit",
+      "registered": false,
+      "type": "string",
+      "unitDefinitionScope": "unit companion observed in this exact path only; no unit inferred when companion is absent",
+      "unitForPath": "factValue.samplePackCount"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Collection of the observed skill-role entries on the ID 12859 context record, kept as a separate projection from the explicit contained-commodity role object.",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.skillRoles",
+      "registered": false,
+      "type": "array"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "One exact role/skill pair copied into this record. It does not claim that this abbreviated projection contains every role represented in the nested commodity context.",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.skillRoles[]",
+      "registered": false,
+      "type": "object"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Source-bound role wording copied to the skillRoles projection.",
+      "observedConstValue": "ingredient in attack potion and super attack potion",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.skillRoles[].role",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Skill label attached to that role in the source-bound projection.",
+      "observedConstValue": "Herblore",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.skillRoles[].skill",
+      "registered": false,
+      "type": "string"
+    },
+    {
+      "appliesToRecordIds": [
+        "claim-92f75efed500cdaa0d5e0949756b70daafda8d1769f70189ae072bd4657edbd6"
+      ],
+      "definitionStatus": "draft",
+      "meaning": "Exact selected-open-state context statement for Gem bag ID 24481. It is not itself a purchase route or a claim that the open ID is sold directly.",
+      "observedConstValue": "Open variant of the Gem bag family; the exact selected item is open ID 24481 (version2/id2).",
+      "observedOccurrenceCount": 1,
+      "path": "factValue.statefulContainer",
+      "registered": false,
+      "type": "string"
+    }
+  ],
+  "formatVersion": "semantic-item-assertion/v1",
+  "frozenPredicateCrosswalk": [
+    {
+      "action": "no predicate rename, version change, or global definition change; this addendum only projects nested field meanings for the exact candidate record",
+      "affectedRecordIds": [
+        "claim-4f43349d51fc0518c9f28b697bada65bbfd9b39ef7fc797d2a1132f5024b832c"
+      ],
+      "existingPredicate": "wiki.package.contents",
+      "predicateVersion": 1
+    },
+    {
+      "action": "additive nested-field projection only; existing predicate meaning/version remains frozen",
+      "affectedRecordIds": [
+        "claim-92fe40ac6d2051433f4b80b4581941c333ba86647cc03e17c9ae87381197dbad",
+        "claim-994ad337f3ae6c25b136585fcdae387fe6cb595c7470c49044df8dce5b4e7161",
+        "claim-e4f4c51ed6c806c0d78d25a6bab15658e5069a44c95b969fb3076894f294cad1"
+      ],
+      "existingPredicate": "wiki.package.state-and-function-context",
+      "predicateVersion": 1
+    },
+    {
+      "action": "No predicate rename/version change. Draft leaf meanings scope the exact full-state transition; exact open-state quantity remains unknown.",
+      "affectedRecordIds": [
+        "claim-0f261d24be7275eccc462508c5735fcd9949a9bba1910fece79a19d84f86ee96"
+      ],
+      "existingPredicate": "wiki.package.state-and-function-context",
+      "predicateVersion": 1
+    },
+    {
+      "action": "No predicate rename/version change. Draft leaf meanings separate the closed-state family purchase from the closed-to-open transition; direct purchase of exact open ID is not stated.",
+      "affectedRecordIds": [
+        "claim-92f75efed500cdaa0d5e0949756b70daafda8d1769f70189ae072bd4657edbd6"
+      ],
+      "existingPredicate": "wiki.package.acquisition",
+      "predicateVersion": 1
+    }
+  ],
+  "packet": "package-durable-checkpoint-design-v3-20261003",
+  "primarySourcePins": [
+    {
+      "itemId": 27019,
+      "path": "tmp/category-certification/wiki-articles/text/15190928.txt",
+      "revision": 15190928,
+      "sha256": "11add36dd9fb1e701aad8246f3fd030656ecab507ebf793f85c262a5f4344f74",
+      "title": "Ore pack (Giants' Foundry)"
+    },
+    {
+      "itemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15191184.txt",
+      "revision": 15191184,
+      "sha256": "60374ab1a9530e0d3fffd18ca07833316b5ca76d3799294d4c063b93c36be5aa",
+      "title": "Ore pack (Volcanic Mine)"
+    },
+    {
+      "itemId": 12859,
+      "path": "tmp/category-certification/wiki-articles/text/15215037.txt",
+      "revision": 15215037,
+      "sha256": "94fd6cb9372a1d51c03efe1a46430e6b131a0a44eff8dc11b0515e936868feac",
+      "title": "Eye of newt pack"
+    },
+    {
+      "itemId": 221,
+      "path": "tmp/category-certification/wiki-articles/text/15215018.txt",
+      "revision": 15215018,
+      "sha256": "c5fbb60b07fc9cdc10dbab911e93ca6331047c36ef5fe8e353d740324306f8e8",
+      "title": "Eye of newt"
+    }
+  ],
+  "recordShapeCrosswalk": [
+    {
+      "itemId": 30795,
+      "paths": [
+        "factValue.containedUse",
+        "factValue.stateTransition",
+        "state.qualifiers.variant"
+      ],
+      "predicate": "wiki.package.state-and-function-context",
+      "predicateVersion": 1,
+      "recordId": "claim-0f261d24be7275eccc462508c5735fcd9949a9bba1910fece79a19d84f86ee96",
+      "status": "candidate/unassessed"
+    },
+    {
+      "itemId": 24481,
+      "paths": [
+        "factValue.statefulContainer",
+        "factValue.familyPurchaseRoute",
+        "factValue.openStateTransition",
+        "factValue.directPurchaseRouteForExactOpenId",
+        "state.qualifiers.variant"
+      ],
+      "predicate": "wiki.package.acquisition",
+      "predicateVersion": 1,
+      "recordId": "claim-92f75efed500cdaa0d5e0949756b70daafda8d1769f70189ae072bd4657edbd6",
+      "status": "candidate/unassessed"
+    },
+    {
+      "itemId": 24481,
+      "meaning": "Closed-state purchase and exact closed-to-open transition are separate typed scopes.",
+      "newLeafPaths": [
+        "factValue.familyPurchaseRoute.item",
+        "factValue.familyPurchaseRoute.acquisitionType",
+        "factValue.familyPurchaseRoute.sourceScope",
+        "factValue.openStateTransition.fromState",
+        "factValue.openStateTransition.action",
+        "factValue.openStateTransition.actionMethod",
+        "factValue.openStateTransition.toState",
+        "factValue.openStateTransition.sourceScope"
+      ],
+      "predicate": "wiki.package.acquisition",
+      "predicateVersion": 1,
+      "recordId": "claim-92f75efed500cdaa0d5e0949756b70daafda8d1769f70189ae072bd4657edbd6",
+      "status": "candidate/unassessed"
+    }
+  ],
+  "recordShapeIndex": "observed-field-shapes.json; this companion contains recursively enumerated value shapes for the six exact projected after-records, pinned to the V3 effective assertion file. It does not change those fact objects.",
+  "sourcePins": [
+    {
+      "containedItemId": 453,
+      "packageItemId": 27019,
+      "path": "tmp/category-certification/wiki-articles/text/15277212.txt",
+      "revision": 15277212,
+      "sha256": "ac7e4c251f2fce085bcb54691e6aab8eacc7604ff6f02eef1c93dd2ab81e9534",
+      "title": "Coal"
+    },
+    {
+      "containedItemId": 440,
+      "packageItemId": 27019,
+      "path": "tmp/category-certification/wiki-articles/text/15182636.txt",
+      "revision": 15182636,
+      "sha256": "c6c37d20113ece9e9da52cb499d6dce66f96b13accc4d230a68161b23a5ff1f6",
+      "title": "Iron ore"
+    },
+    {
+      "containedItemId": 447,
+      "packageItemId": 27019,
+      "path": "tmp/category-certification/wiki-articles/text/15183665.txt",
+      "revision": 15183665,
+      "sha256": "93fdb2dc45ef1637ebfb416102038416900d08ce0c1f1a7f409172158eddffad",
+      "title": "Mithril ore"
+    },
+    {
+      "containedItemId": 449,
+      "packageItemId": 27019,
+      "path": "tmp/category-certification/wiki-articles/text/15333233.txt",
+      "revision": 15333233,
+      "sha256": "1ef21bf18c6bf9fdab54ae8a8d85fe8d062fc9ff34a430d6797c237114b78977",
+      "title": "Adamantite ore"
+    },
+    {
+      "containedItemId": 451,
+      "packageItemId": 27019,
+      "path": "tmp/category-certification/wiki-articles/text/15346870.txt",
+      "revision": 15346870,
+      "sha256": "1a1f0482cb8d1454b76d605a822183c512e79bcc966f3d71a2386d3f5d70feeb",
+      "title": "Runite ore"
+    },
+    {
+      "containedItemId": 27695,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15344597.txt",
+      "revision": 15344597,
+      "sha256": "f136abe8a94c1766cd84320a62c4fd0b7ffc07093c3cba1bf69c5088788eeac2",
+      "title": "Dragon pickaxe (broken)"
+    },
+    {
+      "containedItemId": 440,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15182636.txt",
+      "revision": 15182636,
+      "sha256": "c6c37d20113ece9e9da52cb499d6dce66f96b13accc4d230a68161b23a5ff1f6",
+      "title": "Iron ore"
+    },
+    {
+      "containedItemId": 453,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15277212.txt",
+      "revision": 15277212,
+      "sha256": "ac7e4c251f2fce085bcb54691e6aab8eacc7604ff6f02eef1c93dd2ab81e9534",
+      "title": "Coal"
+    },
+    {
+      "containedItemId": 447,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15183665.txt",
+      "revision": 15183665,
+      "sha256": "93fdb2dc45ef1637ebfb416102038416900d08ce0c1f1a7f409172158eddffad",
+      "title": "Mithril ore"
+    },
+    {
+      "containedItemId": 449,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15333233.txt",
+      "revision": 15333233,
+      "sha256": "1ef21bf18c6bf9fdab54ae8a8d85fe8d062fc9ff34a430d6797c237114b78977",
+      "title": "Adamantite ore"
+    },
+    {
+      "containedItemId": 451,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15346870.txt",
+      "revision": 15346870,
+      "sha256": "1a1f0482cb8d1454b76d605a822183c512e79bcc966f3d71a2386d3f5d70feeb",
+      "title": "Runite ore"
+    },
+    {
+      "containedItemId": 442,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15183294.txt",
+      "revision": 15183294,
+      "sha256": "f763d722c87232211078736760893fe259ce49351c8929c1bdc7693ce33fdca2",
+      "title": "Silver ore"
+    },
+    {
+      "containedItemId": 444,
+      "packageItemId": 27693,
+      "path": "tmp/category-certification/wiki-articles/text/15278659.txt",
+      "revision": 15278659,
+      "sha256": "8ded20dfb666fed66e48b5d5e2b3e23e5c9d15079b26655848ac62612eb8cf53",
+      "title": "Gold ore"
+    },
+    {
+      "containedItemId": 221,
+      "packageItemId": 12859,
+      "path": "tmp/category-certification/wiki-articles/text/15215018.txt",
+      "revision": 15215018,
+      "sha256": "c5fbb60b07fc9cdc10dbab911e93ca6331047c36ef5fe8e353d740324306f8e8",
+      "title": "Eye of newt"
+    },
+    {
+      "idLiteral": "|id1 = 30795",
+      "itemId": 30795,
+      "path": "tmp/category-certification/wiki-articles/text/15282058.txt",
+      "revision": 15282058,
+      "role": "own-page source for exact full barrel transition",
+      "sha256": "523e1692d0f0460a3003aec835daff2f0aa7c04690babc16a70a00b047a03887",
+      "variant": "Full"
+    },
+    {
+      "idLiteral": "|id2 = 24481",
+      "itemId": 24481,
+      "path": "tmp/category-certification/wiki-articles/text/15350193.txt",
+      "revision": 15350193,
+      "role": "own-page source for purchase sentence and state transition",
+      "sha256": "b42b3c79b11dcdee9690ca6846ea6c92224d35fa9b21d2317999066e589dd516",
+      "variant": "Open"
+    }
+  ],
+  "stageAndUseGating": {
+    "approvalGate": "No fact approval, category approval, bank policy, tag rule, or runtime behavior is asserted.",
+    "predicateGate": "Existing predicate names and predicateVersion 1 remain unchanged; this addendum is not registered and supplies no production rule.",
+    "questGate": "The Tower of Life condition is scoped only to the Eye of newt Creature Creation/newtroost role.",
+    "recordStage": "All six projected after-records remain reviewStage=candidate and status=unassessed.",
+    "useGate": "A nested `levelRequired` under containedItemUseRoles concerns only that specific contained commodity use; a value under containedItemAcquisitionContexts concerns gathering that commodity. Neither gates package purchase/opening."
+  },
+  "status": "additive research-only candidate definition projection; every definition remains draft/unregistered; no fact approval",
+  "unknownAndOmissionPolicy": [
+    "Optional nested fields are present only when the pinned source directly supports them. Missing levelRequired, experience, ingredient quantities, item IDs for secondary inputs, or consumption state stays unknown/unasserted.",
+    "Missing does not mean false, zero, no requirement, no use, or no consumption.",
+    "Template-driven Uses material list, Drop sources, and Store locations list expansions remain explicit gaps in the base correction packet.",
+    "No nested profile is exhaustive; these candidate facts and projections do not complete semantic certification."
+  ]
+}

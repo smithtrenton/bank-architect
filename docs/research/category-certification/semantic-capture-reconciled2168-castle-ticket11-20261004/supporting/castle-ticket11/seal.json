@@ -1,0 +1,98 @@
+{
+  "schema": "castle-ticket11-supported-transition-stage-seal/v1",
+  "created": "2026-10-04",
+  "status": "sealed root-authorized research stage; awaiting independent review; not published",
+  "stageManifestSha256": "9bc6deb4136a56e4cf4138d52061ce56ab18871a9c0fb386afabd05ac5d859cc",
+  "recordFileSha256": "c4f55b13a97fa642083fcbcdec217be87ce2e1865af778b355695d80741898ec",
+  "recordCount": 11,
+  "validatorPassed": true,
+  "validatorPath": "tools/research/semantic-grouping-audit/certification/semantic-records.py",
+  "approvalScope": [
+    "item-fact"
+  ],
+  "definitionRegistered": false,
+  "rulesUsable": false,
+  "publicationStatus": "not published",
+  "outputFiles": [
+    {
+      "path": "stage-manifest.json",
+      "sha256": "9bc6deb4136a56e4cf4138d52061ce56ab18871a9c0fb386afabd05ac5d859cc",
+      "bytes": 11359
+    },
+    {
+      "path": "supported-item-facts.jsonl",
+      "sha256": "c4f55b13a97fa642083fcbcdec217be87ce2e1865af778b355695d80741898ec",
+      "bytes": 53683
+    },
+    {
+      "path": "exact-before-after.jsonl",
+      "sha256": "a0d4cd3cf2eed8e956fee6db373f0d66c9fb34b29287436d259043af667f9bbd",
+      "bytes": 107309
+    },
+    {
+      "path": "transition-ledger.jsonl",
+      "sha256": "b0710b3a7d863fb1fd8f894dde1b5346cca6ae3abcfb77442959c4965168d41c",
+      "bytes": 59252
+    },
+    {
+      "path": "inverse-proof.json",
+      "sha256": "0ef8ef03ab5d247a850072910b0c6635945f1224f1cb8e024514313ea4d88d94",
+      "bytes": 73648
+    },
+    {
+      "path": "transition-checks.jsonl",
+      "sha256": "1a9b4ec7614c3c3f1c140d800ff4dcffcc41c5dc6da30d3e7713dcaac41834e4",
+      "bytes": 2748
+    },
+    {
+      "path": "native-validation.json",
+      "sha256": "1513f3a346b5ca53a2e13fa9e0a2b9531bf5b437bb6cb2662e3b67df0094c53c",
+      "bytes": 886
+    },
+    {
+      "path": "README.md",
+      "sha256": "6d1f601303da80b446c46b5249f7555004344ff5a33db618dea9749ca35a1c40",
+      "bytes": 1873
+    },
+    {
+      "path": "supporting/approval-policy.json",
+      "sha256": "77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+      "bytes": 38359
+    },
+    {
+      "path": "supporting/root-authorization.json",
+      "sha256": "f29b6bbb1f1c7f28a87021b7837b221f0cafe1abbf31a6754e2553d9edfe7bf0",
+      "bytes": 10399
+    },
+    {
+      "path": "supporting/root-replay.json",
+      "sha256": "902aaf945b5cdc09b2145042d9300edf8b7282c8ff69c873bcffc23769c2bf72",
+      "bytes": 31178
+    },
+    {
+      "path": "supporting/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367
+    },
+    {
+      "path": "supporting/proposed-root-fact-scope.json",
+      "sha256": "a67eb34bd823cb415513226a148b80fdc0033bac2efca168e7b6b24bbbe8f864",
+      "bytes": 5897
+    },
+    {
+      "path": "supporting/proposal-manifest.json",
+      "sha256": "84afa19c999f2c692528e09d52942c5bd3f55a7248ef3ad63c38edfa23d7e282",
+      "bytes": 1963
+    },
+    {
+      "path": "supporting/independent-audit-manifest.json",
+      "sha256": "1bf3737def881beda2c77ea7e6cd98b12f61a10e5fd8f71f10fda8c6f0564e2f",
+      "bytes": 4746
+    },
+    {
+      "path": "supporting/independent-audit-seal.json",
+      "sha256": "d8f1b92b39814d2b266c39bb7729e0615f1e00eb1f2e436f6e2a10e299d507fa",
+      "bytes": 356
+    }
+  ]
+}

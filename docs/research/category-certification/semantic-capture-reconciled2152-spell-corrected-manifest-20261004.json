@@ -1,0 +1,216 @@
+{
+  "schema": "semantic-capture-reconciled2152-spell-corrected-publication/v1",
+  "status": "durable research candidate successor; incomplete semantic certification",
+  "counts": {
+    "assertions": 2152,
+    "exactItemIds": 1652,
+    "supported": 17,
+    "unassessed": 2135,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "completeDimensions": 0,
+    "appendedPreviouslyApprovedGloryClaims": 5,
+    "draftNavigationRows": 991
+  },
+  "baseline": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2152-manifest-20261004.json",
+    "sha256": "544338e0e3dec7b9f588245dbf31f13e4c2936be56b042733310af1e2a1e14ee",
+    "byteLength": 8447
+  },
+  "sourceStage": {
+    "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/manifest.json",
+    "sha256": "60ac9fc357d7812a9f97f1b1585210ffa50406763b81bd853bdae496e1e08291",
+    "byteLength": 7277
+  },
+  "independentAudit": {
+    "path": "tmp/root-review/wave3-spell15190402-composition-v2-independent-audit-20261004/manifest.json",
+    "sha256": "613acade1d28d93b995a8e0b2f9466a68dd7b2434f90b151f510a3e7d859c8d5",
+    "byteLength": 3615
+  },
+  "rootReplay": {
+    "path": "tmp/root-review/reconciled2152-spell-corrected-root-publication-20261004/root-replay.json",
+    "sha256": "069d82ac2a3cdb0999490c1baf8b40487f89b9a29cf7ab5539cdd18ff218163d",
+    "byteLength": 4364
+  },
+  "outputs": [
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-spell-original-stage-terminator-erratum.json",
+      "sha256": "c4f80e26a7efc9b29298ed4e68a38be760d41d08a9b1147c1ef2f76cf5d23ff9",
+      "byteLength": 4681,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/original-stage-terminator-erratum.json",
+        "sha256": "c4f80e26a7efc9b29298ed4e68a38be760d41d08a9b1147c1ef2f76cf5d23ff9",
+        "byteLength": 4681
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-effective.jsonl.gz",
+      "sha256": "2131377f26c398dcd3d7fab17771203606f1e5099f37873e5ab1743cc9be1472",
+      "byteLength": 5000804,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/effective-2152.jsonl.gz",
+        "sha256": "2131377f26c398dcd3d7fab17771203606f1e5099f37873e5ab1743cc9be1472",
+        "byteLength": 5000804
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-source-crosswalk.jsonl",
+      "sha256": "c5e4892c45e52ac74e770db70eba26a94515965e4660eee74de7c46b3cfed33f",
+      "byteLength": 14557182,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/source-crosswalk-2152.jsonl",
+        "sha256": "c5e4892c45e52ac74e770db70eba26a94515965e4660eee74de7c46b3cfed33f",
+        "byteLength": 14557182
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-coverage.jsonl.gz",
+      "sha256": "f1e8f4cf46d522ed5819e3d6a1d44abf9546482f2fe0b2a42218b0d6df5c3586",
+      "byteLength": 633226,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/coverage-34085.jsonl.gz",
+        "sha256": "f1e8f4cf46d522ed5819e3d6a1d44abf9546482f2fe0b2a42218b0d6df5c3586",
+        "byteLength": 633226
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-draft-navigation.jsonl",
+      "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+      "byteLength": 1078911,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/draft-navigation-991.jsonl",
+        "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+        "byteLength": 1078911
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-prior-record-history.jsonl",
+      "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+      "byteLength": 28483,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/record-history-unchanged.jsonl",
+        "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+        "byteLength": 28483
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-source-capsule-index.json",
+      "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+      "byteLength": 178917,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/source-capsule-index-unchanged.json",
+        "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+        "byteLength": 178917
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-prior-limits.json",
+      "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+      "byteLength": 1343,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/limits-unchanged.json",
+        "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+        "byteLength": 1343
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-prior-composition-report.json",
+      "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+      "byteLength": 2411,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/composition-report.json",
+        "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+        "byteLength": 2411
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-prior-coverage-five-reference-deltas.jsonl",
+      "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+      "byteLength": 2872,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/coverage-five-reference-deltas.jsonl",
+        "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+        "byteLength": 2872
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-food-path-resolution-provenance.json",
+      "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+      "byteLength": 957,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/food-path-resolution-provenance.json",
+        "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+        "byteLength": 957
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-glory-five-claim-lineage.jsonl",
+      "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+      "byteLength": 10152,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/glory-five-claim-lineage.jsonl",
+        "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+        "byteLength": 10152
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-spell-seven-claim-before-after.jsonl",
+      "sha256": "b4b8c0884265dc5a21d2750a59a9a488322e82637ff406dcedc0507fe9e78156",
+      "byteLength": 4335406,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/seven-claim-before-after.jsonl",
+        "sha256": "b4b8c0884265dc5a21d2750a59a9a488322e82637ff406dcedc0507fe9e78156",
+        "byteLength": 4335406
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-spell-seven-claim-lineage.jsonl",
+      "sha256": "2e7290bce0495926a7823d9032745ea60022db223fa2e189cd5e0048fc67e1cf",
+      "byteLength": 11927,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/seven-claim-lineage.jsonl",
+        "sha256": "2e7290bce0495926a7823d9032745ea60022db223fa2e189cd5e0048fc67e1cf",
+        "byteLength": 11927
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-spell-crosswalk-digest-delta.jsonl",
+      "sha256": "ffed460db6e07586a0858162dc5e8cfb51f65f16516ad55775b27c78de7b4d9a",
+      "byteLength": 2408,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/crosswalk-digest-delta.jsonl",
+        "sha256": "ffed460db6e07586a0858162dc5e8cfb51f65f16516ad55775b27c78de7b4d9a",
+        "byteLength": 2408
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-reconciled2152-spell-corrected-20261004-spell-nine-meaning-proposals.jsonl",
+      "sha256": "b8e82b2ea21abcea331ed98985a25f336f63eb69d163f0541589ccc8cb2deebb",
+      "byteLength": 26568,
+      "byteExactSource": {
+        "path": "tmp/root-review/semantic-2152-spell-meaning-correction-stage-v2-20261004/nine-meaning-proposals-input.jsonl",
+        "sha256": "b8e82b2ea21abcea331ed98985a25f336f63eb69d163f0541589ccc8cb2deebb",
+        "byteLength": 26568
+      }
+    }
+  ],
+  "preservation": {
+    "priorSnapshotsRetained": true,
+    "nonTargetRawRowsExact": 2145,
+    "all17SupportedRecordsExact": true,
+    "stableCanonicalIds": 2152,
+    "onlyNineMeaningLeavesChangedAcrossSevenUnassessedRecords": true,
+    "onlySevenCrosswalkEffectiveLineDigestsChanged": true,
+    "coverageDimensionsTagsPlacementsBankUnchanged": true,
+    "newSemanticApprovals": 0,
+    "newDefinitionRegistrationsOrRules": 0
+  },
+  "limits": [
+    "The Spellbook-interface role is explicitly presumed; exact-ID current display/use and player-held or bank status remain unknown.",
+    "The previous2147 raw prefix is not claimed byte-exact in this successor: seven inherited unassessed meanings change; prior snapshots remain preserved.",
+    "Inherited composition report and prior-limits files are historical provenance; this manifest and nine-leaf correction lineage define the current successor.",
+    "All34,085 items and272,680 dimensions still require full semantic analysis; zero complete dimensions.",
+    "Root reviewed the nine bounded meaning changes and source context, not all86 complete native profiles.",
+    "Category redesign remains deferred; existing approvals and live-bank rows remain preserved."
+  ]
+}

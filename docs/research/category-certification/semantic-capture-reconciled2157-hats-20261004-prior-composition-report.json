@@ -1,0 +1,62 @@
+{
+  "schema": "semantic-capture-2152-glory-composition-stage/v1",
+  "status": "fresh unpublished composition candidate; root audit requested",
+  "inputM": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-manifest-20261004.json",
+    "sha256": "8221072505873cd062dea59556f4c7d2c9d5a4ade67208cf8e8f8b508a16ad90"
+  },
+  "gloryPublication": {
+    "manifestPath": "docs/research/category-certification/semantic-glory-wear-publication-manifest-20261004.json",
+    "manifestSha256": "97822fc48310b0665f765d55e480d23c2c4eaba136f861a2ef279e109a0f183a",
+    "proofPath": "tmp/root-review/glory-five-root-publication-20261004/publication-proof.json",
+    "proofSha256": "5c0fa1052e406c0e850914812e1f9fd6b77607e6574443ceea099c2a70aa44c1"
+  },
+  "counts": {
+    "effectiveAssertions": 2152,
+    "supported": 17,
+    "unassessed": 2135,
+    "distinctExactItemIds": 1652,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "completeDimensions": 0
+  },
+  "delta": {
+    "appendedSupportedGloryClaims": 5,
+    "appendedIds": [
+      1704,
+      1706,
+      1708,
+      1710,
+      1712
+    ],
+    "topCandidateFactRefRowsUpdated": 5,
+    "coverageRowsOtherwiseRawExact": 34080,
+    "baselineEffectiveRawLinesPreservedExactPrefix": 2147,
+    "baselineSupportedRowsPreservedExact": 12,
+    "baselineCrosswalkRowsPreservedExact": 2147,
+    "baselineDraftNavigationRowsPreservedExact": 986,
+    "baselineDimensionsTagsPlacementsChanged": 0,
+    "currentEffectiveNativeTopFactRefsAddedOnlyToExact5": true
+  },
+  "definitionNavigation": {
+    "newRows": 5,
+    "sourceBoundExactTupleOnly": true,
+    "predicate": "wiki-own-source:osrs-requirement-glory-wear",
+    "definitionPath": "docs/research/category-certification/semantic-glory-wear-definition-draft-20261004.json",
+    "definitionSha256": "39af84ef9083280abdd7cc8f443eb7de3645d2a108f506d27f13ebd54a72bf84",
+    "definitionStatus": "draft-unregistered",
+    "aliasesAdded": 0,
+    "unitsAdded": 0,
+    "rulesUsable": false
+  },
+  "foodPathResolutionProvenance": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-food-path-resolution-20261004.json",
+    "sha256": "f5d03876ee40644479b589cf6796165dc5c571f99caa42909bc6116271594436",
+    "additiveOnly": true,
+    "oldErratumRewritten": false
+  },
+  "publication": false,
+  "current1655Integration": false,
+  "tests": false,
+  "gitChanges": false
+}

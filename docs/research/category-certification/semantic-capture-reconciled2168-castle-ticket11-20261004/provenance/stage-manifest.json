@@ -1,0 +1,461 @@
+{
+  "schema": "semantic-capture-reconciled2168-castle-ticket11-path-repair-successor/v1",
+  "status": "additive path-only research successor; unpublished; no new approval; root review pending",
+  "predecessor": {
+    "stagePath": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004",
+    "manifestSha256": "aee1ab713564909f7877399f32ce027936ae46b5d4d9c3a75239367c357f67d6",
+    "sealSha256": "a085405035761a0a50d73e53c2ab107a13f5cecaac7d2e38891b38443ccddb48"
+  },
+  "pathRepair": {
+    "artifactPath": "crosswalk-path-repair.json",
+    "artifactSha256": "4645a1fbc4c63ef2e94cbb47eb65b19e6959e05966580a881f027ddf5871db9f",
+    "changedPointer": "/sourceContext/fullContextPacketPath",
+    "oldPath": "supporting/castle-ticket11/source-value-condition-bindings.json",
+    "newPath": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+    "changedRows": 11,
+    "exactInverseLines": 11
+  },
+  "preservation": {
+    "effective2168CompressedBytesExact": true,
+    "coverage34085CompressedBytesExact": true,
+    "current2157CrosswalkRawPrefixExact": true,
+    "allCurrentAuxiliaryPayloadsExact": true,
+    "allTicketSourceAuthPolicyContextCopiesExact": true,
+    "coverageReferencesAndDimensionsUnchanged": true,
+    "nativeValuesStatesQualifiersEvidenceUnchanged": true,
+    "definitionObjectsAndDraftStatusUnchanged": true
+  },
+  "counts": {
+    "inputAssertions": 2157,
+    "appendedAssertions": 11,
+    "outputAssertions": 2168,
+    "exactClaimIdOverlap": 0,
+    "exactItemIdOverlap": 0,
+    "exactItemIdsBefore": 1657,
+    "exactItemIdsAfter": 1658,
+    "exactItemIdAdded": true,
+    "supportedBefore": 22,
+    "supportedAfter": 33,
+    "unassessedBefore": 2135,
+    "unassessedAfter": 2135,
+    "coverageRows": 34085,
+    "coverageReferenceTargetRows": 1,
+    "coverageTopLevelRefsAppended": 11,
+    "dimensionObjects": 272680,
+    "completeDimensions": 0,
+    "unassessedDimensions": 272680
+  },
+  "validation": {
+    "validRecords": 2168,
+    "sourceReplay": true,
+    "manifestChecked": true,
+    "semanticApprovalGranted": false
+  },
+  "inputs": [
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/stage-manifest.json",
+      "sha256": "aee1ab713564909f7877399f32ce027936ae46b5d4d9c3a75239367c357f67d6",
+      "bytes": 25279,
+      "role": "sealed 2,168 composition predecessor manifest"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/stage-seal.json",
+      "sha256": "a085405035761a0a50d73e53c2ab107a13f5cecaac7d2e38891b38443ccddb48",
+      "bytes": 10263,
+      "role": "sealed 2,168 composition predecessor seal"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/source-crosswalk-2168.jsonl",
+      "sha256": "d3bf78a2a5ce4eec4de40e0fc45fd6685615faeada6d138d30fd0c542acfdb4d",
+      "bytes": 14690326,
+      "role": "predecessor crosswalk source for raw-line inverse"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/effective-2168.jsonl.gz",
+      "sha256": "1bd7351acb35b359896ca86392db614a261bc2e3494c54f4878c7818f1f20f26",
+      "bytes": 5001991,
+      "role": "predecessor native effective payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/coverage-34085.jsonl.gz",
+      "sha256": "f430643b3b0bcc0d93da32440448893fa4e3c4bf39983903ba9ab25b205337c0",
+      "bytes": 634014,
+      "role": "predecessor coverage payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/ticket11-crosswalk-additions.jsonl",
+      "sha256": "917330af2b9b0eae1381c52d9d399c5fe821b03ab38a72902a310a6e19be1c18",
+      "bytes": 90978,
+      "role": "predecessor eleven crosswalk addition lines"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/validator-manifest.json",
+      "sha256": "d5328c1f44083d66fc76183fc61b2e97cfe4786af7eed6f5456b467277cdf6fe",
+      "bytes": 633,
+      "role": "predecessor native validator manifest"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367,
+      "role": "actual full context target copied to successor"
+    },
+    {
+      "path": "tools/research/semantic-grouping-audit/certification/semantic-records.py",
+      "sha256": "7f1e422463d53d58ffae16ccfbfe637c8b6d05f24b0acec9c0419924c294a47a",
+      "bytes": 20965,
+      "role": "existing native source/schema validator"
+    },
+    {
+      "path": "tools/research/semantic-grouping-audit/certification/semantic-records.schema.json",
+      "sha256": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a",
+      "bytes": 17114,
+      "role": "existing semantic record schema"
+    },
+    {
+      "path": "tmp/root-review/build_semantic_reconciled2168_castle_ticket11_path_repair_20261004.py",
+      "sha256": "76346f238bbd9d02e5c9f7d5d68a331bc740d3f8432e5687b37a932fd6b3a0ab",
+      "bytes": 19056,
+      "role": "path repair successor builder helper"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-draft-navigation.jsonl",
+      "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+      "bytes": 1078911,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-food-path-resolution-provenance.json",
+      "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+      "bytes": 957,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-glory-five-claim-lineage.jsonl",
+      "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+      "bytes": 10152,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-canonical-id-and-source-proof.jsonl",
+      "sha256": "7e6664b12dcaa03b1657133b5537f9dced219c1e4a9b20e2145f707a4c82d9ad",
+      "bytes": 7026,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-coverage-reference-deltas.jsonl",
+      "sha256": "569513ea55372ab2c6eaeae912b2f86e0aa0b92622596343efd5fe945f2de230",
+      "bytes": 1938,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-source-crosswalk-additions.jsonl",
+      "sha256": "3b842f200548c2669228f25b0e4783f25e509e82562e2c7be06c224a550280d9",
+      "bytes": 42166,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-stage-lineage-erratum.json",
+      "sha256": "518a77fd41b862d82bccee078e75590b06238c3354330731b161332c2f32086a",
+      "bytes": 5765,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-composition-report.json",
+      "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+      "bytes": 2411,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-coverage-five-reference-deltas.jsonl",
+      "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+      "bytes": 2872,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-limits.json",
+      "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+      "bytes": 1343,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-record-history.jsonl",
+      "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+      "bytes": 28483,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-source-capsule-index.json",
+      "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+      "bytes": 178917,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-crosswalk-digest-delta.jsonl",
+      "sha256": "ffed460db6e07586a0858162dc5e8cfb51f65f16516ad55775b27c78de7b4d9a",
+      "bytes": 2408,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-nine-meaning-proposals.jsonl",
+      "sha256": "b8e82b2ea21abcea331ed98985a25f336f63eb69d163f0541589ccc8cb2deebb",
+      "bytes": 26568,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-original-stage-terminator-erratum.json",
+      "sha256": "c4f80e26a7efc9b29298ed4e68a38be760d41d08a9b1147c1ef2f76cf5d23ff9",
+      "bytes": 4681,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-before-after.jsonl",
+      "sha256": "b4b8c0884265dc5a21d2750a59a9a488322e82637ff406dcedc0507fe9e78156",
+      "bytes": 4335406,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    },
+    {
+      "path": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-lineage.jsonl",
+      "sha256": "2e7290bce0495926a7823d9032745ea60022db223fa2e189cd5e0048fc67e1cf",
+      "bytes": 11927,
+      "role": "predecessor current auxiliary payload preserved byte-exact"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "composition-replay.json",
+      "sha256": "964b0b35cef432a9c18cfc5a4ba69d35fd36ed62a0baa03d08b9eee076c1c62b",
+      "bytes": 2559
+    },
+    {
+      "path": "coverage-34085.jsonl.gz",
+      "sha256": "f430643b3b0bcc0d93da32440448893fa4e3c4bf39983903ba9ab25b205337c0",
+      "bytes": 634014
+    },
+    {
+      "path": "coverage-reference-delta.jsonl",
+      "sha256": "65fa8baf7970218268c8e5c32b5942a3c139cefcaec55a947d3654eb64437f96",
+      "bytes": 1867
+    },
+    {
+      "path": "crosswalk-path-repair.json",
+      "sha256": "4645a1fbc4c63ef2e94cbb47eb65b19e6959e05966580a881f027ddf5871db9f",
+      "bytes": 255500
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-draft-navigation.jsonl",
+      "sha256": "7a912783f2b07efcd7f7ee5611e94ec41c384aa9db70c65d1386e1c2c1e2f801",
+      "bytes": 1078911
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-food-path-resolution-provenance.json",
+      "sha256": "6603b90e180c1e018e97006029d013d579a6f75e64b7c1cfdbdf942a320ae2db",
+      "bytes": 957
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-glory-five-claim-lineage.jsonl",
+      "sha256": "9b563d4ad8e2c1b61360c99961916800a8237ba0895cf130854b35232976063c",
+      "bytes": 10152
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-canonical-id-and-source-proof.jsonl",
+      "sha256": "7e6664b12dcaa03b1657133b5537f9dced219c1e4a9b20e2145f707a4c82d9ad",
+      "bytes": 7026
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-coverage-reference-deltas.jsonl",
+      "sha256": "569513ea55372ab2c6eaeae912b2f86e0aa0b92622596343efd5fe945f2de230",
+      "bytes": 1938
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-source-crosswalk-additions.jsonl",
+      "sha256": "3b842f200548c2669228f25b0e4783f25e509e82562e2c7be06c224a550280d9",
+      "bytes": 42166
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-hat-stage-lineage-erratum.json",
+      "sha256": "518a77fd41b862d82bccee078e75590b06238c3354330731b161332c2f32086a",
+      "bytes": 5765
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-composition-report.json",
+      "sha256": "8594035f08557579013f25cde655085a311c9dd15b44fe2b470a8bfb776f555b",
+      "bytes": 2411
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-coverage-five-reference-deltas.jsonl",
+      "sha256": "baf57df6a329def322cc5b01e5bbc83ec10f44cdf6d5483a0fadab98738c5b1a",
+      "bytes": 2872
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-limits.json",
+      "sha256": "427fe7e1c91eafba4199b6f1713f1070a2fba3a7d26f6961e900147dc9902d20",
+      "bytes": 1343
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-prior-record-history.jsonl",
+      "sha256": "05585366fdd49df33090f2cba9804639f8cd4fa06f5c39414c4341a54282fae9",
+      "bytes": 28483
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-source-capsule-index.json",
+      "sha256": "a35d8eaf66aa9f15be8a7d734dea7f6da2445499b058e53c9d16978f725094cb",
+      "bytes": 178917
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-crosswalk-digest-delta.jsonl",
+      "sha256": "ffed460db6e07586a0858162dc5e8cfb51f65f16516ad55775b27c78de7b4d9a",
+      "bytes": 2408
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-nine-meaning-proposals.jsonl",
+      "sha256": "b8e82b2ea21abcea331ed98985a25f336f63eb69d163f0541589ccc8cb2deebb",
+      "bytes": 26568
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-original-stage-terminator-erratum.json",
+      "sha256": "c4f80e26a7efc9b29298ed4e68a38be760d41d08a9b1147c1ef2f76cf5d23ff9",
+      "bytes": 4681
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-before-after.jsonl",
+      "sha256": "b4b8c0884265dc5a21d2750a59a9a488322e82637ff406dcedc0507fe9e78156",
+      "bytes": 4335406
+    },
+    {
+      "path": "current-2157-aux/semantic-capture-reconciled2157-hats-20261004-spell-seven-claim-lineage.jsonl",
+      "sha256": "2e7290bce0495926a7823d9032745ea60022db223fa2e189cd5e0048fc67e1cf",
+      "bytes": 11927
+    },
+    {
+      "path": "effective-2168.jsonl.gz",
+      "sha256": "1bd7351acb35b359896ca86392db614a261bc2e3494c54f4878c7818f1f20f26",
+      "bytes": 5001991
+    },
+    {
+      "path": "native-validation.json",
+      "sha256": "b0630d77503f052a14a18e9211f06acf53219a16bd6a72462578643f8ad80f3d",
+      "bytes": 1004
+    },
+    {
+      "path": "path-repair-provenance.json",
+      "sha256": "aa09f595227ae8a8ff5942a094c665ec95a6be2003d41518ca14e1aaa8b9f7ca",
+      "bytes": 1491
+    },
+    {
+      "path": "README.md",
+      "sha256": "95c1b71ffec53d94478cec531e4dc1cfe1cd946175005f87902c6e6fa1141054",
+      "bytes": 3010
+    },
+    {
+      "path": "source-crosswalk-2168.jsonl",
+      "sha256": "3062691ee417a16e03f9811090e26ca736d76870be66ec46271b5e9227a15b41",
+      "bytes": 14690447
+    },
+    {
+      "path": "supporting/castle-ticket11/definition-audit.json",
+      "sha256": "0d7369e092ec369ac757f5fba52ddcadec01c26a079b32ce514144995d3f49f7",
+      "bytes": 4397
+    },
+    {
+      "path": "supporting/castle-ticket11/exact-before-after.jsonl",
+      "sha256": "a0d4cd3cf2eed8e956fee6db373f0d66c9fb34b29287436d259043af667f9bbd",
+      "bytes": 107309
+    },
+    {
+      "path": "supporting/castle-ticket11/inverse-proof.json",
+      "sha256": "0ef8ef03ab5d247a850072910b0c6635945f1224f1cb8e024514313ea4d88d94",
+      "bytes": 73648
+    },
+    {
+      "path": "supporting/castle-ticket11/native-validation.json",
+      "sha256": "1513f3a346b5ca53a2e13fa9e0a2b9531bf5b437bb6cb2662e3b67df0094c53c",
+      "bytes": 886
+    },
+    {
+      "path": "supporting/castle-ticket11/own-source-15184720.txt",
+      "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+      "bytes": 2056
+    },
+    {
+      "path": "supporting/castle-ticket11/README.md",
+      "sha256": "6d1f601303da80b446c46b5249f7555004344ff5a33db618dea9749ca35a1c40",
+      "bytes": 1873
+    },
+    {
+      "path": "supporting/castle-ticket11/seal.json",
+      "sha256": "f7d0a909d0959b7c80b1a48e9b6957be077371516a0423700373f006d72e6c99",
+      "bytes": 3403
+    },
+    {
+      "path": "supporting/castle-ticket11/supported-item-facts.jsonl",
+      "sha256": "c4f55b13a97fa642083fcbcdec217be87ce2e1865af778b355695d80741898ec",
+      "bytes": 53683
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/approval-policy.json",
+      "sha256": "77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+      "bytes": 38359
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/independent-audit-manifest.json",
+      "sha256": "1bf3737def881beda2c77ea7e6cd98b12f61a10e5fd8f71f10fda8c6f0564e2f",
+      "bytes": 4746
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/independent-audit-seal.json",
+      "sha256": "d8f1b92b39814d2b266c39bb7729e0615f1e00eb1f2e436f6e2a10e299d507fa",
+      "bytes": 356
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/proposal-manifest.json",
+      "sha256": "84afa19c999f2c692528e09d52942c5bd3f55a7248ef3ad63c38edfa23d7e282",
+      "bytes": 1963
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/proposed-root-fact-scope.json",
+      "sha256": "a67eb34bd823cb415513226a148b80fdc0033bac2efca168e7b6b24bbbe8f864",
+      "bytes": 5897
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/root-authorization.json",
+      "sha256": "f29b6bbb1f1c7f28a87021b7837b221f0cafe1abbf31a6754e2553d9edfe7bf0",
+      "bytes": 10399
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/root-replay.json",
+      "sha256": "902aaf945b5cdc09b2145042d9300edf8b7282c8ff69c873bcffc23769c2bf72",
+      "bytes": 31178
+    },
+    {
+      "path": "supporting/castle-ticket11/supporting/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367
+    },
+    {
+      "path": "supporting/castle-ticket11/transition-checks.jsonl",
+      "sha256": "1a9b4ec7614c3c3f1c140d800ff4dcffcc41c5dc6da30d3e7713dcaac41834e4",
+      "bytes": 2748
+    },
+    {
+      "path": "supporting/castle-ticket11/transition-ledger.jsonl",
+      "sha256": "b0710b3a7d863fb1fd8f894dde1b5346cca6ae3abcfb77442959c4965168d41c",
+      "bytes": 59252
+    },
+    {
+      "path": "ticket11-crosswalk-additions.jsonl",
+      "sha256": "c3ab322513d60a96b5af19136927d0ea6162c50a39e943516960db1e11d12290",
+      "bytes": 91099
+    },
+    {
+      "path": "validator-manifest.json",
+      "sha256": "b3481ed97974770d7699e39161a7d17f66bd873471035e7b882ddab3a84ac109",
+      "bytes": 896
+    }
+  ],
+  "limits": [
+    "Path repair only; no native claim, status, source evidence, coverage value, or approval changed.",
+    "Stage remains unpublished, with no added semantic approval, definition registration, rule usability, category, tag, placement or bank action.",
+    "Independent/root review is pending."
+  ]
+}

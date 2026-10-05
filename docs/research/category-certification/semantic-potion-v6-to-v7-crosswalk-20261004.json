@@ -1,0 +1,1546 @@
+{
+  "format": "potion-v6-to-v7-raw-table-output-correction/v1",
+  "v6ManifestSha256": "018d113fa1dd1658b9f803fd95f161561ac57e0ff0e7dba911a27f6788e25a13",
+  "auditErratumManifestSha256": "a3dbf2ac284f945f2977d8e32f22c980379a9735b04a135debe0534cd0376c0d",
+  "claimReplacements": [
+    {
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "itemId": 26342,
+      "itemName": "Ancient brew(3)",
+      "beforeClaimSha256": "sha256:87fec81cd1d95a0ae0fe016340002983dfcd9dc0c789231f3cf0bfa5b85d3b23",
+      "afterClaimSha256": "sha256:5a4762840c6a244e7e5563ddbee533c443401a8c84440668a421b8c5ea7d5dd8",
+      "changedFieldPath": "factValue.rawEffectTablePairObservations[result.unit, subsectionProvenance]"
+    },
+    {
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "itemId": 3026,
+      "itemName": "Super restore(3)",
+      "beforeClaimSha256": "sha256:d12f0336ea8de2c373f84fdb45c86481a73c9a6be3026cf1335841337e2a917e",
+      "afterClaimSha256": "sha256:2e536d27cbb8cd61d8f03a09afa2e802a80aa9441604d3f866c0aeaab1f6413a",
+      "changedFieldPath": "factValue.rawEffectTablePairObservations[result.unit, subsectionProvenance]"
+    }
+  ],
+  "changedTableResults": [
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 5,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 2
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 2
+      },
+      "beforeResultSha256": "sha256:841c9ede2da9abb08448a0a75f5ec6faae6d7310148cb0a6d03d409682f4243b",
+      "afterResultSha256": "sha256:660fa592fddf8452d2404788427aadf5ce2d051c5e9d7cb0ba7728e3f424b821",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 6,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 7
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 7
+      },
+      "beforeResultSha256": "sha256:a342c49514db51b06ff6d1430b66286e1c34d5e3af4d9cb836754386e72dceb0",
+      "afterResultSha256": "sha256:7bff17eecdf993d3df8b8d26a15f2f7e2272c9c081ec49b8541a564a5a289010",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 7,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 3
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 3
+      },
+      "beforeResultSha256": "sha256:99972c287a73d20baf8860eb99677160cc91f13f54168f4c27450d74965c92dc",
+      "afterResultSha256": "sha256:56cde7db9821df4ef4253b90599d936ebb66af904607ad59c04808f6b0fb444e",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 8,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 8
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 8
+      },
+      "beforeResultSha256": "sha256:e389ad080062fc0e742597c849e3c2b809ea94ceac03aa1ec409373561b52623",
+      "afterResultSha256": "sha256:edb9b845a02d2ebc1c653d3296838b39c5bb2ce81c4c197282415077bff49768",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 9,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 4
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 4
+      },
+      "beforeResultSha256": "sha256:c6c3dc6d02a4061956287eab323864f2e1e226e1b9660c5cab020d4ae7b96d60",
+      "afterResultSha256": "sha256:7c1f1cc3109275adcaf1ac99fbe2e67b05b53ae89a8977bde792c203f212a3e1",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 10,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 9
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 9
+      },
+      "beforeResultSha256": "sha256:3e9357e1b057f241470c6668d7c0e36ac8911079dccaa937dc8d36cb2998bf45",
+      "afterResultSha256": "sha256:15730d511cbb18baabe9eea6a347151357926e4bf23a0a84b5c7282b74f85ac1",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 11,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 5
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 5
+      },
+      "beforeResultSha256": "sha256:dc2ae9a4cffefb9c8e87ebd6182aaa1c5c61dca1f049a0a5dd5d6aa6208c07a1",
+      "afterResultSha256": "sha256:cda4a0a82e68e9e9de28110b4669e142aef5e1ba991e5bc8b98a44bdb8c190df",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 12,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 10
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 10
+      },
+      "beforeResultSha256": "sha256:0a25c5a38af5fdb5539ef818699179bd55f4b925988bbe9098fe819079232f32",
+      "afterResultSha256": "sha256:f25015f8070e2b68a0271fea98205b14862b5687ee2ef4814c69bcbecb190439",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 13,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 6
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 6
+      },
+      "beforeResultSha256": "sha256:236e79b19dc2613e3b0134f0a47441081494e956e58817f14399a6182aec94b3",
+      "afterResultSha256": "sha256:f6604fad15c801f65da5eadb5ff8b9ff51a1d3be0db06c9fe95bf93a937c3f8f",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 26342,
+      "recordId": "claim-6a5c442f355523bbbf7a51d9f3d81196b6bfd78865a7d4969f7ff5b19c3e3e86",
+      "arrayIndex": 14,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 11
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 11
+      },
+      "beforeResultSha256": "sha256:fe9caa7313921cabf39183c89005c1dffdd41749afc4db8004473184df69f776",
+      "afterResultSha256": "sha256:71e68b5637bf0c5e1689dc395bdbb5cb8bc4850702ee88be35d79b05deb8f067",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15342079,
+        "sourcePageSha256": "sha256:06d968b746acae4241aff019c0faece3d1341eaccd818674b30c27eee55534a6",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Prayer restore",
+        "tableOrdinalWithinEffects": 2,
+        "rowTargetBinding": "Prayer points, Prayer Restore subsection"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 0,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 8
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 8
+      },
+      "beforeResultSha256": "sha256:e389ad080062fc0e742597c849e3c2b809ea94ceac03aa1ec409373561b52623",
+      "afterResultSha256": "sha256:5a28bcf59fa23f9bfd6fbf35fa98ff4e69bf077104e841a527bcc2c4715f0415",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 1,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 17
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 17
+      },
+      "beforeResultSha256": "sha256:1327db845e89b7994cc6684a4238ddf265f96bef4e4825128bd937e5bb1672c5",
+      "afterResultSha256": "sha256:15a8177bce3f4ed1b2369bfaab916f57709c7cb591534250a375d48d2309e0ab",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 2,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 26
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 26
+      },
+      "beforeResultSha256": "sha256:255f6c67d551d89e8600ecefb3a9373df3deaddbfd5266252df4db7bba0b78d2",
+      "afterResultSha256": "sha256:58eaa8a79d2f6dbd781277676b8fbada52c8de01068cc7d651eaa525fc00ca56",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 3,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 9
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 9
+      },
+      "beforeResultSha256": "sha256:3e9357e1b057f241470c6668d7c0e36ac8911079dccaa937dc8d36cb2998bf45",
+      "afterResultSha256": "sha256:eed7bff5460c005d9240acdd1eb4268da375f533aaa0a54372be91887a754beb",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 4,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 18
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 18
+      },
+      "beforeResultSha256": "sha256:be2a1626beecd02185e4321fdeb8d2b7a7bb5037d82bbcf7f45159c39e6df75a",
+      "afterResultSha256": "sha256:f97cfe1eb74f328140d4dde56e077b883be835019f99437172f49e843d61f207",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 5,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 27
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 27
+      },
+      "beforeResultSha256": "sha256:16d7d2c73e774a0f009d2cc65c2eeb3f7cc5cb9a241a089dece60f5f4e060fe9",
+      "afterResultSha256": "sha256:a557020e7c9dcff28adc26397d189329e57338dbdff5dc255b4cf997989066fa",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 6,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 10
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 10
+      },
+      "beforeResultSha256": "sha256:0a25c5a38af5fdb5539ef818699179bd55f4b925988bbe9098fe819079232f32",
+      "afterResultSha256": "sha256:632d4df1e1e5b1e7b692f7ff328dd8a9905adcab87b3f1f1f98428e10bc407b2",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 7,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 19
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 19
+      },
+      "beforeResultSha256": "sha256:d09ae77c1258ca91bb6c8b08d03cb036bf868edac3d458f6f09629453c9c6706",
+      "afterResultSha256": "sha256:6e94e9108b8f1bebca2eb0dacec373a88bed2b469b7920a7dd329e2b602222a4",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 8,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 28
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 28
+      },
+      "beforeResultSha256": "sha256:c84d066f1e78d0e12d76a2947b7d18ffe031e728653817a3d8b967f6e044a290",
+      "afterResultSha256": "sha256:1c1f10fa07beeb6c9ca230e008d57c7cf9c61e41970deb533d226d76dae19bef",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 9,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 11
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 11
+      },
+      "beforeResultSha256": "sha256:fe9caa7313921cabf39183c89005c1dffdd41749afc4db8004473184df69f776",
+      "afterResultSha256": "sha256:ef767bac9051bade2a684f8e4a05ea4cfe6537624e8684ddf90ab445e50d02d5",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 10,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 20
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 20
+      },
+      "beforeResultSha256": "sha256:7eccdef9f77a8fb59e8c9ecd1578ac92b409d903062baf765915c4a44ca51b25",
+      "afterResultSha256": "sha256:5492f55046f0fdf894b80c90aabefb55d63f95a88ed120ec4249deb391515619",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 11,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 29
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 29
+      },
+      "beforeResultSha256": "sha256:bd020fa56efd00dc2f8882dbb8b08c531d28661101aa59b92b6eb0f8b7e821ce",
+      "afterResultSha256": "sha256:be6398617c3c8b96afab682b195232296f6d39d808931a43cdbd3a1bb352b600",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 12,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 12
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 12
+      },
+      "beforeResultSha256": "sha256:3ccb4e6f5acc62075a46b90b12aff5a4a29b07b83b1d1d774568f5f5a08a2d7a",
+      "afterResultSha256": "sha256:c96e50c939269bfdedeb4c6faf77cc261e76ace6755f8fc0ecf4b928852204fa",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 13,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 21
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 21
+      },
+      "beforeResultSha256": "sha256:97c7e7fed2f505a8c836890755b6c1ec93c4b6711fa740fe4b684d9157f925a3",
+      "afterResultSha256": "sha256:701de88d4b0e43cee7e6174845b2eefa453e16aaa488d2fd56cacc16cecc7604",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 14,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 30
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 30
+      },
+      "beforeResultSha256": "sha256:3fd99c1811b98b334f6fac4ebba8a66f4a10d8af048527fba4160c9d3d2ea0e1",
+      "afterResultSha256": "sha256:ac71cbd384d29b7707039a611405b490a386f785128bff63858a6846fcceba33",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 15,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 13
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 13
+      },
+      "beforeResultSha256": "sha256:7496b995bd68ffc39049ad298af0d0f438e7991ea58f0db4959c1a86ea3c38dd",
+      "afterResultSha256": "sha256:6d2f43dbe0784219b76ccb7f3a4c27eead7bdb877c2fee5dcd1c574486b4d95f",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 16,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 22
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 22
+      },
+      "beforeResultSha256": "sha256:e43634e68caa8fe5c42e7c9f8640dcbf2840aa4b74be0aff4ce299b2efed6de2",
+      "afterResultSha256": "sha256:f3233c31bc4c844fd5d7a5347a0334777bc89db0abad8ebb5f6efe3b43059a22",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 17,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 31
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 31
+      },
+      "beforeResultSha256": "sha256:2b2833139fda67b1b807c9143a66d82a4355ba0f625ca2913f692fa5c29353f0",
+      "afterResultSha256": "sha256:e41d0545b145e66d59a640c94334d9168fc312d4aecfa3c329900962e314c8b8",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 18,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 14
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 14
+      },
+      "beforeResultSha256": "sha256:8a507dc5e487d6865d52ad531c1cf3fbf87d8b4f5b17ce90c8f406c9f9f52b4d",
+      "afterResultSha256": "sha256:a2bdb89e9e6bdba07818c2f9d0853712d330f61aabf350806452d33e24c6a3a6",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 19,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 23
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 23
+      },
+      "beforeResultSha256": "sha256:59b75cb14dff264ed04fe363802719fa4a08e3845d3b36973883f667000932da",
+      "afterResultSha256": "sha256:36953f1589325a27a444119f4cf8ab722fad60b216198b99b50e9dfbbff5f2e9",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 20,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 32
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 32
+      },
+      "beforeResultSha256": "sha256:d6dcdd231ecc309c5fa38b29e060a0033e1a73a5083def19ee11240f6f772cd3",
+      "afterResultSha256": "sha256:03d2f0f6b0c0abb4a23cb91ad09550f81a4514d68d4c9d5d47501eb0de9be61c",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 21,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 15
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 15
+      },
+      "beforeResultSha256": "sha256:7a2c75d503b82993a8ea45cfec989163fd2d788d53ef031514503bc4d8b0859f",
+      "afterResultSha256": "sha256:eb17dea82f1c963fc331e0f4be5af1bdc49b8e3e335eeae3d2fdcfd3c1bb732d",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 22,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 24
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 24
+      },
+      "beforeResultSha256": "sha256:85cd88366809feb304060df1085334486699a5d038e12fbb58856e575379f75c",
+      "afterResultSha256": "sha256:ea228c5360d7708cf8cc7e67a5286b50772daf5a4bc99c3908cabecf1f1d4d31",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 23,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 16
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 16
+      },
+      "beforeResultSha256": "sha256:50b260cb9ee9002372f0af956414c65bf312937a53bd57e8666e3b39043d53b6",
+      "afterResultSha256": "sha256:07074a540aee1e4d925ea7bafde5e53273418a6c384affe37631a50465612f3e",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 24,
+      "status": "unknown-shared-target",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 25
+      },
+      "afterResult": {
+        "unit": null,
+        "unitStatus": "unresolved: shared Stat/Prayer restore table row has no target association",
+        "value": 25
+      },
+      "beforeResultSha256": "sha256:8a5ed5b92d00afbc900d3a7fdae98811c349389b605857751599b44141ae09f7",
+      "afterResultSha256": "sha256:c45ea1dc2984649b458573f35a36adb867ceecc993c9a27033f26f4f1d1c16a3",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "Stat/Prayer restore",
+        "tableOrdinalWithinSubsection": 1,
+        "rowTargetBinding": "shared Stat/Prayer restore; parsed row does not identify skill-level versus Prayer-point result"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 25,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 8
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 8
+      },
+      "beforeResultSha256": "sha256:e389ad080062fc0e742597c849e3c2b809ea94ceac03aa1ec409373561b52623",
+      "afterResultSha256": "sha256:edb9b845a02d2ebc1c653d3296838b39c5bb2ce81c4c197282415077bff49768",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 26,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 17
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 17
+      },
+      "beforeResultSha256": "sha256:1327db845e89b7994cc6684a4238ddf265f96bef4e4825128bd937e5bb1672c5",
+      "afterResultSha256": "sha256:e3f8b7a4ef1179f67f4779f0e165e6a7e82c830e146b486ca331335f2896e719",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 27,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 26
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 26
+      },
+      "beforeResultSha256": "sha256:255f6c67d551d89e8600ecefb3a9373df3deaddbfd5266252df4db7bba0b78d2",
+      "afterResultSha256": "sha256:6e8175268bccf72e0864d8baca07dcb468d76643d84466ec36116ecdddb5139d",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 28,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 9
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 9
+      },
+      "beforeResultSha256": "sha256:3e9357e1b057f241470c6668d7c0e36ac8911079dccaa937dc8d36cb2998bf45",
+      "afterResultSha256": "sha256:15730d511cbb18baabe9eea6a347151357926e4bf23a0a84b5c7282b74f85ac1",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 29,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 18
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 18
+      },
+      "beforeResultSha256": "sha256:be2a1626beecd02185e4321fdeb8d2b7a7bb5037d82bbcf7f45159c39e6df75a",
+      "afterResultSha256": "sha256:852180d2034f867193ed7693c5ff589ea32f2e66a90a40d210810670c11c1724",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 30,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 27
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 27
+      },
+      "beforeResultSha256": "sha256:16d7d2c73e774a0f009d2cc65c2eeb3f7cc5cb9a241a089dece60f5f4e060fe9",
+      "afterResultSha256": "sha256:ef9621db678dcce47248d04ee5512573f11e6f73c52b2f82b96318c681d7242f",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 31,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 10
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 10
+      },
+      "beforeResultSha256": "sha256:0a25c5a38af5fdb5539ef818699179bd55f4b925988bbe9098fe819079232f32",
+      "afterResultSha256": "sha256:f25015f8070e2b68a0271fea98205b14862b5687ee2ef4814c69bcbecb190439",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 32,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 19
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 19
+      },
+      "beforeResultSha256": "sha256:d09ae77c1258ca91bb6c8b08d03cb036bf868edac3d458f6f09629453c9c6706",
+      "afterResultSha256": "sha256:980c5fe6e4164c15dc5d9f44791fc500275900c1fecbd1ce4e657afccd5a7f68",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 33,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 28
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 28
+      },
+      "beforeResultSha256": "sha256:c84d066f1e78d0e12d76a2947b7d18ffe031e728653817a3d8b967f6e044a290",
+      "afterResultSha256": "sha256:9423c0d19b98193c65d3643cb3f53253fc88813dc40f4d5e4e098baf48c4f0a6",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 34,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 11
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 11
+      },
+      "beforeResultSha256": "sha256:fe9caa7313921cabf39183c89005c1dffdd41749afc4db8004473184df69f776",
+      "afterResultSha256": "sha256:71e68b5637bf0c5e1689dc395bdbb5cb8bc4850702ee88be35d79b05deb8f067",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 35,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 20
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 20
+      },
+      "beforeResultSha256": "sha256:7eccdef9f77a8fb59e8c9ecd1578ac92b409d903062baf765915c4a44ca51b25",
+      "afterResultSha256": "sha256:81e23edb4e0e2db31aa27877df79626a38bdc361748ce7d3b47853252ea7a365",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 36,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 29
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 29
+      },
+      "beforeResultSha256": "sha256:bd020fa56efd00dc2f8882dbb8b08c531d28661101aa59b92b6eb0f8b7e821ce",
+      "afterResultSha256": "sha256:7fee4a28daa4abde13fe80156d64d3ccec96843af408e85cb09bae4c3e087a33",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 37,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 12
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 12
+      },
+      "beforeResultSha256": "sha256:3ccb4e6f5acc62075a46b90b12aff5a4a29b07b83b1d1d774568f5f5a08a2d7a",
+      "afterResultSha256": "sha256:1c9607beefe2c10b6ac88832fc0ad202250b8da085b34ee1ccb882b886919684",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 38,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 21
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 21
+      },
+      "beforeResultSha256": "sha256:97c7e7fed2f505a8c836890755b6c1ec93c4b6711fa740fe4b684d9157f925a3",
+      "afterResultSha256": "sha256:bcea30e9af418b82134fa5d19e203e47425e9aac22886c3ca5cfae6f5b2151a7",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 39,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 30
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 30
+      },
+      "beforeResultSha256": "sha256:3fd99c1811b98b334f6fac4ebba8a66f4a10d8af048527fba4160c9d3d2ea0e1",
+      "afterResultSha256": "sha256:82961b50e37dda12309d6934074c0d1c711594ccdccd8ae7f81f73ae90faee2e",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 40,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 13
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 13
+      },
+      "beforeResultSha256": "sha256:7496b995bd68ffc39049ad298af0d0f438e7991ea58f0db4959c1a86ea3c38dd",
+      "afterResultSha256": "sha256:40b267dfa665a3535d04811fce421e4b071523d3c6ad0b56c8f181bddfd78d48",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 41,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 22
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 22
+      },
+      "beforeResultSha256": "sha256:e43634e68caa8fe5c42e7c9f8640dcbf2840aa4b74be0aff4ce299b2efed6de2",
+      "afterResultSha256": "sha256:5863ae4a06ed30f9fd52b6a0c6436e6664ed9244d2363bd46e2ccb8cae36cd79",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 42,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 31
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 31
+      },
+      "beforeResultSha256": "sha256:2b2833139fda67b1b807c9143a66d82a4355ba0f625ca2913f692fa5c29353f0",
+      "afterResultSha256": "sha256:db5b78797f0ff4ebc2ae708ae6db476f96e326dd8b102a2be0bc7c5d4a4903a4",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 43,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 14
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 14
+      },
+      "beforeResultSha256": "sha256:8a507dc5e487d6865d52ad531c1cf3fbf87d8b4f5b17ce90c8f406c9f9f52b4d",
+      "afterResultSha256": "sha256:dbcddb1386c13f43d63b3183f9916eaf1f31a9c408dd186c8be3a9d16d522654",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 44,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 23
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 23
+      },
+      "beforeResultSha256": "sha256:59b75cb14dff264ed04fe363802719fa4a08e3845d3b36973883f667000932da",
+      "afterResultSha256": "sha256:dcbc2b13c456fd95d089c99b404c691ea6e8ddabb37851f2f4960259ca44a9f4",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 45,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 32
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 32
+      },
+      "beforeResultSha256": "sha256:d6dcdd231ecc309c5fa38b29e060a0033e1a73a5083def19ee11240f6f772cd3",
+      "afterResultSha256": "sha256:f4648277ca6a1ae3355982f9eb19e7b8910b2d8e1a0fea3611d8cf11e7d47025",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 46,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 15
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 15
+      },
+      "beforeResultSha256": "sha256:7a2c75d503b82993a8ea45cfec989163fd2d788d53ef031514503bc4d8b0859f",
+      "afterResultSha256": "sha256:ce75e917385ea3f396ad7c89098d701c39ed27e86e1bc1ca955539ec940d229b",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 47,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 24
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 24
+      },
+      "beforeResultSha256": "sha256:85cd88366809feb304060df1085334486699a5d038e12fbb58856e575379f75c",
+      "afterResultSha256": "sha256:fc592324b070daf62ecf77b25e16065d6ef8361d09481c9e0b90fd6db743fd14",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 48,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 33
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 33
+      },
+      "beforeResultSha256": "sha256:f39f27fd05b9ab335bc65ba755c9100a714db4d5fe981b7607ae185e3a0f1c3d",
+      "afterResultSha256": "sha256:7ee2b2098e67209132b739524072b993ef86284c4a2ce668b777d8b78c7871c3",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 49,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 16
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 16
+      },
+      "beforeResultSha256": "sha256:50b260cb9ee9002372f0af956414c65bf312937a53bd57e8666e3b39043d53b6",
+      "afterResultSha256": "sha256:9f631d57a22b7640f8c97ca1b3b3f3033377195e0cb283d1e21f63b353c80fb5",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 50,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 25
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 25
+      },
+      "beforeResultSha256": "sha256:8a5ed5b92d00afbc900d3a7fdae98811c349389b605857751599b44141ae09f7",
+      "afterResultSha256": "sha256:b49e7ffe28b766e61792979679885a1ae59483e14a15f0d25d33e912c36d7dff",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    },
+    {
+      "itemId": 3026,
+      "recordId": "claim-acf09c642f552adbc841ed94e8143172df4872307c9714b20600b6c5c104e701",
+      "arrayIndex": 51,
+      "status": "typed-prayer-point",
+      "beforeResult": {
+        "unit": "osrs:skill-level",
+        "value": 34
+      },
+      "afterResult": {
+        "unit": "osrs:prayer-point",
+        "value": 34
+      },
+      "beforeResultSha256": "sha256:a41d95b8261e49196885834f942e8b268d4a2676a71480245d2cd3800a307b42",
+      "afterResultSha256": "sha256:16fa7d24b5897aa13791384e7c66529a66d4e408beed9c0c852e6b9e05225054",
+      "subsectionProvenance": {
+        "sourcePageRevision": 15183989,
+        "sourcePageSha256": "sha256:5aa903ab9fa653fe2977c93a77221ee28d4ec148ce7d332fe17ee55f7f45a6b3",
+        "sourceHeading": "==Effects==",
+        "subsectionTitle": "conditional Prayer restore",
+        "tableOrdinalWithinSubsection": 2,
+        "rowTargetBinding": "Prayer points, exact Prayer-only conditional table"
+      }
+    }
+  ],
+  "counts": {
+    "claimReplacements": 2,
+    "SuperRestoreSharedTableRowsUnitUnbound": 25,
+    "SuperRestoreConditionalPrayerRowsTyped": 27,
+    "AncientPrayerRestoreRowsTyped": 10,
+    "totalRawTableResultRowsChanged": 62
+  },
+  "unitTreatment": "All result values and level-range inputs are preserved. Unit null is used only for rows shared between Skill and Prayer without per-row target attribution; exact section provenance is separate from output unit."
+}

@@ -1,0 +1,110 @@
+{
+  "schema": "semantic-five-hat-durable-publication/v1",
+  "status": "five exact root-approved item facts published; separate from current effective2152 snapshot",
+  "supportedFacts": 5,
+  "exactIds": [
+    2900,
+    2910,
+    2920,
+    2930,
+    2940
+  ],
+  "scope": "Listed thirteen combat/prayer bonus axes, head slot and explicitly zero magic damage only.",
+  "outputs": [
+    {
+      "path": "docs/research/category-certification/semantic-five-hat-supported-facts-20261004.jsonl",
+      "sha256": "fc86859fbc1d76f861cb1efad9968bede11e07d9e6cc87ed4a77dae1d73e2c38",
+      "bytes": 43921,
+      "byteExactSource": {
+        "path": "tmp/root-review/five-hat-supported-transition-stage-20261004/supported-item-facts.jsonl",
+        "sha256": "fc86859fbc1d76f861cb1efad9968bede11e07d9e6cc87ed4a77dae1d73e2c38",
+        "bytes": 43921
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-five-hat-approval-policy-20261004.json",
+      "sha256": "59c88e6f5d693d76c70d43759a317d161ed77d172ac42d7d533b21b339a57d8b",
+      "bytes": 6197,
+      "byteExactSource": {
+        "path": "tmp/root-review/five-hat-root-authorization-20261004/approval-policy.json",
+        "sha256": "59c88e6f5d693d76c70d43759a317d161ed77d172ac42d7d533b21b339a57d8b",
+        "bytes": 6197
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-five-hat-root-authorization-20261004.json",
+      "sha256": "ef5b20412a2fb1551b65acbdaf3d41b361497869adc527db3c14c76a8b57a9f9",
+      "bytes": 4582,
+      "byteExactSource": {
+        "path": "tmp/root-review/five-hat-root-authorization-20261004/root-authorization.json",
+        "sha256": "ef5b20412a2fb1551b65acbdaf3d41b361497869adc527db3c14c76a8b57a9f9",
+        "bytes": 4582
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-five-hat-definition-draft-20261004.json",
+      "sha256": "6235f32177f54c85c8ccbaa3434ae07f26ae720dca23edd6dc7e7242248101f4",
+      "bytes": 11575,
+      "byteExactSource": {
+        "path": "tmp/root-review/materials-five-hat-bonus-root-bounded-reading-20261004/scoped-definition-draft.json",
+        "sha256": "6235f32177f54c85c8ccbaa3434ae07f26ae720dca23edd6dc7e7242248101f4",
+        "bytes": 11575
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-five-hat-transition-ledger-20261004.jsonl",
+      "sha256": "4ad4dda48634b3d307eb5508247d31e8b95a99b4e005b9653be22b892bc1d0a3",
+      "bytes": 6698,
+      "byteExactSource": {
+        "path": "tmp/root-review/five-hat-supported-transition-stage-20261004/transition-ledger.jsonl",
+        "sha256": "4ad4dda48634b3d307eb5508247d31e8b95a99b4e005b9653be22b892bc1d0a3",
+        "bytes": 6698
+      }
+    },
+    {
+      "path": "docs/research/category-certification/semantic-five-hat-stage-lineage-erratum-20261004.json",
+      "sha256": "518a77fd41b862d82bccee078e75590b06238c3354330731b161332c2f32086a",
+      "bytes": 5765,
+      "byteExactSource": {
+        "path": "tmp/root-review/five-hat-supported-transition-lineage-erratum-20261004/lineage-erratum.json",
+        "sha256": "518a77fd41b862d82bccee078e75590b06238c3354330731b161332c2f32086a",
+        "bytes": 5765
+      }
+    }
+  ],
+  "sourceStage": {
+    "path": "tmp/root-review/five-hat-supported-transition-stage-20261004/stage-manifest.json",
+    "sha256": "94986bca3af0e0d724870021a73aec3727cd763c32244275a9f12224b4babfba",
+    "bytes": 7862
+  },
+  "sourceStageSeal": {
+    "path": "tmp/root-review/five-hat-supported-transition-stage-20261004/seal.json",
+    "sha256": "4b5cd08e109656c881bb591acde2df6403f9fbf0279c46738bfdec13b3408a96",
+    "bytes": 1977
+  },
+  "independentAudit": {
+    "path": "tmp/root-review/five-hat-supported-transition-independent-audit-v2-20261004/manifest.json",
+    "sha256": "c2e480f1b3b46774b5d18bc319c19ffc8d078e6728fac3e44d8539b8b5e866a6",
+    "bytes": 2494
+  },
+  "independentAuditSeal": {
+    "path": "tmp/root-review/five-hat-supported-transition-independent-audit-v2-20261004/seal.json",
+    "sha256": "75a55471ebb74484af874afb8f398cacdc18cb7e269a652107d1d859f355a03e",
+    "bytes": 403
+  },
+  "lineageErratum": {
+    "path": "tmp/root-review/five-hat-supported-transition-lineage-erratum-20261004/manifest.json",
+    "sha256": "624077d6dbb0c810f488789c8b0b6d08aeac53b9ba40cf32907ea70f0ddd758f",
+    "bytes": 4025
+  },
+  "referencePolicy": "Byte-exact copies retain original immutable research-path references; output mappings identify corresponding durable copies without retargeting claim identities or approval hashes.",
+  "definitionRegistered": false,
+  "rulesUsable": false,
+  "dimensionsChanged": 0,
+  "placementsTagsBankRowsChanged": false,
+  "limits": [
+    "No absent speed/attackRange, membership, wear prerequisites, origins, other item states, category, tag or bank fact approval.",
+    "Prior reported stage manifest/seal hashes are receipts; old bytes unavailable. No reconstruction or original-seal preservation claim.",
+    "Current effective2152 stream unchanged; composition publication is a separate pending gate."
+  ]
+}

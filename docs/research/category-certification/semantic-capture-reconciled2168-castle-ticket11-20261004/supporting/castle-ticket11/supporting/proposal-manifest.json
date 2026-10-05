@@ -1,0 +1,49 @@
+{
+  "schema": "castle-ticket11-root-fact-scope-proposal-manifest/v1",
+  "inputs": [
+    {
+      "path": "tmp/root-review/utility161-direct-root-reading-continuation-20261004/resume-notes.json",
+      "sha256": "711904160c19d9467c88dfe26800f3f856579f7754087805eab5c4f8c03b8b5d",
+      "bytes": 812536
+    },
+    {
+      "path": "tmp/root-review/utility161-current1655-semantic-meaning-successor-20261004/claim-meaning-review-index.jsonl",
+      "sha256": "346a6556ced23bca8f734a17b7a773da28b301122cb45892897f27dcf1e588dc",
+      "bytes": 2257236
+    },
+    {
+      "path": "tmp/root-review/utility161-current1655-semantic-gap-review-20261004/claim-review-index.jsonl",
+      "sha256": "30ba1cb45cb5d73fdbe78f2515fa246582bfed11a9cfd1827a9428faef24501b",
+      "bytes": 2869717
+    },
+    {
+      "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+      "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+      "bytes": 2056
+    },
+    {
+      "path": "tmp/root-review/prepare_castle_ticket11_root_fact_scope_20261004.py",
+      "sha256": "7f540c3cccf86ab60eb6a9c751dfad778a3f48039fd3c6ec8b26af1771ef9e4e",
+      "bytes": 6047
+    }
+  ],
+  "outputs": [
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/proposed-root-fact-scope.json",
+      "sha256": "a67eb34bd823cb415513226a148b80fdc0033bac2efca168e7b6b24bbbe8f864",
+      "bytes": 5897
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367
+    },
+    {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/selected-native-candidates.jsonl",
+      "sha256": "b77f12d22cdec4ebe0a628266ffccedcf06688781f430648b25c6f9961c22e88",
+      "bytes": 48623
+    }
+  ],
+  "candidateFacts": 11,
+  "semanticApprovalGranted": false
+}

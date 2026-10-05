@@ -1,0 +1,2486 @@
+{
+  "note": "Observed source-bound nested shapes for this effective potion candidate packet; unit nullability and subsection provenance are descriptive and unapproved.",
+  "predicates": {
+    "wiki.potion.dose-specific-drink-effect-profile": {
+      "recordCount": 39,
+      "factValuePaths": {
+        "/factValue": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/competingUseBoundary": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay/oneLevelPer": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "time:second"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay/oneLevelPer/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay/oneLevelPer/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay/withPreserveOneLevelPer": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "time:second"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay/withPreserveOneLevelPer/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/decay/withPreserveOneLevelPer/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/direction": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/duration": {
+          "types": [
+            "object",
+            "string"
+          ],
+          "units": [
+            "time:minute",
+            "time:second"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/effectKind": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/representation": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/denominator": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "ratio:factor"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/denominator/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/denominator/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/flatOffset": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:hitpoint",
+            "osrs:prayer-point",
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/flatOffset/unit": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/flatOffset/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/inputUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/inputVariable": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/levelReference": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/numerator": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "ratio:factor"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/numerator/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/numerator/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/rounding": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:hitpoint",
+            "osrs:prayer-point",
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/name": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/operator": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/arguments": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/arguments/*": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "ratio:factor"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/arguments/*/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/arguments/*/arguments/*/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/argument/operator": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/operator": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/unit": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/operator": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange/max": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange/max/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange/max/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange/min": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange/min/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/levelRange/min/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/parse": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/result": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-point",
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/result/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/levelBandObservations/*/result/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/name": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/namespace": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant/actionLiteral": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant/doseCount": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant/doseUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant/infoboxOptionsLiteral": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant/itemId": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseVariant/itemName": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formulaSemantics": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/packageBoundary": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange/max": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange/max/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange/max/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange/min": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange/min/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/levelRange/min/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/parse": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/result": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:hitpoint",
+            "osrs:prayer-point",
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/result/unit": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/rawEffectTablePairObservations/*/result/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectsSectionLiteral": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/sourceExceptions": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/sourceInterpretationNotes": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/sourceInterpretationNotes/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/amount": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level",
+            "ratio:percent"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/amount/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/amount/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/excludes": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/excludes/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/members": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/members/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/sourceExceptions/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/duration/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/duration/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/per": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/outputUnit": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/drinkEffects/*/formula/tableBinding": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning": {
+          "types": [
+            "object",
+            "string"
+          ],
+          "units": [
+            "osrs:hitpoint",
+            "osrs:prayer-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/condition": {
+          "types": [
+            "object",
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/condition/comparison": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/condition/effects": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/condition/lead": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/sourceTableScope": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/condition": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/sourceTableIndex": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange/max": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange/max/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange/max/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange/min": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange/min/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/levelRange/min/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/parse": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/result": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/result/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/structuredRows/*/result/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectTableBlocks/*/tableLiteral": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/degree": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/interval": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "time:game-tick"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/interval/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/interval/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/perPulse": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/perPulse/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/perPulse/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/scope": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/sourceTotal": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/sourceTotal/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/sourceTotal/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning/remainingFloor": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:hitpoint"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning/remainingFloor/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning/remainingFloor/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/minimumRemaining": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:hitpoint"
+          ],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/minimumRemaining/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/minimumRemaining/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/targetBinding": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/sourcePageRevision": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/sourcePageSha256": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/sourceHeading": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/subsectionTitle": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/tableOrdinalWithinEffects": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/rowTargetBinding": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/flatOffset/unitStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/sourceOperands/outputUnitStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formula/tree/arguments/*/unitStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/formulaOutputMeaning/unitStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/overheal": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/enumeration": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/includesExamples": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/includesExamples/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/target/membersExpression": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/drinkEffects/*/condition/scopeDifference": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/result/unitStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/rawEffectTablePairObservations/*/subsectionProvenance/tableOrdinalWithinSubsection": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        }
+      }
+    },
+    "wiki.potion.drink-activation-dose-scope": {
+      "recordCount": 39,
+      "factValuePaths": {
+        "/factValue": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/action": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/competingUseBoundary": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectDoseScope": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectDoseScope/doseCount": {
+          "types": [
+            "integer",
+            "null"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/effectDoseScope/doseUnit": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/effectDoseScope/quoteScope": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/effectDoseScope/sourcePhrase": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/effectDoseScope/status": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseState": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseState/doseCount": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseState/doseUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseState/itemId": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exactDoseState/name": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/itemDoseTransition": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/itemDoseTransition/reason": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/itemDoseTransition/status": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        }
+      }
+    },
+    "wiki.potion.drink-status-transition-sequence": {
+      "recordCount": 2,
+      "factValuePaths": {
+        "/factValue": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/doseActionStateTransition": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/initialState": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/status": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/steps": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/steps/*": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "count:dose"
+          ],
+          "nullable": false
+        },
+        "/factValue/steps/*/action": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/steps/*/ordinal": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/steps/*/precondition": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/steps/*/result": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/steps/*/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/targetStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/totalDoseCount": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        }
+      }
+    },
+    "wiki.potion.conditional-protection-and-use-scope": {
+      "recordCount": 4,
+      "factValuePaths": {
+        "/factValue": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition/progress": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition/quest": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/duration": {
+          "types": [
+            "object",
+            "string"
+          ],
+          "units": [
+            "time:minute"
+          ],
+          "nullable": false
+        },
+        "/factValue/exception": {
+          "types": [
+            "null",
+            "object"
+          ],
+          "units": [],
+          "nullable": true
+        },
+        "/factValue/mechanic": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/drinkPermitted": {
+          "types": [
+            "boolean"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/otherwise": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition/allOf": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition/allOf/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/duration/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/duration/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/protection": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/target": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition/otherArticleContext": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/condition/scope": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exception/attackRange": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/exception/target": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/closeRange": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/longRangeMetalDragon": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scopeCorrection": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/shieldSubstitution": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/shieldSubstitution/longRangeMetalDragonException": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/shieldSubstitution/relation": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/shieldSubstitution/selectedPotionItemId": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/amount": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/outcome/effect": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        }
+      }
+    },
+    "wiki.potion.regeneration-interaction-or-termination-scope": {
+      "recordCount": 7,
+      "factValuePaths": {
+        "/factValue": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/mechanic": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/quantity": {
+          "types": [
+            "null",
+            "object"
+          ],
+          "units": [
+            "time:second"
+          ],
+          "nullable": true
+        },
+        "/factValue/relation": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/equipmentOrInventory": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/equipmentOrInventory/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/modifierTarget": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/presenceMode": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/sourceLimitation": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/activeEffect": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/minimumPrayerBonus": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-bonus-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/scope/minimumPrayerBonus/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/minimumPrayerBonus/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/sharingMethod": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/transformation": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/quantity/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/quantity/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/trigger": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/condition": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        }
+      }
+    },
+    "wiki.potion.scoped-secondary-fact": {
+      "recordCount": 10,
+      "factValuePaths": {
+        "/factValue": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope": {
+          "types": [
+            "object",
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/alternativeRecovery": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/normalRate": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level-per-minute"
+          ],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/normalRate/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/normalRate/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/rapidRestoreCondition": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/rapidRestoreRate": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level-per-minute"
+          ],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/rapidRestoreRate/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainRecovery/rapidRestoreRate/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerRestorationCap": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "percent-of-base-Prayer-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/prayerRestorationCap/exactFormula": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerRestorationCap/meaning": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerRestorationCap/rounding": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerRestorationCap/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerRestorationCap/value": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formula": {
+          "types": [
+            "object",
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formula/inputUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formula/outputUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formula/text": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/levelOneTableObservation": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/levelOneTableObservation/inputLevel": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/levelOneTableObservation/inputUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/levelOneTableObservation/output": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/levelOneTableObservation/outputUnit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/resolution": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/targets": {
+          "types": [
+            "array"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/targets/*": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formulaInput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/formulaInput/basis": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formulaInput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formulaInput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formulaOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/formulaOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/formulaOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/generalInput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/generalInput/basis": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/generalInput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/generalInput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/generalOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/generalOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/generalOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:prayer-point"
+          ],
+          "nullable": false
+        },
+        "/factValue/prayerOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/magicBoostOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/magicBoostOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/magicBoostOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/magicInput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/magicInput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/magicInput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerInput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/prayerInput/basis": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerInput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/prayerInput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainInput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/statDrainInput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainInput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/statDrainOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/statDrainOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsInput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/hitpointsInput/basis": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsInput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsInput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsOutput/unitStatus": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsDrainOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:hitpoint"
+          ],
+          "nullable": false
+        },
+        "/factValue/hitpointsDrainOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/hitpointsDrainOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/skillBoostOutput": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/skillBoostOutput/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/skillBoostOutput/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/input": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/input/basis": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/input/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/input/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/output": {
+          "types": [
+            "object"
+          ],
+          "units": [
+            "osrs:skill-level"
+          ],
+          "nullable": false
+        },
+        "/factValue/output/quantity": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/output/unit": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/mechanic": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/relation": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/exactPotionItemId": {
+          "types": [
+            "integer"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/sharingMethod": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/scope/spellFamily": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        },
+        "/factValue/sourceBoundary": {
+          "types": [
+            "string"
+          ],
+          "units": [],
+          "nullable": false
+        }
+      }
+    }
+  }
+}

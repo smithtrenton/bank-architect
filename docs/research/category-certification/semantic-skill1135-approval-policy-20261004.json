@@ -1,0 +1,46 @@
+{
+  "approvalScope": "item-fact",
+  "eligibility": {
+    "approvedMeaning": "For exact item 1135, wearing requires Defence level 40. This is one prerequisite, not a sufficient or exhaustive list of wearing requirements.",
+    "beforeCandidateCanonicalSha256": "3652d9a555a737d63512db54454e3f17f71df3e93bee02dd5237a8390c1ae423",
+    "beforeHashDefinition": "Canonical complete original candidate including runId; no fields omitted.",
+    "definitionsRegistered": false,
+    "dimensionsRemainUnassessed": true,
+    "excludedScope": [
+      "Ranged prerequisite approval",
+      "quest prerequisite approval",
+      "creation requirements",
+      "other item states",
+      "availability",
+      "bankability",
+      "placement",
+      "usage tags",
+      "unit aliases",
+      "dimension completeness",
+      "runtime rules"
+    ],
+    "predicateDefinition": {
+      "jsonPointer": "/definitions/1",
+      "path": "tmp/root-review/gear120-normalized-corrections-v2-20261004/draft-predicate-definitions.json",
+      "sha256": "906425195ea6e6bd6a3a093316c2d2247b12b6187ab9bc6288884311b8aaee88"
+    },
+    "recordIds": [
+      "claim-10d9aba20c7c58e7eb32ca7814539fed62ceb2fd887e702e0f59f86bd8f1289b"
+    ],
+    "requirements": [
+      "Preserve complete source candidate except status, reviewStage and required review object.",
+      "Exact own-page ID, state, quote, revision and hash must replay.",
+      "Exact predicate/fact/version/type and pinned unit meaning must join; both definitions remain draft-unregistered.",
+      "Only this single direct item-fact clause is authorized. All dimensions remain unassessed."
+    ],
+    "rulesUsable": false,
+    "unitDefinition": {
+      "jsonPointer": "/draftUnits/2",
+      "path": "tmp/root-review/semantic-frontier-capture-20261004/gear-broad-exactvariant-908-part-1/draft-predicate-definitions.json",
+      "sha256": "99cfde7c02bbedb18e371c599fbcd1fa73d3191e066e7a3f6e7bbf32ee24259f"
+    }
+  },
+  "eligibleRecordType": "fact-assessment",
+  "policyId": "semantic-item-fact-root-approval-skill1135-v1",
+  "status": "detached exact item-fact policy accepted only by adjacent explicit root authorization"
+}

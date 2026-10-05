@@ -1,0 +1,219 @@
+{
+  "schema": "semantic-fact-root-authorization/v1",
+  "approvalPolicySha256": "77387d7b09b6cb34b0533f102051a727b706ea66942e5e6283063ed50e7f39a8",
+  "policyAcceptance": {
+    "accepted": true,
+    "reviewer": "Codex root",
+    "reviewedAt": "2026-10-04T23:24:49Z",
+    "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json"
+  },
+  "authorizations": [
+    {
+      "recordId": "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "9dc3617d1ebf677187e8726b3c2d414294c0ea96657c8ed1da4173856b22e390",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": []
+    },
+    {
+      "recordId": "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "e075c4e21f327bf1de88206ff06cf8eef2eb9d05f47b747ebc522b24ce92acea",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "0600b594c3999b3585b6063933751f172660e0ce7cff5caa0c9d3f60fafaa12f",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "761acea76a5287f5e6fb291411b3c297549495ada188b53a048e7b437f07bc1a",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "fe6acd919a463b8c04a417c659ff36b1687ad88c95402e8be17e35ed0aec764b",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "570cf4d5602d710f58c03073aac5c2c17bc63dc78ccf0ebd8130f9747d9e21d6",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "41eb773e5fd04848fb57d580bcd0233772125b8bd70b5e11fca33e42acbfe291",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "8527ad8f9cdc1145234d6473e33643bcf063ffe688b7bafb4a0a2cbf494559c9",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "107c7806fb16fe159a36a57d8a23eef7b1933c1543d0bef8d22c25e3c0ae73a1",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "47c7ef368f2dc4f39245b01768482c1b60d318931577001a028d4ba4ccd071cd",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    {
+      "recordId": "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+      "decision": "approve-supported",
+      "beforeClaimSha256": "c2496c0862efe97afd80aa1f1c690dfd80060d1d80e6b05848e452f3c22656a5",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "reviewer": "Codex root",
+      "reviewedAt": "2026-10-04T23:24:49Z",
+      "approvalRef": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-authorization.json#claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+      "scopeAcknowledged": true,
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "interpretationDependencyClaimRefs": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    }
+  ],
+  "readingEvidence": {
+    "rootFullOwnPagesRead": 1,
+    "completeAssertionsRead": true,
+    "interpretation": "Minimum15 minutes is scoped to Castle Wars activity awards. Ten table-row ticket counts are world/outcome/score-conditioned and must be interpreted alongside the separate minimum-eligibility claim, not as unconditional reward guarantees.",
+    "rootReviewProof": {
+      "path": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-replay.json",
+      "sha256": "902aaf945b5cdc09b2145042d9300edf8b7282c8ff69c873bcffc23769c2bf72",
+      "bytes": 31178
+    },
+    "sourceContextBindings": {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367
+    },
+    "independentReviewSeal": {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/seal.json",
+      "sha256": "d8f1b92b39814d2b266c39bb7729e0615f1e00eb1f2e436f6e2a10e299d507fa",
+      "bytes": 356
+    }
+  },
+  "supportedSuccessorBuilt": false,
+  "published": false
+}

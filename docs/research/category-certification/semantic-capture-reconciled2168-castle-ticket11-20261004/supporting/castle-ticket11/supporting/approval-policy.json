@@ -1,0 +1,887 @@
+{
+  "policyId": "castle-wars-ticket-eleven-source-scoped-facts-supported-v1",
+  "status": "detached exact item-fact policy activated by adjacent root authorization",
+  "approvalScope": "item-fact",
+  "eligibleRecordType": "fact-assessment",
+  "eligibility": {
+    "recordIds": [
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+      "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+      "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+      "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+      "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+      "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+      "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+      "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+      "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+      "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+      "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308"
+    ],
+    "beforeCandidateCanonicalSha256ByRecordId": {
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb": "9dc3617d1ebf677187e8726b3c2d414294c0ea96657c8ed1da4173856b22e390",
+      "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7": "e075c4e21f327bf1de88206ff06cf8eef2eb9d05f47b747ebc522b24ce92acea",
+      "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5": "0600b594c3999b3585b6063933751f172660e0ce7cff5caa0c9d3f60fafaa12f",
+      "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a": "761acea76a5287f5e6fb291411b3c297549495ada188b53a048e7b437f07bc1a",
+      "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7": "fe6acd919a463b8c04a417c659ff36b1687ad88c95402e8be17e35ed0aec764b",
+      "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c": "570cf4d5602d710f58c03073aac5c2c17bc63dc78ccf0ebd8130f9747d9e21d6",
+      "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9": "41eb773e5fd04848fb57d580bcd0233772125b8bd70b5e11fca33e42acbfe291",
+      "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5": "8527ad8f9cdc1145234d6473e33643bcf063ffe688b7bafb4a0a2cbf494559c9",
+      "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170": "107c7806fb16fe159a36a57d8a23eef7b1933c1543d0bef8d22c25e3c0ae73a1",
+      "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7": "47c7ef368f2dc4f39245b01768482c1b60d318931577001a028d4ba4ccd071cd",
+      "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308": "c2496c0862efe97afd80aa1f1c690dfd80060d1d80e6b05848e452f3c22656a5"
+    },
+    "beforeHashDefinition": "Canonical complete candidate including runId and extensions; no fields omitted.",
+    "approvedValuesAndStates": [
+      {
+        "recordId": "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb",
+        "reviewIndex": 50,
+        "beforeClaimSha256": "9dc3617d1ebf677187e8726b3c2d414294c0ea96657c8ed1da4173856b22e390",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.origin.minimum-activity-duration",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-origin-minimum-activity-duration",
+        "predicateVersion": 1,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "activity": "Castle Wars",
+          "minimum": {
+            "unit": "time:minute",
+            "value": 15
+          }
+        },
+        "interpretationDependencyClaimRefs": [],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7",
+        "reviewIndex": 51,
+        "beforeClaimSha256": "e075c4e21f327bf1de88206ff06cf8eef2eb9d05f47b747ebc522b24ce92acea",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "nonzero",
+            "ownScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 3
+          },
+          "world": "dedicated"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Dedicated Castle Wars worlds:",
+            "rawFileByteOffsetStart": 782,
+            "rawFileByteOffsetEndExclusive": 811,
+            "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "* 3 tickets are earned if scores are tied at any number other than 0.",
+            "rawFileByteOffsetStart": 918,
+            "rawFileByteOffsetEndExclusive": 987,
+            "quoteSha256": "39346c081daf690fe03af8357283526978cd4ca189c0eeb032879478478d2011"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5",
+        "reviewIndex": 52,
+        "beforeClaimSha256": "0600b594c3999b3585b6063933751f172660e0ce7cff5caa0c9d3f60fafaa12f",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 3
+          },
+          "world": "dedicated"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Dedicated Castle Wars worlds:",
+            "rawFileByteOffsetStart": 782,
+            "rawFileByteOffsetEndExclusive": 811,
+            "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "* 3 tickets are earned for winning if the opposing team has scored.",
+            "rawFileByteOffsetStart": 989,
+            "rawFileByteOffsetEndExclusive": 1056,
+            "quoteSha256": "993615ced84d0c5f91dd0bcf60f85ea57ca9b60c7e4fbc9f7e47a85ed4bf627c"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a",
+        "reviewIndex": 53,
+        "beforeClaimSha256": "761acea76a5287f5e6fb291411b3c297549495ada188b53a048e7b437f07bc1a",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "zero",
+            "ownScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "dedicated"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Dedicated Castle Wars worlds:",
+            "rawFileByteOffsetStart": 782,
+            "rawFileByteOffsetEndExclusive": 811,
+            "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "* 2 tickets are earned if scores are tied at 0-0.",
+            "rawFileByteOffsetStart": 867,
+            "rawFileByteOffsetEndExclusive": 916,
+            "quoteSha256": "77c113a2399b10eb4ebff179d85f59a4313deb9ad90483dd96307f5ef27b27c4"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7",
+        "reviewIndex": 54,
+        "beforeClaimSha256": "fe6acd919a463b8c04a417c659ff36b1687ad88c95402e8be17e35ed0aec764b",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "nonzero",
+            "ownScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "ordinary"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Non-Castle Wars worlds:",
+            "rawFileByteOffsetStart": 1131,
+            "rawFileByteOffsetEndExclusive": 1154,
+            "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "*2 tickets are earned if scores are tied at any number other than 0.",
+            "rawFileByteOffsetStart": 1253,
+            "rawFileByteOffsetEndExclusive": 1321,
+            "quoteSha256": "e6acc8a3e3111e1168c3f12153b99faa3f12b846e13df3e6eef0c5440a20b514"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c",
+        "reviewIndex": 55,
+        "beforeClaimSha256": "570cf4d5602d710f58c03073aac5c2c17bc63dc78ccf0ebd8130f9747d9e21d6",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "loss"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 1
+          },
+          "world": "ordinary"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Non-Castle Wars worlds:",
+            "rawFileByteOffsetStart": 1131,
+            "rawFileByteOffsetEndExclusive": 1154,
+            "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "*1 ticket is earned if the player's team loses.",
+            "rawFileByteOffsetStart": 1156,
+            "rawFileByteOffsetEndExclusive": 1203,
+            "quoteSha256": "d416d15ff3fcf5026ac10f4558bb390037179928efc4c87fcdf66be619f72767"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9",
+        "reviewIndex": 56,
+        "beforeClaimSha256": "41eb773e5fd04848fb57d580bcd0233772125b8bd70b5e11fca33e42acbfe291",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "draw",
+            "opponentScore": "zero",
+            "ownScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 1
+          },
+          "world": "ordinary"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Non-Castle Wars worlds:",
+            "rawFileByteOffsetStart": 1131,
+            "rawFileByteOffsetEndExclusive": 1154,
+            "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "*1 ticket is earned if scores are tied at 0-0.",
+            "rawFileByteOffsetStart": 1205,
+            "rawFileByteOffsetEndExclusive": 1251,
+            "quoteSha256": "af531a821acbdda432bcc4ad8f07fa65b6e28167f09d37f16212a4be2f459556"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5",
+        "reviewIndex": 57,
+        "beforeClaimSha256": "8527ad8f9cdc1145234d6473e33643bcf063ffe688b7bafb4a0a2cbf494559c9",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 4
+          },
+          "world": "dedicated"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Dedicated Castle Wars worlds:",
+            "rawFileByteOffsetStart": 782,
+            "rawFileByteOffsetEndExclusive": 811,
+            "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "* 4 tickets are earned for winning if the opposing team had 0 points.",
+            "rawFileByteOffsetStart": 1058,
+            "rawFileByteOffsetEndExclusive": 1127,
+            "quoteSha256": "ce5bb0acf2c9f2ff6c833018c229442a6ad8240aab8d0b17ebbae790fcb46a89"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170",
+        "reviewIndex": 58,
+        "beforeClaimSha256": "107c7806fb16fe159a36a57d8a23eef7b1933c1543d0bef8d22c25e3c0ae73a1",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "zero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 3
+          },
+          "world": "ordinary"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Non-Castle Wars worlds:",
+            "rawFileByteOffsetStart": 1131,
+            "rawFileByteOffsetEndExclusive": 1154,
+            "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "*3 tickets are earned for winning if the opposing team had 0 points.",
+            "rawFileByteOffsetStart": 1391,
+            "rawFileByteOffsetEndExclusive": 1459,
+            "quoteSha256": "ca5e30e3639f202de2354bf9a5e84627ff12791f8ce3863c27cf4d68fb8f7e57"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7",
+        "reviewIndex": 59,
+        "beforeClaimSha256": "47c7ef368f2dc4f39245b01768482c1b60d318931577001a028d4ba4ccd071cd",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "loss"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "dedicated"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Dedicated Castle Wars worlds:",
+            "rawFileByteOffsetStart": 782,
+            "rawFileByteOffsetEndExclusive": 811,
+            "quoteSha256": "6f188d4ddc7a5c314798d901092b01f0e03b9fc7cf02ecc09d24f472a23e201e"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "* 2 tickets are earned if the player's team loses.",
+            "rawFileByteOffsetStart": 815,
+            "rawFileByteOffsetEndExclusive": 865,
+            "quoteSha256": "f39132982fa42cb6aea4d37c2a26ac1065ff839bea67ae9970af7c51610b3c4c"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      },
+      {
+        "recordId": "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308",
+        "reviewIndex": 60,
+        "beforeClaimSha256": "c2496c0862efe97afd80aa1f1c690dfd80060d1d80e6b05848e452f3c22656a5",
+        "nativeTuple": {
+          "itemId": 4067,
+          "itemName": "Castle wars ticket",
+          "namespace": "item-fact",
+          "factName": "osrs.quantity.castle-wars-ticket-award",
+          "valueType": "object"
+        },
+        "predicate": "wiki-own-source:osrs-quantity-castle-wars-ticket-award",
+        "predicateVersion": 2,
+        "state": {
+          "scope": "exact-item-state",
+          "variantParameters": {
+            "exactName": "Castle wars ticket",
+            "itemId": 4067,
+            "rawIdField": "id",
+            "rawState": "unspecified"
+          }
+        },
+        "qualifiers": {},
+        "factValue": {
+          "condition": {
+            "matchOutcome": "win",
+            "opponentScore": "nonzero"
+          },
+          "quantity": {
+            "unit": "count:ticket",
+            "value": 2
+          },
+          "world": "ordinary"
+        },
+        "interpretationDependencyClaimRefs": [
+          "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+        ],
+        "literalSourceBindings": [
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "Non-Castle Wars worlds:",
+            "rawFileByteOffsetStart": 1131,
+            "rawFileByteOffsetEndExclusive": 1154,
+            "quoteSha256": "38100e8db28ca3c708880196d41781f4caa6cb7bc17eeb832a4d19cf701155f5"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "*2 tickets are earned for winning if the opposing team has scored.",
+            "rawFileByteOffsetStart": 1323,
+            "rawFileByteOffsetEndExclusive": 1389,
+            "quoteSha256": "869e1e7176bc1ab08ebf83524882d80ec2be7ab1713789873736de15a280b2b9"
+          },
+          {
+            "source": {
+              "path": "tmp/category-certification/wiki-articles/text/15184720.txt",
+              "sha256": "5e65a6a6210804f44f06e76c028b88f6e5b64e804389b31a5a3d7eec1fc9673e",
+              "bytes": 2056
+            },
+            "literalQuote": "players who spend at least 15 minutes in the game",
+            "rawFileByteOffsetStart": 518,
+            "rawFileByteOffsetEndExclusive": 567,
+            "quoteSha256": "870af64be65c476e4c6fcad67452bdfa1013a1cc71454fc0119624bf59c29684"
+          }
+        ]
+      }
+    ],
+    "worldAliases": {
+      "dedicated": "Dedicated Castle Wars worlds",
+      "ordinary": "Non-Castle Wars worlds"
+    },
+    "dependencies": {
+      "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb": [],
+      "claim-0ca1fa1a1e6cb381ba2f643f6043ea4dfc024c0834c8f700e4a2d6ccbf5e3da7": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-4904cb3959abb0239691c57cd958d8bb3ebd0be4cda2c4790e6ec8f8f8e734b5": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-62be85eaa010ae554b3213c5e9489c57b49b225260810e90a6195263440f394a": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-6d96c81f92a20cb2a747d8c6a56bab5b78df52e26e819305ea5e3610f7b476a7": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-ba24ea61201d1670ae5864f0c23703ca8e531a48c4f287c8d9deea314049879c": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-bd169adeeeaa152c9da81a9ab7edca8b362642d107b4c65b6094a20b3332e4b9": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-bdfd49c37ec6da2083dffbc35fa7bf24e8ac640d052a51efb440d59cda4f45e5": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-c90028bc0fc7153ea36fe9424440d852b9eb8ce1cb83024b214aba7751ade170": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-e3c71cf1872aef05643c1cf528affa29a8e0da66e28f35f7a205467f45e80ce7": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ],
+      "claim-f49c723f48e6d95ba631531ac37088693fea2af172770730c111e6ae634e2308": [
+        "claim-89e9f6b53f2e9e70ada23d9f69c3cf2a3c98e6bbeb149aa634a33e13ad6638cb"
+      ]
+    },
+    "sourceInterpretation": "Minimum15 minutes is scoped to Castle Wars activity awards. Ten table-row ticket counts are world/outcome/score-conditioned and must be interpreted alongside the separate minimum-eligibility claim, not as unconditional reward guarantees.",
+    "sourceContextBindings": {
+      "path": "tmp/root-review/castle-ticket11-root-fact-scope-proposal-20261004/source-value-condition-bindings.json",
+      "sha256": "e08067bc18419c7aff03eb67e30740127fa0108fa8baa760771c193877aa683d",
+      "bytes": 60367
+    },
+    "definitionAudit": {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/definition-audit.json",
+      "sha256": "0d7369e092ec369ac757f5fba52ddcadec01c26a079b32ce514144995d3f49f7",
+      "bytes": 4397
+    },
+    "rootReviewProof": {
+      "path": "tmp/root-review/castle-ticket11-root-authorization-20261004/root-replay.json",
+      "sha256": "902aaf945b5cdc09b2145042d9300edf8b7282c8ff69c873bcffc23769c2bf72",
+      "bytes": 31178
+    },
+    "independentReviewPin": {
+      "path": "tmp/root-review/castle-ticket11-independent-scope-audit-20261004/seal.json",
+      "sha256": "d8f1b92b39814d2b266c39bb7729e0615f1e00eb1f2e436f6e2a10e299d507fa",
+      "bytes": 356
+    },
+    "excludedScope": [
+      "Exchange/refund clause with collapsed native quote (row48), Wanted! origin evidence (row47), negative teleportation (row49), transformation/refund mismatches (row61).",
+      "Any route other than the scoped Castle Wars activity, all reward prerequisites completeness, membership/availability, price/equipment/bank context.",
+      "Category/tag/primary-placement/bank/rule changes; definition registration or complete item dimension."
+    ],
+    "requirements": [
+      "Only status, reviewStage and required review object may change from the exact eleven preimages.",
+      "Native values/state/qualifiers/evidence/sourceObservation/extensions remain unchanged.",
+      "Every award remains dependent on minimum-eligibility claim plus its literal world header and full own-page context; do not flatten counts into unconditional rewards.",
+      "Candidate-only text in frozen extensions records capture provenance; explicit root review governs only this bounded fact scope.",
+      "Keep policy/context/dependency bindings beside any supported successor and future composition."
+    ],
+    "definitionsRegistered": false,
+    "rulesUsable": false,
+    "dimensionsRemainUnassessed": true
+  }
+}

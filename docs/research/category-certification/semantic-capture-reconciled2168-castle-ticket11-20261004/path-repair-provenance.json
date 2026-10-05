@@ -1,0 +1,25 @@
+{
+  "predecessorManifestPath": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/stage-manifest.json",
+  "predecessorManifestSha256": "aee1ab713564909f7877399f32ce027936ae46b5d4d9c3a75239367c357f67d6",
+  "predecessorSealPath": "tmp/root-review/semantic-capture-reconciled2168-castle-ticket11-composition-stage-20261004/stage-seal.json",
+  "predecessorSealSha256": "a085405035761a0a50d73e53c2ab107a13f5cecaac7d2e38891b38443ccddb48",
+  "pathRepairHelper": "tmp/root-review/build_semantic_reconciled2168_castle_ticket11_path_repair_20261004.py",
+  "pathRepairHelperSha256": "76346f238bbd9d02e5c9f7d5d68a331bc740d3f8432e5687b37a932fd6b3a0ab",
+  "crosswalkRepair": "crosswalk-path-repair.json",
+  "onlyCrosswalkJsonPointerChanged": "/sourceContext/fullContextPacketPath",
+  "pathChangeCount": 11,
+  "inverseLineCount": 11,
+  "nativeEffectiveByteIdentical": true,
+  "coverageByteIdentical": true,
+  "currentAuxiliaryByteIdentical": true,
+  "current2157CrosswalkPrefixByteIdentical": true,
+  "sourceCrosswalkSha256": "3062691ee417a16e03f9811090e26ca736d76870be66ec46271b5e9227a15b41",
+  "validatorManifestSha256": "b3481ed97974770d7699e39161a7d17f66bd873471035e7b882ddab3a84ac109",
+  "nativeValidationSha256": "b0630d77503f052a14a18e9211f06acf53219a16bd6a72462578643f8ad80f3d",
+  "nativeValidatorResult": {
+    "validRecords": 2168,
+    "sourceReplay": true,
+    "manifestChecked": true,
+    "semanticApprovalGranted": false
+  }
+}

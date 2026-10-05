@@ -1,0 +1,134 @@
+{
+  "schema": "published-materials-first40-candidate-capture/v1",
+  "status": "published candidate capture; only ten preserved facts are supported; full semantic analysis incomplete",
+  "inputs": {
+    "docs/research/category-certification/semantic-approved-facts-effective-20261004.jsonl.gz": {
+      "sha256": "7b247e8e0c14a39a620eb5eee633243f788da5bb58d7d7883baea27a495ae8ec",
+      "expandedSha256": "837a8986e36d4e2b9cb2635c9385a73f8d1e39df14d3ac287ddcdf9e3bb6d2a2"
+    },
+    "docs/research/category-certification/semantic-approved-facts-manifest-20261004.json": {
+      "sha256": "dd43cef09e7b9c10d3dfb7fb5041a07943b31e8a6223ecc6f3e059ac943d6615"
+    },
+    "docs/research/category-certification/semantic-capture-coverage-20261004.jsonl.gz": {
+      "sha256": "9f7612599e972a17490d1581287111892eea911652940ff29b06a0456f0bda09",
+      "expandedSha256": "aee778a455aa1485d6ea19cf01eea97b28a4178e8996a02f7f08df8a6a608520"
+    },
+    "tmp/root-review/materials-first40-root-candidate-corrections-20261004/effective-candidate-assertions.jsonl": {
+      "sha256": "4fdb064ffc9ed3c64fce95b999e20390d2814ab3e0b7ef4b19741894c5aa4de6"
+    },
+    "tmp/root-review/materials-first40-root-candidate-corrections-20261004/manifest.json": {
+      "sha256": "b6c55d20ea33e2e73caf28b877324fc6efd975aad780ec7dcb2f84b5c8e0e29d"
+    },
+    "tmp/root-review/materials-first40-root-reading-20261004/root-reading.json": {
+      "sha256": "076399b046889b6ecb78a5105761c27735c1c4000c3130b6e5e6cea3c6e3a49e"
+    },
+    "tmp/root-review/materials-durable-first40-review-v4-20261004/checkpoint-manifest.json": {
+      "sha256": "e308d25d870d8d2464aaa270cbb14535de4fdbda0c7714a7feecf39b4d0b16b1"
+    },
+    "tmp/root-review/materials-durable-first40-review-v4-20261004/claims-reviewed.jsonl": {
+      "sha256": "3c35c561931ebc2ae2654f1aaa75d0a5f23ed9cde77a3f0187b14b9105d934fb"
+    },
+    "tmp/root-review/materials-durable-first40-review-v4-20261004/item-dimension-coverage.jsonl": {
+      "sha256": "1d6c3fa03ad48d7c83cb83c960d4da49079e2aef943ff436bd19c95f78ee2dc5"
+    }
+  },
+  "outputs": {
+    "candidateRecords": {
+      "path": "docs/research/category-certification/semantic-capture-materials-first40-candidates-20261004.jsonl.gz",
+      "sha256": "3d745288cf37afcfee8df50f85b5f5300bea799f9b34ccbf51e5b769ab01ae31",
+      "expandedSha256": "4fdb064ffc9ed3c64fce95b999e20390d2814ab3e0b7ef4b19741894c5aa4de6",
+      "compressedSha256": "3d745288cf37afcfee8df50f85b5f5300bea799f9b34ccbf51e5b769ab01ae31",
+      "bytes": 14734
+    },
+    "effectiveRecords": {
+      "path": "docs/research/category-certification/semantic-approved-facts-effective-materials-first40-20261004.jsonl.gz",
+      "sha256": "ac14a2bc01356b0d4a3167489a5a3855c05176387e2218c6b73a129812b3c104",
+      "expandedSha256": "f1117a6d5325ec4a04a57ae540832626ad9c206a6c3b326ca6c3943bf04da1c1",
+      "compressedSha256": "ac14a2bc01356b0d4a3167489a5a3855c05176387e2218c6b73a129812b3c104",
+      "bytes": 368342
+    },
+    "coverage": {
+      "path": "docs/research/category-certification/semantic-capture-coverage-materials-first40-20261004.jsonl.gz",
+      "sha256": "62a8ecc726b92ffc3a134f7d2c7cc14648cc330bcca6596b048371485b7798b0",
+      "expandedSha256": "91965355a8211678e23641aa0e4fff632415945ef31bdbd85edf77456221a57f",
+      "compressedSha256": "62a8ecc726b92ffc3a134f7d2c7cc14648cc330bcca6596b048371485b7798b0",
+      "bytes": 547071
+    },
+    "sourceMap": {
+      "path": "docs/research/category-certification/semantic-capture-materials-first40-source-map-20261004.json",
+      "sha256": "01f6b8994f4b892e96c0a85281b2038d2df314e9f1f992b8ce5af57caf213ca8",
+      "expandedSha256": "01f6b8994f4b892e96c0a85281b2038d2df314e9f1f992b8ce5af57caf213ca8",
+      "compressedSha256": null,
+      "bytes": 110938
+    }
+  },
+  "counts": {
+    "baseRecords": 294,
+    "baseExactItemIds": 61,
+    "baseSupportedApprovals": 10,
+    "newCandidateRecords": 40,
+    "newExactItemIds": 7,
+    "literalObservationCarriers": 7,
+    "otherCandidateRecords": 33,
+    "effectiveRecords": 334,
+    "effectiveExactItemIds": 68,
+    "effectiveSupportedApprovals": 10,
+    "effectiveCandidateUnassessed": 324,
+    "coverageRows": 34085,
+    "coverageRowsWithOnlyTopLevelRefChanges": 7,
+    "candidateFactRefsAdded": 40,
+    "dimensionMapsPreservedExactly": 34085,
+    "individualDimensionObjectsPreservedExactly": 272680,
+    "completeDimensionsCertified": 0
+  },
+  "preservation": {
+    "all294BaseRawJsonlLinesPreservedAsExactPrefix": true,
+    "all294BaseCanonicalObjectsUnchanged": true,
+    "all10SupportedApprovalRecordsAndRawLinesPreserved": true,
+    "candidateRecordIdsDisjointFromBase": true,
+    "candidateExactItemIdsDisjointFromBase": true,
+    "coverageChangedExactItemIds": [
+      446,
+      733,
+      945,
+      948,
+      958,
+      1391,
+      1436
+    ],
+    "coverageOtherFieldsAndAllDimensionObjectsPreserved": true,
+    "coverageCatalogDecisionsAndLegacyTagsPreserved": true,
+    "allCandidateFactsRemainUnassessed": true,
+    "noSemanticCompletenessCertified": true,
+    "noTaxonomyTagsOrPlacementChanged": true,
+    "definitionsUnregistered": true
+  },
+  "sourceAndReviewScope": {
+    "rootReadingCheckpointSha256": "076399b046889b6ecb78a5105761c27735c1c4000c3130b6e5e6cea3c6e3a49e",
+    "rootReadingSelectionSha256": "3c35c561931ebc2ae2654f1aaa75d0a5f23ed9cde77a3f0187b14b9105d934fb",
+    "correctionOverlayManifestSha256": "b6c55d20ea33e2e73caf28b877324fc6efd975aad780ec7dcb2f84b5c8e0e29d",
+    "correctionOverlayReportsThreeChangesAnd37Unchanged": true,
+    "partialDimensionHintsRetainedInSourceMapOnly": true,
+    "rawFunctionTagAndFullSemanticCompletenessNotImplied": true
+  },
+  "stagedManifest": {
+    "path": "tmp/root-review/materials-first40-durable-successor-20261004/semantic-capture-materials-first40-manifest-20261004.json",
+    "sha256": "3623d6c895907e37d08535a51af5d534fc64277d020aaaff8f8e6a85a852e367"
+  },
+  "independentSemanticAudit": {
+    "path": "tmp/root-review/materials-first40-independent-final-audit-20261004/manifest.json",
+    "sha256": "554998e46344a1bb903b6e3e162a627c3aee9264e75675708c106d74e4dc104e"
+  },
+  "independentStageIntegrityAudit": {
+    "path": "tmp/root-review/materials-first40-durable-successor-20261004/independent-integrity-audit.json",
+    "sha256": "ddbb0fdeb6e45563de80fd4e5b4c52804201c92b0e2ce2ca9acf28e8986a8333"
+  },
+  "semanticApprovalGranted": false,
+  "taxonomyRedesign": "deferred until full semantic analysis and tag grouping",
+  "captureScope": "Forty additional assertions:33 interpreted candidates and7 literal observation carriers, all unassessed. Exact-ID index links are navigation only. No placement, tag, bank, availability, registered-definition or rule approval.",
+  "draftDefinitionMap": {
+    "path": "docs/research/category-certification/semantic-capture-materials-first40-definition-map-20261004.json",
+    "sha256": "53e55addae8217a8be6b995382ec48ded0f1cf04b0dad920012d9c0da24e0b1e",
+    "registered": false
+  }
+}

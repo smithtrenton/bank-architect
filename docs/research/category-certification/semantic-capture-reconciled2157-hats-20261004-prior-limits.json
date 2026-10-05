@@ -1,0 +1,26 @@
+{
+  "schema": "wave3-candidate-limits/v1",
+  "status": "research-only; candidate/unassessed; no semantic completion",
+  "sourceAudit": {
+    "worker5Corrected92IndependentAuditManifestSha256": "f57beb7def46f9eda9e3c99696e5e965484b2b9cf94a2031a25444c7c86dab7e",
+    "scope": "integrity/source/schema/selected-state; not semantic approval"
+  },
+  "summerPieAdvisory": {
+    "path": "tmp/root-review/wave3-summer-pie-scope-review-addendum-20261004/research-seal.json",
+    "sha256": "576a6df0603e79c13e955fdbfb921730b6081d3829778b1d8b8d6447705193c2",
+    "itemId": 7220,
+    "scope": "per-bite interpretation remains ambiguous/unassessed"
+  },
+  "worker4WeightContract": {
+    "path": "tmp/root-review/wave3-worker4-weight-property-meaning-addendum-20261004/manifest.json",
+    "sha256": "f9802c6498f380bf7794c8a75966d09c7f524be8cbeacec1c0ea6007e34328af",
+    "scope": "source property observation only; physical mass/game handling/bankability unresolved"
+  },
+  "semanticGaps": [
+    "Wave3 full semantic reading is not complete.",
+    "Draft predicate/unit definitions remain unregistered and non-usable.",
+    "All eight dimensions remain unassessed for every item.",
+    "Source-derived quantities, scope, variants and competing roles may retain packet-specific gaps."
+  ],
+  "coverageOnlyCandidateFactRefs": true
+}

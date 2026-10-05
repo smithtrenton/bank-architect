@@ -1,0 +1,111 @@
+{
+  "schema": "semantic-capture-reconciled2147-food-path-resolution/v1",
+  "status": "additive source-path clarification; existing publication and erratum remain unchanged",
+  "scope": "Resolves four shortened originalCandidateFile path labels in the published Food count erratum. This note adds no semantic claim, assertion, approval, or source correction.",
+  "publishedPublicationManifest": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-manifest-20261004.json",
+    "sha256": "8221072505873cd062dea59556f4c7d2c9d5a4ade67208cf8e8f8b508a16ad90"
+  },
+  "publishedErratum": {
+    "path": "docs/research/category-certification/semantic-capture-reconciled2147-food-count-erratum-20261004.json",
+    "sha256": "a7beff06e41e7951b6c497a2587525f322903e44577e60fd3e0fac20441d9e56"
+  },
+  "postpublicationIndependentAudit": {
+    "manifestPath": "tmp/root-review/reconciled2147-postpublication-independent-audit-20261004/manifest.json",
+    "manifestSha256": "f685f1f99c114fb16bd21009ad22b208653fc05e4268c3b25791d1e982b68e34"
+  },
+  "pathResolutions": [
+    {
+      "erratumJsonPointer": "/finding/records/0/originalCandidateFile",
+      "oldErratumLabel": "wave3-20261004/worker-0/supplies-part-0/native-fact-records.jsonl",
+      "correctWorkspaceRelativePath": "tmp/root-review/semantic-frontier-wave3-20261004/worker-0/supplies-part-0/native-fact-records.jsonl",
+      "recordId": "claim-9414152700c8fc3e753dc86176a2156671732a2c7968f2671f382cbd0d7dbac3",
+      "itemId": 7180,
+      "sourceFileSha256": "6f4412ac0080c2ff738c635974a78bcd01cca074e97db529d6099e6d56500143",
+      "erratumPinnedSourceFileSha256": "6f4412ac0080c2ff738c635974a78bcd01cca074e97db529d6099e6d56500143",
+      "originalWave3CanonicalRecordSha256": "0adf7f67eebf3c5157b7bf64fe205fd9fc54a1698bb9d4caf8a0b91f082ad500",
+      "effectiveV2CanonicalRecordSha256": "453811154bf6b6ac7418c6ae0cd6deba1e87c3e1f7118eac9ee40be8d8d37354",
+      "changedPointers": [
+        "/normalizedMeaning/summary",
+        "/normalizedMeaning/facts/0/meaning"
+      ],
+      "fileExists": true,
+      "sha256MatchesErratum": true
+    },
+    {
+      "erratumJsonPointer": "/finding/records/1/originalCandidateFile",
+      "oldErratumLabel": "wave3-20261004/worker-0/supplies-part-0/native-fact-records.jsonl",
+      "correctWorkspaceRelativePath": "tmp/root-review/semantic-frontier-wave3-20261004/worker-0/supplies-part-0/native-fact-records.jsonl",
+      "recordId": "claim-eca2025861f80a49b02b5cdf78686c61caedc448faa32b02383ad1d743d89d94",
+      "itemId": 7200,
+      "sourceFileSha256": "6f4412ac0080c2ff738c635974a78bcd01cca074e97db529d6099e6d56500143",
+      "erratumPinnedSourceFileSha256": "6f4412ac0080c2ff738c635974a78bcd01cca074e97db529d6099e6d56500143",
+      "originalWave3CanonicalRecordSha256": "54c034db03ac3327ac4c06775771898b20a9e886e32aeafe9ca6d948a7ac84c3",
+      "effectiveV2CanonicalRecordSha256": "d4dd99c459c4d78e136f91e9fda35dd69c25f8b507d428228647363d25517359",
+      "changedPointers": [
+        "/normalizedMeaning/summary",
+        "/normalizedMeaning/facts/0/meaning"
+      ],
+      "fileExists": true,
+      "sha256MatchesErratum": true
+    },
+    {
+      "erratumJsonPointer": "/finding/records/2/originalCandidateFile",
+      "oldErratumLabel": "wave3-20261004/worker-0/supplies-part-0/native-fact-records.jsonl",
+      "correctWorkspaceRelativePath": "tmp/root-review/semantic-frontier-wave3-20261004/worker-0/supplies-part-0/native-fact-records.jsonl",
+      "recordId": "claim-aeddde9e0c38c6f0871f2540bc3046b531999466c37fa272f7797ae47d03246d",
+      "itemId": 7220,
+      "sourceFileSha256": "6f4412ac0080c2ff738c635974a78bcd01cca074e97db529d6099e6d56500143",
+      "erratumPinnedSourceFileSha256": "6f4412ac0080c2ff738c635974a78bcd01cca074e97db529d6099e6d56500143",
+      "originalWave3CanonicalRecordSha256": "2f5bd282fd920950e2a1780ec06afe1d8f9762371effa768e5c1141ad7eaf6c7",
+      "effectiveV2CanonicalRecordSha256": "14e1029048c77b253dc07ea97fb9943dfe340d0062dce026d451c51b34690d80",
+      "changedPointers": [
+        "/normalizedMeaning/summary",
+        "/normalizedMeaning/facts/0/meaning"
+      ],
+      "fileExists": true,
+      "sha256MatchesErratum": true
+    },
+    {
+      "erratumJsonPointer": "/finding/records/3/originalCandidateFile",
+      "oldErratumLabel": "wave3-20261004/worker-1/supplies-part-3/candidate-assertions.jsonl",
+      "correctWorkspaceRelativePath": "tmp/root-review/semantic-frontier-wave3-20261004/worker-1/supplies-part-3/candidate-assertions.jsonl",
+      "recordId": "claim-92fe4b57cafa3a6dbf435f0e909264839b0ba3eb1e85afbcd98c6a3d479f590d",
+      "itemId": 2343,
+      "sourceFileSha256": "3060fabf5d7c86aacabf6b02e4e2de261df1ccf3178ead74746bd3b6c37730aa",
+      "erratumPinnedSourceFileSha256": "3060fabf5d7c86aacabf6b02e4e2de261df1ccf3178ead74746bd3b6c37730aa",
+      "originalWave3CanonicalRecordSha256": "bd91d0753151158dc017ad7e50b1704a44ef1ff45f0298f835ecf92de69a8310",
+      "effectiveV2CanonicalRecordSha256": "b2f028c92f50ee37b58c190e372e403da08b7d7a781af72012dc5ccd0535d041",
+      "changedPointers": [
+        "/factValue/outputProjection/candidateObservations/0",
+        "/factValue/outputProjection/unknowns/1"
+      ],
+      "fileExists": true,
+      "sha256MatchesErratum": true
+    }
+  ],
+  "countInterpretation": {
+    "frozenOriginalWave3ToPublished2147": {
+      "changed": 4,
+      "unchanged": 0
+    },
+    "incrementalFoodV2Packet": {
+      "changed": 3,
+      "unchanged": 1
+    },
+    "stageV1ToV2": {
+      "changedRawRecordRows": 1,
+      "recordId": "claim-92fe4b57cafa3a6dbf435f0e909264839b0ba3eb1e85afbcd98c6a3d479f590d"
+    },
+    "explanation": "The 3/1 count describes Food V2 packet-local deltas. Against the frozen original Wave3 candidate rows, all four final scoped rows differ. In the stage V1-to-V2 comparison only the corrected 2343 row changes."
+  },
+  "preservation": {
+    "publishedErratumBytesChanged": false,
+    "publicationManifestBytesChanged": false,
+    "publishedPayloadsChanged": false,
+    "semanticValuesChanged": false,
+    "semanticApprovalGranted": false,
+    "coverageDimensionsChanged": false,
+    "productionOrLiveBankChanged": false
+  }
+}

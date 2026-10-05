@@ -1,0 +1,22 @@
+{
+  "formatVersion": "semantic-candidate-correction/v1",
+  "approval": "none",
+  "baseSnapshot": {
+    "path": "docs/research/category-certification/semantic-capture-candidates-20261003.jsonl.gz",
+    "sha256": "ed516878f0f155239734b4c367e31436b0ab3bf4e74bce1a6a0dfdf18659c6bc"
+  },
+  "operation": "replace exactly one candidate claim by stable recordId after verifying prior complete claim hash; preserve original snapshot",
+  "recordId": "claim-3f6c7d12ddf7f35b3c93b36d37354ac3123e63f91346f66787e7a402e7472e67",
+  "beforeClaimSha256": "a12dc46cef27c10185a10ac84f1facd56fc64710dbd8e3380d6706b912c52886",
+  "afterClaimSha256": "ac5b566856d7daacfe65633995864db26f0825a8cd6d383c60ef35eaa5c6b705",
+  "output": {
+    "path": "docs/research/category-certification/semantic-capture-corrections-20261003.jsonl",
+    "sha256": "25a31d2cfdb1dc8b9fd74596cc08bd09f5baceae28c311b0946bdc7f90b7f7d4"
+  },
+  "changedValuePath": "factValue.state",
+  "before": "sealed item pack",
+  "after": "item pack",
+  "reason": "Exact own Wiki source says item pack and gives Open action; it does not expressly say sealed. Remove stronger inferred wording.",
+  "status": "candidate/unassessed; no category, tag, predicate registration or semantic approval",
+  "coverage": "unchanged; the same stable claim remains an unassessed candidate"
+}

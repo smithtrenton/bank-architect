@@ -1,0 +1,11 @@
+{
+  "status": "additive provenance reference; source documents not rewritten",
+  "pathResolutionNote": "docs/research/category-certification/semantic-capture-reconciled2147-food-path-resolution-20261004.json",
+  "sha256": "f5d03876ee40644479b589cf6796165dc5c571f99caa42909bc6116271594436",
+  "published2147Manifest": "docs/research/category-certification/semantic-capture-reconciled2147-manifest-20261004.json",
+  "published2147ManifestSha256": "8221072505873cd062dea59556f4c7d2c9d5a4ade67208cf8e8f8b508a16ad90",
+  "scope": "Preserve the existing Food path clarification as current-stage provenance; do not rewrite the prior Food count erratum or the durable 2147 manifest.",
+  "publishedFoodErratumPath": "docs/research/category-certification/semantic-capture-reconciled2147-food-count-erratum-20261004.json",
+  "publishedFoodErratumSha256": "a7beff06e41e7951b6c497a2587525f322903e44577e60fd3e0fac20441d9e56",
+  "publishedFoodErratumBytesChanged": false
+}

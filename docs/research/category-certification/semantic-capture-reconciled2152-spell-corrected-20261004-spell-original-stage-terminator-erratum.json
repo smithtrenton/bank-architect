@@ -1,0 +1,130 @@
+{
+  "schema": "semantic-2152-spell-stage-v1-terminator-erratum/v1",
+  "status": "corrected by distinct unpublished v2 successor; v1 preserved unchanged",
+  "v1ManifestSha256": "38062bfba646fd2de2958547057ca88686f69abdbc838004870e195f8adf46bc",
+  "v1EffectiveSha256": "0edec8dfc0e5492b530fe53fb9bf70c285fa5d7a4ba00cca9b78988cb28d3d45",
+  "durableManifestSha256": "544338e0e3dec7b9f588245dbf31f13e4c2936be56b042733310af1e2a1e14ee",
+  "finding": "The v1 generator preserved parsed JSON content but normalized all 12 CRLF line terminators to LF, invalidating its all-raw-line-byte-exact claim for 12 unchanged records.",
+  "correction": "V2 uses each durable source row as the raw-byte baseline, retains exact baseline terminators for all 2,152 lines, overlays only the same seven proposal row bodies, and changes only those seven crosswalk effectiveRecordLineSha256 fields.",
+  "affectedRows": [
+    {
+      "line": 354,
+      "recordId": "claim-625b59c7c8f6f9361ec9fc35af32d378f5fe889aaaaea27751233f7529932ce9",
+      "itemId": 2349,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 416,
+      "recordId": "claim-0a3e74f887137b3314e21f76134acd8911df209e3d18e79754f06ab4771b9315",
+      "itemId": 1635,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 427,
+      "recordId": "claim-a5c662e825f2c20a37255c61626115a0fb561f9aad855ce2650cc142efd771b3",
+      "itemId": 2337,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 429,
+      "recordId": "claim-c5335768c738d622a3550da9b1ff8bed32fe43c28e8eb1f3c35090f296d4aa7a",
+      "itemId": 2876,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 430,
+      "recordId": "claim-12749ec84a48e9b8b365fb5326a31aa021b7bbfc26341aeeb56ea91eee417aec",
+      "itemId": 3129,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 499,
+      "recordId": "claim-70e547c9acdfae820248a4ee45715cb5320a43d0552f13ef69b1cb87ed52e89c",
+      "itemId": 2134,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 1174,
+      "recordId": "claim-acc4dc1d5e663eeb73b2bcf3b82d84ac99c7b29829de529bc44af6d5a5643608",
+      "itemId": 1635,
+      "status": "unassessed",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 2148,
+      "recordId": "claim-ed7e7a526506c29ce035f75ef65eb03cbc529f55e168c1feb8726cbdd7f1bddb",
+      "itemId": 1704,
+      "status": "supported",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 2149,
+      "recordId": "claim-8255185e8b919e7846c8d4646e554cbd85509e0c6fcfef25e947cac7a1f1d7cf",
+      "itemId": 1706,
+      "status": "supported",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 2150,
+      "recordId": "claim-94079084b6cccb89a4b411e70aac75ca9f469b24f9b166a3381434b2e3e5e21c",
+      "itemId": 1708,
+      "status": "supported",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 2151,
+      "recordId": "claim-6846391e0e4fc2a22eb0fada2b136626fafa381fc8ed03c18ebbae7c07860a34",
+      "itemId": 1710,
+      "status": "supported",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    },
+    {
+      "line": 2152,
+      "recordId": "claim-ca048364dfdae619d2cf13210b013584a4d38bcf21d3cf0e51bc4397559917a4",
+      "itemId": 1712,
+      "status": "supported",
+      "baselineTerminator": "CRLF",
+      "v1Terminator": "LF",
+      "v2Terminator": "CRLF"
+    }
+  ],
+  "v1AffectedCount": 12,
+  "spellTargetsAmongAffected": [],
+  "supportedGloryRowsAmongAffected": [
+    "claim-ed7e7a526506c29ce035f75ef65eb03cbc529f55e168c1feb8726cbdd7f1bddb",
+    "claim-8255185e8b919e7846c8d4646e554cbd85509e0c6fcfef25e947cac7a1f1d7cf",
+    "claim-94079084b6cccb89a4b411e70aac75ca9f469b24f9b166a3381434b2e3e5e21c",
+    "claim-6846391e0e4fc2a22eb0fada2b136626fafa381fc8ed03c18ebbae7c07860a34",
+    "claim-ca048364dfdae619d2cf13210b013584a4d38bcf21d3cf0e51bc4397559917a4"
+  ],
+  "meaningChangesChangedFromV1": 0,
+  "approvalsGranted": 0
+}

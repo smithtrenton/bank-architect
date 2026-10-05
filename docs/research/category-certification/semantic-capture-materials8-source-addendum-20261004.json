@@ -1,0 +1,142 @@
+{
+  "schema": "materials302-claim-local-correction-successor-source-map/v1",
+  "status": "unsealed research only",
+  "newExactExcerpts": [
+    {
+      "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac",
+      "itemId": 6862,
+      "title": "Woolly hat",
+      "revision": 15184896,
+      "url": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184896",
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184896.txt",
+      "sourceSha256": "sha256:786773cdd1ab47f78c1e33026e3bbfdeda893d8b5f5840c1531390e9f2096fb2",
+      "exactVariant": {
+        "fields": {
+          "name": "Woolly hat"
+        },
+        "idField": "id",
+        "idFieldLiteral": "|id = 6862",
+        "infoboxRaw": "{{Infobox Item\r\n|name = Woolly hat\r\n|image = [[File:Woolly hat.png]]\r\n|release = [[19 December]] [[2005]]\r\n|update = Christmas update for all players\r\n|members = No\r\n|quest = No\r\n|tradeable = No\r\n|equipable = Yes\r\n|stackable = No\r\n|noteable = No\r\n|options = Wear, Destroy\r\n|destroy = You can obtain another hat from Diango in the Draynor Market.\r\n|examine = A woolly tobogganing hat.\r\n|value = 1\r\n|weight = 0.250\r\n|id = 6862\r\n}}",
+        "itemId": 6862
+      },
+      "quote": "Previously, they were obtainable during the [[2013 Rare Drops]] event (from [[12 August]] to [[19 August]]) as part of a [[Hats & scarves (2013 Rare Drops)|rare item drop]].",
+      "quoteSha256": "ade4839474c7b4bfc4ccb250b5ab70298b0e766d6f89c9050434fa015700a701",
+      "quoteExactRawBytes": true
+    },
+    {
+      "recordId": "claim-8056d780417769a52618d060f6b71535ac72c3725d2ff678739fbfb0e897c9ac",
+      "itemId": 6862,
+      "title": "Woolly hat",
+      "revision": 15184896,
+      "url": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184896",
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15184896.txt",
+      "sourceSha256": "sha256:786773cdd1ab47f78c1e33026e3bbfdeda893d8b5f5840c1531390e9f2096fb2",
+      "exactVariant": {
+        "fields": {
+          "name": "Woolly hat"
+        },
+        "idField": "id",
+        "idFieldLiteral": "|id = 6862",
+        "infoboxRaw": "{{Infobox Item\r\n|name = Woolly hat\r\n|image = [[File:Woolly hat.png]]\r\n|release = [[19 December]] [[2005]]\r\n|update = Christmas update for all players\r\n|members = No\r\n|quest = No\r\n|tradeable = No\r\n|equipable = Yes\r\n|stackable = No\r\n|noteable = No\r\n|options = Wear, Destroy\r\n|destroy = You can obtain another hat from Diango in the Draynor Market.\r\n|examine = A woolly tobogganing hat.\r\n|value = 1\r\n|weight = 0.250\r\n|id = 6862\r\n}}",
+        "itemId": 6862
+      },
+      "quote": "{{Costume storage|toy box space|[[Hats and scarves|2005: Woolly Hats]] set|set=true}}",
+      "quoteSha256": "89908e49e4dc77d1e4b4dfeedf9ec90da1ca3e6cf50a8ecc61c4d85a47a9454f",
+      "quoteExactRawBytes": true
+    },
+    {
+      "recordId": "claim-cdf6e66c53a9985e687d8866dca76474c16267bf79745c41737d533ff213e8b7",
+      "itemId": 6668,
+      "title": "Fishbowl",
+      "revision": 15286250,
+      "url": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15286250",
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15286250.txt",
+      "sourceSha256": "sha256:c1b77d4184e8385755029b5bb060d600779db1630eca1c568a0c7724080fce42",
+      "exactVariant": {
+        "fields": {
+          "id2": "6668",
+          "name2": "Fishbowl"
+        },
+        "idField": "id2",
+        "idFieldLiteral": "|id2 = 6668",
+        "infoboxRaw": "{{Infobox Item\r\n|version1 = Empty\r\n|version2 = Water\r\n|version3 = Seaweed\r\n|name1 = Empty fishbowl\r\n|name2 = Fishbowl\r\n|name3 = Fishbowl\r\n|image1 = [[File:Empty fishbowl.png]]\r\n|image2 = [[File:Fishbowl (water).png]]\r\n|image3 = [[File:Fishbowl (seaweed).png]]\r\n|release = [[24 October]] [[2005]]\r\n|update = Mogres, Lizards, Pet Fish, Potions and Potatoes!\r\n|members = Yes\r\n|quest = No\r\n|tradeable1 = Yes\r\n|tradeable2 = No\r\n|tradeable3 = No\r\n|equipable = No\r\n|stackable = No\r\n|noteable1 = Yes\r\n|noteable2 = No\r\n|noteable3 = No\r\n|options1 = Drop\r\n|options2 = Empty, Drop\r\n|options3 = Empty, Drop\r\n|examine1 = An empty fishbowl.\r\n|examine2 = A fishless fishbowl.\r\n|examine3 = A fishless fishbowl with some seaweed.\r\n|value1 = 1\r\n|value2 = 0\r\n|value3 = 0\r\n|weight1 = 1.360\r\n|weight2 = 2.267\r\n|weight3 = 2.267\r\n|exchange1 = Yes\r\n|exchange2 = No\r\n|exchange3 = No\r\n|id1 = 6667\r\n|id2 = 6668\r\n|id3 = 6669\r\n}}",
+        "itemId": 6668
+      },
+      "quote": "It is also used in the [[Rum Deal]] quest, in which players receive a [[Fishbowl and net]], which can be dismantled into a [[Fishbowl]] and a [[Big fishing net]] in order to obtain a fishbowl without having to go obtain molten glass first, which can be convenient for [[ironmen]].",
+      "quoteSha256": "df19ae2c246bec5fb477b204c140d957fbb9c804fe04e9f8f6d918cd83af144f",
+      "quoteExactRawBytes": true
+    },
+    {
+      "recordId": "claim-8779205b34fcffd5b6c50b6b346a0e42cc2d9063aa826c906da1df65485b5c4c",
+      "itemId": 6672,
+      "title": "Fishbowl (pet)",
+      "revision": 15186367,
+      "url": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15186367",
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15186367.txt",
+      "sourceSha256": "sha256:c467a1484632793e759d0b8cd393d4f333535c82b0aa1b39df09dfbcd0ecf028",
+      "exactVariant": {
+        "fields": {
+          "alchable": "No",
+          "equipable": "No",
+          "examine1": "A fishbowl with a tiny bluefish in it.",
+          "examine2": "A fishbowl with a tiny greenfish in it.",
+          "examine3": "A fishbowl with a tiny spinefish in it.",
+          "id1": "6670",
+          "id2": "6671",
+          "id3": "6672",
+          "image1": "[[File:Fishbowl (blue).png]]",
+          "image2": "[[File:Fishbowl (green).png]]",
+          "image3": "[[File:Fishbowl (orange).png]]",
+          "members": "Yes",
+          "name": "Fishbowl",
+          "noteable": "",
+          "options": "Talk-At, Play-With, Feed, Drop",
+          "quest": "No",
+          "release": "[[24 October]] [[2005]]",
+          "stackable": "No",
+          "tradeable": "No",
+          "update": "Mogres, Lizards, Pet Fish, Potions and Potatoes!",
+          "value": "1",
+          "version1": "Bluefish",
+          "version2": "Greenfish",
+          "version3": "Spinefish",
+          "weight": "2.267"
+        },
+        "idField": "id3",
+        "idFieldLiteral": "|id3 = 6672",
+        "infoboxRaw": "{{Infobox Item\n|version1 = Bluefish\n|version2 = Greenfish\n|version3 = Spinefish\n|name = Fishbowl\n|image1 = [[File:Fishbowl (blue).png]]\n|image2 = [[File:Fishbowl (green).png]]\n|image3 = [[File:Fishbowl (orange).png]]\n|release = [[24 October]] [[2005]]\n|update = Mogres, Lizards, Pet Fish, Potions and Potatoes!\n|members = Yes\n|quest = No\n|tradeable = No\n|equipable = No\n|stackable = No\n|noteable = \n|options = Talk-At, Play-With, Feed, Drop\n|examine1 = A fishbowl with a tiny bluefish in it.\n|examine2 = A fishbowl with a tiny greenfish in it.\n|examine3 = A fishbowl with a tiny spinefish in it.\n|value = 1\n|alchable = No\n|weight = 2.267\n|id1 = 6670\n|id2 = 6671\n|id3 = 6672\n}}",
+        "itemId": 6672
+      },
+      "quote": "Players must have at least level 70 Fishing to be able to obtain the orange (spinefish) variant.",
+      "quoteSha256": "82058e641d513ceaa28579fb4216eca76daa86f72a9d87622da4eb3acb5a8e18",
+      "quoteExactRawBytes": true
+    },
+    {
+      "recordId": "claim-9fa8fafd612a14b21903b9f1c81028f8d19ffcc0838bac23966fddd61f07a109",
+      "itemId": 2351,
+      "title": "Iron bar",
+      "revision": 15315108,
+      "url": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15315108",
+      "sourcePath": "tmp/category-certification/wiki-articles/text/15315108.txt",
+      "sourceSha256": "sha256:e8c384a879b730038b7fadcd37933fe5e6d7fa9ff09a6ab5ba76b1910e5ebea6",
+      "exactVariant": {
+        "fields": {
+          "name": "Iron bar"
+        },
+        "idField": "id",
+        "idFieldLiteral": "|id = 2351",
+        "infoboxRaw": "{{Infobox Item\r\n|name = Iron bar\r\n|image = [[File:Iron bar.png]]\r\n|release = [[4 January]] [[2001]]\r\n|update = Runescape beta is now online!\r\n|members = No\r\n|quest = No\r\n|tradeable = Yes\r\n|equipable = No\r\n|stackable = No\r\n|noteable = Yes\r\n|options = Drop\r\n|examine = It's a bar of iron.\r\n|value = 28\r\n|weight = 1.814\r\n|respawn = 500\r\n|exchange = Yes\r\n|id = 2351\r\n}}",
+        "itemId": 2351
+      },
+      "quote": "===Spawns===\r\n{{ItemSpawnTableHead}}\r\n{{ItemSpawnLine|name=Iron bar|location=[[Brimhaven Dungeon]] (task-only area)|members=Yes|mapID=-1\r\n|2682,9463|leagueRegion = Karamja}}\r\n{{ItemSpawnLine|name=Iron bar|location=[[Ghorrock Dungeon]]|members=Yes|2918,10327|mapID=-1|leagueRegion = Fremennik}}\r\n{{ItemSpawnLine|name=Iron bar|location=[[Mynydd]]|members=Yes|2169,3430|leagueRegion = Tirannwn}}\r\n{{ItemSpawnLine|name=Iron bar|location=[[Sunset Coast]]|members=Yes|1513,2995|leagueRegion = Varlamore}}\r\n{{ItemSpawnLine|name=Iron bar|location=[[Wilderness]] - north-west of [[Ferox Enclave]]|members=no|3111,3657|leagueRegion = Wilderness}}\r\n{{ItemSpawnLine|name=Iron bar|location=[[Shields of Mistrock]] ({{FloorNumber|uk=1}})|members=Yes|1385,2868|plane=1|leagueRegion = Varlamore}}\r\n{{ItemSpawnTableBottom}}",
+      "quoteSha256": "00f28990b4ba13d6fae68a16e88b45ef9b0af76f84614bf8250ceb13ada5e550",
+      "quoteExactRawBytes": true
+    }
+  ],
+  "bindings": {
+    "2351": "Existing Superheat recipe excerpt binds ID 2351; new spawn-table quote binds same ID and preserves original article.",
+    "6668": "All six pre-existing evidence objects now bind exactVariant fields id2=6668 and name2=Fishbowl; seventh evidence object is exact Rum Deal paragraph.",
+    "6672": "Existing chart quote and new level-70 prose quote both preserve id3=6672/version3=Spinefish binding.",
+    "6862": "Existing Infobox Bonuses preserved; new historical and costume-storage quotes use exact single-item id 6862 binding."
+  }
+}

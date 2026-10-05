@@ -1,0 +1,67 @@
+{
+  "schema": "ticket2168-independent-root-acceptance/v1",
+  "result": "PASS root reviewed independent composition audit",
+  "publicationAccepted": true,
+  "newAuthorizationGranted": false,
+  "unresolvedPublicationObjections": [],
+  "inputs": [
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/manifest.json",
+      "sha256": "ecc8c9a3eec024a59129896dd3f5fc7e779a0b2a5e4ac3b804e37f94d2df8f0c",
+      "byteLength": 15208
+    },
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/seal.json",
+      "sha256": "68e16fe61e63eaa764ace2813e121ac77170a5581cc27155204ee4e504597826",
+      "byteLength": 1592
+    },
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/findings.json",
+      "sha256": "676b738939b81d33b10ce3bd4a0a0c276223690e91708ef646538aa11e71c94c",
+      "byteLength": 11625
+    },
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/report.md",
+      "sha256": "47ec1c619814d4ca27ddb3ac65ccd05929bda89c4bb738c0d039bcfa04c3a2af",
+      "byteLength": 2363
+    },
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/resolved-paths.jsonl",
+      "sha256": "2959cf74363ce9f2b51292a3e9220a0ab044c2ecbf87cab2fe462992ff18f409",
+      "byteLength": 21669
+    },
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/raw-line-inverses.jsonl",
+      "sha256": "5b380099604f1ecc8df14bed181456a0081859b877c721ed6026b9981d40e6a2",
+      "byteLength": 5271
+    },
+    {
+      "path": "tmp/root-review/ticket2168-independent-resume-audit-20261004/auxiliary-preservation.json",
+      "sha256": "9a4a4db58734a1341e7899188d3a0662907aa6001261286131bead65982f94dd",
+      "byteLength": 7720
+    },
+    {
+      "path": "tmp/root-review/semantic-resume-20261004/ticket-root-review.json",
+      "sha256": "aa73a27c6e8f4d2f5adc78bdd2e942a42075e15e11335127d23f826de666bac4",
+      "byteLength": 25616
+    }
+  ],
+  "actualFindingsRead": true,
+  "nativeValidatorRead": {
+    "validRecords": 2168,
+    "sourceReplay": true,
+    "manifestChecked": true,
+    "semanticApprovalGranted": false
+  },
+  "rootDecision": "Publish byte-exact bounded research composition of11 previously authorized ticket facts over2157 prefix. Preserve world/outcome/score/count and minimum-duration dependency, draft definitions and unassessed dimensions.",
+  "limits": [
+    "The 11 supported assertions are item-fact evidence only.",
+    "The separate 15-minute activity eligibility fact is an interpretation dependency for all ten ticket-award rows.",
+    "Award quantities remain conditioned on exact world/outcome/score states; there is no unconditional award guarantee.",
+    "Both predicates are draft-unregistered and rule use remains disabled.",
+    "No item dimension is complete; all 272,680 remain unassessed.",
+    "No category, tag, placement, bank, semantic-approval, or publication change is authorized.",
+    "Independent helper is frozen and hardcodes its output directory; do not rerun it in place. Read-only pin/source/inverse checks can be replayed with fresh successor helpers.",
+    "Unchanged2157 prefix inherits its recorded historical lineage and candidate limits."
+  ]
+}

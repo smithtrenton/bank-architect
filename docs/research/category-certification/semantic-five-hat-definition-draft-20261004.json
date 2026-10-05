@@ -1,0 +1,381 @@
+{
+  "schema": "scoped-equipment-bonus-local-definition-draft/v1",
+  "status": "research draft only; not registered; not an approval",
+  "sourceV3": {
+    "path": "docs/research/category-certification/semantic-capture-predicates-v3-20261003.json",
+    "sha256": "5fc092bf040d8719fd2f1c88d3d1d677acbf3405ec4d187902df352f7232beab",
+    "pointer": "/definitions/3",
+    "definitionObject": {
+      "predicate": "osrs:equipment.slot-bonuses",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "osrs.equipment.slot-bonuses",
+      "definitionStatus": "candidate-unregistered",
+      "valueType": "object",
+      "meaning": "Equipment slot and listed bonuses (zero retained)",
+      "objectShape": {
+        "type": "object",
+        "required": [
+          "bonusUnit",
+          "bonuses",
+          "magicDamage",
+          "slot"
+        ],
+        "properties": {
+          "attackRange": {
+            "type": "object",
+            "required": [
+              "unit",
+              "value"
+            ],
+            "properties": {
+              "unit": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              }
+            }
+          },
+          "bonusUnit": {
+            "type": "string"
+          },
+          "bonuses": {
+            "type": "object",
+            "required": [
+              "attackMagic",
+              "attackRanged",
+              "defenceCrush",
+              "defenceMagic",
+              "defenceRanged",
+              "defenceSlash",
+              "defenceStab",
+              "prayer",
+              "rangedStrength",
+              "strength"
+            ],
+            "properties": {
+              "attackCrush": {
+                "type": "number"
+              },
+              "attackMagic": {
+                "type": "number"
+              },
+              "attackRanged": {
+                "type": "number"
+              },
+              "attackSlash": {
+                "type": "number"
+              },
+              "attackStab": {
+                "type": "number"
+              },
+              "defenceCrush": {
+                "type": "number"
+              },
+              "defenceMagic": {
+                "type": "number"
+              },
+              "defenceRanged": {
+                "type": "number"
+              },
+              "defenceSlash": {
+                "type": "number"
+              },
+              "defenceStab": {
+                "type": "number"
+              },
+              "prayer": {
+                "type": "number"
+              },
+              "rangedStrength": {
+                "type": "number"
+              },
+              "strength": {
+                "type": "number"
+              }
+            }
+          },
+          "magicDamage": {
+            "type": "object",
+            "required": [
+              "unit",
+              "value"
+            ],
+            "properties": {
+              "unit": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              }
+            }
+          },
+          "slot": {
+            "type": "string"
+          },
+          "speed": {
+            "type": "object",
+            "required": [
+              "unit",
+              "value"
+            ],
+            "properties": {
+              "unit": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      },
+      "unitFields": {
+        "attackRange": [
+          "count:tile"
+        ],
+        "magicDamage": [
+          "ratio:percent"
+        ],
+        "speed": [
+          "time:game-tick"
+        ]
+      },
+      "applicability": "Exact numeric item ID and exact item state only; preserve each assertion state.scope, variant parameters, conditions and applicability in the assertion. Never inherit to aliases or other variants.",
+      "interpretationLimits": "Applies to the stated exact equipment slot. Preserve every listed zero and negative value. Combat/prayer bonus fields use osrs:bonus-point; magicDamage uses ratio:percent; speed uses time:game-tick; attackRange uses count:tile. Shared definition supports multiple slots, not a merged bonus record.",
+      "sourceRequirement": "Exact own-page evidence bound to numeric item ID, source title/revision/hash, exact variant identity, and literal supporting quote. Revision/hash are evidence provenance, never applicability qualifiers.",
+      "valueInterpretation": "Every numeric semantic quantity has an explicit recognized unit, including nested array members; only fromItemId is an unitted identity integer. Literal ratio/formula-like strings stay inert. Boolean values preserve their source-asserted polarity and scope.",
+      "assertionCount": 2,
+      "itemIds": [
+        19988,
+        24697
+      ]
+    }
+  },
+  "oldV3CensusGap": {
+    "assertionCount": 2,
+    "itemIds": [
+      19988,
+      24697
+    ],
+    "targetHatItemIds": [
+      2900,
+      2910,
+      2920,
+      2930,
+      2940
+    ],
+    "targetIdsMissingFromV3ItemIds": [
+      2900,
+      2910,
+      2920,
+      2930,
+      2940
+    ],
+    "interpretation": "The published V3 draft census identifies only IDs 19988 and 24697 (2 assertions); these five hats are absent from that census. This is an explicit coverage gap, not evidence the facts are approved or registered."
+  },
+  "localMappingOnly": {
+    "appliesOnlyToExactItemIds": [
+      2900,
+      2910,
+      2920,
+      2930,
+      2940
+    ],
+    "predicate": {
+      "predicate": "osrs:equipment.slot-bonuses",
+      "predicateVersion": 1,
+      "factNamespace": "item-fact",
+      "factName": "osrs.equipment.slot-bonuses",
+      "valueType": "object"
+    },
+    "scope": {
+      "stateScope": "exact-item-state",
+      "selectedVariantFromEachRecord": true,
+      "slot": "head"
+    },
+    "typedRoles": [
+      {
+        "sourceField": "astab",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/attackStab",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "attackStab",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "aslash",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/attackSlash",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "attackSlash",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "acrush",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/attackCrush",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "attackCrush",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "amagic",
+        "rawSourceValue": "+3",
+        "factValuePointer": "/factValue/bonuses/attackMagic",
+        "typedValue": {
+          "value": 3,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "attackMagic",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "arange",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/attackRanged",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "attackRanged",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "dstab",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/defenceStab",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "defenceStab",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "dslash",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/defenceSlash",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "defenceSlash",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "dcrush",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/defenceCrush",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "defenceCrush",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "dmagic",
+        "rawSourceValue": "+3",
+        "factValuePointer": "/factValue/bonuses/defenceMagic",
+        "typedValue": {
+          "value": 3,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "defenceMagic",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "drange",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/defenceRanged",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "defenceRanged",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "str",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/strength",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "strength",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "rstr",
+        "rawSourceValue": "0",
+        "factValuePointer": "/factValue/bonuses/rangedStrength",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "rangedStrength",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "prayer",
+        "rawSourceValue": "+0",
+        "factValuePointer": "/factValue/bonuses/prayer",
+        "typedValue": {
+          "value": 0,
+          "unit": "osrs:bonus-point"
+        },
+        "role": "prayer",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "mdmg",
+        "rawSourceValue": "0",
+        "factValuePointer": "/factValue/magicDamage",
+        "typedValue": {
+          "value": 0,
+          "unit": "ratio:percent"
+        },
+        "role": "explicit magic damage percentage; zero is preserved as a sourced numeric value",
+        "sourceEvidencePointer": "/evidence/0"
+      },
+      {
+        "sourceField": "slot",
+        "rawSourceValue": "head",
+        "factValuePointer": "/factValue/slot",
+        "typedValue": {
+          "value": "head",
+          "unit": null
+        },
+        "role": "exact equipment slot string",
+        "sourceEvidencePointer": "/evidence/0"
+      }
+    ],
+    "bonusFieldsUnit": "osrs:bonus-point",
+    "magicDamageUnit": "ratio:percent",
+    "projectedFields": [
+      "slot",
+      "bonusUnit",
+      "bonuses[13 explicit combat/prayer axes]",
+      "magicDamage"
+    ],
+    "excludedFields": [
+      "speed",
+      "attackRange"
+    ],
+    "excludedFieldSemantics": "No missing-field, absent-mechanic, zero-value, negative-value, or unsupported assertion is made for speed or attackRange. The local projection intentionally does not address them.",
+    "applicability": "Do not apply this mapping to other item IDs, variants, worn-state rules, membership status, or any other semantic dimension."
+  },
+  "nonMutationBoundary": "This object is a local review mapping only. It does not edit V3, expand its census, register a definition, alter candidate rows, or approve a fact."
+}

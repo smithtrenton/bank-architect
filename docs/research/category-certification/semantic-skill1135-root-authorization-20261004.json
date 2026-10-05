@@ -1,0 +1,35 @@
+{
+  "approvalPolicySha256": "2538ead4b7fdf42485dd35fc2a5ebdab907f24d1860b182c06e549109378b21f",
+  "authorizations": [
+    {
+      "approvalRef": "docs/research/category-certification/semantic-skill1135-root-authorization-20261004.json#claim-10d9aba20c7c58e7eb32ca7814539fed62ceb2fd887e702e0f59f86bd8f1289b",
+      "approvalScope": [
+        "item-fact"
+      ],
+      "beforeClaimSha256": "3652d9a555a737d63512db54454e3f17f71df3e93bee02dd5237a8390c1ae423",
+      "decision": "approve-supported",
+      "definitionUnregisteredAcknowledged": true,
+      "dimensionsUnassessedAcknowledged": true,
+      "recordId": "claim-10d9aba20c7c58e7eb32ca7814539fed62ceb2fd887e702e0f59f86bd8f1289b",
+      "reviewedAt": "2026-10-04T13:49:33.434305Z",
+      "reviewer": "Codex root",
+      "scopeAcknowledged": true
+    }
+  ],
+  "policyAcceptance": {
+    "accepted": true,
+    "approvalRef": "docs/research/category-certification/semantic-skill1135-root-authorization-20261004.json",
+    "reviewedAt": "2026-10-04T13:49:33.434305Z",
+    "reviewer": "Codex root"
+  },
+  "readingEvidence": {
+    "exactQuote": "In order to wear the body, a player must first have completed the [[Dragon Slayer I]] quest and have level 40 [[Ranged]] and [[Defence]].",
+    "independentAuditSha256": "d45d598652d9c668ca7da2f488a0dc36040cfe333bf1b7c84c251a75013fd219",
+    "independentCandidateAudit": "tmp/root-review/gear120-normalized-corrections-v3-independent-audit-20261004/manifest.json",
+    "interpretation": "The coordinated phrase gives level 40 for Ranged and Defence. Approve only the Defence wearing prerequisite; the source also documents Dragon Slayer I and Ranged prerequisites.",
+    "rootFullOwnPageRead": true,
+    "sourceRevision": 15322330,
+    "sourceSha256": "7e096f8919a0b37ffd20bc6e2f511cdb15f8c95489d338024de14352b56ae802"
+  },
+  "schema": "semantic-fact-root-authorization/v1"
+}

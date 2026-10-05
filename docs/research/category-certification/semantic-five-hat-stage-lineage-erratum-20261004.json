@@ -1,0 +1,122 @@
+{
+  "schema": "five-hat-supported-transition-lineage-erratum/v1",
+  "created": "2026-10-04",
+  "scope": "Additive lineage correction only; no supported-transition stage file is modified by this erratum.",
+  "reason": "The stage generator was updated to include its own generation script in the stage-manifest input pins for reproducibility, then rerun. Because stage-manifest.json and seal.json were generated in place, their earlier bytes were replaced.",
+  "priorReportedStageManifestAndSeal": {
+    "stageManifestSha256": "cd82cfdfbfdae75c54d1d54e3ba5d7ea62db70ddc1ce9901cc6d79b52b5052fd",
+    "sealSha256": "d1b4f81a89b6c6e1ab6f0a56a35ef065786dfea5d65b9d24d499e9209d38f943",
+    "stageManifestBytes": 7621,
+    "source": "prior generator tool output captured before generator self-pin was added",
+    "actualStageManifestBytesAvailable": false,
+    "actualSealBytesAvailable": false,
+    "availabilityNote": "The prior manifest and seal were regenerated in place. Read-only inventory of the stage directory and matching filenames under tmp/root-review found only the current files. The prior JSON bytes were not retained; these are reported hashes, not reconstructed files."
+  },
+  "currentStageManifestAndSeal": {
+    "stageManifestSha256": "94986bca3af0e0d724870021a73aec3727cd763c32244275a9f12224b4babfba",
+    "sealSha256": "4b5cd08e109656c881bb591acde2df6403f9fbf0279c46738bfdec13b3408a96",
+    "stageManifestBytes": 7862,
+    "sealBytes": 1977,
+    "stageGenerationScriptPin": {
+      "path": "tmp/root-review/build_five_hat_supported_stage_20261004.py",
+      "sha256": "1c501c630e3861804bb90ff3056d1ed074346988169565a2ebd9378c2250f106",
+      "bytes": 21731,
+      "role": "stage-generation script"
+    }
+  },
+  "priorManifestSealByteAvailability": {
+    "oldManifestBytesExistInOriginalStagePath": false,
+    "oldSealBytesExistInOriginalStagePath": false,
+    "searchScope": "Current stage directory inventory and matching five-hat-supported-transition filenames under tmp/root-review.",
+    "searchResult": "Only current stage-manifest.json and seal.json found; no prior copies.",
+    "reconstructionAttempted": false,
+    "statement": "The prior hashes are reported receipts only. This erratum does not reconstruct or claim byte preservation for the prior manifest/seal."
+  },
+  "sevenDataOutputs": [
+    {
+      "path": "supported-item-facts.jsonl",
+      "sha256": "fc86859fbc1d76f861cb1efad9968bede11e07d9e6cc87ed4a77dae1d73e2c38",
+      "bytes": 43921,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "fc86859fbc1d76f861cb1efad9968bede11e07d9e6cc87ed4a77dae1d73e2c38",
+        "bytes": 43921
+      }
+    },
+    {
+      "path": "exact-before-after.jsonl",
+      "sha256": "6aea76f4a8620d2939e1f6ec3bd2aa2670282f822b6cdb084473c0552167a1b2",
+      "bytes": 90037,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "6aea76f4a8620d2939e1f6ec3bd2aa2670282f822b6cdb084473c0552167a1b2",
+        "bytes": 90037
+      }
+    },
+    {
+      "path": "transition-ledger.jsonl",
+      "sha256": "4ad4dda48634b3d307eb5508247d31e8b95a99b4e005b9653be22b892bc1d0a3",
+      "bytes": 6698,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "4ad4dda48634b3d307eb5508247d31e8b95a99b4e005b9653be22b892bc1d0a3",
+        "bytes": 6698
+      }
+    },
+    {
+      "path": "inverse-proof.json",
+      "sha256": "717c5c95b84df088d4020e98f2ae04671fa9f006550d094e20c758c92388e1c1",
+      "bytes": 69689,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "717c5c95b84df088d4020e98f2ae04671fa9f006550d094e20c758c92388e1c1",
+        "bytes": 69689
+      }
+    },
+    {
+      "path": "transition-checks.jsonl",
+      "sha256": "dd60e8ea9e2f206f0fab17e150d9cd49a340970c029de085dd0c6a408712fab9",
+      "bytes": 2074,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "dd60e8ea9e2f206f0fab17e150d9cd49a340970c029de085dd0c6a408712fab9",
+        "bytes": 2074
+      }
+    },
+    {
+      "path": "native-validation.json",
+      "sha256": "97aa21cbfc448216ab697f1b77912a908a887b9d8f5892654eece20e34dfd39a",
+      "bytes": 795,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "97aa21cbfc448216ab697f1b77912a908a887b9d8f5892654eece20e34dfd39a",
+        "bytes": 795
+      }
+    },
+    {
+      "path": "README.md",
+      "sha256": "801ccf2f5f0a017814dcce06789b7ae78d5198d55e566a5a3b06c498ba53beac",
+      "bytes": 1477,
+      "sameAsPriorReportedReceipt": true,
+      "priorReportedReceipt": {
+        "sha256": "801ccf2f5f0a017814dcce06789b7ae78d5198d55e566a5a3b06c498ba53beac",
+        "bytes": 1477
+      }
+    }
+  ],
+  "dataOutputComparison": {
+    "count": 7,
+    "allSevenCurrentBytesEqualPriorReportedHashAndLength": true,
+    "scope": "Hash/length comparison against the prior generator invocation output receipt. Old M/seal byte availability is not implied."
+  },
+  "currentStagePins": {
+    "manifestSha256": "94986bca3af0e0d724870021a73aec3727cd763c32244275a9f12224b4babfba",
+    "sealSha256": "4b5cd08e109656c881bb591acde2df6403f9fbf0279c46738bfdec13b3408a96",
+    "supportedRecordSha256": "fc86859fbc1d76f861cb1efad9968bede11e07d9e6cc87ed4a77dae1d73e2c38",
+    "supportedRecordCount": 5,
+    "nativeValidation": "{\"validRecords\": 5, \"sourceReplay\": true, \"manifestChecked\": false, \"semanticApprovalGranted\": false}"
+  },
+  "approvalScopeChange": false,
+  "transitionDataChangedByErratum": false,
+  "status": "lineage erratum sealed; current stage left untouched; root review still pending"
+}

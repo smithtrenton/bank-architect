@@ -1,0 +1,523 @@
+{
+  "definitionCount": 14,
+  "formatVersion": "candidate-versioned-predicate-reconciliation/v1",
+  "inputDefinitionFiles": [
+    {
+      "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json",
+      "sha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f"
+    },
+    {
+      "path": "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/candidate-predicate-definitions-addendum.json",
+      "sha256": "467829ba910848f7b642f04e5388ce81de03069318bf8fe56a0dc33015c691f1"
+    },
+    {
+      "path": "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/candidate-predicate-definition-overlay.json",
+      "sha256": "a4393391db7d4e181ef5e18240e096ea12fc1cbacc4d317f1a44cea09c5d909a"
+    }
+  ],
+  "predicates": [
+    {
+      "effectiveCandidateDefinition": {
+        "meaning": "A directly stated prerequisite for producing the exact item, distinct from requirements for active use.",
+        "predicate": "osrs.applicability.creation-requirement",
+        "predicateVersion": 1,
+        "status": "candidate",
+        "valueType": "object"
+      },
+      "observedFactCount": 1,
+      "predicate": "osrs.applicability.creation-requirement",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "meaning": "A directly stated prerequisite for producing the exact item, distinct from requirements for active use.",
+            "predicate": "osrs.applicability.creation-requirement",
+            "predicateVersion": 1,
+            "status": "candidate",
+            "valueType": "object"
+          },
+          "fileSha256": "467829ba910848f7b642f04e5388ce81de03069318bf8fe56a0dc33015c691f1",
+          "layer": "addendum",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/candidate-predicate-definitions-addendum.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Directly stated relationship between current spellbook and tablet creation or use.",
+        "name": "osrs.applicability.spellbook-context",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 8,
+      "predicate": "osrs.applicability.spellbook-context",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Directly stated relationship between current spellbook and tablet creation or use.",
+            "name": "osrs.applicability.spellbook-context",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "meaning": "A directly stated context in which the exact item action works, scoped to explicit target/location conditions and coexisting restrictions.",
+        "predicate": "osrs.applicability.use-context",
+        "predicateVersion": 1,
+        "status": "candidate",
+        "valueType": "object"
+      },
+      "observedFactCount": 1,
+      "predicate": "osrs.applicability.use-context",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "meaning": "A directly stated context in which the exact item action works, scoped to explicit target/location conditions and coexisting restrictions.",
+            "predicate": "osrs.applicability.use-context",
+            "predicateVersion": 1,
+            "status": "candidate",
+            "valueType": "object"
+          },
+          "fileSha256": "467829ba910848f7b642f04e5388ce81de03069318bf8fe56a0dc33015c691f1",
+          "layer": "addendum",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/candidate-predicate-definitions-addendum.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Exact target, task, location, quest or unlock condition under which the tablet action does not work.",
+        "name": "osrs.applicability.use-exclusion",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 5,
+      "predicate": "osrs.applicability.use-exclusion",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Exact target, task, location, quest or unlock condition under which the tablet action does not work.",
+            "name": "osrs.applicability.use-exclusion",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate; overlay revision 2; no approval or runtime registration",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Directly stated active-use requirements or explicitly absent requirements, represented with ordinary-use scope and any exact source-stated location/condition exception; creation requirements remain separate.",
+        "name": "osrs.applicability.use-requirements",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueShape": "object with phase and ordinaryUse; optional exception {location, condition, spellUnlock}; source-stated requirements only.",
+        "valueType": "object"
+      },
+      "observedFactCount": 3,
+      "predicate": "osrs.applicability.use-requirements",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Directly stated active-use requirements or explicitly absent requirements for using the tablet; separate from creation requirements.",
+            "name": "osrs.applicability.use-requirements",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        },
+        {
+          "definition": {
+            "definitionStatus": "candidate; overlay revision 2; no approval or runtime registration",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Directly stated active-use requirements or explicitly absent requirements, represented with ordinary-use scope and any exact source-stated location/condition exception; creation requirements remain separate.",
+            "name": "osrs.applicability.use-requirements",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueShape": "object with phase and ordinaryUse; optional exception {location, condition, spellUnlock}; source-stated requirements only.",
+            "valueType": "object"
+          },
+          "fileSha256": "a4393391db7d4e181ef5e18240e096ea12fc1cbacc4d317f1a44cea09c5d909a",
+          "layer": "replacement-definition-overlay",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/candidate-predicate-definition-overlay.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate; overlay revision 2; no approval or runtime registration",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Separate direct source statements about lead availability, current infobox tradeability, intended creation, assumed use, and historical changes. Reviewer interpretations and disposition belong only in extensions/advisories.",
+        "name": "osrs.availability.source-status",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueShape": "object containing only source claims; reviewer interpretation is an extension/advisory.",
+        "valueType": "object"
+      },
+      "observedFactCount": 1,
+      "predicate": "osrs.availability.source-status",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "The own page’s distinct current availability, intended creation, assumed use and historical trading observations, preserved without resolving conflict.",
+            "name": "osrs.availability.source-status",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        },
+        {
+          "definition": {
+            "definitionStatus": "candidate; overlay revision 2; no approval or runtime registration",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Separate direct source statements about lead availability, current infobox tradeability, intended creation, assumed use, and historical changes. Reviewer interpretations and disposition belong only in extensions/advisories.",
+            "name": "osrs.availability.source-status",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueShape": "object containing only source claims; reviewer interpretation is an extension/advisory.",
+            "valueType": "object"
+          },
+          "fileSha256": "a4393391db7d4e181ef5e18240e096ea12fc1cbacc4d317f1a44cea09c5d909a",
+          "layer": "replacement-definition-overlay",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/candidate-predicate-definition-overlay.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Documented staff/rune/cost-saving or skill-training context; does not change the core tablet function.",
+        "name": "osrs.function.cost-efficiency-context",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 7,
+      "predicate": "osrs.function.cost-efficiency-context",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Documented staff/rune/cost-saving or skill-training context; does not change the core tablet function.",
+            "name": "osrs.function.cost-efficiency-context",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate; overlay revision 2; no approval or runtime registration",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Directly stated inventory-efficiency benefit with its active-use scope and any exact source-stated exception; does not imply creation requirements.",
+        "name": "osrs.function.inventory-efficiency",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueShape": "object with benefits and optional scope/exception fields; exceptions are exact-source-bound.",
+        "valueType": "object"
+      },
+      "observedFactCount": 1,
+      "predicate": "osrs.function.inventory-efficiency",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Documented inventory-saving or alternate-spellbook benefit, separate from the core spell effect.",
+            "name": "osrs.function.inventory-efficiency",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        },
+        {
+          "definition": {
+            "definitionStatus": "candidate; overlay revision 2; no approval or runtime registration",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Directly stated inventory-efficiency benefit with its active-use scope and any exact source-stated exception; does not imply creation requirements.",
+            "name": "osrs.function.inventory-efficiency",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueShape": "object with benefits and optional scope/exception fields; exceptions are exact-source-bound.",
+            "valueType": "object"
+          },
+          "fileSha256": "a4393391db7d4e181ef5e18240e096ea12fc1cbacc4d317f1a44cea09c5d909a",
+          "layer": "replacement-definition-overlay",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/candidate-predicate-definition-overlay.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Direct functional action/effect of an available magic tablet. The exact active action, target and stated result are normalized; unspecified quantity or output identity remains explicit.",
+        "name": "osrs.function.magic-tablet-transformation",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 8,
+      "predicate": "osrs.function.magic-tablet-transformation",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Direct functional action/effect of an available magic tablet. The exact active action, target and stated result are normalized; unspecified quantity or output identity remains explicit.",
+            "name": "osrs.function.magic-tablet-transformation",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "A function the Wiki itself describes as assumed, not a verified active effect.",
+        "name": "osrs.function.reported-assumption",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 1,
+      "predicate": "osrs.function.reported-assumption",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "A function the Wiki itself describes as assumed, not a verified active effect.",
+            "name": "osrs.function.reported-assumption",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Directly documented player-creation provenance and the exact site/facility stated by the article; not an exclusive origin assertion.",
+        "name": "osrs.origin.documented-creation",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 8,
+      "predicate": "osrs.origin.documented-creation",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Directly documented player-creation provenance and the exact site/facility stated by the article; not an exclusive origin assertion.",
+            "name": "osrs.origin.documented-creation",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Documented tablet-creation process: skill role, creation-stage level, facility, exact inputs, output and XP awarded at creation.",
+        "name": "osrs.skill.creation-recipe",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 16,
+      "predicate": "osrs.skill.creation-recipe",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Documented tablet-creation process: skill role, creation-stage level, facility, exact inputs, output and XP awarded at creation.",
+            "name": "osrs.skill.creation-recipe",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "Exact infobox action options, stackability and noteability state; does not infer consumption from the option label.",
+        "name": "osrs.state.interface-observation",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 8,
+      "predicate": "osrs.state.interface-observation",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "Exact infobox action options, stackability and noteability state; does not infer consumption from the option label.",
+            "name": "osrs.state.interface-observation",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    },
+    {
+      "effectiveCandidateDefinition": {
+        "definitionStatus": "candidate",
+        "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+        "meaning": "An explicit own-page single-use statement bound to the exact tablet item; scope follows the literal statement.",
+        "name": "osrs.state.single-use",
+        "namespace": "item-fact",
+        "predicateVersion": 1,
+        "sourceScope": "exact item own-page only",
+        "valueType": "object"
+      },
+      "observedFactCount": 1,
+      "predicate": "osrs.state.single-use",
+      "predicateVersion": 1,
+      "resolutionStatus": "candidate definition only; no approval or runtime registration",
+      "sourceDefinitions": [
+        {
+          "definition": {
+            "definitionStatus": "candidate",
+            "evidenceRequirement": "exact numeric item ID field, full pinned revision/hash/page path, exact article-index variant fields, and literal source paragraph/template; candidate remains unassessed",
+            "meaning": "An explicit own-page single-use statement bound to the exact tablet item; scope follows the literal statement.",
+            "name": "osrs.state.single-use",
+            "namespace": "item-fact",
+            "predicateVersion": 1,
+            "sourceScope": "exact item own-page only",
+            "valueType": "object"
+          },
+          "fileSha256": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+          "layer": "base",
+          "path": "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json"
+        }
+      ]
+    }
+  ],
+  "resolutionRule": "Join only on exact predicate name and predicateVersion. Keep raw source definitions, including their source-specific field names. The replacement definition overlay supersedes only matching exact name/version pairs. No definition or value keys were added to coerce heterogeneous fact shapes.",
+  "status": "research only; definitions remain candidate and unregistered"
+}

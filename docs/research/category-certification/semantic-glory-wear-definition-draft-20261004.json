@@ -1,0 +1,100 @@
+{
+  "schema": "source-scoped-native-definition-draft/v1",
+  "status": "draft-unregistered; no semantic approval",
+  "fivePartTuple": {
+    "predicate": "wiki-own-source:osrs-requirement-glory-wear",
+    "predicateVersion": 1,
+    "factNamespace": "item-fact",
+    "factName": "wear-requirements",
+    "valueType": "object"
+  },
+  "meaning": "For exact selected item IDs 1704, 1706, 1708, 1710, and 1712, the cited own-page paragraph states in its members-only-worlds context that the amulet has no requirements to wear. An empty requirements list means only that no wearing prerequisites are stated in that paragraph context. It does not assert free-to-play availability or equip behavior, current bank eligibility, or any creation requirement; free-to-play applicability remains unknown.",
+  "fieldMeanings": {
+    "/factValue/action": "wearing/equipping action under discussion",
+    "/factValue/requirements": "wearing prerequisites stated by the cited paragraph in its members-only-worlds context; an empty list means no such prerequisites are stated in that context",
+    "/factValue/scopeNote": "signals creation requirements are handled by a separate claim, without asserting those requirements apply to wear",
+    "/qualifiers/sourceContext/worldContext": "members-only worlds, from the same source paragraph",
+    "/qualifiers/sourceContext/f2pAvailability": "unknown; source excerpt does not establish free-to-play availability or equip behavior",
+    "/qualifiers/sourceContext/currentBankEligibility": "unknown; not asserted",
+    "/qualifiers/sourceContext/creationRequirements": "out of scope; separate recipe claim"
+  },
+  "scope": {
+    "recordIds": [
+      "claim-ed7e7a526506c29ce035f75ef65eb03cbc529f55e168c1feb8726cbdd7f1bddb",
+      "claim-8255185e8b919e7846c8d4646e554cbd85509e0c6fcfef25e947cac7a1f1d7cf",
+      "claim-94079084b6cccb89a4b411e70aac75ca9f469b24f9b166a3381434b2e3e5e21c",
+      "claim-6846391e0e4fc2a22eb0fada2b136626fafa381fc8ed03c18ebbae7c07860a34",
+      "claim-ca048364dfdae619d2cf13210b013584a4d38bcf21d3cf0e51bc4397559917a4"
+    ],
+    "itemIds": [
+      1704,
+      1706,
+      1708,
+      1710,
+      1712
+    ],
+    "sourceRevision": 15356028,
+    "exactStates": [
+      {
+        "scope": "exact-item-state",
+        "variantParameters": {
+          "exactName": "Amulet of glory",
+          "itemId": 1704,
+          "rawIdField": "id1",
+          "rawState": "Uncharged"
+        }
+      },
+      {
+        "scope": "exact-item-state",
+        "variantParameters": {
+          "exactName": "Amulet of glory(1)",
+          "itemId": 1706,
+          "rawIdField": "id2",
+          "rawState": "1"
+        }
+      },
+      {
+        "scope": "exact-item-state",
+        "variantParameters": {
+          "exactName": "Amulet of glory(2)",
+          "itemId": 1708,
+          "rawIdField": "id3",
+          "rawState": "2"
+        }
+      },
+      {
+        "scope": "exact-item-state",
+        "variantParameters": {
+          "exactName": "Amulet of glory(3)",
+          "itemId": 1710,
+          "rawIdField": "id4",
+          "rawState": "3"
+        }
+      },
+      {
+        "scope": "exact-item-state",
+        "variantParameters": {
+          "exactName": "Amulet of glory(4)",
+          "itemId": 1712,
+          "rawIdField": "id5",
+          "rawState": "4"
+        }
+      }
+    ]
+  },
+  "units": [],
+  "quantityClaims": false,
+  "sourceDefinitionProvenance": {
+    "path": "tmp/root-review/utility-glory67-native-lineage-stage-v2-members-world-scope-20261004/predicate-definitions.json",
+    "sha256": "f713438919ff0034b291fdf5da1bb2b8f019d206b2f73a8d899888430ddce5ed",
+    "jsonPointer": "/definitions/5"
+  },
+  "evidence": {
+    "sourcePath": "tmp/category-certification/wiki-articles/text/15356028.txt",
+    "sourceRevision": 15356028,
+    "sourceSha256": "sha256:40f89a07b34a932fbe6f1af6d63d93603357446a9e2f373cf12eb764874dcad0",
+    "boundedQuote": "It is a very popular amulet in [[members]]-only worlds amongst players of all levels, as it provides good damage bonuses, has no requirements to wear, is much less expensive than the [[amulet of fury]], and offers useful [[teleport]]s."
+  },
+  "definitionStatus": "draft-unregistered",
+  "rulesUsable": false
+}

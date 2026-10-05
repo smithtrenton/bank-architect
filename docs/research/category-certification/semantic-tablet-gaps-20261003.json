@@ -1,0 +1,155 @@
+{
+  "formatVersion": "tablet-effective-coverage-unknowns/v1",
+  "layeredCoverageRows": 85,
+  "assertionReferences": 77,
+  "uniqueReferencedRecordIds": 68,
+  "duplicateReferenceOccurrences": 9,
+  "danglingReferenceCount": 0,
+  "crossItemReferenceCount": 0,
+  "unreferencedEffectiveFacts": [
+    {
+      "recordId": "claim-8662a4025333494c3338d3b0a52dc797c8f5c09beee286ec11415135335c5d20",
+      "itemId": 8022,
+      "predicate": "osrs.availability.source-status"
+    }
+  ],
+  "statusCounts": {
+    "candidate-extraction-reviewed": 61,
+    "no-evidence-in-page": 18,
+    "unassessed": 6
+  },
+  "dimensionRowCounts": {
+    "acquisition-origin": 9,
+    "applicability-restrictions": 12,
+    "bank-context": 9,
+    "competing-roles": 11,
+    "consumption-state": 9,
+    "contents-containers": 9,
+    "functions-effects": 9,
+    "skills-recipes": 17
+  },
+  "unassessedDimensions": [
+    {
+      "itemId": 8016,
+      "dimension": "competing-roles"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "skills-recipes"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "acquisition-origin"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "applicability-restrictions"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "consumption-state"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "competing-roles"
+    }
+  ],
+  "noEvidenceDimensions": [
+    {
+      "itemId": 8014,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8014,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8015,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8015,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8016,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8016,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8017,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8017,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8018,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8018,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8019,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8019,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8020,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8020,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8021,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8021,
+      "dimension": "bank-context"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "contents-containers"
+    },
+    {
+      "itemId": 8022,
+      "dimension": "bank-context"
+    }
+  ],
+  "bankContext": {
+    "coverageRows": 9,
+    "noEvidenceInPage": 9,
+    "assertionReferences": 0,
+    "exactItemIds": [
+      8014,
+      8015,
+      8016,
+      8017,
+      8018,
+      8019,
+      8020,
+      8021,
+      8022
+    ],
+    "interpretation": "All nine exact own-page bank-context dimensions report no evidence and have no assertion references. This is unknown, not a bankability-negative fact. Coverage notes say no live bank rows were inspected; no observed bank-copy, placeholder, depositability, or note-state claim is supported by this layer."
+  },
+  "semanticCompletion": {
+    "effectiveFacts": 69,
+    "candidateUnassessedFacts": 69,
+    "dimensionCompletenessCertified": false,
+    "canonicalMetadataComplete": false,
+    "ruleUsable": false
+  }
+}

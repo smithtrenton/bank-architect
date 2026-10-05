@@ -1,0 +1,48 @@
+{
+  "schema": "semantic-glory-wear-durable-publication/v1",
+  "supportedFacts": 5,
+  "itemIds": [
+    1704,
+    1706,
+    1708,
+    1710,
+    1712
+  ],
+  "scope": "Only no wearing prerequisites stated in the members-only-worlds paragraph for the exact five selected states.",
+  "definitionRegistered": false,
+  "rulesUsable": false,
+  "semanticDimensionsChanged": 0,
+  "placementsOrTagsChanged": false,
+  "effective2147Integration": false,
+  "referencePolicy": "Byte-exact copies intentionally retain immutable research-path references. This manifest maps durable copies to those pinned originals; no references, claim IDs, or authorization hashes were retargeted.",
+  "stageManifest": {
+    "path": "tmp/root-review/utility-glory67-wear-supported-20261004/manifest.json",
+    "sha256": "c6c5476066ea10472c6b6466c067448ab133ff15eceb66a24f1e6339c6d5b086"
+  },
+  "independentAuditSeal": {
+    "path": "tmp/root-review/utility-glory67-wear-supported-independent-audit-20261004/seal.json",
+    "sha256": "044fd9c7559fa5c8c6a2bfb42177e47efadb8cd22f8c8e709708e42cdd0b6276"
+  },
+  "files": {
+    "semantic-glory-wear-supported-facts-20261004.jsonl": {
+      "sha256": "62b7dea2f0deb4f723a10659918c4ece93d004e7bb67f7fad43d1ebfaf88b447",
+      "bytes": 96817,
+      "stageSource": "tmp/root-review/utility-glory67-wear-supported-20261004/supported-wear-claims.jsonl"
+    },
+    "semantic-glory-wear-approval-policy-20261004.json": {
+      "sha256": "9d649a927bb42ab16cfdee81e6f87420a5cb8b4264549eca1ab4eef7ced65358",
+      "bytes": 3962,
+      "stageSource": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-approval-policy.json"
+    },
+    "semantic-glory-wear-root-authorization-20261004.json": {
+      "sha256": "462a3867ad448195dfed822d2071180e162508231f9eb4c3c837d3e09ff9bf0c",
+      "bytes": 5475,
+      "stageSource": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-root-authorization.json"
+    },
+    "semantic-glory-wear-definition-draft-20261004.json": {
+      "sha256": "39af84ef9083280abdd7cc8f443eb7de3645d2a108f506d27f13ebd54a72bf84",
+      "bytes": 4321,
+      "stageSource": "tmp/root-review/utility-glory67-wear-supported-20261004/wear-requirement-definition-draft.json"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "command": "C:/Users/smith/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe tools/research/semantic-grouping-audit/certification/semantic-records.py validate tmp/root-review/castle-ticket11-supported-transition-stage-20261004/supported-item-facts.jsonl --sources",
+  "exitCode": 0,
+  "stdout": "{\"validRecords\": 11, \"sourceReplay\": true, \"manifestChecked\": false, \"semanticApprovalGranted\": false}\n",
+  "stderr": "",
+  "validatorPath": "tools/research/semantic-grouping-audit/certification/semantic-records.py",
+  "validatorSha256": "7f1e422463d53d58ffae16ccfbfe637c8b6d05f24b0acec9c0419924c294a47a",
+  "schemaPath": "tools/research/semantic-grouping-audit/certification/semantic-records.schema.json",
+  "schemaSha256": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a",
+  "semanticApprovalGrantedByValidator": false
+}

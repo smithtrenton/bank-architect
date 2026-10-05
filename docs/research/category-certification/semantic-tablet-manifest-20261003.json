@@ -1,0 +1,110 @@
+{
+  "formatVersion": "semantic-tablet-durable-checkpoint/v1",
+  "sourceGitRevision": "3eb071e6205ba5a2c03b859ab6a020986f9f89b1",
+  "counts": {
+    "baseCoverageRows": 72,
+    "candidateAddendumOperations": 16,
+    "candidateUnassessedFacts": 69,
+    "coverageAssertionReferences": 77,
+    "coverageDeltaRows": 13,
+    "deduplicatedAddendumFacts": 2,
+    "effectiveCoverageRows": 85,
+    "effectiveFacts": 69,
+    "newAppendFacts": 11,
+    "observedUnits": 4,
+    "originalFacts": 58,
+    "predicateVersionsUsed": 14,
+    "rawAddendumFacts": 13,
+    "replacementOperations": 3,
+    "uniqueReferencedRecordIds": 68,
+    "unreferencedFacts": 1
+  },
+  "sourceDesignManifest": {
+    "path": "tmp/root-review/tablet-durable-save-v2-design-20261003/design-manifest.json",
+    "sha256": "63cef65d13a734eb1ea98b9b647d58e499cc0e16e54c22ec45097493d1d4e54f"
+  },
+  "sourceInputs": {
+    "docs/research/category-certification/semantic-metadata.md": "31c9c3b79c81d7ce94d3b63f88eaa9288731559dd08600a58e09e30206e02769",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/candidate-predicate-definitions.json": "0e216d64d225ed64af36a20533017a5cc502f20b7f6c020c55fdbd10db08716f",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/dimension-coverage.jsonl": "2424c1e7f93363aecf18af08ebf2d77e6adda6ccdeb1ab64155021fede55988b",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/approved-assignments-manifest.json": "f940e87caf845c2af8af4468de81a6c492a2e283780d0816c03f30da50e0de35",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/approved-assignments.tsv": "49e28abc0a2bf436f62089001f9c2b81df5c46a2b19535c6e78a9cc0022bb87e",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/frozen-inputs/decisions-460506.jsonl": "4605062de476942bfffb921c8bcee7eaef245880d3c31466ac507c33d598f429",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/manifest.json": "22779e2e0ebb35341d68fd3102727d6748e38cb1151a8a84b73041f088603fbe",
+    "tmp/root-review/user-resolved-normalized-semantics-20261003/normalized-candidate-facts.jsonl": "bfe77682beb8bf85a3dbf431dbd08d67ca2b64247cf30ee3cf2abce75c609e65",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/candidate-predicate-definitions-addendum.json": "467829ba910848f7b642f04e5388ce81de03069318bf8fe56a0dc33015c691f1",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/coverage-delta.jsonl": "3c540bbdb2506c243ceb4b1ac90b885be648fc45be2a1b6547ccf58255a560ba",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/manifest.json": "f0ec722ecca6a5defa6e6beed67d0873b7bea87afb9998e13cfc36a93c9bdadc",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/normalized-completeness-addendum.jsonl": "c352cda4f10152b631b523e2334edf6742b170ced58776ff7cd5d0644e933fac",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-completeness-20261003/reviewer-advisories.jsonl": "9eb5e2126d2e6741c8d3e293201fd6c5df71a4ee2bdedc5e6f08380e3def8fca",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/candidate-predicate-definition-overlay.json": "a4393391db7d4e181ef5e18240e096ea12fc1cbacc4d317f1a44cea09c5d909a",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/effective-facts.jsonl": "a59515835e99c3887ff75c45dc129470095abc6e2c2454379906b92d2ec8c1c5",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/effective-view-deduplication.json": "94ff6f1d66115cb500b6a98251a4c37b6d8a035d8e6239706bf6d41a6b28bda2",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/manifest.json": "30265615a62c000d2d7ee99358e5effbb3189848c23d4628a175ffb8c539cf62",
+    "tmp/root-review/user-resolved-normalized-semantics-v2-overlay-20261003/replacement-overlay.jsonl": "6c9957daa28afbfa6b50995ce62d64c881305df6ec397da2800d56fb9d3b8394",
+    "tmp/root-review/user-resolved-normalized-v2-coverage-link-overlay-20261003/corrected-coverage-delta.jsonl": "2cb9f23e06efabb52ebef035b66d4b367862acf8209b28672688b9ab07302490",
+    "tmp/root-review/user-resolved-normalized-v2-coverage-link-overlay-20261003/coverage-link-corrections.jsonl": "993eed2744b34f9cd9ac44c98ac41bbde1e9120f612b584c2c924cd8b49451c8",
+    "tmp/root-review/user-resolved-normalized-v2-coverage-link-overlay-20261003/effective-layered-coverage.jsonl": "2a72dd1b34631e9b99656abe9b93eab3005dcf4acf9ba0f0328cde7fd154c287",
+    "tmp/root-review/user-resolved-normalized-v2-coverage-link-overlay-20261003/effective-reference-audit.json": "43d45834c336a5314254cb870a909e9e7808f3a12410008478354057dbd28294",
+    "tmp/root-review/user-resolved-normalized-v2-coverage-link-overlay-20261003/manifest.json": "73916aa553ed34d7e6869b0f5d4b303beb7a8ca01d223eb5b450e405cc8d3fec",
+    "tools/research/semantic-grouping-audit/certification/semantic-records.py": "7f1e422463d53d58ffae16ccfbfe637c8b6d05f24b0acec9c0419924c294a47a",
+    "tools/research/semantic-grouping-audit/certification/semantic-records.schema.json": "7bcc0f92a370e1c3413c1e7d8fcd2a6e949f4b137113efbcba2411813faf0d7a"
+  },
+  "historicalInputPathMap": {
+    "docs/research/category-certification/semantic-metadata.md": "tmp/root-review/tablet-durable-save-promotion-20261003/semantic-metadata-pre-tablet.md"
+  },
+  "outputs": {
+    "docs/research/category-certification/semantic-tablet-candidates-20261003.jsonl.gz": {
+      "sha256": "d4d8c351744536d3f8691d3d1baac7561a13a544e104b2bb9026e2a31aeb96ca",
+      "decompressedSha256": "a59515835e99c3887ff75c45dc129470095abc6e2c2454379906b92d2ec8c1c5",
+      "rows": 69
+    },
+    "docs/research/category-certification/semantic-tablet-coverage-20261003.jsonl.gz": {
+      "sha256": "47ea3a9e81d4275c7a7e8c5fbef5ad3b0d5969a1361f7a8afa4d48d28a57bb7e",
+      "decompressedSha256": "2a72dd1b34631e9b99656abe9b93eab3005dcf4acf9ba0f0328cde7fd154c287",
+      "rows": 85
+    },
+    "docs/research/category-certification/semantic-tablet-correction-history-20261003.jsonl.gz": {
+      "sha256": "00c62deb3b541348246b163dbf1a28a231eccf445804fba356801f4c23d87120",
+      "decompressedSha256": "f0e6853a2f858f566f7893e2696469d274ed23deedabe17f8e7c1770fdc86cd5",
+      "rows": 16
+    },
+    "docs/research/category-certification/semantic-tablet-predicates-20261003.json": {
+      "sha256": "94694e77536ff671c7a9515e93dfc6611f82b3aa71ae38c468304bfc61c0b98a"
+    },
+    "docs/research/category-certification/semantic-tablet-shape-observations-20261003.json": {
+      "sha256": "cc22273a0e6c164efb5d6e0594eed2dd7a2b5f1b27076a386d693d22399b3449"
+    },
+    "docs/research/category-certification/semantic-tablet-gaps-20261003.json": {
+      "sha256": "4c2f1049b91e08ad7dc016b39c16165fb537c222364cd3592e530cb96b1f0c49"
+    },
+    "docs/research/category-certification/semantic-tablet-reference-audit-20261003.json": {
+      "sha256": "4a12325f9893c9519d7c7d92232ce15ce4450924cd7049bc1b738ea02a341566"
+    }
+  },
+  "baselinePins": {
+    "approvedAssignmentsManifestF940Sha256": "f940e87caf845c2af8af4468de81a6c492a2e283780d0816c03f30da50e0de35",
+    "approvedAssignmentsTsv49e28Sha256": "49e28abc0a2bf436f62089001f9c2b81df5c46a2b19535c6e78a9cc0022bb87e",
+    "decisionSnapshot460506Sha256": "4605062de476942bfffb921c8bcee7eaef245880d3c31466ac507c33d598f429"
+  },
+  "generator": {
+    "path": "C:/Users/smith/dev/bank-architect/tmp/root-review/save_tablet_durable_checkpoint_20261003.py",
+    "sha256": "b7552af85d5c7ca5a0fe68816a8fb81c0d3796d13621a2a137e25faf7705651d"
+  },
+  "assessment": {
+    "facts": "candidate/unassessed",
+    "dimensionCompletenessCertified": false,
+    "semanticApprovalGranted": false,
+    "ruleUsable": false,
+    "definitionsRegistered": false
+  },
+  "scope": {
+    "facts": "69 reconciled exact tablet candidates for IDs8014 through8022; separate from49-fact checkpoint,118 candidate facts/20 IDs across both checkpoints",
+    "coverage": "85 layered packet navigation rows, not replacements for34085 full-universe coverage rows; extraction-reviewed is not semantic-certified",
+    "correctionHistory": "16 delta operations:3 stable-ID replacements,11 additions,2 explicit deduplications; effective-facts is already reconciled, never concatenate it with its base/history",
+    "definitions": "14 exact predicate/version candidate definitions; observed shapes and units are not registered recursive schemas",
+    "evidence": "Exact excerpts and bindings retained; full source-byte replay requires matching ignored research cache",
+    "gaps": "One retained8022 availability assertion is not coverage-linked; all9 bank-context rows lack own-page evidence; no live bank state inspected",
+    "officialAndRuntime": "No placement, tag, bankability, runtime category, or bank-row approval/change"
+  }
+}

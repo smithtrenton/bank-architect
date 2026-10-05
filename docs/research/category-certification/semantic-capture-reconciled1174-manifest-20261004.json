@@ -1,0 +1,122 @@
+{
+  "counts": {
+    "assertions": 1174,
+    "certifiedDimensions": 0,
+    "coverageRows": 34085,
+    "dimensionObjects": 272680,
+    "supported": 10,
+    "unassessed": 1164,
+    "uniqueItemIds": 687
+  },
+  "coverageRegister": {
+    "path": "docs/research/category-certification/semantic-capture-coverage-reconciled1174-20261004.jsonl.gz",
+    "sha256": "338b505760c46ffc972b69599ffb395e20d890708472740769e5897ca572ab5d"
+  },
+  "definitionStatus": "unregistered packet-scoped drafts; supplied navigation is partial, not a complete semantic definition map; no aliases or rule use",
+  "definitionsRegistered": false,
+  "effectiveSnapshot": {
+    "path": "docs/research/category-certification/semantic-capture-effective-reconciled1174-20261004.jsonl.gz",
+    "sha256": "b79a6b88d82fb932c288058108b70f1a46f9c397dcb70e1d383e36023810475d"
+  },
+  "fullDefinitionCoverageCertified": false,
+  "fullSemanticCertificationComplete": false,
+  "inputs": [
+    {
+      "path": "tmp/root-review/metadata-candidate-reconciled1174-v2-20261004/manifest.json",
+      "sha256": "24aa1a4eecd2438ffb1b2899deb4cbe8bf96d0ccf3c7ca588954ba651cb16eed"
+    },
+    {
+      "path": "tmp/root-review/metadata-candidate-reconciled1174-v2-20261004/research-seal.json",
+      "sha256": "fa1e43bc22d0502ea557a93cd95e7a6248819445ef08cec39c8c93aa44c3f116"
+    },
+    {
+      "path": "tmp/root-review/metadata-candidate-reconciled1174-independent-audit-20261004/manifest.json",
+      "sha256": "c71935b34a4592ff5fa7fb7a9e0108367dc5b8ec4cb760763e48807bda56d099"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-effective-frontier480-20261004.jsonl.gz",
+      "sha256": "c1f54684c9df03b2eb4fa8c06371ec32af9e113b7cd7346f6efd77cb11abbc98"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-coverage-frontier480-20261004.jsonl.gz",
+      "sha256": "c469fdb8d6797633dd356a66e84dac92011e786d03d96265226a318d302e3fff"
+    },
+    {
+      "path": "docs/research/category-certification/semantic-capture-frontier480-manifest-20261004.json",
+      "sha256": "29585232f784acfe82d945d035b86dbefdd99d6990e9bf803f925b6e3490bf27"
+    },
+    {
+      "path": "tmp/root-review/reconciled1174-root-durable-publication-20261004/publish.py",
+      "sha256": "c4850193c2e1d1d3f71f4d963ab6f8d24924d4b7d58914f8ec31280cb740afbe"
+    },
+    {
+      "path": "tmp/root-review/reconciled1174-root-durable-publication-20261004/native-validation.json",
+      "sha256": "d341d904a7be00f1a4ee23cdd0d405d56dd55c6e39a0069086458790ec7cf247"
+    }
+  ],
+  "limitations": [
+    "Root bounded reading covers Gear20, Activity37, holiday2 and the selected corrected claims; not all480 source profiles or all370 first-wave pages. Source validation does not approve meaning or completeness.",
+    "All272680 dimension assessments remain unassessed/not-certified; top-level candidate references do not mark dimensions complete.",
+    "Current source crosswalk covers all1174 active tuples and their evidence. Its digest is canonical compact sorted JSON or the exact serialized row without newline; no byte-line preservation is inferred from that field.",
+    "The draft navigation explicitly covers supplied Gear/Activity layers and nine changed/new record joins. Component manifests are navigation, not predicate definitions; complete actual predicate/leaf/unit pointer reconciliation remains pending.",
+    "Archived2337 and invalid3028V2 delta records remain in correction history only. V3 actual3028 meaning delta, exact state/dose and unresolved Prayer source discrepancies are preserved.",
+    "Unregistered time:game-tick and osrs:game-tick remain distinct; no unit or taxonomy equivalence is inferred.",
+    "Ignored tmp source caches and definition artifacts remain required for full local replay; this is not a fresh-checkout reconstruction guarantee.",
+    "Gear120 follow-up normalization and Wave2/Wave3 candidate packets remain separate pending review and integration."
+  ],
+  "lineage": {
+    "explicit2337Supersession": true,
+    "newGoldForgeClaim": true,
+    "originalPredecessorSnapshotsPreserved": true,
+    "sameClaimCorrectionsFrom1173": 7
+  },
+  "outputs": {
+    "semantic-capture-coverage-reconciled1174-20261004.jsonl.gz": {
+      "path": "docs/research/category-certification/semantic-capture-coverage-reconciled1174-20261004.jsonl.gz",
+      "sha256": "338b505760c46ffc972b69599ffb395e20d890708472740769e5897ca572ab5d"
+    },
+    "semantic-capture-effective-reconciled1174-20261004.jsonl.gz": {
+      "path": "docs/research/category-certification/semantic-capture-effective-reconciled1174-20261004.jsonl.gz",
+      "sha256": "b79a6b88d82fb932c288058108b70f1a46f9c397dcb70e1d383e36023810475d"
+    },
+    "semantic-capture-reconciled1174-correction-source-bindings-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1174-correction-source-bindings-20261004.json",
+      "sha256": "8166fed0e9475c9428f62167695d9b5ec15a6adba60757e4e02a7dba5fb5e03f"
+    },
+    "semantic-capture-reconciled1174-coverage-history-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1174-coverage-history-20261004.json",
+      "sha256": "acb126e3586c0259b39e2d61a048e208a4e46c758f86c2bba54daeecc899d8b3"
+    },
+    "semantic-capture-reconciled1174-draft-navigation-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1174-draft-navigation-20261004.json",
+      "sha256": "4c85ed0a87eb95c508adc0fe57995682de89980308508b13599b44f4f71a07f1"
+    },
+    "semantic-capture-reconciled1174-record-history-20261004.json": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1174-record-history-20261004.json",
+      "sha256": "c4f6991e5ab1d1a0e12ee0e297e715cfe035f008e1bf4b567dd80d0b8de8d7d1"
+    },
+    "semantic-capture-reconciled1174-source-crosswalk-20261004.jsonl": {
+      "path": "docs/research/category-certification/semantic-capture-reconciled1174-source-crosswalk-20261004.jsonl",
+      "sha256": "84b546c0075853a974dc52d9b04403de906351c17899bfe0a73abd96eb38876d"
+    }
+  },
+  "preservation": {
+    "allCurrentCandidateReferencesResolveExactItem": true,
+    "allDimensionObjectsExact": true,
+    "existingSupportedObjectsExact": true,
+    "noPlacementOrTagChanges": true,
+    "unchanged1173RawRows": 1165,
+    "unchangedDurableCoverageRawRows": 34043
+  },
+  "priorDefinitionLayers": {
+    "frontier480": {
+      "path": "docs/research/category-certification/semantic-capture-frontier480-definition-joins-20261004.json",
+      "sha256": "ee48967d990a33ab80a4b90849bebd8487c397186314089e95f6f48904eaf92a"
+    },
+    "scope": "Historical baseline definition/source layers retained. Superseded2337 references are history, not active claims. Missing or unmatched current meaning joins remain unassessed; do not infer inheritance."
+  },
+  "rulesUsable": false,
+  "schema": "published-reconciled-candidate-capture/v1",
+  "semanticApprovalGranted": false,
+  "status": "candidate evidence checkpoint; full semantic analysis incomplete; no new approvals"
+}
