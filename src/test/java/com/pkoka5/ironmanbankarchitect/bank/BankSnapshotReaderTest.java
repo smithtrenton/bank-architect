@@ -28,6 +28,12 @@ public class BankSnapshotReaderTest
 	public void validBankItemsAreAccepted()
 	{
 		assertTrue(BankSnapshotReader.isSnapshotItem(209, 1));
+		for (int itemId : new int[] {2875, 13183, 13184, 13532, 6643, 4678, 10835, 30808})
+		{
+			assertTrue(BankSnapshotReader.isSnapshotItem(itemId, 1));
+			assertEquals(itemId, BankSnapshotReader.snapshotItem(itemId, 1, -1, -1, 4)
+				.orElseThrow(() -> new AssertionError("observed row lost")).getItemId());
+		}
 	}
 
 	@Test
@@ -40,6 +46,11 @@ public class BankSnapshotReaderTest
 		assertEquals(0, placeholder.getQuantity());
 		assertEquals(27, placeholder.getSlotIndex());
 		assertTrue(placeholder.isPlaceholder());
+		BankItemSnapshot nonBankablePlaceholder = BankSnapshotReader.snapshotItem(50000, 0, 14401, 2875, 28)
+			.orElseThrow(() -> new AssertionError("observed placeholder lost"));
+		assertEquals(2875, nonBankablePlaceholder.getItemId());
+		assertEquals(0, nonBankablePlaceholder.getQuantity());
+		assertTrue(nonBankablePlaceholder.isPlaceholder());
 	}
 
 	@Test

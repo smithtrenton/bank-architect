@@ -1,0 +1,231 @@
+{
+  "approvalBasis": "Root full reading of the twenty pinned own pages and nineteen complete policy cases, exact source/variant replay and independent overlay audit. Lit bronze fire arrow 942 remains held.",
+  "approvalStatus": "root-approved exact primary placements",
+  "approvedAxis": "primary category, subcategory, and tab only",
+  "articleIndexSha256": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+  "articleRevisionAndPageSha256ByItemId": {
+    "1017": {
+      "sourceRevision": 15183735,
+      "sourceSha256": "ccb5e60fccf11ee7e0d6306c820b34ee39a427d235a54bbd7f7ced510db02b24"
+    },
+    "1035": {
+      "sourceRevision": 15184482,
+      "sourceSha256": "0d521c5bb7c8960ee2582737982294d24267cef3c280c103748786379b1d1abc"
+    },
+    "428": {
+      "sourceRevision": 15183641,
+      "sourceSha256": "18e9683b01717f21b7073a421a370e46d6c8f173d6aeb8ab7462690bfa036c99"
+    },
+    "538": {
+      "sourceRevision": 15184923,
+      "sourceSha256": "e72254cf7470dc04ca9e8470a985b120288470d5b200e4f44905ce31b3f5a1e5"
+    },
+    "542": {
+      "sourceRevision": 15183638,
+      "sourceSha256": "d22453e2f73ae5d5c36ed43fe3960bf2d9687e1431b06d2e74e9b58a5063d07a"
+    },
+    "544": {
+      "sourceRevision": 15183637,
+      "sourceSha256": "d79d66df8c1c96abdd0031c433a95f06096d246524b45cda8f04a82db40d7f6b"
+    },
+    "546": {
+      "sourceRevision": 15183211,
+      "sourceSha256": "f656981e3f4dbf9db65ae5863a90a1d13df9f1c0c8302612fba2c64b1e87ebc1"
+    },
+    "548": {
+      "sourceRevision": 15183790,
+      "sourceSha256": "bc627d30d310239ad03a37c1ad0bc342d72b8ba8999b2429f8943a3b11334c48"
+    },
+    "589": {
+      "sourceRevision": 15183040,
+      "sourceSha256": "ae71e31786fef3afd2c8470b1a91bedbb6e26512a38fa0ef4af48fd31121c54b"
+    },
+    "746": {
+      "sourceRevision": 15182955,
+      "sourceSha256": "26347bc5fd25f001ad958fe0a00e04818989c6a2b96050f6162adb3500434822"
+    },
+    "747": {
+      "sourceRevision": 15242483,
+      "sourceSha256": "dde14a1c9870c226d1143fd1050e0499b45580fa0954194625ad114921a17c47"
+    },
+    "767": {
+      "sourceRevision": 15301710,
+      "sourceSha256": "89996358a3dc8ab5c7c06145c1fb309013670fd7922736a4f7bee866cf20734b"
+    },
+    "777": {
+      "sourceRevision": 15352194,
+      "sourceSha256": "e0cbaf8fe051b3b479a99dfa009151b962b2e31bff93e454c720627eb1c2abec"
+    },
+    "778": {
+      "sourceRevision": 15351820,
+      "sourceSha256": "7a7f08c9bc7f588f88d9fae9214214c57847503ee9d9c0d33e6e60556d8bbb9e"
+    },
+    "78": {
+      "sourceRevision": 15324763,
+      "sourceSha256": "f3aebde91a8c6dd5d2bb2d9c93dbf5b2cb4e0fd8497696f20bebee7da632f34a"
+    },
+    "845": {
+      "sourceRevision": 15322339,
+      "sourceSha256": "436cfabd925eec562ca156a4004b10a19b166184c78900b5935d9eca6b463722"
+    },
+    "847": {
+      "sourceRevision": 15272114,
+      "sourceSha256": "d3287a180da08465cc995d2e4e3fa2b79a1472b2517b1a0fea8c5f19ccc0b9e7"
+    },
+    "855": {
+      "sourceRevision": 15272116,
+      "sourceSha256": "39ca3c89a8a419e41fff4091a7aaf4a26eb7c55dd8d596f145510f4ef94c11c5"
+    },
+    "859": {
+      "sourceRevision": 15322392,
+      "sourceSha256": "8ac435faba617068d2ec9744759a0f384688d191376526b837100e7e24bf4b61"
+    }
+  },
+  "caseCanonicalSha256ByItemId": {
+    "1017": "4c48014b03ad1bc5190238bba4181b125be96490abfd480e064eee7489bd68e3",
+    "1035": "39b22feb8073537bf0f1327909e4f76568ae4f9d7433d95d6524c48659564385",
+    "428": "9c89a40f58df9022d82609dae0ba40735d66937b682fca128830f25602f4d2ce",
+    "538": "add39c6e595c1d93e752ee70f74966b92af9cb72c2186fc8504df74100b83664",
+    "542": "5c237b4ea1f6e2e0e4ef6cf6627fa868a2aeadb95074918e23f1e91bfe714bff",
+    "544": "bacd113bde530f95d738ef10739af0369bec0f76575262837980789a0137a68c",
+    "546": "f7730714e13920d7e666b5b6d0312ae5c767130ce254de78307ccc1f421cf277",
+    "548": "82f4535c0a9ed125592e9f4eea3f560fab94c671ffe04f8f848ee8ce96880e7c",
+    "589": "7327358ad1ad662ccd5d4cdf22d0c214eb494d943fa8fd3d6de839caf4b49442",
+    "746": "8b519a4c6bb7b03ba71c9b5c5d9eb2e77737c85d4043d41fc88313840425475a",
+    "747": "6ebdea9e03774fdee1886bd6ca2b999bfb283bda1ea652bb2c848302948785fb",
+    "767": "5b454fbeb4636fab00d840299bb0a3c6995db8708f035d7cbb6f1ff991eaefe3",
+    "777": "eb6ed1ae35c1f523032dbc14fd48cc14bd90fb4233497b175a28ba7058f723d6",
+    "778": "1005e1850d5f6529c3ac9a381fb4e6503968e80ef33491042287e64c3b6b4d64",
+    "78": "2ef544ae3922dc402c5ce29860ebb604013d59ec845785a475ef7f6059fb427a",
+    "845": "2071ad74ea21b6fb7ccacd48b369b9ad072a332d093c0ddc5418496a2d901902",
+    "847": "151afe534fa682dea3e8ddfa3570902cbc3d87b4ee0ead9ce47c64cd32bb2f3f",
+    "855": "0f01854e5b44519d76adcfa5bf66025abf37b040d72b354c071f8ae556800dbd",
+    "859": "be6dc8a5801541ada0ce9e109a3e49803ec1c0b0e756ddd531b26b9ed66f20e5"
+  },
+  "caseCount": 19,
+  "compiledExportSha256": "8b9a60c88580187b4a4ae407aa5566897c01151bd62b9ada3f9c649a399c7318",
+  "existingLegacy32PolicyApprovalAggregateSha256": "9332b9f8fb5603d02f4d087f626d54cb6150bcffb1631dcdca4af92fc252bb3a",
+  "expectedChangedObjectIds": [
+    78,
+    428,
+    538,
+    542,
+    544,
+    546,
+    548,
+    589,
+    746,
+    747,
+    767,
+    777,
+    778,
+    845,
+    847,
+    855,
+    859,
+    1017,
+    1035
+  ],
+  "expectedDecision": "certify",
+  "heldIds": [
+    942
+  ],
+  "independentOverlayAuditSha256": "ca4cc16945d9684cdbc11d5d8804303bd7f01accbe16cc56caa150cf1b044b05",
+  "independentSourceAssessmentSha256": "692840ca741083cecb8fe30f5393d2bfa8d45f07eb82a5d637e56c80a2a56532",
+  "overlayVerifierSha256": "731023995974dd0db5b752cef93b01be08e1e93a90811355ba15887b5d474857",
+  "overlayWriterSha256": "4b0efb69c00052497b2834e6fb175fb7c02ad0775a96c90f2faec66e947f201c",
+  "policyCanonicalSha256": "3ce030b52005ff76922144388bb28c9df4086d4773d9cc35e0049df624e44510",
+  "policyFile": "gear-primary-exact19-approved-policy.json",
+  "policySha256": "09c7675fee1af67aa5c178bb86730ca5a83206b52c0f995e6442fd87b52a62b4",
+  "policyStatusInterpretation": "The byte-exact research policy is retained as reviewed case content. This detached authorization approves only the listed cases and primary axes; research proposals and any other wording convey no additional authority.",
+  "preservation": {
+    "bankContextObjects": 3586,
+    "exclusions": 707,
+    "legacyPolicyRegistryChanged": false,
+    "liveBankChange": false,
+    "otherObjects": 34066,
+    "priorActionableObjects": 8133,
+    "runtimeChange": false
+  },
+  "publishedAssignmentsManifestSha256": "24d09de0ee74e6daa4082179c13dcf2b4e26d1664f6231112d363c0f1742a280",
+  "publishedAssignmentsSha256": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+  "publishedBaseDecisionSha256": "2584dad7df4f0bb764bcaf4af1f5962b8cdcf247f47a8d4987155baac185001a",
+  "researchPacketManifestSha256": "97c95f233f45d1bd33f4f456f66d49accc828d8e712f9fd476d87b8ca48d08bb",
+  "reviewer": "root",
+  "rootReadingManifestSha256": "3d894ed915cd4294417639f1b28f59d28026a4e69316b8ad3d944bdf85ab21d9",
+  "rootReadingSha256": "bba8c795b5715d914b06fa2a9932d122c6a1c210808c0811309621af522c5443",
+  "schema": "root-approved-gear19-post-bank-overlay/v1",
+  "selectedIds": [
+    78,
+    428,
+    538,
+    542,
+    544,
+    546,
+    548,
+    589,
+    746,
+    747,
+    767,
+    777,
+    778,
+    845,
+    847,
+    855,
+    859,
+    1017,
+    1035
+  ],
+  "sourcePinsSha256": "da894e82f3f8b5720df650aa46ebe71608ebdaa78073b9b83f4d609846408a69",
+  "sourceReadingPacketSha256": "441e7d87b3e979ab96d2aad698b5bea3297bc55815df1630ef0c2b2770032f3b",
+  "sourceReviewManifestSha256": "706a3b425b8892dc29fd5b3627a36ba1f8a48d92727647e5c0b9bed2b98c8a24",
+  "tagPassThroughInterpretation": "Four unresolved decision rows lacked tags already present in the compiled catalog. Carry those existing catalog values as unassessed data, not semantic tag approvals. All other selected tags equal their existing decision values; runtime tags remain unchanged.",
+  "tagPassThroughs": {
+    "542": {
+      "assessment": "unassessed",
+      "existingCompiledTags": [
+        "prayer-gear"
+      ],
+      "newTagApproval": false,
+      "priorDecisionTags": []
+    },
+    "544": {
+      "assessment": "unassessed",
+      "existingCompiledTags": [
+        "prayer-gear"
+      ],
+      "newTagApproval": false,
+      "priorDecisionTags": []
+    },
+    "589": {
+      "assessment": "unassessed",
+      "existingCompiledTags": [
+        "quest-associated",
+        "wiki-quest-item"
+      ],
+      "newTagApproval": false,
+      "priorDecisionTags": []
+    },
+    "845": {
+      "assessment": "unassessed",
+      "existingCompiledTags": [
+        "clue-required"
+      ],
+      "newTagApproval": false,
+      "priorDecisionTags": []
+    }
+  },
+  "unapprovedAxes": [
+    "tags",
+    "supplemental roles",
+    "availability",
+    "account access",
+    "acquisition",
+    "depositability",
+    "bankability",
+    "live bank state",
+    "secondary facts",
+    "semantic completeness"
+  ],
+  "v8PublicationProofSha256": "08a7850ff6a6de4bec830a839731c2f61230522ecc0609bc83910584f0cf7fa6"
+}

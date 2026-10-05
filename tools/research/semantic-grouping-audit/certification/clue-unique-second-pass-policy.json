@@ -1,0 +1,774 @@
+{
+  "version": 2,
+  "inputs": {
+    "ledgerSha256": "2ec32e694e7a95774a417e0b496c1673a59e6db3402e0264a3fac405ce0fc897",
+    "articleIndexSha256": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677"
+  },
+  "strictRules": [
+    "Exact numeric infobox ID must match the reviewed row; never propagate across a shared article or morph.",
+    "Reward/drop provenance and Category:Collection log items do not independently prove primary placement or a semantic role.",
+    "Direct item-specific mechanics establish roles independently of origin. If mechanics conflict with the current primary category/subcategory, preserve the roles and keep the row unresolved for taxonomy review.",
+    "An ongoing gear/ability/access use takes precedence over reward-origin-only reasoning for role assignment; it does not by itself choose a plugin primary category.",
+    "A documented Achievement Gallery boss-lair display is direct display-trophy evidence. Collection-log membership remains a separate fact.",
+    "A quest-only label or explicit no-use fact does not disprove retained cosmetic value for an equipable wearable.",
+    "Every proposed role addition below requires the exact ID's own pinned page and verbatim quote; no title/family fan-out."
+  ],
+  "caseGroups": [
+    {
+      "case": "clue_container_or_locator",
+      "ids": [
+        13648,
+        13649,
+        13650,
+        13651,
+        19712,
+        19714,
+        19716,
+        19718,
+        23127,
+        23129,
+        20358,
+        20360,
+        20362,
+        20364,
+        23442,
+        24361,
+        24362,
+        24363,
+        24364,
+        24365,
+        24366,
+        19939,
+        23183
+      ],
+      "sourceRule": "(?i)(?:opening|searching|open|used)\\b[^.!?]{0,180}(?:clue scroll|hot.?cold|clue)",
+      "role": "functional_clue_utility",
+      "targetCategory": "CLUE",
+      "targetSubcategory": "treasure-trail",
+      "reviewed": [
+        {
+          "itemId": 13648,
+          "status": "certify",
+          "sourceTitle": "Clue bottle (easy)",
+          "revision": 15187417,
+          "sourceHash": "sha256:3c4a341ec44ef51f0003daa3ffc73bdaff6e238f0c506a95dd8852eaa7e2f8c1",
+          "quote": "Opening the bottle will give players an [[clue scroll (easy)|easy clue scroll]]"
+        },
+        {
+          "itemId": 13649,
+          "status": "certify",
+          "sourceTitle": "Clue bottle (medium)",
+          "revision": 15187418,
+          "sourceHash": "sha256:51ac423f4ab3e8339153d438ca02e1f03244218eea9bcf1235f8ade3d1f1ffee",
+          "quote": "Opening the bottle will give players a [[Clue scroll (medium)|medium clue scroll]] if the player has not completed the quest, or a medium scroll box if they have"
+        },
+        {
+          "itemId": 13650,
+          "status": "certify",
+          "sourceTitle": "Clue bottle (hard)",
+          "revision": 15187419,
+          "sourceHash": "sha256:cc96c68543fb9822c793855cf2df72b3d6c7128b416ae620818935a7613045ab",
+          "quote": "Opening the bottle will give players a [[clue scroll (hard)|hard clue scroll]]"
+        },
+        {
+          "itemId": 13651,
+          "status": "certify",
+          "sourceTitle": "Clue bottle (elite)",
+          "revision": 15187420,
+          "sourceHash": "sha256:18b2c4dfca1d366576cbf8b520f87fe1d7302ecaf8d3977263097cc8a986b5ff",
+          "quote": "Opening the bottle will give players an [[clue scroll (elite)|elite clue scroll]]"
+        },
+        {
+          "itemId": 19712,
+          "status": "certify",
+          "sourceTitle": "Clue nest (easy)",
+          "revision": 15187710,
+          "sourceHash": "sha256:40acff0c6f219677faffa537b3072f590c09d7ad6cbcad7ab7d18cb67882393e",
+          "quote": "Searching the nest gives an [[clue scroll (easy)|easy clue scroll]] and an [[empty bird nest]]"
+        },
+        {
+          "itemId": 19714,
+          "status": "certify",
+          "sourceTitle": "Clue nest (medium)",
+          "revision": 15187711,
+          "sourceHash": "sha256:df8bf8ec8cde767212b5efe7d7da4f71fac7408c25f50acd09f98199ecc0035f",
+          "quote": "Searching the nest gives a [[clue scroll (medium)|medium clue scroll]] and an [[empty bird nest]]"
+        },
+        {
+          "itemId": 19716,
+          "status": "certify",
+          "sourceTitle": "Clue nest (hard)",
+          "revision": 15187712,
+          "sourceHash": "sha256:8f5bee219b9787ade6476bb7bba7ed3ccb69adb306d058844a34a25680c67b93",
+          "quote": "Searching the nest gives a [[clue scroll (hard)|hard clue scroll]] and an [[empty bird nest]]"
+        },
+        {
+          "itemId": 19718,
+          "status": "certify",
+          "sourceTitle": "Clue nest (elite)",
+          "revision": 15187713,
+          "sourceHash": "sha256:c269b32f526a5754a824d0b820794387d4d63ca907e0cd25d1aa0bf87b9902d1",
+          "quote": "Searching the nest will give players an [[clue scroll (elite)|elite clue scroll]] and an [[empty bird nest]]"
+        },
+        {
+          "itemId": 23127,
+          "status": "certify",
+          "sourceTitle": "Clue nest (beginner)",
+          "revision": 15189163,
+          "sourceHash": "sha256:cafaa0bdbe71dd5f3d20b3634cfe90cb7ba90e1e037c4e67604260619f4ac088",
+          "quote": "Searching the nest gives a [[clue scroll (beginner)|beginner clue scroll]] and an empty [[bird nest]] on members' worlds"
+        },
+        {
+          "itemId": 23129,
+          "status": "certify",
+          "sourceTitle": "Clue bottle (beginner)",
+          "revision": 15189161,
+          "sourceHash": "sha256:d30b0181ba933a2c714fee471eeccbf1fb2b3a431fa60206cc8d0e8ce60056a7",
+          "quote": "Opening the bottle will give players a [[clue scroll (beginner)|beginner clue scroll]]"
+        },
+        {
+          "itemId": 20358,
+          "status": "certify",
+          "sourceTitle": "Clue geode (easy)",
+          "revision": 15187714,
+          "sourceHash": "sha256:0c76dcb068d8d56e8379928fae0472e86145a14e225256f3272cff2954f830a6",
+          "quote": "Opening the geode gives an [[clue scroll (easy)|easy clue scroll]]"
+        },
+        {
+          "itemId": 20360,
+          "status": "certify",
+          "sourceTitle": "Clue geode (medium)",
+          "revision": 15187715,
+          "sourceHash": "sha256:6c52baa3ababfce107001f15df99b0d63a2de0c01029a967f43fa71f1a373cb1",
+          "quote": "Opening the geode gives a [[clue scroll (medium)|medium clue scroll]]"
+        },
+        {
+          "itemId": 20362,
+          "status": "certify",
+          "sourceTitle": "Clue geode (hard)",
+          "revision": 15187716,
+          "sourceHash": "sha256:a33dd00253debe82878746cb2bf04d7ba36248665cae192ec27384a6ae8321cd",
+          "quote": "Opening the geode gives a [[clue scroll (hard)|hard clue scroll]]"
+        },
+        {
+          "itemId": 20364,
+          "status": "certify",
+          "sourceTitle": "Clue geode (elite)",
+          "revision": 15187717,
+          "sourceHash": "sha256:5fdebaa9352e0f50005d4c86dbf515d62c966f861f87acffa238c79556bcaa23",
+          "quote": "Opening the geode gives an [[clue scroll (elite)|elite clue scroll]]"
+        },
+        {
+          "itemId": 23442,
+          "status": "certify",
+          "sourceTitle": "Clue geode (beginner)",
+          "revision": 15189162,
+          "sourceHash": "sha256:84a349f9f051aeef6956db3986468e85ec9253135f85f6ecf931b82e71132623",
+          "quote": "Opening the geode gives a [[clue scroll (beginner)|beginner clue scroll]]"
+        },
+        {
+          "itemId": 24361,
+          "status": "certify",
+          "sourceTitle": "Scroll box (beginner)",
+          "revision": 15338859,
+          "sourceHash": "sha256:db1fc1d77c6140f504dcf8e66802ab103ac5d2772bbd2d341cdbb3bbf257dec1",
+          "quote": "options = Open, Drop\n|examine = Contains a beginner clue scroll"
+        },
+        {
+          "itemId": 24362,
+          "status": "certify",
+          "sourceTitle": "Scroll box (easy)",
+          "revision": 15338853,
+          "sourceHash": "sha256:d4c155f31a5ee27df4d875f74a63f34202c36f7b86edfe9e70ef88d843967e95",
+          "quote": "options = Open, Drop\n|examine = Contains an easy clue scroll"
+        },
+        {
+          "itemId": 24363,
+          "status": "certify",
+          "sourceTitle": "Scroll box (medium)",
+          "revision": 15338854,
+          "sourceHash": "sha256:0d9e3f5630c06459ac43a37ae28dcbbaca0252a4c74832cbe303862587afee14",
+          "quote": "options = Open, Drop\n|examine = Contains a medium clue scroll"
+        },
+        {
+          "itemId": 24364,
+          "status": "certify",
+          "sourceTitle": "Scroll box (hard)",
+          "revision": 15338855,
+          "sourceHash": "sha256:18f2cdee3d7bca2c7a81a1fb6299b39135bc5f94e5343ce0f5384121346e02e0",
+          "quote": "options = Open, Drop\n|examine = Contains a hard clue scroll"
+        },
+        {
+          "itemId": 24365,
+          "status": "certify",
+          "sourceTitle": "Scroll box (elite)",
+          "revision": 15338856,
+          "sourceHash": "sha256:2e69d253c95f87054371fc4fd870a5074fa20e626a727babba4e2b9b76ee6c09",
+          "quote": "options = Open, Drop\n|examine = Contains an elite clue scroll"
+        },
+        {
+          "itemId": 24366,
+          "status": "certify",
+          "sourceTitle": "Scroll box (master)",
+          "revision": 15338857,
+          "sourceHash": "sha256:286ce08b46370ed82966a8aa3665c92838964e4e00e1212e5b15cbbaff4908e6",
+          "quote": "options = Open, Drop\n|examine = Contains a master clue scroll"
+        },
+        {
+          "itemId": 19939,
+          "status": "certify",
+          "sourceTitle": "Strange device",
+          "revision": 15271494,
+          "sourceHash": "sha256:82462680e7d65a37495ad24ced532e732bad10421ce84ae101b6fafea0089d5d",
+          "quote": "A '''strange device''' is an item used in the [[Treasure Trails/Guide/Hot Cold|Hot & Cold]] challenge of a [[Clue scroll (beginner)|beginner]] or [[Clue scroll (master)|master clue]]"
+        },
+        {
+          "itemId": 23183,
+          "status": "certify",
+          "sourceTitle": "Strange device",
+          "revision": 15271494,
+          "sourceHash": "sha256:82462680e7d65a37495ad24ced532e732bad10421ce84ae101b6fafea0089d5d",
+          "quote": "A '''strange device''' is an item used in the [[Treasure Trails/Guide/Hot Cold|Hot & Cold]] challenge of a [[Clue scroll (beginner)|beginner]] or [[Clue scroll (master)|master clue]]"
+        }
+      ]
+    },
+    {
+      "case": "upgrade_or_weapon_component",
+      "ids": [
+        4082,
+        12783,
+        23956,
+        25635,
+        25637,
+        25639,
+        30628,
+        30631
+      ],
+      "sourceRule": "(?i)(?:used to craft|used on|can be turned into|used alongside|one of the three parts|used to create)[^.!?]{0,190}",
+      "role": "equipment_upgrade_material",
+      "targetCategory": "UNIQUE",
+      "targetSubcategory": null,
+      "reviewed": [
+        {
+          "itemId": 4082,
+          "status": "certify",
+          "sourceTitle": "Salve shard",
+          "revision": 15183505,
+          "sourceHash": "sha256:985cfd09fb4a00e490337ee33b137ffdc1fce8e01f6d06579cd97fc4f6042ef7",
+          "quote": "To extract them, a [[chisel]] must be used on one of the outcrops at the bottom level of the mine"
+        },
+        {
+          "itemId": 12783,
+          "status": "certify",
+          "sourceTitle": "Ring of wealth scroll",
+          "revision": 15186408,
+          "sourceHash": "sha256:5e2991589fa46452f9851c5c25de31c84e0bb15467fd92b076c122539ea15078",
+          "quote": "used on a [[ring of wealth]] (alongside {{NoCoins|50000|c}}) to create a [[ring of wealth (i)]], which doubles a player's chance of getting a clue scroll from monsters and skilling activities in the [[Wilderness]].\n\nIt can be purchased from [[Justine's stuff for the Last Shopp"
+        },
+        {
+          "itemId": 23956,
+          "status": "certify",
+          "sourceTitle": "Crystal armour seed",
+          "revision": 15189425,
+          "sourceHash": "sha256:a015571fc125d10ae2cbbc2ace27e48c81656221562779e36321196cf273f8a4",
+          "quote": "elven]] [[crystal]] that can be turned into [[crystal armour]] at a [[singing bowl]]"
+        },
+        {
+          "itemId": 25635,
+          "status": "certify",
+          "sourceTitle": "Barronite head",
+          "revision": 15276955,
+          "sourceHash": "sha256:ccdc871c0b9c2b34caf06571afae41746084def69e7ece99514c57616d769b85",
+          "quote": "The '''barronite head ''' is one of the three parts of the [[barronite mace]], obtained from smashing [[barronite deposit]]s on the [[Barronite Crusher]] in the [[Ruins of Camdozaal]]'s next to [[Ramarno]]"
+        },
+        {
+          "itemId": 25637,
+          "status": "certify",
+          "sourceTitle": "Barronite handle",
+          "revision": 15326639,
+          "sourceHash": "sha256:5d6ba035d677017e04c2b3558bf3f45d9f59f0151b791951b35e4fa5261a2f7d",
+          "quote": "The '''barronite handle''' is one of the three parts of the [[barronite mace]], found while [[fishing]] at a [[Fishing spot (Camdozaal)|fishing spot]] in the [[Ruins of Camdozaal]]"
+        },
+        {
+          "itemId": 25639,
+          "status": "certify",
+          "sourceTitle": "Barronite guard",
+          "revision": 15276954,
+          "sourceHash": "sha256:a2fc4c666c3c4168b7325e99bdd876add1479305c61ed5253b00d667ede8307f",
+          "quote": "The '''barronite guard''' is one of the three parts of the [[barronite mace]], obtained as a drop from [[Golem (Ruins of Camdozaal)|golems]] in the [[Ruins of Camdozaal]]"
+        },
+        {
+          "itemId": 30628,
+          "status": "certify",
+          "sourceTitle": "Ice element staff crown",
+          "revision": 15193035,
+          "sourceHash": "sha256:3b6eaca9049896e307fe714aa2005507359ba0b30f6f2b9ed1b481e4e2942cba",
+          "quote": "It is used alongside a [[battlestaff]] and the [[fire element staff crown]], which can be obtained from looting [[Branda the Fire Queen]], to create the [[twinflame staff]]"
+        },
+        {
+          "itemId": 30631,
+          "status": "certify",
+          "sourceTitle": "Fire element staff crown",
+          "revision": 15193036,
+          "sourceHash": "sha256:5f43e187bc036679aaa5fbe6dc2aed6bdf43cde1aaf159cb1208cf9ddc27a732",
+          "quote": "It is used alongside a [[battlestaff]] and the [[ice element staff crown]], which can be obtained from looting [[Eldric the Ice King]], to create the [[twinflame staff]]"
+        }
+      ]
+    },
+    {
+      "case": "boss_access_component",
+      "ids": [
+        19679,
+        19681,
+        19683
+      ],
+      "sourceRule": "(?i)(?:combined|combine)[^.!?]{0,190}(?:used to reach|reach)",
+      "role": "boss_access_material",
+      "targetCategory": "UNIQUE",
+      "targetSubcategory": "boss-access-key",
+      "reviewed": [
+        {
+          "itemId": 19679,
+          "status": "certify",
+          "sourceTitle": "Dark totem base",
+          "revision": 15187558,
+          "sourceHash": "sha256:2515a47a120b75299a9a3445d0ac042fde650194819818493766171a83c06046",
+          "quote": "This item can be combined with the [[dark totem middle]] and the [[dark totem top]] to create the [[dark totem]], which is used to reach [[Skotizo]], a demon that lurks beneath the Catacombs"
+        },
+        {
+          "itemId": 19681,
+          "status": "certify",
+          "sourceTitle": "Dark totem middle",
+          "revision": 15187559,
+          "sourceHash": "sha256:e05f69a5215ed89b83fd64bf477b92b94f80d6ac4927328b847f443f6b4b7862",
+          "quote": "This item can be combined with the [[dark totem base]] and the [[dark totem top]] to create the [[dark totem]], which is used to reach [[Skotizo]], a demon that lurks beneath the Catacombs"
+        },
+        {
+          "itemId": 19683,
+          "status": "certify",
+          "sourceTitle": "Dark totem top",
+          "revision": 15187560,
+          "sourceHash": "sha256:613b6cf11a2c79fecaaec5cb2b906f21362e7eb53ec5aae8089c1b3a50af910e",
+          "quote": "This item can be combined with the [[dark totem base]] and the [[dark totem middle]] to create the [[dark totem]], which is used to reach [[Skotizo]], a demon that lurks beneath the Catacombs"
+        }
+      ]
+    },
+    {
+      "case": "achievement_gallery_display",
+      "ids": [
+        12007,
+        23064
+      ],
+      "sourceRule": "(?i)(?:used on|use on)[^.!?]{0,190}boss lair display",
+      "role": "display_trophy",
+      "targetCategory": "CLUE",
+      "targetSubcategory": "collection-trophy",
+      "reviewed": [
+        {
+          "itemId": 12007,
+          "status": "certify",
+          "sourceTitle": "Jar of Dirt",
+          "revision": 15317321,
+          "sourceHash": "sha256:29758c8dbe24d3cbc1617acd1a016fccd97d7255495b6a23791fd1469b8b276c",
+          "quote": "The jar can be used on a [[boss lair display]] in a player's [[Achievement Gallery]] to have a display of the Kraken"
+        },
+        {
+          "itemId": 23064,
+          "status": "certify",
+          "sourceTitle": "Jar of Chemicals",
+          "revision": 15317316,
+          "sourceHash": "sha256:fc403240f29b60a89191d9cfc3929b37b90044fe374f9c9feba84f0b68dcbbff",
+          "quote": "The jar can be used on a [[boss lair display]] in a player's [[Achievement Gallery]] to have a display of the Alchemical Hydra's final form"
+        }
+      ]
+    },
+    {
+      "case": "single_use_ability_unlock",
+      "ids": [
+        21034,
+        21047,
+        21079,
+        30626,
+        30627
+      ],
+      "sourceRule": "(?i)(?:reading it allows|reading it requires)[^.!?]{0,190}(?:unlock|consum|prayer)",
+      "role": "single_use_ability_unlock",
+      "targetCategory": "UNIQUE",
+      "targetSubcategory": null,
+      "reviewed": [
+        {
+          "itemId": 21034,
+          "status": "unresolved",
+          "sourceTitle": "Dexterous prayer scroll",
+          "revision": 15188080,
+          "sourceHash": "sha256:47c0ad8ddfcc589cf123497cee14b75a992df8a927b67008b2d7f818517f18cd",
+          "quote": "Reading it allows the player to unlock [[Rigour]], which requires 70 [[Defence]] and 74 [[Prayer]]"
+        },
+        {
+          "itemId": 21047,
+          "status": "unresolved",
+          "sourceTitle": "Torn prayer scroll",
+          "revision": 15188160,
+          "sourceHash": "sha256:c7a79041c94a6c8ca9b0f252a8ce4068474fbaf101960af72264011cffd9e475",
+          "quote": "Reading it allows the player to unlock [[Preserve]], which requires 55 [[Prayer]]"
+        },
+        {
+          "itemId": 21079,
+          "status": "unresolved",
+          "sourceTitle": "Arcane prayer scroll",
+          "revision": 15188166,
+          "sourceHash": "sha256:671299aa1caa3db4e395720631656b91dba22cb8862add11581902fb775d64e8",
+          "quote": "Reading it allows the player to unlock [[Augury]], which requires 70 [[Defence]] and 77 [[Prayer]]"
+        },
+        {
+          "itemId": 30626,
+          "status": "unresolved",
+          "sourceTitle": "Deadeye prayer scroll",
+          "revision": 15193033,
+          "sourceHash": "sha256:68934f4eee70ddc20703651c4fce1beb83f63d98bb9f85c1f7563df2c3a2e4d3",
+          "quote": "Reading it requires level 62 [[Prayer]], which in turn consumes the scroll and unlocks the [[Deadeye]] prayer, which replaces [[Eagle Eye]] within the prayer book"
+        },
+        {
+          "itemId": 30627,
+          "status": "unresolved",
+          "sourceTitle": "Mystic vigour prayer scroll",
+          "revision": 15285526,
+          "sourceHash": "sha256:8098125eeb5039203385806b46e1e7a803a0363bff398b339940ac5ffb0192f1",
+          "quote": "Reading it requires level 63 [[Prayer]], which in turn consumes the scroll and unlocks the [[Mystic Vigour]] prayer, which replaces [[Mystic Might]] within the prayer book"
+        }
+      ]
+    },
+    {
+      "case": "clue_reward_gear_components",
+      "ids": [
+        3827,
+        3828,
+        3829,
+        3830,
+        3831,
+        3832,
+        3833,
+        3834,
+        3835,
+        3836,
+        3837,
+        3838,
+        12613,
+        12614,
+        12615,
+        12616,
+        12617,
+        12618,
+        12619,
+        12620,
+        12621,
+        12622,
+        12623,
+        12624
+      ],
+      "sourceRule": "(?i)all four[^.!?]{0,220}equipable in the \\[\\[shield slot\\]\\]",
+      "role": "equipment_upgrade_material",
+      "targetCategory": "CLUE",
+      "targetSubcategory": "treasure-trail",
+      "reviewed": [
+        {
+          "itemId": 3827,
+          "status": "unresolved",
+          "sourceTitle": "Saradomin page 1",
+          "revision": 15186216,
+          "sourceHash": "sha256:abf7984445f5536341055080f5f0ca85fc633fb1ad0fa2a9dac178f2c1e75b6c",
+          "quote": "Once all four [[Saradomin page]]s are added to the damaged [[Saradomin]] god book, it becomes a [[holy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3828,
+          "status": "unresolved",
+          "sourceTitle": "Saradomin page 2",
+          "revision": 15186217,
+          "sourceHash": "sha256:08af52931537af9d4478c5c5982a59cce1bb70ce4ef4f35112ce70f75067ea25",
+          "quote": "Once all four [[Saradomin page]]s are added to the damaged [[Saradomin]] god book, it becomes a [[holy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3829,
+          "status": "unresolved",
+          "sourceTitle": "Saradomin page 3",
+          "revision": 15186218,
+          "sourceHash": "sha256:f98362c9fdf978aa5620171bb5f64954cbcedbf622f9c363d8cfc7f9a6393f00",
+          "quote": "Once all four [[Saradomin page]]s are added to the damaged [[Saradomin]] god book, it becomes a [[holy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3830,
+          "status": "unresolved",
+          "sourceTitle": "Saradomin page 4",
+          "revision": 15186219,
+          "sourceHash": "sha256:25da7fdb3ae71e41e62fde5281e9b21770e992af2b2e54ba081b8eee5d896c16",
+          "quote": "Once all four [[Saradomin page]]s are added to the damaged [[Saradomin]] god book, it becomes a [[holy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3831,
+          "status": "unresolved",
+          "sourceTitle": "Zamorak page 1",
+          "revision": 15186224,
+          "sourceHash": "sha256:19d6f1cb4f10810fcec8338a80db5d4c6bd8bf713deb798a244be42c24194a6e",
+          "quote": "Once all four [[Zamorak page]]s are added to the damaged [[Zamorak]] god book, it becomes an [[unholy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3832,
+          "status": "unresolved",
+          "sourceTitle": "Zamorak page 2",
+          "revision": 15186225,
+          "sourceHash": "sha256:1fa19a37323d94a6aa7b82e604e56103b9d772de3f4e187a7b7f0c1151b338fc",
+          "quote": "Once all four [[Zamorak page]]s are added to the damaged [[Zamorak]] god book, it becomes an [[unholy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3833,
+          "status": "unresolved",
+          "sourceTitle": "Zamorak page 3",
+          "revision": 15186226,
+          "sourceHash": "sha256:26eaac3463a282b908fd91c85808a371d68426a6c8b120c886a74b3a4d5fa379",
+          "quote": "Once all four [[Zamorak page]]s are added to the damaged [[Zamorak]] god book, it becomes an [[unholy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3834,
+          "status": "unresolved",
+          "sourceTitle": "Zamorak page 4",
+          "revision": 15186227,
+          "sourceHash": "sha256:6aa55c1a0329a6840c662e3216b27af41ba35402d0687e0647dab6266097cfe6",
+          "quote": "Once all four [[Zamorak page]]s are added to the damaged [[Zamorak]] god book, it becomes an [[unholy book]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3835,
+          "status": "unresolved",
+          "sourceTitle": "Guthix page 1",
+          "revision": 15186220,
+          "sourceHash": "sha256:4cfe661c03659b03ac9dee9c775d01df9abcb7aaad4c278e9c18680a5800a314",
+          "quote": "Once all four [[Guthix page]]s are added to the damaged [[Guthix]] god book, it becomes a [[book of balance]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3836,
+          "status": "unresolved",
+          "sourceTitle": "Guthix page 2",
+          "revision": 15186221,
+          "sourceHash": "sha256:0981ad327831c068c2612594c92a83e9be439b7306160a8f3f86e8f8a31cfc39",
+          "quote": "Once all four [[Guthix page]]s are added to the damaged [[Guthix]] god book, it becomes a [[book of balance]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3837,
+          "status": "unresolved",
+          "sourceTitle": "Guthix page 3",
+          "revision": 15186222,
+          "sourceHash": "sha256:d0e83b6357804f706cb623bd3f4149433e5a19567d2fffcc1198febfe727669b",
+          "quote": "Once all four [[Guthix page]]s are added to the damaged [[Guthix]] god book, it becomes a [[book of balance]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 3838,
+          "status": "unresolved",
+          "sourceTitle": "Guthix page 4",
+          "revision": 15186223,
+          "sourceHash": "sha256:65d5ccd37b44a5d058c0f1c8d1e46e534faa1ea31307f852fe0fe02d31c60f9b",
+          "quote": "Once all four [[Guthix page]]s are added to the damaged [[Guthix]] god book, it becomes a [[book of balance]] equipable in the [[shield slot]]"
+        },
+        {
+          "itemId": 12613,
+          "status": "unresolved",
+          "sourceTitle": "Bandos page 1",
+          "revision": 15186255,
+          "sourceHash": "sha256:29b8a1b313327c0bf0b268d5c1da5e3edd92f9f79a67bc45c13c6f896d75a6ff",
+          "quote": "Once all four [[Bandos page]]s are added to the damaged [[Bandos]] god book it becomes a [[book of war]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12614,
+          "status": "unresolved",
+          "sourceTitle": "Bandos page 2",
+          "revision": 15186256,
+          "sourceHash": "sha256:03dd5f9d5dd73ed2e0b7faac88cfe216be78ee51a6f781f50dae80ec662db239",
+          "quote": "Once all four [[Bandos page]]s are added to the damaged [[Bandos]] god book it becomes a [[book of war]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12615,
+          "status": "unresolved",
+          "sourceTitle": "Bandos page 3",
+          "revision": 15186257,
+          "sourceHash": "sha256:6b7b293ceb9327c068f308ed691f13b7715854c0e1c791b197eaf6830e3990fc",
+          "quote": "Once all four [[Bandos page]]s are added to the damaged [[Bandos]] god book it becomes a [[book of war]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12616,
+          "status": "unresolved",
+          "sourceTitle": "Bandos page 4",
+          "revision": 15186258,
+          "sourceHash": "sha256:67e658f960c0f77fa6c9a8a34e321234b879caa3001f9528550d7a4f4e96b373",
+          "quote": "Once all four [[Bandos page]]s are added to the damaged [[Bandos]] god book it becomes a [[book of war]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12617,
+          "status": "unresolved",
+          "sourceTitle": "Armadyl page 1",
+          "revision": 15186228,
+          "sourceHash": "sha256:40092d743920428c1fd3cb8d03ddabafb00fbc9909d91bc7d591f2e95c3c0ca5",
+          "quote": "Once all four [[Armadyl page]]s are added to the damaged [[Armadyl]] god book it becomes a [[book of law]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12618,
+          "status": "unresolved",
+          "sourceTitle": "Armadyl page 2",
+          "revision": 15186229,
+          "sourceHash": "sha256:d8e07fa8dd6948c113e87760638151f2093a69755eda84a64b915fb5dbaff37e",
+          "quote": "Once all four [[Armadyl page]]s are added to the damaged [[Armadyl]] god book it becomes a [[book of law]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12619,
+          "status": "unresolved",
+          "sourceTitle": "Armadyl page 3",
+          "revision": 15186230,
+          "sourceHash": "sha256:004051119eec61e3c9ae1b2a38ac0646caaaf7656b93f86d752296b53dfc02ff",
+          "quote": "Once all four [[Armadyl page]]s are added to the damaged [[Armadyl]] god book it becomes a [[book of law]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12620,
+          "status": "unresolved",
+          "sourceTitle": "Armadyl page 4",
+          "revision": 15186254,
+          "sourceHash": "sha256:731d0ceddf02379856232a88ecda821996906e2c7c875d539e4bce3aa5312c90",
+          "quote": "Once all four [[Armadyl page]]s are added to the damaged [[Armadyl]] god book it becomes a [[book of law]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12621,
+          "status": "unresolved",
+          "sourceTitle": "Ancient page 1",
+          "revision": 15186262,
+          "sourceHash": "sha256:dfae0bd30357a847ca6bfe3f1b5bc5ba7e7d8e4c4eefea6dafe6577c96f94a17",
+          "quote": "Once all four pages are added to the damaged Ancient god book it becomes a [[book of darkness]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12622,
+          "status": "unresolved",
+          "sourceTitle": "Ancient page 2",
+          "revision": 15186261,
+          "sourceHash": "sha256:66e6b146837df7b915e163332d1553fce9c9629673b0dedd0bba45ef021c8242",
+          "quote": "Once all four pages are added to the damaged Ancient god book it becomes a [[book of darkness]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12623,
+          "status": "unresolved",
+          "sourceTitle": "Ancient page 3",
+          "revision": 15186260,
+          "sourceHash": "sha256:f42c6e29302a9d4de74ba7c36617f229eb0b366ac315809362ed175c3f789b08",
+          "quote": "Once all four pages are added to the damaged Ancient god book it becomes a [[book of darkness]], equipable in the [[shield slot]] and can be used to preach"
+        },
+        {
+          "itemId": 12624,
+          "status": "unresolved",
+          "sourceTitle": "Ancient page 4",
+          "revision": 15186259,
+          "sourceHash": "sha256:e4095a2491fbc0c3321174c1fb153f72147b70ca4b044aa725513186b401b24d",
+          "quote": "Once all four pages are added to the damaged Ancient god book it becomes a [[book of darkness]], equipable in the [[shield slot]] and can be used to preach"
+        }
+      ]
+    },
+    {
+      "case": "upgrade_material_components",
+      "ids": [
+        11931,
+        11932,
+        11933
+      ],
+      "sourceRule": "(?i)can be forged into a \\[\\[malediction ward\\]\\]",
+      "role": "equipment_upgrade_material",
+      "targetCategory": "UNIQUE",
+      "targetSubcategory": "equipment-upgrade",
+      "reviewed": [
+        {
+          "itemId": 11931,
+          "status": "unresolved",
+          "sourceTitle": "Malediction shard 1",
+          "revision": 15185376,
+          "sourceHash": "sha256:fdee92d48fc27fb4605d43462681c0d487397bf821251305b43bcc0905bea696",
+          "quote": "3]] are obtained, they can be forged into a [[malediction ward]] on the [[Blighted Volcano]] on the most north-east part of the [[Wilderness]]"
+        },
+        {
+          "itemId": 11932,
+          "status": "unresolved",
+          "sourceTitle": "Malediction shard 2",
+          "revision": 15185377,
+          "sourceHash": "sha256:2205232c388e431538fc13c462578067495afaf6e23c7d5e3a23bf89328e581f",
+          "quote": "3]] are obtained, they can be forged into a [[malediction ward]] on the [[Blighted Volcano]] on the most north-east part of the [[Wilderness]]"
+        },
+        {
+          "itemId": 11933,
+          "status": "unresolved",
+          "sourceTitle": "Malediction shard 3",
+          "revision": 15185378,
+          "sourceHash": "sha256:62471f16d0721980e15cae00fb269c9b41dac931f37703b92d68d7b526d8d115",
+          "quote": "2]] are obtained, they can be forged into a [[malediction ward]] on the [[Blighted Volcano]] on the most north-east part of the [[Wilderness]]"
+        }
+      ]
+    },
+    {
+      "case": "key_components",
+      "ids": [
+        985,
+        987
+      ],
+      "sourceRule": "(?i)is used with a \\[\\[(?:loop|tooth) half of key\\]\\] to make a \\[\\[crystal key\\]\\]",
+      "role": "key_material",
+      "targetCategory": "UNIQUE",
+      "targetSubcategory": "key-material",
+      "reviewed": [
+        {
+          "itemId": 985,
+          "status": "unresolved",
+          "sourceTitle": "Tooth half of key",
+          "revision": 15183658,
+          "sourceHash": "sha256:a3a111c4dc8e63ea1236c5e5ec3589add91af5c69028df8e110235fbd509e238",
+          "quote": "The tooth half of a key is used with a [[loop half of key]] to make a [[crystal key]], which is used to unlock the [[crystal chest]], which contains a [[dragonstone]] and an assortment of other items"
+        },
+        {
+          "itemId": 987,
+          "status": "unresolved",
+          "sourceTitle": "Loop half of key",
+          "revision": 15183813,
+          "sourceHash": "sha256:4c3ce9bff7500d3ddf3a4535d730cad147a5d7c4e8ab51f8ecae7483362f1554",
+          "quote": "The loop half of a key is used with a [[tooth half of key]] to make a [[crystal key]], which is used to unlock the [[crystal chest]], which contains a [[dragonstone]] and an assortment of other items"
+        }
+      ]
+    },
+    {
+      "case": "other_function_conflict",
+      "ids": [
+        11258,
+        21275,
+        30640
+      ],
+      "sourceRule": "(?i)(?:can be used to create|can be combined with|can be brought to)[^.!?]{0,190}",
+      "role": null,
+      "targetCategory": null,
+      "targetSubcategory": null,
+      "reviewed": [
+        {
+          "itemId": 11258,
+          "status": "unresolved",
+          "sourceTitle": "Jar generator",
+          "revision": 15184954,
+          "sourceHash": "sha256:df48c30de4c8b87763ca1b6ed208c50b02e56b1f739379ea6b8c2bb74ef27454",
+          "quote": "The '''jar generator''' can be obtained from [[Elnock Inquisitor]], and can be used to create either [[butterfly jar]]s or [[impling jar]]s"
+        },
+        {
+          "itemId": 21275,
+          "status": "unresolved",
+          "sourceTitle": "Dark claw",
+          "revision": 15302925,
+          "sourceHash": "sha256:d1a60573cdbcaf4de33bb3bf83d93236803c34fe58c5571ba5a79adc5a395483",
+          "quote": "It can be combined with a [[slayer helmet]] or [[slayer helmet (i)]] to create a [[purple slayer helmet]] or [[purple slayer helmet (i)]], respectively"
+        },
+        {
+          "itemId": 30640,
+          "status": "unresolved",
+          "sourceTitle": "Desiccated page",
+          "revision": 15193037,
+          "sourceHash": "sha256:5322dacc00cecff6758b9e44dbee06bdc1dd2bb936b99fa53e39eff45838c867",
+          "quote": "Desiccated pages are unimbued elemental pages, which can be brought to specific elemental plinths to reinvigorate them into [[burnt page|burnt]], [[soaked page|soaked]], or [[soiled page]]s"
+        }
+      ]
+    }
+  ]
+}

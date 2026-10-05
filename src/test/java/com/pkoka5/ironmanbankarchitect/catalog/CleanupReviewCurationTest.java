@@ -27,7 +27,7 @@ public class CleanupReviewCurationTest
 		assertFamily(ItemCategory.CLUE, "clues-cosmetics", 21211); // 4th birthday hat
 		assertFamily(ItemCategory.CLUE, "clues-cosmetics", 27820); // 10th birthday balloons
 
-		assertFamily(ItemCategory.SKILLING, "resources", 1794); // Bronze wire
+		assertFamily(ItemCategory.CLEANUP, "storage-cleanup", 1794); // Bronze wire: quest input
 		assertFamily(ItemCategory.SKILLING, "resources", 1933); // Pot of flour
 		assertFamily(ItemCategory.SKILLING, "resources",
 			21512, 21515, 21518, 21521, 22192, 22195, 22198, 22201, 22204); // Bird houses

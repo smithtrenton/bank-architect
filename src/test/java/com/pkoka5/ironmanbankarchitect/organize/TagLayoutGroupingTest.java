@@ -163,7 +163,9 @@ public class TagLayoutGroupingTest
 				catalog, BankPresets.IRONMAN, GearStatsSource.NONE, ItemValueSource.NONE,
 				CategoryOverrideSource.NONE, plan);
 			List<Integer> ids = itemIds(preview, tab);
-			assertEquals(entries.size(), ids.size());
+			assertEquals(entries.size() - 2, ids.size()); // Saltpetre and blast-mine dynamite occupy their reviewed tabs.
+			assertTrue(itemIds(preview, plan.destinationOf("seeds")).contains(13421));
+			assertTrue(itemIds(preview, plan.destinationOf("cleanup")).contains(13573));
 			assertEquals("ore row at offset " + prefix, ids.indexOf(440) / 8, ids.indexOf(451) / 8);
 			assertEquals("bar row at offset " + prefix, ids.indexOf(2351) / 8, ids.indexOf(2363) / 8);
 			for (int tier = 0; tier < ores.size(); tier++)

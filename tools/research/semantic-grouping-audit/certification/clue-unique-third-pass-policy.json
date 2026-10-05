@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "inputSha256": "60bc5131f934ea5489f9540adfaf82ae52ef67e47fdea36c36627c866d8a697d",
+  "articleIndexSha256": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+  "rules": [
+    "Exact direct facts attach only to the exact item numeric ID and pinned article hash.",
+    "Collection Log page categories on multi-ID variant articles are unresolved at variant scope unless the exact variant is directly bound to the facet.",
+    "Do not infer companion function from lexical mentions of pets/animals on combat equipment pages.",
+    "When one item has documented display and functional upgrade uses, preserve both and leave primary placement unresolved until role precedence is approved.",
+    "Quest/event/interface clue strings do not establish Treasure Trails item function or inventory state."
+  ],
+  "citationRepairs": [
+    {
+      "itemId": 13227,
+      "sourceTitle": "Eternal crystal",
+      "revision": 15186939,
+      "hash": "sha256:66326a1eee6997c5dc6d821cd436da3cf794b0f6f5f51e9f1c0bc9452f0b16a0",
+      "quote": "When used with a pair of [[infinity boots]], [[eternal boots]] will be created."
+    },
+    {
+      "itemId": 13229,
+      "sourceTitle": "Pegasian crystal",
+      "revision": 15186938,
+      "hash": "sha256:6cb766ab907be2970aba0dbf60842d53179fd1fcac2ef3ab8ff698a953778c62",
+      "quote": "When used with a pair of [[ranger boots]], [[Pegasian boots]] will be created."
+    },
+    {
+      "itemId": 13231,
+      "sourceTitle": "Primordial crystal",
+      "revision": 15186937,
+      "hash": "sha256:c2f50f0f54b8d0fddef22a5507ece4972380685dee834706b0712224baa372e9",
+      "quote": "When used with a pair of [[dragon boots]], [[primordial boots]] will be created."
+    },
+    {
+      "itemId": 23953,
+      "sourceTitle": "Crystal tool seed",
+      "revision": 15189424,
+      "hash": "sha256:2464c2a93a7dc6908983b23463946d5952768d712e9f9997e596c356d4ee082f",
+      "quote": "The '''crystal tool seed''' is an [[elves|elven]] [[crystal]] that can be turned into the [[crystal axe]], [[crystal harpoon]], or [[crystal pickaxe]]"
+    },
+    {
+      "itemId": 31732,
+      "sourceTitle": "Stormy key",
+      "revision": 15331411,
+      "hash": "sha256:2e40d96e824b3d4f4dcb415afe35b6c2203505ded831efb8c49fa91fe683b07c",
+      "quote": "The key opens a [[Chest (Pandemonium Cave)|chest]] found in [[Pandemonium Cave]]"
+    },
+    {
+      "itemId": 31744,
+      "sourceTitle": "Fetid key",
+      "revision": 15194044,
+      "hash": "sha256:d9059d1fce0c9d42591024a4d7d275c61b9d77582293af446a872b64bbd772b8",
+      "quote": "The key opens a [[Chest (Anglers' Retreat)|chest]] found on [[Anglers' Retreat]]"
+    },
+    {
+      "itemId": 31756,
+      "sourceTitle": "Serrated key",
+      "revision": 15236794,
+      "hash": "sha256:65c88e6dcae7664f44c63a6abd98d35cde5bef941abb18c301784b853dbb5eb3",
+      "quote": "The key opens a [[Chest (Laguna Aurorae)|chest]] found on [[Laguna Aurorae]]"
+    },
+    {
+      "itemId": 7981,
+      "sourceTitle": "Kq head",
+      "revision": 15184234,
+      "hash": "sha256:231b6678b48ef1476e5126217bce766ee89b1a2d379812c0435fbcb2c2d50751",
+      "quote": "It can be stuffed at the [[Taxidermist]] in [[Canifis]] by using the item on her"
+    }
+  ],
+  "removedCollectionLogRoleFromMultiIdPages": [
+    20275,
+    20278,
+    20693,
+    24483,
+    24484,
+    24485,
+    24486
+  ],
+  "removedPetRoleFromNonPetItem": [
+    12271
+  ],
+  "newlyUnresolvedForSourceOrPrecedence": [
+    7981,
+    23814,
+    23815,
+    23816,
+    23817,
+    7280,
+    19764,
+    21524,
+    19770,
+    7255,
+    27427
+  ],
+  "outputRows": 1761,
+  "deltaRows": 26,
+  "outputSha256": "cb55a32c10d02866e663ae9cdeda362ab0da95ec9d9fd55f0e8b27c1cf483df1",
+  "deltaSha256": "253a03a17c0279591b4f63d8fcd5f98e9f6fdaca4b25fa0b4f7d014ef6fc5afa"
+}

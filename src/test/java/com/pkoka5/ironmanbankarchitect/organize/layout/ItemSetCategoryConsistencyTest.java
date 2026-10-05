@@ -57,11 +57,7 @@ public class ItemSetCategoryConsistencyTest
 	 * Sets whose split is deliberate. Every entry needs a reason a player
 	 * would accept.
 	 */
-	private static final Set<String> INTENTIONAL_SPLITS = new LinkedHashSet<>(Arrays.asList(
-		// The rune kiteshield is on the reviewed Ironman loot list
-		// (PresetCategoryMapper.IRONMAN_REVIEWED_LOOT_IDS) while the rest of
-		// the rune set counts as gear - an explicit upstream curation choice.
-		"gear.rune-armour"));
+	private static final Set<String> INTENTIONAL_SPLITS = new LinkedHashSet<>();
 
 	@Test
 	public void everySetKeepsAllItsPiecesOnOneTab()

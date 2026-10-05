@@ -1,0 +1,47 @@
+{
+  "reviewer": "transport",
+  "scope": {
+    "categories": ["CURRENCY", "RUNE", "TELEPORT"],
+    "shard": "currency-runes-teleport",
+    "expected_counts": {"CURRENCY": 302, "RUNE": 191, "TELEPORT": 645}
+  },
+  "source_requirements": {
+    "identity": "Only an article-index entry whose exactInfoboxItemIds contains the numeric itemId may support that row. Never join by display name, page title similarity, family hint, or alternate-id lookup.",
+    "semantic": "Wiki categories and baseline preset tags never prove role. Use exact variant infobox parameters together with article mechanics prose.",
+    "citation": "Each decisive Wiki fact includes the revision redirect URL, revision ID, local raw-text SHA-256, exact item ID, and a short literal excerpt from that article revision.",
+    "uncertainty": "If no exact article or variant-specific functional detail is available, emit unresolved and state the evidence gap."
+  },
+  "placements": {
+    "currency": {"category": "CURRENCY", "subcategory": "currency", "ironmanTabKey": "currency-utilities", "predicate": "The exact item is spendable/exchangeable value used for purchases, access, charges, or a documented reward shop. A single quest proof, cosmetic, loot, edible item, task cargo, or reward container is not currency."},
+    "rune": {"category": "RUNE", "subcategory": "rune", "ironmanTabKey": "currency-utilities", "predicate": "The exact item functions as a reusable or consumable spellcasting rune or a documented rune substitute; its role is active magic supply rather than an item whose name merely contains rune."},
+    "runecrafting-focus": {"category": "RUNE", "subcategory": "runecrafting-focus", "ironmanTabKey": "skilling-tools", "predicate": "The exact talisman/tiara/focus grants access to a Runecraft altar; it stays distinct from spellcasting runes and is filed with skilling tools."},
+    "rune-container": {"category": "RUNE", "subcategory": "rune-container", "ironmanTabKey": "currency-utilities", "predicate": "The exact pouch stores spellcasting runes or permits casting from stored runes; it is grouped with rune supplies."},
+    "runecrafting-utility": {"category": "RUNE", "subcategory": "runecrafting-utility", "ironmanTabKey": "skilling-tools", "predicate": "The exact item provides a Runecraft-specific production aid, such as binding combination runes, and belongs with skilling tools."},
+    "teleport": {"category": "TELEPORT", "subcategory": "teleport", "ironmanTabKey": "currency-utilities", "predicate": "The exact item itself offers active or rechargeable movement between locations. An uncharged but rechargeable device remains teleport gear; decorative animation props and quest records do not."},
+    "teleport-tablet": {"category": "TELEPORT", "subcategory": "teleport-tablet", "ironmanTabKey": "currency-utilities", "predicate": "The exact tablet is consumed or activated to move the player, boat, or another explicitly supported transport target."},
+    "teleport-scroll": {"category": "TELEPORT", "subcategory": "teleport-scroll", "ironmanTabKey": "currency-utilities", "predicate": "The exact scroll can be activated to move the player to a named destination."},
+    "teleport-charge": {"category": "TELEPORT", "subcategory": "teleport-charge", "ironmanTabKey": "currency-utilities", "predicate": "The exact item is a charge or consumable whose documented primary function performs a teleport."},
+    "teleport-container": {"category": "TELEPORT", "subcategory": "teleport-container", "ironmanTabKey": "currency-utilities", "predicate": "The exact container stores, selects, or dispatches usable teleport scrolls or destinations."},
+    "transport-access": {"category": "TELEPORT", "subcategory": "transport-access", "ironmanTabKey": "currency-utilities", "predicate": "The exact item grants or installs access to a documented player transport network or portal."}
+  },
+  "correction_rules": [
+    {"match": "Exact article says this is a quest item whose only documented function is consumed/given during one quest step, with no repeatable exchange or usable currency value.", "proposal": {"category": "CLEANUP", "subcategory": "quest-item", "ironmanTabKey": "storage-cleanup"}},
+    {"match": "Exact article says this is an unobtainable purchase-state marker or inert store interface token with no bankable exchange role.", "proposal": {"category": "CLEANUP", "subcategory": "cleanup", "ironmanTabKey": "storage-cleanup"}},
+    {"match": "Exact article identifies a skillcape as wearable skill-training gear.", "proposal": {"category": "TOOL", "subcategory": "skilling-outfit", "ironmanTabKey": "skilling-tools"}},
+    {"match": "Exact article identifies a Western Provinces banner as a combat spear-like weapon.", "proposal": {"category": "GEAR", "subcategory": "weapon", "ironmanTabKey": "combat-gear"}},
+    {"match": "Exact article identifies a white pearl as edible healing food.", "proposal": {"category": "POTION", "subcategory": "food", "ironmanTabKey": "potions-food"}},
+    {"match": "Exact article identifies a courier crate as task cargo that must be delivered by boat and is not a transport item or spendable currency.", "proposal": {"category": "SKILLING", "subcategory": "task-item", "ironmanTabKey": "resources"}},
+    {"match": "Exact article identifies an item as a construction blueprint/schematic used to build a portal, not a usable teleport or an installed access network.", "proposal": {"category": "SKILLING", "subcategory": "construction-material", "ironmanTabKey": "resources"}},
+    {"match": "Exact article identifies a tablet as a quest transcript/lore collectible and documents no transport action.", "proposal": {"category": "CLEANUP", "subcategory": "quest-item", "ironmanTabKey": "storage-cleanup"}},
+    {"match": "Exact article identifies a temporary teleport-animation prop that is not obtainable and performs no transport action itself.", "proposal": {"category": "CLEANUP", "subcategory": "cleanup", "ironmanTabKey": "storage-cleanup"}},
+    {"match": "Exact article identifies a drink whose effect is Sailing experience or another consumable effect rather than transport.", "proposal": {"category": "POTION", "subcategory": "drink", "ironmanTabKey": "potions-food"}}
+  ],
+  "evidence_limits": [
+    "Exact variant ID plus an article page does not prove primary role unless the cited mechanic supports it.",
+    "Rechargeable depleted devices are not junk when the article documents restoration and the same transport function.",
+    "Quest association alone never makes an item quest-only; repeatable shop/exchange mechanics preserve currency status.",
+    "A reward token/container is not currency unless the article documents its use as exchange value.",
+    "Runecrafting talismans and tiaras are focus tools, not spellcasting consumables.",
+    "Internal item identifiers, dummy selections, and alternate IDs without an exact variant record remain unresolved."
+  ]
+}

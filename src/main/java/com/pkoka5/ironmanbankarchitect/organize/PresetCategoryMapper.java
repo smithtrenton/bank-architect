@@ -18,7 +18,6 @@ public final class PresetCategoryMapper
 		5509, 5510, 5511, 5512, 5513, 5514, 5515, 26784, 26786, 5521);
 	private static final Set<Integer> IRONMAN_UTILITY_CONTAINER_IDS = ids(19634);
 	private static final Set<Integer> IRONMAN_REVIEWED_TOOL_IDS = ids(13392, 25781);
-	private static final Set<Integer> IRONMAN_REVIEWED_LOOT_IDS = ids(1201);
 	private static final Set<Integer> IRONMAN_REVIEWED_CLEANUP_IDS = ids(762, 1588);
 
 	private PresetCategoryMapper()
@@ -66,10 +65,6 @@ public final class PresetCategoryMapper
 			|| IRONMAN_REVIEWED_TOOL_IDS.contains(item.getItemId()))
 		{
 			return "skilling-tools";
-		}
-		if (IRONMAN_REVIEWED_LOOT_IDS.contains(item.getItemId()))
-		{
-			return "slayer-boss-loot";
 		}
 		if (IRONMAN_REVIEWED_CLEANUP_IDS.contains(item.getItemId()))
 		{

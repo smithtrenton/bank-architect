@@ -1,0 +1,55 @@
+{
+  "schema": "ironman-bank-architect.supplies-certification-policy.v2",
+  "status": "research-only",
+  "purpose": "Review every supplies/Herblore assignment with exact item role evidence, dose/serving effects, restrictions, and policy-limited typed cache identity. This version supplements, and never overwrites, the initial reviewer ledger.",
+  "direct_evidence": {
+    "item_identity": "Require the item ID in the pinned article index's exact infobox ID set; use only the `variants[itemId]` state and its suffix-specific params. A raw title, family hint, cache name, or another version's values cannot establish this ID's role.",
+    "consumable_potion": "Require direct exact-item evidence of a potion action/effect (Drink or Sip option plus potion facet or explicit potion prose; or an exact variant examine/effect that calls out potion use). Record the exact dose separately from its function.",
+    "dose_state": "Require an exact-ID version/examine/anchor that explicitly states N dose(s). Do not transfer counts between IDs, do not treat a general four-dose family as proof for another variant, and preserve dose as a state role alongside effect.",
+    "food": "Require exact-item Eat action or explicit eaten/edible statement plus a source-backed healing or other food effect. Capture HP/healing numbers when present. Category facets alone are insufficient.",
+    "drink_energy": "Require an exact Drink/Sip action and direct text or structured params for the item effect. Capture run-energy restoration separately from potion or food role.",
+    "activity_and_restrictions": "Require exact source text naming the activity or the exact-state restriction (for example, can only be used in an area). A potion's name, dose-family override, or incidental mention of an activity is insufficient.",
+    "herblore": "Require direct exact-item text that the item is used in Herblore, an exact unfinished-potion examine/stage, a Herblore secondary facet plus use evidence, or a clean/grimy state explicitly attached to the exact item variant. Keep secondary and output-stage roles distinct.",
+    "quest_association": "Record a quest association as a separate role when the exact item source explicitly provides it. Association never means quest-only or displaces a consumable role.",
+    "unresolved": "Retain unresolved when the exact item role, current taxonomy mapping, overlapping role priority, restriction, or exact state is not established. Name the missing fact."
+  },
+  "typed_identity": {
+    "allowed_inheritance": {
+      "NOTE_VARIANT_OF": "May inherit bank grouping from its exact `toItemId` only when the target has independently verified exact semantic evidence. Preserve a note-form role and do not infer usability, tradeability, acquisition, or other item properties. Apply the pinned Bank-page conversion policy only to bank storage grouping.",
+      "PLACEHOLDER_FOR": "May inherit grouping from its exact `toItemId` only when the target has independently verified semantic evidence and the current runtime placeholder mapping applies. Preserve placeholder state and zero-quantity slot semantics.",
+      "BOUGHT_VARIANT_OF": "No semantic or grouping inheritance. Review its own exact item-ID evidence."
+    },
+    "evidence": "Every inherited decision must include the exact typed cache edge, source/cache hashes and revision fields, directed numeric endpoints, plus separate exact Wiki evidence for the canonical target. A hash or edge alone establishes identity provenance, never role."
+  },
+  "assignment_policy": {
+    "POTION": {
+      "food": "POTION/food is supported only by the exact item's food behavior; potions that also heal retain both roles and are unresolved if the primary destination cannot be chosen from the documented policy.",
+      "drink": "POTION/drink requires an exact drink/sip role and source-backed effect.",
+      "potion": "POTION/potion is for directly documented ordinary consumable potions; preserve dose and PvM/activity roles separately.",
+      "potion-dose-N": "Use only when the current taxonomy deliberately assigns an exact numeric dose state to this subcategory. Dose does not identify the active ingredient/effect family.",
+      "activity-potion": "Requires an exact documented activity association for the item state.",
+      "restricted-potion": "Requires an exact documented use/area restriction for the item state.",
+      "pvm-utility": "Requires an exact documented combat/PvM effect; this can coexist with potion or dose state."
+    },
+    "HERBLORE": {
+      "herblore": "A direct exact-item Herblore material role supports the broad Herblore destination only when no more specific source-supported stage/ingredient role applies.",
+      "secondary": "Requires direct exact-item secondary ingredient use.",
+      "unfinished-potion": "Requires an exact unfinished-potion stage or examine.",
+      "clean-herb/grimy-herb": "State must be attached to this exact ID by a pinned variant record and corroborating direct item text."
+    }
+  },
+  "correction_targets": {
+    "POTION": {
+      "food": {"category": "POTION", "subcategory": "food", "ironmanTabKey": "potions-food", "predicate": "Exact Eat behavior plus a directly documented food/healing effect establishes food as the primary use."},
+      "drink": {"category": "POTION", "subcategory": "drink", "ironmanTabKey": "potions-food", "predicate": "Exact Drink/Sip behavior plus an item-specific beverage effect establishes drink as the primary use."},
+      "potion": {"category": "POTION", "subcategory": "potion", "ironmanTabKey": "potions-food", "predicate": "Exact potion action/effect supports ordinary consumable-potion placement when no more specific supported state subcategory applies."},
+      "herblore-supply": {"category": "HERBLORE", "subcategory": "herblore-supply", "ironmanTabKey": "herblore", "predicate": "The exact item-specific lead identifies a Herblore-created intermediate workflow item and the exact item options do not support direct eating or drinking."}
+    },
+    "HERBLORE": {
+      "unfinished-potion": {"category": "HERBLORE", "subcategory": "unfinished-potion", "ironmanTabKey": "herblore", "predicate": "The exact examine or item-specific lead identifies an unfinished potion awaiting another ingredient."},
+      "secondary": {"category": "HERBLORE", "subcategory": "secondary", "ironmanTabKey": "herblore", "predicate": "Direct item-specific source text identifies the item as a secondary ingredient for Herblore/potion production."},
+      "clean-herb": {"category": "HERBLORE", "subcategory": "clean-herb", "ironmanTabKey": "herblore", "predicate": "The exact item variant explicitly identifies a clean herb state and has a direct Herblore role."},
+      "grimy-herb": {"category": "HERBLORE", "subcategory": "grimy-herb", "ironmanTabKey": "herblore", "predicate": "The exact item variant explicitly identifies a grimy herb state and has a direct Herblore role."}
+    }
+  }
+}

@@ -59,7 +59,8 @@ public class CleanupReviewCurationRound3Test
 		assertFamily(ItemCategory.TOOL, "skilling-tools",
 			10053, 10055, 10057, 10059, 10061, 10063, 10065, 10067); // Camo outfits
 		assertFamily(ItemCategory.GEAR, "combat-gear", 12596, 23249); // Ranger garments
-		assertFamily(ItemCategory.SKILLING, "resources", 12640, 12641); // Amylase
+		assertFamily(ItemCategory.SKILLING, "resources", 12640); // Amylase crystals
+		assertFamily(ItemCategory.HERBLORE, "herblore", 12641); // Pack supplies stamina potion ingredients.
 
 		assertFamily(ItemCategory.UNIQUE, "slayer-boss-loot", 27681, 27684, 27687);
 		assertFamily(ItemCategory.GEAR, "combat-gear", 27690); // Voidwaker

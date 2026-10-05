@@ -1,0 +1,170 @@
+{
+  "purpose": "Exact-ID, Wiki-backed proposals for remaining generic CLEANUP/cleanup CURRENCY, RUNE, or TELEPORT candidates. Research only; requires independent application review.",
+  "sourceIndexSha256": "sha256:f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+  "proposals": [
+    {
+      "itemId": 24613,
+      "name": "Blighted entangle sack",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "spellcasting_supply"
+      ],
+      "proposedTags": [
+        "activity-supply",
+        "combat-applied-supply"
+      ],
+      "sourceTitle": "Blighted entangle sack",
+      "sourceRevision": 15189710,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15189710",
+      "sourceSha256": "sha256:047219fe59de2a637b59337cf3790efb233a1afde775ed5855e0bdab5f2ad4e2",
+      "quote": "A '''blighted entangle sack''' is an item that allows players to cast [[Entangle]], [[Snare]], or [[Bind]] without needing the [[runes]] for it. However, it can only be used inside the [[Wilderness]], [[Ferox Enclave]], [[Mage Arena bank]], [[PvP world]]s, [[Castle Wars]], [[Clan Wars]], and [[Soul Wars]], while on the [[standard spellbook]]. It is consumed upon cast, regardless of a [[successful hit]].",
+      "rationale": "The exact sack replaces the runes needed to cast Entangle, Snare, or Bind, is restricted to named PvP/minigame locations, and is consumed per cast."
+    },
+    {
+      "itemId": 24621,
+      "name": "Blighted vengeance sack",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "spellcasting_supply"
+      ],
+      "proposedTags": [
+        "activity-supply",
+        "combat-applied-supply"
+      ],
+      "sourceTitle": "Blighted vengeance sack",
+      "sourceRevision": 15189717,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15189717",
+      "sourceSha256": "sha256:efbec42015873a8077fb3492dac73122a2ef12b5af6e0edf1d0a1cf4629c15d5",
+      "quote": "A '''blighted vengeance sack''' is an item that allows players to cast [[Vengeance]] or [[Vengeance Other]] without needing the [[runes]] for it. However, it can only be used inside the [[Wilderness]], [[Ferox Enclave]], [[Mage Arena bank]], [[PvP world]]s, [[Castle Wars]], [[Clan Wars]], and [[Soul Wars]], while on the [[Lunar spellbook]]. It is consumed upon use.",
+      "rationale": "The exact sack replaces the runes needed for Vengeance or Vengeance Other, is restricted to named PvP/minigame locations, and is consumed on use."
+    },
+    {
+      "itemId": 26705,
+      "name": "Blighted surge sack",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "RUNE",
+      "proposedSubcategory": "rune",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "spellcasting_supply"
+      ],
+      "proposedTags": [
+        "activity-supply",
+        "combat-applied-supply"
+      ],
+      "sourceTitle": "Blighted surge sack",
+      "sourceRevision": 15291155,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15291155",
+      "sourceSha256": "sha256:aa2b8946cc3cd9dcaed7dddbf2b6e5827b2b071d59841b8b4ea621802c7a618e",
+      "quote": "A '''blighted surge sack''' is an item purchased from the [[Emir's Arena]] reward shop. It allows players to cast any [[surge spells]] or [[wave spells]] without needing the [[runes]] for it. However, it can only be used inside the [[Wilderness]], [[Ferox Enclave]], [[Mage Arena bank]], [[PvP world]]s, [[Castle Wars]], [[Clan Wars]], and [[Soul Wars]], while on the [[standard spellbook]].",
+      "rationale": "The exact sack replaces runes for Surge/Wave spells, is restricted to named PvP/minigame locations, and belongs with spell supplies; its purchase source does not make it currency."
+    },
+    {
+      "itemId": 31835,
+      "name": "Bottle of slug's mind balm",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "teleport_consumable"
+      ],
+      "proposedTags": [
+        "activity-sailing"
+      ],
+      "sourceTitle": "Bottle of slug's mind balm",
+      "sourceRevision": 15194235,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15194235",
+      "sourceSha256": "sha256:42f7679178994bae77bc8f956e9e2385cf6ac61f7f6ea48b50590a11cf443593",
+      "quote": "Drinking the bottle grants 75 Sailing experience and will cause the player to black out, capsizing their boat and leaving them on the shore near [[Witchaven Dungeon]], as well as [[Temporary skill drain|draining]] [[Strength]] and [[Magic]] levels by 20% of their current level. Players who are [[teleblocked]] will not be teleported to shore.",
+      "rationale": "Drinking directly transports the player to shore near Witchaven Dungeon, but also capsizes the boat and drains Strength and Magic; classify by its movement function while preserving that drawback."
+    },
+    {
+      "itemId": 31841,
+      "name": "Bottle of the way home",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "teleport_consumable"
+      ],
+      "proposedTags": [
+        "activity-sailing"
+      ],
+      "sourceTitle": "Bottle of the way home",
+      "sourceRevision": 15194242,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15194242",
+      "sourceSha256": "sha256:3fbfac5213c40e4c7568cdbcb779e58ec5ab585e0a9f7c2fca5ff713bbc6d7ca",
+      "quote": "Drinking the bottle grants 75 Sailing experience, and will teleport players to the [[Portal (Player-owned house)|house portal]] leading to their [[player-owned house]], with their boat docking at [[Port Sarim]] and [[courier task]] cargo being lost. If a player-owned house has not yet been purchased, players are instead teleported to the [[Rimmington]] house portal.",
+      "rationale": "Drinking directly teleports the player to the house portal or Rimmington house portal; it also docks the boat at Port Sarim and loses courier cargo."
+    },
+    {
+      "itemId": 31875,
+      "name": "Bottle of exile's welcome",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "teleport_consumable"
+      ],
+      "proposedTags": [
+        "activity-sailing"
+      ],
+      "sourceTitle": "Bottle of exile's welcome",
+      "sourceRevision": 15194207,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15194207",
+      "sourceSha256": "sha256:db503d1bd8beedeec1d96a18f5546c76c94740af263af55a91aaf24841d623c9",
+      "quote": "Drinking the bottle grants 75 Sailing experience, and will teleport the player to one of five teleport locations from the [[lunar spellbook]]: [[Catherby]], [[Waterbirth Island]], [[Port Khazard]], [[Barbarian Outpost]], or the [[Fishing Guild]]; each destination is equally likely.",
+      "rationale": "Drinking directly teleports the player to one of five Lunar spellbook locations; the same article describes boat docking/cargo consequences."
+    },
+    {
+      "itemId": 31877,
+      "name": "Bottle of winter sun",
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "currentTags": [],
+      "proposedCategory": "TELEPORT",
+      "proposedSubcategory": "teleport",
+      "proposedIronmanTabKey": "currency-utilities",
+      "proposedRoles": [
+        "teleport_consumable"
+      ],
+      "proposedTags": [
+        "activity-sailing"
+      ],
+      "sourceTitle": "Bottle of winter sun",
+      "sourceRevision": 15194247,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15194247",
+      "sourceSha256": "sha256:13fb0fa5f5d0df3d16a35691c3664f7120e5f9e80b1dc8c0fcda627402172c32",
+      "quote": "Drinking the bottle requires 78 Sailing, grants 75 Sailing experience, and teleports players to the top of a cliff west of [[Pollnivneach]]. The player's [[boat]] will be docked at the [[Ruins of Unkah]] if it has the necessary facilities to withstand [[Stormy seas]], or [[Port Sarim]] if it does not. [[Courier task]] cargo in the hold will be destroyed. An [[Clue scroll (elite) - 05.24S 26.56E|elite coordinate clue]] requires players to dig at the teleport location, which may be useful as a one-time teleport.",
+      "rationale": "Drinking at 78 Sailing directly teleports the player west of Pollnivneach; the article also states courier cargo in the boat hold is destroyed."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit exact-ID decisions from the twenty-one pinned root-approved policy files.
+"""Emit exact-ID decisions from the pinned root-approved policy files.
 
 This read-only builder verifies pinned candidate evidence without accepting
 candidate decisions as approvals. It never changes plugin sources or the frozen
@@ -23,6 +23,9 @@ CERT = ROOT / "tools/research/semantic-grouping-audit/certification"
 BASE = ROOT / "tmp/category-certification"
 PACKET_DIR = BASE / "reviewer-packets"
 ARTICLE_INDEX = BASE / "wiki-articles/article-index.json"
+PACKET_NAMES = tuple(name + '.jsonl' for name in (
+    'gear', 'skilling-farming', 'supplies-herblore', 'tools', 'clue-unique',
+    'currency-runes-teleport', 'cleanup-quest', 'cleanup-other'))
 POLICY_NAMES = (
     "cleanup-other-policy.json",
     "materials-approved-policy.json",
@@ -45,6 +48,17 @@ POLICY_NAMES = (
     "clue-cosmetic-corrections-approved-policy.json",
     "cooking-stage-primary-approved-policy.json",
     "cooking-stage-corrections-approved-policy.json",
+    "potion-primary-approved-policy.json",
+    "potion-corrections-approved-policy.json",
+    "materials-v15-primary-approved-policy.json",
+    "materials-v15-corrections-approved-policy.json",
+    "materials-v15-g101-340-primary-approved-policy.json",
+    "materials-v15-g101-340-corrections-approved-policy.json",
+    "materials-v15-g341-493-corrections-approved-policy.json",
+    "gear-primary-through246-same-approved-policy.json",
+    "gear-primary-through246-corrections-approved-policy.json",
+    "gear-primary-next157-same-approved-policy.json",
+    "gear-primary-next157-corrections-approved-policy.json",
 )
 DEFAULT_OUTPUT = BASE / "root-approved-decisions.jsonl"
 CLUE_RULE = CERT / "clue-scroll-approved-rule.json"
@@ -82,9 +96,7 @@ def normalized(value: Any) -> str:
 
 def load_packets() -> dict[int, dict[str, Any]]:
     packets: dict[int, dict[str, Any]] = {}
-    for path in sorted(PACKET_DIR.glob("*.jsonl")):
-        if path.name.startswith("decisions-"):
-            continue
+    for path in sorted(PACKET_DIR / name for name in PACKET_NAMES):
         for line_number, line in enumerate(path.read_text(encoding="utf-8-sig").splitlines(), 1):
             if not line.strip():
                 continue
@@ -123,6 +135,10 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
         if canonical != approved["canonicalSha256"] or sorted(case["itemId"] for case in policy["cases"]) != approved["approvedItemIds"] or len(policy["cases"]) != approved["caseCount"]:
             raise ValueError(f"Root policy contents or exact ID set differ from the separate approval pin: {name}")
         primary_verifiers = {
+            "gear-primary-through246-same-approved-policy.json": ("verify-gear-primary-through246-policy.py", 115),
+            "gear-primary-through246-corrections-approved-policy.json": ("verify-gear-primary-through246-policy.py", 110),
+            "gear-primary-next157-same-approved-policy.json": ("verify-gear-primary-next157-policy.py", 88),
+            "gear-primary-next157-corrections-approved-policy.json": ("verify-gear-primary-next157-policy.py", 69),
             "gear-primary-approved-policy.json": ("verify-gear-primary-policy.py", 939),
             "food-primary-approved-policy.json": ("verify-food-primary-policy.py", 40),
             "teleport-primary-approved-policy.json": ("verify-teleport-primary-policy.py", 72),
@@ -135,6 +151,13 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
             "clue-cosmetic-corrections-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 10),
             "cooking-stage-primary-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 4),
             "cooking-stage-corrections-approved-policy.json": ("verify-cosmetic-cooking-policies.py", 5),
+            "potion-primary-approved-policy.json": ("verify-potion-primary-policies.py", 347),
+            "potion-corrections-approved-policy.json": ("verify-potion-primary-policies.py", 40),
+            "materials-v15-primary-approved-policy.json": ("verify-materials-v15-first100.py", 7),
+            "materials-v15-corrections-approved-policy.json": ("verify-materials-v15-first100.py", 75),
+            "materials-v15-g101-340-primary-approved-policy.json": ("verify-materials-v15-g101-340.py", 37),
+            "materials-v15-g101-340-corrections-approved-policy.json": ("verify-materials-v15-g101-340.py", 152),
+            "materials-v15-g341-493-corrections-approved-policy.json": ("verify-materials-v15-g341-493.py", 255),
         }
         if name in primary_verifiers:
             script, expected_count = primary_verifiers[name]
@@ -143,7 +166,10 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
                 raise ValueError("Cannot load the approved primary provenance verifier: " + script)
             verifier = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(verifier)
-            verifier.verify_policy(policy)
+            if name in {"gear-primary-through246-same-approved-policy.json", "gear-primary-through246-corrections-approved-policy.json", "gear-primary-next157-same-approved-policy.json", "gear-primary-next157-corrections-approved-policy.json"}:
+                verifier.verify_policy(policy, expected_policy_name=name)
+            else:
+                verifier.verify_policy(policy)
             if len(policy["cases"]) != expected_count:
                 raise ValueError(f"Expected exactly {expected_count} approved cases in {name}")
         if name == "raw-food-primary-approved-policy.json":
@@ -165,8 +191,8 @@ def load_policy_cases() -> tuple[dict[int, tuple[dict[str, Any], str]], dict[str
                 prior = cases[item_id][1]
                 raise ValueError(f"Root policy ID {item_id} overlaps {prior} and {name}")
             cases[item_id] = (case, name)
-    if len(cases) != 1908:
-        raise ValueError(f"Expected exactly 1,908 disjoint approved policy cases, found {len(cases)}")
+    if len(cases) != 3203:
+        raise ValueError(f"Expected exactly 3,203 disjoint approved policy cases, found {len(cases)}")
     return cases, hashes
 
 
@@ -229,12 +255,13 @@ def exact_facts(case: dict[str, Any], source: dict[str, Any], item_id: int) -> l
 
 def tab_for(category: str, subcategory: str, item_id: int) -> str:
     # Keep item-specific routes from PresetCategoryMapper explicit and fail closed.
+    # Exact mapper-qualified achievement rewards stay on the default gather tab.
+    if category == "GEAR" and item_id in {11136, 13103, 13113, 13118, 13123, 13125, 13128, 13129, 13132}:
+        return "currency-utilities"
     if item_id in {7936, 24704, 32083, 32085}:
         return "resources"
     if item_id in {5509, 5510, 5511, 5512, 5513, 5514, 5515, 26784, 26786, 5521, 19634, 13392, 25781}:
         return "skilling-tools"
-    if item_id == 1201:
-        return "slayer-boss-loot"
     if item_id in {762, 1588}:
         return "storage-cleanup"
     if category not in STANDARD_TABS:
@@ -288,12 +315,23 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
         "clue-residual44-primary-approved-policy.json", "clue-cosmetic-primary-approved-policy.json",
         "clue-cosmetic-corrections-approved-policy.json", "cooking-stage-primary-approved-policy.json",
         "cooking-stage-corrections-approved-policy.json",
+        "potion-primary-approved-policy.json", "potion-corrections-approved-policy.json",
+        "materials-v15-primary-approved-policy.json", "materials-v15-corrections-approved-policy.json",
+        "materials-v15-g101-340-primary-approved-policy.json", "materials-v15-g101-340-corrections-approved-policy.json",
+        "materials-v15-g341-493-corrections-approved-policy.json",
     }
     positive_quote = None
     if policy_name in direct_function_policies:
         positive_quote = verify_quote(source, item_id, case["positiveFunctionExcerpt"], "positiveFunctionExcerpt")
         if positive_quote not in [excerpt] + secondary_quotes:
             evidence.append(citation(title, source, item_id, positive_quote))
+
+    if case.get("contextEvidence"):
+        if policy_name != "materials-v15-g341-493-corrections-approved-policy.json" or item_id != 30975:
+            raise ValueError("Unexpected generic ritual context")
+        # The pinned policy verifier checks these literal generic passages.
+        # They provide ritual context, without an Alan-specific XP claim.
+        evidence.extend(case["contextEvidence"])
 
     tag_evidence = case.get("tagEvidence", {}) or {}
     if not isinstance(tag_evidence, dict):
@@ -319,12 +357,18 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
     tags.update(roles)
     proposed_tags = sorted(tags)
     tab = tab_for(category, subcategory, item_id)
+    if policy_name in {"potion-primary-approved-policy.json", "potion-corrections-approved-policy.json"}:
+        # The provenance verifier independently recomputes this from the exact
+        # sort/dose-family metadata; targets are never copied from after-coverage.
+        tab = case["proposedIronmanTabKey"]
     changed = (category != current["category"] or subcategory != current["subcategory"] or
                proposed_tags != sorted(current["tags"]) or tab != current["ironmanTabKey"])
     decision = "revise" if changed else "certify"
-    primary_only = policy_name in {"gear-primary-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json", "farming-supplemental-approved-policy.json", "clue-residual44-primary-approved-policy.json", "clue-cosmetic-primary-approved-policy.json", "cooking-stage-primary-approved-policy.json"}
+    primary_only = policy_name in {"gear-primary-approved-policy.json", "gear-primary-through246-same-approved-policy.json", "gear-primary-next157-same-approved-policy.json", "food-primary-approved-policy.json", "raw-food-primary-approved-policy.json", "teleport-primary-approved-policy.json", "rune-primary-approved-policy.json", "tool-primary-approved-policy.json", "farming-primary-approved-policy.json", "farming-supplemental-approved-policy.json", "clue-residual44-primary-approved-policy.json", "clue-cosmetic-primary-approved-policy.json", "cooking-stage-primary-approved-policy.json"}
     expected = "certify" if primary_only else "revise"
-    primary_scope_only = primary_only or policy_name in direct_function_policies
+    if policy_name in {"potion-primary-approved-policy.json", "materials-v15-primary-approved-policy.json", "materials-v15-g101-340-primary-approved-policy.json"}:
+        expected = "certify"
+    primary_scope_only = primary_only or policy_name in direct_function_policies or policy_name in {"gear-primary-through246-same-approved-policy.json", "gear-primary-through246-corrections-approved-policy.json", "gear-primary-next157-same-approved-policy.json", "gear-primary-next157-corrections-approved-policy.json"}
     if primary_scope_only and (roles or case.get("proposedTags") or tag_evidence):
         raise ValueError(f"item {item_id}: primary-only policy cannot add tag or supplemental-role claims")
     if decision != expected:
@@ -366,6 +410,130 @@ def make_actionable(case: dict[str, Any], policy_name: str, policy_hash: str,
                if primary_scope_only else {}),
         },
     }
+
+
+def load_bank_policy() -> tuple[dict[int, dict[str, Any]], dict[str, str]]:
+    spec = importlib.util.spec_from_file_location('root_bank_verifier', CERT / 'verify-bank-ignore-policy.py')
+    if spec is None or spec.loader is None:
+        raise ValueError('Cannot load detached bank policy verifier')
+    verifier = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(verifier)
+    verifier.verify_policy()
+    policy = json.loads((CERT / 'bank-ignore-approved-policy.json').read_text(encoding='utf-8'))
+    return ({case['itemId']: case for case in policy['cases']}, {
+        'policy': sha256(CERT / 'bank-ignore-approved-policy.json'),
+        'approvalPin': sha256(CERT / 'bankability-policy-approvals.json'),
+        'verifier': sha256(CERT / 'verify-bank-ignore-policy.py'),
+        'runtimeResource': policy['runtimeResourceSha256'],
+    })
+
+
+def make_bank_exclusion(case: dict[str, Any], packet: dict[str, Any], hashes: dict[str, str],
+                        sources: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    item_id = case['itemId']; title = case['sourceTitle']; source = sources[title]
+    if source['sha256'] != case['sourceSha256'] or source['revid'] != case['sourceRevision']:
+        raise ValueError(f'#{item_id}: bank exclusion source differs from exact indexed article')
+    facts = []
+    for field in case['exactIdField'] + case['bankabilityField']:
+        if isinstance(field, str):
+            match = re.fullmatch(r'\|\s*(\w+)\s*=\s*(.*?)\s*', field)
+            if match is None:
+                raise ValueError(f'#{item_id}: bank field is not a literal assignment')
+            facts.append({'field': match[1], 'value': match[2]})
+        else:
+            facts.append(field)
+    quote = 'This item cannot be deposited into a bank.' if item_id in {13183, 13184} else ''
+    current = packet['current']
+    return {
+        'itemId': item_id, 'shard': packet['shard'], 'decision': 'exclude',
+        'exclusionReason': 'NON_BANKABLE', 'proposedCategory': current['category'],
+        'proposedSubcategory': current['subcategory'], 'proposedIronmanTabKey': current['ironmanTabKey'],
+        'proposedTags': sorted(current['tags']), 'proposedRoles': None, 'roleClaimScope': 'unassessed',
+        'semanticPredicate': 'Exact own selected bankable=No or direct no-deposit prose; excluded only from unobserved bank-deposit candidates.',
+        'rationale': 'Root-approved deposit prohibition. Retain this ID in the audit denominator and preserve every observed live row; reference category and tags are not certified by this exclusion.',
+        'evidence': [citation(title, source, item_id, quote, facts)], 'identityLinks': [],
+        'reviewer': 'root-approved-bank-policy-emitter', 'rootBankabilityApproval': hashes,
+    }
+
+
+def load_bank_supplement():
+    spec = importlib.util.spec_from_file_location('root_bank_supplement', CERT / 'verify-bank-ignore-supplemental.py')
+    if spec is None or spec.loader is None:
+        raise ValueError('Cannot load supplemental bank verifier')
+    verifier = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(verifier)
+    verifier.verify()
+    policy = json.loads((CERT / 'bank-ignore-supplemental-approved-policy.json').read_text(encoding='utf-8'))
+    return ({case['itemId']: case for case in policy['cases']}, {
+        'policy': sha256(CERT / 'bank-ignore-supplemental-approved-policy.json'),
+        'approvalPin': sha256(CERT / 'bankability-supplemental-approvals.json'),
+        'verifier': sha256(CERT / 'verify-bank-ignore-supplemental.py'),
+        'runtimePolicy': policy['sourceHashes']['src/main/java/com/pkoka5/ironmanbankarchitect/catalog/BankabilityPolicy.java'],
+    })
+
+
+def make_bank_supplemental_exclusion(case, packet, hashes, sources):
+    row = make_bank_exclusion(case, packet, hashes, sources)
+    source = sources[case['sourceTitle']]
+    row['evidence'] = [citation(case['sourceTitle'], source, case['itemId'], case['quote'],
+                                [{'field': 'id', 'value': '13532'}])]
+    row['semanticPredicate'] = 'Exact own current article records an unconditional bank deposit prohibition for ID 13532; exclude only unobserved deposit candidates.'
+    row['rationale'] = 'Root reviewed the full own article and separately approved the direct dated deposit prohibition. Missing bankable remains unknown. Preserve every observed bank row; category, tags, availability and other roles remain unassessed.'
+    return row
+
+
+def load_bank_context(packets: dict[int, dict[str, Any]], occupied: set[int]):
+    spec = importlib.util.spec_from_file_location('root_bank_context', CERT / 'verify-bank-context-placement.py')
+    if spec is None or spec.loader is None:
+        raise ValueError('Cannot load conditional bank-context verifier')
+    verifier = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(verifier)
+    policy, candidates, snapshot, pins = verifier.verify()
+    hashes = {name: sha256(CERT / name) for name in (
+        'bank-context-placement-approved-policy.json', 'bank-context-placement-approvals.json',
+        'verify-bank-context-placement.py')}
+    result = {}
+    snapshot_hash = sha256(verifier.SNAPSHOT)
+    for candidate in candidates:
+        item_id, target = candidate['itemId'], candidate['targetItemId']
+        if item_id in occupied:
+            raise ValueError(f'Conditional bank-context case overlaps another approval: {item_id}')
+        packet, base = packets[item_id], snapshot[target]
+        current = packet['current']
+        if (current['category'], current['subcategory'], current['ironmanTabKey']) != (
+                base['proposedCategory'], base['proposedSubcategory'], base['proposedIronmanTabKey']):
+            raise ValueError(f'Conditional bank placement changes frozen assignment: {item_id}')
+        relation = candidate['relation']
+        condition = policy['conditions'][relation]
+        own_evidence = [e for e in base['evidence'] if e.get('itemId') == target
+                        and e['kind'] in {'exact_wiki', 'direct_variant'}]
+        transformation = [{
+            'kind': 'local_source', 'source': pin['url'], 'sourceTitle': pin['title'],
+            'sourceRevision': pin['revision'], 'sourceHash': pin['sha256'],
+            'sourcePath': pin['localPath'], 'quote': passage['text'],
+            'claimScope': 'generic bank transformation or restriction; not exact raw-item semantics',
+        } for pin in pins['pins'] for passage in pin['passages']]
+        result[item_id] = {
+            'itemId': item_id, 'shard': packet['shard'], 'decision': 'certify',
+            'proposedCategory': current['category'], 'proposedSubcategory': current['subcategory'],
+            'proposedIronmanTabKey': current['ironmanTabKey'], 'proposedTags': sorted(current['tags']),
+            'proposedRoles': None, 'roleClaimScope': 'unassessed',
+            'assignmentClaimScope': 'bank-context canonical placement only',
+            'rawItemFunctionClaimScope': 'unassessed', 'availabilityClaimScope': 'unassessed',
+            'semanticPredicate': candidate['semanticPredicate'],
+            'rationale': f'Root approves only conditional bank-context placement for exact {relation} '
+                         f'edge {item_id} -> {target}. {condition} The exact target primary placement '
+                         'was separately approved before this integration. Raw functions, tags, '
+                         'availability and broad item equivalence remain unassessed.',
+            'evidence': transformation,
+            'identityLinks': [{'itemId': target, 'fromItemId': item_id, 'toItemId': target,
+                               'relation': relation, 'evidence': [candidate['typedCacheEvidence']] + own_evidence}],
+            'reviewer': 'root-approved-bank-context-rule', 'rootBankContextApproval': hashes,
+            'approvedCanonicalBase': {'itemId': target, 'decision': base['decision'],
+                                      'frozenDecisionSha256': verifier.canonical(base),
+                                      'frozenSnapshotSha256': snapshot_hash},
+        }
+    return result, hashes
 
 
 def load_root_certifications(path: Path, packets: dict[int, dict[str, Any]],
@@ -465,6 +633,12 @@ def main() -> None:
             "decisions": decisions_hash,
         }
     output_rows: list[dict[str, Any]] = []
+    bank_cases, bank_hashes = load_bank_policy()
+    bank_supplement, bank_supplement_hashes = load_bank_supplement()
+    if set(bank_supplement) & (set(cases) | set(optional_certifications) | set(bank_cases)):
+        raise ValueError('Supplemental bank case overlaps a prior primary or bank policy')
+    bank_context, bank_context_hashes = load_bank_context(
+        packets, set(cases) | set(optional_certifications) | set(bank_cases) | set(bank_supplement))
     for item_id in sorted(packets):
         packet = packets[item_id]
         if item_id in cases:
@@ -473,6 +647,13 @@ def main() -> None:
                                                packet, article_index, article_index_hash))
         elif item_id in optional_certifications:
             output_rows.append(optional_certifications[item_id])
+        elif item_id in bank_cases:
+            output_rows.append(make_bank_exclusion(bank_cases[item_id], packet, bank_hashes, article_index))
+        elif item_id in bank_supplement:
+            output_rows.append(make_bank_supplemental_exclusion(bank_supplement[item_id], packet,
+                                                               bank_supplement_hashes, article_index))
+        elif item_id in bank_context:
+            output_rows.append(bank_context[item_id])
         else:
             current = packet["current"]
             output_rows.append({
@@ -508,20 +689,27 @@ def main() -> None:
                              row.get("proposedCategory", ""), row.get("proposedSubcategory", ""),
                              row.get("proposedIronmanTabKey", ""), ",".join(revisions) or "-"])
     packet_hashes = {str(path.relative_to(ROOT)).replace("\\", "/"): sha256(path)
-                     for path in sorted(PACKET_DIR.glob("*.jsonl")) if not path.name.startswith("decisions-")}
+                     for path in sorted(PACKET_DIR / name for name in PACKET_NAMES)}
     coverage_path = BASE / "current-coverage.tsv"
     manifest = {
         "schema": "root-approved-category-decisions/v1",
         "policyCaseCount": len(cases),
         "optionalRootCertificationCount": len(optional_certifications),
+        "bankContextPlacementCount": len(bank_context),
+        "ownPrimaryApprovalCount": sum(row['decision'] in {'certify', 'revise'} and
+                                       row.get('assignmentClaimScope') != 'bank-context canonical placement only'
+                                       for row in output_rows),
         "decisionRows": len(output_rows),
         "actionableRows": sum(row["decision"] in {"certify", "revise", "exclude"} for row in output_rows),
         "unresolvedRows": sum(row["decision"] == "unresolved" for row in output_rows),
         "actionCounts": dict(sorted(Counter(row["decision"] for row in output_rows).items())),
         "replayScriptHashes": {name: sha256(CERT / name) for name in
                                ("emit-root-approved-decisions.py", "review-approved-clue-scrolls.py", "ledger.py",
-                                "verify-gear-primary-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py", "verify-farming-supplemental-policy.py", "verify-cosmetic-cooking-policies.py")},
+                                "verify-gear-primary-policy.py", "verify-gear-primary-through246-policy.py", "verify-gear-primary-next157-policy.py", "verify-gear-bonus-sources.py", "verify-food-primary-policy.py", "verify-teleport-primary-policy.py", "verify-rune-primary-policy.py", "verify-tool-primary-policy.py", "verify-farming-primary-policy.py", "verify-farming-supplemental-policy.py", "verify-cosmetic-cooking-policies.py", "verify-potion-primary-policies.py", "verify-bank-context-placement.py", "verify-materials-v15-first100.py", "verify-materials-v15-g101-340.py", "verify-materials-v15-g341-493.py", "verify-bank-ignore-supplemental.py")},
         "sourceHashes": {
+            "bankabilityPolicy": bank_hashes,
+            "bankabilitySupplementalPolicy": bank_supplement_hashes,
+            "bankContextPlacement": bank_context_hashes,
             "policies": policy_hashes,
             "rootPolicyApprovals": sha256(CERT / "root-policy-approvals.json"),
             "optionalCertifications": certification_hashes,

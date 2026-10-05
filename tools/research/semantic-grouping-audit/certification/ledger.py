@@ -246,12 +246,13 @@ def build(coverage_path: Path, joined_path: Path, article_index_path: Path,
 def validate_decisions(packet_dir: Path, decision_paths: Iterable[Path],
                        shard_names: set[str] | None = None) -> None:
     universe: dict[int, dict[str, Any]] = {}
-    for packet_path in sorted(packet_dir.glob("*.jsonl")):
-        if packet_path.name.startswith("decisions-"):
-            continue
+    for packet_path in sorted(packet_dir / f"{name}.jsonl" for name in SHARDS
+                              if (packet_dir / f"{name}.jsonl").is_file()):
         with packet_path.open(encoding="utf-8") as stream:
             for line in stream:
                 packet = json.loads(line)
+                if packet["itemId"] in universe:
+                    raise ValueError(f"Duplicate frozen packet item ID: {packet['itemId']}")
                 universe[packet["itemId"]] = packet
     expected = {item_id: packet for item_id, packet in universe.items()
                 if shard_names is None or packet["shard"] in shard_names}
@@ -409,6 +410,9 @@ def verify_applied(coverage_path: Path, decision_paths: Iterable[Path]) -> None:
                 row = current[item_id]
                 if decision.get("decision") == "exclude":
                     exclusions_checked += 1
+                    if (decision.get("exclusionReason") == "NON_BANKABLE" and
+                            row.get("auditScope") != "EXCLUDED_NON_BANKABLE"):
+                        mismatches.append(f"item {item_id}: exact nonbankable exclusion scope is missing")
                     if row.get("auditScope") in {"NAMED_EFFECTIVE", "SUPPLEMENTAL"}:
                         mismatches.append(f"item {item_id}: exclusion is not reflected in the new export scope")
                     continue
@@ -612,12 +616,13 @@ def write_gap_report(packet_dir: Path, coverage_path: Path, article_index_path: 
                      decision_paths: list[Path], output_path: Path) -> None:
     """Write a deterministic per-ID view of unresolved work and verified audit gates."""
     packet_by_id: dict[int, dict[str, Any]] = {}
-    for packet_path in sorted(packet_dir.glob("*.jsonl")):
-        if packet_path.name.startswith("decisions-"):
-            continue
+    for packet_path in sorted(packet_dir / f"{name}.jsonl" for name in SHARDS
+                              if (packet_dir / f"{name}.jsonl").is_file()):
         with packet_path.open(encoding="utf-8") as stream:
             for line in stream:
                 packet = json.loads(line)
+                if packet["itemId"] in packet_by_id:
+                    raise ValueError(f"Duplicate frozen packet item ID: {packet['itemId']}")
                 packet_by_id[packet["itemId"]] = packet
 
     coverage_by_id: dict[int, dict[str, str]] = {}

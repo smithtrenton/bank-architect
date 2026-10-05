@@ -143,6 +143,7 @@ public class ResourceItemRegistryTest
 	public void runeGearIsRefinedToGearWhileActualRunesStayRunes()
 	{
 		assertCategory(1333, "Rune scimitar", ItemCategory.GEAR);
+		assertClassification(1201, "Rune kiteshield", ItemCategory.GEAR, "shield");
 		assertCategory(811, "Rune dart", ItemCategory.GEAR);
 		assertCategory(554, "Fire rune", ItemCategory.RUNE);
 		assertCategory(556, "Air rune", ItemCategory.RUNE);
@@ -567,7 +568,8 @@ public class ResourceItemRegistryTest
 		for (int itemId : new int[]{19586, 19589, 19592, 19595, 19598, 19601, 19604, 19607, 19610})
 		{
 			assertCategoryOnly(itemId, ItemCategory.SKILLING);
-			assertSubcategory(itemId, "ammo-component");
+			assertSubcategory(itemId, itemId == 19586 || itemId == 19589 || itemId == 19592 || itemId == 19601
+				? "fletching-material" : "ammo-component");
 		}
 	}
 
@@ -703,7 +705,7 @@ public class ResourceItemRegistryTest
 		assertCategory(10498, "Ava's attractor", ItemCategory.GEAR);
 		assertSubcategory(10498, "gear");
 		assertCategory(10499, "Ava's accumulator", ItemCategory.GEAR);
-		assertSubcategory(10499, "gear");
+		assertSubcategory(10499, "cape");
 		assertCategory(22109, "Ava's assembler", ItemCategory.GEAR);
 		assertSubcategory(22109, "gear");
 		assertCategory(24222, "Ava's assembler (l)", ItemCategory.GEAR);
@@ -1434,7 +1436,7 @@ public class ResourceItemRegistryTest
 		assertCategory(9674, "Proselyte hauberk", ItemCategory.GEAR);
 		assertSubcategory(9674, "body");
 		assertCategory(10499, "Ava's accumulator", ItemCategory.GEAR);
-		assertSubcategory(10499, "gear");
+		assertSubcategory(10499, "cape");
 	}
 
 	@Test
@@ -1552,7 +1554,8 @@ public class ResourceItemRegistryTest
 		assertAuditFamily(new int[] {29928}, ItemCategory.CLEANUP, "quest-item"); // wine labels
 
 		assertAuditFamily(new int[] {3691, 6125, 6126, 6127}, ItemCategory.TELEPORT, "teleport");
-		assertAuditFamily(new int[] {7528, 3422, 3424, 3426, 3428}, ItemCategory.SKILLING, "resource");
+		assertAuditFamily(new int[] {7528}, ItemCategory.CLEANUP, "quest-item");
+		assertAuditFamily(new int[] {3422, 3424, 3426, 3428}, ItemCategory.SKILLING, "resource");
 		assertAuditFamily(new int[] {732}, ItemCategory.GEAR, "thrown-weapon");
 		assertAuditFamily(new int[] {7645, 7646, 7647, 7648}, ItemCategory.GEAR, "weapon");
 
@@ -1636,7 +1639,7 @@ public class ResourceItemRegistryTest
 			ItemCategory.CLEANUP, "quest-item"); // completed puzzle notes
 
 		// Repeatable or durable functions win over quest origin.
-		assertAuditFamily(new int[] {7529}, ItemCategory.SKILLING, "resource");
+		assertAuditFamily(new int[] {7529}, ItemCategory.SKILLING, "cooking-material");
 		assertAuditFamily(new int[] {7530}, ItemCategory.POTION, "food");
 		assertAuditFamily(new int[] {678, 679}, ItemCategory.TOOL, "skilling-utility");
 		assertAuditFamily(new int[] {605}, ItemCategory.TOOL, "quest-utility");
@@ -1668,8 +1671,9 @@ public class ResourceItemRegistryTest
 		assertAuditFamily(new int[] {31985, 31807}, ItemCategory.TOOL, "sailing-utility");
 		assertAuditFamily(new int[] {6635, 9681, 28133, 28363, 21756},
 			ItemCategory.TOOL, "quest-utility");
-		assertAuditFamily(new int[] {10167, 3694},
+		assertAuditFamily(new int[] {10167},
 			ItemCategory.SKILLING, "crafting-material");
+		assertAuditFamily(new int[] {3694}, ItemCategory.CLEANUP, "quest-item");
 		assertAuditFamily(new int[] {4241}, ItemCategory.SKILLING, "cooking-material");
 		assertAuditFamily(new int[] {30970, 29874}, ItemCategory.CLUE, "cosmetic");
 		assertAuditFamily(new int[] {21798}, ItemCategory.UNIQUE, "equipment-upgrade");
@@ -1985,7 +1989,7 @@ public class ResourceItemRegistryTest
 		// Duplicate/internal aliases and explicit no-op decisions from the vetted correction batch.
 		for (int itemId : new int[] {289, 627, 637, 14048, 16420, 17427, 17428,
 			19959, 19962, 20715, 25575, 27358, 30065,
-			1201, 28027, 13393, 4178})
+			28027, 13393, 4178})
 		{
 			assertFalse("no canonical override for negative-control ID " + itemId,
 				CanonicalItemClassificationOverrides.find(itemId).isPresent());

@@ -22,6 +22,7 @@ public class EffectiveItemClassificationExporterTest
 		Files.write(registry, (
 			"\uFEFF145\tSuper attack (3)\tPOTION\tSUPER_ATTACK3\n" +
 			"3841\tDamaged book\tHERBLORE\tUNFINISHED_ZAMORAKBOOK\n" +
+			"2875\tBloated toad\tCLEANUP\tBLOATED_TOAD\n" +
 			"900001\tRestricted variant\tGEAR\tWEAPON_BR_VARIANT\n" +
 			"900002\tCrossbow cache name\tGEAR\tCROSSBOW_BRONZE\n" +
 			"900000\tInterface thing\tUNKNOWN\tBANK_INTERFACE_DUMMY\n" +
@@ -37,7 +38,10 @@ public class EffectiveItemClassificationExporterTest
 		assertTrue(coverageRows.stream().anyMatch(row -> row.startsWith("34\tNull\tCERT_LIT_CANDLE\tNULL_NAME\t")));
 		assertTrue(coverageRows.stream().anyMatch(row -> row.startsWith("900000\tInterface thing\tBANK_INTERFACE_DUMMY\tEXCLUDED_CACHE\t")));
 		assertEquals(1, coverageRows.stream().filter(row -> row.startsWith("145\t")).count());
-		assertEquals(4, stats.included);
+		assertTrue(coverageRows.stream().anyMatch(row -> row.startsWith("2875\tBloated toad\tBLOATED_TOAD\tEXCLUDED_NON_BANKABLE\t")
+			&& row.contains("\tSKILLING\tresources\thunter-resource\t") && row.endsWith("\tNAMED_EFFECTIVE")));
+		assertEquals(1, coverageRows.stream().filter(row -> row.startsWith("2875\t")).count());
+		assertEquals(5, stats.included);
 		assertEquals(1, stats.excluded);
 		List<String> rows = Files.readAllLines(output, StandardCharsets.UTF_8);
 		assertTrue(rows.stream().anyMatch(row -> row.startsWith("145\tSuper attack (3)\tPOTION\tpotion-dose-3\therblore\therblore.super-attack.3\t")));

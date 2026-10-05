@@ -272,7 +272,7 @@ public class PresetCategoryMapperTest
 			item(25781, ItemCategory.SKILLING, "Ash sanctifier")).getKey());
 		assertEquals("skilling-tools", PresetCategoryMapper.map(BankPresets.IRONMAN,
 			item(13392, ItemCategory.TELEPORT, "Xeric's talisman (inert)")).getKey());
-		assertEquals("slayer-boss-loot", PresetCategoryMapper.map(BankPresets.IRONMAN,
+		assertEquals("combat-gear", PresetCategoryMapper.map(BankPresets.IRONMAN,
 			item(1201, ItemCategory.GEAR, "Rune kiteshield")).getKey());
 		assertEquals("storage-cleanup", PresetCategoryMapper.map(BankPresets.IRONMAN,
 			item(1588, ItemCategory.GEAR, "Grip's keyring")).getKey());
@@ -390,7 +390,8 @@ public class PresetCategoryMapperTest
 			26904, 25812, 29898, 29899, 33771, 9656, 9657, 9658,
 			3265, 28386, 28387, 33770, 29928);
 		assertRegistryItemsRoute("currency-utilities", 3691, 6125, 6126, 6127);
-		assertRegistryItemsRoute("resources", 7528, 3422, 3424, 3426, 3428,
+		assertRegistryItemsRoute("storage-cleanup", 7528);
+		assertRegistryItemsRoute("resources", 3422, 3424, 3426, 3428,
 			7480, 7481, 7482, 7483, 7484, 7485, 7486, 7487,
 			7488, 7489, 7490, 7491, 7492, 7493, 7494, 7495);
 		assertRegistryItemsRoute("combat-gear", 732, 7645, 7646, 7647, 7648);
@@ -420,7 +421,7 @@ public class PresetCategoryMapperTest
 		{
 			expected.put(itemId, "currency-utilities");
 		}
-		expected.put(1201, "slayer-boss-loot");
+		expected.put(1201, "combat-gear");
 
 		// Hammer (2347), the 33rd PDF choice, is intentionally handled later by
 		// IronmanQuickToolSelector and has its own full-preview regression tests.

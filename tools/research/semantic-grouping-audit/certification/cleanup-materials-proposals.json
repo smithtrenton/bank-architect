@@ -1,0 +1,882 @@
+{
+  "schema": 1,
+  "license": "OSRS Wiki CC BY-NC-SA 3.0",
+  "scope": "Curated exact-ID proposals for generic Cleanup rows with repeatable food, Cooking, Herblore, Farming-support, or production workflows; excludes root-approved 35 IDs.",
+  "identityPolicy": "Every case is tied to its own exact infobox variant ID. No name or adjacent-ID propagation. Exact Wiki source revision, URL, SHA-256, and literal mechanic excerpt are included.",
+  "primaryRolePolicy": "Prefer documented primary repeatable bank workflow over acquisition provenance or a broad category facet. Distinguish edible food from recipe-only inputs, crop-care supplies from reusable tools, and Farming provenance from Herblore/Cooking/textile destinations.",
+  "excludedRootApprovedItemIds": [
+    464,
+    1037,
+    1550,
+    1969,
+    2631,
+    6889,
+    6916,
+    6918,
+    6924,
+    10146,
+    10147,
+    10148,
+    10149,
+    10330,
+    10342,
+    10582,
+    10583,
+    10584,
+    11037,
+    11128,
+    11889,
+    11905,
+    11907,
+    11924,
+    11926,
+    12006,
+    12357,
+    12419,
+    12420,
+    12421,
+    12453,
+    26231,
+    29784,
+    29993,
+    30800
+  ],
+  "cases": [
+    {
+      "itemId": 1865,
+      "exactVariantId": 1865,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Pitta bread",
+      "sourceRevision": 15185165,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15185165",
+      "sourceSha256": "39c6c733c827c78d8b65854d29854fd825c181f20a53b7702500dc06bde31d4c",
+      "semanticExcerpt": "Pitta bread''' are a type of [[food]] used to make [[Ugthanki kebab]]s",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact item is identified as food and used in a kebab recipe; preserve its Cooking-input role alongside its primary edible-food placement."
+    },
+    {
+      "itemId": 1927,
+      "exactVariantId": 1927,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Bucket of milk",
+      "sourceRevision": 15360844,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15360844",
+      "sourceSha256": "3d411d7e014a7f93a8d1bf33babe4def3a0fb4b1923f061c444fd751cfe22907",
+      "semanticExcerpt": "A '''bucket of milk''' is a [[Cooking]] ingredient used to make a variety of drinks and foods",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "recipe_material"
+      ],
+      "proposedTags": [],
+      "rationale": "The article calls this exact bucket state a Cooking ingredient and documents repeatable dairy processing; quest uses are secondary."
+    },
+    {
+      "itemId": 1942,
+      "exactVariantId": 1942,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Potato",
+      "sourceRevision": 15183484,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15183484",
+      "sourceSha256": "8e2999eac9904f1d1ca6673d7c18774960b27f24ab60feacb119f8ba79992f65",
+      "semanticExcerpt": "They are used in the following recipes",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "edible_food",
+        "hitpoint_restore",
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Raw potatoes heal only 1 hitpoint but are inputs to multiple repeatable Cooking recipes; preserve Farming harvest and edible state as secondary roles.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1942"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 1953,
+      "exactVariantId": 1953,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Pastry dough",
+      "sourceRevision": 15249298,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15249298",
+      "sourceSha256": "d178a280b9b4885cb5fe298c5d6aad1cefa20746105821330f8a7dcc6834bbf7",
+      "semanticExcerpt": "Pastry dough''' is used to make [[pies",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "recipe_material"
+      ],
+      "proposedTags": [],
+      "rationale": "Pastry dough is a repeatable intermediate made into pie shells and pies."
+    },
+    {
+      "itemId": 1987,
+      "exactVariantId": 1987,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Grapes",
+      "sourceRevision": 15353159,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15353159",
+      "sourceSha256": "2676d3faf2181b63aa5020fca9aaff52e22b0f650dc0fd8c2eeef18540fb0f43",
+      "semanticExcerpt": "They are an ingredient for making a [[jug of wine]] at level 35 [[Cooking",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact grapes are a Farming crop and direct input to fermented wine; the stronger repeatable wine-making workflow determines placement."
+    },
+    {
+      "itemId": 2102,
+      "exactVariantId": 2102,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Lemon",
+      "sourceRevision": 15184165,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184165",
+      "sourceSha256": "05912a93daed9bcb2ea931bddd7263c469d2d72c044f330dea50c8b338d7dc90",
+      "semanticExcerpt": "A '''lemon''' is a [[food]] item that heals 2 [[hitpoints]] when eaten",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "hitpoint_restore",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact lemon is edible and heals 2 hitpoints. Its Gnome-cooking ingredient role remains secondary to direct food use.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2102"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 2104,
+      "exactVariantId": 2104,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Lemon chunks",
+      "sourceRevision": 15184765,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184765",
+      "sourceSha256": "d8d59006e8ac7b3ef22300dadb4b2fd4fb7140220a72c8bd5528931edb225128",
+      "semanticExcerpt": "Lemon chunks are used as an ingredient in a [[Blurberry special",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact lemon-chunk variant is edible and used in a cocktail recipe; place with food while retaining its recipe-input role.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2104"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 2106,
+      "exactVariantId": 2106,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Lemon slices",
+      "sourceRevision": 15184764,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184764",
+      "sourceSha256": "d6292ce5e638574a2cd2154dbb8e715c1452dcdea6d9d4387caac480c4d8b52f",
+      "semanticExcerpt": "Lemon slices are used as an ingredient in a [[fruit blast",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact lemon-slice variant is edible and used in a cocktail recipe; food is its primary item state.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2106"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 2112,
+      "exactVariantId": 2112,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Orange slices",
+      "sourceRevision": 15184762,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184762",
+      "sourceSha256": "3a52bca4d0d08097835b555f1788f9a3622ea60efcb257d354f7dad20943f5d3",
+      "semanticExcerpt": "Eating orange slices will heal 2 [[hitpoints",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "hitpoint_restore",
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact orange-slice variant heals 2 hitpoints and is also a cocktail input; food is primary and Farming provenance is retained.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2112"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 2116,
+      "exactVariantId": 2116,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Pineapple chunks",
+      "sourceRevision": 15183792,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15183792",
+      "sourceSha256": "154287f4a1b535482ecbeed46aadf9a893285284b7659c1ba6707d502b2be7fd",
+      "semanticExcerpt": "Pineapple chunks''' are a [[food]] item that heals 2 [[hitpoints]] when consumed",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "hitpoint_restore",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact pineapple-chunk variant heals 2 hitpoints and is also an ingredient in other foods; retain both roles under food.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2116"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 2124,
+      "exactVariantId": 2124,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Lime slices",
+      "sourceRevision": 15184667,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184667",
+      "sourceSha256": "394d62d25323440aabb5ddd7dc33ccfb524cdbd57eaa20539674f4ecb7c7a79c",
+      "semanticExcerpt": "Lime slices''' are [[food]] obtained by using a [[knife]] on a [[lime",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact lime-slice item is edible and documented as an ingredient in Gnome cocktails; preserve its edible state as primary.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2124"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 2150,
+      "exactVariantId": 2150,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Swamp toad (item)",
+      "sourceRevision": 15302337,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15302337",
+      "sourceSha256": "780b3e91ec986075d8d2bc6480217754fd92a5085a2d53661b108a1b7da7f4f0",
+      "semanticExcerpt": "Toad's legs]] heal for 3 [[Hitpoints]], are used as the second ingredient for [[agility potion]]s",
+      "proposedCategory": "POTION",
+      "proposedSubcategory": "food",
+      "proposedIronmanTabKey": "potions-food",
+      "proposedRoles": [
+        "edible_food",
+        "hitpoint_restore",
+        "herblore-input",
+        "cooking-ingredient"
+      ],
+      "proposedTags": [],
+      "rationale": "Toad legs directly heal and also serve as a secondary ingredient in Agility potions and Gnome dishes; food is primary."
+    },
+    {
+      "itemId": 2171,
+      "exactVariantId": 2171,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Gianne dough",
+      "sourceRevision": 15261163,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15261163",
+      "sourceSha256": "69477bd7d6b7dbf2458359a15aed2d2b6bbe9f55ab662a3d1e13c115f71105fb",
+      "semanticExcerpt": "Gianne dough''' is an ingredient in [[gnome cooking]] used to make [[Gnome cooking#Gnomebowls|gnomebowls]], [[Gnome cooking#Crunchies|gnome crunchies]], and [[Gnome cooking#Battas|gnome battas",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "recipe_material"
+      ],
+      "proposedTags": [],
+      "rationale": "Gianne dough is explicitly a Gnome-cooking ingredient used to make several repeatable dishes."
+    },
+    {
+      "itemId": 2398,
+      "exactVariantId": 2398,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Cave nightshade",
+      "sourceRevision": 15351992,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15351992",
+      "sourceSha256": "302968acabe85f209396bb3a753a68642cbea27ffc75cfc792211113621ed670",
+      "semanticExcerpt": "Cave nightshade''', also known as cave '''belladonna''', is used in [[Herblore]] to make [[weapon poison(++)",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "herblore-secondary"
+      ],
+      "proposedTags": [],
+      "rationale": "Cave nightshade is a direct Herblore input for weapon poison; its damaging edible state is not a beneficial food use.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "2398"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 4460,
+      "exactVariantId": 4460,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Cup of hot water",
+      "sourceRevision": 15185741,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15185741",
+      "sourceSha256": "7cff9f141b6104e25a8cbfd7c690fc5ba5c94de7d16afb30934eac24632177c8",
+      "semanticExcerpt": "It is solely used to make a [[Guthix rest]] potion",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "recipe_material"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact hot-water cup has one documented role: making Guthix rest potions. The page explicitly says it is not drinkable."
+    },
+    {
+      "itemId": 5933,
+      "exactVariantId": 5933,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Willow branch",
+      "sourceRevision": 15184331,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184331",
+      "sourceSha256": "dcc8d2b609a9f5e5dca2f5a879386f9b87ffdefa9516893660462b93c9664b9c",
+      "semanticExcerpt": "Willow branches''' are used for weaving [[basket]]s on a [[loom",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "crafting_material",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Willow branches are renewable Farming outputs used as a material for weaving baskets on a loom; the downstream Crafting workflow is primary."
+    },
+    {
+      "itemId": 5996,
+      "exactVariantId": 5996,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Asgarnian hops",
+      "sourceRevision": 15182699,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15182699",
+      "sourceSha256": "36e1fdbe13a62b50f4e30232052ade2fa89067d05837b50b2125a0de608dbab2",
+      "semanticExcerpt": "They are used in [[brewing]] [[Asgarnian ale",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Asgarnian hops are harvested from a Farming patch and used to brew Asgarnian ale; the brewing input role determines placement."
+    },
+    {
+      "itemId": 5998,
+      "exactVariantId": 5998,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Yanillian hops",
+      "sourceRevision": 15186079,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15186079",
+      "sourceSha256": "ac41c4e011ed43e3ddf9b3e358f25e440f51009273de17b56bf08fde9c715793",
+      "semanticExcerpt": "They are used in [[brewing]] [[wizard's mind bomb]]s",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Yanillian hops are harvested from a Farming patch and used to brew wizard’s mind bombs; the brewing workflow is primary."
+    },
+    {
+      "itemId": 6000,
+      "exactVariantId": 6000,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Krandorian hops",
+      "sourceRevision": 15359761,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15359761",
+      "sourceSha256": "56f475e21891fe8b335b7a14ae76d5f0fd0766fba80a097bd885bf05fe222319",
+      "semanticExcerpt": "They are used in [[brewing]] [[dragon bitter",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Krandorian hops are harvested from a Farming patch and used to brew dragon bitter; the brewing input role determines placement."
+    },
+    {
+      "itemId": 6002,
+      "exactVariantId": 6002,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Wildblood hops",
+      "sourceRevision": 15186566,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15186566",
+      "sourceSha256": "e22f52a54efad8bb130fb10e7f9a342c19e34166ec8baa95f83dd0979677b2e8",
+      "semanticExcerpt": "They are used in [[brewing]] [[slayer's respite",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "cooking-material",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "cooking-ingredient",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Wildblood hops are harvested from a Farming patch and used to brew slayer’s respite; the brewing input role is primary."
+    },
+    {
+      "itemId": 6010,
+      "exactVariantId": 6010,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Marigolds",
+      "sourceRevision": 15356187,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356187",
+      "sourceSha256": "710176acee0598f84881ecb4d4c1df3dcd0b015938dc25cb1f71f218c75df39d",
+      "semanticExcerpt": "Fully grown [[marigold]]s will protect [[Potato plant|potato]], [[Onion plant|onion]], and [[Tomato plant|tomato]] plants in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming-harvest",
+        "farming_support"
+      ],
+      "proposedTags": [],
+      "rationale": "Marigolds are harvested from flower patches and support crop protection, imp repellent, and compost workflows."
+    },
+    {
+      "itemId": 6012,
+      "exactVariantId": 6012,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Nasturtiums",
+      "sourceRevision": 15356190,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356190",
+      "sourceSha256": "a8d46a5a5071e754076cdf378d003e513e5d6bce6261ca1a041008e9ab0d41c7",
+      "semanticExcerpt": "Fully grown [[nasturtium]]s will protect [[watermelons]] in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming-harvest",
+        "farming_support"
+      ],
+      "proposedTags": [],
+      "rationale": "Nasturtiums are harvested from flower patches and protect watermelons; this exact Farming support mechanic determines placement."
+    },
+    {
+      "itemId": 6014,
+      "exactVariantId": 6014,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Rosemary",
+      "sourceRevision": 15356184,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356184",
+      "sourceSha256": "77e0b5ee33de22771cc2176b834d1d85db0ee6a267c9f3c1b8a509cdc45608e0",
+      "semanticExcerpt": "Fully grown [[Rosemary (plant)|rosemary]] will protect [[Cabbage (plant)|cabbages]] in neighbouring [[allotment patch|allotments]] from [[Disease (Farming)|disease",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming-harvest",
+        "farming_support"
+      ],
+      "proposedTags": [],
+      "rationale": "Rosemary is harvested from a flower patch and protects neighboring cabbages; imp repellent and compost reinforce its Farming-support role."
+    },
+    {
+      "itemId": 6018,
+      "exactVariantId": 6018,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Poison ivy berries",
+      "sourceRevision": 15184986,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184986",
+      "sourceSha256": "6d002d8ae7f007d0bde4048dfa392135eb8624d7b72ef36941b2b6271a666a0c",
+      "semanticExcerpt": "They are used in [[Herblore]] to make [[weapon poison(++)",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "herblore-secondary",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Poison ivy berries are Farming-harvested but explicitly used in Herblore to make weapon poison; that repeatable recipe is primary."
+    },
+    {
+      "itemId": 6020,
+      "exactVariantId": 6020,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Leaves",
+      "sourceRevision": 15317724,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15317724",
+      "sourceSha256": "fb5d617c55c0e13236768f0aa56923297bd8cef249b36dec97ae8a5f4dab5f7a",
+      "semanticExcerpt": "They can be used to create [[compost]] in [[compost bin]]s",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming_support",
+        "compost_input"
+      ],
+      "proposedTags": [],
+      "rationale": "Leaves can result from curing diseased bushes or trees and are used as compost input; Farming support is a documented bank workflow."
+    },
+    {
+      "itemId": 6055,
+      "exactVariantId": 6055,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Weeds",
+      "sourceRevision": 15275971,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15275971",
+      "sourceSha256": "12a253ad316098503719dbec801015ccdbc318a3a6b763e76bacb37e428b2264",
+      "semanticExcerpt": "Weeds are generally used to make compost",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming_support",
+        "compost_input"
+      ],
+      "proposedTags": [],
+      "rationale": "Weeds are repeatedly harvested from Farming patches and are commonly processed into compost; this is a direct Farming-support input."
+    },
+    {
+      "itemId": 11264,
+      "exactVariantId": 11264,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Anchovy oil",
+      "sourceRevision": 15186565,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15186565",
+      "sourceSha256": "f2d4b50954bdcc59e1fdcca929314d66127e19deab9c68f14b47ef3448530c36",
+      "semanticExcerpt": "It is used to make [[imp repellent]] when combined with [[marigolds]], [[rosemary]], [[nasturtiums",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming_support",
+        "recipe_material"
+      ],
+      "proposedTags": [],
+      "rationale": "Anchovy oil is directly used in the Farming crop-protection recipe for imp repellent."
+    },
+    {
+      "itemId": 11266,
+      "exactVariantId": 11266,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Anchovy paste",
+      "sourceRevision": 15184192,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15184192",
+      "sourceSha256": "c544e3590f395f1227a762667fec08de354e2eda13afc2b42a984fb8bf92c17d",
+      "semanticExcerpt": "It is used to make [[anchovy oil]], an ingredient in [[imp repellent",
+      "proposedCategory": "FARMING",
+      "proposedSubcategory": "farming-supply",
+      "proposedIronmanTabKey": "seeds-farming",
+      "proposedRoles": [
+        "farming_support",
+        "recipe_material"
+      ],
+      "proposedTags": [],
+      "rationale": "Anchovy paste is an intermediate used to make anchovy oil, which is then used in crop-protecting imp repellent; classify by the downstream Farming workflow."
+    },
+    {
+      "itemId": 27790,
+      "exactVariantId": 27790,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Nightshade",
+      "sourceRevision": 15352018,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15352018",
+      "sourceSha256": "805178dad95636c70ef5610625f5596068217f142ff3ae3164fc310e8b4c9c72",
+      "semanticExcerpt": "It is used in [[Herblore]] to make [[weapon poison(++)",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "herblore-secondary",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Nightshade is harvested from Farming belladonna patches but directly used in Herblore weapon-poison production; retain Farming origin separately.",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "27790"
+        },
+        {
+          "field": "edible",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "itemId": 31457,
+      "exactVariantId": 31457,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Hemp",
+      "sourceRevision": 15295871,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15295871",
+      "sourceSha256": "e7ab145db7a5dec171eaaafcc8ef7f9dfe056e23ce9a373195fc4b8db0635088",
+      "semanticExcerpt": "They are used in [[Crafting]] to [[Spinning wheel|spin]] [[hemp yarn",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "textile",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "farming_produce",
+        "crafting_material"
+      ],
+      "proposedTags": [],
+      "rationale": "Hemp is a Farming harvest processed into yarn for canvas and Sailing equipment; this textile workflow is primary."
+    },
+    {
+      "itemId": 31460,
+      "exactVariantId": 31460,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Cotton boll",
+      "sourceRevision": 15218264,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15218264",
+      "sourceSha256": "65f80152cf64b1121c2a3355f83e5df3eb99cf217585522f1608e766f0bc64fc",
+      "semanticExcerpt": "They are used in [[Crafting]] to spin [[cotton yarn]] at a [[spinning wheel",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "textile",
+      "proposedIronmanTabKey": "resources",
+      "proposedRoles": [
+        "farming_produce",
+        "crafting_material"
+      ],
+      "proposedTags": [],
+      "rationale": "Cotton bolls are a Farming harvest spun into yarn for dressings, nets, and canvas; this textile material stage determines placement."
+    },
+    {
+      "itemId": 31481,
+      "exactVariantId": 31481,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Elkhorn coral",
+      "sourceRevision": 15356504,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356504",
+      "sourceSha256": "167e2d0fa70b6481bba2497e6be2d29e364e1f33a8f45256ef965939c19bbf3e",
+      "semanticExcerpt": "Using [[crab paste]] on an elkhorn coral with 49 Herblore yields [[anti-odour salt",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "farming_produce",
+        "hunter-resource"
+      ],
+      "proposedTags": [],
+      "rationale": "Elkhorn coral is Farming-harvested and enters documented Herblore potion and Hunter-trap recipes; those repeatable inputs outweigh harvest provenance."
+    },
+    {
+      "itemId": 31484,
+      "exactVariantId": 31484,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Pillar coral",
+      "sourceRevision": 15356505,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356505",
+      "sourceSha256": "068580a95d79d117d11689f16314f9a734f270e1635b573d9818bde44f93d03e",
+      "semanticExcerpt": "Pillar coral''' can be harvested from a [[coral nursery]] after planting [[pillar frag]]s, and are primarily used in the making of [[super fishing potion]]s and [[super hunter potion]]s",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Pillar coral is Farming-harvested but primarily used to make two Herblore potions; preserve source provenance separately."
+    },
+    {
+      "itemId": 31487,
+      "exactVariantId": 31487,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Umbral coral",
+      "sourceRevision": 15356506,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15356506",
+      "sourceSha256": "48d09865a4c7f1f4cbd05ec51de92b01c9dee9e8b43b2b975a253d60ebddc196",
+      "semanticExcerpt": "They are used to make [[Armadyl brew]]s by first adding one to a [[vial of water",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "farming_produce"
+      ],
+      "proposedTags": [],
+      "rationale": "Umbral coral is Farming-harvested and directly used to make Armadyl brews; the exact potion workflow determines placement."
+    },
+    {
+      "itemId": 31708,
+      "exactVariantId": 31708,
+      "currentCategory": "CLEANUP",
+      "currentSubcategory": "cleanup",
+      "currentIronmanTabKey": "storage-cleanup",
+      "sourceTitle": "Crab paste",
+      "sourceRevision": 15223417,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15223417",
+      "sourceSha256": "0ca0ac07d79d4747216026507565e5ea5bc744c891a08adb4768493c30f364d7",
+      "semanticExcerpt": "Crab paste''' is made by using a [[pestle and mortar]] on either a [[red crab]] or [[blue crab]], which are caught via [[crab trapping]]. It is a [[Herblore secondaries|herblore secondary]] used to create [[anti-odour salt]] or [[super hunter potion]]s",
+      "proposedCategory": "HERBLORE",
+      "proposedSubcategory": "secondary",
+      "proposedIronmanTabKey": "herblore",
+      "proposedRoles": [
+        "herblore-input",
+        "herblore-secondary"
+      ],
+      "proposedTags": [],
+      "rationale": "The exact crab paste article explicitly identifies it as a Herblore secondary and names repeatable potion uses."
+    }
+  ]
+}

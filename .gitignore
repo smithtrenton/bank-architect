@@ -34,3 +34,16 @@ tmp/
 
 # Development-only review-size estimator dependencies.
 tools/review-size/node_modules/
+
+# Local frozen certification inputs and Wiki corpus. Manifests pin their hashes.
+frozen/
+
+# Derived bulk semantic-capture snapshots. Their manifests pin exact hashes;
+# the files themselves stay local like the other frozen research inputs.
+docs/research/category-certification/**/*source-crosswalk*.jsonl
+docs/research/category-certification/**/*effective*.jsonl.gz
+docs/research/category-certification/**/*before-after.jsonl
+docs/research/category-certification/**/*draft-navigation*.jsonl
+docs/research/category-certification/**/*source-map*.json
+docs/research/category-certification/semantic-capture-source-approved-assignments-*.tsv
+__pycache__/

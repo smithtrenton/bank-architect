@@ -153,7 +153,7 @@ public final class EffectiveItemClassificationExporter
 		createParent(outputPath);
 		try (BufferedWriter writer = Files.newBufferedWriter(outputPath, StandardCharsets.UTF_8))
 		{
-			writer.write("itemId\tregistryName\tconstantName\tauditScope\tcatalogName\titemCategory\tironmanTabKey\tsubcategory\ttags");
+			writer.write("itemId\tregistryName\tconstantName\tauditScope\tcatalogName\titemCategory\tironmanTabKey\tsubcategory\ttags\tcatalogScope");
 			writer.newLine();
 			for (int id : ids)
 			{
@@ -165,12 +165,14 @@ public final class EffectiveItemClassificationExporter
 				writer.write(Integer.toString(id));
 				writeCell(writer, record.registryName);
 				writeCell(writer, record.constantName);
-				writeCell(writer, scope);
+				writeCell(writer, com.pkoka5.ironmanbankarchitect.catalog.BankabilityPolicy.maySuggestDeposit(id)
+					? scope : "EXCLUDED_NON_BANKABLE");
 				writeCell(writer, item.getDisplayName());
 				writeCell(writer, item.getCategory().name());
 				writeCell(writer, PresetCategoryMapper.map(BankPresets.IRONMAN, item).getKey());
 				writeCell(writer, item.getSubcategory());
 				writeCell(writer, String.join(",", item.getTags()));
+				writeCell(writer, scope);
 				writer.newLine();
 			}
 		}

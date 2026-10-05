@@ -1,0 +1,3644 @@
+{
+  "schema": 1,
+  "reviewer": "tools-and-quest-cleanup",
+  "principles": [
+    "A current assignment, catalog name, Wiki category facet, recipe-title edge, or quest parameter alone is not semantic proof.",
+    "Read the exact pinned item page and exact infobox variant for each numeric ID. Never transfer a decision between IDs by name or family.",
+    "Quest association establishes a quest role, not that the item has no independent use. Preserve independently documented equipment, access, transport, tool, ingredient, resource, and container roles.",
+    "Category, subcategory, and Ironman tab are evaluated separately. TOOL routes to skilling-tools; CLEANUP routes to storage-cleanup. The subcategory then selects a BankTags destination when a category split exists.",
+    "A negative conclusion such as junk, obsolete, quest-only, or no longer useful requires direct affirmative source wording. Missing facts and absent fields remain unresolved."
+  ],
+  "tabs": {
+    "TOOL": "skilling-tools",
+    "CLEANUP": "storage-cleanup"
+  },
+  "supportCues": {
+    "TOOL": {
+      "tool": [
+        "used to",
+        "used for",
+        "can be used",
+        "allows the player",
+        "allows players",
+        "tool for",
+        "used by players to",
+        "used with"
+      ],
+      "skilling-outfit": [
+        "set effect",
+        "set effect",
+        "experience bonus",
+        "experience boost",
+        "increases the player's",
+        "increases players'",
+        "wearing the full set",
+        "skilling outfit"
+      ],
+      "quest-utility": [
+        "used during the quest",
+        "used in the quest",
+        "required to complete the quest",
+        "used to start the quest",
+        "quest item used"
+      ],
+      "resource-container": [
+        "stores",
+        "store items",
+        "store up to",
+        "holds up to",
+        "can hold",
+        "can carry",
+        "carrying capacity",
+        "inside the bag",
+        "inside the pouch",
+        "inside the sack",
+        "emptying the bag",
+        "emptying the pouch"
+      ],
+      "utility-container": [
+        "stores",
+        "store items",
+        "can hold",
+        "holds up to",
+        "can carry",
+        "inside the container",
+        "open the container",
+        "contents of the"
+      ],
+      "light-source": [
+        "provides light",
+        "source of light",
+        "emits light",
+        "lights dark areas",
+        "can be lit",
+        "provides a light source",
+        "lit to provide light"
+      ],
+      "crafting-mould": [
+        "mould used to make",
+        "mold used to make",
+        "used to make cannon",
+        "used to smith cannon",
+        "used to mould",
+        "used to mold",
+        "mould for making",
+        "mold for making"
+      ],
+      "slayer-tool": [
+        "slayer tool",
+        "used to kill",
+        "used against",
+        "required to kill",
+        "used to defeat"
+      ],
+      "hunter-tool": [
+        "hunter tool",
+        "used to catch",
+        "used for catching",
+        "used to hunt",
+        "used to trap"
+      ],
+      "skilling-utility": [
+        "used to",
+        "used for",
+        "allows the player",
+        "allows players",
+        "provides a bonus",
+        "increases the player's",
+        "used while training"
+      ],
+      "skilling-equipment": [
+        "experience bonus",
+        "experience boost",
+        "increases the player's",
+        "increases players'",
+        "while worn",
+        "when worn",
+        "while equipped",
+        "when equipped"
+      ],
+      "runecrafting-utility": [
+        "runecraft",
+        "runecrafting",
+        "binding necklace",
+        "rune altar"
+      ],
+      "runecrafting-container": [
+        "stores rune",
+        "stores essence",
+        "rune pouch",
+        "rune storage",
+        "holds rune"
+      ],
+      "cooking-tool": [
+        "used to cook",
+        "used for cooking",
+        "cooking tool",
+        "used to prepare food"
+      ],
+      "thieving-tool": [
+        "used to pick locks",
+        "used to pickpocket",
+        "used to steal",
+        "thieving tool"
+      ],
+      "hunter-rumour": [
+        "hunter rumours",
+        "hunter rumour",
+        "rumour task",
+        "hunter's guild rumour"
+      ],
+      "sailing-utility": [
+        "sailing",
+        "ship upgrade",
+        "ship's",
+        "vessel",
+        "sailing activity"
+      ],
+      "sailing-upgrade": [
+        "ship upgrade",
+        "sailing vessel",
+        "boat upgrade"
+      ]
+    },
+    "CLEANUP": {
+      "quest-item": [
+        "quest item",
+        "quest items",
+        "used in the quest",
+        "used during the quest",
+        "required to complete the quest"
+      ],
+      "burnt-food": [
+        "is the result of accidentally"
+      ],
+      "readable-lore": [
+        "read the book",
+        "can be read",
+        "readable book",
+        "lore book",
+        "contains a story",
+        "written by"
+      ]
+    }
+  },
+  "tagCues": {
+    "skilling-outfit": [
+      "skilling outfit",
+      "outfit set",
+      "experience bonus",
+      "set effect"
+    ],
+    "weight-reducing": [
+      "reduces weight",
+      "weight reduction",
+      "reducing weight",
+      "weigh less"
+    ],
+    "resource-container": [
+      "stores",
+      "holds",
+      "can carry",
+      "capacity"
+    ],
+    "essence-container": [
+      "stores essence",
+      "holds essence",
+      "rune essence pouch",
+      "pure essence"
+    ],
+    "runecrafting-utility": [
+      "runecraft",
+      "runecrafting",
+      "rune altar"
+    ],
+    "light-source": [
+      "provides light",
+      "source of light",
+      "emits light",
+      "can be lit"
+    ],
+    "thieving-utility": [
+      "thieving",
+      "pickpocket",
+      "pick locks",
+      "lockpick"
+    ],
+    "quest-use": [
+      "used in the quest",
+      "used during the quest",
+      "quest item"
+    ],
+    "quest-puzzle": [
+      "quest puzzle",
+      "puzzle in the quest",
+      "solve the puzzle"
+    ],
+    "clue-required": [
+      "clue scroll",
+      "treasure trail",
+      "clue step"
+    ],
+    "mortton-supply": [
+      "mort'ton",
+      "shade remains",
+      "shade burning"
+    ],
+    "shade-curing": [
+      "shade",
+      "curing",
+      "tarromin"
+    ],
+    "location-restricted": [
+      "only works in",
+      "can only be used in",
+      "restricted to",
+      "inside the"
+    ],
+    "bloom-utility": [
+      "bloom",
+      "flowers bloom",
+      "blooming"
+    ],
+    "mining-utility": [
+      "mining",
+      "mine ore",
+      "mining experience"
+    ],
+    "fishing-utility": [
+      "fishing",
+      "catch fish",
+      "fishing experience"
+    ],
+    "farming-utility": [
+      "farming",
+      "planting",
+      "harvesting",
+      "farming experience"
+    ],
+    "woodcutting-utility": [
+      "woodcutting",
+      "cut trees",
+      "woodcutting experience"
+    ],
+    "firemaking-utility": [
+      "firemaking",
+      "light fires",
+      "firemaking experience"
+    ],
+    "warm-clothing": [
+      "warm clothing",
+      "warmth",
+      "cold resistance"
+    ],
+    "wintertodt": [
+      "wintertodt"
+    ],
+    "construction-utility": [
+      "construction",
+      "build furniture",
+      "construction experience"
+    ],
+    "prayer-training": [
+      "prayer experience",
+      "training prayer",
+      "prayer bonus"
+    ]
+  },
+  "curatedCorrections": {
+    "2875": {
+      "category": "SKILLING",
+      "subcategory": "hunter-resource",
+      "tab": "resources",
+      "roles": [
+        "quest_associated",
+        "hunter_bait",
+        "non_bankable",
+        "consumed_on_deployment"
+      ],
+      "cue": "are used to catch",
+      "reason": "The exact page identifies bloated toads as deployed chompy bait, says they remain briefly before bursting, and marks the exact ID non-bankable; they are activity supplies rather than reusable equipment.",
+      "quotes": [
+        "|bankable = No",
+        "'''Bloated toads''' are used to catch [[chompy bird]]s during and after the [[Big Chompy Bird Hunting]] [[quest]].",
+        "Once dropped, they have a chance of causing a chompy bird to land, lasting 1 minute before exploding and dealing 1-2 damage to all players within one tile (including diagonally)."
+      ]
+    },
+    "6469": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "quest_associated",
+        "edible_food",
+        "run_energy_restore",
+        "hitpoint_restore",
+        "farming_produce",
+        "farming_experience_source"
+      ],
+      "cue": "edible = Yes",
+      "reason": "The exact item infobox marks this item edible and the page directly identifies it as food that restores run energy and hitpoints after the quest.",
+      "quotes": [
+        "When eaten, white tree fruit restore 5-10% [[Energy|run energy]] and heal 3 health.",
+        "Picking one grants 12 [[Farming]] experience."
+      ]
+    },
+    "25979": {
+      "category": "GEAR",
+      "subcategory": "weapon",
+      "tab": "combat-gear",
+      "roles": [
+        "weapon",
+        "equipable",
+        "quest_reward",
+        "kalphite_and_scabarite_combat_effect"
+      ],
+      "tags": [
+        "kalphite-scabarite-damage"
+      ],
+      "cue": "is a one-handed",
+      "reason": "The exact infobox marks this item equipable, and its own page identifies it as a one-handed partisan with combat bonuses and combat effects.",
+      "quotes": [
+        "The '''keris partisan''' is a one-handed [[partisan]] requiring 65 [[Attack]] to wield.",
+        "It is obtained from [[Maisa]] as a reward for completing [[Beneath Cursed Sands]].",
+        "bonus damage against all [[Kalphite_(attribute)|kalphites and scabarites]]"
+      ]
+    },
+    "431": {
+      "category": "POTION",
+      "subcategory": "drink",
+      "tab": "potions-food",
+      "roles": [
+        "drink",
+        "hitpoint_restore",
+        "strength_boost",
+        "quest_associated"
+      ],
+      "cue": "Drinking the rum heals 5",
+      "reason": "The exact item is a bankable drink sold outside the quests; its page documents repeatable hitpoint restoration and a Strength boost.",
+      "quotes": [
+        "Drinking the rum heals 5 [[Hitpoints]] and also boosts [[Strength]] equal to 1 + 5% of the player's base Strength level, rounded down."
+      ]
+    },
+    "2126": {
+      "category": "FARMING",
+      "subcategory": "produce",
+      "tab": "seeds-farming",
+      "roles": [
+        "farming_produce",
+        "hitpoint_restore",
+        "compost_input",
+        "quest_associated",
+        "gnome_cooking_input"
+      ],
+      "cue": "Dwellberries heal 2",
+      "reason": "The exact item is renewable Farming produce harvested from its bush; its page also documents food healing, gnome cooking, and compost use.",
+      "quotes": [
+        "'''Dwellberries''' can be harvested from a [[bush patch]] after planting [[dwellberry seed]]s.",
+        "Dwellberries heal 2 [[hitpoints]] when eaten.",
+        "Adding them to a [[Compost Bin|compost bin]] makes regular [[compost]].",
+        "They are used in [[quests]] and [[gnome cooking]]."
+      ]
+    },
+    "7572": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "food",
+        "hitpoint_restore",
+        "quest_ingredient"
+      ],
+      "cue": "It also heals 5",
+      "reason": "The exact item page expressly says this quest ingredient also heals hitpoints and may be used as food in combat.",
+      "quotes": [
+        "It also heals 5 [[hitpoints]] if eaten."
+      ]
+    },
+    "7573": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "food",
+        "hitpoint_restore",
+        "agility_course_supply",
+        "quest_ingredient"
+      ],
+      "cue": "They heal 5",
+      "reason": "The exact item page documents healing use while training on the Ape Atoll Agility Course, apart from the quest recipe role.",
+      "quotes": [
+        "They can be helpful to those who need to heal when doing the [[Ape Atoll Agility Course]].",
+        "They heal 5 [[hitpoints]], and can be ground with a [[pestle and mortar]] to create [[Tchiki nut paste]]."
+      ]
+    },
+    "7575": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "food",
+        "hitpoint_restore",
+        "quest_ingredient"
+      ],
+      "cue": "Tchiki nut paste heals 5",
+      "reason": "The exact item page documents that this quest ingredient is edible and restores hitpoints when eaten.",
+      "quotes": [
+        "Tchiki nut paste heals 5 [[hitpoints]] when eaten"
+      ]
+    },
+    "7579": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "food",
+        "hitpoint_restore",
+        "quest_recipe_output"
+      ],
+      "cue": "A stuffed snake heals 20",
+      "reason": "The exact item page documents that the cooked quest output is edible and restores 20 hitpoints; leftover materials can still produce it.",
+      "quotes": [
+        "A stuffed snake heals 20 [[Hitpoints]].",
+        "After completion of Freeing King Awowogei, players can no longer procure the ingredients for a stuffed snake, but can cook more from those left over from the quest."
+      ]
+    },
+    "716": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "reusable_npc_summon",
+        "holy_water_bowl_tool",
+        "master_clue_requirement"
+      ],
+      "cue": "Once the Legends' Quest is complete",
+      "reason": "The exact item page documents post-quest reuse to summon Gujuo and make blessed bowls for holy water, as well as a master clue requirement.",
+      "quotes": [
+        "Once the Legends' Quest is complete, players should keep it for the master clue step which requires swinging the bullroarer.",
+        "They may also keep it to summon Gujuo to turn [[Gold bowl|gold bowls]] into [[blessed gold bowl]]s, used to make [[holy water]] to fight demons."
+      ]
+    },
+    "3695": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "two_person_door_substitute",
+        "talisman_dismantling_tool",
+        "pet"
+      ],
+      "cue": "it can be used to substitute a player",
+      "reason": "The exact item page says the rock substitutes for a second player at Waterbirth Dungeon doors and can dismantle a Xeric's talisman; its zero bonuses and explicit non-weapon wording rule out combat-gear placement.",
+      "quotes": [
+        "Because of this, it can be used to substitute a player while attempting to open the two-man doors in the [[Waterbirth Island Dungeon]].",
+        "The [[Xeric's talisman]] can be dismantled by using a pet rock on it",
+        "|examine = The lowest maintenance pet you will ever have."
+      ]
+    },
+    "4704": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "repeatable_minigame_tool"
+      ],
+      "cue": "is used in the",
+      "reason": "The exact stone bowl is required for the Tears of Guthix minigame: Juna has the player wield it to catch tears, beyond its one-time quest role.",
+      "quotes": [
+        "The '''stone bowl''' is used in the [[Tears of Guthix (minigame)|Tears of Guthix]] minigame to catch tears from the cave protected by [[Juna]].",
+        "This bowl is given to Juna to complete the quest, and when a player wants to participate in the Tears of Guthix minigame, Juna will have the player wield the bowl."
+      ]
+    },
+    "6662": {
+      "category": "CLEANUP",
+      "subcategory": "junk",
+      "tab": "storage-cleanup",
+      "roles": [
+        "explicit_no_use",
+        "unrepairable"
+      ],
+      "cue": "it has no use and cannot be repaired",
+      "reason": "The exact page identifies the broken fishing rod and explicitly says it has no use and cannot be repaired.",
+      "quotes": [
+        "At this time it has no use and cannot be repaired."
+      ]
+    },
+    "34048": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [
+        "quest-associated",
+        "readable-lore"
+      ],
+      "roles": [
+        "readable_text",
+        "transcript_available"
+      ],
+      "reason": "The exact infobox variant 34048 has a Read option, and the page supplies the note's transcript.",
+      "quotes": [
+        "|options = Read, Drop",
+        "|id1 = 34048",
+        "{{Hastranscript|Scorched note|transclude=Yes}}"
+      ]
+    },
+    "34049": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [
+        "quest-associated",
+        "readable-lore"
+      ],
+      "roles": [
+        "readable_text",
+        "transcript_available"
+      ],
+      "reason": "The exact infobox variant 34049 has a Read option, and the page supplies the note's transcript.",
+      "quotes": [
+        "|options = Read, Drop",
+        "|id2 = 34049",
+        "{{Hastranscript|Scorched note|transclude=Yes}}"
+      ]
+    },
+    "34050": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [
+        "quest-associated",
+        "readable-lore"
+      ],
+      "roles": [
+        "readable_text",
+        "transcript_available"
+      ],
+      "reason": "The exact infobox variant 34050 has a Read option, and the page supplies the note's transcript.",
+      "quotes": [
+        "|options = Read, Drop",
+        "|id3 = 34050",
+        "{{Hastranscript|Scorched note|transclude=Yes}}"
+      ]
+    },
+    "34051": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [
+        "quest-associated",
+        "readable-lore",
+        "storage-option-bookcase"
+      ],
+      "roles": [
+        "readable_text",
+        "transcript_available",
+        "bookcase_reclaimable"
+      ],
+      "reason": "The exact book has a Read option and transcript; its page also says it can be reclaimed from a player-owned-house bookcase.",
+      "quotes": [
+        "|options = Read, Drop",
+        "|id = 34051",
+        "{{Hastranscript|Observations|transclude=Yes}}",
+        "If lost, it can be reclaimed from a [[bookcase]] within a [[player-owned house]]."
+      ]
+    },
+    "34053": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [
+        "quest-associated",
+        "readable-lore",
+        "storage-option-bookcase"
+      ],
+      "roles": [
+        "readable_text",
+        "transcript_available",
+        "bookcase_reclaimable",
+        "crafting_information"
+      ],
+      "reason": "The exact book has a Read option and transcript, explains golem crafting, and can be reclaimed from a player-owned-house bookcase.",
+      "quotes": [
+        "|options = Read, Drop",
+        "|id = 34053",
+        "describes the steps required to [[golem crafting|craft golems]] on [[Wyrmscraig]]",
+        "{{Hastranscript|Golem primer|transclude=Yes}}",
+        "If lost, it can be reclaimed from a [[bookcase]] within a [[player-owned house]]."
+      ]
+    },
+    "5751": {
+      "category": "POTION",
+      "subcategory": "drink",
+      "tab": "potions-food",
+      "roles": [
+        "drink",
+        "hitpoint_restore",
+        "woodcutting_boost",
+        "strength_and_attack_drain",
+        "brewing_product"
+      ],
+      "cue": "is a type of",
+      "reason": "The exact item infobox gives a Drink action, and the item-named lead documents hitpoint restoration, a Woodcutting boost, and Strength/Attack drains.",
+      "quotes": [
+        "|options = Drink, Drop",
+        "The '''Axeman's Folly''' is a type of [[ale]] that restores 1 [[Hitpoints|Hitpoint]] and [[Temporary skill boost|temporarily]] boosts [[Woodcutting]] by 1 while [[Temporary skill drain|draining]] [[Strength]] and [[Attack]] by 3."
+      ]
+    },
+    "4073": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_associated",
+        "disabled_light_source",
+        "puzzle_step"
+      ],
+      "reason": "The exact damp tinderbox cannot light any light source and exists to complete the Glowing fungus puzzle in Haunted Mine.",
+      "quotes": [
+        "A '''damp tinderbox''' is made when a player falls into the water with a [[tinderbox]] on the [[Abandoned Mine#Level 5|5th level]] of the [[Abandoned Mine]].",
+        "This renders the tinderbox useless and unable to light any type of [[Light sources|light source]].",
+        "This is so the player must complete the [[glowing fungus]] puzzle to be able to see, and thus finish the quest."
+      ]
+    },
+    "5347": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_associated",
+        "quest_prop_component",
+        "returned_to_npc"
+      ],
+      "reason": "The exact rake handle is a one-time component obtained during My Arm's Big Adventure; the player repairs the rake and returns it to My Arm.",
+      "quotes": [
+        "A '''rake handle''' forms part of a [[rake]], along with the [[rake head]]. A rake handle can potentially be obtained during [[My Arm's Big Adventure]]; the player must then fix the rake and hand it back to [[My Arm]].",
+        "There used to be a random event in which a rake would break into these two parts. The only use for this item is to combine it with the rake head (which will be strewn randomly around the surrounding area) to form a whole rake again."
+      ]
+    },
+    "5348": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_associated",
+        "quest_prop_component",
+        "returned_to_npc"
+      ],
+      "reason": "The exact rake head is a one-time component obtained during My Arm's Big Adventure; the player repairs the rake and returns it to My Arm.",
+      "quotes": [
+        "A '''rake head''' forms part of a [[rake]], along with the [[rake handle]]. A rake head can potentially be obtained during [[My Arm's Big Adventure]]; the player must then fix the rake and hand it back to [[My Arm]].",
+        "There used to be a random event in which a rake would break into these two parts, with the head being thrown on the ground in close proximity to the player. The only use for this item is to combine it with the rake handle to form a whole rake again."
+      ]
+    },
+    "294": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "dungeon_access",
+        "reobtainable_if_lost"
+      ],
+      "reason": "The exact pebble grants access to Glarial's Tomb and can be replaced by speaking to Golrie, beyond its original Waterfall Quest role.",
+      "quotes": [
+        "If you lose the pebble, you must speak to [[Golrie]] to obtain another.",
+        "The pebble is used to gain access to the [[Glarial's Tomb]] dungeon near the [[Baxtorian Falls]]."
+      ]
+    },
+    "1839": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "repeatable_area_access",
+        "mining_camp_access",
+        "key_ring_compatible"
+      ],
+      "reason": "The exact metal key grants access to the Desert Mining Camp, can be retrieved again if lost, and can be stored on the steel key ring.",
+      "quotes": [
+        "The '''metal key''' is gained during and after the [[Tourist Trap]] quest.",
+        "During the quest, it is first obtained by killing the [[Mercenary Captain]] in order to gain access to the main gate of the [[Desert Mining Camp]].",
+        "This key can be placed on the [[steel key ring]]. If lost, another key can be retrieved by killing the [[Mercenary Captain]] located outside the camp."
+      ]
+    },
+    "1843": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "repeatable_area_access",
+        "mining_access",
+        "key_ring_compatible"
+      ],
+      "reason": "The exact wrought iron key opens access to an ongoing mining area, grants access to higher rocks, can be replaced, and fits the steel key ring.",
+      "quotes": [
+        "The '''Wrought iron key''' is a reward from the [[Tourist Trap]] quest.",
+        "It opens a door deep inside the Desert mining camp and allows passage to a special mining area inside.",
+        "This key allows access to the north-western most tunnel (after riding the cart underground) that has several higher rocks for mining including [[adamantite ore]] and [[mithril ore]] bearing rocks.",
+        "This key can be placed on the [[steel key ring]]."
+      ]
+    },
+    "4077": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "quest_associated",
+        "repeatable_mine_access",
+        "ore_vein_access",
+        "key_ring_compatible",
+        "reobtainable"
+      ],
+      "reason": "The exact crystal-mine key unlocks repeatable access to mining areas, shortcuts, and rich ore veins; it can be stored on the steel key ring and recovered again.",
+      "quotes": [
+        "It allows passage deeper into the mine where Salve crystal can be mined and made into [[Salve amulet]]s; it also allows full access to other doors in the mine and gives access to shortcuts inside the mine.",
+        "In addition, it allows access to the rich ore veins in the north-west of [[Mort Ridge Mine]] level 2.",
+        "This key can be placed on the [[steel key ring]].",
+        "To re-obtain the key, one must first acquire a [[glowing fungus]] via the carts used in the quest, to access the lowest level of the Haunted Mine where the key can be picked up again."
+      ]
+    },
+    "2175": {
+      "category": "CLEANUP",
+      "subcategory": "burnt-food",
+      "tab": "storage-cleanup",
+      "roles": [
+        "burnt_food_state",
+        "mould_recovery"
+      ],
+      "reason": "This exact burnt gnomebowl is a burnt-food result with an Empty Bowl action that reclaims the gnomebowl mould; retain that recovery use instead of treating it as no-use junk.",
+      "quotes": [
+        "|options = Empty Bowl, Drop",
+        "'''Burnt gnomebowl''' is the result of accidentally [[burnt food|burning]] a [[raw gnomebowl]] while attempting to make a [[half baked bowl]].",
+        "The burnt gnomebowl has no use whatsoever, although it can be emptied to reclaim a [[gnomebowl mould]]."
+      ]
+    },
+    "2199": {
+      "category": "CLEANUP",
+      "subcategory": "burnt-food",
+      "tab": "storage-cleanup",
+      "roles": [
+        "burnt_food_state",
+        "tray_recovery"
+      ],
+      "reason": "This exact burnt crunchies is a burnt-food result with an Empty Tray action that reclaims the crunchy tray.",
+      "quotes": [
+        "|options = Empty Tray, Drop",
+        "The burnt crunchies has no use whatsoever, although it can be emptied to reclaim a [[crunchy tray]]."
+      ]
+    },
+    "2247": {
+      "category": "CLEANUP",
+      "subcategory": "burnt-food",
+      "tab": "storage-cleanup",
+      "roles": [
+        "burnt_food_state",
+        "tin_recovery"
+      ],
+      "reason": "This exact burnt batta is a burnt-food result with an Empty Tin action that reclaims the batta tin.",
+      "quotes": [
+        "|options = Empty Tin, Drop",
+        "The burnt batta has no use whatsoever, although it can be emptied to reclaim a [[batta tin]]."
+      ]
+    },
+    "7520": {
+      "category": "CLEANUP",
+      "subcategory": "burnt-food",
+      "tab": "storage-cleanup",
+      "roles": [
+        "burnt_food_state",
+        "quest_associated",
+        "explicit_no_use",
+        "non_tradeable"
+      ],
+      "reason": "The exact burnt giant crab meat is a failed Cooking output explicitly documented as having no use and being untradeable; its Recipe for Disaster association does not make the burnt item an ingredient.",
+      "quotes": [
+        "'''Burnt giant crab meat''' is the result of accidentally [[burnt food|burning]] [[giant crab meat]] while attempting to make [[cooked giant crab meat]].",
+        "The burnt crab meat has no use whatsoever. Unlike most burnt food, it is not tradeable."
+      ]
+    },
+    "7531": {
+      "category": "CLEANUP",
+      "subcategory": "burnt-food",
+      "tab": "storage-cleanup",
+      "roles": [
+        "burnt_food_state",
+        "quest_associated",
+        "explicit_no_use",
+        "non_tradeable"
+      ],
+      "reason": "The exact burnt fishcake is a failed Cooking output explicitly documented as having no use and being untradeable; its quest association does not establish an ongoing role.",
+      "quotes": [
+        "'''Burnt fishcake''' is the result of accidentally [[burnt food|burning]] a [[raw fishcake]] while attempting to make a [[cooked fishcake]].",
+        "The burnt fishcake has no use whatsoever. Unlike most burnt food, it is not tradeable."
+      ]
+    },
+    "7570": {
+      "category": "CLEANUP",
+      "subcategory": "burnt-food",
+      "tab": "storage-cleanup",
+      "roles": [
+        "burnt_food_state",
+        "quest_associated",
+        "explicit_no_use",
+        "player_collectible"
+      ],
+      "reason": "The exact burnt jubbly is a failed Cooking output with no gameplay use, but the page documents that burnt-food collectors value it and that it can be traded.",
+      "quotes": [
+        "'''Burnt jubbly''' is the result of accidentally [[burnt food|burning]] a [[raw jubbly]] while attempting to make a [[cooked jubbly]].",
+        "The burnt jubbly has no use whatsoever. Like most other burnt food, it is tradeable to other players but not on the [[Grand Exchange]]. Many burnt food collectors find this item more valuable than some other burnt items."
+      ]
+    },
+    "1909": {
+      "category": "POTION",
+      "subcategory": "drink",
+      "tab": "potions-food",
+      "roles": [
+        "drink",
+        "hitpoint_restore",
+        "herblore_boost",
+        "combat_skill_drain",
+        "quest_ingredient",
+        "brewing_product"
+      ],
+      "reason": "The exact infobox gives a Drink action; its lead documents hitpoint restoration, a Herblore boost, combat drains, and brewing production, while the page separately records its quest requirement.",
+      "quotes": [
+        "|options = Drink, Drop",
+        "'''Greenman's ale''' is a type of [[ale]] that restores 1 [[Hitpoints|Hitpoint]] and [[temporary boost|temporarily boosts]] [[Herblore]] by 1 while also [[Temporary skill drain|draining]] [[Attack]], [[Strength]], and [[Defence]] by 3 when consumed.",
+        "One is required for the quest [[Recipe for Disaster/Another Cook's Quest]]."
+      ]
+    },
+    "7574": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "edible_food",
+        "hitpoint_restore",
+        "quest_ingredient",
+        "no_further_source_after_quest"
+      ],
+      "reason": "The exact item infobox marks this variant edible and the page states it heals 5 Hitpoints; it also records its recipe role and that no new red bananas are obtainable after the quest.",
+      "quotes": [
+        "|edible = Yes",
+        "|options = Eat, Drop",
+        "When eaten, the sliced red banana heals 5 [[Hitpoints]]; the same amount as the original fruit.",
+        "Sliced red banana used in preparing the [[Stuffed snake|snake]] for [[King Awowogei]] during [[Recipe for Disaster]]. After the quest is complete, there is no further use for red bananas, nor can any more of them be obtained."
+      ]
+    },
+    "337": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "edible_food",
+        "hitpoint_restore_6",
+        "quest_associated",
+        "quest_source_limited"
+      ],
+      "reason": "The exact infobox marks Giant carp edible and the page documents 6-hitpoint healing; the page separately says the raw fish source is limited to the Fishing Contest quest.",
+      "quotes": [
+        "|edible = Yes",
+        "|options = Eat, Drop",
+        "'''Giant carp''' are a type of [[fish]] that restores 6 [[Hitpoints]] when eaten.",
+        "Raw giant carp can only be caught as part of the [[Fishing Contest]] quest before receiving the [[fishing trophy]] during the quest."
+      ]
+    },
+    "4012": {
+      "category": "POTION",
+      "subcategory": "food",
+      "tab": "potions-food",
+      "roles": [
+        "edible_food",
+        "hitpoint_restore_4",
+        "spirit_tree_protection_payment",
+        "quest_gated_vendor"
+      ],
+      "reason": "The exact infobox marks Monkey nuts edible and the page documents healing, repeat purchase at a vendor after a quest, and a separate Farming protection-payment use.",
+      "quotes": [
+        "|edible = Yes",
+        "|options = Eat, Drop",
+        "'''Monkey nuts''' are a food item, healing 4 [[hitpoints]] when eaten.",
+        "5 Monkey nuts are also used in [[farming]], together with a [[monkey bar]] and a [[Ground tooth|ground Suqah tooth]], as the payment for protecting a [[spirit tree]]."
+      ]
+    },
+    "739": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_associated",
+        "one_time_access_potion",
+        "consumed_on_use",
+        "no_postquest_function"
+      ],
+      "reason": "The exact page states that one drink grants unlimited cave access and that the potion has no use outside Legends' Quest, supporting a consumed quest-only access item.",
+      "quotes": [
+        "A player only needs to drink this potion once to gain unlimited access to the dark cave.",
+        "Players are only able to make this potion once they have learnt how to do so during Legends' Quest.",
+        "The potion can still be made after completing the [[Quests|quest]], but has no uses aside from the quest."
+      ]
+    },
+    "5509": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "roles": [
+        "runecrafting_essence_container",
+        "renewable_storage_utility"
+      ],
+      "reason": "The exact Small pouch item stores three named essence types for Runecraft and has fill, empty, and check actions; replacement mechanics are documented.",
+      "quotes": [
+        "are bags that can hold 3 [[rune essence|rune]], [[pure essence|pure]], [[daeyalt essence|daeyalt]], or [[guardian essence]] for use in the [[Runecraft]] [[skill]].",
+        "If lost, the Mage of Zamorak will not provide players with a replacement; however, the [[Dark Mage (Abyss)|Dark mage]] in the [[Abyss]] will."
+      ],
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ]
+    },
+    "4446": {
+      "category": "TOOL",
+      "subcategory": "skilling-utility",
+      "tab": "skilling-tools",
+      "tags": [
+        "key-container"
+      ],
+      "roles": [
+        "reusable_key_container",
+        "bank_space_utility"
+      ],
+      "reason": "The exact Steel key ring stores specified reusable keys and permits use while attached; this supports the current key-container assignment and tag.",
+      "quotes": [
+        "It stores certain re-usable [[key|keys]] to save bank space.",
+        "Keys do not need to be removed to use them."
+      ]
+    },
+    "25459": {
+      "category": "TOOL",
+      "subcategory": "resource-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "resource-container"
+      ],
+      "roles": [
+        "shade_remains_container",
+        "activity_storage_utility"
+      ],
+      "reason": "The exact Bronze coffin stores up to three shade remains and documents fill, check, open, and removal actions; this supports its resource-container assignment.",
+      "quotes": [
+        "Can store up to 3 shade remains.",
+        "Stores all shade remains in the player's inventory into the coffin, providing there is space inside."
+      ]
+    },
+    "10006": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "roles": [
+        "hunter_trap_tool",
+        "repeatable_skill_action"
+      ],
+      "reason": "The exact Bird snare is a Hunter trap set by the player to catch birds; the item page documents setup and waiting mechanics for the skill activity.",
+      "quotes": [
+        "is a type of trap used in the [[Hunter]] skill.",
+        "With the required Hunter level, the player may set up a bird snare and wait for a bird to approach the trap."
+      ]
+    },
+    "24738": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "roles": [
+        "charged_access_tool",
+        "barrows_access_utility"
+      ],
+      "reason": "The exact Strange old lockpick opens Barrows door sets with a stated 50-charge limit and disappears when depleted; it is a limited-use access tool rather than a generic permanent key.",
+      "quotes": [
+        "It can be used to open any set of doors within the [[Barrows]].",
+        "It comes with 50 charges, which deplete when used to open a set of doors.",
+        "After all 50 charges have been used it disappears."
+      ]
+    },
+    "2397": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "retrieves_lost_quest_item",
+        "no_other_documented_use"
+      ],
+      "reason": "The exact Shaman robe is unwearable, exists to recover the lost quest crystal, and has no use after the crystal is recovered.",
+      "quotes": [
+        "The robe cannot be worn. It only serves for the purpose of retrieving the cyan [[Crystal (Watchtower)|crystal]] if during the quest the player has lost it.",
+        "After doing so, it has no other use and it can be safely dropped."
+      ]
+    },
+    "4185": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key"
+      ],
+      "reason": "The exact Tower key is stated to be used only in Creature of Fenkenstrain; it opens the tower door and is no longer needed once the door is passed.",
+      "quotes": [
+        "'''Tower key''' is an item used only in the [[Creature of Fenkenstrain]] [[quest]].",
+        "It opens the locked door to the tower where [[Lord Rologarth]] is imprisoned. Afterwards, a key is no longer needed to pass through the door."
+      ]
+    },
+    "7468": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "quest_recipe_input"
+      ],
+      "reason": "The exact Pot of cornflour has a direct source statement that its only use is as an ingredient in the named Recipe for Disaster subquest.",
+      "quotes": [
+        "Its only use is during the [[Freeing Sir Amik Varze]] [[subquest]] of [[Recipe for Disaster]] as one of the ingredients needed to make the [[creme brulee supreme]] for [[Sir Amik Varze]].",
+        "It is used with the [[milky mixture]] to make the [[cornflour mixture]]."
+      ]
+    },
+    "7471": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "quest_recipe_input",
+        "no_other_documented_use"
+      ],
+      "reason": "The exact Milky mixture is made for a named quest recipe, can be made after the quest, and the page directly says it has no other use.",
+      "quotes": [
+        "It is used in [[Recipe for Disaster]] as part of making the [[brulee supreme]], where it is used with a [[pot of cornflour]] to make the [[cornflour mixture]].",
+        "It can be made before starting the quest and after the quest, but has no other use."
+      ]
+    },
+    "20766": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key",
+        "consumed_after_use"
+      ],
+      "reason": "The exact Halloween-variant Manor key is separately bound by its variant-specific infobox evidence; the page documents that the key opens the manor doors and is consumed afterward.",
+      "quotes": [
+        "examine2 = This should open the main doors of the manor house (Used in the Halloween 2016 event).",
+        "After which, it is consumed and no longer needed."
+      ]
+    },
+    "21052": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key",
+        "consumed_after_use"
+      ],
+      "reason": "The exact quest-variant Manor key is separately bound by its variant-specific infobox evidence; the page documents that the key opens the manor doors and is consumed afterward.",
+      "quotes": [
+        "examine1 = This should open the main doors of the manor house (Used in the Misthalin Mystery quest).",
+        "After which, it is consumed and no longer needed."
+      ]
+    },
+    "16": {
+      "category": "TELEPORT",
+      "subcategory": "transport-access",
+      "tab": "currency-utilities",
+      "tags": [
+        "location-restricted-transport",
+        "quest-use",
+        "transport-access"
+      ],
+      "roles": [
+        "quest_item",
+        "location_restricted_transport",
+        "repeatable_transport_access"
+      ],
+      "reason": "The exact Magic whistle teleports players between Karamja and the Fisher Realm by repeated Blow actions, works only at documented locations, and can be replaced after the quest; classify by its active transport function.",
+      "quotes": [
+        "Blowing the magic whistle while standing in the location where all of the [[mysterious statue]]s point, under the tower north-west of [[Brimhaven]], allows players to access the [[Fisher Realm]].",
+        "Blowing the magic whistle in the Fisher Realm returns the player to [[Karamja]].",
+        "If lost after the quest, another may be obtained in the same manner as during the quest"
+      ]
+    },
+    "1468": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "roles": [
+        "firemaking_tool",
+        "repeatable_skill_utility"
+      ],
+      "reason": "The exact Dry sticks can be kept after the quest and reused at any time with Firemaking to light a torch; their function is an ongoing skill utility.",
+      "quotes": [
+        "They can be kept after the quest, and with 30 [[Firemaking]] can be used at any time to light a torch by selecting the \"rub-together\" option."
+      ]
+    },
+    "33718": {
+      "category": "GEAR",
+      "subcategory": "weapon",
+      "tab": "combat-gear",
+      "roles": [
+        "combat_weapon",
+        "silver_weapon",
+        "vampyre_damage_bonus",
+        "special_attack_utility"
+      ],
+      "reason": "The exact Hallowed flail has an active Wield option and is described as a one-handed silver weapon that deals full damage to vampyres; its page documents a 25% vampyre damage and accuracy bonus and a combat special attack.",
+      "quotes": [
+        "|options = Wield, Bloom, Drop",
+        "is a one-handed [[Weapons/Categories#Flail|flail]] created during [[The Blood Moon Rises]].",
+        "It is a [[silver weaponry|silver weapon]] and can deal full damage to [[vampyre|vampyres]] of all tiers.",
+        "This hallowed flail requires an [[Attack]] level of 50 to wield, and gives a 25% damage and accuracy bonus against vampyres."
+      ]
+    },
+    "1592": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "jewelry_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 1592 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "allows a player to make [[ring]]s through the [[Crafting]] skill out of [[gold bar]]s and possibly [[gems]] by using them on a [[furnace]]."
+      ]
+    },
+    "1594": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "symbol_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 1594 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is a mould which is used to make [[silver bar]]s into [[unpowered symbol]]s using the [[Crafting]] skill."
+      ]
+    },
+    "1595": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "amulet_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 1595 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is used to create [[amulet]]s through the [[Crafting]] skill."
+      ]
+    },
+    "1597": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "jewelry_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 1597 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "allows a player to make [[necklace]]s through the [[Crafting]] [[Skills|skill]] out of [[gold bar]]s and possibly [[gems]] by using them on a [[furnace]]."
+      ]
+    },
+    "1599": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "symbol_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 1599 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is a [[Crafting]] tool used in a [[furnace]] to make [[unstrung symbol]]s from [[silver bar]]s."
+      ]
+    },
+    "2166": {
+      "category": "TOOL",
+      "subcategory": "cooking-tool",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "gnome_cooking_tool",
+        "repeatable_food_shaping_tool"
+      ],
+      "reason": "The exact item page describes the function of item 2166 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is an item used in [[gnome cooking]]. It can be bought in the [[Grand Tree]] by talking to [[Hudo]] in the north-west corner on the {{FloorNumber|uk=1}}, or it can be acquired for free by searching the tree gnome kitchen cabinet"
+      ]
+    },
+    "2976": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "sickle_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 2976 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is a type of mould that can be used together with a [[silver bar]] to create a [[silver sickle]]."
+      ]
+    },
+    "5523": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "tiara_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 5523 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is used in conjunction with a [[silver bar|silver]] or [[gold bar]] to make [[Tiara (disambiguation)|tiaras]] in a [[furnace]], via the [[Crafting]] skill."
+      ]
+    },
+    "9434": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "silver_bolt_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 9434 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is an item that is used for making [[silver bolts]] through the [[Crafting]] skill."
+      ]
+    },
+    "11065": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "bracelet_crafting_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 11065 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "allows a player to make [[bracelet]]s through the [[Crafting]] skill out of [[silver bar]]s, [[gold bar]]s, and possibly [[gems]] by using them on a [[furnace]]."
+      ]
+    },
+    "27012": {
+      "category": "TOOL",
+      "subcategory": "crafting-mould",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "smithing_ammo_tool",
+        "reusable_mould"
+      ],
+      "reason": "The exact item page describes the function of item 27012 as a reusable production mould/tool; the quoted mechanics support the proposed skill-tool assignment.",
+      "quotes": [
+        "is an item that makes [[Cannonball (disambiguation)|cannonballs]] twice as fast compared to a regular [[ammo mould]], making 8 cannonballs rather than 4 (and using 2 [[Bar|metal bars]] rather than 1) per action."
+      ]
+    },
+    "20720": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "portable_light_source",
+        "wintertodt_firemaking_tool",
+        "hunter_trap_smoking_tool"
+      ],
+      "reason": "The exact Bruma torch is described as an equipable light source and as a replacement for a tinderbox to light braziers and smoke Hunter traps.",
+      "quotes": [
+        "Around the game world, the torch acts as a [[Light sources|light source]] that can be equipped, but does '''not''' function as a tinderbox.",
+        "It can also be used in place of a [[lit torch]] when [[Hunter#Bait and smoking traps|smoking traps]]."
+      ]
+    },
+    "34030": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source",
+        "construction-utility",
+        "collection-log",
+        "storage-option-boss-display"
+      ],
+      "roles": [
+        "light_source",
+        "player_owned_house_boss_display"
+      ],
+      "reason": "The exact Jar of Light has both an explicit light-source use and a documented use on the Achievement Gallery boss lair display; those primary uses support its current light-source utility placement and retained roles.",
+      "quotes": [
+        "The jar can be used on a [[boss lair display]] in a player's [[Achievement Gallery]] to have a display of the Mad Angel. The jar also acts as a [[Light sources|light source]]."
+      ]
+    },
+    "4527": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "incomplete_light_source",
+        "firemaking_lantern_component"
+      ],
+      "reason": "The exact empty candle lantern is directly described as an incomplete light source and the page explains that it accepts a candle and can then be lit for use in dark areas.",
+      "quotes": [
+        "is an incomplete [[light sources|light source]] used in the [[Firemaking]] skill.",
+        "The empty candle lantern can be filled with a white [[candle]] or [[black candle]] to make a [[candle lantern]]. It can then be lit to use as a light source in dark areas."
+      ]
+    },
+    "4546": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "incomplete_light_source",
+        "firemaking_lantern_component"
+      ],
+      "reason": "The exact empty bullseye lantern is a lens-fitted light fixture that becomes a bullseye lantern after fueling; the page states the Firemaking requirement to light it.",
+      "quotes": [
+        "which has been fitted with a [[lantern lens]] but is empty of fuel. When filled with fuel it becomes a [[bullseye lantern]]. Level 49 [[Firemaking]] is required to light it."
+      ]
+    },
+    "3136": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key",
+        "quest_stage_access"
+      ],
+      "reason": "The exact Cell key 1 opens a single Troll Stronghold quest cell, and the page states that reusing duplicate keys after the quest is rejected.",
+      "quotes": [
+        "is a [[quest]] item used in the [[Troll Stronghold]] quest. It opens the cell where [[Godric]] is held.",
+        "Trying to reuse duplicates of the key after the quest will give the message"
+      ]
+    },
+    "3137": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key",
+        "quest_stage_access"
+      ],
+      "reason": "The exact Cell key 2 is explicitly used only in Troll Stronghold, opens Eadgarâ€™s cell, and duplicate use after the quest is rejected.",
+      "quotes": [
+        "is a [[quest]] item only used in the [[Troll Stronghold]] quest. It opens the cell where [[Eadgar]] is held.",
+        "Trying to reuse duplicates of the key after the quest will give the message"
+      ]
+    },
+    "3848": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key",
+        "door_unlocked_after_use"
+      ],
+      "reason": "The exact Lighthouse key can be reobtained, but the page directly states it is no longer needed after the lighthouse door is unlocked once, so it is not persistent access equipment.",
+      "quotes": [
+        "If you lose it, it can be re-obtained from Gunnjorn; however, you do not need to use the key to unlock the lighthouse after you have already unlocked the door once."
+      ]
+    },
+    "4184": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "roles": [
+        "quest_item",
+        "one_time_access_key",
+        "quest_stage_access"
+      ],
+      "reason": "The exact Cavern key unlocks the Mausoleum door during Creature of Fenkenstrain; the page directly states it is no longer needed to open that door after the quest.",
+      "quotes": [
+        "It is required to unlock the door to the [[Mausoleum]], which is located in the north-west passage of the cave.",
+        "After the quest, the key can be obtained from the chest in the northern part of the [[Experiment Cave]], near the ladder to the Mausoleum, but it is no longer needed to open the door."
+      ]
+    },
+    "7144": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "readable_lore",
+        "pirate_language_access",
+        "shop_access_utility"
+      ],
+      "reason": "The exact Book oâ€™ Piracy is required in inventory after Cabin Fever to understand Mos Leâ€™Harmless pirates and use the townâ€™s trading shops; its function continues after the quest.",
+      "quotes": [
+        "players must be carrying this book in their [[inventory]] to understand what other pirates are saying.",
+        "Note that using trading shops on the island requires carrying the book."
+      ],
+      "tags": []
+    },
+    "730": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "roles": [
+        "repeatable_enchantment_tool",
+        "holy_water_production_utility",
+        "quest_item"
+      ],
+      "reason": "The exact Binding book has an active Enchant-Vials action, enables making holy-water inputs, and is explicitly recoverable after the quest, so it has a repeatable utility role beyond quest lore.",
+      "quotes": [
+        "|options = Read, Enchant-Vials, Drop",
+        "To enchant vials, use the 'Enchant-Vials' option by right-clicking on the book.",
+        "After doing the quest, this book can be found in the [[bookcase]] in your [[Player-owned house|house]]. It can also be re-obtained by bringing the required gems and solving the puzzle, again."
+      ],
+      "tags": []
+    },
+    "9717": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "roles": [
+        "readable_lore",
+        "kandarin_medium_diary_requirement",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Beaten book has a Read option and a transcript, serves as a lore book, is stored in the POH bookcase after the quest, and retains the explicit Kandarin Medium Diary use.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "the book serves no purpose beyond reading (other than use for [[Kandarin Diary#Medium|Kandarin Medium Diary]])."
+      ],
+      "tags": []
+    },
+    "784": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "roles": [
+        "readable_lore",
+        "quest_language_reference",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Translation book has a Read option and item transcript, directly identifies its translation function, and remains reclaimable from the POH bookcase after the quest.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "is a book written by [[Anita]]. It is obtained during [[The Grand Tree]] quest to help players translate what [[Hazelmere]]"
+      ],
+      "tags": []
+    },
+    "1494": {
+      "roles": [
+        "readable_lore",
+        "quest_item"
+      ],
+      "reason": "The exact History of Iban has a Read option and a dedicated transcript containing the bookâ€™s history; preserve its Underground Pass association under the readable-lore cleanup subcategory.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "is found in the [[chest (Doll of Iban)|chest]] found within the witch's house during the [[Underground Pass]] quest. It gives some history on [[Iban]]"
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "4568": {
+      "roles": [
+        "readable_lore",
+        "bookcase_storage",
+        "historic_schematics"
+      ],
+      "reason": "The exact Dwarven lore book has a Read option and transcript, remains available through a POH bookcase after the quest, and contains the documented base schematics.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "After the quest it is stored in the [[bookcase]] of a [[player-owned house]].",
+        "Inside the book are [[base schematics]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "6073": {
+      "roles": [
+        "readable_lore",
+        "bookcase_accessible_source"
+      ],
+      "reason": "The exact Prifddinas history item is a readable history book found at named bookshelves, with a dedicated transcript.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "is a [[book]] found on the [[bookcase (Lletya)|bookcases]] in [[Lletya]] and the [[Prifddinas]] [[Grand Library]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "6649": {
+      "roles": [
+        "readable_lore",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Edernâ€™s journal has a Read option, a dedicated transcript, and a documented postquest bookcase source.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "After the [[quests|quest]], it can be found in the [[bookcase]] of your [[player-owned house]] or in the [[Grand Library]] in [[Prifddinas]] after completion of [[Song of the Elves]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "6749": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Demonic tome has a Read option and a dedicated confession transcript, and it remains accessible from player-owned-house shelves after the quest.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "After the quest, this book can be found on the shelves in [[player-owned house]]s."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "10587": {
+      "roles": [
+        "readable_lore",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Tarnâ€™s diary has a Read option and dedicated transcript; after the miniquest the page explicitly documents recovery from the player-owned-house bookcase.",
+      "quotes": [
+        "|options = Read, Destroy",
+        "==Transcript==",
+        "After completing the miniquest, the lair does '''not''' need to be navigated again, as the diary can be re-obtained from the [[Bookcase space|bookcase]] of the player's [[Player-owned house|house]] under the name"
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "11001": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Dagonâ€™hai history book directly documents its historical content, quest use, Read option and transcript, plus postquest bookcase availability.",
+      "quotes": [
+        "|options = Read, Destroy",
+        "==Transcript==",
+        "It tells of the fall of the [[Dagon'hai]] and is used in the [[quest]] [[What Lies Below]]. After the quest it can also be found in a [[bookcase]] in a [[player-owned house]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "11002": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Sinâ€™keth diary has a Read option and dedicated transcript and remains obtainable from specified Varrock Palace library bookcases after the quest.",
+      "quotes": [
+        "|options = Read, Destroy",
+        "==Transcript==",
+        "After completing the quest, players can find it in one of the bookcases in the north-east corner of the [[Varrock Palace]] library."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "10173": {
+      "roles": [
+        "readable_lore",
+        "hunter_reference",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Bird book has a Read option and dedicated transcript, provides commentary on named Hunter birds, and is available from a POH bookcase after the quest.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "It provides a short commentary on several birds that players can hunt via the [[Hunter]] skill",
+        "After completing the quest, players can only find this book in the [[bookcase]] of their [[player-owned house]]"
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "2396": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "quest_item",
+        "one_time_spell_unlock",
+        "transport_spell_unlock"
+      ],
+      "reason": "The exact Spell scroll is a quest reward whose Read action teaches the Watchtower Teleport spell; it is a one-time spell-unlock item, not itself a reusable teleport device.",
+      "quotes": [
+        "|options = Read, Drop",
+        "When read, the player learns the [[Watchtower Teleport]] (requires level 58 [[Magic]]).",
+        "If a player loses the scroll before use, they can speak to the [[Watchtower Wizard]]."
+      ]
+    },
+    "4486": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "quest_item",
+        "unplantable_seed"
+      ],
+      "reason": "The exact White pearl seed is given to Jokul for Mountain Daughter and the page explicitly says it cannot be planted in any Farming patch; retain its quest role without misclassifying it as a Farming seed.",
+      "quotes": [
+        "This seed must be given to [[Jokul]] during the [[Mountain Daughter]] quest.",
+        "This seed can not be planted in any farming patches."
+      ]
+    },
+    "22590": {
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "quest_item",
+        "one_time_herb_patch_unlock_input",
+        "farming_patch_unlock_effect"
+      ],
+      "reason": "The exact Goat dung is given to Snowflake as a one-time Making Friends with My Arm input that fertilizes the Weiss herb patches, including a permanent player patch; the item itself is a quest input rather than a reusable Farming tool or material.",
+      "quotes": [
+        "It is given to [[Snowflake]] to fertilise two herb patches in Weiss: one for the Weiss trolls to grow [[goutweed]], and another for players to use after the quest, which, like the [[Troll Stronghold (location)|Troll Stronghold]] herb patch, will never be [[Disease (Farming)|diseased]]."
+      ]
+    },
+    "600": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Astronomy book has a Read option and transcript and directly states that it contains Scorpiusâ€™s history; the item is also stored in bookcases.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "It has a brief history of [[Spirit of Scorpius|Scorpius]] and how he introduced astronomy to [[Gielinor]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "757": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Shield of Arrav book has a Read option and transcript, directly documents the shieldâ€™s history, and can be stored in the POH bookcase.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "details the history of the [[Shield of Arrav (item)|Shield of Arrav]] and how it fell into the hands of the [[Phoenix Gang]].",
+        "It can be stored in the [[bookcase]] of a [[player-owned house]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "1856": {
+      "roles": [
+        "readable_lore",
+        "city_reference",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Guide book is a Read-enabled informational book detailing points of interest around Ardougne and remains available from the POH bookcase after the quest.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "is an informational book found in the [[estate agent|real estate agency]] near the southern [[bank]] of [[East Ardougne]]. The book details various points of interest in and around the city",
+        "The book can also be found in the [[bookcase]]s in a [[player-owned house]] after the player has completed the quest."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "3230": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "bookcase_storage"
+      ],
+      "reason": "The exact Big Book of Bangs is a readable book with a transcript and remains reclaimable from POH or Grand Library shelves after its quest use ends.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "is a book obtained from [[Lord Iorwerth]] and used in the [[Regicide]] quest. It is not needed after the quest, but if players want it again, they can reclaim it from a [[bookcase]] in a [[player-owned house]] or from the [[Grand Library]] in [[Prifddinas]] after completion of [[Song of the Elves]]."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "3847": {
+      "roles": [
+        "readable_lore",
+        "quest_item",
+        "lighthouse_repair_reference"
+      ],
+      "reason": "The exact Manual has a Read option and transcript; the page directly identifies it as lighthouse care instructions used to guide repair of the light.",
+      "quotes": [
+        "|options = Read, Drop",
+        "==Transcript==",
+        "is actually a manual about the care and upkeep of the lighthouse itself. It's used as a guide of sorts when attempting to repair the light."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "25812": {
+      "roles": [
+        "quest_item",
+        "quest_potion_input",
+        "not_drinkable"
+      ],
+      "reason": "The exact Sulphur potion is enchanted by Tasakaal into a Shielding potion; the page directly states that drinking it is refused, so preserve it as a quest transformation input rather than a drink.",
+      "quotes": [
+        "|options = Drink, Destroy",
+        "is enchanted into a [[shielding potion]] by the [[Tasakaal]].",
+        "If players attempt to drink it, they will exclaim"
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "25813": {
+      "roles": [
+        "quest_item",
+        "door_reinforcement_input",
+        "not_drinkable"
+      ],
+      "reason": "The exact Shielding potion is applied to the Doors of Dinh to reinforce them, and the exact page states that attempts to drink it are refused.",
+      "quotes": [
+        "|options = Drink, Destroy",
+        "It is used on the [[Doors of Dinh]] to reinforce them.",
+        "If players attempt to drink it, they will exclaim"
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "28383": {
+      "roles": [
+        "quest_item",
+        "consumed_area_access_potion",
+        "stranglewood_access"
+      ],
+      "reason": "The exact Strange potion must be drunk to enter the Stranglewood during Desert Treasure II; the page states it can be reobtained in Hosidius if lost. This records its one-time quest access role without treating the potion as a reusable teleport device.",
+      "quotes": [
+        "|options = Drink, Destroy",
+        "Players must drink the potion in order to enter [[The Stranglewood]].",
+        "|destroy = You might be able to reobtain it in Hosidius."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "28388": {
+      "roles": [
+        "quest_item",
+        "consumed_condition_protection_potion",
+        "strangler_infection_prevention"
+      ],
+      "reason": "The exact Strangler serum is made from named quest ingredients and drinking it prevents Strangler infection during Desert Treasure II; its activity-specific effect is retained.",
+      "quotes": [
+        "|options = Drink, Destroy",
+        "drinking it prevents [[The Strangler]] from infecting the player."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "28443": {
+      "roles": [
+        "instance_consumable",
+        "hp_prayer_run_restoration",
+        "stamina_effect",
+        "instance_restricted"
+      ],
+      "reason": "The exact Scarred scraps restore hitpoints, prayer, run energy and a stamina effect inside The Scar, but the page explicitly says they cannot leave and are removed at each completed level.",
+      "quotes": [
+        "|options = Consume, Drop",
+        "They can be consumed to restore 15 [[Hitpoints]], 25% of the player's [[prayer points]], and 20% [[run energy]]. It also provides the effect of a [[stamina potion]]",
+        "They CANNOT be taken out of the scar; furthermore, they will be removed from the player's inventory upon completion of a level during the quest."
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "33802": {
+      "roles": [
+        "quest_item",
+        "instance_only_food",
+        "healing_effect_22",
+        "nonbankable"
+      ],
+      "reason": "The exact Mysterious jerky is edible and heals 22 hitpoints, but its exact infobox says it is not bankable and its page forbids eating it outside Vampyrium; retain both its healing and activity limits.",
+      "quotes": [
+        "|bankable = No",
+        "|options = Eat, Drop",
+        "is an item that heals 22 [[Hitpoints]] when eaten.",
+        "it cannot be consumed outside of that realm"
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "33803": {
+      "roles": [
+        "quest_item",
+        "instance_only_stamina_potion",
+        "run_energy_restoration",
+        "nonbankable"
+      ],
+      "reason": "The exact four-dose variant is identified by its own ID/name/dose fields, and the page documents a stamina-equivalent effect limited to Vampyrium supplies.",
+      "quotes": [
+        "|bankable = No",
+        "|options = Drink, Drop",
+        "Drinking it restores 20% of the player's [[Energy|run energy]] per dose, and offers a 70% reduction in run energy depletion for 2 minutes.",
+        "it cannot be consumed outside of that realm"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id4",
+              "value": "33803"
+            },
+            {
+              "field": "name4",
+              "value": "Putrid sticky potion (4)"
+            },
+            {
+              "field": "weight4",
+              "value": "0.030"
+            },
+            {
+              "field": "bankable",
+              "value": "No"
+            },
+            {
+              "field": "options",
+              "value": "Drink, Drop"
+            }
+          ],
+          "claim": "This exact numeric item is the four-dose Putrid sticky potion variant."
+        }
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "33804": {
+      "roles": [
+        "quest_item",
+        "instance_only_stamina_potion",
+        "run_energy_restoration",
+        "nonbankable"
+      ],
+      "reason": "The exact three-dose variant is identified by its own ID/name/dose fields, and the page documents a stamina-equivalent effect limited to Vampyrium supplies.",
+      "quotes": [
+        "|bankable = No",
+        "|options = Drink, Drop",
+        "Drinking it restores 20% of the player's [[Energy|run energy]] per dose, and offers a 70% reduction in run energy depletion for 2 minutes.",
+        "it cannot be consumed outside of that realm"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id3",
+              "value": "33804"
+            },
+            {
+              "field": "name3",
+              "value": "Putrid sticky potion (3)"
+            },
+            {
+              "field": "weight3",
+              "value": "0.025"
+            },
+            {
+              "field": "bankable",
+              "value": "No"
+            },
+            {
+              "field": "options",
+              "value": "Drink, Drop"
+            }
+          ],
+          "claim": "This exact numeric item is the three-dose Putrid sticky potion variant."
+        }
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "33805": {
+      "roles": [
+        "quest_item",
+        "instance_only_stamina_potion",
+        "run_energy_restoration",
+        "nonbankable"
+      ],
+      "reason": "The exact two-dose variant is identified by its own ID/name/dose fields, and the page documents a stamina-equivalent effect limited to Vampyrium supplies.",
+      "quotes": [
+        "|bankable = No",
+        "|options = Drink, Drop",
+        "Drinking it restores 20% of the player's [[Energy|run energy]] per dose, and offers a 70% reduction in run energy depletion for 2 minutes.",
+        "it cannot be consumed outside of that realm"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "33805"
+            },
+            {
+              "field": "name2",
+              "value": "Putrid sticky potion (2)"
+            },
+            {
+              "field": "weight2",
+              "value": "0.020"
+            },
+            {
+              "field": "bankable",
+              "value": "No"
+            },
+            {
+              "field": "options",
+              "value": "Drink, Drop"
+            }
+          ],
+          "claim": "This exact numeric item is the two-dose Putrid sticky potion variant."
+        }
+      ],
+      "category": "CLEANUP",
+      "subcategory": "quest-item",
+      "tab": "storage-cleanup",
+      "tags": []
+    },
+    "32": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "quest_light_source",
+        "lit_candle_state"
+      ],
+      "reason": "The exact Lit black candle is the lit state of a candle directly identified as a light source in Merlinâ€™s Crystal.",
+      "quotes": [
+        "is a [[light source]] used in the [[Merlin's Crystal]] [[quest]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "32"
+            },
+            {
+              "field": "version2",
+              "value": "Lit"
+            },
+            {
+              "field": "name2",
+              "value": "Lit black candle"
+            },
+            {
+              "field": "options2",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A lit spooky candle."
+            }
+          ],
+          "claim": "Exact numeric ID 32 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "38": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "quest_light_source",
+        "candle_light_source_component"
+      ],
+      "reason": "The exact unlit Black candle is the candle used in the pageâ€™s lighting mechanic for Merlinâ€™s Crystal; its variant fields distinguish it from the lit ID.",
+      "quotes": [
+        "is a [[light source]] used in the [[Merlin's Crystal]] [[quest]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "38"
+            },
+            {
+              "field": "version1",
+              "value": "Unlit"
+            },
+            {
+              "field": "name1",
+              "value": "Black candle"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "A spooky candle."
+            }
+          ],
+          "claim": "Exact numeric ID 38 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "33": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "firemaking_light_source",
+        "lit_candle_state"
+      ],
+      "reason": "The exact Lit candle is the lit variant of the Firemaking light source and can be extinguished.",
+      "quotes": [
+        "is the lowest tier of [[Firemaking]] [[light sources]]. It can be lit with a [[tinderbox]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "33"
+            },
+            {
+              "field": "version2",
+              "value": "Lit"
+            },
+            {
+              "field": "name2",
+              "value": "Lit candle"
+            },
+            {
+              "field": "options2",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A lit candle."
+            }
+          ],
+          "claim": "Exact numeric ID 33 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "36": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "firemaking_light_source",
+        "candle_light_source_component"
+      ],
+      "reason": "The exact unlit Candle is the candle variant that can be lit with a tinderbox and used as a Firemaking light source.",
+      "quotes": [
+        "is the lowest tier of [[Firemaking]] [[light sources]]. It can be lit with a [[tinderbox]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "36"
+            },
+            {
+              "field": "version1",
+              "value": "Unlit"
+            },
+            {
+              "field": "name1",
+              "value": "Candle"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "A candle."
+            }
+          ],
+          "claim": "Exact numeric ID 36 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "594": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "portable_light_source",
+        "construction_lighting"
+      ],
+      "reason": "The exact Lit torch variant is a carried light source used in dark dungeons and Construction.",
+      "quotes": [
+        "When lit, a torch can be used as a light source in dark dungeons and in some quests such as [[Shilo Village]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "594"
+            },
+            {
+              "field": "version2",
+              "value": "Lit"
+            },
+            {
+              "field": "name2",
+              "value": "Lit torch"
+            },
+            {
+              "field": "options2",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A lit home-made torch."
+            }
+          ],
+          "claim": "Exact numeric ID 594 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "596": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "light_source_after_lighting",
+        "unlit_torch_state"
+      ],
+      "reason": "The exact Unlit torch variant can be lit into the documented dungeon light source; its exact variant state is retained.",
+      "quotes": [
+        "When lit, a torch can be used as a light source in dark dungeons and in some quests such as [[Shilo Village]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "596"
+            },
+            {
+              "field": "version1",
+              "value": "Unlit"
+            },
+            {
+              "field": "name1",
+              "value": "Unlit torch"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "An unlit home-made torch."
+            }
+          ],
+          "claim": "Exact numeric ID 596 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4522": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "oil_lamp_light_source",
+        "unlit_lamp_state"
+      ],
+      "reason": "The exact unlit Oil lamp can be lit with Firemaking when filled with lamp oil to serve as a light source.",
+      "quotes": [
+        "are a [[light source]] for use in dark places."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "4522"
+            },
+            {
+              "field": "version1",
+              "value": "Unlit"
+            },
+            {
+              "field": "name",
+              "value": "Oil lamp"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine",
+              "value": "Not the genie sort."
+            }
+          ],
+          "claim": "Exact numeric ID 4522 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4524": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "oil_lamp_light_source",
+        "lit_lamp_state"
+      ],
+      "reason": "The exact lit Oil lamp is the active light-source state for dark places.",
+      "quotes": [
+        "are a [[light source]] for use in dark places."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "4524"
+            },
+            {
+              "field": "version2",
+              "value": "Lit"
+            },
+            {
+              "field": "name",
+              "value": "Oil lamp"
+            },
+            {
+              "field": "options2",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine",
+              "value": "Not the genie sort."
+            }
+          ],
+          "claim": "Exact numeric ID 4524 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4529": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "candle_lantern_light_source",
+        "unlit_white_candle_variant"
+      ],
+      "reason": "The exact unlit white-candle lantern is a Firemaking light-source variant that can be lit using a tinderbox.",
+      "quotes": [
+        "is a type of members-only [[Light sources|light source]] used in the [[Firemaking]] skill."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "4529"
+            },
+            {
+              "field": "version1",
+              "value": "Unlit (white candle)"
+            },
+            {
+              "field": "name",
+              "value": "Candle lantern"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "A candle in a glass cage."
+            }
+          ],
+          "claim": "Exact numeric ID 4529 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4531": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "candle_lantern_light_source",
+        "lit_white_candle_variant"
+      ],
+      "reason": "The exact lit white-candle lantern is a Firemaking light source.",
+      "quotes": [
+        "is a type of members-only [[Light sources|light source]] used in the [[Firemaking]] skill."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "4531"
+            },
+            {
+              "field": "version2",
+              "value": "Lit (white candle)"
+            },
+            {
+              "field": "name",
+              "value": "Candle lantern"
+            },
+            {
+              "field": "options2",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A flickering candle in a glass cage."
+            }
+          ],
+          "claim": "Exact numeric ID 4531 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4532": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "candle_lantern_light_source",
+        "unlit_black_candle_variant"
+      ],
+      "reason": "The exact unlit black-candle lantern is a Firemaking light-source variant that can be lit using a tinderbox.",
+      "quotes": [
+        "is a type of members-only [[Light sources|light source]] used in the [[Firemaking]] skill."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id3",
+              "value": "4532"
+            },
+            {
+              "field": "version3",
+              "value": "Unlit (black candle)"
+            },
+            {
+              "field": "name",
+              "value": "Candle lantern"
+            },
+            {
+              "field": "options3",
+              "value": "Drop"
+            },
+            {
+              "field": "examine3",
+              "value": "A candle in a glass cage."
+            }
+          ],
+          "claim": "Exact numeric ID 4532 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4534": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "candle_lantern_light_source",
+        "lit_black_candle_variant"
+      ],
+      "reason": "The exact lit black-candle lantern is a Firemaking light source.",
+      "quotes": [
+        "is a type of members-only [[Light sources|light source]] used in the [[Firemaking]] skill."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id4",
+              "value": "4534"
+            },
+            {
+              "field": "version4",
+              "value": "Lit (black candle)"
+            },
+            {
+              "field": "name",
+              "value": "Candle lantern"
+            },
+            {
+              "field": "options4",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine4",
+              "value": "A flickering candle in a glass cage."
+            }
+          ],
+          "claim": "Exact numeric ID 4534 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4548": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "bright_light_source",
+        "unlit_bullseye_variant"
+      ],
+      "reason": "The exact unlit bullseye lantern is the bright-light model and can be lit with Firemaking.",
+      "quotes": [
+        "is a [[light source]] used to illuminate dark areas with the highest brightness value of three."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "4548"
+            },
+            {
+              "field": "version1",
+              "value": "Unlit"
+            },
+            {
+              "field": "name",
+              "value": "Bullseye lantern"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "A sturdy steel lantern."
+            }
+          ],
+          "claim": "Exact numeric ID 4548 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4550": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "bright_light_source",
+        "lit_bullseye_variant"
+      ],
+      "reason": "The exact lit bullseye lantern directly provides the bright beam used to illuminate dark areas.",
+      "quotes": [
+        "is a [[light source]] used to illuminate dark areas with the highest brightness value of three."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "4550"
+            },
+            {
+              "field": "version2",
+              "value": "Lit"
+            },
+            {
+              "field": "name",
+              "value": "Bullseye lantern"
+            },
+            {
+              "field": "options2",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A sturdy steel lantern casting a bright beam."
+            }
+          ],
+          "claim": "Exact numeric ID 4550 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4700": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "sapphire_light_source",
+        "light_creature_attractant",
+        "empty_lantern_state"
+      ],
+      "reason": "The exact empty Sapphire lantern variant requires lamp oil before lighting; the finished lanternâ€™s documented light-beam use is preserved as an item-function role.",
+      "quotes": [
+        "The lantern is a [[Light sources|light source]] and is used for attracting [[light creature]]s in the [[Chasm of Tears]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "4700"
+            },
+            {
+              "field": "version1",
+              "value": "Empty"
+            },
+            {
+              "field": "name",
+              "value": "Sapphire lantern"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "You need to add lamp oil before you can use it."
+            }
+          ],
+          "claim": "Exact numeric ID 4700 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4701": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "sapphire_light_source",
+        "light_creature_attractant",
+        "unlit_lantern_state"
+      ],
+      "reason": "The exact unlit Sapphire lantern is the item used to attract light creatures and traverse the Chasm of Tears.",
+      "quotes": [
+        "The lantern is a [[Light sources|light source]] and is used for attracting [[light creature]]s in the [[Chasm of Tears]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "4701"
+            },
+            {
+              "field": "version2",
+              "value": "Unlit"
+            },
+            {
+              "field": "name",
+              "value": "Sapphire lantern"
+            },
+            {
+              "field": "options2",
+              "value": "Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A bullseye lantern with a sapphire for a lens."
+            }
+          ],
+          "claim": "Exact numeric ID 4701 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "4702": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [
+        "light-source"
+      ],
+      "roles": [
+        "sapphire_light_source",
+        "light_creature_attractant",
+        "lit_lantern_state"
+      ],
+      "reason": "The exact lit Sapphire lantern is a light source used to attract light creatures in the Chasm of Tears.",
+      "quotes": [
+        "The lantern is a [[Light sources|light source]] and is used for attracting [[light creature]]s in the [[Chasm of Tears]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id3",
+              "value": "4702"
+            },
+            {
+              "field": "version3",
+              "value": "Lit"
+            },
+            {
+              "field": "name",
+              "value": "Sapphire lantern"
+            },
+            {
+              "field": "options3",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine3",
+              "value": "A lantern casting a bright blue beam."
+            }
+          ],
+          "claim": "Exact numeric ID 4702 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "9064": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "emerald_light_source",
+        "unlit_lantern_state",
+        "quest_light_source"
+      ],
+      "reason": "The exact unlit Emerald lantern is the quest light source and can be lit with lamp oil and a tinderbox.",
+      "quotes": [
+        "is a [[light source]]. It is used during the [[Lunar Diplomacy]] quest"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "9064"
+            },
+            {
+              "field": "version2",
+              "value": "Unlit"
+            },
+            {
+              "field": "name",
+              "value": "Emerald lantern"
+            },
+            {
+              "field": "options2",
+              "value": "Drop"
+            },
+            {
+              "field": "examine2",
+              "value": "A mystical lantern."
+            }
+          ],
+          "claim": "Exact numeric ID 9064 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "9065": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "emerald_light_source",
+        "lit_lantern_state",
+        "quest_light_source"
+      ],
+      "reason": "The exact lit Emerald lantern is the light source used in Lunar Diplomacy.",
+      "quotes": [
+        "is a [[light source]]. It is used during the [[Lunar Diplomacy]] quest"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id3",
+              "value": "9065"
+            },
+            {
+              "field": "version3",
+              "value": "Lit"
+            },
+            {
+              "field": "name",
+              "value": "Emerald lantern"
+            },
+            {
+              "field": "options3",
+              "value": "Extinguish, Drop"
+            },
+            {
+              "field": "examine3",
+              "value": "A mystical lantern casting a green beam."
+            }
+          ],
+          "claim": "Exact numeric ID 9065 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "20722": {
+      "category": "TOOL",
+      "subcategory": "light-source",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "incomplete_light_source",
+        "lantern_component",
+        "quest_light_source"
+      ],
+      "reason": "The exact Emerald lantern with the unlit/empty state is a light-source item that must be fueled before lighting for the quest.",
+      "quotes": [
+        "is a [[light source]]. It is used during the [[Lunar Diplomacy]] quest"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "20722"
+            },
+            {
+              "field": "version1",
+              "value": "Empty"
+            },
+            {
+              "field": "name",
+              "value": "Emerald lantern"
+            },
+            {
+              "field": "options1",
+              "value": "Drop"
+            },
+            {
+              "field": "examine1",
+              "value": "You need to add lamp oil before you can use it."
+            }
+          ],
+          "claim": "Exact numeric ID 20722 is bound to its own item state by these Infobox Item variant fields."
+        }
+      ]
+    },
+    "5510": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact new Medium pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "Medium pouches"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "5510"
+            },
+            {
+              "field": "version1",
+              "value": "New"
+            },
+            {
+              "field": "examine1",
+              "value": "A medium-sized pouch used for storing essence."
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 5510 is the new Medium pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "5511": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact degraded Medium pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "Medium pouches"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "5511"
+            },
+            {
+              "field": "version2",
+              "value": "Degraded"
+            },
+            {
+              "field": "examine2",
+              "value": "A damaged medium-sized pouch used for storing essence."
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 5511 is the degraded Medium pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "5512": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact new Large pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "Large pouches"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "5512"
+            },
+            {
+              "field": "version1",
+              "value": "New"
+            },
+            {
+              "field": "examine1",
+              "value": "A large pouch used for storing essence."
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 5512 is the new Large pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "5513": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact degraded Large pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "Large pouches"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "5513"
+            },
+            {
+              "field": "version2",
+              "value": "Degraded"
+            },
+            {
+              "field": "examine2",
+              "value": "A large damaged pouch used for storing essence."
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 5513 is the degraded Large pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "5514": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact new Giant pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "Giant pouches"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "5514"
+            },
+            {
+              "field": "version1",
+              "value": "New"
+            },
+            {
+              "field": "examine1",
+              "value": "A giant-sized pouch used for storing essence."
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 5514 is the new Giant pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "5515": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact degraded Giant pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "Giant pouches"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "5515"
+            },
+            {
+              "field": "version2",
+              "value": "Degraded"
+            },
+            {
+              "field": "examine2",
+              "value": "A damaged giant-sized pouch used for storing essence."
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 5515 is the degraded Giant pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "26784": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact new Colossal pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "up to 40 [[rune essence|rune]], [[pure essence|pure]], [[daeyalt essence|daeyalt]], or [[guardian essence]] for use in the [[Runecraft]] [[skill]]"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id1",
+              "value": "26784"
+            },
+            {
+              "field": "version1",
+              "value": "New"
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 26784 is the new Colossal pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "26786": {
+      "category": "TOOL",
+      "subcategory": "runecrafting-container",
+      "tab": "skilling-tools",
+      "tags": [
+        "essence-container",
+        "runecrafting-utility"
+      ],
+      "roles": [
+        "skilling_tool",
+        "runecrafting_container",
+        "essence_storage",
+        "repeatable_item_storage"
+      ],
+      "reason": "The exact degraded Colossal pouch variant is an actively filled and emptied essence pouch for Runecraft; the page documents its capacity and ongoing degradation/repair cycle.",
+      "quotes": [
+        "up to 40 [[rune essence|rune]], [[pure essence|pure]], [[daeyalt essence|daeyalt]], or [[guardian essence]] for use in the [[Runecraft]] [[skill]]"
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id2",
+              "value": "26786"
+            },
+            {
+              "field": "version2",
+              "value": "Degraded"
+            },
+            {
+              "field": "options",
+              "value": "Fill, Empty, Check, Drop"
+            }
+          ],
+          "claim": "Exact numeric ID 26786 is the degraded Colossal pouch variant with explicit pouch actions."
+        }
+      ]
+    },
+    "1735": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_tool",
+        "wool_gathering_tool"
+      ],
+      "reason": "Shears directly perform repeated wool shearing; the exact page also documents ordinary availability and a quest requirement.",
+      "quotes": [
+        "They are required to shear wool from [[sheep]]"
+      ]
+    },
+    "1755": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "currency-utilities",
+      "tags": [],
+      "roles": [
+        "repeatable_tool",
+        "crafting_tool",
+        "fletching_tool"
+      ],
+      "reason": "The exact page explicitly identifies this item as a repeatable Crafting and Fletching tool.",
+      "quotes": [
+        "a tool used in the [[Crafting]] [[skill]] to cut and shape hard non-metals, mainly [[gem]]s and [[limestone]].",
+        "Chisels are also used in [[Fletching]] to cut gems into [[gem bolt tips|bolt tips]]."
+      ]
+    },
+    "590": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_tool",
+        "firemaking_tool",
+        "light_source_ignition_tool"
+      ],
+      "reason": "The exact page documents repeatable fire lighting plus lighting and relighting candles and lanterns.",
+      "quotes": [
+        "used primarily for [[Firemaking|lighting fires]] by clicking 'use' on the tinderbox, then clicking a log.",
+        "It is also used to light and relight [[candle]]s and [[lantern]]s"
+      ]
+    },
+    "952": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "currency-utilities",
+      "tags": [
+        "farming-utility",
+        "clue-utility",
+        "storage-option-tool-leprechaun"
+      ],
+      "roles": [
+        "repeatable_tool",
+        "farming_tool",
+        "treasure_trail_utility"
+      ],
+      "reason": "The exact page explicitly identifies a reusable multi-purpose tool with Farming, quest, and Treasure Trails functions; retained tags are separately preserved.",
+      "quotes": [
+        "is a multi-functional tool used for a variety of activities. One of its major uses is in the [[Farming]] skill, though it also comes in handy for many [[quests]] and [[Treasure Trails]]."
+      ]
+    },
+    "946": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_tool",
+        "fletching_tool",
+        "cooking_tool",
+        "hunter_tool"
+      ],
+      "reason": "The exact page documents repeated Fletching and Cooking workflows, as well as web cutting and Hunter trap setup.",
+      "quotes": [
+        "is a multi-functional tool used for a large variety of tasks, primarily used for fletching [[logs]] in the [[Fletching]] skill and cutting food in the [[Cooking]] skill.",
+        "Additionally, it can be used to cut through [[Web|webs]] and setup [[Hunter]] traps."
+      ]
+    },
+    "2347": {
+      "category": "TOOL",
+      "subcategory": "tool",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_tool",
+        "smithing_tool",
+        "construction_tool"
+      ],
+      "reason": "The exact page explicitly documents repeatable Smithing and Construction workflows for the hammer.",
+      "quotes": [
+        "a tool used in the [[Smithing]] skill to make items at an [[Anvil]] and in the [[Construction]] skill to make furniture."
+      ]
+    },
+    "28": {
+      "category": "TOOL",
+      "subcategory": "skilling-utility",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_skilling_utility",
+        "insect_control",
+        "minigame_combat_support",
+        "wax_production_input"
+      ],
+      "reason": "The exact item has repeatable non-quest uses: it is required again for each apiary wax collection and can be used multiple times on mosquitoes in the Tai Bwo Wannai Cleanup minigame.",
+      "quotes": [
+        "Insect repellent must be used on the beehive every time, otherwise the bees will have returned and no wax will be collected.",
+        "It is also used on [[large mosquito]]es and [[mosquito swarm]]s encountered in the [[Tai Bwo Wannai Cleanup]] [[minigame]] to halve their combat [[stats]] and prevent them from attacking for six seconds. This can be done multiple times until their stats are reduced to 1."
+      ]
+    },
+    "85": {
+      "category": "TOOL",
+      "subcategory": "quest-utility",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "reusable_shortcut_access",
+        "key_ring_compatible"
+      ],
+      "reason": "The exact item is used to take a shortcut into the Temple of Ikov dungeon and can be placed on the steel key ring, so its documented access role persists beyond the quest task.",
+      "quotes": [
+        "It is used to take the shortcut from the house in [[McGrubor's Wood]] to the [[lesser demon]] area of the Temple of Ikov dungeon.",
+        "It can be placed on the [[steel key ring]]."
+      ]
+    },
+    "292": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "historical_reference",
+        "quest_reference"
+      ],
+      "reason": "The exact book has a Read option and the source describes its history and practical hints; its transcript provides directly readable reference content beyond its quest association.",
+      "quotes": [
+        "In it is a brief history on [[Lord Baxtorian Cadarn|Baxtorian]], his treasure, and the reason he hid himself away beneath the waterfall, as well as a lot of useful hints and information concerning how a player might get in to retrieve the treasure.",
+        "==Transcript=="
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "292"
+            },
+            {
+              "field": "options",
+              "value": "Read, Drop"
+            }
+          ],
+          "claim": "Exact item ID 292 is the readable Book on Baxtorian."
+        }
+      ]
+    },
+    "669": {
+      "category": "TOOL",
+      "subcategory": "skilling-utility",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_skilling_utility",
+        "digsite_excavation_tool"
+      ],
+      "reason": "The exact item is usable beyond quest completion for level-three excavation and repeated searching of specimen trays for charcoal and other loot.",
+      "quotes": [
+        "In addition to being used for level 3 digs, specimen jars can be used to dig in [[specimen tray]]s for [[charcoal]] and other loot.",
+        "If a player does not have a specimen jar in their inventory upon searching the specimen tray, they will be stopped by a nearby [[digsite workman]]."
+      ]
+    },
+    "670": {
+      "category": "TOOL",
+      "subcategory": "skilling-utility",
+      "tab": "skilling-tools",
+      "tags": [],
+      "roles": [
+        "repeatable_skilling_utility",
+        "digsite_sample_tool"
+      ],
+      "reason": "The exact item is needed to dig in level-three sites, a repeatable Digsite utility outside its quest association.",
+      "quotes": [
+        "It is needed in [[The Dig Site]] quest and to dig in level 3 sites.",
+        "A small brush used to clean rock samples."
+      ]
+    },
+    "711": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "crafting_instructions",
+        "quest_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "The '''Book on chemicals''', or '''Volatile chemicals - Experimental Test Notes''', is part of [[The Dig Site]] quest.",
+        "It has some information on how to make a [[Chemical compound]] that can be used to destroy some blocks."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "711"
+            },
+            {
+              "field": "options",
+              "value": "Read, Drop"
+            }
+          ],
+          "claim": "Exact item ID 711 is the readable document Book on chemicals."
+        }
+      ]
+    },
+    "785": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "quest_evidence"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "The journal looks a little deeper into the mind and motives of Glough the [[gnome]].",
+        "It's used as a key piece of evidence as to what he's planning."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "785"
+            },
+            {
+              "field": "options",
+              "value": "Read, Drop"
+            }
+          ],
+          "claim": "Exact item ID 785 is the readable document Glough's journal."
+        }
+      ]
+    },
+    "4209": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "historical_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "is a book that recounts the history of the [[Cadarn Clan]], one of the oldest [[Elven Clans|elven families]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "4209"
+            },
+            {
+              "field": "options",
+              "value": "Read, Drop"
+            }
+          ],
+          "claim": "Exact item ID 4209 is the readable document Cadarn lineage."
+        }
+      ]
+    },
+    "6793": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "quest_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "The ballad tells the story of a man named [[Jareesh]] who tries to enter the dungeon far to the north of Nardah, and the obstacles he has to overcome."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "6793"
+            },
+            {
+              "field": "options",
+              "value": "Read, Drop"
+            }
+          ],
+          "claim": "Exact item ID 6793 is the readable document Ballad."
+        }
+      ]
+    },
+    "7634": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "historical_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "the content of this book is mostly a history of [[Morytania]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "7634"
+            },
+            {
+              "field": "options",
+              "value": "Read, Destroy"
+            }
+          ],
+          "claim": "Exact item ID 7634 is the readable document Histories of the Hallowland."
+        }
+      ]
+    },
+    "7635": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "geographic_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "Its content mostly documents the geography of [[Morytania]], listing place names and locations relative to each other."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "7635"
+            },
+            {
+              "field": "options",
+              "value": "Read, Destroy"
+            }
+          ],
+          "claim": "Exact item ID 7635 is the readable document Modern day Morytania."
+        }
+      ]
+    },
+    "9903": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "farming_instructions",
+        "quest_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "During the quest, you follow the directions for soil preparation of a [[Troll Stronghold|mountain]] [[Herb patch|patch]]."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "9903"
+            },
+            {
+              "field": "options",
+              "value": "Read, Destroy"
+            }
+          ],
+          "claim": "Exact item ID 9903 is the readable document Farming manual."
+        }
+      ]
+    },
+    "10594": {
+      "category": "CLEANUP",
+      "subcategory": "readable-lore",
+      "tab": "storage-cleanup",
+      "tags": [],
+      "roles": [
+        "readable_lore",
+        "crafting_instructions",
+        "quest_reference"
+      ],
+      "reason": "The exact item has an active Read option and transcript, and the pinned article directly identifies readable historical, geographic, or instructional content; the quest association does not erase this reference role.",
+      "quotes": [
+        "The book itself contains notes and instructions on making clockwork toys and a note from Larry on how to make the penguin suit."
+      ],
+      "variantFacts": [
+        {
+          "facts": [
+            {
+              "field": "id",
+              "value": "10594"
+            },
+            {
+              "field": "options",
+              "value": "Read, Drop"
+            }
+          ],
+          "claim": "Exact item ID 10594 is the readable document Clockwork book."
+        }
+      ]
+    }
+  },
+  "evidencePolicy": {
+    "positiveDecisions": "Must include an exact Wiki page whose pinned revision contains the exact numeric item ID in its infobox. Cite that ID's own infobox facts and a short supporting page excerpt. A multi-ID page can support a row only when the claim is also present in that exact ID's own infobox; otherwise use unresolved pending typed identity/direct-variant evidence.",
+    "unresolved": "Use when the exact page/variant is absent, ambiguous, or does not positively establish every proposed category, subcategory, and destination claim.",
+    "quoteLimit": 300
+  }
+}

@@ -90,6 +90,13 @@ public class CanonicalItemClassificationOverridesTest
 		}
 		assertEquals("rune-container", CompositeItemCatalog.DEFAULT.describeOrUnknown(24416).getSubcategory());
 		assertEquals("rune", CompositeItemCatalog.DEFAULT.describeOrUnknown(24607).getSubcategory());
+		assertEquals(ItemCategory.POTION, CompositeItemCatalog.DEFAULT.describeOrUnknown(403).getCategory());
+		assertEquals("secondary", CompositeItemCatalog.DEFAULT.describeOrUnknown(592).getSubcategory());
+		assertEquals("weapon", CompositeItemCatalog.DEFAULT.describeOrUnknown(5018).getSubcategory());
+		assertEquals("quest-item", CompositeItemCatalog.DEFAULT.describeOrUnknown(6094).getSubcategory());
+		assertEquals("collection-pet", CompositeItemCatalog.DEFAULT.describeOrUnknown(6670).getSubcategory());
+		assertEquals("tool", CompositeItemCatalog.DEFAULT.describeOrUnknown(6674).getSubcategory());
+		assertEquals("cosmetic", CompositeItemCatalog.DEFAULT.describeOrUnknown(6865).getSubcategory());
 	}
 
 	@Test

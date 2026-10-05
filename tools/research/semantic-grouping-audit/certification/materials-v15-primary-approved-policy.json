@@ -1,0 +1,612 @@
+{
+  "schema": 1,
+  "policyFile": "materials-v15-primary-approved-policy.json",
+  "status": "root-reviewed primary assignments only",
+  "expectedDecision": "certify",
+  "expectedCaseCount": 7,
+  "sourceInputPaths": {
+    "tmp/root-review/materials-v15-root-reading-20261003/first100-final-root-notes-v2.jsonl": "tmp/root-review/materials-v15-root-reading-20261003/first100-final-root-notes-v2.jsonl",
+    "tmp/root-review/materials-v15-resume-20261003/consolidated-root-reading-packet-493-groups-698-ids.jsonl": "tmp/root-review/materials-v15-resume-20261003/consolidated-root-reading-packet-493-groups-698-ids.jsonl",
+    "tmp/category-certification/wiki-articles/article-index.json": "tmp/category-certification/wiki-articles/article-index.json",
+    "docs/research/category-certification/approved-assignments.tsv": "tmp/root-review/materials-v15-first100-policy-draft-v2-20261003/live-approved-assignments-623e.tsv",
+    "docs/research/category-certification/approved-assignments-manifest.json": "tmp/root-review/materials-v15-first100-policy-draft-v2-20261003/live-approved-assignments-manifest-623e.json",
+    "tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl": "tmp/root-review/materials-v15-first100-policy-draft-v2-20261003/live-root-approved-decisions-623e.jsonl",
+    "tools/research/semantic-grouping-audit/certification/root-policy-approvals.json": "tmp/root-review/materials-v15-first100-policy-draft-v2-20261003/live-root-policy-approvals-623e.json",
+    "rootDraft": "tmp/root-review/materials-v15-first100-policy-draft-v2-20261003/unchanged-policy-draft.json",
+    "finalRootNotes": "tmp/root-review/materials-v15-root-reading-20261003/first100-final-root-notes-v2.jsonl",
+    "independentAudit": "tmp/root-review/materials-v15-first100-independent-20261003/independent-audit.jsonl"
+  },
+  "sourceHashes": {
+    "tmp/root-review/materials-v15-root-reading-20261003/first100-final-root-notes-v2.jsonl": "e73e94cd8da7b639fe63d7c923c06af84195f40c104a52ad0a70e89f6d77bb97",
+    "tmp/root-review/materials-v15-resume-20261003/consolidated-root-reading-packet-493-groups-698-ids.jsonl": "b24ac4ebc854492941ce9e9549ba5071a76c8fc8c107a774945c03a1cd04f771",
+    "tmp/category-certification/wiki-articles/article-index.json": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "docs/research/category-certification/approved-assignments.tsv": "2e53ffef769cac8848e02856d6f66b8a4ef42ecd611d954c965998406b9e489f",
+    "docs/research/category-certification/approved-assignments-manifest.json": "e2558e62278a720ae6a0dbba6a7b464f9ade740c8de69451816ee9bd4c1f2ffd",
+    "tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl": "623eb039238df083e51516cdd8c474132341be1da81da7eb5c7f1ae26a2e446e",
+    "tools/research/semantic-grouping-audit/certification/root-policy-approvals.json": "fcbae3b1f68ce0887a12fa88dcb84388ff16b20fe3cce006111ec341b00a599f",
+    "rootDraft": "f4f00a28472aa0bcd3e108d9d2923e1a13ff1f2c3a91a8ab8eca0db3edd78731",
+    "finalRootNotes": "e73e94cd8da7b639fe63d7c923c06af84195f40c104a52ad0a70e89f6d77bb97",
+    "independentAudit": "2e8232ab75a65f2b7cdc968cac9341eccfeb0f4777dc3e4a47ba0d4847b4b9eb"
+  },
+  "approvalScope": "Category, subtype and tab only; every existing tag and observed bank row is preserved.",
+  "rootSemanticDecision": "Read exact own sources for 109 IDs in 100 groups. Approve 82 positive placements; retain all 27 holds including Black prism. Resolve independent exceptions without inferring Tiny net reusability or copying Woolly hat warmth to scarf.",
+  "cases": [
+    {
+      "itemId": 1436,
+      "title": "Rune essence",
+      "sourceRevision": 15325416,
+      "sourceSha256": "aba9a7680544db2fbadd649e42c42cf9ef65c658f2bb385c91d5def9e7942f95",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "raw-resource",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Rune essence''' is a raw material used in the [[Runecraft]] skill that can be crafted into low-level [[runes]], namely [[Air rune|air]], [[Mind rune|mind]], [[Water rune|water]], [[Earth rune|earth]], [[Fire rune|fire]], and [[body rune]]s. Unlike runes, rune essence does not stack. Players need [[pure essence]] to craft any other type of rune, which can only be mined in members worlds.",
+      "positiveFunctionExcerpt": "'''Rune essence''' is a raw material used in the [[Runecraft]] skill that can be crafted into low-level [[runes]], namely [[Air rune|air]], [[Mind rune|mind]], [[Water rune|water]], [[Earth rune|earth]], [[Fire rune|fire]], and [[body rune]]s. Unlike runes, rune essence does not stack. Players need [[pure essence]] to craft any other type of rune, which can only be mined in members worlds.",
+      "secondaryExcerpts": [
+        "Free players may mine rune essence in the [[rune essence mine]], unlocked after completing the [[Rune Mysteries]] quest. To reach these mines, players need to be teleported by one of [[Rune essence mine#Teleportation and accessing the mine|several NPCs]]. In members worlds, players will also mine Rune essence until reaching level 30 [[Mining]] when they will automatically mine [[pure essence]]. Mining from one of the rocks that have an unlimited supply of essence gives 5 Mining experience per essence. A [[pickaxe]] is needed, just like any other mining activity.",
+        "{{Uses material list|Rune essence}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1436"
+        },
+        {
+          "field": "name",
+          "value": "Rune essence"
+        },
+        {
+          "field": "examine",
+          "value": "An unimbued rune."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own low-level Runecraft consumption supports unchanged rawresource, not cast-payment rune.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            1436
+          ],
+          "variantKey": "1436",
+          "suffix": null,
+          "state": "",
+          "variantName": "Rune essence",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "1436"
+          ],
+          "idsInExactState": [
+            1436
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 1436",
+          "fullArticleIndexParams": {
+            "name": "Rune essence",
+            "image": "[[File:Rune essence.png]]",
+            "release": "[[29 March]] [[2004]]",
+            "update": "RS2 Launched!",
+            "members": "No",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "No",
+            "noteable": "Yes",
+            "options": "Drop",
+            "examine": "An unimbued rune.",
+            "value": "4",
+            "weight": "0.002",
+            "exchange": "Yes",
+            "id": "1436"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    },
+    {
+      "itemId": 1941,
+      "title": "Swamp paste",
+      "sourceRevision": 15330833,
+      "sourceSha256": "75b5223053c6bc87d9a9d3638bca8cfad6a5e008d1248ee2d983f418d7ef4ec5",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "construction-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Swamp paste''' is made by mixing [[Pot of flour|flour]] with [[swamp tar]] to make [[raw swamp paste]], and then cooking the mixture on a [[fire]], yielding 2 [[Cooking]] [[experience]]. It '''cannot''' be cooked on a [[range]]. It is possible to burn the tar, though it is automatically discarded. Swamp tar spawns in [[Lumbridge Swamp]] and [[Mort Myre Swamp]].",
+      "positiveFunctionExcerpt": "Swamp paste is used in various activities:\r\n*Fixing leaks in the [[Cabin Fever]] quest.\r\n*Repairing the boat in the [[Sea Slug]] quest.\r\n*Repairing the bank in the [[In Aid of the Myreque]] quest.\r\n*Attempting to glue a page back together in [[The Slug Menace]] quest.\r\n*Repairing the leaks in the boat in the [[Fishing Trawler]] [[Minigames|minigame]].\r\n*Repairing the temple in the Shades of Mort'ton minigame.\r\n*Building the rowboat in the [[Dragon Slayer II]] quest.\r\n*A potential junk item to provide the dwarf in [[Mourning's End Part II]].\r\n*A task for the [[Wise Old Man]].\r\n*Creating various tiers of [[repair kits]].",
+      "secondaryExcerpts": [
+        "To make a large amount of swamp paste from swamp tar, use a [[barrel of flour]] at either the [[Barrel of flour (Sinclair Mansion)|Sinclair Mansion]] or [[Barrel of flour (Gordon and Mary's farm)|Gordon and Mary's farm]]. Bring as much swamp tar as needed and 26 [[pot]]s, Gordon's farm also has a pot spawn. Click the barrel to fill the pots, then combine with the swamp tar to create raw swamp paste. Repeat this until the desired amount is obtained, then cook it. A [[Fire#Permanent fires|permanent fire]] is recommended for large amounts. There is a permanent fire at the base of Mount Karuulm, very near the fairy ring and in front of the shack with a rope spawn.",
+        "Swamp paste can also be bought from various shops, including the [[Trader Crewmember]]s at any of the ports in the [[Charter ship|Charter ship network]], the [[Khazard General Store]] (south of [[Ardougne]]), the [[Mort'ton]] [[Razmire Builders Merchants|Builder's Store]], and [[Shipwright Seb]]'s [[Seb's Shipyard Supplies|shop]] in the [[Shipyard]]. Seb's shop is the most useful, as its prices are static regardless of remaining stock.",
+        "Swamp paste also tends to be rewarded in abundance when unlocking chests within the [[Shades of Mort'ton (minigame)|Shades of Mort'ton minigame]].",
+        "Unlike [[swamp tar]], swamp paste cannot be combined with [[herb]]s to form ammunition for a [[Salamander]] using the [[Herblore]] skill.",
+        "Swamp paste is used in various activities:\r\n*Fixing leaks in the [[Cabin Fever]] quest.\r\n*Repairing the boat in the [[Sea Slug]] quest.\r\n*Repairing the bank in the [[In Aid of the Myreque]] quest.\r\n*Attempting to glue a page back together in [[The Slug Menace]] quest.\r\n*Repairing the leaks in the boat in the [[Fishing Trawler]] [[Minigames|minigame]].\r\n*Repairing the temple in the Shades of Mort'ton minigame.\r\n*Building the rowboat in the [[Dragon Slayer II]] quest.\r\n*A potential junk item to provide the dwarf in [[Mourning's End Part II]].\r\n*A task for the [[Wise Old Man]].\r\n*Creating various tiers of [[repair kits]].",
+        "{{Recipe\r\n|skill1 = Cooking\r\n|skill1lvl = 1\r\n|skill1boostable = \r\n|skill1exp = 2\r\n|ticks = \r\n|members = Yes\r\n|facilities = Fire\r\n|mat1 = Raw swamp paste\r\n|mat1cost = No\r\n|output1 = Swamp paste\r\n|output1quantity = 1\r\n}}",
+        "{{Uses material list|Swamp paste}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1941"
+        },
+        {
+          "field": "name",
+          "value": "Swamp paste"
+        },
+        {
+          "field": "examine",
+          "value": "A tar-like substance mixed with flour and warmed."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own repairing/building and repairkit input clause supports current constructionmaterial; cooking origin and quest/minigame competitors retained.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            1941
+          ],
+          "variantKey": "1941",
+          "suffix": null,
+          "state": "",
+          "variantName": "Swamp paste",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "1941"
+          ],
+          "idsInExactState": [
+            1941
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 1941",
+          "fullArticleIndexParams": {
+            "name": "Swamp paste",
+            "image": "[[File:Swamp paste.png]]",
+            "release": "[[9 September]] [[2002]]",
+            "update": "Sea Slug Quest",
+            "members": "Yes",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "Yes",
+            "noteable": "No",
+            "options": "Drop",
+            "examine": "A tar-like substance mixed with flour and warmed.",
+            "value": "30",
+            "weight": "0.000",
+            "exchange": "Yes",
+            "id": "1941"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    },
+    {
+      "itemId": 4542,
+      "title": "Lantern lens",
+      "sourceRevision": 15183962,
+      "sourceSha256": "a6617e97e41ea4229e05c6a9f53fd20fc2e0ee19e7f54baf5b516d9b9fbe0f11",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "crafting-material",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Lantern lens''' are used with a [[bullseye lantern (unf)]] to make a [[bullseye lantern]]. A cut sapphire can then be used on the lantern to extract the lantern lens and produce a [[sapphire lantern]] at the same time.",
+      "positiveFunctionExcerpt": "'''Lantern lens''' are used with a [[bullseye lantern (unf)]] to make a [[bullseye lantern]]. A cut sapphire can then be used on the lantern to extract the lantern lens and produce a [[sapphire lantern]] at the same time.",
+      "secondaryExcerpts": [
+        "{{Recipe\r\n|skill1 = Crafting\r\n|skill1lvl = 49\r\n|skill1boostable = Yes\r\n|skill1exp = 55\r\n|members = Yes\r\n|ticks = 3\r\n|tools = Glassblowing pipe\r\n|mat1 = Molten glass\r\n|output1 = Lantern lens\r\n}}",
+        "{{Uses material list|Lantern lens}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "4542"
+        },
+        {
+          "field": "name",
+          "value": "Lantern lens"
+        },
+        {
+          "field": "examine",
+          "value": "A roughly circular disc of glass."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own lens assembly input supports unchanged craftingmaterial, sapphirevariant extraction preserved.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            4542
+          ],
+          "variantKey": "4542",
+          "suffix": null,
+          "state": "",
+          "variantName": "Lantern lens",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "4542"
+          ],
+          "idsInExactState": [
+            4542
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 4542",
+          "fullArticleIndexParams": {
+            "name": "Lantern lens",
+            "image": "[[File:Lantern lens.png]]",
+            "release": "[[14 March]] [[2005]]",
+            "update": "Lumbridge Swamp Caves",
+            "members": "Yes",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "No",
+            "noteable": "Yes",
+            "options": "Drop",
+            "examine": "A roughly circular disc of glass.",
+            "value": "70",
+            "weight": "0.028",
+            "exchange": "Yes",
+            "id": "4542"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    },
+    {
+      "itemId": 5931,
+      "title": "Jute fibre",
+      "sourceRevision": 15325398,
+      "sourceSha256": "cdfbc459fa9551b0ff87b1b8887845827b4d05c5778de20651f2b0cb3f5cbc3a",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "textile",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Jute fibres''' can be harvested from a [[hops patch]] after planting [[jute seed]]s. They can be woven in a [[loom]] to create [[empty sack]]s and [[drift net]]s or as payment to protect [[Sweetcorn plant|sweetcorn]] (x10).",
+      "positiveFunctionExcerpt": "'''Jute fibres''' can be harvested from a [[hops patch]] after planting [[jute seed]]s. They can be woven in a [[loom]] to create [[empty sack]]s and [[drift net]]s or as payment to protect [[Sweetcorn plant|sweetcorn]] (x10).",
+      "secondaryExcerpts": [
+        "{{Uses material list|Jute fibre}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "5931"
+        },
+        {
+          "field": "name",
+          "value": "Jute fibre"
+        },
+        {
+          "field": "examine",
+          "value": "I can weave this to make sacks."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own weaving into sacks/driftnets supports existing textile Resources; harvest/protectionpayment preserved. Farmingproduce proposal does not take precedence over direct processed use.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            5931
+          ],
+          "variantKey": "5931",
+          "suffix": null,
+          "state": "",
+          "variantName": "Jute fibre",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "5931"
+          ],
+          "idsInExactState": [
+            5931
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 5931",
+          "fullArticleIndexParams": {
+            "name": "Jute fibre",
+            "image": "[[File:Jute fibre.png]]",
+            "release": "[[11 July]] [[2005]]",
+            "update": "Farming",
+            "members": "Yes",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "No",
+            "noteable": "Yes",
+            "options": "Drop",
+            "examine": "I can weave this to make sacks.",
+            "value": "6",
+            "weight": "0.226",
+            "exchange": "Yes",
+            "id": "5931"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    },
+    {
+      "itemId": 6043,
+      "title": "Oak roots",
+      "sourceRevision": 15317719,
+      "sourceSha256": "405f0a3a6a2faeb600ed3643e30c75052c54dd8dd08c6be068a1c21b28bcf34e",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "resource",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Oak roots''' are [[Tree roots (Farming)|roots]] that have been dug up from a [[tree patch]] by a player after growing and then chopping down an [[oak (Farming)|oak]] tree. A [[spade]] is needed to dig up these roots. The roots can be used to brew an ale called [[axeman's folly]], be used to make [[supercompost]], or spun into a [[crossbow string]]. Players can get more roots depending on their Farming level. After the roots have been dug up, [[weeds]] will begin to grow in the tree patch.",
+      "positiveFunctionExcerpt": "'''Oak roots''' are [[Tree roots (Farming)|roots]] that have been dug up from a [[tree patch]] by a player after growing and then chopping down an [[oak (Farming)|oak]] tree. A [[spade]] is needed to dig up these roots. The roots can be used to brew an ale called [[axeman's folly]], be used to make [[supercompost]], or spun into a [[crossbow string]]. Players can get more roots depending on their Farming level. After the roots have been dug up, [[weeds]] will begin to grow in the tree patch.",
+      "secondaryExcerpts": [
+        "{{Uses material list|Oak roots}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6043"
+        },
+        {
+          "field": "name",
+          "value": "Oak roots"
+        },
+        {
+          "field": "examine",
+          "value": "The roots of the Oak tree."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own ale and crossbowstring inputs support current generalresource Resources; Farmingharvest and compost preserved.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            6043
+          ],
+          "variantKey": "6043",
+          "suffix": null,
+          "state": "",
+          "variantName": "Oak roots",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "6043"
+          ],
+          "idsInExactState": [
+            6043
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 6043",
+          "fullArticleIndexParams": {
+            "name": "Oak roots",
+            "image": "[[File:Oak roots.png]]",
+            "release": "[[11 July]] [[2005]]",
+            "update": "Farming",
+            "members": "Yes",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "No",
+            "noteable": "Yes",
+            "options": "Drop",
+            "examine": "The roots of the Oak tree.",
+            "value": "1",
+            "weight": "0.001",
+            "exchange": "Yes",
+            "id": "6043"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    },
+    {
+      "itemId": 6045,
+      "title": "Willow roots",
+      "sourceRevision": 15317720,
+      "sourceSha256": "92b4aa139f761393c4cd228f07c266ab6b273804a892d76a6f5b5f9bbc51118c",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "resource",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Willow roots''' are [[Tree roots (Farming)|roots]] that have been dug up from a [[tree patch]] by a player after growing and then chopping down a [[Willow Tree (Farming)|willow tree]] using the [[Farming]] skill. A [[spade]] is needed to dig up these roots. The number of roots obtained depends on the player's Farming level.",
+      "positiveFunctionExcerpt": "Willow roots can be used to make [[supercompost]], or spun on a [[spinning wheel]] to make [[crossbow string]]s.",
+      "secondaryExcerpts": [
+        "Willow roots can be used to make [[supercompost]], or spun on a [[spinning wheel]] to make [[crossbow string]]s.",
+        "{{Uses material list|Willow roots}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6045"
+        },
+        {
+          "field": "name",
+          "value": "Willow roots"
+        },
+        {
+          "field": "examine",
+          "value": "The roots of the Willow tree."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own crossbowstring material supports current generalresource Resources; Farmingharvest and compost preserved.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            6045
+          ],
+          "variantKey": "6045",
+          "suffix": null,
+          "state": "",
+          "variantName": "Willow roots",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "6045"
+          ],
+          "idsInExactState": [
+            6045
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 6045",
+          "fullArticleIndexParams": {
+            "name": "Willow roots",
+            "image": "[[File:Willow roots.png]]",
+            "release": "[[11 July]] [[2005]]",
+            "update": "Farming",
+            "members": "Yes",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "No",
+            "noteable": "Yes",
+            "options": "Drop",
+            "examine": "The roots of the Willow tree.",
+            "value": "1",
+            "weight": "0.001",
+            "exchange": "Yes",
+            "id": "6045"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    },
+    {
+      "itemId": 6047,
+      "title": "Maple roots",
+      "sourceRevision": 15317721,
+      "sourceSha256": "c2fb08417a64a6772bb8678ebc93c2ed4724967db9a28fc60b836613d44579f1",
+      "expectedDecision": "certify",
+      "proposedCategory": "SKILLING",
+      "proposedSubcategory": "resource",
+      "proposedIronmanTabKey": "resources",
+      "semanticExcerpt": "'''Maple roots''' are [[Tree roots (Farming)|roots]] that have been dug up from a [[maple tree]] planted in a [[tree patch]]. It can be added to a [[Compost Bin|compost bin]] to make [[supercompost]] like all tree roots, or be spun on a [[spinning wheel]] to make a [[crossbow string]].",
+      "positiveFunctionExcerpt": "'''Maple roots''' are [[Tree roots (Farming)|roots]] that have been dug up from a [[maple tree]] planted in a [[tree patch]]. It can be added to a [[Compost Bin|compost bin]] to make [[supercompost]] like all tree roots, or be spun on a [[spinning wheel]] to make a [[crossbow string]].",
+      "secondaryExcerpts": [
+        "Maple roots can be obtained from digging up a maple tree grown by players, requiring 45 [[Farming]], a [[maple seed]], and 45 [[Woodcutting]] to cut the tree into a stump, or as a reward from [[Vale offerings]] in the [[Vale Totems]] minigame. They must plant the seed in a [[plant pot]] filled with soil, water it from a [[watering can]], and transfer the sapling to a [[tree patch]]. After the tree has grown, they must then chop it down with an [[axe]] (to obtain [[maple logs]]), and then use a [[spade]] on the stump to dig it up. They will then receive the roots.",
+        "{{Uses material list|Maple roots}}"
+      ],
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "6047"
+        },
+        {
+          "field": "name",
+          "value": "Maple roots"
+        },
+        {
+          "field": "examine",
+          "value": "The roots of the Maple tree."
+        },
+        {
+          "field": "options",
+          "value": "Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "No"
+        },
+        {
+          "field": "quest",
+          "value": "No"
+        }
+      ],
+      "rationale": "Own crossbowstring input supports current generalresource Resources; compost and Valeofferings source retained.",
+      "stateScopeNotes": {
+        "exactOwnVariant": {
+          "exactInfoboxItemIds": [
+            6047
+          ],
+          "variantKey": "6047",
+          "suffix": null,
+          "state": "",
+          "variantName": "Maple roots",
+          "rawIdField": "id",
+          "rawIdValues": [
+            "6047"
+          ],
+          "idsInExactState": [
+            6047
+          ],
+          "exactIdPresent": true,
+          "literalRawIdLine": "|id = 6047",
+          "fullArticleIndexParams": {
+            "name": "Maple roots",
+            "image": "[[File:Maple roots.png]]",
+            "release": "[[11 July]] [[2005]]",
+            "update": "Farming",
+            "members": "Yes",
+            "quest": "No",
+            "tradeable": "Yes",
+            "equipable": "No",
+            "stackable": "No",
+            "noteable": "Yes",
+            "options": "Drop",
+            "examine": "The roots of the Maple tree.",
+            "value": "1",
+            "weight": "0.001",
+            "exchange": "Yes",
+            "id": "6047"
+          }
+        },
+        "scope": "Primary placement only; tags, secondary roles and availability unassessed."
+      }
+    }
+  ]
+}

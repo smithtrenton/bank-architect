@@ -1,32 +1,116 @@
 {
   "actionCounts": {
-    "certify": 2278,
-    "revise": 267,
-    "unresolved": 31540
+    "certify": 4381,
+    "exclude": 707,
+    "revise": 3064,
+    "unresolved": 25933
   },
-  "actionableRows": 2545,
+  "actionableRows": 8152,
+  "additionalPrimaryOverlayPolicyCaseCount": 19,
+  "bankContextPlacementCount": 3586,
+  "combinedPrimaryPolicyCaseCount": 3222,
+  "conditionalAppliedVerification": {
+    "fullRawGenericResult": "EXECUTED_EXPECTED_FAILURE_ON_EXACT_2096_CORRECTIONS",
+    "genericRemainderResult": "PASS",
+    "genericRemainderRows": 31989,
+    "interpretation": "3859 own-primary and1490 prior conditional routes pass unchanged generic raw checking;2096 corrections retain approved canonical-target checking and exact bank objects. Raw runtime routes remain unchanged.",
+    "priorHeldEdgesUnchanged": 49,
+    "rawItemFunctionsTagsRolesAvailabilityBankability": "unassessed; no inheritance",
+    "samePlacementCasesRemainGeneric": 15
+  },
+  "conditionalCorrectionCount": 2096,
   "decisionRows": 34085,
+  "gearExact19PublicationPreparation": {
+    "liveBankChange": false,
+    "overlayOrder": "Legacy primary/clues; approved bank overlay; target evidence enrichment; exact19 primary overlay. The exact19 writer starts from the immutable published bank-enriched predecessor.",
+    "previousDecisionSha256": "2584dad7df4f0bb764bcaf4af1f5962b8cdcf247f47a8d4987155baac185001a",
+    "previousManifestSha256": "24d09de0ee74e6daa4082179c13dcf2b4e26d1664f6231112d363c0f1742a280",
+    "runtimeChange": false,
+    "writer": "tmp/root-review/prepare-gear-exact19-publication-v2-root-20261004.py",
+    "writerSha256": "4607b42134157449f994ba1982eda27d074f181adf488719110f55649effaee2"
+  },
+  "legacyPrimaryPolicyCaseCount": 3203,
   "optionalRootCertificationCount": 637,
   "output": "tmp/category-certification/root-approved-decisions-with-clue-scrolls.jsonl",
-  "outputSha256": "2eea806d0c1d6f977c904769df09218b3e99677ffc836498b0f8b7a6f73d300c",
-  "policyCaseCount": 1908,
+  "outputSha256": "d52f7d3670aa7ae8d1da930569eb6c73cccf00f7fe52e870a87f31ac016cbb1e",
+  "ownPrimaryApprovalCount": 3859,
+  "placementApprovalCount": 7445,
+  "policyCaseCount": 3203,
+  "policyCaseCountScope": "Unchanged legacy32 registry/emitter cases; additional exact19 post-bank overlay is separately authorized.",
+  "priorConditionalPlacementCount": 1490,
   "replayScriptHashes": {
-    "emit-root-approved-decisions.py": "cc0cd4928ca152f62cca3c756700f535469c098d01cb8568c5a90241367364be",
-    "ledger.py": "7eacf8f6f06baf91dee5d3dbf6651ca36489fb83fb7ce88d4df4f0b1ac7a4cb8",
+    "emit-bank-context-corrections.py": "8c4563bef2353c820abac41e9127f6e3569f8c9c1c194b797e6cc292e0d9eaed",
+    "emit-gear-primary-exact19-overlay.py": "4b0efb69c00052497b2834e6fb175fb7c02ad0775a96c90f2faec66e947f201c",
+    "emit-root-approved-decisions.py": "16bcf71a3981dda47a5503e658026f7746b8e45d3bc90f8f313915c24d450883",
+    "ledger.py": "65203f66527d6ab5eca27fb4747eebf7b9196aff8725dc32aaaddf82cbe98cc5",
     "review-approved-clue-scrolls.py": "f3fb7bbb0d90236ea8fc1fd8f62525c7b519abebf7c8821c0d87728b5a28bb9c",
+    "verify-bank-context-correction-applied.py": "796bebb64193bf255df4ec278878ee6b340f5fac962ffad6d3d7ec83f5dc135d",
+    "verify-bank-context-placement.py": "664ff5e74ca329a839cc56d30ff66254c04120ac8da5f98b4d434706437682d2",
+    "verify-bank-ignore-supplemental.py": "6f21c1ab1c129d1d646f414c22119c7cf6cfa4e5bad087a256afbb51cc81fb05",
     "verify-cosmetic-cooking-policies.py": "8ac4776b255548840fea33505d0c8c8c1fcd78f72ee164721dedfafd0d3f588d",
     "verify-farming-primary-policy.py": "6dd2ebdccf8c9a37c0a591226fe89acabf0d53f11ef1b3326ff9ee998e885aac",
     "verify-farming-supplemental-policy.py": "a5ab3d99616f799cfabc8c56f7bd71270df87fb0391841ebda4048cf58b74a33",
     "verify-food-primary-policy.py": "7c94e43044b1df30c9b8c2fe927196a7997ea21a9bb112b9c6ef984b6d5b9bba",
     "verify-gear-bonus-sources.py": "31f6cdf9415fec09f436cf3164b4434788977e356e86853d4889a7466023871d",
+    "verify-gear-primary-exact19-overlay.py": "731023995974dd0db5b752cef93b01be08e1e93a90811355ba15887b5d474857",
+    "verify-gear-primary-next157-policy.py": "e43fa3cfd733374756b6317e5a55288f55926b8751b62d4a874ad447868750ba",
     "verify-gear-primary-policy.py": "d1e2f5f436248c0699701cb7dd7e3c19a0f3577b237b97a9b25da12f1aabbad6",
+    "verify-gear-primary-through246-policy.py": "6ad4f82acc1bf406a5591c72554b946e180255673d0309491b34b79731a87127",
+    "verify-materials-v15-first100.py": "31b4a57dfee42b074d2b844a1e711eea1f5548449b495888edb1062250cc1209",
+    "verify-materials-v15-g101-340.py": "03537ac62913af8d9eaf6a1ace9a99fc480653310b638bca727d61d601146745",
+    "verify-materials-v15-g341-493.py": "ae97f5e875448072ca22439fa7d95e4811ea6dbf7ebeec101c396e2ad777202b",
+    "verify-potion-primary-policies.py": "1236888d96e988c378a66199c071038f95bd82479e3ceb3b636fe056192b5b81",
     "verify-rune-primary-policy.py": "3e04a8f00314b87bfa465d8b0928d0012b9feb90cc55d9b8985925d51dde7481",
     "verify-teleport-primary-policy.py": "9a3c4c92bb61fd5740ef96b7d6f31a9c699d75908e73648969f3af44b6753e7a",
     "verify-tool-primary-policy.py": "f63723f7d32c6d97db2e676239fc3e8ee96de708a790eb945643b0e8c7813ff5"
   },
+  "rootPublicationPreparation": {
+    "previousManifestSha256": "b85110c6e76a3e4c326158cd9b71ebbf7b177bc1a842805d21036d77fe7d03cf",
+    "writer": "tmp/root-review/prepare_bank_ledger_publication_root_20261004.py",
+    "writerSha256": "1676a7359d2dcc307ca6c1da205725f1a658dd08dbc76e114b5a626dc38ba00c"
+  },
   "schema": "root-approved-category-decisions/v1",
   "sourceHashes": {
     "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "bankContextCorrections": {
+      "independentEnrichmentAudit": {
+        "path": "tmp/root-review/bank-context-target-evidence-enrichment-independent-audit-20261004/assessment.md",
+        "sha256": "5f3215bf960b3fbefddc58b54d10017aca684ba985f666d371bb42bc866f8367"
+      },
+      "installedAuthority": {
+        "bank-context-corrections-approvals.json": "bb053322e4237c3abe86107a44fd3f7a657912e72ff19357131dac90fafd9ffb",
+        "bank-context-corrections-approved-policy.json": "4815815be3ccb13ca91bc5e01b75be9124df2f883ab2e4e66dde55d20da7b17d",
+        "bank-context-corrections-root-authorization.json": "430d0ebab94853e64c672fb47cdaed4d9fffa228b72817e4e33161b01203feb4",
+        "emit-bank-context-corrections.py": "8c4563bef2353c820abac41e9127f6e3569f8c9c1c194b797e6cc292e0d9eaed",
+        "verify-bank-context-correction-applied.py": "796bebb64193bf255df4ec278878ee6b340f5fac962ffad6d3d7ec83f5dc135d"
+      },
+      "rawExportSha256": "8b9a60c88580187b4a4ae407aa5566897c01151bd62b9ada3f9c649a399c7318",
+      "rootEnrichment": {
+        "path": "tmp/root-review/bank-context-target-evidence-enrichment-root-20261004/manifest.json",
+        "sha256": "768ee291f7e8cf7cf5039a883951ffb28ec8a8fea71b0460e9f388c9be474f6d"
+      },
+      "rootFullLedgerGates": {
+        "path": "tmp/root-review/bank-context-enriched-full-ledger-root-gates-v2-20261004/manifest.json",
+        "sha256": "87fb901aa6d0bea4cc3878ad8b5689d01fb58c76d1683f7378a887ec95b5c958"
+      }
+    },
+    "bankContextPlacement": {
+      "bank-context-placement-approvals.json": "443154bfddd3a1c7722d826596b8ce909bcf74af22dd336392f89be787691253",
+      "bank-context-placement-approved-policy.json": "1eba5665c39e89eb723190181746c6d6a3427f7f6c588818baf1d6ae8cfc9cfc",
+      "verify-bank-context-placement.py": "664ff5e74ca329a839cc56d30ff66254c04120ac8da5f98b4d434706437682d2"
+    },
+    "bankabilityPolicy": {
+      "approvalPin": "476398ae9ba40f135f9ce398e353582df7ddb45ff60f0eea80d83de5e689e78a",
+      "policy": "460c115cffbb01115814005b3f50ce521ecad600b6065493383606d628f1e4d8",
+      "runtimeResource": "489eaf847ce6963e4235bf718bfeb2bed945af3d980a3cdc6fea8596561f6e10",
+      "verifier": "f116adf235f2f3fb7722e86b180f8621ed3d8fdb71b94188c82f5cd653e0e0dc"
+    },
+    "bankabilitySupplementalPolicy": {
+      "approvalPin": "a5a3491c2c4e487c9f16e0720d2a8edfcc2fdf6abd0c496fa8431d2a14edae9c",
+      "policy": "9eb4b0fb97d76ec5f1f5536640aaf376e8f5cbb73d60fde4350c16a5f3339662",
+      "runtimePolicy": "d4bcbc02151ba76957228f8053b3f58b6c17b244a49437cdad11c30fdbb8b52a",
+      "verifier": "6f21c1ab1c129d1d646f414c22119c7cf6cfa4e5bad087a256afbb51cc81fb05"
+    },
     "farmingCandidatePacket": "88734dda247ec388b7186d7cffc610662bdb3f2eafe09ba4c75604e547c4a8cf",
     "foodCandidatePacket": "5a4df8eab51f41d22ad3e4417230b7d7e143e844767179911e1d704ce4c5a6aa",
     "frozenCoverage": "d945c5b286b5107092daf83c6459f61e791b47ae61b911a9f4dc7ab76a1b8aaa",
@@ -41,6 +125,23 @@
       "tmp/category-certification/reviewer-packets/tools.jsonl": "f07ca9682bd62cdf30d42993088b8b6cdd9b1f33ccceab6b9757854b32b0201a"
     },
     "gearBonusSourceProof": "45117b366edb6c79cb93861a6146cf785e3395da277a01acdb207d35bd94ca2a",
+    "gearExact19PrimaryOverlay": {
+      "approvalPinsFile": "gear-primary-exact19-overlay-approvals.json",
+      "approvalPinsSha256": "c20579ca9bc4cab8539e727b5c96599fac371181bd03243d72b2a892a5dd7f33",
+      "heldIds": [
+        942
+      ],
+      "independentResearchAuditSha256": "ca4cc16945d9684cdbc11d5d8804303bd7f01accbe16cc56caa150cf1b044b05",
+      "policyFile": "gear-primary-exact19-approved-policy.json",
+      "policySha256": "09c7675fee1af67aa5c178bb86730ca5a83206b52c0f995e6442fd87b52a62b4",
+      "publishedBaseDecisionSha256": "2584dad7df4f0bb764bcaf4af1f5962b8cdcf247f47a8d4987155baac185001a",
+      "researchPacketManifestSha256": "97c95f233f45d1bd33f4f456f66d49accc828d8e712f9fd476d87b8ca48d08bb",
+      "rootAuthorizationFile": "gear-primary-exact19-root-authorization.json",
+      "rootAuthorizationSha256": "405d35abb6cefcac64d9a76672c63fd30fbef0b4672843849a676e6fd837aba7",
+      "rootReadingManifestSha256": "3d894ed915cd4294417639f1b28f59d28026a4e69316b8ad3d944bdf85ab21d9",
+      "scope": "primary category, subcategory, and tab only",
+      "tagAndSecondaryApprovalCount": 0
+    },
     "optionalCertifications": {
       "decisions": "014a26f09dda9b50d3bc254b052c3413828bab665e3f29dc529f8e083235d0a1",
       "rule": "4f2778c873006b5e9a37a5c3d48f397a716496df765216a7d104ecf73d82ef03"
@@ -58,8 +159,19 @@
       "food-primary-approved-policy.json": "5c886d8ac5acddd9c7617cad09f90409fe67bc21cc8b5fa4d4841aae36c0f2f2",
       "gear-approved-policy.json": "dd1fb79594b172a91cf73b4510bd6252c9b3f432a3b094b0f80242added814a6",
       "gear-primary-approved-policy.json": "f17524150bea502639d351438ffe123aee5c06285f9089ca15979cceb4d9b9d1",
+      "gear-primary-next157-corrections-approved-policy.json": "890b930c7f98d6c2c66fef76ad39eb0ffbcb11ab48d528b019c5e9c71e5e5e57",
+      "gear-primary-next157-same-approved-policy.json": "a4477e60913df420c7b0daca255716ce489ca8e78856925fa30f3ceac6e1bcec",
+      "gear-primary-through246-corrections-approved-policy.json": "ae68ea1a87df9786d0146aa47459ade70aa24bdfba737dc220d54597941a9653",
+      "gear-primary-through246-same-approved-policy.json": "ef40064c63d4633b7060338b41d2f750316ebd4e1c91a90430053682d7600b36",
       "gear-slot-approved-policy.json": "d43dd73e86a331ead88be5d8ba16420d16299844506e2072a649ae4af9fe0cdf",
       "materials-approved-policy.json": "6a68ebeb421ec89857aa567935df37839c7655aa1b93f19f7d5bde7ca8f34ca2",
+      "materials-v15-corrections-approved-policy.json": "338ed514cd79c48c881e89de088147f745c7df0429465078eb1b8bb1a07de867",
+      "materials-v15-g101-340-corrections-approved-policy.json": "a7d23132ff98602686f9384f85caedd190ac8a89fbbebd329d14f88b75f22f26",
+      "materials-v15-g101-340-primary-approved-policy.json": "4f8660c9fa0390a40f603a84d3819d01ec565d5317022a0ae3481afe297439c5",
+      "materials-v15-g341-493-corrections-approved-policy.json": "ac02b4b804f240c8fcfa83fd93b5a48ebdcdd23d487eb5e08d8d518967cc8d4a",
+      "materials-v15-primary-approved-policy.json": "5302fa2b1947b3c79b6e648814ebc78680b29b417f2de9e7227d16c79feffbf4",
+      "potion-corrections-approved-policy.json": "40734b00b9a60dffe8ae22d8fe642a09b23c8fc7c506216cce8bb00a6937ee5d",
+      "potion-primary-approved-policy.json": "2d90a7b417236f2f01f18335e681e049a03545df8bd6f449685268b8a77f6ea5",
       "prayer-bone-subcategory-approved-policy.json": "9a1bdd4e7a63ef5ad04a9a72a0d9a0d37cd56a6331e9019d5dee1d2836aa9f88",
       "raw-food-primary-approved-policy.json": "587baf2b0b59f459754ebd224b940b470b01ff1dab0eac77b56e537b64b4a8d1",
       "rune-primary-approved-policy.json": "bb5d67336e0c2a4cf892bd8f37e932e261caa7315b7b89a30c2d5888ef4a5cfd",
@@ -69,13 +181,13 @@
       "utility-approved-policy.json": "06ff2ef77124d95991d893dc7bac16c80128fce54a66fbdefa7b7b67bf1f65fe"
     },
     "rawFishReview": "bcbda28285765e806e0e7206c737519f62fcf91db9064730881fb1c313ff1e87",
-    "rootPolicyApprovals": "9208a81a830036a190d9a1364e750e36fe1e645d08daccc4a7079db536278ae4",
+    "rootPolicyApprovals": "9332b9f8fb5603d02f4d087f626d54cb6150bcffb1631dcdca4af92fc252bb3a",
     "runeCandidatePacket": "b2707f06d2f71774ae62e8da30f10f6e676c2d4e2584130c0dc25d26627b04d8",
     "teleportCandidatePacket": "5ed9e5c2520dd16a754f9179d0371c152b8f13b954057e6a8ec2762ce54ac107",
     "toolCandidatePacket": "d98fbc467c6459208940c5c4e45fc096a3185892f1cef6ba70acb30f046c101f"
   },
   "summaryTsv": "docs/research/category-certification/approved-assignments.tsv",
-  "summaryTsvSha256": "956d5044ef0f06a90aa9a923714ffd8edfcade7e85af61d072da914e648ce73d",
+  "summaryTsvSha256": "51521c6b1a057fe8906857373ce233257b5bd9c606a9ce983ca4bb881dcf2825",
   "tabPolicy": "Standard target tabs are computed from the approved target category using the current preset mapper's category routes, plus explicit ID routes listed in this emitter. after-coverage is never read by the emitter.",
-  "unresolvedRows": 31540
+  "unresolvedRows": 25933
 }

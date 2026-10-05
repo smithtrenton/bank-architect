@@ -2,7 +2,6 @@
 * text=auto
 
 # Preserve byte hashes for pinned certification policies and replay artifacts.
-tools/research/semantic-grouping-audit/certification/*.json text eol=lf
-tools/research/semantic-grouping-audit/certification/*.py text eol=lf
-docs/research/category-certification/*.tsv text eol=lf
-docs/research/category-certification/*.json text eol=lf
+# Research manifests pin exact working bytes (LF or CRLF), so store them unconverted.
+tools/research/semantic-grouping-audit/certification/** -text
+docs/research/category-certification/** -text

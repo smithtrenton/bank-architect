@@ -1,0 +1,41 @@
+{
+  "domain": "SKILLING and FARMING exact-ID semantic certification",
+  "scope": "All 4,147 exact current-coverage rows with itemCategory SKILLING or FARMING. Use each exact item's pinned article revision. Research only; no production edits.",
+  "identity": "A decision belongs to one numeric item ID and one exact Wiki infobox variant. Similar names, neighboring IDs, shared page names, recipe title edges, and group labels generate candidates only. They do not transfer mechanics or certification.",
+  "baseline": "Current category, subcategory, tags, and Ironman destination are comparison fields only, not evidence. Category, subcategory, functional roles, and destination are evaluated independently.",
+  "roles": {
+    "farming_plantable": "The exact item is explicitly plantable and its article identifies the patch, activity, or resulting plant. Ordinary crop/tree/herb seeds, seedlings, saplings, and decorative or PvP flower seeds retain distinct stages and uses.",
+    "farming_harvest": "The exact item is explicitly yielded by a Farming patch or crop harvest. Record separately any wild, monster, shop, or quest acquisition documented on the page.",
+    "farming_support": "The exact item is consumed in crop care, protection, compost, or Farming-specific storage. Keep reusable tools and storage containers separate; empty, filled, charged, and growing states stay distinct.",
+    "skill_source_material": "The exact item is a gathered material and the article identifies its source or collection mechanic. Keep acquisition provenance separate from downstream uses.",
+    "skill_processed_material": "The exact item is a processed intermediate with an article-supported input/output relation. Preserve its material stage and downstream uses.",
+    "skill_recipe_input": "The exact variant is explicitly used as an ingredient in a documented skill recipe. Record the direct recipe role independently from its source and output roles.",
+    "skill_tool": "The exact variant is reusable equipment or an implement used to perform a skill action. Keep tools separate from materials consumed by the skill.",
+    "quest_or_activity_constraint": "The article explicitly limits the exact item to a quest, minigame, area, or one-time workflow. Record that constraint without assuming it is unusable or unbankable."
+  },
+  "destination_rules": [
+    "A Farming-produced crop can retain a stronger Herblore, Cooking, or other established workflow destination; record Farming as provenance.",
+    "Herb seeds, herbs, unfinished potions, and secondaries remain in Herblore when their exact workflow stage supports it; Farming provenance alone does not force a move to the Farming tab.",
+    "Farming tools remain tools; crop protection supplies, compost inputs, seeds, and harvested crops retain distinct subcategories.",
+    "Raw ores and logs retain source-material identity; bars, planks, cut gems, hides, cloth, and arrow components retain their documented output stage. Typed stage links do not make stages equivalent.",
+    "Finished equipment, usable ammunition, foods, containers, tools, quest objects, and activity rewards are not generic resources solely because a skill article mentions them.",
+    "For a shared ingredient, identify the exact item's direct role and record multiple documented skill uses. Do not select a destination from a generic skill category alone.",
+    "Sailing and other recent mechanics require an exact-ID article statement or pinned recipe entry."
+  ],
+  "thresholds": {
+    "certify": "A pinned article revision and exact infobox ID establish the variant; explicit mechanics support the proposed category, subcategory, roles, and destination; and these assignments match the compiled row.",
+    "revise": "Pinned exact-ID article evidence establishes the variant and a concrete mismatch. Name only directly supported corrections and the mechanic behind them.",
+    "unresolved": "The article is missing, does not distinguish the exact variant, mechanics conflict, a recipe title is the only evidence, or the primary placement cannot be selected from direct evidence. Name the specific gap and do not treat baseline fields as certified."
+  },
+  "evidence": {
+    "preferred": "Pinned article revision where exactInfoboxItemIds contains the current ID. Include revision, article SHA-256, source redirect URL, exact item ID, and a concise direct quote supporting the mechanic.",
+    "fallback": "An exact-ID Bucket row from the 2026-10-02 snapshot may support a narrow identity/category fact. Record that page revision is unavailable; do not certify mechanics from this alone.",
+    "forbidden": "No name-only matching, adjacent-ID propagation, absent-category inference, recipe-title proof for an exact variant, or group evidence copied onto a member."
+  },
+  "sources": {
+    "article_index": "tmp/category-certification/wiki-articles/article-index.json",
+    "article_text_root": "tmp/category-certification/wiki-articles/text",
+    "wiki": "OSRS Wiki",
+    "license": "CC BY-NC-SA 3.0"
+  }
+}

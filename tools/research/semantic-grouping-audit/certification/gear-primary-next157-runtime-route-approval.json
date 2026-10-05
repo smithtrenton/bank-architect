@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "status": "root-approved exact runtime route change",
+  "reviewer": "root",
+  "approvedPacketManifestSha256": "3d4b3ee1aa89c288ebf14aee49deb6b0fb2e9469a837220e56a14148b623359f",
+  "approvedRouteProposalSha256": "08b1755737db8dbec50090b6ce5876fc40eaa4d626f83433804e5e5a588d0da8",
+  "approvedRuntimeRouteProposal": {
+    "schema": 1,
+    "status": "PENDING ROOT APPROVAL; NOT APPLIED",
+    "reviewer": "pending root review",
+    "itemId": 1201,
+    "scope": "Exact primary emitter route only. No semantic tag, supplemental role, availability, bankability, observed-bank-row or inventory/equipment approval.",
+    "beforeAfter": {
+      "PresetCategoryMapper.java": {
+        "beforeSha256": "ac388c46e6be546fcdca2f5958d965b794b78e7984e674294ab98417e8dd6e8b",
+        "afterSha256": "ac2a85919f32c622b53f35bff49014282c32307289611c811732a10fc4a26f45"
+      },
+      "emit-root-approved-decisions.py": {
+        "beforeSha256": "de128b2324b8043473ef1e8505bcc6350067d2b7528575a923ddaedb912cb8fc",
+        "afterSha256": "16bcf71a3981dda47a5503e658026f7746b8e45d3bc90f8f313915c24d450883"
+      },
+      "canonical-item-classification-overrides.tsv": {
+        "beforeSha256": "006dc0f86deffec27939848489a9df45ad10c79798c6c18500fa3f82f0a41a16",
+        "afterSha256": "79160c0b4269662a09d27effad1cd35609c00054f7365df255bbeca5c0be6892"
+      },
+      "PresetCategoryMapperTest.java": {
+        "beforeSha256": "242af45b182d4552e442fb8834771f8adf302238fe63878cbe82b3e8fe3d8635",
+        "afterSha256": "10a4852713e8aa38f126618e96d5b9d0fd12247340fba9ec890c639c96f34738"
+      },
+      "ResourceItemRegistryTest.java": {
+        "beforeSha256": "d7ea3abcc248a9aa349fb3fcf5abc4d100fda8525c17271a41097dd005e57d3a",
+        "afterSha256": "deae987075eb0d98469510c8386d0dd0f8890864e29c34f3c967ee93dcb546dc"
+      },
+      "ItemSetCategoryConsistencyTest.java": {
+        "beforeSha256": "66de268656ff40e43e7643c30d49d7ab19e94da2fe4b08cc4e3e6e5d17096665",
+        "afterSha256": "a8ae3555a4c0df8d467a39ce5de80edad0a0e05724870b5819b55ad5455e2b2e"
+      }
+    },
+    "requiredExistingUnitMethods": [
+      "PresetCategoryMapperTest.ironmanHonorsReviewedSpreadsheetTabChoicesByExactId",
+      "PresetCategoryMapperTest.reviewedSpreadsheetChoicesControlledByTheMapperRemainStableAgainstTheRealRegistry",
+      "ResourceItemRegistryTest.runeGearIsRefinedToGearWhileActualRunesStayRunes",
+      "ItemSetCategoryConsistencyTest"
+    ],
+    "requiredObservedBehavior": "Keep observed bank row multiplicity, slot and quantity-zero behavior unchanged; canonicalization continues through BankItemSnapshot/BankItemIds.",
+    "emitterLineage": {
+      "compiledJavaProofUnchangedEmitterSha256": "a37632461bee113cd54b04c2797737c5f6599c4f619820e9b196196042c05500",
+      "v4InstalledEmitterBeforeV5Sha256": "de128b2324b8043473ef1e8505bcc6350067d2b7528575a923ddaedb912cb8fc",
+      "v5Change": "Only the exact disjoint load_policy_cases count guard/message changes from 3046 / 3,046 to 3203 / 3,203."
+    },
+    "approvalMeaning": "Root must independently review and pin this exact paired runtime/resource/test delta before any official verifier accepts 1201 as applied.",
+    "runtimeApplicationManifest": {
+      "path": "observed-runtime/runtime-application-manifest.json",
+      "sha256": "68591f3f71d72fb629c468a22a9240d27c1f3db08ba30c6c256f64ff659d5430"
+    },
+    "compiledApplicationProof": {
+      "path": "observed-runtime/compiled-application-preservation-proof.json",
+      "sha256": "da6edbf08d401e01ba56dfb775d4145a73511bea15e96dcbc9d2a8afc4c874dc",
+      "status": "PASS; full compiled application and preservation",
+      "universe": 34085,
+      "supportedTargetsVerified": 157,
+      "unchangedTargetCount": 88,
+      "changedAssignmentRows": 69,
+      "otherRowsIdentical": 34016,
+      "allTagsPreserved": true,
+      "bankReaderAndFixtureUnchanged": true,
+      "primaryLedgerNotYetAdvanced": true,
+      "afterCoverageSha256": "8b9a60c88580187b4a4ae407aa5566897c01151bd62b9ada3f9c649a399c7318",
+      "jarSha256": "ef4ef68b4a65b66c2cf77cd4ce230a0b1938dbc75edb26ac819d4a53e513357b",
+      "existingUnitResults": {
+        "tests": 1161,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "regressionSuitesRun": false
+    }
+  }
+}

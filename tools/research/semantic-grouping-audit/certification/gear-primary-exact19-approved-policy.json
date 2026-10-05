@@ -1,0 +1,1034 @@
+{
+  "schema": 1,
+  "status": "research proposal only; root review and authorization required",
+  "scope": "Proposes only the exact existing primary category, subcategory, and tab routes for 19 IDs. No new taxonomy, tags, supplemental roles, availability, bankability, account access, or live-bank claim.",
+  "expectedCaseCount": 19,
+  "expectedDecision": "certify",
+  "primaryOnly": true,
+  "explicitAdditionalHolds": [
+    {
+      "itemId": 942,
+      "reason": "Independent primary review holds the lit bronze fire arrow because its own page names the Underground Pass bridge puzzle as the primary use while also supporting ammunition use."
+    }
+  ],
+  "addedRoles": [],
+  "proposedTags": [],
+  "tagEvidence": {},
+  "evidenceLimits": [
+    "All excerpts are pinned own-page text; full own pages and state/alternative-use assessments remain in the companion packet.",
+    "Exact source support does not establish this player can obtain, own, deposit, or bank the item.",
+    "Candidate support is not root approval."
+  ],
+  "cases": [
+    {
+      "itemId": 78,
+      "title": "Ice arrows",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "ammo",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Ice arrows''' are a [[quest item]] in the [[Temple of Ikov]] [[quest]]. They have the same [[Ranged Strength]] as [[steel arrow]]s, but must be fired from a [[yew bow]] or better.\n\nIn the Temple of Ikov quest, they are collected randomly when searching [[Closed chest (Temple of Ikov)|chests]] in the eastern [[Temple of Ikov (dungeon)|Temple of Ikov dungeon]] and required to defeat the [[Fire Warrior of Lesarkus]]. While not required, ice arrows can also be used to defeat [[Fareed]] from the [[Desert Treasure I]] quest, as all other ammunition will drop to the floor as [[ashes]], bypassing the ammo-saving effect of [[Ava's device]]s.\n\nUpon completion of the quest, players can still go back and obtain more should they desire it.\n\n{{Listen\n|align = right\n|title = Found ice arrows\n|filename = Found ice arrows.wav\n|desc = The sound effect that plays when ice arrows are found.}}",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = +16\n|mdmg = 0\n|prayer = 0\n|slot = ammo\n}}"
+      ],
+      "sourceRevision": 15324763,
+      "sourceSha256": "f3aebde91a8c6dd5d2bb2d9c93dbf5b2cb4e0fd8497696f20bebee7da632f34a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "78"
+        },
+        {
+          "field": "name",
+          "value": "Ice arrows"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The same exact state has active Wield, positive ranged strength and an ammo slot; ammunition function supports the current ammo route despite quest roles.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15324763.txt",
+        "sourcePageSha256": "f3aebde91a8c6dd5d2bb2d9c93dbf5b2cb4e0fd8497696f20bebee7da632f34a",
+        "selectedFacts": {
+          "slot": "ammo",
+          "bonusValues": {
+            "ranged_strength_bonus": 16
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 428,
+      "title": "Priest gown (bottom)",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Priest gown (bottom)''' is the bottom half of the [[Priest gown]] set. A priest gown set is used in the [[Biohazard]] [[quest]].\n\nIt can be bought from [[Thessalia's Fine Clothes]] in [[Varrock]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = +3\n|slot = legs\n|image = [[File:Priest gown (bottom) equipped male.png|120px]]\n|altimage = [[File:Priest gown (bottom) equipped female.png|110px]]\n}}"
+      ],
+      "sourceRevision": 15183641,
+      "sourceSha256": "18e9683b01717f21b7073a421a370e46d6c8f173d6aeb8ab7462690bfa036c99",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "428"
+        },
+        {
+          "field": "name",
+          "value": "Priest gown"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Own exact wearable state and +3 Prayer bonus support the current broad GEAR route; retain catchall subcategory gear because the current candidate route uses it and quest use competes for attention.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183641.txt",
+        "sourcePageSha256": "18e9683b01717f21b7073a421a370e46d6c8f173d6aeb8ab7462690bfa036c99",
+        "selectedFacts": {
+          "slot": "legs",
+          "bonusValues": {
+            "prayer_bonus": 3
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 538,
+      "title": "Druid's robe",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''druid's robe (bottom)''' is part of the [[druid's robes]] set. Pieces of the druid robes can be obtained by killing [[druid]]s in [[Taverley]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = +4\n|slot = legs\n|image = [[File:Druid's robe equipped male.png]]\n|altimage = [[File:Druid's robe equipped female.png]]\n}}"
+      ],
+      "sourceRevision": 15184923,
+      "sourceSha256": "e72254cf7470dc04ca9e8470a985b120288470d5b200e4f44905ce31b3f5a1e5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "538"
+        },
+        {
+          "field": "name",
+          "value": "Druid's robe"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact active wearable state and +4 Prayer bonus support the current GEAR catchall; no sibling or set-level function is transferred.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15184923.txt",
+        "sourcePageSha256": "e72254cf7470dc04ca9e8470a985b120288470d5b200e4f44905ce31b3f5a1e5",
+        "selectedFacts": {
+          "slot": "legs",
+          "bonusValues": {
+            "prayer_bonus": 4
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 542,
+      "title": "Monk's robe",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Monk's robe''' is a part of [[Monk's robes]] and is found lying on the table upstairs in the [[Edgeville Monastery]], which requires a [[Prayer]] level of at least 31 to enter. The monk's robe bottom provides a +5 Prayer bonus while having no requirements to wear.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = +5\n|slot = legs\n|image = [[File:Monk's robe equipped male.png]]\n|altimage = [[File:Monk's robe equipped female.png|150px]]\n}}"
+      ],
+      "sourceRevision": 15183638,
+      "sourceSha256": "d22453e2f73ae5d5c36ed43fe3960bf2d9687e1431b06d2e74e9b58a5063d07a",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "542"
+        },
+        {
+          "field": "name",
+          "value": "Monk's robe"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact wearable state and +5 Prayer bonus support the current GEAR route; the source's dungeon alignment and access condition remain contextual secondary facts.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183638.txt",
+        "sourcePageSha256": "d22453e2f73ae5d5c36ed43fe3960bf2d9687e1431b06d2e74e9b58a5063d07a",
+        "selectedFacts": {
+          "slot": "legs",
+          "bonusValues": {
+            "prayer_bonus": 5
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 544,
+      "title": "Monk's robe top",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Monk's robe top''' is a part of [[Monk's robes]] and can be found lying on the table upstairs in the [[Edgeville Monastery]], which requires a [[Prayer]] level of 31 to enter. The monk's robe top is useful in that it provides a +6 Prayer bonus while having no requirements to wear.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = +6\n|slot = body\n|image = [[File:Monk's robe top equipped male.png]]\n|altimage = [[File:Monk's robe top equipped female.png|150px]]\n}}"
+      ],
+      "sourceRevision": 15183637,
+      "sourceSha256": "d79d66df8c1c96abdd0031c433a95f06096d246524b45cda8f04a82db40d7f6b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "544"
+        },
+        {
+          "field": "name",
+          "value": "Monk's robe top"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "The own page and exact bonus template establish a wearable body-slot Prayer garment, matching the current body route.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183637.txt",
+        "sourcePageSha256": "d79d66df8c1c96abdd0031c433a95f06096d246524b45cda8f04a82db40d7f6b",
+        "selectedFacts": {
+          "slot": "body",
+          "bonusValues": {
+            "prayer_bonus": 6
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 546,
+      "title": "Shade robe top",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "body",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Shade robe top''' is a part of [[Shade robes]] and is dropped by [[shade]]s. It provides 2 higher [[Prayer]] bonus than a [[priest gown (top)|priest gown]], but 1 less than a [[monk's robe top]].\n\n{{Costume storage|fancy dress box|[[Shade robes|Shade Robes]] set|set=true}}",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 5\n|slot = body\n|image = [[File:Shade robe top equipped male.png|150px]]\n|altimage = [[File:Shade robe top equipped female.png|150px]]\n}}"
+      ],
+      "sourceRevision": 15183211,
+      "sourceSha256": "f656981e3f4dbf9db65ae5863a90a1d13df9f1c0c8302612fba2c64b1e87ebc1",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "546"
+        },
+        {
+          "field": "name",
+          "value": "Shade robe top"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Its own exact body-slot bonuses directly support the current body route. Costume storage and visual similarity are separate facts.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183211.txt",
+        "sourcePageSha256": "f656981e3f4dbf9db65ae5863a90a1d13df9f1c0c8302612fba2c64b1e87ebc1",
+        "selectedFacts": {
+          "slot": "body",
+          "bonusValues": {
+            "prayer_bonus": 5
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 548,
+      "title": "Shade robe",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Shade robe''' is a part of [[Shade robes]] and is dropped by [[shade]]s. It provides +1 higher [[Prayer]] bonus than a [[priest gown (bottom)|priest gown]], but 1 less than a [[monk's robe]].\n\n{{Costume storage|fancy dress box|[[Shade robes|Shade Robes]] set|set=true}}",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 4\n|slot = legs\n|image = [[File:Shade robe equipped male.png|150px]]\n|altimage = [[File:Shade robe equipped female.png|150px]]\n}}"
+      ],
+      "sourceRevision": 15183790,
+      "sourceSha256": "bc627d30d310239ad03a37c1ad0bc342d72b8ba8999b2429f8943a3b11334c48",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "548"
+        },
+        {
+          "field": "name",
+          "value": "Shade robe"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact wearable state and +4 Prayer bonus support the current GEAR catchall. No subcategory is inferred from sibling appearance or costume storage.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183790.txt",
+        "sourcePageSha256": "bc627d30d310239ad03a37c1ad0bc342d72b8ba8999b2429f8943a3b11334c48",
+        "selectedFacts": {
+          "slot": "legs",
+          "bonusValues": {
+            "prayer_bonus": 4
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 589,
+      "title": "Gnome amulet",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "neck",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''gnome amulet''' is awarded to players by [[King Bolren]] after completion of the [[Tree Gnome Village]] quest. Should the player happen to lose the amulet, another can be obtained for free from [[King Bolren]]. It is made from the same material as the [[orbs of protection]] that are retrieved during the quest.\n\nIt functions as a melee-only [[amulet of defence]], having +13 in all [[melee]] defences but no [[magic]] and [[ranged]] defence. For melee-only situations, this amulet is recommended over the [[amulet of defence]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = 0\n|dstab = +13\n|dslash = +13\n|dcrush = +13\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = neck\n|image = [[File:Gnome amulet equipped.png]]\n|altimage = [[File:Gnome amulet equipped female.png]]\n}}"
+      ],
+      "sourceRevision": 15183040,
+      "sourceSha256": "ae71e31786fef3afd2c8470b1a91bedbb6e26512a38fa0ef4af48fd31121c54b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "589"
+        },
+        {
+          "field": "name",
+          "value": "Gnome amulet"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The exact neck slot and defensive values agree with the current neck route; quest acquisition is context, not a separate primary function.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183040.txt",
+        "sourcePageSha256": "ae71e31786fef3afd2c8470b1a91bedbb6e26512a38fa0ef4af48fd31121c54b",
+        "selectedFacts": {
+          "slot": "neck",
+          "bonusValues": {
+            "stab_defence_bonus": 13,
+            "slash_defence_bonus": 13,
+            "crush_defence_bonus": 13
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 746,
+      "title": "Dark dagger",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''dark dagger''' is a [[quest item]] obtained during [[Legends' Quest]]. It is given to the player by the entity [[Echned Zekin]]. The dagger can then either be given to [[Ugandulu]] for a one-use [[Holy force]] spell, or used to kill [[Viyeldi]] which converts the dagger into a [[glowing dagger]]. It is then given to Echned, who turns out to be the [[Nezikchened|demon]].\n\nIf players have misplaced their glowing dagger after the quest, it can be reclaimed from [[Radimus Erkle]], and can be investigated via-right click afterwards to switch its appearance between a dark or glowing dagger.\n\nIt has the same stats as an [[iron dagger]] albeit without a [[strength bonus]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = +5\n|aslash = +3\n|acrush = -4\n|amagic = +1\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = +1\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = weapon\n|speed = 4\n|attackrange = 1\n|combatstyle = Stab Sword\n|image = [[File:Dark dagger equipped.png|180px]]\n|altimage = [[File:Dark dagger equipped female.png|180px]]\n}}"
+      ],
+      "sourceRevision": 15182955,
+      "sourceSha256": "26347bc5fd25f001ad958fe0a00e04818989c6a2b96050f6162adb3500434822",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "746"
+        },
+        {
+          "field": "name",
+          "value": "Dark dagger"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Investigate, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        }
+      ],
+      "rationale": "Exact active Wield state and weapon slot with positive attack values support the current broad GEAR route; transformation and one-use quest roles remain separate.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15182955.txt",
+        "sourcePageSha256": "26347bc5fd25f001ad958fe0a00e04818989c6a2b96050f6162adb3500434822",
+        "selectedFacts": {
+          "slot": "weapon",
+          "bonusValues": {
+            "stab_attack_bonus": 5,
+            "slash_attack_bonus": 3,
+            "crush_attack_bonus": -4,
+            "magic_attack_bonus": 1,
+            "magic_defence_bonus": 1
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 747,
+      "title": "Glowing dagger",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''glowing dagger''' is a [[quest items|quest item]] obtained and used during the [[Legends' Quest]]. It has the same combat stats as an [[iron dagger]], only lacking the +4 strength bonus.\n\nIt is created when players are given the [[dark dagger]] by [[Echned Zekin]], requesting them to kill [[Viyeldi]] because he was the one that murdered him and wants revenge. Once the dagger is used to kill Viyeldi, it will convert into a glowing dagger. It can then be taken back to Echned Zekin, who will reveal his true form - the demon [[Nezikchened]]. Alternatively, it can be taken to [[Ungadulu]].\n\nPlayers can obtain another glowing dagger after the quest by speaking to [[Radimus Erkle]] in the [[Legends' Guild]], and can be investigated via-right click afterwards to switch its appearance between a dark or glowing dagger.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = +5\n|aslash = +3\n|acrush = -4\n|amagic = +1\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = +1\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = weapon\n|speed = 4\n|attackrange = 1\n|combatstyle = Stab Sword\n|image = [[File:Glowing dagger equipped male.png|180px]]\n|altimage = [[File:Glowing dagger equipped female.png|180px]]\n}}"
+      ],
+      "sourceRevision": 15242483,
+      "sourceSha256": "dde14a1c9870c226d1143fd1050e0499b45580fa0954194625ad114921a17c47",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "747"
+        },
+        {
+          "field": "name",
+          "value": "Glowing dagger"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Investigate, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        }
+      ],
+      "rationale": "Exact active Wield state and weapon slot with positive attack values support the current broad GEAR route; cosmetic toggle does not erase weapon use.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15242483.txt",
+        "sourcePageSha256": "dde14a1c9870c226d1143fd1050e0499b45580fa0954194625ad114921a17c47",
+        "selectedFacts": {
+          "slot": "weapon",
+          "bonusValues": {
+            "stab_attack_bonus": 5,
+            "slash_attack_bonus": 3,
+            "crush_attack_bonus": -4,
+            "magic_attack_bonus": 1,
+            "magic_defence_bonus": 1
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 767,
+      "title": "Phoenix crossbow",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Phoenix crossbow''' is a [[quest item]], although it can be traded. It has the same stats as a regular [[crossbow]] except for attack range, but weighs significantly less. It can be obtained and is used in the quest [[Shield of Arrav]]. The Phoenix crossbow has no requirements to wield, and can only fire [[bronze bolts]]. It can also be used with a [[mith grapple]] for Agility shortcuts.\n\nThe Phoenix crossbow is not often used, as the [[bronze crossbow]] requires the same [[Ranged]] level to equip, but gives a Ranged accuracy of +18, whilst the Phoenix crossbow only gives +6. However, the Phoenix crossbow is essentially free, and since bronze crossbows and above are [[members-only]] items, the Phoenix crossbow is the second-best crossbow available to [[free-to-play]] players. While the Phoenix crossbow is lighter than and has the same +6 range bonus as the standard [[crossbow]], the Phoenix crossbow has a maximum range of 7 tiles, whereas the standard crossbow has a range of 10 tiles.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = +6\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = weapon\n|speed = 6\n|attackrange = 5\n|combatstyle = Crossbow\n|image = [[File:Phoenix crossbow equipped.png|180px]]\n|altimage = [[File:Phoenix crossbow equipped female.png|180px]]\n}}"
+      ],
+      "sourceRevision": 15301710,
+      "sourceSha256": "89996358a3dc8ab5c7c06145c1fb309013670fd7922736a4f7bee866cf20734b",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "767"
+        },
+        {
+          "field": "name",
+          "value": "Phoenix crossbow"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Inspect, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Own active weapon state and ranged bonus support GEAR; current generic subcategory is retained because its page describes a crossbow that is unusually weak and has quest and Agility uses.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15301710.txt",
+        "sourcePageSha256": "89996358a3dc8ab5c7c06145c1fb309013670fd7922736a4f7bee866cf20734b",
+        "selectedFacts": {
+          "slot": "weapon",
+          "bonusValues": {
+            "range_attack_bonus": 6
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 777,
+      "title": "Chaos gauntlets",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "hands",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Before Family Pest:''' You can obtain another set of chaos gauntlets from Dimintheis.<br/>'''After Family Pest:''' You can obtain another set of chaos gauntlets from Johnathon.\n|examine = These gauntlets empower spell casters.\n|value = 1\n|weight = 0.226\n|id = 777\n}}\n[[File:Chaos gauntlets detail.png|left|130px]]\n'''Chaos gauntlets''' are a pair of [[gloves]] available after completing the quest [[Family Crest]], along with the [[goldsmith gauntlets|goldsmith]] and [[cooking gauntlets]]. The gauntlets, when worn, increase the maximum damage done by all [[bolt spells]] by 3 (before the boosted damage is multiplied by [[Magic damage|Magic Damage]] stats), thus making the max hit of bolt spells only 1 below that of [[blast spells]] and [[Inferior Demonbane]]. There are no requirements to wear these gloves.\n\nPlayers can obtain the chaos gauntlets by bringing the [[steel gauntlets]] that were awarded from the quest to [[Johnathon]], located upstairs in the [[Jolly Boar Inn]], which is north-east of [[Varrock]]. (Note: if the gauntlets have a different enchantment on them already, Johnathon will charge the player 25,000 [[coins]]).\n\nThe text that appears when you give your gauntlets to Johnathon is: \"''Johnathon takes your gauntlets from you, and begins a low chant over them. You see them glow and sparkle, before he returns them to you.''\"\n\nPrior to completing the [[Family Pest]] [[miniquest]], if lost, they are re-obtained free of charge from [[Dimintheis]]. After completion of the Family Pest, they can be claimed from Johnathon for free at any time and without the need for steel gauntlets; and all forms of the Family Crest gauntlets can be owned simultaneously. They can also be claimed in [[free-to-play]] [[Server|worlds]] but cannot be equipped in free-to-play.\n\nUpon death, they will be lost unless they are a protected item.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = +2\n|aslash = +2\n|acrush = +2\n|amagic = 0\n|arange = 0\n|dstab = +8\n|dslash = +9\n|dcrush = +7\n|dmagic = 0\n|drange = 0\n|str = +2\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = hands\n|image = [[File:Chaos gauntlets equipped.png|130px]]\n|altimage = [[File:Chaos gauntlets equipped female.png|130px]]\n}}"
+      ],
+      "sourceRevision": 15352194,
+      "sourceSha256": "e0cbaf8fe051b3b479a99dfa009151b962b2e31bff93e454c720627eb1c2abec",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "777"
+        },
+        {
+          "field": "name",
+          "value": "Chaos gauntlets"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Destroy"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        }
+      ],
+      "rationale": "Exact wearable hand state, own hand slot, and source-documented spell effect support current GEAR/hands.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15352194.txt",
+        "sourcePageSha256": "e0cbaf8fe051b3b479a99dfa009151b962b2e31bff93e454c720627eb1c2abec",
+        "selectedFacts": {
+          "slot": "hands",
+          "bonusValues": {
+            "stab_attack_bonus": 2,
+            "slash_attack_bonus": 2,
+            "crush_attack_bonus": 2,
+            "stab_defence_bonus": 8,
+            "slash_defence_bonus": 9,
+            "crush_defence_bonus": 7,
+            "strength_bonus": 2
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 778,
+      "title": "Steel gauntlets",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "hands",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Steel gauntlets''' are a reward for completing the [[Family Crest]] quest and an heirloom of the Fitzharmon family. Players can take them to any of the three brothers from the quest and have them enchant the gauntlets with a special ability. The magic of these gauntlets will always return them to the head of the Fitzharmon house should they be lost, so if a player loses the gauntlets, they can be retrieved from [[Dimintheis]] with their previous enchantment.\n\nBefore completion of the [[Family Pest]] [[miniquest]], players can only have one pair of gauntlets at a time. After completing the miniquest, [[Dimintheis]] will hand the player as many pairs of steel gauntlets as they want for free.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = +2\n|aslash = +2\n|acrush = +2\n|amagic = 0\n|arange = 0\n|dstab = +8\n|dslash = +9\n|dcrush = +7\n|dmagic = 0\n|drange = 0\n|str = +2\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = hands\n|image = [[File:Steel gauntlets equipped.png|130px]]\n|altimage = [[File:Steel gauntlets equipped female.png|130px]]\n}}"
+      ],
+      "sourceRevision": 15351820,
+      "sourceSha256": "7a7f08c9bc7f588f88d9fae9214214c57847503ee9d9c0d33e6e60556d8bbb9e",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "778"
+        },
+        {
+          "field": "name",
+          "value": "Steel gauntlets"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Destroy"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "No"
+        }
+      ],
+      "rationale": "The selected steel state remains explicitly wearable and has its own bonuses; the source documents transformations as additional lifecycle context.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15351820.txt",
+        "sourcePageSha256": "7a7f08c9bc7f588f88d9fae9214214c57847503ee9d9c0d33e6e60556d8bbb9e",
+        "selectedFacts": {
+          "slot": "hands",
+          "bonusValues": {
+            "stab_attack_bonus": 2,
+            "slash_attack_bonus": 2,
+            "crush_attack_bonus": 2,
+            "stab_defence_bonus": 8,
+            "slash_defence_bonus": 9,
+            "crush_defence_bonus": 7,
+            "strength_bonus": 2
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 845,
+      "title": "Oak longbow",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''oak longbow''' is a [[longbow (weapon)|longbow]] made from oak. It can be made at level 25 [[Fletching]] by using a [[knife]] on [[oak logs]] to cut them into an [[oak longbow (u)]], granting 25 experience, and then using a [[bowstring]] on the unstrung bow, granting another 25 experience. It requires level 5 [[Ranged]] to wield and can fire arrows up to and including [[steel arrow|steel]].\n\nIt has identical stats to the [[oak shortbow]], but fires at a slower [[attack speed|speed]].\n\nDuring the quest [[Ghosts Ahoy]] a player might acquire a [[signed oak bow]] which is exactly the same as the oak longbow, aside from its name.\n\nFletching an oak longbow from [[oak logs]] and a [[bow string]] will profit {{Coins|{{GEP|Oak longbow}}-({{GEP|Oak logs}}+{{GEP|Bow string}})}} while fletching an oak longbow from an [[oak longbow (u)]] and a [[bow string]] will profit {{Coins|{{GEP|Oak longbow}}-({{GEP|Oak longbow (u)}}+{{GEP|Bow string}})}}.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = +14\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = 2h\n|speed = 6\n|attackrange = 10\n|combatstyle = Bow\n|image = [[File:Oak longbow equipped.png]]\n|altimage = [[File:Oak longbow equipped female.png]]\n}}"
+      ],
+      "sourceRevision": 15322339,
+      "sourceSha256": "436cfabd925eec562ca156a4004b10a19b166184c78900b5935d9eca6b463722",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "845"
+        },
+        {
+          "field": "name",
+          "value": "Oak longbow"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact Wield state and 2h ranged slot support current GEAR; retain broad subcategory `gear` as current taxonomy route.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15322339.txt",
+        "sourcePageSha256": "436cfabd925eec562ca156a4004b10a19b166184c78900b5935d9eca6b463722",
+        "selectedFacts": {
+          "slot": "2h",
+          "bonusValues": {
+            "range_attack_bonus": 14
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 847,
+      "title": "Willow longbow",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''willow longbow''' is a [[Longbow (weapon)|longbow]] made from [[willow logs]]. It requires 20 [[Ranged]] to equip and can fire arrows up to [[Mithril arrow|mithril]]. It has a longer [[attack range]] than its [[Willow shortbow|shortbow]] counterpart, but has a slower [[attack speed]]. It can be purchased from [[Lowe's Archery Emporium]] in [[Varrock]].\n\nWillow longbows can be created at level 40 [[Fletching]] by using a [[knife]] on willow logs to create a [[willow longbow (u)]], granting 41.5 experience, and then using a [[bowstring]] on the unstrung bow, granting another 41.5 experience.\n\nFletching a willow longbow from [[willow logs]] and a [[bow string]] will profit {{Coins|{{GEP|Willow longbow}}-({{GEP|Willow logs}}+{{GEP|Bow string}})}} while fletching a willow longbow from a [[willow longbow (u)]] and a [[bow string]] will profit {{Coins|{{GEP|Willow longbow}}-({{GEP|Willow longbow (u)}}+{{GEP|Bow string}})}}.\n\nFour willow longbows are required in the quest [[Shadows of Custodia]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = +20\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = 2h\n|speed = 6\n|attackrange = 10\n|combatstyle = Bow\n|image = [[File:Willow longbow equipped.png]]\n|altimage = [[File:Willow longbow equipped female.png|220px]]\n}}"
+      ],
+      "sourceRevision": 15272114,
+      "sourceSha256": "d3287a180da08465cc995d2e4e3fa2b79a1472b2517b1a0fea8c5f19ccc0b9e7",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "847"
+        },
+        {
+          "field": "name",
+          "value": "Willow longbow"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact active Wield state and 2h ranged slot support current GEAR catchall; quest quantity and origin are secondary facts.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15272114.txt",
+        "sourcePageSha256": "d3287a180da08465cc995d2e4e3fa2b79a1472b2517b1a0fea8c5f19ccc0b9e7",
+        "selectedFacts": {
+          "slot": "2h",
+          "bonusValues": {
+            "range_attack_bonus": 20
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 855,
+      "title": "Yew longbow",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''yew longbow''' is a [[longbow (weapon)|longbow]] stronger than the [[maple longbow]] that can use arrows up to [[rune arrow|rune]]. The yew longbow requires a [[Ranged]] level of 40 or higher to wield.\n\nPlayers can make a yew longbow through the [[Fletching]] skill at level 70. First, a player must cut a [[yew longbow (u)]] from [[yew logs]], giving 75 Fletching [[experience]]. The unstrung bow is then strung with a [[bow string]], for an additional 75 experience for a total of 150 experience a log. It can also be obtained as a very rare drop from a [[young impling]].\n\nFletching a yew longbow from [[yew logs]] and a [[bow string]] will profit {{Coins|{{GEP|Yew longbow}}-({{GEP|Yew logs}}+{{GEP|Bow string}})}} while fletching a yew longbow from a [[yew longbow (u)]] and a [[bow string]] will profit {{Coins|{{GEP|Yew longbow}}-({{GEP|Yew longbow (u)}}+{{GEP|Bow string}})}}.\n\nCreating a yew longbow from scratch in [[Seers' Village]] is a task for the [[Kandarin Diary#Hard|Kandarin hard diary]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = +47\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = 2h\n|speed = 6\n|attackrange = 10\n|combatstyle = Bow\n|image = [[File:Yew longbow equipped.png]]\n|altimage = [[File:Yew longbow equipped female.png|230px]]\n}}"
+      ],
+      "sourceRevision": 15272116,
+      "sourceSha256": "39ca3c89a8a419e41fff4091a7aaf4a26eb7c55dd8d596f145510f4ef94c11c5",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "855"
+        },
+        {
+          "field": "name",
+          "value": "Yew longbow"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact active Wield state and ranged 2h slot support current GEAR route; noncombat making/diary uses remain secondary context.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15272116.txt",
+        "sourcePageSha256": "39ca3c89a8a419e41fff4091a7aaf4a26eb7c55dd8d596f145510f4ef94c11c5",
+        "selectedFacts": {
+          "slot": "2h",
+          "bonusValues": {
+            "range_attack_bonus": 47
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 859,
+      "title": "Magic longbow",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''magic longbow''' is a [[longbow (weapon)|longbow]] fletched from [[magic logs]]. It requires a [[Ranged]] level of 50 to wield and can fire [[arrows]] up to [[amethyst arrows|amethyst]].\n\nPlayers can make a magic longbow with a [[Fletching]] level of 85 by cutting an [[Magic longbow (u)|unstrung magic longbow]] from [[magic logs]], granting 91.5 Fletching [[experience]], and then stringing unstrung magic longbow with a [[bow string]], granting a further 91.5 experience.\n\nFletching a magic longbow from [[magic logs]] and a [[bow string]] will profit {{Coins|{{GEP|Magic longbow}}-({{GEP|Magic logs}}+{{GEP|Bow string}})}} while fletching a magic longbow from a [[magic longbow (u)]] and a [[bow string]] will profit {{Coins|{{GEP|Magic longbow}}-({{GEP|Magic longbow (u)}}+{{GEP|Bow string}})}}.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 0\n|arange = +69\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 0\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = 2h\n|speed = 6\n|attackrange = 10\n|combatstyle = Bow\n|image = [[File:Magic longbow equipped.png|150px]]\n|altimage = [[File:Magic longbow equipped female.png|160px]]\n}}"
+      ],
+      "sourceRevision": 15322392,
+      "sourceSha256": "8ac435faba617068d2ec9744759a0f384688d191376526b837100e7e24bf4b61",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "859"
+        },
+        {
+          "field": "name",
+          "value": "Magic longbow"
+        },
+        {
+          "field": "options",
+          "value": "Wield, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact Wield state, longbow slot, own positive ranged attack value and weapon use support current GEAR catchall.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15322392.txt",
+        "sourcePageSha256": "8ac435faba617068d2ec9744759a0f384688d191376526b837100e7e24bf4b61",
+        "selectedFacts": {
+          "slot": "2h",
+          "bonusValues": {
+            "range_attack_bonus": 69
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 1017,
+      "title": "Wizard hat",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "head",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''wizard hat''' is an item of clothing that can be worn in the head slot. It has the same bonuses as the [[blue wizard hat]]. It can be purchased from [[Betty's Magic Emporium]] in [[Port Sarim]], and can be found as a drop from the [[dark wizard]]s south of [[Varrock]].\n\nIt can be created by using [[black dye]] on a [[blue wizard hat]]; similarly, [[blue dye]] can be used on it to create a blue wizard hat.",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = +2\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = +2\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 0\n|slot = head\n|image = [[File:Wizard hat equipped male.png|100px]]\n|altimage = [[File:Wizard hat equipped female.png|100px]]\n}}"
+      ],
+      "sourceRevision": 15183735,
+      "sourceSha256": "ccb5e60fccf11ee7e0d6306c820b34ee39a427d235a54bbd7f7ced510db02b24",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1017"
+        },
+        {
+          "field": "name",
+          "value": "Wizard hat"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact head slot and magic bonuses match current GEAR/head route; reversible recoloring does not change the documented wearable role.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15183735.txt",
+        "sourcePageSha256": "ccb5e60fccf11ee7e0d6306c820b34ee39a427d235a54bbd7f7ced510db02b24",
+        "selectedFacts": {
+          "slot": "head",
+          "bonusValues": {
+            "magic_attack_bonus": 2,
+            "magic_defence_bonus": 2
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    },
+    {
+      "itemId": 1035,
+      "title": "Zamorak monk top",
+      "proposedCategory": "GEAR",
+      "proposedSubcategory": "gear",
+      "proposedIronmanTabKey": "combat-gear",
+      "semanticExcerpt": "'''Zamorak monk top''' is part of the [[Zamorak monk robes]] set. They are bright red, and like the related [[Zamorak monk bottom]] they are dropped by [[Disciple of Iban|disciples of Iban]], necromancers and [[monks of Zamorak]].\n\nZamorak monk robes are commonly used by mages in the [[Wilderness]] due to providing decent [[Prayer]] and [[Magic]] bonuses and being easy to replace if lost. They can also be used to telegrab [[Wine of Zamorak]] at the [[Chaos Temple (Asgarnia)]] without being attacked.\n\nOne of only three [[Body slot table (F2P)|free-to-play bodies]] with a magic attack bonus, the Zamorak monk top has 1 less [[Magic]] attack and 3 more [[Prayer]] bonus when compared to the [[Black robe]], [[Blue wizard robe]], and their [[Ornamental armour|ornamental variants]]. \n\nThe Zamorak monk top counts as a [[Zamorak item]] in the [[God Wars Dungeon]].",
+      "secondaryExcerpts": [
+        "{{Infobox Bonuses\n|astab = 0\n|aslash = 0\n|acrush = 0\n|amagic = 2\n|arange = 0\n|dstab = 0\n|dslash = 0\n|dcrush = 0\n|dmagic = 3\n|drange = 0\n|str = 0\n|rstr = 0\n|mdmg = 0\n|prayer = 3\n|slot = body\n|image = [[File:Zamorak monk top equipped male.png|150px]]\n|altimage = [[File:Zamorak monk top equipped female.png|150px]]\n}}"
+      ],
+      "sourceRevision": 15184482,
+      "sourceSha256": "0d521c5bb7c8960ee2582737982294d24267cef3c280c103748786379b1d1abc",
+      "exactVariantFacts": [
+        {
+          "field": "id",
+          "value": "1035"
+        },
+        {
+          "field": "name",
+          "value": "Zamorak monk top"
+        },
+        {
+          "field": "options",
+          "value": "Wear, Drop"
+        },
+        {
+          "field": "equipable",
+          "value": "Yes"
+        },
+        {
+          "field": "tradeable",
+          "value": "Yes"
+        }
+      ],
+      "rationale": "Exact wearable body slot and own Magic/Prayer bonuses support current GEAR route; wilderness and God Wars uses remain context, with no tag or secondary placement inference.",
+      "expectedDecision": "certify",
+      "evidenceProvenance": {
+        "sourcePage": "source-pages/15184482.txt",
+        "sourcePageSha256": "0d521c5bb7c8960ee2582737982294d24267cef3c280c103748786379b1d1abc",
+        "selectedFacts": {
+          "slot": "body",
+          "bonusValues": {
+            "magic_attack_bonus": 2,
+            "magic_defence_bonus": 3,
+            "prayer_bonus": 3
+          }
+        },
+        "auditDisposition": "candidate-support",
+        "sourceReadingPacket": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-reading-packet.json",
+        "sourcePins": "tmp/root-review/gear-primary-beyond411-first20-own-source-review-20261004/source-pins.json",
+        "independentAssessment": "tmp/root-review/gear-primary-beyond411-first20-independent-audit-20261004/assessment.md"
+      }
+    }
+  ],
+  "sourceHashes": {
+    "officialDecisions": "2584dad7df4f0bb764bcaf4af1f5962b8cdcf247f47a8d4987155baac185001a",
+    "officialAssignments": "620fb14e8eb6d09c1983c2d065a142f96e76e6cfdf36ed1bc9ed8bfb8e462ee2",
+    "officialManifest": "24d09de0ee74e6daa4082179c13dcf2b4e26d1664f6231112d363c0f1742a280",
+    "articleIndex": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+    "reviewPacketManifest": "706a3b425b8892dc29fd5b3627a36ba1f8a48d92727647e5c0b9bed2b98c8a24",
+    "sourceReadingPacket": "441e7d87b3e979ab96d2aad698b5bea3297bc55815df1630ef0c2b2770032f3b",
+    "sourcePins": "da894e82f3f8b5720df650aa46ebe71608ebdaa78073b9b83f4d609846408a69",
+    "independentAudit": "692840ca741083cecb8fe30f5393d2bfa8d45f07eb82a5d637e56c80a2a56532",
+    "candidateQueue": "4582d98c21320887a13cdb2b97b5bc0ed4b751cc3ba5dc01c2c9e4cff22d15a6"
+  },
+  "reviewConstraints": [
+    "Do not assign any rootReadingOrdinal: this is the broad unresolved queue beyond the finalized 411-case cohort.",
+    "Each case is a separate exact-page review; no family inheritance.",
+    "All cases retain existing route tuples; no tags, roles, availability, bankability, or account access inferred."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "policyVersion": 1,
+  "shard": "clue-unique",
+  "scope": "Review every exact current CLUE and UNIQUE row. Category, subcategory, tab, and semantic roles are independently assessed.",
+  "evidenceRules": [
+    "Use only the exact numeric item ID parsed from a pinned item infobox variant and the article text at that pinned revision.",
+    "An item is not loot merely because it came from a reward table or appears in a Collection Log.",
+    "A Collection Log link alone does not establish a trophy, pet, combat role, or bank destination.",
+    "Combat equipment, functional clue gear, cosmetic style, and pets may have overlapping roles; preserve each directly documented role.",
+    "Do not propagate mechanics between item IDs from a page title, family, group, or variant pool. Each ID needs its own exact parsed variant.",
+    "Certify the current category/subcategory/tab only when exact article content supports the retained primary role. Otherwise use unresolved and explain the evidence gap."
+  ],
+  "pendingProductPolicyIds": [284, 285, 773],
+  "pendingProductPolicyReason": "These zero-stat wearable quest items have directly documented quest use and appearance retention. The product policy must decide which role drives their primary category; until then keep their exact article facts as independent roles and leave the assignment unresolved.",
+  "roleRules": {
+    "combat_equipment": "Add only when the exact item's Infobox Bonuses contains a nonzero equipment statistic. An equipable flag alone means equipable, not combat-effective.",
+    "functional_clue_utility": "Add only when article text directly describes a clue requirement, clue step, or clue-solving use.",
+    "quest_required_item": "Record the exact item article's quest-item or direct quest-use statement independently from cosmetic, combat, and clue roles.",
+    "cosmetic_or_style_retention": "Use article evidence for appearance, clothing, costume, color/style choice, or wearable form. Do not infer it from clue reward origin.",
+    "pet_companion": "Use only when the exact item article describes a pet, follower, or companion. Keep adult and puppy states as distinct exact-ID roles.",
+    "pet_stage_adult": "Use for an exact pet item article that identifies an adult dog companion.",
+    "pet_stage_puppy": "Use for an exact pet item article that identifies a puppy companion.",
+    "collection_log_member": "Record only a direct positive Collection log items article category. This is an independent role and does not imply loot status or a Collection Log tab.",
+    "display_trophy": "Use only for an actual display or trophy mechanic. Collection Log membership by itself is never sufficient.",
+    "reward_container_or_drop": "Require article text about opening/contents/rewards or an explicitly described reward-drop function.",
+    "access_or_reward_key": "Require item-specific key/access mechanics. Distinguish access keys from keys that open reward containers.",
+    "equipment_upgrade_material": "Require item-specific equipment upgrade, combination, enhancement, infusion, or attachment mechanics.",
+    "equipment_charge_resource": "Require item-specific charge, recharge, or depletion mechanics tied to equipment or a combat ability.",
+    "salvaging_or_recovery_relic": "Require item-specific salvage, repair, restoration, or recovery mechanics."
+  },
+  "uniquePredicateBySubcategory": {
+    "reward-container": "Place this exact container with boss/reward supplies only when its article describes opening it or its contents/rewards.",
+    "reward-drop": "Place this exact item with boss/reward items only when its page describes a reward-drop or opening mechanic.",
+    "reward-key": "Place this exact key with reward-opening tools only when its page describes the chest/container or reward it opens.",
+    "boss-access-key": "Place this exact key with boss access tools only when its page documents the encounter, door, or area it unlocks.",
+    "key-material": "Place this exact item as key material only when its article documents combining it into a key.",
+    "equipment-upgrade": "Place this exact item with equipment upgrade materials only when the article documents the upgrade or attachment workflow.",
+    "weapon-upgrade": "Place this exact item with weapon upgrade materials only when the article documents the weapon change or construction workflow.",
+    "equipment-charge": "Place this exact item with combat charge resources only when the article documents charging, recharging, or depletion in use.",
+    "salvaging-relic": "Place this exact item as a salvage/recovery relic only when the article documents how it is salvaged, restored, repaired, or recovered."
+  }
+}

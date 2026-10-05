@@ -1,0 +1,287 @@
+{
+  "schema": "ironman-bank-architect.semantic-identity-policy.v1",
+  "status": "research-policy; no production code changes",
+  "generatedAtUtc": "2026-10-03",
+  "purpose": "Specify how exact RuneLite cache identities, pinned Wiki item facts, current raw catalog assignments, and actual bank snapshot canonicalization relate. A typed cache edge establishes identity provenance, not semantic role by itself.",
+  "inputs": {
+    "currentCoverage": {
+      "path": "tmp/category-certification/current-coverage.tsv",
+      "sha256": "d945c5b286b5107092daf83c6459f61e791b47ae61b911a9f4dc7ab76a1b8aaa",
+      "rows": 34085,
+      "rawAssignmentFields": [
+        "itemCategory",
+        "subcategory",
+        "ironmanTabKey"
+      ]
+    },
+    "typedIdentityEdges": {
+      "path": "tmp/category-certification/identity-links.jsonl",
+      "sha256": "2fdcab1851e7509818b88cc89882c095687d41e87d07a8774adb121236705c4e",
+      "detachedHashField": "tmp/category-certification/identity-report.json:identity_links_sha256",
+      "rows": 14324,
+      "mustMatch": [
+        "fromItemId",
+        "toItemId",
+        "relation",
+        "cacheField",
+        "cacheOpcode",
+        "sourcePath",
+        "sourceHash",
+        "sourceRevision",
+        "configIndexRevision"
+      ]
+    },
+    "cache": {
+      "source": "locally installed RuneLite OSRS LIVE cache, frozen before decode",
+      "cachePath": "C:/Users/smith/.runelite/jagexcache/oldschool/LIVE",
+      "indexId": 2,
+      "indexProtocol": 7,
+      "configIndexRevision": 1790690697,
+      "itemArchiveId": 10,
+      "itemArchiveRevision": 1790689442,
+      "itemArchiveExpectedCrc32": "74f9f84f",
+      "itemArchiveActualCrc32": "74f9f84f",
+      "frozenItemArchive": {
+        "path": "tmp/category-certification/runelite-index2-item-archive10.bin",
+        "sha256": "65f803275575a512df896ed80ff806550a174b068bea2881b5257f138d597db7"
+      },
+      "frozenConfigIndex": {
+        "path": "tmp/category-certification/runelite-config-index-2.bin",
+        "sha256": "b0db45d77e90f2097718a92542efe21bdc7b77bbe2f4665cbb087451c977c514"
+      },
+      "decoder": {
+        "repository": "RuneLite/runelite",
+        "commit": "d8e7d1e5f34e2899eda3d7cf4cd9661ae2206f22",
+        "itemLoaderSha256": "1c3e0d98101efb69c152ce4fe9a861acfbbe7a463ea74b079274c8de12170619",
+        "relationshipOpcodes": {
+          "NOTE_VARIANT_OF": {
+            "fields": "notedID/notedTemplate",
+            "opcodes": [
+              97,
+              98
+            ]
+          },
+          "BOUGHT_VARIANT_OF": {
+            "fields": "boughtId/boughtTemplateId",
+            "opcodes": [
+              139,
+              140
+            ]
+          },
+          "PLACEHOLDER_FOR": {
+            "fields": "placeholderID/placeholderTemplateID",
+            "opcodes": [
+              148,
+              149
+            ]
+          }
+        },
+        "recordValidation": "Decoder requires the terminating opcode and full record consumption. It checks the cache archive CRC against the config-index metadata."
+      }
+    },
+    "wikiExactItemSources": {
+      "articleIndexPath": "tmp/category-certification/wiki-articles/article-index.json",
+      "articleIndexSha256": "f3bf20b4dbe2ea90196ccfa3d642773e78e5d683316b5a2e75e08239f7ecd677",
+      "articleIndexedExactIdUnion": 16028,
+      "currentIdsWithPinnedExactArticleId": 16028,
+      "currentIdsWithExactInfoboxBucketFact": 16016,
+      "currentArticleOnlyIds": [
+        11149,
+        11150,
+        19475,
+        20589,
+        20759,
+        21835,
+        21836,
+        21876,
+        21877,
+        21878,
+        21879,
+        26417
+      ],
+      "currentBucketOnlyIds": [],
+      "allSourceUnionCounts": {
+        "articleIndexExactIds": 16028,
+        "infoboxBucketExactIds": 16032,
+        "articleOnly": 12,
+        "bucketOnly": 16
+      },
+      "articleOnlyIdSources": [
+        {
+          "title": "Spell (unobtainable item)",
+          "revision": 15190402,
+          "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15190402",
+          "bodySha256": "51747d6b48435a8475e1535fbd3838eaaf6bc5bfd4b2d8fa811c9de71db06bab",
+          "itemIds": [
+            11149,
+            11150,
+            19475,
+            20589,
+            20759,
+            21835,
+            21836,
+            21876,
+            21877,
+            21878,
+            21879
+          ]
+        },
+        {
+          "title": "Cabbage (unobtainable item)",
+          "revision": 15190518,
+          "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15190518",
+          "bodySha256": "187b50a3d996808ae6ad9cc89ae1c04dc9a564595e0ee5bc61c9e0bb8cc5bbfb",
+          "itemIds": [
+            26417
+          ]
+        }
+      ],
+      "evidenceRule": "For a canonical endpoint, require the pinned article body to contain the exact numeric ID in its infobox id parameter and verify the body SHA-256 and revision. The 12 article-only current IDs above are supported by those exact body records. The infobox bucket is separate corroborating support; item_id page-index pointers alone are unresolved.",
+      "bucketOnlySourceIds": [
+        33833,
+        34016,
+        34035,
+        34044,
+        34045,
+        34046,
+        34054,
+        34055,
+        34056,
+        34059,
+        34061,
+        34388,
+        34390,
+        34598,
+        34599,
+        34600
+      ],
+      "note": "The all-source comparison is 16,028 article-index exact IDs and 16,032 positive numeric Bucket IDs; intersection 16,016, article-only 12, bucket-only 16. None of the 16 bucket-only IDs is in current assignments."
+    },
+    "wikiBankMechanics": {
+      "Bank": {
+        "revision": 15359494,
+        "timestamp": "2026-10-01T10:32:28Z",
+        "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15359494",
+        "bodyPath": "tmp/category-certification/identity-policy-sources/15359494.txt",
+        "bodySha256": "f3ac75d1f65f9e25d973f697d873605dd4068a837c8e7be63ea246309c7c0bd5",
+        "packetSha256": "017f1a8dfb645d6cc33e8442298fcefc4e96cc3d2195ca780f7270440db5dd35",
+        "evidence": [
+          {
+            "line": 240,
+            "quote": "The '''Item/Note''' toggle button is used to toggle withdrawals between item form and [[bank note|noted]] form. If this toggle is set to \"Note,\" most unstackable [[Items#Tradeability|tradeable]] items withdrawn from the bank will be withdrawn as notes. Notes are always stackable, allowing large amounts of items to be withdrawn or traded without taking up a large amount of inventory space. Storing a note in a bank, selling it to a shop, or using it on a bank booth or banker will convert the note to its item equivalent."
+          },
+          {
+            "line": 248,
+            "quote": "Bank placeholders allow the player to reserve bank slots for specific items, giving them the ability to create a fixed layout for their bank. To create a placeholder, right-click an item in the bank and click the 'Placeholder' option. This will withdraw the items in the bank slot, leaving a placeholder in their place."
+          },
+          {
+            "line": 250,
+            "quote": "Some items, such as amulets, will sometimes share a bank space. Potions of the same kind with different numbers of doses can not share placeholders."
+          }
+        ]
+      },
+      "Items": {
+        "revision": 15349456,
+        "timestamp": "2026-09-17T20:01:59Z",
+        "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15349456",
+        "bodyPath": "tmp/category-certification/identity-policy-sources/15349456.txt",
+        "bodySha256": "3af29c0068953d27cfd0cc8028ab75de1a9b1ff729ef6532738e04b8bcb2d064",
+        "packetSha256": "017f1a8dfb645d6cc33e8442298fcefc4e96cc3d2195ca780f7270440db5dd35",
+        "evidence": [
+          {
+            "line": 18,
+            "quote": "Most non-stackable items may be converted to a stackable form using a bank note, but bank noted items lose most of their properties as they just become a piece of paper. Bank noted items may be deposited in the bank and then withdrawn back as usable, unnoted, non-stackable items."
+          }
+        ]
+      }
+    },
+    "runtimeBankCanonicalization": {
+      "sourceFiles": [
+        "src/main/java/com/pkoka5/ironmanbankarchitect/bank/BankSnapshotReader.java",
+        "src/main/java/com/pkoka5/ironmanbankarchitect/bank/BankItemIds.java"
+      ],
+      "behavior": [
+        "BankSnapshotReader reads only InventoryID.BANK after confirming the bank widget is open.",
+        "It looks up the current ItemComposition and passes placeholderTemplateId and placeholderId to BankItemIds.canonical.",
+        "BankItemIds.canonical discards nonpositive IDs and bank filler; if placeholderTemplateId != -1 and placeholderItemId > 0, it returns placeholderItemId; otherwise it returns the raw itemId.",
+        "BankSnapshotReader represents a placeholder as canonical target ID, quantity 0, and placeholder=true. Ordinary entries retain the raw ID and valid quantity.",
+        "There is no note or bought-variant canonicalization in this runtime path. Bank note conversion is a game bank-storage mechanic supported by the pinned Wiki Bank page, not an implementation rule in BankItemIds."
+      ],
+      "scope": "The runtime behavior describes what the current plugin groups in an open bank snapshot. It does not assert how every game-side operation or all shared-slot cases behave."
+    }
+  },
+  "classificationPolicy": {
+    "NOTE_VARIANT_OF": {
+      "inheritCanonicalBankGrouping": "conditional for bank-storage grouping only",
+      "rule": "Use the exact directed cache relation to identify the canonical notedID endpoint. Permit inherited semantic bank grouping only when that toItemId independently has an exact pinned Wiki article ID record (or another reviewed direct semantic source). The Wiki Bank page says a deposited note converts to its item equivalent, so the stored bank representation routes to the unnoted item. Keep note-form state distinct: the note's stackability and lost properties do not imply equal usability, tradeability, acquisition, or raw catalog assignment.",
+      "unresolvedWhen": [
+        "No exact cache edge at this frozen revision",
+        "Canonical endpoint lacks direct semantic evidence",
+        "Question concerns held-note usability or properties instead of bank-storage grouping"
+      ],
+      "countAndRawAssignments": {
+        "edges": 4641,
+        "targetIdsInCurrentAssignments": 4641,
+        "canonicalEndpointWithDirectPinnedArticleId": 4596,
+        "canonicalEndpointWithoutDirectPinnedArticleId": 45,
+        "rawFullAssignmentMatchCategorySubcategoryTab": 2919,
+        "sameCategoryAndTabButDifferentSubcategory": 270,
+        "categoryOrTabDiffers": 1452,
+        "ofCategoryOrTabDiffers_partialOneOfCategoryOrTabMatches": 195,
+        "ofCategoryOrTabDiffers_bothCategoryAndTabDiffer": 1257
+      }
+    },
+    "PLACEHOLDER_FOR": {
+      "inheritCanonicalBankGrouping": "yes in the current runtime bank snapshot when RuneLite exposes a valid placeholder template and target ID",
+      "rule": "The frozen cache edge identifies the placeholder's placeholderID endpoint. The Wiki Bank page describes placeholders as reserved slots for specific items. Independently, current BankSnapshotReader and BankItemIds code resolve a placeholder slot to placeholderId before downstream bank grouping. Therefore classify the actual placeholder bank row by the canonical target's semantic group; preserve placeholder=true and quantity 0 as slot state. The alias item's raw catalog category is not the actual runtime bank category.",
+      "unresolvedWhen": [
+        "Canonical endpoint lacks direct pinned semantic evidence",
+        "The live ItemComposition fails to expose a valid placeholder template/target",
+        "The question concerns sharing or dose-state behavior beyond the exact decoded edge"
+      ],
+      "countAndRawAssignments": {
+        "edges": 9655,
+        "targetIdsInCurrentAssignments": 9653,
+        "targetsNotInCurrentAssignments": 2,
+        "canonicalEndpointWithDirectPinnedArticleId": 9592,
+        "canonicalEndpointWithoutDirectPinnedArticleId": 63,
+        "rawFullAssignmentMatchCategorySubcategoryTab": 6050,
+        "sameCategoryAndTabButDifferentSubcategory": 998,
+        "categoryOrTabDiffers": 2605,
+        "ofCategoryOrTabDiffers_partialOneOfCategoryOrTabMatches": 253,
+        "ofCategoryOrTabDiffers_bothCategoryAndTabDiffer": 2352
+      }
+    },
+    "BOUGHT_VARIANT_OF": {
+      "inheritCanonicalBankGrouping": "no automatic inheritance",
+      "rule": "The boughtId/boughtTemplateId cache relation is exact identity provenance only. It does not establish that the variant is usable, bankable, equivalent in properties, or assigned the same semantic role. Certify it from its own exact item-ID article evidence or a reviewed direct source; otherwise leave its grouping unresolved. Do not infer by name or nearby ID.",
+      "countAndRawAssignments": {
+        "edges": 28,
+        "targetIdsInCurrentAssignments": 28,
+        "canonicalEndpointWithDirectPinnedArticleId": 12,
+        "canonicalEndpointWithoutDirectPinnedArticleId": 16,
+        "rawFullAssignmentMatchCategorySubcategoryTab": 27,
+        "categoryOrTabDiffers": 1,
+        "mismatchExample": {
+          "fromItemId": 24415,
+          "toItemId": 560,
+          "from": "CLEANUP/cleanup/storage-cleanup",
+          "to": "RUNE/rune/currency-utilities"
+        }
+      }
+    }
+  },
+  "aggregateStatus": {
+    "currentAssignments": 34085,
+    "directPinnedWikiArticleExactIds": 16028,
+    "typedAliasRows": 14324,
+    "typedEdgesByRelation": {
+      "NOTE_VARIANT_OF": 4641,
+      "PLACEHOLDER_FOR": 9655,
+      "BOUGHT_VARIANT_OF": 28
+    },
+    "unresolvedNoExactWikiFact": 18057,
+    "wikiIndexPointersWithoutExactFactRemainUnverified": 666,
+    "certificationInterpretation": "Do not claim full semantic certification of all assignments from cache identity alone. The policy supports conditional canonical grouping for note variants, current-runtime placeholder canonicalization when exact target semantics are certified, and no automatic bought-variant inheritance. Alias assignments remain raw catalog fields and have the documented disagreements above."
+  }
+}

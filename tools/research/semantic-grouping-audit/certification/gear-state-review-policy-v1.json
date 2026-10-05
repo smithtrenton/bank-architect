@@ -1,0 +1,495 @@
+{
+  "repairSourceIndex": {
+    "path": "tmp/category-certification/barrows-repair-sources-v1/article-index.json",
+    "sha256": "76a840d2a0ea90d9ae017feb14e836562c69bb675188e551b8f03b74a7410628",
+    "sourceHash": "7a08babf4521bfc68e71da3e34dfe63b01f4cc0a41e0b1693542aa2ef2db5273",
+    "sourcePath": "tmp/category-certification/barrows-repair-sources-v1/articles/template-barrows-repair-15286938.wiki",
+    "sourceRevision": 15286938,
+    "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15286938",
+    "title": "Template:Barrows repair"
+  },
+  "repairableBrokenCases": [
+    {
+      "decision": "revise",
+      "exactVariantFacts": [
+        {
+          "field": "id2",
+          "value": "10888"
+        },
+        {
+          "field": "name",
+          "value": "Barrelchest anchor"
+        },
+        {
+          "field": "equipable2",
+          "value": "No"
+        },
+        {
+          "field": "options2",
+          "value": "Drop"
+        },
+        {
+          "field": "examine2",
+          "value": "It's broken. I should see if a pirate smith can fix it."
+        }
+      ],
+      "itemId": 10888,
+      "proposedCategory": "GEAR",
+      "proposedIronmanTabKey": "combat-gear",
+      "proposedRoles": [
+        "repairable_combat_equipment",
+        "unusable_item_state"
+      ],
+      "proposedSubcategory": "2h",
+      "proposedTags": [],
+      "repairExcerpt": "Players receive this item in a broken state and must pay [[Smith]] on the docks of [[Mos Le'Harmless]] a fee of {{NoCoins|230,000}} [[coins]] to repair the anchor ([[Book o' Piracy]] is needed to properly speak with Smith).",
+      "repairSource": null,
+      "reviewer": "root: source-backed repairable item-state grouping; do not claim the current broken state is usable",
+      "semanticExcerpt": "The '''barrelchest anchor''' is a two-handed [[spiked]] weapon and [[quest items|quest item]] acquired in [[The Great Brain Robbery]].",
+      "sourceRevision": 15295166,
+      "sourceSha256": "680695ab5f9fb28d73e912c79e8d64b615d6c3064de029a34ec23b85d0ceb4d1",
+      "title": "Barrelchest anchor"
+    },
+    {
+      "approvalStatus": "root_approved_pending_apply",
+      "decision": "revise",
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "4890"
+        },
+        {
+          "field": "name6",
+          "value": "Dharok's greataxe 0"
+        },
+        {
+          "field": "options6",
+          "value": "Drop"
+        },
+        {
+          "field": "wornoptions6",
+          "value": "None"
+        },
+        {
+          "field": "bucketname6",
+          "value": "(broken)"
+        }
+      ],
+      "itemId": 4890,
+      "proposedCategory": "GEAR",
+      "proposedIronmanTabKey": "combat-gear",
+      "proposedRoles": [
+        "repairable_combat_equipment",
+        "unusable_item_state"
+      ],
+      "proposedSubcategory": "2h",
+      "proposedTags": [],
+      "repairExcerpt": null,
+      "repairSource": {
+        "excerpts": [
+          "at which point the equipment will be unusable until repaired.",
+          "The equipment can be repaired at any stage, and the cost will be adjusted according to how much it has degraded."
+        ],
+        "sourceHash": "7a08babf4521bfc68e71da3e34dfe63b01f4cc0a41e0b1693542aa2ef2db5273",
+        "sourcePath": "tmp/category-certification/barrows-repair-sources-v1/articles/template-barrows-repair-15286938.wiki",
+        "sourceRevision": 15286938,
+        "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15286938",
+        "title": "Template:Barrows repair"
+      },
+      "reviewer": "root: independently reviewed exact item articles and pinned repair template; approve GEAR/2h repair-workflow grouping, not present usability",
+      "semanticExcerpt": "'''Dharok's greataxe''' is a two-handed [[Weapons/Categories#Axe|axe]]",
+      "sourceRevision": 15248976,
+      "sourceSha256": "fd05b4541d7110e5403d55215ee1f4c6f974303ca9b1af31307a3098e0805c72",
+      "title": "Dharok's greataxe"
+    },
+    {
+      "approvalStatus": "root_approved_pending_apply",
+      "decision": "revise",
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "4914"
+        },
+        {
+          "field": "name6",
+          "value": "Guthan's warspear 0"
+        },
+        {
+          "field": "options6",
+          "value": "Drop"
+        },
+        {
+          "field": "wornoptions6",
+          "value": "None"
+        },
+        {
+          "field": "bucketname6",
+          "value": "(broken)"
+        }
+      ],
+      "itemId": 4914,
+      "proposedCategory": "GEAR",
+      "proposedIronmanTabKey": "combat-gear",
+      "proposedRoles": [
+        "repairable_combat_equipment",
+        "unusable_item_state"
+      ],
+      "proposedSubcategory": "2h",
+      "proposedTags": [],
+      "repairExcerpt": null,
+      "repairSource": {
+        "excerpts": [
+          "at which point the equipment will be unusable until repaired.",
+          "The equipment can be repaired at any stage, and the cost will be adjusted according to how much it has degraded."
+        ],
+        "sourceHash": "7a08babf4521bfc68e71da3e34dfe63b01f4cc0a41e0b1693542aa2ef2db5273",
+        "sourcePath": "tmp/category-certification/barrows-repair-sources-v1/articles/template-barrows-repair-15286938.wiki",
+        "sourceRevision": 15286938,
+        "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15286938",
+        "title": "Template:Barrows repair"
+      },
+      "reviewer": "root: independently reviewed exact item articles and pinned repair template; approve GEAR/2h repair-workflow grouping, not present usability",
+      "semanticExcerpt": "'''Guthan's warspear''' is a two-handed [[melee weapon]]",
+      "sourceRevision": 15252857,
+      "sourceSha256": "00ba0ce18ccb931276dd4779e76ec369b154b5c63319df31abea4e832c58e29a",
+      "title": "Guthan's warspear"
+    },
+    {
+      "approvalStatus": "root_approved_pending_apply",
+      "decision": "revise",
+      "exactVariantFacts": [
+        {
+          "field": "id6",
+          "value": "4986"
+        },
+        {
+          "field": "name6",
+          "value": "Verac's flail 0"
+        },
+        {
+          "field": "options6",
+          "value": "Drop"
+        },
+        {
+          "field": "wornoptions6",
+          "value": "N/A"
+        },
+        {
+          "field": "bucketname6",
+          "value": "(broken)"
+        }
+      ],
+      "itemId": 4986,
+      "proposedCategory": "GEAR",
+      "proposedIronmanTabKey": "combat-gear",
+      "proposedRoles": [
+        "repairable_combat_equipment",
+        "unusable_item_state"
+      ],
+      "proposedSubcategory": "2h",
+      "proposedTags": [],
+      "repairExcerpt": null,
+      "repairSource": {
+        "excerpts": [
+          "at which point the equipment will be unusable until repaired.",
+          "The equipment can be repaired at any stage, and the cost will be adjusted according to how much it has degraded."
+        ],
+        "sourceHash": "7a08babf4521bfc68e71da3e34dfe63b01f4cc0a41e0b1693542aa2ef2db5273",
+        "sourcePath": "tmp/category-certification/barrows-repair-sources-v1/articles/template-barrows-repair-15286938.wiki",
+        "sourceRevision": 15286938,
+        "sourceUrl": "https://oldschool.runescape.wiki/w/Special:Redirect/revision/15286938",
+        "title": "Template:Barrows repair"
+      },
+      "reviewer": "root: independently reviewed exact item articles and pinned repair template; approve GEAR/2h repair-workflow grouping, not present usability",
+      "semanticExcerpt": "'''Verac's flail''' is a two-handed [[Weapons/Categories#Spiked|spiked weapon]]",
+      "sourceRevision": 15356790,
+      "sourceSha256": "cf441f81e22a819d8a524416bf0e1eef16fbae6b79c5d560e8431723427db829",
+      "title": "Verac's flail"
+    }
+  ],
+  "rootReview": {
+    "approvedActive2hCorrections": [
+      {
+        "itemId": 3095,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 3096,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 3097,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 3098,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 3099,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 3100,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 3101,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4158,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4718,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4726,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4755,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4886,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4887,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4888,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4889,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4910,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4911,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4912,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4913,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4982,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4983,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4984,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 4985,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 6587,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 7668,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 10887,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 13263,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 19478,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 19481,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 26712,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 27855,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 28997,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 29000,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 29084,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      },
+      {
+        "itemId": 29577,
+        "proposedCategory": "GEAR",
+        "proposedIronmanTabKey": "combat-gear",
+        "proposedSubcategory": "2h"
+      }
+    ],
+    "approvedNonGearCorrections": [
+      {
+        "itemId": 1685,
+        "proposedCategory": "CLEANUP",
+        "proposedIronmanTabKey": "storage-cleanup",
+        "proposedSubcategory": "cleanup"
+      },
+      {
+        "itemId": 6040,
+        "proposedCategory": "TOOL",
+        "proposedIronmanTabKey": "skilling-tools",
+        "proposedSubcategory": "skilling-utility"
+      },
+      {
+        "itemId": 7076,
+        "proposedCategory": "SKILLING",
+        "proposedIronmanTabKey": "resources",
+        "proposedSubcategory": "cooking-material"
+      },
+      {
+        "itemId": 7078,
+        "proposedCategory": "POTION",
+        "proposedIronmanTabKey": "potions-food",
+        "proposedSubcategory": "food"
+      },
+      {
+        "itemId": 7088,
+        "proposedCategory": "POTION",
+        "proposedIronmanTabKey": "potions-food",
+        "proposedSubcategory": "food"
+      },
+      {
+        "itemId": 33693,
+        "proposedCategory": "SKILLING",
+        "proposedIronmanTabKey": "resources",
+        "proposedSubcategory": "crafting-jewellery"
+      }
+    ],
+    "barrowsRepairApproval": {
+      "approvedItemIds": [
+        4890,
+        4914,
+        4986
+      ],
+      "basis": "Root independently read pinned Template:Barrows repair revision 15286938 and verified 0-state unusable, repair-at-any-stage, each exact item article invocation, and exact base 2h weapon semantics.",
+      "status": "approved_pending_apply"
+    },
+    "heldActivityOnlyCases": [
+      {
+        "itemId": 7671,
+        "reason": "The exact page confines direct combat use to the player-owned-house boxing ring; preset routing for activity-only weapons is pending a consistent bank-preset policy choice.",
+        "semanticExcerpt": "They are categorically a [[claw]] weapon, and deal a max hit of 12 to other players in the boxing ring.",
+        "sourceRevision": 15182917,
+        "sourceSha256": "c77b93628e2ad62d928b703645c185125ea88152caa23ad3283463394ee59b85",
+        "status": "hold_unresolved",
+        "title": "Boxing gloves"
+      },
+      {
+        "itemId": 7673,
+        "reason": "The exact page confines direct combat use to the player-owned-house boxing ring; preset routing for activity-only weapons is pending a consistent bank-preset policy choice.",
+        "semanticExcerpt": "They are categorically a [[claw]] weapon, and deal a max hit of 12 to other players in the boxing ring.",
+        "sourceRevision": 15182917,
+        "sourceSha256": "c77b93628e2ad62d928b703645c185125ea88152caa23ad3283463394ee59b85",
+        "status": "hold_unresolved",
+        "title": "Boxing gloves"
+      }
+    ],
+    "sourceDecisionFile": "tmp/category-certification/reviews/gear-v2/decisions.jsonl",
+    "sourceDecisionSha256": "a983f13462b857da103f517036782e48577beb886abf0161b23eb63d9724f110"
+  },
+  "schema": "gear-state-review-policy-v1",
+  "status": "research-policy; no production edits"
+}

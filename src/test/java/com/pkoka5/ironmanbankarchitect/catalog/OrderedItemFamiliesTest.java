@@ -24,6 +24,14 @@ public class OrderedItemFamiliesTest
 		assertOriginal("alch-candidate", 0, 1, "02cb40cee2e80d5e1b008ca00efb662fc159659ac510a3edda39a09b84874839");
 		assertOriginal("quick-tool", 0, 25, "ed32f797edd96ab126f0c527c9852a057239a1ca6df8144f1370b3356df9c1ac");
 		assertOriginal("rune", 0, 6, "c297ebee58b715fe496281b4bc5aef45b50537b2da6cabca7adfdbd036349bc2");
+		List<Integer> excluded = new OrderedItemFamilies(getClass().getResourceAsStream("non-bankable-item-ids.tsv"), 719)
+			.ids("non-bankable");
+		assertEquals(719, excluded.size());
+		for (int itemId : excluded) assertFalse(BankabilityPolicy.maySuggestDeposit(itemId));
+		assertFalse(BankabilityPolicy.maySuggestDeposit(13532));
+		for (int itemId : new int[] {4678, 4679, 4680, 4681, 10835, 30808, 6643, 209, 900000})
+			assertTrue(BankabilityPolicy.maySuggestDeposit(itemId));
+		assertFalse(BankabilityPolicy.maySuggestDeposit(0));
 	}
 
 	@Test

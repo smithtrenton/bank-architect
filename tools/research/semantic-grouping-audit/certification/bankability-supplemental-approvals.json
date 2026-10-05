@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "root-reviewed exact supplemental bankability pin",
+  "reviewer": "root",
+  "policyFile": "bank-ignore-supplemental-approved-policy.json",
+  "policySha256": "9eb4b0fb97d76ec5f1f5536640aaf376e8f5cbb73d60fde4350c16a5f3339662",
+  "canonicalSha256": "521dfa51b6f286537a26aea5fc4847bf8e3ae3ddd3ac13e6280d4ee62e2d5668",
+  "approvedItemIds": [
+    13532
+  ],
+  "caseCount": 1
+}

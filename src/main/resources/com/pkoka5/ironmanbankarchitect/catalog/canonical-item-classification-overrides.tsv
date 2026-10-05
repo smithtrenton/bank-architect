@@ -72,7 +72,7 @@
 # Wiki: https://oldschool.runescape.wiki/w/Dragon_battleaxe_(cr)?oldid=15191318
 28037	GEAR	weapon	Normal-game cosmetic dragon battleaxe
 10498	GEAR	gear	Ava's attractor
-10499	GEAR	gear	Ava's accumulator
+10499	GEAR	cape	Gear own Wiki revision 15357217: Ava's accumulator
 22109	GEAR	gear	Ava's assembler
 24222	GEAR	gear	Ava's assembler (l)
 27374	GEAR	gear	Masori assembler
@@ -811,7 +811,7 @@
 # Repeatably made Cooking ingredient used to produce fishcakes.
 # Wiki: https://oldschool.runescape.wiki/w/Olive_oil?oldid=15185750
 # Repeatably bought minigame material converted into sacred oil for pyre logs.
-7528	SKILLING	resource
+7528	CLEANUP	quest-item	Materials V15 own Wiki revision 15183709: Ground cod
 3422	SKILLING	resource
 3424	SKILLING	resource
 3426	SKILLING	resource
@@ -1145,7 +1145,7 @@
 28401	CLEANUP	quest-item
 # Wiki: https://oldschool.runescape.wiki/w/Raw_fishcake?oldid=15184847
 # Repeatably produced Cooking intermediate; remains a Fishing/Cooking resource.
-7529	SKILLING	resource
+7529	SKILLING	cooking-material	Materials V15 own Wiki revision 15184847: Raw fishcake
 # Wiki: https://oldschool.runescape.wiki/w/Cooked_fishcake?oldid=15183721
 # Repeatably cooked food that heals 11 hitpoints.
 7530	POTION	food
@@ -1325,7 +1325,7 @@
 # https://oldschool.runescape.wiki/w/Eagle_feather?oldid=15185631
 # https://oldschool.runescape.wiki/w/Golden_wool?oldid=15184097
 10167	SKILLING	crafting-material
-3694	SKILLING	crafting-material
+3694	CLEANUP	quest-item	Golden wool: own function, Wiki revision 15184097
 # Repeatably gathered Cooking ingredient for nettle tea.
 # https://oldschool.runescape.wiki/w/Nettles?oldid=15184037
 4241	SKILLING	cooking-material
@@ -1848,7 +1848,7 @@
 # Wiki: https://oldschool.runescape.wiki/w/Xerician_hat
 # Wiki: https://oldschool.runescape.wiki/w/Xerician_top?oldid=15187772
 13385	GEAR	gear
-13387	GEAR	gear
+13387	GEAR	body	Xerician top: exact own equipment bonus slot
 # Catalogued as the Plague Outfit cosmetic set; classifying the
 # pieces with it keeps them on the cosmetics tag instead of the
 # clues catch-all their quest-item subcategory falls into.
@@ -2168,12 +2168,12 @@
 # Complete kyatt, larupia, and graahk hunter-fur outfit family.
 10035	GEAR	gear
 10037	GEAR	gear
-10039	GEAR	gear
+10039	GEAR	head	Gear own Wiki revision 15183096: Kyatt hat
 10041	GEAR	gear
 10043	GEAR	gear
-10045	GEAR	gear
+10045	GEAR	head	Gear own Wiki revision 15275720: Larupia hat
 10047	GEAR	gear
-10049	GEAR	gear
+10049	GEAR	body	Gear own Wiki revision 15183053: Graahk top
 10051	GEAR	gear
 10595	TOOL	quest-utility	Clockwork suit, unwound
 10596	TOOL	quest-utility	Clockwork suit, wound
@@ -2215,18 +2215,18 @@
 12249	CLUE	cosmetic	Imp mask
 21211	CLUE	cosmetic	4th birthday hat
 27820	CLUE	cosmetic	10th birthday balloons
-1794	SKILLING	crafting-material	Bronze wire
+1794	CLEANUP	quest-item	Bronze wire: own function, Wiki revision 15360802
 1933	SKILLING	cooking-material	Pot of flour
 # Complete player-facing bird-house tier run.
-21512	SKILLING	resource
-21515	SKILLING	resource
-21518	SKILLING	resource
-21521	SKILLING	resource
-22192	SKILLING	resource
-22195	SKILLING	resource
-22198	SKILLING	resource
-22201	SKILLING	resource
-22204	SKILLING	resource
+21512	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308916: Bird house (item)
+21515	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308930: Oak bird house
+21518	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308933: Willow bird house
+21521	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308938: Teak bird house
+22192	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308941: Maple bird house
+22195	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308958: Mahogany bird house
+22198	SKILLING	hunter-resource	Materials V15 own Wiki revision 15308670: Yew bird house
+22201	SKILLING	hunter-resource	Materials V15 own Wiki revision 15309041: Magic bird house
+22204	SKILLING	hunter-resource	Materials V15 own Wiki revision 15188698: Redwood bird house
 # All current player-facing uncharged trident states.
 11908	GEAR	weapon
 22290	GEAR	weapon
@@ -2268,12 +2268,12 @@
 19478	GEAR	2h	Light ballista; Wiki revision 15224135
 19481	GEAR	2h	Heavy ballista; Wiki revision 15224134
 26712	GEAR	2h	Heavy ballista (or); Wiki revision 15333815
-19586	SKILLING	ammo-component	Light frame
-19589	SKILLING	ammo-component	Heavy frame
-19592	SKILLING	ammo-component	Ballista limbs
+19586	SKILLING	fletching-material	Materials V15 own Wiki revision 15355798: Light frame
+19589	SKILLING	fletching-material	Materials V15 own Wiki revision 15187499: Heavy frame
+19592	SKILLING	fletching-material	Materials V15 own Wiki revision 15187487: Ballista limbs
 19595	SKILLING	ammo-component	Incomplete light ballista
 19598	SKILLING	ammo-component	Incomplete heavy ballista
-19601	SKILLING	ammo-component	Ballista spring
+19601	SKILLING	fletching-material	Materials V15 own Wiki revision 15187489: Ballista spring
 19610	SKILLING	ammo-component	Monkey tail
 # Complete current player-facing prayer-scroll family.
 21034	UNIQUE	equipment-upgrade	Dexterous prayer scroll
@@ -2610,10 +2610,10 @@
 10063	TOOL	skilling-outfit
 10065	TOOL	skilling-outfit
 10067	TOOL	skilling-outfit
-12596	GEAR	gear	Rangers' tunic
+12596	GEAR	body	Rangers' tunic: exact own equipment bonus slot
 23249	GEAR	gear	Rangers' tights
 12640	SKILLING	resource	Amylase crystal
-12641	SKILLING	resource	Amylase pack
+12641	HERBLORE	herblore-supply	Materials V15 own Wiki revision 15316439: Amylase pack
 # Complete normal-game Voidwaker component and assembled family.
 27681	UNIQUE	equipment-upgrade
 27684	UNIQUE	equipment-upgrade
@@ -2871,7 +2871,7 @@
 7584	CLUE	collection-pet	Hellcat; Wiki revision 15349419
 7585	CLUE	collection-pet	Hellcat; Wiki revision 15349419
 6199	UNIQUE	reward-drop	Random-event mystery box
-28933	GEAR	gear	Sunfire fanatic helm
+28933	GEAR	head	Sunfire fanatic helm: exact own equipment bonus slot
 28936	GEAR	gear	Sunfire fanatic cuirass
 28939	GEAR	gear	Sunfire fanatic chausses
 26824	TOOL	runecrafting-utility	Abyssal lantern (lit)
@@ -3709,3 +3709,637 @@
 29637	POTION	restricted-potion	Blighted overload; Wiki revision 15288134
 29640	POTION	restricted-potion	Blighted overload; Wiki revision 15288134
 31844	POTION	drink	Bottle of ogre prayer potion; Wiki revision 15342798
+
+# Materials V15 first 100 source groups: exact root-reviewed primary corrections; tags unchanged.
+403	POTION	food	Edible seaweed: own function, Wiki revision 15184766
+446	SKILLING	ore	'perfect' gold ore: own function, Wiki revision 15302221
+592	HERBLORE	secondary	Ashes: own function, Wiki revision 15317530
+733	CLEANUP	junk	Smashed glass: own function, Wiki revision 15242496
+948	SKILLING	crafting-material	Bear fur: own function, Wiki revision 15315313
+1747	SKILLING	crafting-material	Black dragonhide: own function, Wiki revision 15183781
+1749	SKILLING	crafting-material	Red dragonhide: own function, Wiki revision 15240514
+1751	SKILLING	crafting-material	Blue dragonhide: own function, Wiki revision 15240518
+1753	SKILLING	crafting-material	Green dragonhide: own function, Wiki revision 15240520
+1859	SKILLING	raw-food	Raw ugthanki meat: own function, Wiki revision 15187392
+1940	SKILLING	cooking-material	Raw swamp paste: own function, Wiki revision 15185910
+2132	SKILLING	raw-food	Raw beef: own function, Wiki revision 15288361
+2134	SKILLING	raw-food	Raw rat meat: own function, Wiki revision 15288362
+2138	SKILLING	raw-food	Raw chicken: own function, Wiki revision 15183349
+2337	SKILLING	raw-food	Raw oomlie: own function, Wiki revision 15185748
+2349	SKILLING	resource	Bronze bar: own function, Wiki revision 15315107
+2351	SKILLING	resource	Iron bar: own function, Wiki revision 15315108
+2355	SKILLING	crafting-jewellery	Silver bar: own function, Wiki revision 15315110
+2876	SKILLING	raw-food	Raw chompy: own function, Wiki revision 15360765
+3325	SKILLING	resource	Vampyre dust: own function, Wiki revision 15183833
+3353	SKILLING	crafting-material	Blamish bark shell: own function, Wiki revision 15185777
+3404	SKILLING	resource	Fiyr remains: own function, Wiki revision 15184316
+4255	SKILLING	prayer-resource	Bonemeal (bones): own function, Wiki revision 15183689
+4256	SKILLING	prayer-resource	Bat bonemeal: own function, Wiki revision 15189811
+4257	SKILLING	prayer-resource	Big bonemeal: own function, Wiki revision 15189812
+4260	SKILLING	prayer-resource	Baby dragon bonemeal: own function, Wiki revision 15189815
+4261	SKILLING	prayer-resource	Dragon bonemeal: own function, Wiki revision 15189817
+4262	SKILLING	prayer-resource	Wolf bonemeal: own function, Wiki revision 15189819
+4263	SKILLING	prayer-resource	Small ninja bonemeal: own function, Wiki revision 15189820
+4264	SKILLING	prayer-resource	Medium ninja bonemeal: own function, Wiki revision 15189822
+4265	SKILLING	prayer-resource	Gorilla bonemeal: own function, Wiki revision 15189823
+4266	SKILLING	prayer-resource	Bearded gorilla bonemeal: own function, Wiki revision 15189824
+4267	SKILLING	prayer-resource	Monkey bonemeal: own function, Wiki revision 15189826
+4268	SKILLING	prayer-resource	Small zombie monkey bonemeal: own function, Wiki revision 15189828
+4269	SKILLING	prayer-resource	Large zombie monkey bonemeal: own function, Wiki revision 15189829
+4270	SKILLING	prayer-resource	Skeleton bonemeal: own function, Wiki revision 15189831
+4271	SKILLING	prayer-resource	Jogre bonemeal: own function, Wiki revision 15189832
+4287	SKILLING	raw-food	Raw beef (undead): own function, Wiki revision 15327021
+4289	SKILLING	raw-food	Raw chicken (undead): own function, Wiki revision 15188045
+4670	CLEANUP	quest-item	Blood diamond: own function, Wiki revision 15327753
+4671	CLEANUP	quest-item	Ice diamond: own function, Wiki revision 15327754
+4672	CLEANUP	quest-item	Smoke diamond: own function, Wiki revision 15327769
+4673	CLEANUP	quest-item	Shadow diamond: own function, Wiki revision 15327752
+4707	CLEANUP	readable-lore	Crumbling tome: own function, Wiki revision 15282351
+4852	SKILLING	prayer-resource	Zogre bonemeal: own function, Wiki revision 15189833
+4853	SKILLING	prayer-resource	Fayrg bonemeal: own function, Wiki revision 15189835
+4854	SKILLING	prayer-resource	Raurg bonemeal: own function, Wiki revision 15189836
+4855	SKILLING	prayer-resource	Ourg bonemeal: own function, Wiki revision 15189837
+5018	GEAR	weapon	Bone club: own function, Wiki revision 15182910
+5508	CLEANUP	readable-lore	Book of folklore: own function, Wiki revision 15186890
+5518	CLEANUP	quest-item	Scrying orb: own function, Wiki revision 15185191
+5615	SKILLING	prayer-resource	Shaikahan bonemeal: own function, Wiki revision 15189838
+5978	FARMING	farming-supply	Coconut shell: own function, Wiki revision 15184258
+6094	CLEANUP	quest-item	Apple barrel: own function, Wiki revision 15238294
+6155	SKILLING	crafting-material	Dagannoth hide: own function, Wiki revision 15324242
+6169	SKILLING	crafting-material	Circular hide: own function, Wiki revision 15273552
+6173	SKILLING	crafting-material	Stretched hide: own function, Wiki revision 15240651
+6670	CLUE	collection-pet	Fishbowl (pet): own function, Wiki revision 15186367
+6671	CLUE	collection-pet	Fishbowl (pet): own function, Wiki revision 15186367
+6672	CLUE	collection-pet	Fishbowl (pet): own function, Wiki revision 15186367
+6674	TOOL	tool	Tiny net: own function, Wiki revision 15186286
+6675	SKILLING	resource	Empty fish food box: own function, Wiki revision 15186540
+6677	SKILLING	resource	Guam in a box: own function, Wiki revision 15189139
+6679	SKILLING	resource	Seaweed in a box: own function, Wiki revision 15189140
+6683	SKILLING	resource	Ground seaweed: own function, Wiki revision 15186368
+6728	SKILLING	prayer-resource	Dagannoth-king bonemeal: own function, Wiki revision 15189834
+6810	SKILLING	prayer-resource	Wyvern bonemeal: own function, Wiki revision 15359534
+6862	CLUE	cosmetic	Woolly hat: own function, Wiki revision 15184896
+6863	CLUE	cosmetic	Woolly scarf: own function, Wiki revision 15184897
+6865	CLUE	cosmetic	Blue marionette: own function, Wiki revision 15184889
+6866	CLUE	cosmetic	Green marionette: own function, Wiki revision 15184888
+6867	CLUE	cosmetic	Red marionette: own function, Wiki revision 15184887
+28984	SKILLING	prayer-resource	Baby dragon bonemeal: own function, Wiki revision 15189815
+6891	CLEANUP	readable-lore	Materials V15 own Wiki revision 15297867: Arena book
+7566	SKILLING	raw-food	Materials V15 own Wiki revision 15185863: Raw jubbly
+7650	HERBLORE	secondary	Materials V15 own Wiki revision 15183991: Silver dust
+7800	CLEANUP	junk	Materials V15 own Wiki revision 15186364: Snail shell
+7801	SKILLING	crafting-material	Materials V15 own Wiki revision 15185489: Snake hide (swamp)
+9736	HERBLORE	secondary	Materials V15 own Wiki revision 15280508: Goat horn dust
+10534	CLEANUP	activity-item	Materials V15 own Wiki revision 15195348: Yellow egg
+10535	CLEANUP	activity-item	Materials V15 own Wiki revision 15195349: Poisoned egg
+10536	CLEANUP	activity-item	Materials V15 own Wiki revision 15195364: Spiked/pois. egg
+10537	CLEANUP	activity-item	Materials V15 own Wiki revision 15195363: Omega egg
+10539	CLEANUP	activity-item	Materials V15 own Wiki revision 15187432: Poisoned tofu
+10540	CLEANUP	activity-item	Materials V15 own Wiki revision 15187433: Poisoned worms
+10541	CLEANUP	activity-item	Materials V15 own Wiki revision 15187434: Poisoned meat
+10547	GEAR	head	Materials V15 own Wiki revision 15359529: Healer hat
+24172	GEAR	head	Materials V15 own Wiki revision 15359529: Healer hat
+10548	GEAR	head	Materials V15 own Wiki revision 15359528: Fighter hat
+24173	GEAR	head	Materials V15 own Wiki revision 15359528: Fighter hat
+10549	GEAR	head	Materials V15 own Wiki revision 15359530: Runner hat
+24533	GEAR	head	Materials V15 own Wiki revision 15359530: Runner hat
+10550	GEAR	head	Materials V15 own Wiki revision 15359531: Ranger hat
+24174	GEAR	head	Materials V15 own Wiki revision 15359531: Ranger hat
+10560	CLEANUP	activity-item	Materials V15 own Wiki revision 15187428: Collector horn
+10561	CLEANUP	activity-item	Materials V15 own Wiki revision 15195368: Spikes (Barbarian Assault)
+10816	SKILLING	raw-food	Materials V15 own Wiki revision 15186563: Raw yak meat
+10818	SKILLING	crafting-material	Materials V15 own Wiki revision 15184003: Yak-hide
+10937	HERBLORE	secondary	Materials V15 own Wiki revision 15221888: Nail beast nails
+10996	CLEANUP	exchange-item	Materials V15 own Wiki revision 15185335: Perfect snail shell
+11246	CLEANUP	loot-container	Materials V15 own Wiki revision 15184955: Essence impling jar
+11340	CLEANUP	readable-lore	Materials V15 own Wiki revision 15282397: Barbarian skills
+11677	CLEANUP	readable-lore	Materials V15 own Wiki revision 15282399: Explorer's notes
+11904	CLEANUP	readable-lore	Materials V15 own Wiki revision 15282376: Entomologist's diary
+11922	SKILLING	prayer-resource	Materials V15 own Wiki revision 15189827: Lava dragon bonemeal
+11943	SKILLING	prayer-resource	Materials V15 own Wiki revision 15360767: Lava dragon bones
+11992	HERBLORE	secondary	Materials V15 own Wiki revision 15185444: Lava scale
+12441	CLUE	cosmetic	Materials V15 own Wiki revision 15325117: Musketeer tabard
+12514	CLUE	cosmetic	Materials V15 own Wiki revision 15324864: Explorer backpack
+12598	GEAR	feet	Materials V15 own Wiki revision 15352893: Holy sandals
+12816	CLUE	collection-pet	Materials V15 own Wiki revision 15352723: Pet dark core
+22318	CLUE	collection-pet	Materials V15 own Wiki revision 15352723: Pet dark core
+12839	CLEANUP	activity-item	Materials V15 own Wiki revision 15186452: Human bones
+12885	CLUE	collection	Materials V15 own Wiki revision 15317329: Jar of Sand
+12898	CLEANUP	activity-item	Materials V15 own Wiki revision 15322966: Antisanta's coal box
+13186	CLEANUP	activity-item	Materials V15 own Wiki revision 15186775: Volatile mineral
+13355	SKILLING	resource	Materials V15 own Wiki revision 15187189: Juniper logs
+13399	CLEANUP	activity-item	Materials V15 own Wiki revision 15187279: Servery raw meat
+13421	FARMING	farming-supply	Materials V15 own Wiki revision 15315161: Saltpetre
+13429	CLEANUP	activity-item	Materials V15 own Wiki revision 15187359: Fresh fish
+13430	SKILLING	fishing-bait	Materials V15 own Wiki revision 15187360: Bucket of sandworms
+13572	CLEANUP	activity-item	Materials V15 own Wiki revision 15187324: Dynamite pot
+13573	CLEANUP	activity-item	Materials V15 own Wiki revision 15256675: Dynamite
+19529	SKILLING	crafting-material	Materials V15 own Wiki revision 15209720: Zenyte shard
+19560	CLEANUP	quest-item	Materials V15 own Wiki revision 15318020: Charged onyx
+19562	CLEANUP	quest-item	Materials V15 own Wiki revision 15318062: Deconstructed onyx
+20611	SKILLING	construction-material	Materials V15 own Wiki revision 15187889: Ancient signet
+20613	SKILLING	construction-material	Materials V15 own Wiki revision 15355215: Lunar signet
+20615	SKILLING	construction-material	Materials V15 own Wiki revision 15187890: Arceuus signet
+20747	FARMING	farming-supply	Materials V15 own Wiki revision 15331283: Bologa's blessing
+20895	CLEANUP	readable-lore	Materials V15 own Wiki revision 15282253: Vanguard judgement
+21036	CLEANUP	activity-item	Materials V15 own Wiki revision 15188161: Mallignum root plank
+21226	CLEANUP	activity-item	Materials V15 own Wiki revision 15188321: Fishy easter egg
+21238	CLEANUP	activity-item	Materials V15 own Wiki revision 15188309: Fishy chocolate mix
+21248	CLEANUP	activity-item	Materials V15 own Wiki revision 15188300: Fluffy feathers
+21249	CLEANUP	activity-item	Materials V15 own Wiki revision 15188297: Wester fish
+21543	SKILLING	prayer-resource	Materials V15 own Wiki revision 15188403: Calcite
+21545	SKILLING	prayer-resource	Materials V15 own Wiki revision 15188400: Pyrophosphite
+21716	CLEANUP	activity-item	Materials V15 own Wiki revision 15188515: Carved gem
+21730	UNIQUE	equipment-upgrade	Materials V15 own Wiki revision 15314323: Black tourmaline core
+21869	CLEANUP	activity-item	Materials V15 own Wiki revision 15188576: Logs and kindling
+22043	CLEANUP	readable-lore	Materials V15 own Wiki revision 15282340: Imafore's betrayal
+22111	GEAR	neck	Materials V15 own Wiki revision 15188633: Dragonbone necklace
+22116	SKILLING	prayer-resource	Materials V15 own Wiki revision 15189825: Superior dragon bonemeal
+22364	TOOL	utility	Materials V15 own Wiki revision 15188812: Oculus orb
+22386	CLUE	pet-upgrade	Materials V15 own Wiki revision 15188827: Metamorphic dust
+22754	SKILLING	prayer-resource	Materials V15 own Wiki revision 15353199: Wyrm bonemeal
+22758	SKILLING	prayer-resource	Materials V15 own Wiki revision 15189816: Hydra bonemeal
+22838	GEAR	cape	Materials V15 own Wiki revision 15328519: Fish sack
+22983	UNIQUE	equipment-upgrade	Materials V15 own Wiki revision 15189090: Hydra leather
+23261	GEAR	hands	Materials V15 own Wiki revision 15326874: Gilded d'hide vambraces
+23315	CLUE	cosmetic	Materials V15 own Wiki revision 15323858: Sandwich lady top
+23318	CLUE	cosmetic	Materials V15 own Wiki revision 15323859: Sandwich lady bottom
+23866	CLEANUP	activity-item	Materials V15 own Wiki revision 15272032: Crystal shards (The Gauntlet)
+23867	CLEANUP	activity-item	Materials V15 own Wiki revision 15189496: Crystal dust (The Gauntlet)
+23870	CLEANUP	activity-item	Materials V15 own Wiki revision 15189412: Crystal orb
+23877	CLEANUP	activity-item	Materials V15 own Wiki revision 15271984: Crystal ore
+23879	CLEANUP	activity-item	Materials V15 own Wiki revision 15189497: Vial (The Gauntlet)
+24511	UNIQUE	equipment-upgrade	Materials V15 own Wiki revision 15299767: Harmonised orb
+24514	UNIQUE	equipment-upgrade	Materials V15 own Wiki revision 15299556: Volatile orb
+24517	UNIQUE	equipment-upgrade	Materials V15 own Wiki revision 15299769: Eldritch orb
+24782	SKILLING	raw-food	Materials V15 own Wiki revision 15189734: Raw mystery meat
+25139	SKILLING	resource	Materials V15 own Wiki revision 15189931: Bone fragments
+25419	SKILLING	resource	Materials V15 own Wiki revision 15359097: Urium remains
+25422	SKILLING	prayer-resource	Materials V15 own Wiki revision 15190007: Bleached bones
+25478	SKILLING	crafting-unlock	Materials V15 own Wiki revision 15190006: Runescroll of swampbark
+25481	SKILLING	crafting-unlock	Materials V15 own Wiki revision 15190005: Runescroll of bloodbark
+25494	CLEANUP	activity-item	Materials V15 own Wiki revision 15190027: Black d'hide vambraces (beta)
+25588	SKILLING	fishing-supply	Materials V15 own Wiki revision 15357871: Spirit flakes
+25606	CLUE	cosmetic	Materials V15 own Wiki revision 15190152: Propeller hat
+25652	SKILLING	cooking-material	Materials V15 own Wiki revision 15254936: Raw guppy
+25658	SKILLING	cooking-material	Materials V15 own Wiki revision 15254937: Raw cavefish
+25660	SKILLING	prayer-resource	Materials V15 own Wiki revision 15254926: Cavefish
+25664	SKILLING	cooking-material	Materials V15 own Wiki revision 15254938: Raw tetra
+25670	SKILLING	cooking-material	Materials V15 own Wiki revision 15254939: Raw catfish
+25672	SKILLING	prayer-resource	Materials V15 own Wiki revision 15357957: Catfish
+25694	CLUE	collection	Materials V15 own Wiki revision 15190184: Ancient carcanet
+25746	CLUE	pet-upgrade	Materials V15 own Wiki revision 15301034: Sanguine dust
+25766	SKILLING	prayer-resource	Materials V15 own Wiki revision 15270842: Fiendish ashes
+25769	SKILLING	prayer-resource	Materials V15 own Wiki revision 15318126: Vile ashes
+25772	SKILLING	prayer-resource	Materials V15 own Wiki revision 15270841: Malicious ashes
+25775	SKILLING	prayer-resource	Materials V15 own Wiki revision 15270840: Abyssal ashes
+25778	SKILLING	prayer-resource	Materials V15 own Wiki revision 15270761: Infernal ashes
+26008	CLEANUP	activity-item	Materials V15 own Wiki revision 15348028: Sigil of Barrows
+26009	CLEANUP	activity-item	Materials V15 own Wiki revision 15348028: Sigil of Barrows
+26089	CLEANUP	activity-item	Materials V15 own Wiki revision 15349738: Sigil of the Barbarians
+26090	CLEANUP	activity-item	Materials V15 own Wiki revision 15349738: Sigil of the Barbarians
+26368	HERBLORE	secondary	Materials V15 own Wiki revision 15263916: Nihil dust
+26390	SKILLING	runecrafting-supply	Materials V15 own Wiki revision 15353286: Blood essence
+26392	SKILLING	runecrafting-supply	Materials V15 own Wiki revision 15353286: Blood essence
+27223	CLEANUP	quest-item	Materials V15 own Wiki revision 15191022: Eldritch ashes
+27306	CLEANUP	readable-lore	Materials V15 own Wiki revision 15282265: Scabaras' capture
+27494	CLEANUP	activity-item	Materials V15 own Wiki revision 15334203: Old wool
+27570	CLUE	cosmetic	Materials V15 own Wiki revision 15191152: Sack of coal
+28143	TOOL	woodcutting-tool	Materials V15 own Wiki revision 15356930: Forestry basket
+28145	TOOL	woodcutting-tool	Materials V15 own Wiki revision 15356930: Forestry basket
+28250	CLUE	collection-pet	Materials V15 own Wiki revision 15352749: Baron
+28591	SKILLING	runecrafting-supply	Materials V15 own Wiki revision 15335882: Tainted essence chunk
+28620	CLUE	cosmetic	Materials V15 own Wiki revision 15196068: Pheasant hat
+28624	SKILLING	crafting-material	Materials V15 own Wiki revision 15213697: Pheasant tail feathers
+28674	SKILLING	construction-material	Materials V15 own Wiki revision 15303929: Sturdy beehive parts
+29087	CLEANUP	activity-item	Materials V15 own Wiki revision 15194576: Sulphurous essence
+29168	SKILLING	fletching-material	Materials V15 own Wiki revision 15293507: Sunlight antelope antler
+29171	SKILLING	ammo-component	Materials V15 own Wiki revision 15192410: Moonlight antelope antler
+29321	CLEANUP	readable-lore	Materials V15 own Wiki revision 15192333: Apatura's note
+29338	SKILLING	prayer-resource	Materials V15 own Wiki revision 15256649: Blessed bone statuette
+29340	SKILLING	prayer-resource	Materials V15 own Wiki revision 15256649: Blessed bone statuette
+29342	SKILLING	prayer-resource	Materials V15 own Wiki revision 15256649: Blessed bone statuette
+29344	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192342: Blessed bones
+29346	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192337: Blessed bat bones
+29348	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192340: Blessed big bones
+29350	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192353: Blessed zogre bones
+29352	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192338: Blessed babydragon bones
+29354	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192339: Blessed babywyrm bones
+29356	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192343: Blessed dragon bones
+29358	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192347: Blessed lava dragon bones
+29360	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192352: Blessed wyvern bones
+29362	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192350: Blessed superior dragon bones
+29364	SKILLING	prayer-resource	Materials V15 own Wiki revision 15285000: Blessed wyrm bones
+29368	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192346: Blessed hydra bones
+29370	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192345: Blessed fayrg bones
+29372	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192349: Blessed raurg bones
+29374	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192348: Blessed ourg bones
+29376	SKILLING	prayer-resource	Materials V15 own Wiki revision 15192479: Dagannoth bones (blessed)
+29378	SKILLING	prayer-resource	Materials V15 own Wiki revision 15261979: Sun-kissed bones
+29672	CLEANUP	activity-item	Materials V15 own Wiki revision 15350126: Sigil of the Swashbuckler
+29673	CLEANUP	activity-item	Materials V15 own Wiki revision 15350126: Sigil of the Swashbuckler
+30000	TOOL	utility-container	Materials V15 own Wiki revision 15303257: Chugging barrel
+30002	TOOL	utility-container	Materials V15 own Wiki revision 15303257: Chugging barrel
+30082	GEAR	hands	Materials V15 own Wiki revision 15320241: Hueycoatl hide vambraces
+30085	SKILLING	crafting-material	Materials V15 own Wiki revision 15192758: Hueycoatl hide
+30105	UNIQUE	key-material	Materials V15 own Wiki revision 15329338: Tooth half of key (moon key)
+30109	UNIQUE	reward-key	Materials V15 own Wiki revision 15209580: Moon key
+30151	CLUE	collection-pet	Materials V15 own Wiki revision 15352779: Giant Squirrel
+30394	CLEANUP	activity-item	Materials V15 own Wiki revision 15286387: Desert echo orb
+30396	CLEANUP	activity-item	Materials V15 own Wiki revision 15286389: Kandarin echo orb
+30397	CLEANUP	activity-item	Materials V15 own Wiki revision 15286391: Morytania echo orb
+30795	HERBLORE	herblore-supply	Materials V15 own Wiki revision 15282058: Barrel of demonic tallow
+30798	HERBLORE	herblore-supply	Materials V15 own Wiki revision 15282058: Barrel of demonic tallow
+30973	SKILLING	prayer-resource	Materials V15 own Wiki revision 15339982: Alan's bones
+30975	SKILLING	prayer-resource	Materials V15 own Wiki revision 15193999: Alan's bonemeal
+31075	SKILLING	prayer-resource	Materials V15 own Wiki revision 15194013: Alan's blessed bones
+31077	CLEANUP	readable-lore	Materials V15 own Wiki revision 15303759: On migration patterns
+31181	CLUE	cosmetic	Materials V15 own Wiki revision 15194120: Grid master tabard
+31184	CLUE	cosmetic	Materials V15 own Wiki revision 15194122: Grid master tabard (b)
+31187	CLUE	cosmetic	Materials V15 own Wiki revision 15194123: Grid master tabard (p)
+31190	CLUE	cosmetic	Materials V15 own Wiki revision 15194124: Grid master tabard (g)
+31264	SKILLING	prayer-resource	Materials V15 own Wiki revision 15194189: Blessed strykewyrm bones
+31266	SKILLING	prayer-resource	Materials V15 own Wiki revision 15194188: Blessed frost dragon bones
+31335	SKILLING	prayer-resource	Materials V15 own Wiki revision 15194270: Frost dragon bonemeal
+31406	SKILLING	construction-material	Materials V15 own Wiki revision 15289712: Dragon nails
+31472	SKILLING	crafting-material	Materials V15 own Wiki revision 15287043: Bolt of linen
+31475	SKILLING	crafting-material	Materials V15 own Wiki revision 15212679: Bolt of canvas
+31734	TOOL	boat-customisation-tool	Materials V15 own Wiki revision 15194040: Ralph's fabric roll
+31746	TOOL	boat-customisation-tool	Materials V15 own Wiki revision 15194046: Gurtob's fabric roll
+31758	TOOL	boat-customisation-tool	Materials V15 own Wiki revision 15194052: Gwyna's fabric roll
+31873	POTION	drink	Materials V15 own Wiki revision 15194209: Bottle of fishtongue tonic
+31892	POTION	drink	Materials V15 own Wiki revision 15326657: Bottle of fish bladder stoutier
+31952	SKILLING	construction-material	Materials V15 own Wiki revision 15301768: Swift albatross feather
+31959	SKILLING	construction-material	Materials V15 own Wiki revision 15227252: Ray barbs
+31967	SKILLING	sailing-supply	Materials V15 own Wiki revision 15227209: Oak repair kit
+31970	SKILLING	sailing-supply	Materials V15 own Wiki revision 15227210: Teak repair kit
+31973	SKILLING	sailing-supply	Materials V15 own Wiki revision 15227211: Mahogany repair kit
+31976	SKILLING	sailing-supply	Materials V15 own Wiki revision 15227212: Camphor repair kit
+31979	SKILLING	sailing-supply	Materials V15 own Wiki revision 15227213: Ironwood repair kit
+31982	SKILLING	sailing-supply	Materials V15 own Wiki revision 15227214: Rosewood repair kit
+32041	SKILLING	construction-material	Materials V15 own Wiki revision 15193900: Wooden hull parts
+32044	SKILLING	construction-material	Materials V15 own Wiki revision 15193901: Oak hull parts
+32047	SKILLING	construction-material	Materials V15 own Wiki revision 15193902: Teak hull parts
+32050	SKILLING	construction-material	Materials V15 own Wiki revision 15193903: Mahogany hull parts
+32053	SKILLING	construction-material	Materials V15 own Wiki revision 15290364: Camphor hull parts
+32056	SKILLING	construction-material	Materials V15 own Wiki revision 15272839: Ironwood hull parts
+32059	SKILLING	construction-material	Materials V15 own Wiki revision 15193906: Rosewood hull parts
+32062	SKILLING	construction-material	Materials V15 own Wiki revision 15239554: Large wooden hull parts
+32065	SKILLING	construction-material	Materials V15 own Wiki revision 15352267: Large oak hull parts
+32068	SKILLING	construction-material	Materials V15 own Wiki revision 15239553: Large teak hull parts
+32071	SKILLING	construction-material	Materials V15 own Wiki revision 15239550: Large mahogany hull parts
+32074	SKILLING	construction-material	Materials V15 own Wiki revision 15239548: Large camphor hull parts
+32077	SKILLING	construction-material	Materials V15 own Wiki revision 15272840: Large ironwood hull parts
+32080	SKILLING	construction-material	Materials V15 own Wiki revision 15239552: Large rosewood hull parts
+32087	SKILLING	construction-material	Materials V15 own Wiki revision 15229414: Barracuda paint
+32113	SKILLING	construction-material	Materials V15 own Wiki revision 15229423: Sandy paint
+32115	SKILLING	construction-material	Materials V15 own Wiki revision 15304637: Dragon cannon barrel
+32362	HERBLORE	secondary	Materials V15 own Wiki revision 15350893: Marlin scales
+32366	SKILLING	fishing-supply	Materials V15 own Wiki revision 15349966: Fish crate (empty)
+32368	SKILLING	fishing-supply	Materials V15 own Wiki revision 15209242: Fish crate (giant krill)
+32370	SKILLING	fishing-supply	Materials V15 own Wiki revision 15209242: Fish crate (giant krill)
+32371	SKILLING	fishing-supply	Materials V15 own Wiki revision 15209240: Fish crate (haddock)
+32373	SKILLING	fishing-supply	Materials V15 own Wiki revision 15209240: Fish crate (haddock)
+32374	SKILLING	fishing-supply	Materials V15 own Wiki revision 15215289: Fish crate (yellowfin)
+32376	SKILLING	fishing-supply	Materials V15 own Wiki revision 15215289: Fish crate (yellowfin)
+32377	SKILLING	fishing-supply	Materials V15 own Wiki revision 15215286: Fish crate (halibut)
+32379	SKILLING	fishing-supply	Materials V15 own Wiki revision 15215286: Fish crate (halibut)
+32380	SKILLING	fishing-supply	Materials V15 own Wiki revision 15215287: Fish crate (bluefin)
+32382	SKILLING	fishing-supply	Materials V15 own Wiki revision 15215287: Fish crate (bluefin)
+32383	SKILLING	fishing-supply	Materials V15 own Wiki revision 15209239: Fish crate (marlin)
+32385	SKILLING	fishing-supply	Materials V15 own Wiki revision 15209239: Fish crate (marlin)
+32442	CLEANUP	activity-item	Materials V15 own Wiki revision 15122922: Crate of lead ore
+32561	CLEANUP	activity-item	Materials V15 own Wiki revision 15122922: Crate of lead ore
+32740	CLEANUP	activity-item	Materials V15 own Wiki revision 15122922: Crate of lead ore
+32444	CLEANUP	activity-item	Materials V15 own Wiki revision 15122937: Crate of nickel ore
+32507	CLEANUP	activity-item	Materials V15 own Wiki revision 15122937: Crate of nickel ore
+32787	CLEANUP	activity-item	Materials V15 own Wiki revision 15122937: Crate of nickel ore
+32448	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32482	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32519	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32613	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32693	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32764	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32924	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32947	CLEANUP	activity-item	Materials V15 own Wiki revision 15353210: Crate of arrowtips
+32451	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32469	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32503	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32523	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32551	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32560	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32564	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32568	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32582	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32592	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32607	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32679	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32697	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32712	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32724	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32738	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32752	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32760	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32937	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32938	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32939	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32942	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32958	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32959	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32961	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32962	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32979	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32980	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32988	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32989	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32991	CLEANUP	activity-item	Materials V15 own Wiki revision 15214148: Crate of fish
+32453	CLEANUP	activity-item	Materials V15 own Wiki revision 15123983: Crate of gold ore
+32489	CLEANUP	activity-item	Materials V15 own Wiki revision 15123983: Crate of gold ore
+32461	CLEANUP	activity-item	Materials V15 own Wiki revision 15122974: Crate of sand
+32549	CLEANUP	activity-item	Materials V15 own Wiki revision 15122974: Crate of sand
+32605	CLEANUP	activity-item	Materials V15 own Wiki revision 15122974: Crate of sand
+32467	CLEANUP	activity-item	Materials V15 own Wiki revision 15122779: Crate of camphor logs
+32533	CLEANUP	activity-item	Materials V15 own Wiki revision 15122779: Crate of camphor logs
+32677	CLEANUP	activity-item	Materials V15 own Wiki revision 15122779: Crate of camphor logs
+32470	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32505	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32524	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32570	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32639	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32782	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32960	CLEANUP	activity-item	Materials V15 own Wiki revision 15122825: Crate of gems
+32471	CLEANUP	activity-item	Materials V15 own Wiki revision 15122876: Crate of iron bars
+32475	CLEANUP	activity-item	Materials V15 own Wiki revision 15122973: Crate of sandstone
+32792	CLEANUP	activity-item	Materials V15 own Wiki revision 15122973: Crate of sandstone
+32476	CLEANUP	activity-item	Materials V15 own Wiki revision 15122987: Crate of silver ore
+32498	CLEANUP	activity-item	Materials V15 own Wiki revision 15122987: Crate of silver ore
+32480	CLEANUP	activity-item	Materials V15 own Wiki revision 15122828: Crate of gold bars
+32769	CLEANUP	activity-item	Materials V15 own Wiki revision 15122828: Crate of gold bars
+32484	CLEANUP	activity-item	Materials V15 own Wiki revision 15122809: Crate of feathers
+32486	CLEANUP	activity-item	Materials V15 own Wiki revision 15122789: Crate of coconuts
+32678	CLEANUP	activity-item	Materials V15 own Wiki revision 15122789: Crate of coconuts
+32946	CLEANUP	activity-item	Materials V15 own Wiki revision 15122789: Crate of coconuts
+32509	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32573	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32702	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32716	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32729	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32800	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32985	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+33000	CLEANUP	activity-item	Materials V15 own Wiki revision 15214157: Crate of ores
+32532	CLEANUP	activity-item	Materials V15 own Wiki revision 15122738: Crate of alpaca wool
+32952	CLEANUP	activity-item	Materials V15 own Wiki revision 15122738: Crate of alpaca wool
+32539	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32566	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32585	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32596	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32684	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32715	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32798	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32949	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32951	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32956	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32977	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32986	CLEANUP	activity-item	Materials V15 own Wiki revision 15122929: Crate of logs
+32541	CLEANUP	activity-item	Materials V15 own Wiki revision 15212859: Crate of mahogany logs
+32597	CLEANUP	activity-item	Materials V15 own Wiki revision 15212859: Crate of mahogany logs
+32604	CLEANUP	activity-item	Materials V15 own Wiki revision 15212859: Crate of mahogany logs
+32644	CLEANUP	activity-item	Materials V15 own Wiki revision 15212859: Crate of mahogany logs
+32544	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32556	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32624	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32645	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32743	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32755	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32950	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32953	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32955	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32957	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32966	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32971	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32992	CLEANUP	activity-item	Materials V15 own Wiki revision 15122952: Crate of planks
+32545	CLEANUP	activity-item	Materials V15 own Wiki revision 15123003: Crate of suqah hides
+32548	CLEANUP	activity-item	Materials V15 own Wiki revision 15122748: Crate of barley
+32553	CLEANUP	activity-item	Materials V15 own Wiki revision 15122895: Crate of iron ore
+32562	CLEANUP	activity-item	Materials V15 own Wiki revision 15122965: Crate of rope
+32745	CLEANUP	activity-item	Materials V15 own Wiki revision 15122965: Crate of rope
+32791	CLEANUP	activity-item	Materials V15 own Wiki revision 15122965: Crate of rope
+32565	CLEANUP	activity-item	Materials V15 own Wiki revision 15162936: Crate of flax
+32608	CLEANUP	activity-item	Materials V15 own Wiki revision 15162936: Crate of flax
+32680	CLEANUP	activity-item	Materials V15 own Wiki revision 15162936: Crate of flax
+32571	CLEANUP	activity-item	Materials V15 own Wiki revision 15122915: Crate of kebbit fur
+32584	CLEANUP	activity-item	Materials V15 own Wiki revision 15122915: Crate of kebbit fur
+32643	CLEANUP	activity-item	Materials V15 own Wiki revision 15122915: Crate of kebbit fur
+32578	CLEANUP	activity-item	Materials V15 own Wiki revision 15122741: Crate of antelope fur
+32650	CLEANUP	activity-item	Materials V15 own Wiki revision 15122741: Crate of antelope fur
+32580	CLEANUP	activity-item	Materials V15 own Wiki revision 15214147: Crate of coal
+32603	CLEANUP	activity-item	Materials V15 own Wiki revision 15214147: Crate of coal
+32617	CLEANUP	activity-item	Materials V15 own Wiki revision 15214147: Crate of coal
+32636	CLEANUP	activity-item	Materials V15 own Wiki revision 15214147: Crate of coal
+32695	CLEANUP	activity-item	Materials V15 own Wiki revision 15214147: Crate of coal
+32723	CLEANUP	activity-item	Materials V15 own Wiki revision 15214147: Crate of coal
+32701	CLEANUP	activity-item	Materials V15 own Wiki revision 15122934: Crate of mithril ore
+32722	CLEANUP	activity-item	Materials V15 own Wiki revision 15214146: Crate of battleaxes
+32766	CLEANUP	activity-item	Materials V15 own Wiki revision 15214146: Crate of battleaxes
+32744	CLEANUP	activity-item	Materials V15 own Wiki revision 15122963: Crate of redwood logs
+32747	CLEANUP	activity-item	Materials V15 own Wiki revision 15123012: Crate of teak logs
+32993	CLEANUP	activity-item	Materials V15 own Wiki revision 15123012: Crate of teak logs
+32777	CLEANUP	activity-item	Materials V15 own Wiki revision 15123001: Crate of steel bars
+32780	CLEANUP	activity-item	Materials V15 own Wiki revision 15122747: Crate of bananas
+32781	CLEANUP	activity-item	Materials V15 own Wiki revision 15122776: Crate of cacti
+32783	CLEANUP	activity-item	Materials V15 own Wiki revision 15212860: Crate of javelins
+32998	CLEANUP	activity-item	Materials V15 own Wiki revision 15212860: Crate of javelins
+32785	CLEANUP	activity-item	Materials V15 own Wiki revision 15122925: Crate of leather
+32786	CLEANUP	activity-item	Materials V15 own Wiki revision 15211441: Crate of meat
+32788	CLEANUP	activity-item	Materials V15 own Wiki revision 15122948: Crate of pest remains
+32789	CLEANUP	activity-item	Materials V15 own Wiki revision 15122951: Crate of pineapples
+32795	CLEANUP	activity-item	Materials V15 own Wiki revision 15122802: Crate of dragonhide
+32889	SKILLING	construction-material	Materials V15 own Wiki revision 15226137: Lead bar
+32907	SKILLING	log	Materials V15 own Wiki revision 15216688: Ironwood logs
+32910	SKILLING	log	Materials V15 own Wiki revision 15226799: Rosewood logs
+32921	CLUE	collection	Materials V15 own Wiki revision 15317326: Jar of Feathers
+33082	CLUE	cosmetic	Materials V15 own Wiki revision 15253640: 25th anniversary warrior tabard
+33084	CLUE	cosmetic	Materials V15 own Wiki revision 15149170: 25th anniversary skeleton tabard
+33106	SKILLING	raw-food	Materials V15 own Wiki revision 15332211: Raw t-bone steak
+33384	TOOL	utility-container	Materials V15 own Wiki revision 15326402: Gem pouch
+33386	TOOL	utility-container	Materials V15 own Wiki revision 15326402: Gem pouch
+33387	TOOL	utility-container	Materials V15 own Wiki revision 15357197: Gem satchel
+33389	TOOL	utility-container	Materials V15 own Wiki revision 15357197: Gem satchel
+33390	TOOL	utility-container	Materials V15 own Wiki revision 15357196: Gem tote
+33392	TOOL	utility-container	Materials V15 own Wiki revision 15357196: Gem tote
+33393	TOOL	utility-container	Materials V15 own Wiki revision 15357194: Gem sack
+33395	TOOL	utility-container	Materials V15 own Wiki revision 15357194: Gem sack
+33683	SKILLING	crafting-material	Materials V15 own Wiki revision 15265571: Tarnished battleaxe
+33821	SKILLING	raw-food	Materials V15 own Wiki revision 15271717: Raw impaler meat
+581	GEAR	body	Gear own Wiki revision 15183959: Black robe
+864	GEAR	weapon	Gear own Wiki revision 15182801: Bronze knife
+870	GEAR	weapon	Gear own Wiki revision 15182801: Bronze knife
+1021	GEAR	cape	Gear own Wiki revision 15184056: Blue cape
+1027	GEAR	cape	Gear own Wiki revision 15187095: Green cape
+1181	GEAR	shield	Gear own Wiki revision 15182838: Mithril sq shield
+1283	GEAR	weapon	Gear own Wiki revision 15182621: Black sword
+1293	GEAR	weapon	Gear own Wiki revision 15182804: Iron longsword
+1305	GEAR	weapon	Gear own Wiki revision 15183370: Dragon longsword
+1335	GEAR	weapon	Gear own Wiki revision 15320141: Iron warhammer
+1341	GEAR	weapon	Gear own Wiki revision 15182620: Black warhammer
+1434	GEAR	weapon	Gear own Wiki revision 15272260: Dragon mace
+2589	GEAR	shield	Gear own Wiki revision 15323878: Black kiteshield (t)
+2603	GEAR	shield	Gear own Wiki revision 15324076: Adamant kiteshield (t)
+4069	GEAR	body	Gear own Wiki revision 15351945: Decorative armour (red platebody)
+4504	GEAR	body	Gear own Wiki revision 15185126: Decorative armour (white platebody)
+4508	GEAR	weapon	Gear own Wiki revision 15260330: Decorative sword (gold)
+4509	GEAR	body	Gear own Wiki revision 15260324: Decorative armour (gold platebody)
+4512	GEAR	shield	Gear own Wiki revision 15260328: Decorative shield (gold)
+4675	GEAR	weapon	Gear own Wiki revision 15350343: Ancient staff
+5654	GEAR	weapon	Gear own Wiki revision 15182801: Bronze knife
+5661	GEAR	weapon	Gear own Wiki revision 15182801: Bronze knife
+6107	GEAR	body	Gear own Wiki revision 15359745: Ghostly robe (top)
+6237	GEAR	shield	Gear own Wiki revision 15360600: Broodoo shield (disease)
+6239	GEAR	shield	Gear own Wiki revision 15360600: Broodoo shield (disease)
+6241	GEAR	shield	Gear own Wiki revision 15360600: Broodoo shield (disease)
+6243	GEAR	shield	Gear own Wiki revision 15360600: Broodoo shield (disease)
+6245	GEAR	shield	Gear own Wiki revision 15360600: Broodoo shield (disease)
+6247	GEAR	shield	Gear own Wiki revision 15360600: Broodoo shield (disease)
+7332	GEAR	shield	Gear own Wiki revision 15323884: Black shield (h1)
+7340	GEAR	shield	Gear own Wiki revision 15324083: Adamant shield (h2)
+7350	GEAR	shield	Gear own Wiki revision 15323887: Black shield (h4)
+7358	GEAR	shield	Gear own Wiki revision 15324086: Adamant shield (h5)
+7372	GEAR	body	Gear own Wiki revision 15324118: Green d'hide body (t)
+7376	GEAR	body	Gear own Wiki revision 15324794: Blue d'hide body (t)
+7390	GEAR	body	Gear own Wiki revision 15323901: Blue wizard robe (g)
+7398	GEAR	legs	Gear own Wiki revision 15324863: Enchanted robe
+7447	GEAR	weapon	Gear own Wiki revision 15184142: Kitchen knife
+8872	GEAR	weapon	Gear own Wiki revision 15320268: Bone dagger
+8874	GEAR	weapon	Gear own Wiki revision 15320268: Bone dagger
+8876	GEAR	weapon	Gear own Wiki revision 15320268: Bone dagger
+8878	GEAR	weapon	Gear own Wiki revision 15320268: Bone dagger
+9753	GEAR	cape	Gear own Wiki revision 15276875: Defence cape
+9754	GEAR	cape	Gear own Wiki revision 15276875: Defence cape
+9762	GEAR	cape	Gear own Wiki revision 15327006: Magic cape
+9763	GEAR	cape	Gear own Wiki revision 15327006: Magic cape
+10340	GEAR	legs	Gear own Wiki revision 15354812: 3rd Age robe
+10366	GEAR	neck	Gear own Wiki revision 15352299: Amulet of magic (t)
+11061	GEAR	weapon	Gear own Wiki revision 15360625: Ancient mace
+11802	GEAR	2h	Gear own Wiki revision 15329390: Armadyl godsword
+11898	GEAR	head	Gear own Wiki revision 15260315: Decorative armour (magic hat)
+11901	GEAR	cape	Gear own Wiki revision 15260314: Decorative armour (quiver)
+12291	GEAR	shield	Gear own Wiki revision 15324158: Mithril kiteshield (t)
+12381	GEAR	body	Gear own Wiki revision 15325067: Black d'hide body (g)
+12422	GEAR	weapon	Gear own Wiki revision 15328773: 3rd Age wand
+12426	GEAR	weapon	Gear own Wiki revision 15326834: 3rd Age longsword
+12437	GEAR	cape	Gear own Wiki revision 15326831: 3rd Age cloak
+12851	GEAR	neck	Gear own Wiki revision 15322522: Amulet of the Damned
+13073	GEAR	legs	Gear own Wiki revision 15260481: Elite void robe
+13118	GEAR	shield	Gear own Wiki revision 15186670: Falador shield 2
+13123	GEAR	cape	Gear own Wiki revision 15347094: Ardougne cloak 3
+13335	GEAR	cape	Gear own Wiki revision 15266980: Guthix max cape
+19553	GEAR	neck	Gear own Wiki revision 15187468: Amulet of torture
+19722	GEAR	shield	Gear own Wiki revision 15260372: Dragon defender (t)
+20152	GEAR	shield	Gear own Wiki revision 15326871: Gilded sq shield
+20161	GEAR	weapon	Gear own Wiki revision 15326868: Gilded hasta
+20272	GEAR	shield	Gear own Wiki revision 15324093: Cabbage round shield
+20846	GEAR	shield	Gear own Wiki revision 15241927: Corrupted kiteshield
+21780	GEAR	cape	Gear own Wiki revision 15296542: Imbued Zamorak max cape
+21791	GEAR	cape	Gear own Wiki revision 15352883: Imbued Saradomin cape
+22127	GEAR	shield	Gear own Wiki revision 15188662: Adamant kiteshield (Arrav)
+22133	GEAR	shield	Gear own Wiki revision 15188665: Adamant kiteshield (Dragon)
+22139	GEAR	shield	Gear own Wiki revision 15188670: Adamant kiteshield (HAM)
+22145	GEAR	shield	Gear own Wiki revision 15188673: Adamant kiteshield (Kandarin)
+22149	GEAR	shield	Gear own Wiki revision 15188675: Adamant kiteshield (Money)
+22155	GEAR	shield	Gear own Wiki revision 15188677: Adamant kiteshield (Varrock)
+22557	GEAR	neck	Gear own Wiki revision 15355186: Amulet of avarice
+23342	GEAR	weapon	Gear own Wiki revision 15326848: 3rd Age druidic staff
+23351	GEAR	cape	Gear own Wiki revision 15323924: Cape of skulls
+23381	GEAR	body	Gear own Wiki revision 15323962: Leather body (g)
+23987	GEAR	2h	Gear own Wiki revision 15235978: Crystal halberd
+24123	GEAR	2h	Gear own Wiki revision 15320290: Crystal bow
+24125	GEAR	2h	Gear own Wiki revision 15235978: Crystal halberd
+24157	GEAR	weapon	Gear own Wiki revision 15260330: Decorative sword (gold)
+24161	GEAR	shield	Gear own Wiki revision 15260328: Decorative shield (gold)
+24180	GEAR	legs	Gear own Wiki revision 15260481: Elite void robe
+24225	GEAR	2h	Gear own Wiki revision 15186460: Granite maul (ornate handle)
+24227	GEAR	2h	Gear own Wiki revision 15186460: Granite maul (ornate handle)
+24233	GEAR	cape	Gear own Wiki revision 15296542: Imbued Zamorak max cape
+24248	GEAR	cape	Gear own Wiki revision 15352883: Imbued Saradomin cape
+25867	GEAR	2h	Gear own Wiki revision 15352645: Bow of Faerdhinen (c)
+26182	GEAR	hands	Gear own Wiki revision 15190604: Hardcore group ironman bracers
+26223	GEAR	legs	Gear own Wiki revision 15190618: Ancient ceremonial legs
+26710	GEAR	weapon	Gear own Wiki revision 15333861: Dragon warhammer (or)
+27008	GEAR	shield	Gear own Wiki revision 15260372: Dragon defender (t)
+27117	GEAR	legs	Gear own Wiki revision 15333818: Elder chaos robe (or)
+27552	GEAR	shield	Gear own Wiki revision 15324597: Ghommal's avernic defender 6
+27553	GEAR	shield	Gear own Wiki revision 15324597: Ghommal's avernic defender 6
+29305	GEAR	weapon	Gear own Wiki revision 15264550: Hunter's spear
+29615	GEAR	cape	Gear own Wiki revision 15296416: Imbued Guthix cape (Deadman)
+29801	GEAR	neck	Gear own Wiki revision 15343231: Amulet of rancour
+30449	GEAR	legs	Gear own Wiki revision 15239877: Echo ahrim's robeskirt
+30523	GEAR	legs	Gear own Wiki revision 15239877: Echo ahrim's robeskirt
+30529	GEAR	legs	Gear own Wiki revision 15239877: Echo ahrim's robeskirt
+30535	GEAR	legs	Gear own Wiki revision 15239877: Echo ahrim's robeskirt
+30541	GEAR	legs	Gear own Wiki revision 15239877: Echo ahrim's robeskirt
+843	GEAR	2h	Oak shortbow: exact own equipment bonus slot
+1007	GEAR	cape	Red cape: exact own equipment bonus slot
+1023	GEAR	cape	Yellow cape: exact own equipment bonus slot
+1033	GEAR	legs	Zamorak monk bottom: exact own equipment bonus slot
+1201	GEAR	shield	Rune kiteshield: exact own equipment bonus slot
+1303	GEAR	weapon	Rune longsword: exact own equipment bonus slot
+1339	GEAR	weapon	Steel warhammer: exact own equipment bonus slot
+1347	GEAR	weapon	Rune warhammer: exact own equipment bonus slot
+2414	GEAR	cape	Zamorak cape: exact own equipment bonus slot
+2501	GEAR	body	Red d'hide body: exact own equipment bonus slot
+2883	GEAR	2h	Ogre bow: exact own equipment bonus slot
+4315	GEAR	cape	Team-1 cape: exact own equipment bonus slot
+4321	GEAR	cape	Team-4 cape: exact own equipment bonus slot
+4329	GEAR	cape	Team-8 cape: exact own equipment bonus slot
+4337	GEAR	cape	Team-12 cape: exact own equipment bonus slot
+4343	GEAR	cape	Team-15 cape: exact own equipment bonus slot
+4349	GEAR	cape	Team-18 cape: exact own equipment bonus slot
+4353	GEAR	cape	Team-20 cape: exact own equipment bonus slot
+4359	GEAR	cape	Team-23 cape: exact own equipment bonus slot
+4365	GEAR	cape	Team-26 cape: exact own equipment bonus slot
+4371	GEAR	cape	Team-29 cape: exact own equipment bonus slot
+4375	GEAR	cape	Team-31 cape: exact own equipment bonus slot
+4381	GEAR	cape	Team-34 cape: exact own equipment bonus slot
+4387	GEAR	cape	Team-37 cape: exact own equipment bonus slot
+4397	GEAR	cape	Team-42 cape: exact own equipment bonus slot
+4403	GEAR	cape	Team-45 cape: exact own equipment bonus slot
+4409	GEAR	cape	Team-48 cape: exact own equipment bonus slot
+4413	GEAR	cape	Team-50 cape: exact own equipment bonus slot
+6601	GEAR	weapon	White mace: exact own equipment bonus slot
+6613	GEAR	weapon	White warhammer: exact own equipment bonus slot
+7336	GEAR	shield	Rune shield (h1): exact own equipment bonus slot
+7360	GEAR	shield	Rune shield (h5): exact own equipment bonus slot
+8718	GEAR	shield	Rune kiteshield (Dorgeshuun): exact own equipment bonus slot
+8724	GEAR	shield	Rune kiteshield (Guthix): exact own equipment bonus slot
+8730	GEAR	shield	Rune kiteshield (Jogre): exact own equipment bonus slot
+8736	GEAR	shield	Rune kiteshield (Money): exact own equipment bonus slot
+8744	GEAR	shield	Rune kiteshield (Zamorak): exact own equipment bonus slot
+8750	GEAR	shield	Steel kiteshield (Dorgeshuun): exact own equipment bonus slot
+8756	GEAR	shield	Steel kiteshield (Guthix): exact own equipment bonus slot
+8762	GEAR	shield	Steel kiteshield (Jogre): exact own equipment bonus slot
+8768	GEAR	shield	Steel kiteshield (Money): exact own equipment bonus slot
+8774	GEAR	shield	Steel kiteshield (Varrock): exact own equipment bonus slot
+8846	GEAR	shield	Steel defender: exact own equipment bonus slot
+9705	GEAR	2h	Training bow: exact own equipment bonus slot
+10282	GEAR	2h	Yew comp bow: exact own equipment bonus slot
+11806	GEAR	2h	Saradomin godsword: exact own equipment bonus slot
+13113	GEAR	legs	Morytania legs 2: exact own equipment bonus slot
+13331	GEAR	cape	Saradomin max cape: exact own equipment bonus slot
+20044	GEAR	legs	Samurai greaves: exact own equipment bonus slot
+20166	GEAR	shield	Wooden shield (g): exact own equipment bonus slot
+20196	GEAR	shield	Steel kiteshield (t): exact own equipment bonus slot
+20202	GEAR	legs	Monk's robe (g): exact own equipment bonus slot
+20217	GEAR	cape	Team cape i: exact own equipment bonus slot
+22114	GEAR	cape	Mythical cape: exact own equipment bonus slot
+22542	GEAR	weapon	Viggora's chainmace: exact own equipment bonus slot
+22545	GEAR	weapon	Viggora's chainmace: exact own equipment bonus slot
+23235	GEAR	2h	Tzhaar-ket-om (t): exact own equipment bonus slot
+23444	GEAR	hands	Tormented bracelet (or): exact own equipment bonus slot
+24138	GEAR	shield	Steel defender: exact own equipment bonus slot
+26374	GEAR	weapon	Zaryte crossbow: exact own equipment bonus slot
+26465	GEAR	legs	Void knight robe (or): exact own equipment bonus slot
+27001	GEAR	legs	Void knight robe (or): exact own equipment bonus slot
+27657	GEAR	weapon	Ursine chainmace: exact own equipment bonus slot
+27660	GEAR	weapon	Ursine chainmace: exact own equipment bonus slot
+28860	GEAR	legs	Polar camo legs: exact own equipment bonus slot
+29591	GEAR	2h	Scorching bow: exact own equipment bonus slot

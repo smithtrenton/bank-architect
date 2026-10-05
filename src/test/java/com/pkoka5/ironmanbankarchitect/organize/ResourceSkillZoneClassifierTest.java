@@ -208,7 +208,8 @@ public class ResourceSkillZoneClassifierTest
 			3130, 3133, 3128, 3129, 3131, 3132, 3179, 3180);
 		assertRegistryZone(ResourceSkillZone.FISHING_COOKING,
 			29216, 7566, 3150, 2148, 4241);
-		assertRegistryZone(ResourceSkillZone.CRAFTING, 10167, 3694);
+		assertRegistryZone(ResourceSkillZone.CRAFTING, 10167);
+		assertRegistryZone(ResourceSkillZone.OTHER_RESOURCE, 3694); // Quest input outside resource zones
 		assertRegistryZone(ResourceSkillZone.FLETCHING, 2861);
 
 		// "Split log" is a repeatable Woodcutting output, but the current,

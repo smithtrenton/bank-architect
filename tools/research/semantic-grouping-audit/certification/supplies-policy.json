@@ -1,0 +1,30 @@
+{
+  "shard": "supplies-herblore",
+  "scope": "POTION and HERBLORE rows from the immutable compiled reviewer packet",
+  "principles": [
+    "The exact numeric Wiki item ID must occur in the article's parsed item infobox and in this row's direct wikiRecords before article text can be used as exact-item evidence.",
+    "Read the pinned article text for function. Article categories identify page facets, but do not alone prove the app-specific primary category, subcategory, or Ironman tab.",
+    "Name resemblance, dose suffixes, family labels, recipe-title edges, current assignment, preset tags, and lookup-only ID links never establish semantic identity or role.",
+    "Food and potion use may overlap. Preserve both supported roles and leave the primary assignment unresolved if the policy cannot choose without player workflow context.",
+    "Quest association, event/minigame provenance, and a drinkable form do not alone mean quest-only, minigame-only, or consumable drink placement.",
+    "Dose state, incomplete potion stage, ingredient status, edible/healing behavior, activity restrictions, and noted/cache form are separate dimensions. Do not infer a transition or interchangeability without a typed exact-ID relation."
+  ],
+  "evidence_requirements": {
+    "certify": "A pinned source article directly supports the proposed functional role, current row agrees on category/subcategory/tab, and no unresolved overlap or conflicting role could change placement.",
+    "revise": "Pinned exact-item text directly supports a different primary category, subcategory, or Ironman tab; include the concrete target assignment and a short quote.",
+    "unresolved": "Use for absent/ambiguous exact IDs, unsupported placement mapping, competing roles, dose or serving identity uncertainty, activity/quest restrictions, or cache/noted state ambiguity. State the precise missing evidence."
+  },
+  "taxonomy_rules": [
+    {
+      "currentCategory": "POTION",
+      "candidateSubcategories": ["potion", "dose-1", "dose-2", "dose-3", "potion-dose-1", "potion-dose-2", "potion-dose-3", "potion-dose-4", "food", "drink", "pvm-utility", "activity-potion", "restricted-potion"],
+      "certification": "Only certify an ordinary dose subcategory when the exact-ID infobox variant or article text states that precise remaining dose state; a shared article, family name, or conventional potion dose sequence is not sufficient. Food requires direct source text establishing edible/healing use. Drink requires direct source text establishing use as a drink and evidence that the current organization intentionally separates drinks from other potions. PvM utility requires direct source text establishing a combat or PvM use; this role can coexist with potion, food, or drink. Activity/restricted potion placement requires direct text naming the activity or restriction for the exact form. If these rules leave primary placement ambiguous, unresolved."
+    },
+    {
+      "currentCategory": "HERBLORE",
+      "candidateSubcategories": ["grimy-herb", "clean-herb", "herb", "secondary", "unfinished-potion", "herblore", "herblore-base", "herblore-supply", "herblore-other"],
+      "certification": "An unfinished potion needs exact article evidence that this exact item is an incomplete potion stage. A herb or secondary needs direct text documenting its Herblore use, and an ingredient role does not erase another documented functional role. Recipe relations alone do not prove the exact input or output ID. When the current subcategory is outside this list, or the exact role/placement distinction is not explicitly supported, unresolved."
+    }
+  ],
+  "correction_policy": "Emit revise only for a source-demonstrated contradiction with the current assignment. Do not invent a new taxonomy target from a broad role; use unresolved when the target placement convention or overlapping function is undecided."
+}
